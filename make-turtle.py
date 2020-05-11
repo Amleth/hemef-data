@@ -63,6 +63,8 @@ lignes_pourries_à_ne_pas_traiter = check(args.xlsx, args.divergences)
 
 ConceptSchemes = {}
 villes = {}
+departement = {}
+pays = {}
 eleves = {}
 cursus = {}
 prix = {}
@@ -76,7 +78,16 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
     else :
         eleves[row["identifiant_1"]] = générer_uuid("eleves", row["identifiant_1"])
         ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes",'Villes')
-        villes[row["eleve_ville_naissance "]] = générer_uuid("villes",row["eleve_ville_naissance "])
+        ConceptSchemes['Departement'] = générer_uuid("ConceptSchemes",'Departement')
+        ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes",'Pays')
+        
+        if (str(row["eleve_ville_naissance "])!='NaN'):
+            villes[row["eleve_ville_naissance "]] = générer_uuid("villes",row["eleve_ville_naissance "])
+        if (str(row["eleve_departement_naissance"])!='NaN'):
+            departement[row["eleve_departement_naissance"]] = générer_uuid("departements",row["eleve_departement_naissance"])
+        if (str(row["eleve_pays_naissance"])!= 'NaN'):
+            pays[row["eleve_pays_naissance"]] = générer_uuid("pays",row["eleve_pays_naissance"])
+        
         cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
         if (row["prix_date"] and row["prix_nom"] and row["prix_discipline"]):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
@@ -111,6 +122,9 @@ g.add(
 )
 
 NoeudVilles = ConceptSchemes['Villes']
+NoeudDepartement = ConceptSchemes['Departement']
+NoeudPays = ConceptSchemes['Pays']
+
 g.add(
     (
         URIRef(NoeudVilles),
@@ -123,6 +137,35 @@ g.add(
         URIRef(NoeudVilles),
         URIRef(SKOS.prefLabel),
         Literal('Villes')
+    )
+)
+
+g.add(
+    (
+        URIRef(NoeudDepartement),
+        URIRef(is_a),
+        URIRef(SKOS.ConceptSchemes)
+    )
+)
+g.add(
+    (
+        URIRef(NoeudDepartement),
+        URIRef(SKOS.prefLabel),
+        Literal('Departements')
+    )
+)
+g.add(
+    (
+        URIRef(NoeudPays),
+        URIRef(is_a),
+        URIRef(SKOS.ConceptSchemes)
+    )
+)
+g.add(
+    (
+        URIRef(NoeudPays),
+        URIRef(SKOS.prefLabel),
+        Literal('Pays')
     )
 )
 
@@ -255,6 +298,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
 
         #Creation des villes
+        uriVille = None
         if (str(row["eleve_ville_naissance "]) != 'NaN'):
             uriVille = villes[row["eleve_ville_naissance "]]
             g.add(
@@ -285,39 +329,157 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     URIRef(uriVille)
                 )
             )
-            if (str(row["eleve_ville_naissance_ancien_nom"]) != 'nan'):
+
+        #creation des departements
+        uriDep = None
+        if (str(row["eleve_departement_naissance"]) != 'NaN'):
+            uriDep = departement[row["eleve_departement_naissance"]]
+            g.add(
+                (
+                    URIRef(uriDep),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+            g.add(
+                (
+                    URIRef(uriDep),
+                    URIRef(SKOS.prefLabel),
+                    Literal(row["eleve_departement_naissance"])
+                )
+            )
+            g.add(
+                (
+                    URIRef(uriDep),
+                    URIRef(SKOS.inScheme),
+                    URIRef(NoeudDepartement)
+                )
+            )
+            g.add(
+                (
+                    URIRef(NoeudDepartement),
+                    URIRef(SKOS.hasTopConcept),
+                    URIRef(uriDep)
+                )
+            )
+
+            if (str(row["eleve_ville_naissance "]) != 'NaN') :
                 g.add(
                     (
                         URIRef(uriVille),
-                        URIRef(HEMEF["ancien_nom"]),
-                        Literal(row["eleve_ville_naissance_ancien_nom"])
+                        URIRef(SKOS.broader),
+                        URIRef(uriDep)
                     )
                 )
-            if (str(row["eleve_departement_naissance"]) != 'nan'):
                 g.add(
                     (
-                        URIRef(uriVille),
-                        URIRef(HEMEF["departement"]),
-                        Literal(row["eleve_departement_naissance"])
-                    )
-                )
-            if (str(row["eleve_pays_naissance"]) != 'nan'):
-                g.add(
-                    (
-                        URIRef(uriVille),
-                        URIRef(HEMEF["pays"]),
-                        Literal(row["eleve_pays_naissance"])
+                        URIRef(uriDep),
+                        URIRef(SKOS.narrower),
+                        URIRef(uriVille)
+                        
                     )
                 )
 
-            #Lien ville - eleve
+        #creation des Pays
+        if (str(row["eleve_pays_naissance"]) != 'NaN'):
+            uriPays = pays[row["eleve_pays_naissance"]]
             g.add(
                 (
-                    URIRef(uriEleve),
-                    URIRef(HEMEF["nait_a"]),
-                    URIRef(uriVille)
+                    URIRef(uriPays),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
                 )
             )
+            g.add(
+                (
+                    URIRef(uriPays),
+                    URIRef(SKOS.prefLabel),
+                    Literal(row["eleve_pays_naissance"])
+                )
+            )
+            g.add(
+                (
+                    URIRef(uriPays),
+                    URIRef(SKOS.inScheme),
+                    URIRef(NoeudPays)
+                )
+            )
+            g.add(
+                (
+                    URIRef(NoeudPays),
+                    URIRef(SKOS.hasTopConcept),
+                    URIRef(uriPays)
+                )
+            )
+
+            if (str(row["eleve_ville_naissance "]) != 'NaN') :
+                g.add(
+                    (
+                        URIRef(uriVille),
+                        URIRef(SKOS.broader),
+                        URIRef(uriPays)
+                    )
+                )
+                g.add(
+                    (
+                        URIRef(uriPays),
+                        URIRef(SKOS.narrower),
+                        URIRef(uriVille)
+                        
+                    )
+                )
+
+            if (str(row["eleve_departement_naissance"]) != 'NaN') :
+                g.add(
+                        (
+                            URIRef(uriDep),
+                            URIRef(SKOS.broader),
+                            URIRef(uriPays)
+                        )
+                )
+                g.add(
+                    (
+                        URIRef(uriPays),
+                        URIRef(SKOS.narrower),
+                        URIRef(uriDep)
+                        
+                    )
+                )
+        
+
+        if (str(row["eleve_ville_naissance_ancien_nom"]) != 'nan'):
+            g.add(
+                (
+                    URIRef(uriVille),
+                    URIRef(HEMEF["ancien_nom"]),
+                    Literal(row["eleve_ville_naissance_ancien_nom"])
+                )
+            )
+            # if (str(row["eleve_departement_naissance"]) != 'nan'):
+            #     g.add(
+            #         (
+            #             URIRef(uriVille),
+            #             URIRef(HEMEF["departement"]),
+            #             Literal(row["eleve_departement_naissance"])
+            #         )
+            #     )
+            # if (str(row["eleve_pays_naissance"]) != 'nan'):
+            #     g.add(
+            #         (
+            #             URIRef(uriVille),
+            #             URIRef(HEMEF["pays"]),
+            #             Literal(row["eleve_pays_naissance"])
+            #         )
+            #     )
+
+        #Lien ville - eleve
+        g.add(
+            (
+                URIRef(uriEleve),
+                URIRef(HEMEF["nait_a"]),
+                URIRef(uriVille)
+            )
+        )
 
 
         #Gestion des cursus
@@ -339,24 +501,25 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             )
 
         #cursus_date_epreuve_admission non traité, vide
-
-        g.add(
-            (
-                URIRef(cursus[row['identifiant_1']]),
-                URIRef(HEMEF["date_entree_conservatoire"]),
-                Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
+        if (str(row["cursus_date_entree_conservatoire"]) != 'NaN') :
+            g.add(
+                (
+                    URIRef(cursus[row['identifiant_1']]),
+                    URIRef(HEMEF["date_entree_conservatoire"]),
+                    Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
+                )
             )
-        )
-
-        g.add(
-            (
-                URIRef(cursus[row['identifiant_1']]),
-                URIRef(HEMEF["date_sortie_conservatoire"]),
-                Literal(row["cursus_date_sortie_conservatoire"], datatype=XSD.Date)
+        
+        if (str(row["cursus_date_sortie_conservatoire"]).lower() != 'nan') :
+            g.add(
+                (
+                    URIRef(cursus[row['identifiant_1']]),
+                    URIRef(HEMEF["date_sortie_conservatoire"]),
+                    Literal(row["cursus_date_sortie_conservatoire"], datatype=XSD.Date)
+                )
             )
-        )
 
-        if (str(row["cursus_motif_sortie"]) != 'NaN' and str(row["cursus_motif_sortie"]) != 'nan') :
+        if (str(row["cursus_motif_sortie"]).lower() != 'nan') :
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
