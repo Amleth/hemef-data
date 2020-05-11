@@ -81,11 +81,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         ConceptSchemes['Departement'] = générer_uuid("ConceptSchemes",'Departement')
         ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes",'Pays')
         
-        if (str(row["eleve_ville_naissance "])!='NaN'):
+        if (pandas.notna(row["eleve_ville_naissance "])):
             villes[row["eleve_ville_naissance "]] = générer_uuid("villes",row["eleve_ville_naissance "])
-        if (str(row["eleve_departement_naissance"])!='NaN'):
+        if (pandas.notna(row["eleve_departement_naissance"])):
             departement[row["eleve_departement_naissance"]] = générer_uuid("departements",row["eleve_departement_naissance"])
-        if (str(row["eleve_pays_naissance"])!= 'NaN'):
+        if (pandas.notna(row["eleve_pays_naissance"])):
             pays[row["eleve_pays_naissance"]] = générer_uuid("pays",row["eleve_pays_naissance"])
         
         cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
@@ -299,7 +299,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         #Creation des villes
         uriVille = None
-        if (str(row["eleve_ville_naissance "]) != 'NaN'):
+        if (pandas.notna(row["eleve_ville_naissance "])):
             uriVille = villes[row["eleve_ville_naissance "]]
             g.add(
                 (
@@ -330,9 +330,19 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
+            #Lien ville - eleve
+            #On ne tient pas compte des villes 'NaN'
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["nait_a"]),
+                    URIRef(uriVille)
+                )
+            )
+
         #creation des departements
         uriDep = None
-        if (str(row["eleve_departement_naissance"]) != 'NaN'):
+        if (pandas.notna(row["eleve_departement_naissance"])):
             uriDep = departement[row["eleve_departement_naissance"]]
             g.add(
                 (
@@ -363,7 +373,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            if (str(row["eleve_ville_naissance "]) != 'NaN') :
+            if uriVille :
                 g.add(
                     (
                         URIRef(uriVille),
@@ -381,7 +391,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
 
         #creation des Pays
-        if (str(row["eleve_pays_naissance"]) != 'NaN'):
+        if (pandas.notna(row["eleve_pays_naissance"])):
             uriPays = pays[row["eleve_pays_naissance"]]
             g.add(
                 (
@@ -412,7 +422,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            if (str(row["eleve_ville_naissance "]) != 'NaN') :
+            if uriVille :
                 g.add(
                     (
                         URIRef(uriVille),
@@ -429,7 +439,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-            if (str(row["eleve_departement_naissance"]) != 'NaN') :
+            if uriDep :
                 g.add(
                         (
                             URIRef(uriDep),
@@ -455,6 +465,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["eleve_ville_naissance_ancien_nom"])
                 )
             )
+
             # if (str(row["eleve_departement_naissance"]) != 'nan'):
             #     g.add(
             #         (
@@ -472,14 +483,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             #         )
             #     )
 
-        #Lien ville - eleve
-        g.add(
-            (
-                URIRef(uriEleve),
-                URIRef(HEMEF["nait_a"]),
-                URIRef(uriVille)
-            )
-        )
+        
 
 
         #Gestion des cursus

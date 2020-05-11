@@ -1,19 +1,20 @@
 1906-0302:
   eleve_refs_bibliographiques: ['', '« Georges Dandelot, vie sociale, vie privée
       d''un compositeur oublié », par Alexandre Dandelot (2017)']
-  exerce_profession_connue: ['', '[Compositeur, critique musical,  professeur au Conservatoire]']
+  exerce_profession_connue: ['[Compositeur, critique musical,  professeur au Conservatoire]',
+    '']
 1906-0307:
   pre-cursus_nom_etablissement: ['', Ecole de Rennes]
   pre-cursus_ville_etablissement_: ['', Rennes]
 1906-[0297 bis]:
-  eleve_remarques de saisie: [Lieu de naissance Paris 6e, 'Lieu de naissance : Paris
-      6e']
+  eleve_remarques de saisie: ['Lieu de naissance : Paris 6e', Lieu de naissance Paris
+      6e]
 1906-[0298 bis]:
   cursus_date_sortie_conservatoire: ['[1908-00-00]', '1908-00-00']
   cursus_motif_sortie: ['Rayé, Art. 88', '[Rayé, Art. 88]']
 1906-[0302 bis]:
-  cursus_date_sortie_conservatoire: ['1920-00-00', '1908-00-00']
-  cursus_motif_sortie: ['Rayé, Art. 88', 'Rayé, Art. 75']
+  cursus_date_sortie_conservatoire: ['1908-00-00', '1920-00-00']
+  cursus_motif_sortie: ['Rayé, Art. 75', 'Rayé, Art. 88']
   eleve_complement_nom: ['', di San Marcello]
   eleve_complement_prenom: ['', Alfred]
   eleve_date_naissance: ['1895-02-06 00:00:00', '1894-07-10 00:00:00']
@@ -23,7 +24,7 @@
   eleve_prenom_1: [Armand, Charles]
   eleve_prenom_2: [Hubert, Joseph]
   eleve_profession_mere: ['', sans profession]
-  eleve_profession_pere: ['', artiste lyrique]
+  eleve_profession_pere: [artiste lyrique, '']
   eleve_remarques de saisie: ['Lieu de naissance : Paris 17e', 'Nom et complément
       du nom, correct ?']
   'eleve_ville_naissance ': [Paris, Turin]
@@ -35,8 +36,8 @@
   pre-cursus_nom_etablissement: ['', Ecole de Dijon]
   pre-cursus_ville_etablissement_: ['', Dijon]
 1907-[0316 bis]:
-  eleve_remarques de saisie: ['Sur la page indiqué (crayon bleu) :  V_O. 463', 'Indiqué
-      sur la page (crayon bleu) :  V_O. 463']
+  eleve_remarques de saisie: ['Indiqué sur la page (crayon bleu) :  V_O. 463', 'Sur
+      la page indiqué (crayon bleu) :  V_O. 463']
 1907-[0318 bis]:
   eleve_remarques de saisie: ['', 'Lieu de naissance : Paris 3e']
 1907-[0320 bis]:
@@ -48,16 +49,16 @@
   cursus_date_sortie_conservatoire: [19121-01-17, '1921-01-17 00:00:00']
 1908-0497:
   eleve_observations: ['Livret militaire de Louis Charles Eugène Krettly de la cl.
-      1881, No. 77', 'Livret militaire de Louis Charles Eugène Krettly de la cl.
       1881, No. 75', 'Livret militaire de Louis Charles Eugène Krettly de la cl.
+      1881, No. 77', 'Livret militaire de Louis Charles Eugène Krettly de la cl.
       1881, No. 76', 'Livret militaire de Louis Charles Eugène Krettly de la cl.
       1881, No. 74']
 1910-[0441 bis]:
   eleve_observations: ['', Ecole de Montpellier]
 1912-0366:
-  cursus_motif_sortie: [Rayé art. 80, Rayé art. 88]
+  cursus_motif_sortie: [Rayé art. 88, Rayé art. 80]
 1913-0370:
-  cursus_motif_admission: ['', admis par décision du Jury]
+  cursus_motif_admission: [admis par décision du Jury, '']
 1913-0416:
   eleve_remarques de saisie: ['', Il est question d'un « Rappel de 2e Médaille de
       Solfège » or avant l'élève avait obtenu une « 2e Mention de Solfège ». À
@@ -72,9 +73,9 @@
   eleve_remarques de saisie: ['', 'Deux fois inscrit dans la classe de Solfège de
       M. Schvartz, en 1913 et en 1916. Il ne s''agit pas d''une erreur de saisie.']
 1913-0440:
-  eleve_remarques de saisie: [Née à « Paris (2e) », 'Née à « Paris (2e) ». Indication
-      douteuse « 1916 : Rappel de 2e Mention de Solfège ». Auparavant l''élève
-      avait obtenu une « 2e Médaille ».']
+  eleve_remarques de saisie: ['Née à « Paris (2e) ». Indication douteuse « 1916
+      : Rappel de 2e Mention de Solfège ». Auparavant l''élève avait obtenu une
+      « 2e Médaille ».', Née à « Paris (2e) »]
 1913-0441:
   eleve_remarques de saisie: ['Née à « Paris (9e) ». En 1915 l''élève est rayé
       (art. 89 § 1er). Aucune indication de readmission. Médaille 1920 : précise
@@ -96,7 +97,7 @@
 1913-0450:
   eleve_remarques de saisie: ['', Aucune information entre 1916 et 1924]
 1913-[0370 bis]:
-  cursus_motif_admission: ['', admis par décision du Jury]
+  cursus_motif_admission: [admis par décision du Jury, '']
 1913-[0405 bis]:
   eleve_remarques de saisie: ['', 'Dispense de solfège (examen du 8 décembre). On
       lit « 1915 or, cette observation suit l''entrée de 1916, concernant le prix
@@ -104,8 +105,8 @@
       on l''a notée à la fin. Il faudrait quand même vérifier qu''il s''agit bien
       de l''année 1915 et pas de l''année 1916. »']
 1913-[0422 bis]:
-  cursus_date_entree_conservatoire: ['1908-10-21 00:00:00', '1913-11-07 00:00:00']
-  cursus_date_sortie_conservatoire: ['1919-00-00', '[1918-00-00]']
+  cursus_date_entree_conservatoire: ['1913-11-07 00:00:00', '1908-10-21 00:00:00']
+  cursus_date_sortie_conservatoire: ['[1918-00-00]', '1919-00-00']
   cursus_motif_admission: [admis par décision du Jury, admis par décision du jury]
   eleve_complement_prenom: ['Victor, Michel, Gaston', Felicité]
   eleve_cote_AN_registre: [AJ/37/397, AJ/37/396]
@@ -117,19 +118,19 @@
   eleve_prenom_1: [Jeanne, Marie]
   eleve_prenom_2: [Victoire, Philomène]
   eleve_profession_pere: ['', s/s Lieutenant au 7e Régiment d'Infanterie de Marine]
-  eleve_remarques de saisie: [Pay de naissance – rayé avec un crayon bleu, 'Né à
-      « Paris 5e ». Vérifier profession du père. Nom professeur piano: Rièra [sic]
-      (accent grave).']
+  eleve_remarques de saisie: ['Né à « Paris 5e ». Vérifier profession du père.
+      Nom professeur piano: Rièra [sic] (accent grave).', Pay de naissance – rayé
+      avec un crayon bleu]
   eleve_sexe: [F, H]
   'eleve_ville_naissance ': [Beau-Bassin, Paris]
 1913-[0423 bis]:
-  eleve_remarques de saisie: [En 1916 l'élève est rayé (art. 102 § 2). Aucune indication
-      de readmission., 'Indication douteuse « 1916 : Rappel de 2e Mention de Solfège
-      ». Auparavant l''élève avait obtenu une « 2e Médaille ». En 1916 l''élève
-      est rayé (art. 102 § 2). Aucune indication de readmission.', 'Indication douteuse
-      « 1916 : Rappel de 3e Mention de Piano ». Auparavant l''élève avait obtenu
-      une « 3e Médaille ». En 1916 l''élève est rayé (art. 102 § 2). Aucune indication
-      de readmission.']
+  eleve_remarques de saisie: ['Indication douteuse « 1916 : Rappel de 2e Mention de
+      Solfège ». Auparavant l''élève avait obtenu une « 2e Médaille ». En 1916
+      l''élève est rayé (art. 102 § 2). Aucune indication de readmission.', 'Indication
+      douteuse « 1916 : Rappel de 3e Mention de Piano ». Auparavant l''élève avait
+      obtenu une « 3e Médaille ». En 1916 l''élève est rayé (art. 102 § 2). Aucune
+      indication de readmission.', En 1916 l'élève est rayé (art. 102 § 2). Aucune
+      indication de readmission.]
 1913-[0431 bis]:
   eleve_remarques de saisie: ['', 'Deux fois inscrit dans la classe de Solfège de
       M. Schvartz, en 1913 et en 1916. Il ne s''agit pas d''une erreur de saisie.']
@@ -137,8 +138,8 @@
   eleve_remarques de saisie: ['', 'Indication douteuse « 1917 : Rappel de 2e Médaille
       de Piano ». Auparavant l''élève avait obtenu une « 2e Mention ».']
 1913-[0445 bis]:
-  eleve_remarques de saisie: [Née à « Paris (16e) », 'Née à « Paris (16e) ». Ecriture
-      pas claire jour d''inscription (19, 17 ) violon préparatoire.?']
+  eleve_remarques de saisie: ['Née à « Paris (16e) ». Ecriture pas claire jour d''inscription
+      (19, 17 ) violon préparatoire.?', Née à « Paris (16e) »]
 1913-[0448 bis]:
   eleve_remarques de saisie: ['la mention « Toulouse » se rapporte à l''École de
       Toulouse ?', 'la mention « Toulouse » se rapporte à l''École de Toulouse ?
@@ -153,26 +154,26 @@
       «Malade examen de Mai “ il n''est pas claire à quelle classe se rapporte (Contrepoint,
       Composition, Direction d''orchestre )?']
 1914-0475:
-  eleve_remarques de saisie: [Né à « Paris (5e) », Né à « Paris (5e) ». Je ne
-      sais pas où préciser que le prix de la Sté des auteurs est de 100 frs]
+  eleve_remarques de saisie: [Né à « Paris (5e) ». Je ne sais pas où préciser
+      que le prix de la Sté des auteurs est de 100 frs, Né à « Paris (5e) »]
 1914-[0471 bis]:
   eleve_remarques de saisie: [Né à « Paris (8e) ». Aucune information sur date d'inscription
       ou sur le professeur titulaire., Né à « Paris (8e) »]
 1914-[0479 bis]:
   eleve_remarques de saisie: ['« São-Paulo »  avec tiret entre les deux mots dans
-      le régistre. Il devrait être écrit sans tiret : « São Paulo »', '« São-Paulo
-      »  avec tiret entre les deux mots dans le régistre. Il devrait être écrit
-      sans tiret : « São Paulo ». Il y a deux Accessit 1 d''Histoire, l''un en 1916
-      et l''autre en 1917. Je ne sais pas où préciser que le prix de la Sté des
-      auteurs est de 100 frs.', '« São-Paulo »  avec tiret entre les deux mots dans
       le régistre. Il devrait être écrit sans tiret : « São Paulo ». Il y a deux
-      Accessit 1 d''Histoire, l''un en 1916 et l''autre en 1917.']
+      Accessit 1 d''Histoire, l''un en 1916 et l''autre en 1917.', '« São-Paulo »  avec
+      tiret entre les deux mots dans le régistre. Il devrait être écrit sans tiret
+      : « São Paulo »', '« São-Paulo »  avec tiret entre les deux mots dans le régistre.
+      Il devrait être écrit sans tiret : « São Paulo ». Il y a deux Accessit 1
+      d''Histoire, l''un en 1916 et l''autre en 1917. Je ne sais pas où préciser
+      que le prix de la Sté des auteurs est de 100 frs.']
 1914-[0483 bis]:
   eleve_remarques de saisie: ['', '«  Passé à la classe de M. Cornibert  Ne précise
       pas quelle classe, vraisemblablement c''est Déclamation lyrique.»']
 1914-[0487 bis]:
   eleve_remarques de saisie: ['Née à « Paris (9e) ». Profession parents, indication
-      «commerçants »  au pluriel dans la ligne de la mère. Sur Rouyer, possible
-      professeur par intérim. Voir le régistre 1914-049 classe déclamation lyrique.',
-    'Née à « Paris (9e) ». Profession parents, indication «commerçants »  au pluriel
-      dans la ligne de la mèr.:']
+      «commerçants »  au pluriel dans la ligne de la mèr.:', 'Née à « Paris (9e)
+      ». Profession parents, indication «commerçants »  au pluriel dans la ligne
+      de la mère. Sur Rouyer, possible professeur par intérim. Voir le régistre
+      1914-049 classe déclamation lyrique.']
