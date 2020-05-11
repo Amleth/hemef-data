@@ -1,0 +1,12 @@
+Colonne AM : est-ce habit-début ou habitE-début ?
+Type des données contenues dans colonnes AM et AN ? (sont-ce des dates ? du texte ?)
+
+lignes 35 et 37 : même ID1 pour des noms différents 
+
+Erreur de date :  1907-0329   1888-05_19
+Erreur de date :  1907-[0345 bis]   nan
+Erreur de date :  1910-[0472 bis]   188§-10-20
+Erreur de date :  1913-[0444 bis]   1903-16-27
+Erreur de date :  1913-[0444 bis]   1903-16-27
+Erreur de date :  1913-[0444 bis]   1903-16-27
+Erreur de date :  1913-[0444 bis]   1903-16-27
