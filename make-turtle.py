@@ -87,6 +87,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             departement[row["eleve_departement_naissance"]] = générer_uuid("departements",row["eleve_departement_naissance"])
         if (pandas.notna(row["eleve_pays_naissance"])):
             pays[row["eleve_pays_naissance"]] = générer_uuid("pays",row["eleve_pays_naissance"])
+        else :
+            pays[row["eleve_pays_naissance"]] = générer_uuid("pays","France")
         
         cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
         if (row["prix_date"] and row["prix_nom"] and row["prix_discipline"]):
@@ -373,33 +375,31 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            if uriVille :
-                g.add(
-                    (
-                        URIRef(uriVille),
-                        URIRef(SKOS.broader),
-                        URIRef(uriDep)
-                    )
-                )
-                g.add(
-                    (
-                        URIRef(uriDep),
-                        URIRef(SKOS.narrower),
-                        URIRef(uriVille)
-                        
-                    )
-                )
-
         #creation des Pays
-        if (pandas.notna(row["eleve_pays_naissance"])):
-            uriPays = pays[row["eleve_pays_naissance"]]
-            g.add(
-                (
-                    URIRef(uriPays),
-                    URIRef(is_a),
-                    URIRef(SKOS.Concept)
-                )
+        uriPays = pays[row["eleve_pays_naissance"]]
+        g.add(
+            (
+                URIRef(uriPays),
+                URIRef(is_a),
+                URIRef(SKOS.Concept)
             )
+        )
+        
+        g.add(
+            (
+                URIRef(uriPays),
+                URIRef(SKOS.inScheme),
+                URIRef(NoeudPays)
+            )
+        )
+        g.add(
+            (
+                URIRef(NoeudPays),
+                URIRef(SKOS.hasTopConcept),
+                URIRef(uriPays)
+            )
+        )
+        if (pandas.notna(row["eleve_pays_naissance"])):
             g.add(
                 (
                     URIRef(uriPays),
@@ -407,54 +407,54 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["eleve_pays_naissance"])
                 )
             )
+        #Une case vide (NaN) correspond à la France
+        else :
             g.add(
                 (
                     URIRef(uriPays),
-                    URIRef(SKOS.inScheme),
-                    URIRef(NoeudPays)
+                    URIRef(SKOS.prefLabel),
+                    Literal("France")
                 )
             )
-            g.add(
-                (
-                    URIRef(NoeudPays),
-                    URIRef(SKOS.hasTopConcept),
-                    URIRef(uriPays)
-                )
-            )
+            
+        
+        if uriVille:
+            if uriDep:
+                g.add((
+                    URIRef(uriVille),
+                    URIRef(SKOS.broader),
+                    URIRef(uriDep)
+                ))
 
-            if uriVille :
-                g.add(
-                    (
-                        URIRef(uriVille),
+                g.add((
+                    URIRef(uriDep),
+                    URIRef(SKOS.narrower),
+                    URIRef(uriVille)   
+                ))
+                if uriPays:
+                    g.add(( 
+                        URIRef(uriDep),
                         URIRef(SKOS.broader),
                         URIRef(uriPays)
-                    )
-                )
-                g.add(
-                    (
-                        URIRef(uriPays),
-                        URIRef(SKOS.narrower),
-                        URIRef(uriVille)
-                        
-                    )
-                )
+                    ))
 
-            if uriDep :
-                g.add(
-                        (
-                            URIRef(uriDep),
-                            URIRef(SKOS.broader),
-                            URIRef(uriPays)
-                        )
-                )
-                g.add(
-                    (
+                    g.add((
                         URIRef(uriPays),
                         URIRef(SKOS.narrower),
-                        URIRef(uriDep)
-                        
-                    )
-                )
+                        URIRef(uriDep)   
+                    ))
+            elif uriPays:
+                g.add(( 
+                    URIRef(uriVille),
+                    URIRef(SKOS.broader),
+                    URIRef(uriPays)
+                ))
+
+                g.add((
+                    URIRef(uriPays),
+                    URIRef(SKOS.narrower),
+                    URIRef(uriVille)   
+                ))
         
 
         if (str(row["eleve_ville_naissance_ancien_nom"]) != 'nan'):
