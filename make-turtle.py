@@ -1,5 +1,6 @@
 import argparse
-import pandas, json
+import pandas
+import json
 from pprint import pprint
 from rdflib import Graph, Literal, BNode, Namespace, RDF, URIRef
 from rdflib.namespace import DCTERMS, FOAF, RDF, RDFS, SKOS, XSD, OWL
@@ -37,17 +38,21 @@ g.bind("hemef", HEMEF)
 ################################################################################
 
 ################################################################################
-#Fonctions outil
+# Fonctions outil
+
+
 def genURIIremus():
     return (BASE_NS[str(uuid.uuid4())])
 
 ################################################################################
+
 
 registre = {}
 
 if os.path.exists("registre.yaml"):
     with open("registre.yaml") as file:
         registre = yaml.load(file)
+
 
 def générer_uuid(type_entité, clef_entité):
     if type_entité not in registre:
@@ -58,6 +63,7 @@ def générer_uuid(type_entité, clef_entité):
     return registre[type_entité][clef_entité]
 
 ################################################################################
+
 
 lignes_pourries_à_ne_pas_traiter = check(args.xlsx, args.divergences)
 
@@ -75,22 +81,22 @@ professeur = {}
 for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8').iterrows():
     if row["identifiant_1"] in lignes_pourries_à_ne_pas_traiter:
         continue
-    else :
+    else:
         eleves[row["identifiant_1"]] = générer_uuid("eleves", row["identifiant_1"])
-        ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes",'Villes')
-        ConceptSchemes['Departement'] = générer_uuid("ConceptSchemes",'Departement')
-        ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes",'Pays')
-        
+        ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes", 'Villes')
+        ConceptSchemes['Departement'] = générer_uuid("ConceptSchemes", 'Departement')
+        ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes", 'Pays')
+
         if (pandas.notna(row["eleve_ville_naissance "])):
-            villes[row["eleve_ville_naissance "]] = générer_uuid("villes",row["eleve_ville_naissance "])
+            villes[row["eleve_ville_naissance "]] = générer_uuid("villes", row["eleve_ville_naissance "])
         if (pandas.notna(row["eleve_departement_naissance"])):
-            departement[row["eleve_departement_naissance"]] = générer_uuid("departements",row["eleve_departement_naissance"])
+            departement[row["eleve_departement_naissance"]] = générer_uuid("departements", row["eleve_departement_naissance"])
         if (pandas.notna(row["eleve_pays_naissance"])):
-            pays[row["eleve_pays_naissance"]] = générer_uuid("pays",row["eleve_pays_naissance"])
-        else :
-            pays[row["eleve_pays_naissance"]] = générer_uuid("pays","France")
-        
-        cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
+            pays[row["eleve_pays_naissance"]] = générer_uuid("pays", row["eleve_pays_naissance"])
+        else:
+            pays[row["eleve_pays_naissance"]] = générer_uuid("pays", "France")
+
+        cursus[row["identifiant_1"]] = générer_uuid("cursus", row["identifiant_1"])
         if (row["prix_date"] and row["prix_nom"] and row["prix_discipline"]):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
@@ -98,7 +104,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if ((row["identifiant_1"] != 'nan' and ["parcours_classe_date_entree"] != 'nan' and row["parcours_classe_date_sortie"] != 'nan' and row["classe_discipline"] != 'nan')):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
-        ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes",'Disciplines')
+        ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
         classe[row['classe_discipline']] = générer_uuid('discipline', row['classe_discipline'])
 
         professeur[row['classe_nom_professeur']] = générer_uuid('professeurs', row['classe_nom_professeur'])
@@ -106,12 +112,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # Voilà, on est sûr que la ligne est OK
 
 ###############################################################################
-#Initialisation des CS
+# Initialisation des CS
 g.add(
     (
         URIRef(ConceptSchemes['Disciplines']),
         URIRef(is_a),
-        URIRef(SKOS.ConceptSchemes)
+        URIRef(SKOS.ConceptScheme)
     )
 )
 
@@ -131,7 +137,7 @@ g.add(
     (
         URIRef(NoeudVilles),
         URIRef(is_a),
-        URIRef(SKOS.ConceptSchemes)
+        URIRef(SKOS.ConceptScheme)
     )
 )
 g.add(
@@ -146,7 +152,7 @@ g.add(
     (
         URIRef(NoeudDepartement),
         URIRef(is_a),
-        URIRef(SKOS.ConceptSchemes)
+        URIRef(SKOS.ConceptScheme)
     )
 )
 g.add(
@@ -160,7 +166,7 @@ g.add(
     (
         URIRef(NoeudPays),
         URIRef(is_a),
-        URIRef(SKOS.ConceptSchemes)
+        URIRef(SKOS.ConceptScheme)
     )
 )
 g.add(
@@ -177,8 +183,8 @@ g.add(
 for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8').iterrows():
     if row["identifiant_1"] in lignes_pourries_à_ne_pas_traiter:
         continue
-    else :
-        #Creation des eleves
+    else:
+        # Creation des eleves
         uriEleve = eleves[row["identifiant_1"]]
         # On definit chaque elève comme une personne
         g.add(
@@ -191,7 +197,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         if (str(row['eleve_prenom_2']) != "nan"):
             prenom = row['eleve_prenom_1'] + " " + row['eleve_prenom_2']
-        else :
+        else:
             prenom = row['eleve_prenom_1']
         if (str(row['eleve_complement_prenom']) != "nan"):
             prenom = prenom + " " + row['eleve_complement_prenom']
@@ -211,95 +217,95 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         )
         if (str(row['eleve_complement_nom']) != "nan"):
             g.add(
-                    (
-                        URIRef(uriEleve),
-                        URIRef(HEMEF["complement_nom"]),
-                        Literal(row['eleve_complement_nom'])
-                    )
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["complement_nom"]),
+                    Literal(row['eleve_complement_nom'])
                 )
-        #nom_epouse vide, non gere pour le moment
+            )
+        # nom_epouse vide, non gere pour le moment
         if (str(row['eleve_pseudonyme']) != "nan"):
             g.add(
-                    (
-                        URIRef(uriEleve),
-                        URIRef(HEMEF["pseudonyme"]),
-                        Literal(row['eleve_pseudonyme'])
-                    )
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["pseudonyme"]),
+                    Literal(row['eleve_pseudonyme'])
                 )
+            )
         if (str(row['eleve_sexe']) == "H"):
             g.add(
-                    (
-                        URIRef(uriEleve),
-                        URIRef(HEMEF["sexe"]),
-                        Literal('Homme')
-                    )
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["sexe"]),
+                    Literal('Homme')
                 )
-        else :
-            g.add(
-                    (
-                        URIRef(uriEleve),
-                        URIRef(HEMEF['sexe']),
-                        Literal('Femme')
-                    )
-                )
-        if (isinstance(row["eleve_date_naissance"], datetime.datetime)) :
-            g.add(
-                    (
-                        URIRef(uriEleve),
-                        URIRef(HEMEF["année_de_naissance"]),
-                        Literal(row["eleve_date_naissance"], datatype=XSD.Date)
-                    )
             )
-        else :
-            print("Erreur de date : ", row["identifiant_1"]," ", row["eleve_date_naissance"])
-
-        if str(row["eleve_cote_AN_registre"] != 'nan') :
-                g.add(
-                        (
-                            URIRef(uriEleve),
-                            URIRef(HEMEF["cote_AN_registre"]),
-                            Literal(row["eleve_cote_AN_registre"])
-                        )
-                    )
-
-        if ((str(row["eleve_observations"]) != 'nan') and (str(row["eleve_observations"]) != 'NaN')) :
-                g.add(
-                        (
-                            URIRef(uriEleve),
-                            URIRef(HEMEF["observations"]),
-                            Literal(row["eleve_observations"])
-                        )
-                    )
-
-        if ((str(row["eleve_remarques de saisie"]) != 'nan') and (str(row["eleve_remarques de saisie"]) != 'NaN')) :
+        else:
             g.add(
-                    (
-                        URIRef(uriEleve),
-                        URIRef(HEMEF["eleve_remarques_de_saisie"]),
-                        Literal(row["eleve_remarques de saisie"])
-                    )
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF['sexe']),
+                    Literal('Femme')
                 )
+            )
+        if (isinstance(row["eleve_date_naissance"], datetime.datetime)):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["année_de_naissance"]),
+                    Literal(row["eleve_date_naissance"], datatype=XSD.Date)
+                )
+            )
+        else:
+            print("Erreur de date : ", row["identifiant_1"], " ", row["eleve_date_naissance"])
 
-        #Creation des métiers parents
-        if (str(row["eleve_profession_pere"]) != 'nan' and  (str(row["eleve_profession_pere"]) != 'NaN')):
-                g.add(
-                        (
-                            URIRef(uriEleve),
-                            URIRef(HEMEF["profession_pere"]),
-                            Literal(row["eleve_profession_pere"])
-                        )
-                    )
+        if str(row["eleve_cote_AN_registre"] != 'nan'):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["cote_AN_registre"]),
+                    Literal(row["eleve_cote_AN_registre"])
+                )
+            )
 
-        if (str(row["eleve_profession_mere"]) != 'nan' and  (str(row["eleve_profession_mere"]) != 'NaN')) :
-                g.add(
-                        (
-                            URIRef(uriEleve),
-                            URIRef(HEMEF["profession_mere"]),
-                            Literal(row["eleve_profession_mere"])
-                        )
-                    )
+        if ((str(row["eleve_observations"]) != 'nan') and (str(row["eleve_observations"]) != 'NaN')):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["observations"]),
+                    Literal(row["eleve_observations"])
+                )
+            )
 
-        #Creation des villes
+        if ((str(row["eleve_remarques de saisie"]) != 'nan') and (str(row["eleve_remarques de saisie"]) != 'NaN')):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["eleve_remarques_de_saisie"]),
+                    Literal(row["eleve_remarques de saisie"])
+                )
+            )
+
+        # Creation des métiers parents
+        if (str(row["eleve_profession_pere"]) != 'nan' and (str(row["eleve_profession_pere"]) != 'NaN')):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["profession_pere"]),
+                    Literal(row["eleve_profession_pere"])
+                )
+            )
+
+        if (str(row["eleve_profession_mere"]) != 'nan' and (str(row["eleve_profession_mere"]) != 'NaN')):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["profession_mere"]),
+                    Literal(row["eleve_profession_mere"])
+                )
+            )
+
+        # Creation des villes
         uriVille = None
         if (pandas.notna(row["eleve_ville_naissance "])):
             uriVille = villes[row["eleve_ville_naissance "]]
@@ -332,8 +338,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            #Lien ville - eleve
-            #On ne tient pas compte des villes 'NaN'
+            # Lien ville - eleve
+            # On ne tient pas compte des villes 'NaN'
             g.add(
                 (
                     URIRef(uriEleve),
@@ -342,7 +348,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        #creation des departements
+        # creation des departements
         uriDep = None
         if (pandas.notna(row["eleve_departement_naissance"])):
             uriDep = departement[row["eleve_departement_naissance"]]
@@ -375,7 +381,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        #creation des Pays
+        # creation des Pays
         uriPays = pays[row["eleve_pays_naissance"]]
         g.add(
             (
@@ -384,7 +390,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 URIRef(SKOS.Concept)
             )
         )
-        
+
         g.add(
             (
                 URIRef(uriPays),
@@ -407,8 +413,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["eleve_pays_naissance"])
                 )
             )
-        #Une case vide (NaN) correspond à la France
-        else :
+        # Une case vide (NaN) correspond à la France
+        else:
             g.add(
                 (
                     URIRef(uriPays),
@@ -416,8 +422,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal("France")
                 )
             )
-            
-        
+
         if uriVille:
             if uriDep:
                 g.add((
@@ -429,10 +434,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add((
                     URIRef(uriDep),
                     URIRef(SKOS.narrower),
-                    URIRef(uriVille)   
+                    URIRef(uriVille)
                 ))
                 if uriPays:
-                    g.add(( 
+                    g.add((
                         URIRef(uriDep),
                         URIRef(SKOS.broader),
                         URIRef(uriPays)
@@ -441,10 +446,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     g.add((
                         URIRef(uriPays),
                         URIRef(SKOS.narrower),
-                        URIRef(uriDep)   
+                        URIRef(uriDep)
                     ))
             elif uriPays:
-                g.add(( 
+                g.add((
                     URIRef(uriVille),
                     URIRef(SKOS.broader),
                     URIRef(uriPays)
@@ -453,9 +458,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add((
                     URIRef(uriPays),
                     URIRef(SKOS.narrower),
-                    URIRef(uriVille)   
+                    URIRef(uriVille)
                 ))
-        
 
         if (str(row["eleve_ville_naissance_ancien_nom"]) != 'nan'):
             g.add(
@@ -483,10 +487,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             #         )
             #     )
 
-        
-
-
-        #Gestion des cursus
+        # Gestion des cursus
 
         g.add(
             (
@@ -495,7 +496,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 URIRef("Cursus")
             )
         )
-        if (str(row["cursus_motif_admission"]) != 'NaN' and str(row["cursus_motif_admission"]) != 'nan') :
+        if (str(row["cursus_motif_admission"]) != 'NaN' and str(row["cursus_motif_admission"]) != 'nan'):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -504,8 +505,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        #cursus_date_epreuve_admission non traité, vide
-        if (str(row["cursus_date_entree_conservatoire"]) != 'NaN') :
+        # cursus_date_epreuve_admission non traité, vide
+        if (str(row["cursus_date_entree_conservatoire"]) != 'NaN'):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -513,8 +514,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
                 )
             )
-        
-        if (str(row["cursus_date_sortie_conservatoire"]).lower() != 'nan') :
+
+        if (str(row["cursus_date_sortie_conservatoire"]).lower() != 'nan'):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -523,7 +524,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        if (str(row["cursus_motif_sortie"]).lower() != 'nan') :
+        if (str(row["cursus_motif_sortie"]).lower() != 'nan'):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -532,7 +533,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        #Relation Eleve - Cursus
+        # Relation Eleve - Cursus
 
         g.add(
             (
@@ -543,22 +544,22 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         )
 
         # g.add(
-        #     (    
+        #     (
         #         URIRef(cursus[row['identifiant_1']]),
         #         URIRef(HEMEF["est_cursus_de"]),
         #         URIRef(eleves[row['identifiant_1']])
         #     )
         # )
 
-        #Gestion des prix
+        # Gestion des prix
         uriPrix = None
         if (str(row["prix_date"]) != 'nan' and str(row["prix_nom"]) != 'nan' and str(row["prix_discipline"]) != 'nan'):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             uriPrix = prix[id_prix]
 
-            if (str(row["prix_discipline"]) != 'NaN' and str(row["prix_discipline"]) != 'nan') :
+            if (str(row["prix_discipline"]) != 'NaN' and str(row["prix_discipline"]) != 'nan'):
                 intitule_prix = str(row["prix_nom"]) + " " + str(row["prix_date"]) + " : " + str(row["prix_discipline"])
-            else :
+            else:
                 intitule_prix = str(row["prix_nom"]) + " " + str(row["prix_date"])
 
             g.add(
@@ -576,7 +577,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     URIRef(HEMEF["Prix"])
                 )
             )
-            
+
             if (str(row["prix_nom"]) != 'NaN'):
                 g.add(
                     (
@@ -593,7 +594,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["prix_date"], datatype=XSD.Date)
                 )
             )
-            if (str(row["prix_discipline"]) != 'NaN' and str(row["prix_discipline"]) != 'nan') :
+            if (str(row["prix_discipline"]) != 'NaN' and str(row["prix_discipline"]) != 'nan'):
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -602,7 +603,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-          #Gestion des classes
+          # Gestion des classes
 
             if (str(row['classe_discipline']) != 'NaN') and (str(row['classe_discipline']) != 'nan'):
                 g.add(
@@ -639,14 +640,14 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
                 if (str(row['classe_nom_professeur']) != 'NaN' and str(row['classe_nom_professeur']) != 'nan'):
 
-                    g.add (
+                    g.add(
                         (
                             URIRef(professeur[row['classe_nom_professeur']]),
                             URIRef(is_a),
                             URIRef(HEMEF['Professeur'])
-                        )  
+                        )
                     )
-                                    
+
                     g.add(
                         (
                             URIRef(professeur[row['classe_nom_professeur']]),
@@ -662,9 +663,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                             URIRef(classe[row['classe_discipline']])
                         )
                     )
-
-
-        #Gestion Parcours_classe
+        # Gestion Parcours_classe
 
         if (row["identifiant_1"] != 'nan' and row["parcours_classe_date_entree"] != 'nan' and row["parcours_classe_date_sortie"] != 'nan' and row["classe_discipline"] != 'nan'):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
@@ -694,7 +693,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            if (str(row['parcours_classe_motif_entree']) != 'NaN') and (str(row['parcours_classe_motif_entree']) != 'nan') :
+            if (str(row['parcours_classe_motif_entree']) != 'NaN') and (str(row['parcours_classe_motif_entree']) != 'nan'):
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
@@ -702,7 +701,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         Literal(row['parcours_classe_motif_entree'])
                     )
                 )
-            if (str(row['parcours_classe_observations_eleve']) != 'NaN') and (str(row['parcours_classe_observations_eleve']) != 'nan') :
+            if (str(row['parcours_classe_observations_eleve']) != 'NaN') and (str(row['parcours_classe_observations_eleve']) != 'nan'):
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
@@ -712,12 +711,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
 
             g.add(
-                    (
-                        URIRef(uri_parcours_classe),
-                        URIRef(HEMEF['classe_parcourue']),
-                        URIRef(classe[row['classe_discipline']])
-                    )
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF['classe_parcourue']),
+                    URIRef(classe[row['classe_discipline']])
                 )
+            )
 
             # g.add(
             #     (
@@ -727,7 +726,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             #     )
             # )
 
-            if uriPrix != None :
+            if uriPrix != None:
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -738,7 +737,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
                 g.add(
                     (
-                        URIRef(uri_parcours_classe),   
+                        URIRef(uri_parcours_classe),
                         URIRef(HEMEF['prix_decerne']),
                         URIRef(uriPrix),
                     )
