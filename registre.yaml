@@ -803,7 +803,7 @@ discipline:
   Contrebasse: 713958b3-0f27-43b0-9f2f-3906b103ca84
   Composition musicale: 2cf4813c-a343-4e31-907f-eb58953decac
   Fugue: c193df34-753b-4260-b7d8-a03fb3bc9241
-  .nan: bf3c7447-a360-456f-98c6-7ac484c6ca43
+  .nan: 42cd5872-3fe0-4c60-b363-40b4f0169ea7
   Accompagnement au piano: 26851974-9e59-4e75-a0f4-d40eef73d666
   "Fl\xFBte": 74b6c548-d37a-4614-834f-f3799096dc6e
   Histoire de la Musique: 0e3bf282-4e5b-4965-a768-062e5c59b8e1
@@ -814,7 +814,7 @@ discipline:
   Direction d'Orchestre: 143260b1-ca56-40ce-9307-b2240f6659c3
   "Histoire et Litt\xE9rature dramatique": 37829294-e567-442a-af2d-c045c2c574af
   "D\xE9clmation lyrique": ffdff1c9-47f7-44bf-b0fd-e2fc0ece283d
-  .nan: 42cd5872-3fe0-4c60-b363-40b4f0169ea7
+  .nan: 54521391-3fbe-48be-9095-3e66a4334466
 eleves:
   1906-0296: 3b554872-e3a2-4eb7-838a-c10d7f21666d
   1906-0297: 3f2a7414-21ad-43c8-a849-3685d41c9c84
@@ -1531,7 +1531,7 @@ parcours_classe:
   - *id001
   - .nan
   - Orgue
-  : 9f5b54a1-bf07-4d4d-967e-8bc8373225a9
+  : 53972314-fac6-4559-9bda-2ea941262b8e
   ? !!python/tuple
   - 1906-0299
   - *id001
@@ -1579,7 +1579,7 @@ parcours_classe:
   - *id001
   - .nan
   - "Solf\xE8ge"
-  : a26c5151-99c5-4e15-adc4-da8190f247be
+  : 8b7f2954-4c17-4180-95a6-786709d1831f
   ? !!python/tuple
   - 1906-[0301-bis]
   - 1907-11-27 00:00:00
@@ -1615,7 +1615,7 @@ parcours_classe:
   - &id108 1923-01-23 00:00:00
   - .nan
   - 'Composition '
-  : e21fccfd-77c8-4864-bbcc-fc0f777933a8
+  : 18a92706-e641-4e25-bc4f-706cc5354100
   ? !!python/tuple
   - 1906-0302
   - &id095 1924-11-06 00:00:00
@@ -1819,7 +1819,7 @@ parcours_classe:
   - *id007
   - .nan
   - 'Harpe '
-  : 4ac60837-9c0a-47e3-b1dd-a687c610870b
+  : 85ff40b8-1a94-4e33-8096-97f59044af82
   ? !!python/tuple
   - 1907-0313
   - *id007
@@ -2581,7 +2581,7 @@ parcours_classe:
   - .nan
   - .nan
   - Chant
-  : dbe979c2-9117-47b4-9e0b-0ee73093d1c0
+  : 9ffd5ae7-5605-4bc0-bd14-42c4c5eeaed9
   ? !!python/tuple
   - 1907-[0346 bis]
   - &id017 1907-11-05 00:00:00
@@ -2611,7 +2611,7 @@ parcours_classe:
   - *id017
   - .nan
   - Cor
-  : 9b9cf2f3-6e92-4879-84cb-e679eb1c064f
+  : aa9a4e37-aaa1-4d56-bdc0-8b7e4d61b055
   ? !!python/tuple
   - 1907-[0348 bis]
   - *id017
@@ -2671,7 +2671,7 @@ parcours_classe:
   - *id017
   - .nan
   - Trompette
-  : 404a4ca0-0c0c-467e-9453-21a30a9a16ad
+  : d9c41ebc-d115-44fd-99e0-e58d0c7bc951
   ? !!python/tuple
   - 1907-0352
   - *id017
@@ -3121,7 +3121,7 @@ parcours_classe:
   - *id024
   - .nan
   - 'Violon  '
-  : 4545bcdf-9007-49de-8fda-7ec163776fb8
+  : 2bd00e98-f2d1-48ab-8fb5-0b30023ed935
   ? !!python/tuple
   - 1907-0377
   - *id024
@@ -3151,13 +3151,13 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 0cb107cc-7e88-4676-97da-7fe7d2bc2eae
+  : 210bde5a-c168-4d34-90f8-d98a416cdcc9
   ? !!python/tuple
   - 1907-[0377 bis]
   - *id025
   - .nan
   - 'Violon  '
-  : a0758982-c934-4a81-b51e-3864652dff87
+  : 77de80bc-2891-4689-a97a-5f0ce98ff93c
   ? !!python/tuple
   - 1907-0378
   - *id024
@@ -3205,13 +3205,13 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 26842a34-47d1-4003-ba67-057801a70a27
+  : 3b5563b0-f7c8-4ab9-8fa3-9ef5d7e55f24
   ? !!python/tuple
   - 1907-0379
   - *id026
   - .nan
   - 'Violon  '
-  : f363b10a-3b4d-4c27-aa3c-2087a7f00b39
+  : c6ec1785-2ca1-45c8-81a2-5456eaff8c86
   ? !!python/tuple
   - 1907-[0379 bis]
   - *id024
@@ -3223,7 +3223,7 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 75355512-474b-4654-b5e4-c58c842e362d
+  : 0bf1a17c-8a8a-4220-89a6-2ba01af9c10e
   ? !!python/tuple
   - 1907-[0379 bis]
   - &id027 1912-11-22 00:00:00
@@ -3325,7 +3325,7 @@ parcours_classe:
   - *id028
   - .nan
   - Harmonie
-  : e819aa63-d84b-4ba0-986f-df0bc6750dfc
+  : e9d7f604-de48-4750-92d3-173d4b2ac27f
   ? !!python/tuple
   - 1907-[0383 bis]
   - *id008
@@ -3367,13 +3367,13 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : fb3823eb-d62e-4d1d-85b5-a666a8301a5f
+  : 1df62d89-f8a4-4c76-8e01-61df36576990
   ? !!python/tuple
   - 1907-0385
   - *id029
   - .nan
   - 'Harpe '
-  : 4c818f75-20dc-471b-8294-e6cb1146b26d
+  : 218b8bbd-e885-460a-b9dd-ad4941752225
   ? !!python/tuple
   - 1907-0385
   - *id023
@@ -3385,19 +3385,19 @@ parcours_classe:
   - 1914-12-29 00:00:00
   - .nan
   - Contrepoint
-  : da64cbc2-350a-4dcc-bafb-b3fd7c33fd4c
+  : b553b20a-2e0e-47b6-83c2-a87d00611da5
   ? !!python/tuple
   - 1907-0385
   - &id101 1915-01-22 00:00:00
   - .nan
   - 'Accompagnement au piano '
-  : ea69b91e-bc89-437c-bdc3-cec10dc0d603
+  : 93145c82-2a73-4195-81cc-410252718870
   ? !!python/tuple
   - 1907-0385
   - &id046 1915-10-06 00:00:00
   - .nan
   - Orgue
-  : 5c4e3b0a-e088-4096-b48f-6197043fef76
+  : 925f1b1e-a229-4c48-8329-7d06d6c7e00e
   ? !!python/tuple
   - 1907-0385
   - &id104 1918-01-07 00:00:00
@@ -3415,7 +3415,7 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 13d44167-4794-4330-897d-b878c1b6cd36
+  : c2df8ffa-b427-4ed9-848a-990db54ff740
   ? !!python/tuple
   - 1907-[0385 bis]
   - *id031
@@ -3559,43 +3559,43 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 3820e4c4-bbaf-482f-88cd-687ef693d14a
+  : 04a42cb0-25fc-4d37-be7b-8ec803922ec3
   ? !!python/tuple
   - 1907-0393
   - *id031
   - .nan
   - "Piano pr\xE9paratoire"
-  : 6a36bb94-5e61-4f5b-8707-df02620c1969
+  : dda4ded3-b5c4-431a-a811-fc446bf4df75
   ? !!python/tuple
   - 1907-0393
   - *id032
   - .nan
   - 'Piano '
-  : 4670b58d-131f-4357-91bb-4fb32303639a
+  : 7a682b63-114d-4841-a80a-a0ecb236685e
   ? !!python/tuple
   - 1907-0393
   - *id033
   - .nan
   - Harmonie
-  : 7b4a71c7-2543-43d1-b2f8-419c63b05d9c
+  : 5e28f7ba-afd2-4712-a052-3ae6ae56ca45
   ? !!python/tuple
   - 1907-0393
   - &id060 1915-12-07 00:00:00
   - .nan
   - 'Accompagnement au piano '
-  : 22fe8706-1627-413d-b969-443f79b2c4ca
+  : 92ac4476-e317-4f02-a8dd-5256ee4561de
   ? !!python/tuple
   - 1907-0393
   - &id103 1915-11-30 00:00:00
   - .nan
   - Contrepoint
-  : 0dc27062-95fd-40cc-9813-6e189373031e
+  : db143125-e974-46c5-8ea0-5cdcce0f0a2f
   ? !!python/tuple
   - 1907-0393
   - &id058 1919-01-27 00:00:00
   - .nan
   - Fugue
-  : ab911eb1-60e3-4450-9420-f5a2bef5f62c
+  : 88bfa942-b20c-41b2-832e-38eab56a46f9
   ? !!python/tuple
   - 1907-0393
   - '1919-00-00'
@@ -3607,25 +3607,25 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 0431c025-f19a-4417-94ee-19137d2a5113
+  : 3be644ca-21fd-4657-90aa-c448a102eccf
   ? !!python/tuple
   - 1907-[0393 bis]
   - 1911-11-28 00:00:00
   - .nan
   - Harmonie
-  : a15d6e14-7414-467f-9853-0fd49be3178d
+  : 7a57be1e-71cd-4e77-844b-3e5c58b4ac04
   ? !!python/tuple
   - 1907-[0393 bis]
   - 1915-01-18 00:00:00
   - .nan
   - Contrepoint
-  : be615b90-1c31-4ae7-9a3c-ff2ed67106f9
+  : 6e1fe522-9278-4bed-b147-1dbcb2c97900
   ? !!python/tuple
   - 1907-0394
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : e494d185-9a73-4f39-8dac-8052dc2e867e
+  : 4584f2f3-ace5-46f9-9b3b-984b20566b05
   ? !!python/tuple
   - 1907-[0394 bis]
   - *id008
@@ -3685,7 +3685,7 @@ parcours_classe:
   - *id008
   - .nan
   - "Solf\xE8ge"
-  : 17b9623b-eda5-48ee-8413-2b8d8c1212ed
+  : 0ca5aad1-0353-452b-bfc5-7ec8976b172c
   ? !!python/tuple
   - 1907-0397
   - *id036
@@ -3709,13 +3709,13 @@ parcours_classe:
   - *id037
   - .nan
   - Harmonie
-  : ddf4781f-19ca-4a26-a457-bdb037633a0d
+  : 5997f4b2-80db-44a8-b095-48fa1b1bb6f6
   ? !!python/tuple
   - 1907-0398
   - 1905-03-26 00:00:00
   - .nan
   - Contrepoint
-  : 7ce8d04f-f97c-475e-9187-90439d948e60
+  : f02a2cfc-e414-4695-980c-20ed1a6b92a2
   ? !!python/tuple
   - 1907-[0398 bis]
   - *id037
@@ -3823,7 +3823,7 @@ parcours_classe:
   - *id030
   - .nan
   - Composition
-  : bccfec7f-69ae-4c79-9e2f-2d6602436c1d
+  : 4d5a68a7-c822-4160-85ae-2af1db2239aa
   ? !!python/tuple
   - 1907-0402
   - *id028
@@ -3889,7 +3889,7 @@ parcours_classe:
   - *id040
   - .nan
   - Contrepoint
-  : 00c478d5-0f0b-47c2-98ef-f3c643b3f97a
+  : d7d5b7d2-b501-4961-b584-b3d89e40c212
   ? !!python/tuple
   - 1907-0405
   - &id111 1914-01-16 00:00:00
@@ -4267,7 +4267,7 @@ parcours_classe:
   - *id042
   - .nan
   - "Solf\xE8ge"
-  : 343578a6-3d23-4853-ab28-6e8e794d5591
+  : f756d686-ba6a-4817-8e22-828df5f024a0
   ? !!python/tuple
   - 1908-0423
   - *id038
@@ -4471,13 +4471,13 @@ parcours_classe:
   - *id047
   - .nan
   - "Solf\xE8ge"
-  : 16182fc5-3c95-4bb4-b5fe-28b119b71d6d
+  : 2a895822-9cd6-4935-96fd-7446be2afb03
   ? !!python/tuple
   - 1908-0429
   - 1910-03-04 00:00:00
   - .nan
   - "D\xE9clamation lyrique"
-  : f0232188-f401-484d-a744-7fccaceffb6e
+  : 692fc22c-5d53-4a5c-82df-bf63758ef814
   ? !!python/tuple
   - 1910-[0429 bis]
   - *id047
@@ -4777,19 +4777,19 @@ parcours_classe:
   - *id047
   - .nan
   - Chant
-  : 7b4390b7-f55e-48f3-a783-8acf6ca8e8c1
+  : f1462249-0a92-4dab-9fb6-e1a37ea74df1
   ? !!python/tuple
   - 1908-0438
   - *id047
   - .nan
   - "Solf\xE8ge"
-  : b837a19e-2a8e-451d-8850-88b2db5569ba
+  : f127061e-e3ac-4435-86be-c165c4f1d7e5
   ? !!python/tuple
   - 1908-0438
   - *id049
   - .nan
   - "D\xE9clamation lyrique"
-  : ed9c4f79-0b11-451b-a56d-0feb15e58ae0
+  : 2d63d466-53a4-4970-8878-576f4c5af7e0
   ? !!python/tuple
   - 1910-[0438 bis]
   - *id047
@@ -5341,7 +5341,7 @@ parcours_classe:
   - *id055
   - .nan
   - 'Piano '
-  : 311b34bd-43e8-4161-b56b-5d6415a28d39
+  : 5f4c2ec4-d946-4a87-8920-e57cd1db3d56
   ? !!python/tuple
   - 1908-0468
   - 1917-10-20 00:00:00
@@ -5437,7 +5437,7 @@ parcours_classe:
   - &id057 1908-11-20 00:00:00
   - .nan
   - Harmonie
-  : 1b0c8712-51dd-4770-96ba-4d71bca3a0e5
+  : c7914c99-1376-4411-bf23-29c04573abe5
   ? !!python/tuple
   - 1908-0472
   - *id057
@@ -5449,7 +5449,7 @@ parcours_classe:
   - *id033
   - .nan
   - Contrepoint
-  : 11b4f88c-a03d-4fd4-8c85-839d412c5942
+  : f0fbc19e-6d90-430b-8bd8-985d7a2a03ab
   ? !!python/tuple
   - 1908-0472
   - 1916-01-10 00:00:00
@@ -5473,7 +5473,7 @@ parcours_classe:
   - &id059 1908-11-26 00:00:00
   - .nan
   - Harmonie
-  : 044ea79d-608a-4296-a09c-a33e6b34d785
+  : 5a206b24-3f03-4ba3-ab35-ebe359478ba6
   ? !!python/tuple
   - 1908-0473
   - *id059
@@ -5485,13 +5485,13 @@ parcours_classe:
   - *id059
   - .nan
   - Harmonie
-  : 6a83a0b9-48e4-46a8-9bb2-e7d7f5baaf15
+  : 962f72d9-4b6c-4fa3-9c13-eb9085d531ff
   ? !!python/tuple
   - 1908-0474
   - *id059
   - .nan
   - Harmonie
-  : 0935b85a-75bf-41a2-915e-162e673b719f
+  : 8031e3c3-0f87-42bf-8ef4-0f48cb11e748
   ? !!python/tuple
   - 1910-[0474 bis]
   - *id059
@@ -5521,7 +5521,7 @@ parcours_classe:
   - *id038
   - .nan
   - 'Piano '
-  : 571cb50e-e84d-4f53-9b83-a96a3c90011f
+  : 8533429d-92aa-4829-b49b-8aac28018167
   ? !!python/tuple
   - 1910-[0475 bis]
   - *id060
@@ -5677,7 +5677,7 @@ parcours_classe:
   - *id042
   - '[1910-00-00]'
   - .nan
-  : f26d20c1-d191-4e83-a3c8-a86d5877b252
+  : be55819a-0a38-45db-898a-e4b0c7a121ae
   ? !!python/tuple
   - 1908-0482
   - *id042
@@ -6025,19 +6025,19 @@ parcours_classe:
   - *id068
   - .nan
   - Harmonie
-  : 6dacd6a1-2780-40db-9534-b2d2d040b02c
+  : e7aa7659-88a3-4f39-8ce4-e77da9397714
   ? !!python/tuple
   - 1912-[0363 bis]
   - 1919-09-12 00:00:00
   - .nan
   - Harmonie
-  : 2cff6754-ca2b-447b-98bf-fd068daaee09
+  : 4d3ee729-6950-4adc-bdf7-0e016eb56dfe
   ? !!python/tuple
   - 1912-[0363 bis]
   - *id011
   - .nan
   - Accompagnement au piano
-  : 072bf15c-37e0-4120-b50a-5dc234543202
+  : 5bed0e90-b4c9-4356-bec5-35a1a32dec13
   ? !!python/tuple
   - 1912-0364
   - *id068
@@ -6115,7 +6115,7 @@ parcours_classe:
   - *id033
   - .nan
   - "Solf\xE8ge"
-  : 33bfb01c-ac4d-4417-b1ce-1f056c8b8eea
+  : 28400ed3-514c-416b-b6eb-b74e52bff005
   ? !!python/tuple
   - 1913-[0370 bis]
   - *id070
@@ -6133,7 +6133,7 @@ parcours_classe:
   - *id070
   - .nan
   - Hautbois
-  : 03730f35-09df-4ed3-ae95-0e4d1cc7347f
+  : b933f08b-e1ea-43df-aa69-0ccb88b2d76b
   ? !!python/tuple
   - 1913-0371
   - *id033
@@ -6193,7 +6193,7 @@ parcours_classe:
   - .nan
   - '1923-00-00'
   - Histoire de la Musique
-  : 9f28465b-a2e8-43b8-aa48-f4c060678f07
+  : 8f55c2b7-8964-4cc7-a5a5-f28be26f49be
   ? !!python/tuple
   - 1913-[0373 bis]
   - *id070
@@ -6499,7 +6499,7 @@ parcours_classe:
   - *id077
   - .nan
   - "Solf\xE8ge"
-  : 1781ccce-bc65-4cbd-b440-bddab819ffc2
+  : ccf25840-b335-41bc-8d68-92e0ce2ca30c
   ? !!python/tuple
   - 1913-0389
   - &id078 1913-10-24 00:00:00
@@ -6685,7 +6685,7 @@ parcours_classe:
   - &id080 1913-11-21 00:00:00
   - .nan
   - "Solf\xE8ge"
-  : 81d01bd6-9db5-4995-ba06-7b5ac3346ad2
+  : 275a1d51-e6b0-40e2-9d62-afc3d64e95f4
   ? !!python/tuple
   - 1913-0404
   - *id079
@@ -6961,7 +6961,7 @@ parcours_classe:
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : 1d3932fc-c003-4f5b-802a-ee508964b62b
+  : f00ce268-3193-4ea1-9275-f5dc8fd2c565
   ? !!python/tuple
   - 1913-0413
   - *id085
@@ -6985,7 +6985,7 @@ parcours_classe:
   - .nan
   - '1917-00-00'
   - Histoire de la Musique
-  : b66c7cff-959a-4841-ad07-509e4b396ee4
+  : 455ed22f-c022-4adf-892c-751d5fbd3187
   ? !!python/tuple
   - 1913-[0413 bis]
   - *id085
@@ -7009,7 +7009,7 @@ parcours_classe:
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : 7d06dd2d-bd19-433f-9ce6-01ae85a684ba
+  : d52c1126-5d3e-4351-9b5b-a7af4998c670
   ? !!python/tuple
   - 1913-0414
   - *id085
@@ -7033,7 +7033,7 @@ parcours_classe:
   - .nan
   - '[1918-00-00]'
   - Histoire de la Musique
-  : fc510290-d005-4706-9108-4028420eb15d
+  : df8463df-7a24-4642-8b8c-8002bc42da28
   ? !!python/tuple
   - 1913-[0414 bis]
   - *id085
@@ -7051,7 +7051,7 @@ parcours_classe:
   - .nan
   - .nan
   - .nan
-  : 32ca1595-8cb9-454d-a38a-bde186951b26
+  : 00944e8f-5454-43f6-abd3-db75fd5832a0
   ? !!python/tuple
   - 1913-[0414 bis]
   - *id089
@@ -7063,7 +7063,7 @@ parcours_classe:
   - .nan
   - '1917-00-00'
   - Histoire de la Musique
-  : e201b976-fdda-4cd9-bfd2-919979599d5b
+  : 74d47e65-c546-494f-b70b-13dc498f5f58
   ? !!python/tuple
   - 1913-0415
   - *id085
@@ -7105,7 +7105,7 @@ parcours_classe:
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : 09490e79-de0d-48f8-8791-522bb7790a4f
+  : a677b8a9-cde1-4f12-8a8f-c9341f76e565
   ? !!python/tuple
   - 1913-0416
   - *id085
@@ -7123,7 +7123,7 @@ parcours_classe:
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : 2283e9e3-140e-40a0-aa32-715c14cb4490
+  : d2bca032-86f1-491c-98e1-fda72e84e422
   ? !!python/tuple
   - 1913-0416
   - *id089
@@ -7225,7 +7225,7 @@ parcours_classe:
   - .nan
   - '1916-00-00'
   - Histoire de la Musique
-  : 19ed5c08-bd67-4704-9ced-1d1dadf9418b
+  : 7dbbb54b-a1cf-44eb-94c6-14bbd61b8b57
   ? !!python/tuple
   - 1913-[0419 bis]
   - *id091
@@ -7237,13 +7237,13 @@ parcours_classe:
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : 9f6e6a2b-2060-43f5-9606-7f33e668cec3
+  : 26146d70-e8c5-47b9-826d-33be122a5449
   ? !!python/tuple
   - 1913-[0419 bis]
   - .nan
   - '[1917-00-00]'
   - "Solf\xE8ge"
-  : a8826cd8-70c4-4c41-92fa-6a369d322e27
+  : abf2028f-f9d2-412a-850e-ef1f10526b7d
   ? !!python/tuple
   - 1913-0420
   - *id091
@@ -7261,7 +7261,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : b13aaa76-d053-411c-a52e-44afbf57485f
+  : 37401778-b285-4cad-802b-ceebbf991bf0
   ? !!python/tuple
   - 1913-[0420 bis]
   - *id091
@@ -7279,7 +7279,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : 4bf976fd-ff2f-4207-a88b-1ae5919485ec
+  : a4aff4c5-33d6-4d1b-8b43-12be1fa7e5fe
   ? !!python/tuple
   - 1913-0421
   - *id091
@@ -7297,7 +7297,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : 285e404d-80a1-4f48-9b8c-10e9cfcc71f6
+  : aaff0466-63c4-4e8a-a1fc-a4483d9c202e
   ? !!python/tuple
   - 1913-[0421 bis]
   - *id091
@@ -7549,7 +7549,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : 0a55789d-b1ad-4472-961c-e65a15e48b20
+  : 1fe14b0e-eb48-4c6c-9b67-bfbfcb9af2ef
   ? !!python/tuple
   - 1913-0432
   - *id034
@@ -7573,7 +7573,7 @@ parcours_classe:
   - .nan
   - '[1916-00-00]'
   - "Solf\xE8ge"
-  : 0fc0a1bc-a323-4f70-9bad-40f4190c9626
+  : 98743365-c7f3-4696-be24-28d0dc12e641
   ? !!python/tuple
   - 1913-0433
   - *id034
@@ -7639,7 +7639,7 @@ parcours_classe:
   - .nan
   - '[1921-00-00]'
   - Histoire de la Musique
-  : 8b5de00b-4832-4caf-a807-ea5a4fd9ce52
+  : 5cc55c22-c978-42a7-8988-14ae79abe6c2
   ? !!python/tuple
   - 1913-0435
   - 1924-01-30 00:00:00
@@ -7663,7 +7663,7 @@ parcours_classe:
   - .nan
   - '[1921-00-00]'
   - Histoire de la Musique
-  : 731993c4-27d6-457f-8f4e-d1c6d210c10a
+  : d512c435-dd41-47e7-959c-e5a7dfcfef93
   ? !!python/tuple
   - 1913-0436
   - *id094
@@ -7735,7 +7735,7 @@ parcours_classe:
   - .nan
   - '[1916-00-00]'
   - Histoire de la Musique
-  : b0d6413b-7c4b-40b6-8995-96f358a83849
+  : a2898d71-9f67-4363-a9c1-f5671a7631d2
   ? !!python/tuple
   - 1913-0438
   - &id106 1918-12-17 00:00:00
@@ -7783,7 +7783,7 @@ parcours_classe:
   - .nan
   - '[1919-00-00]'
   - Histoire de la Musique
-  : d0c0ef52-1e2b-4da3-8824-8ee2a04672c5
+  : eac6133d-cc83-498b-a55f-094948c136a3
   ? !!python/tuple
   - 1913-0440
   - *id097
@@ -7831,7 +7831,7 @@ parcours_classe:
   - .nan
   - '[1923-00-00]'
   - Histoire de la Musique
-  : d4d8a16b-75cc-41d5-b8ff-986eb84e2774
+  : bf5f7eab-2a88-4866-96b0-9401548d44f7
   ? !!python/tuple
   - 1913-0442
   - *id097
@@ -7945,7 +7945,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : 05ef8365-1cc7-4f7c-aa30-cda5d2ce3393
+  : 99f77d04-6dc5-4b5b-96e0-68eb5d94f416
   ? !!python/tuple
   - 1913-0447
   - 1923-10-31 00:00:00
@@ -7975,7 +7975,7 @@ parcours_classe:
   - .nan
   - '1918-00-00'
   - Histoire de la Musique
-  : 2e4d87a6-5d82-4c16-acb2-f3097cb2bc7f
+  : 6911e392-b98b-4292-b734-e17a10f74ab0
   ? !!python/tuple
   - 1913-0448
   - *id065
@@ -8167,7 +8167,7 @@ parcours_classe:
   - .nan
   - .nan
   - .nan
-  : 9fd22e0d-f5c1-42b8-93c8-807abe33332f
+  : 2a7c3843-0594-4bf5-bc0a-de19bc9b5b30
   ? !!python/tuple
   - 1913-[0455 bis]
   - *id104
@@ -8179,7 +8179,7 @@ parcours_classe:
   - .nan
   - '1923-00-00'
   - Direction d'Orchestre
-  : 6dea4e6a-5565-4f05-9c86-29592813c429
+  : e46ed132-c3df-4bf6-acd9-acd036154606
   ? !!python/tuple
   - 1913-0456
   - *id011
@@ -8197,7 +8197,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : 88b2bb3e-a0cf-4b16-a714-c4f517f3049c
+  : f9f87ed8-8412-48ea-a54b-a96e3c8bf39f
   ? !!python/tuple
   - 1913-[0456 bis]
   - *id053
@@ -8239,7 +8239,7 @@ parcours_classe:
   - .nan
   - '[1920-00-00]'
   - Histoire de la Musique
-  : b0d2fd88-350f-427a-b7f7-9822481045a8
+  : c68f783b-4dcf-4754-8ddf-6362d42fde22
   ? !!python/tuple
   - 1913-0458
   - *id033
@@ -8299,7 +8299,7 @@ parcours_classe:
   - .nan
   - '[1916-00-00]'
   - Histoire de la Musique
-  : bdd5c9df-0056-4eb7-b813-17d2ace3d309
+  : f8b115c8-66a0-4e7d-aebb-828283c20ade
   ? !!python/tuple
   - 1913-0462
   - *id011
@@ -8329,7 +8329,7 @@ parcours_classe:
   - .nan
   - '[1922-00-00]'
   - Histoire de la Musique
-  : be8d24f0-7a98-44b2-8127-980952496148
+  : 72e4ee96-6740-408a-a8e9-2f5d3c3f1f29
   ? !!python/tuple
   - 1913-[0463 bis]
   - *id011
@@ -8347,13 +8347,13 @@ parcours_classe:
   - .nan
   - *id112
   - Contrepoint
-  : d6cd3818-57fa-4597-988f-cda2fd3670f9
+  : e413bf1b-c7da-490b-a952-27353ccade16
   ? !!python/tuple
   - 1914-0464
   - .nan
   - *id112
   - Direction d'Orchestre
-  : 4ba7a0bf-83ea-438e-a14a-4e525e67588b
+  : 77b457f0-3dab-4aa9-a5e0-d6f875d908cc
   ? !!python/tuple
   - 1914-[0464 bis]
   - *id111
@@ -8455,7 +8455,7 @@ parcours_classe:
   - .nan
   - '1923-10-00'
   - "Solf\xE8ge"
-  : 04fc9aeb-bb5c-487e-9ed6-e4df090f8b8f
+  : a286e3c9-13c2-46b9-b87a-3ce9dc61b566
   ? !!python/tuple
   - 1914-[0469 bis]
   - *id113
@@ -8503,13 +8503,13 @@ parcours_classe:
   - *id115
   - .nan
   - "D\xE9clamation"
-  : cd9a02f1-898e-4595-b19b-deea28f28a8f
+  : 10e2cee5-3cda-4eb7-a515-b3addb7a1246
   ? !!python/tuple
   - 1914-[0471 bis]
   - .nan
   - .nan
   - "Histoire et Litt\xE9rature dramatique"
-  : 9270ddbe-78fb-47f7-b74f-9e84ef673319
+  : 6b481872-0ff9-4025-8bf5-7de123c2ddab
   ? !!python/tuple
   - 1914-0472
   - *id115
@@ -8545,7 +8545,7 @@ parcours_classe:
   - *id115
   - .nan
   - "D\xE9clamation"
-  : f1bb0316-3397-4256-a7d5-0b5ddd4a8a4f
+  : 9d0e4ed1-e697-4859-804a-f8d1135c31b0
   ? !!python/tuple
   - 1914-0475
   - *id115
@@ -8671,13 +8671,13 @@ parcours_classe:
   - .nan
   - '[1916-00-00]'
   - Histoire de la Musique
-  : 8fdf32f8-fe36-4dcb-a519-77ddb7f260d0
+  : 5f634227-fd89-4c29-be2d-fcb8b55cf6bb
   ? !!python/tuple
   - 1914-0482
   - .nan
   - '1920-00-00'
   - "D\xE9clamation lyrique"
-  : 4fb3a866-39ee-4490-9bcb-aaf1bd0c8d9e
+  : a7ad47b1-cabc-45e3-8629-615321031386
   ? !!python/tuple
   - 1914-[0482 bis]
   - *id117
@@ -8905,7 +8905,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : 3fb8215c-f7bd-4273-9ed7-d18910ab6389
+  : 34b60877-645a-4931-802e-709489a35b15
   ? !!python/tuple
   - 1914-0489
   - *id117
@@ -8923,7 +8923,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : b8182e35-1aad-475c-9f17-ca6a02de6ce6
+  : 1cdd2cad-0e91-44cd-bfcd-5b729254726c
   ? !!python/tuple
   - 1914-0489
   - *id058
@@ -8977,7 +8977,7 @@ parcours_classe:
   - .nan
   - .nan
   - Histoire de la Musique
-  : caeefaec-29cb-4ed7-ace9-76032614de2c
+  : c442a9d2-8592-433d-9316-49eace21b543
   ? !!python/tuple
   - 1914-[0490 bis]
   - *id124
@@ -9013,7 +9013,7 @@ parcours_classe:
   - .nan
   - '1915-00-00'
   - "Solf\xE8ge"
-  : f5bb6454-48b6-46bd-8400-ff1b0167e697
+  : d1556a73-d477-4b3b-afca-cc0a18f79dc6
   ? !!python/tuple
   - 1914-0492
   - *id125
@@ -9139,595 +9139,595 @@ parcours_classe:
   - &id127 1906-11-27 00:00:00
   - .nan
   - Orgue
-  : 53972314-fac6-4559-9bda-2ea941262b8e
+  : de4a46c2-353c-49fa-8d60-2b66344ca020
   ? !!python/tuple
   - 1906-[0301-bis]
   - *id127
   - .nan
   - "Solf\xE8ge"
-  : 8b7f2954-4c17-4180-95a6-786709d1831f
+  : 4bd7718d-e0e5-46d1-8dc8-3a21863d68a1
   ? !!python/tuple
   - 1906-0302
   - 1923-01-23 00:00:00
   - .nan
   - 'Composition '
-  : 18a92706-e641-4e25-bc4f-706cc5354100
+  : caee8b35-967f-4a99-835b-091cd10ec9fd
   ? !!python/tuple
   - 1907-[0312 bis]
   - 1907-10-15 00:00:00
   - .nan
   - 'Harpe '
-  : 85ff40b8-1a94-4e33-8096-97f59044af82
+  : 8fb1089c-5790-49e0-b295-b19bc6d4a9fd
   ? !!python/tuple
   - 1907-[0345 bis]
   - .nan
   - .nan
   - Chant
-  : 9ffd5ae7-5605-4bc0-bd14-42c4c5eeaed9
+  : 4d05e741-a9ea-4e9e-8702-7927fa6223fa
   ? !!python/tuple
   - 1907-0348
   - &id128 1907-11-05 00:00:00
   - .nan
   - Cor
-  : aa9a4e37-aaa1-4d56-bdc0-8b7e4d61b055
+  : d2d5ca88-c4d9-482f-ac0d-8a136f2d2daa
   ? !!python/tuple
   - 1907-[0351 bis]
   - *id128
   - .nan
   - Trompette
-  : d9c41ebc-d115-44fd-99e0-e58d0c7bc951
+  : 9e13b185-f5e3-49ce-94cb-607d1895b801
   ? !!python/tuple
   - 1907-[0376 bis]
   - 1907-11-22 00:00:00
   - .nan
   - 'Violon  '
-  : 2bd00e98-f2d1-48ab-8fb5-0b30023ed935
+  : 958190ea-cec3-437f-a6c4-d3ba04a9d136
   ? !!python/tuple
   - 1907-[0377 bis]
   - &id129 1907-11-29 00:00:00
   - .nan
   - "Solf\xE8ge"
-  : 210bde5a-c168-4d34-90f8-d98a416cdcc9
+  : ca19f906-cd78-49b9-ae3c-2af8e9e07c01
   ? !!python/tuple
   - 1907-[0377 bis]
   - 1909-10-29 00:00:00
   - .nan
   - 'Violon  '
-  : 77de80bc-2891-4689-a97a-5f0ce98ff93c
+  : c0d029ba-6bd4-4b30-8c4b-41cf18b28b99
   ? !!python/tuple
   - 1907-0379
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 3b5563b0-f7c8-4ab9-8fa3-9ef5d7e55f24
+  : 50f5447c-8735-4e46-b1fe-4daa8e803f66
   ? !!python/tuple
   - 1907-0379
   - 1910-10-28 00:00:00
   - .nan
   - 'Violon  '
-  : c6ec1785-2ca1-45c8-81a2-5456eaff8c86
+  : 0098fc72-4fc1-491c-8a0d-66b8df150742
   ? !!python/tuple
   - 1907-[0379 bis]
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 0bf1a17c-8a8a-4220-89a6-2ba01af9c10e
+  : b5e4a1b1-851a-4ed2-a6f4-1b9be5ad105d
   ? !!python/tuple
   - 1907-0383
   - 1907-11-28 00:00:00
   - .nan
   - Harmonie
-  : e9d7f604-de48-4750-92d3-173d4b2ac27f
+  : be2d96d5-260c-42c4-9f83-027f57b7d145
   ? !!python/tuple
   - 1907-0385
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 1df62d89-f8a4-4c76-8e01-61df36576990
+  : 46f3dce4-8bcb-4594-9481-02795f733a57
   ? !!python/tuple
   - 1907-0385
   - 1909-11-18 00:00:00
   - .nan
   - 'Harpe '
-  : 218b8bbd-e885-460a-b9dd-ad4941752225
+  : 05417d7b-c135-4248-99e5-db1d589e7ec6
   ? !!python/tuple
   - 1907-0385
   - 1914-12-29 00:00:00
   - .nan
   - Contrepoint
-  : b553b20a-2e0e-47b6-83c2-a87d00611da5
+  : d5d551f5-f824-4d2d-b116-8f999e7d6999
   ? !!python/tuple
   - 1907-0385
   - 1915-01-22 00:00:00
   - .nan
   - 'Accompagnement au piano '
-  : 93145c82-2a73-4195-81cc-410252718870
+  : 6a143451-55c3-4e49-b9e2-f502518bd553
   ? !!python/tuple
   - 1907-0385
   - 1915-10-06 00:00:00
   - .nan
   - Orgue
-  : 925f1b1e-a229-4c48-8329-7d06d6c7e00e
+  : 46bfc0c5-8bf2-4e50-9e8d-f2d3b4e54dc3
   ? !!python/tuple
   - 1907-[0385 bis]
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : c2df8ffa-b427-4ed9-848a-990db54ff740
+  : 4a025e5b-4259-4167-8bd1-96fe0acb0511
   ? !!python/tuple
   - 1907-0393
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 04a42cb0-25fc-4d37-be7b-8ec803922ec3
+  : 778589b9-aa52-46e5-b2de-ce5009377be0
   ? !!python/tuple
   - 1907-0393
   - 1908-11-19 00:00:00
   - .nan
   - "Piano pr\xE9paratoire"
-  : dda4ded3-b5c4-431a-a811-fc446bf4df75
+  : 091120e5-997b-4797-978f-4e158e1c75a3
   ? !!python/tuple
   - 1907-0393
   - 1911-10-20 00:00:00
   - .nan
   - 'Piano '
-  : 7a682b63-114d-4841-a80a-a0ecb236685e
+  : 471f2af0-9c8c-48fd-b7ef-2d733483dee2
   ? !!python/tuple
   - 1907-0393
   - &id131 1913-11-26 00:00:00
   - .nan
   - Harmonie
-  : 5e28f7ba-afd2-4712-a052-3ae6ae56ca45
+  : 608ac79f-9b2f-409b-863c-4e6a3cd1bd1b
   ? !!python/tuple
   - 1907-0393
   - 1915-12-07 00:00:00
   - .nan
   - 'Accompagnement au piano '
-  : 92ac4476-e317-4f02-a8dd-5256ee4561de
+  : 2e035761-1ce2-41d6-905d-9d2dfa502631
   ? !!python/tuple
   - 1907-0393
   - 1915-11-30 00:00:00
   - .nan
   - Contrepoint
-  : db143125-e974-46c5-8ea0-5cdcce0f0a2f
+  : 2bf50597-2001-445e-9405-e290108f10b9
   ? !!python/tuple
   - 1907-0393
   - 1919-01-27 00:00:00
   - .nan
   - Fugue
-  : 88bfa942-b20c-41b2-832e-38eab56a46f9
+  : 15ef73ad-1bf4-4539-8938-1183cee2fdc0
   ? !!python/tuple
   - 1907-[0393 bis]
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 3be644ca-21fd-4657-90aa-c448a102eccf
+  : e93e3b83-4860-4d14-a785-4eec0edc99cd
   ? !!python/tuple
   - 1907-[0393 bis]
   - 1911-11-28 00:00:00
   - .nan
   - Harmonie
-  : 7a57be1e-71cd-4e77-844b-3e5c58b4ac04
+  : 3c69917e-1fcd-49a5-8d29-d9406b611793
   ? !!python/tuple
   - 1907-[0393 bis]
   - 1915-01-18 00:00:00
   - .nan
   - Contrepoint
-  : 6e1fe522-9278-4bed-b147-1dbcb2c97900
+  : 0ad74738-6d68-4246-9139-427a15aac00a
   ? !!python/tuple
   - 1907-0394
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 4584f2f3-ace5-46f9-9b3b-984b20566b05
+  : 4b58aa77-b605-4977-9eed-e97abe0d4b54
   ? !!python/tuple
   - 1907-0397
   - *id129
   - .nan
   - "Solf\xE8ge"
-  : 0ca5aad1-0353-452b-bfc5-7ec8976b172c
+  : ce82eb24-e313-4480-b7fb-c3f7ebf34f23
   ? !!python/tuple
   - 1907-0398
   - 1907-11-30 00:00:00
   - .nan
   - Harmonie
-  : 5997f4b2-80db-44a8-b095-48fa1b1bb6f6
+  : e223f6f8-7fde-4a29-979f-096fa6750478
   ? !!python/tuple
   - 1907-0398
   - 1905-03-26 00:00:00
   - .nan
   - Contrepoint
-  : f02a2cfc-e414-4695-980c-20ed1a6b92a2
+  : 23e765d5-3053-4273-a55b-02e9939583c4
   ? !!python/tuple
   - 1907-[0401 bis]
   - 1912-01-10 00:00:00
   - .nan
   - Composition
-  : 4d5a68a7-c822-4160-85ae-2af1db2239aa
+  : f90994a7-2dcf-4149-a2ca-7e19fa147efd
   ? !!python/tuple
   - 1907-0405
   - 1908-11-30 00:00:00
   - .nan
   - Contrepoint
-  : d7d5b7d2-b501-4961-b584-b3d89e40c212
+  : 4e173294-484f-4360-9970-f8dac32f2d47
   ? !!python/tuple
   - 1908-0423
   - &id133 1908-11-28 00:00:00
   - .nan
   - "Solf\xE8ge"
-  : f756d686-ba6a-4817-8e22-828df5f024a0
+  : 5a58dac4-b466-4fee-a760-b9153674c1e4
   ? !!python/tuple
   - 1908-0429
   - &id130 1908-10-27 00:00:00
   - .nan
   - "Solf\xE8ge"
-  : 2a895822-9cd6-4935-96fd-7446be2afb03
+  : b5e6cadc-76dd-4434-b0a9-8943c91cc0ae
   ? !!python/tuple
   - 1908-0429
   - 1910-03-04 00:00:00
   - .nan
   - "D\xE9clamation lyrique"
-  : 692fc22c-5d53-4a5c-82df-bf63758ef814
+  : 895313d2-2ab7-4185-8dcc-ab2b8394d98a
   ? !!python/tuple
   - 1908-0438
   - *id130
   - .nan
   - Chant
-  : f1462249-0a92-4dab-9fb6-e1a37ea74df1
+  : 45aca59b-93b3-46da-a3f1-53bc928248d7
   ? !!python/tuple
   - 1908-0438
   - *id130
   - .nan
   - "Solf\xE8ge"
-  : f127061e-e3ac-4435-86be-c165c4f1d7e5
+  : 2aec3885-8c05-44f0-8918-a1fc580ecae5
   ? !!python/tuple
   - 1908-0438
   - 1911-01-22 00:00:00
   - .nan
   - "D\xE9clamation lyrique"
-  : 2d63d466-53a4-4970-8878-576f4c5af7e0
+  : 04e35914-3a33-4869-9730-9e1bfd93a47d
   ? !!python/tuple
   - 1908-0468
   - 1912-11-29 00:00:00
   - .nan
   - 'Piano '
-  : 5f4c2ec4-d946-4a87-8920-e57cd1db3d56
+  : 47338ced-756d-46e0-ae3b-61032bfac7ec
   ? !!python/tuple
   - 1910-[0471 bis]
   - 1908-11-20 00:00:00
   - .nan
   - Harmonie
-  : c7914c99-1376-4411-bf23-29c04573abe5
+  : 8ae1db0b-1208-4077-b52a-d019e788cbca
   ? !!python/tuple
   - 1908-0472
   - *id131
   - .nan
   - Contrepoint
-  : f0fbc19e-6d90-430b-8bd8-985d7a2a03ab
+  : 35da7115-36db-4871-915a-739a45e041aa
   ? !!python/tuple
   - 1910-[0472 bis]
   - &id132 1908-11-26 00:00:00
   - .nan
   - Harmonie
-  : 5a206b24-3f03-4ba3-ab35-ebe359478ba6
+  : 7f77f0f1-3614-4e72-ada6-e749e3e945dc
   ? !!python/tuple
   - 1910-[0473 bis]
   - *id132
   - .nan
   - Harmonie
-  : 962f72d9-4b6c-4fa3-9c13-eb9085d531ff
+  : e95baf0f-e74e-4ae6-802b-e7d3a0fd66c2
   ? !!python/tuple
   - 1908-0474
   - *id132
   - .nan
   - Harmonie
-  : 8031e3c3-0f87-42bf-8ef4-0f48cb11e748
+  : 233908ac-d1b3-4993-8a47-b80490a02ff5
   ? !!python/tuple
   - 1910-[0475 bis]
   - 1911-11-22 00:00:00
   - .nan
   - 'Piano '
-  : 8533429d-92aa-4829-b49b-8aac28018167
+  : 108cb1b1-0864-44f8-99e5-08dd5d8b9966
   ? !!python/tuple
   - 1910-[0481 bis]
   - *id133
   - '[1910-00-00]'
   - .nan
-  : be55819a-0a38-45db-898a-e4b0c7a121ae
+  : 31f86901-80c9-40d7-abbd-5a980faefb6b
   ? !!python/tuple
   - 1912-[0363 bis]
   - 1912-11-30 00:00:00
   - .nan
   - Harmonie
-  : e7aa7659-88a3-4f39-8ce4-e77da9397714
+  : a5f3a3b4-fade-4b81-85dc-8b6647c40935
   ? !!python/tuple
   - 1912-[0363 bis]
   - 1919-09-12 00:00:00
   - .nan
   - Harmonie
-  : 4d3ee729-6950-4adc-bdf7-0e016eb56dfe
+  : b4f983c2-c770-4037-b037-d2a14fd4082c
   ? !!python/tuple
   - 1912-[0363 bis]
   - 1913-11-30 00:00:00
   - .nan
   - Accompagnement au piano
-  : 5bed0e90-b4c9-4356-bec5-35a1a32dec13
+  : bf88527e-e0f4-41aa-a191-6f92b1f5f2e4
   ? !!python/tuple
   - 1913-0370
   - *id131
   - .nan
   - "Solf\xE8ge"
-  : 28400ed3-514c-416b-b6eb-b74e52bff005
+  : 832412f3-9218-49cb-9e91-297c997bda2c
   ? !!python/tuple
   - 1913-0371
   - 1913-10-15 00:00:00
   - .nan
   - Hautbois
-  : b933f08b-e1ea-43df-aa69-0ccb88b2d76b
+  : 2ed28ccc-6961-4d9c-870c-c1f097dc2a3e
   ? !!python/tuple
   - 1913-0373
   - .nan
   - '1923-00-00'
   - Histoire de la Musique
-  : 8f55c2b7-8964-4cc7-a5a5-f28be26f49be
+  : 3b26882a-9c5c-4921-a8a4-3e90d4032636
   ? !!python/tuple
   - 1913-[0388 bis]
   - 1916-01-03 00:00:00
   - .nan
   - "Solf\xE8ge"
-  : ccf25840-b335-41bc-8d68-92e0ce2ca30c
+  : 3a758d5a-14ac-49c1-abab-24c3cc8bf2b4
   ? !!python/tuple
   - 1913-[0403 bis]
   - 1913-11-21 00:00:00
   - .nan
   - "Solf\xE8ge"
-  : 275a1d51-e6b0-40e2-9d62-afc3d64e95f4
+  : bc770c46-86f3-4dd0-8bef-49102798dab7
   ? !!python/tuple
   - 1913-[0412 bis]
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : f00ce268-3193-4ea1-9275-f5dc8fd2c565
+  : 33f7621f-a249-427f-bf6a-f28c80660046
   ? !!python/tuple
   - 1913-0413
   - .nan
   - '1917-00-00'
   - Histoire de la Musique
-  : 455ed22f-c022-4adf-892c-751d5fbd3187
+  : e9cacb61-2fce-45d8-babb-67c7b64a0654
   ? !!python/tuple
   - 1913-[0413 bis]
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : d52c1126-5d3e-4351-9b5b-a7af4998c670
+  : 84f3dbac-1ab0-4777-9564-897d8d8a5537
   ? !!python/tuple
   - 1913-0414
   - .nan
   - '[1918-00-00]'
   - Histoire de la Musique
-  : df8463df-7a24-4642-8b8c-8002bc42da28
+  : dd094324-2540-48d6-a44d-74adf1a102ca
   ? !!python/tuple
   - 1913-[0414 bis]
   - .nan
   - .nan
   - .nan
-  : 00944e8f-5454-43f6-abd3-db75fd5832a0
+  : 7a374193-9c1c-4230-8527-f06b5906ac2d
   ? !!python/tuple
   - 1913-[0414 bis]
   - .nan
   - '1917-00-00'
   - Histoire de la Musique
-  : 74d47e65-c546-494f-b70b-13dc498f5f58
+  : eeee1068-cb87-44cf-8109-19ac54cc3d3d
   ? !!python/tuple
   - 1913-[0415 bis]
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : a677b8a9-cde1-4f12-8a8f-c9341f76e565
+  : 4e26f1c4-5ee2-46a6-a1c2-cb1543e3a126
   ? !!python/tuple
   - 1913-0416
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : d2bca032-86f1-491c-98e1-fda72e84e422
+  : 465497e6-201f-4982-87df-b544fcee15d9
   ? !!python/tuple
   - 1913-0419
   - .nan
   - '1916-00-00'
   - Histoire de la Musique
-  : 7dbbb54b-a1cf-44eb-94c6-14bbd61b8b57
+  : 049c2822-c099-4dc1-91fa-17c455f94d3f
   ? !!python/tuple
   - 1913-[0419 bis]
   - .nan
   - '[1917-00-00]'
   - Histoire de la Musique
-  : 26146d70-e8c5-47b9-826d-33be122a5449
+  : 9530ebd5-e193-419e-8652-0b62a96b4701
   ? !!python/tuple
   - 1913-[0419 bis]
   - .nan
   - '[1917-00-00]'
   - "Solf\xE8ge"
-  : abf2028f-f9d2-412a-850e-ef1f10526b7d
+  : 904297c1-c68d-42c7-9e9a-80b1eed4ff34
   ? !!python/tuple
   - 1913-0420
   - .nan
   - .nan
   - Histoire de la Musique
-  : 37401778-b285-4cad-802b-ceebbf991bf0
+  : 960006c9-650e-45e7-939a-3ad2579a3ab8
   ? !!python/tuple
   - 1913-[0420 bis]
   - .nan
   - .nan
   - Histoire de la Musique
-  : a4aff4c5-33d6-4d1b-8b43-12be1fa7e5fe
+  : 63cea4b0-0a00-4178-a37e-3f985b393f4e
   ? !!python/tuple
   - 1913-0421
   - .nan
   - .nan
   - Histoire de la Musique
-  : aaff0466-63c4-4e8a-a1fc-a4483d9c202e
+  : 6c4ded71-dde5-4be6-861d-0b2aa07b6afa
   ? !!python/tuple
   - 1913-[0431 bis]
   - .nan
   - .nan
   - Histoire de la Musique
-  : 1fe14b0e-eb48-4c6c-9b67-bfbfcb9af2ef
+  : 1abaf74e-cc37-4ba0-bb4f-68da916b6e28
   ? !!python/tuple
   - 1913-[0432 bis]
   - .nan
   - '[1916-00-00]'
   - "Solf\xE8ge"
-  : 98743365-c7f3-4696-be24-28d0dc12e641
+  : a9aeaf94-9693-4702-a1f6-d1747ef7c81f
   ? !!python/tuple
   - 1913-0435
   - .nan
   - '[1921-00-00]'
   - Histoire de la Musique
-  : 5cc55c22-c978-42a7-8988-14ae79abe6c2
+  : 4e36dc56-f62b-45f0-a8ec-f31a1cea82a8
   ? !!python/tuple
   - 1913-[0435 bis]
   - .nan
   - '[1921-00-00]'
   - Histoire de la Musique
-  : d512c435-dd41-47e7-959c-e5a7dfcfef93
+  : 058a70b3-491f-4e04-9d68-8319822ecd93
   ? !!python/tuple
   - 1913-0438
   - .nan
   - '[1916-00-00]'
   - Histoire de la Musique
-  : a2898d71-9f67-4363-a9c1-f5671a7631d2
+  : 0666e5e1-257d-4f46-93c0-80d53427a9f6
   ? !!python/tuple
   - 1913-[0439 bis]
   - .nan
   - '[1919-00-00]'
   - Histoire de la Musique
-  : eac6133d-cc83-498b-a55f-094948c136a3
+  : 443c2c58-c384-48e9-ae13-ed3cd7c768cb
   ? !!python/tuple
   - 1913-[0441 bis]
   - .nan
   - '[1923-00-00]'
   - Histoire de la Musique
-  : bf5f7eab-2a88-4866-96b0-9401548d44f7
+  : f85957af-32f3-4e05-9ec5-a2ad9599e2ad
   ? !!python/tuple
   - 1913-0447
   - .nan
   - .nan
   - Histoire de la Musique
-  : 99f77d04-6dc5-4b5b-96e0-68eb5d94f416
+  : 3c01113e-9e33-435e-8a12-23a927cf86fd
   ? !!python/tuple
   - 1913-0448
   - .nan
   - '1918-00-00'
   - Histoire de la Musique
-  : 6911e392-b98b-4292-b734-e17a10f74ab0
+  : 576efe72-aa5d-4d90-a705-6188aee07f47
   ? !!python/tuple
   - 1913-[0455 bis]
   - .nan
   - .nan
   - .nan
-  : 2a7c3843-0594-4bf5-bc0a-de19bc9b5b30
+  : ce97c1e2-7bbb-48a8-aa24-f922948856e3
   ? !!python/tuple
   - 1913-[0455 bis]
   - .nan
   - '1923-00-00'
   - Direction d'Orchestre
-  : e46ed132-c3df-4bf6-acd9-acd036154606
+  : f3522975-b515-4383-be49-8c007eb59931
   ? !!python/tuple
   - 1913-[0456 bis]
   - .nan
   - .nan
   - Histoire de la Musique
-  : f9f87ed8-8412-48ea-a54b-a96e3c8bf39f
+  : 162c39f3-157d-413a-8dc5-4bee3b6007f1
   ? !!python/tuple
   - 1913-[0457 bis]
   - .nan
   - '[1920-00-00]'
   - Histoire de la Musique
-  : c68f783b-4dcf-4754-8ddf-6362d42fde22
+  : 1be31ce2-2c84-4374-84f1-398d51e28436
   ? !!python/tuple
   - 1913-[0461 bis]
   - .nan
   - '[1916-00-00]'
   - Histoire de la Musique
-  : f8b115c8-66a0-4e7d-aebb-828283c20ade
+  : f7c43af3-b513-4056-ba2b-a3a4e6eb5a16
   ? !!python/tuple
   - 1913-0463
   - .nan
   - '[1922-00-00]'
   - Histoire de la Musique
-  : 72e4ee96-6740-408a-a8e9-2f5d3c3f1f29
+  : 022c935a-e223-4111-a547-e47e606d7589
   ? !!python/tuple
   - 1914-0464
   - .nan
   - &id134 1923-01-23 00:00:00
   - Contrepoint
-  : e413bf1b-c7da-490b-a952-27353ccade16
+  : 280f9ee1-9f17-4de9-ace1-7cbe106e1b67
   ? !!python/tuple
   - 1914-0464
   - .nan
   - *id134
   - Direction d'Orchestre
-  : 77b457f0-3dab-4aa9-a5e0-d6f875d908cc
+  : b230b4dd-5fc9-43e2-a53d-672ac14dcfbd
   ? !!python/tuple
   - 1914-0469
   - .nan
   - '1923-10-00'
   - "Solf\xE8ge"
-  : a286e3c9-13c2-46b9-b87a-3ce9dc61b566
+  : cbf9bdf1-3471-4a69-9908-c46694207279
   ? !!python/tuple
   - 1914-[0471 bis]
   - &id135 1914-12-19 00:00:00
   - .nan
   - "D\xE9clamation"
-  : 10e2cee5-3cda-4eb7-a515-b3addb7a1246
+  : 8c82ea17-3e78-44a6-a1b0-4a86aee388be
   ? !!python/tuple
   - 1914-[0471 bis]
   - .nan
   - .nan
   - "Histoire et Litt\xE9rature dramatique"
-  : 6b481872-0ff9-4025-8bf5-7de123c2ddab
+  : 577c6885-5c45-42a5-8956-6020d7544acd
   ? !!python/tuple
   - 1914-[0474 bis]
   - *id135
   - .nan
   - "D\xE9clamation"
-  : 9d0e4ed1-e697-4859-804a-f8d1135c31b0
+  : 0baccc0a-fad9-4f48-86c5-a1eebd5297e3
   ? !!python/tuple
   - 1914-0482
   - .nan
   - '[1916-00-00]'
   - Histoire de la Musique
-  : 5f634227-fd89-4c29-be2d-fcb8b55cf6bb
+  : a942d131-d8c5-4291-8d9a-2ad48dde4824
   ? !!python/tuple
   - 1914-0482
   - .nan
   - '1920-00-00'
   - "D\xE9clamation lyrique"
-  : a7ad47b1-cabc-45e3-8629-615321031386
+  : 97904ba4-f2c3-4ebe-9480-3324a4fb7267
   ? !!python/tuple
   - 1914-[0488 bis]
   - .nan
   - .nan
   - Histoire de la Musique
-  : 34b60877-645a-4931-802e-709489a35b15
+  : 18452b86-659c-4775-9888-6436246b98d5
   ? !!python/tuple
   - 1914-0489
   - .nan
   - .nan
   - Histoire de la Musique
-  : 1cdd2cad-0e91-44cd-bfcd-5b729254726c
+  : 9c3c5169-1656-4b7e-985a-e6ebcee1be62
   ? !!python/tuple
   - 1914-[0490 bis]
   - .nan
   - .nan
   - Histoire de la Musique
-  : c442a9d2-8592-433d-9316-49eace21b543
+  : f991e12d-1481-4eb1-b84a-833e565c9ea2
   ? !!python/tuple
   - 1914-[0491 bis]
   - .nan
   - '1915-00-00'
   - "Solf\xE8ge"
-  : d1556a73-d477-4b3b-afca-cc0a18f79dc6
+  : 5a1c9d59-52ba-49d9-b394-d541c8e6f978
 pays:
   ' Turquie': 0b082d59-05b2-42cf-b900-cf2be843007b
   "Alg\xE9rie": b10fe097-b8be-444a-8fbb-2ecc682189a8
@@ -9761,7 +9761,7 @@ prix:
   - .nan
   - .nan
   - .nan
-  : adc709d5-2bc4-44e3-8e0b-fb3ab03f4bc4
+  : 444f559e-fa7a-44da-b0b4-eec94fa1b08e
   ? !!python/tuple
   - '1908-00-00'
   - Accessit 2
@@ -11216,7 +11216,7 @@ prix:
   - '1920-00-00'
   - Prix Lepaulle
   - .nan
-  : edeb9056-cc3e-47c9-871d-216878fd971c
+  : fd6b11cd-86d8-472e-be43-ad6fec8443c3
   ? !!python/tuple
   - '1921-00-00'
   - Accessit 2
@@ -11226,17 +11226,17 @@ prix:
   - '1921-00-00'
   - Prix  2
   - .nan
-  : 25dd1388-ee6b-4851-a296-c25c17bb7220
+  : 13fe9c90-fd59-4e53-8b4e-41d18a7036cd
   ? !!python/tuple
   - '1922-00-00'
   - Prix 2
   - .nan
-  : 6ff264ee-8b12-451a-bf29-2f4232b25123
+  : c3bc00da-c1ba-4c7d-9e40-7633a6a0f6c7
   ? !!python/tuple
   - '1923-00-00'
   - Prix 1
   - .nan
-  : 06cdff88-b4bc-4f13-bbfb-334b16740b85
+  : c29dd758-9bbb-44ea-8f75-0e66c092471b
   ? !!python/tuple
   - '1911-00-00'
   - Prix 2
@@ -11751,7 +11751,7 @@ prix:
   - '1922-00-00'
   - Grand prix (mention honorable)
   - .nan
-  : 88a80a2d-0fd6-43a2-8845-4836c9a65f0d
+  : 4528798d-ee68-459f-a364-2836123d973e
   ? !!python/tuple
   - '1913-00-00'
   - Accessit 2
@@ -11801,7 +11801,7 @@ prix:
   - '1919-00-00'
   - Prix
   - .nan
-  : de8c5e76-f820-4f9a-9c21-15cc20d12dbb
+  : aaae7f7f-bd86-4802-91e3-be3aed339a4d
   ? !!python/tuple
   - '1919-00-00'
   - Prix 2
@@ -11811,7 +11811,7 @@ prix:
   - '1920-00-00'
   - Prix
   - .nan
-  : 87a7bca0-35c0-4095-833e-8f44e0a74b22
+  : 0ea9bac2-7e19-4814-9ded-553c454abfff
   ? !!python/tuple
   - '1911-00-00'
   - "M\xE9daille 1"
@@ -11976,7 +11976,7 @@ prix:
   - '1920-00-00'
   - 'Prix '
   - .nan
-  : 1512f838-9da3-4f4a-9428-af7454b9133a
+  : 28661ebf-2653-4c04-86c4-30016217f81c
   ? !!python/tuple
   - '1915-00-00'
   - Accessit 2
@@ -12441,7 +12441,7 @@ prix:
   - 1916
   - Prix
   - .nan
-  : 7bfe714a-6eeb-460c-ab16-fd50c53e6e7c
+  : 57468e4a-25eb-4cc4-998c-3f50acb8a176
   ? !!python/tuple
   - 1916
   - Accessit 1 Rappel
@@ -12456,7 +12456,7 @@ prix:
   - 1917
   - 'Prix 1 '
   - .nan
-  : e7315381-702e-4d60-9e9f-4a95871c338d
+  : d58188f1-5a57-469d-8227-18160b239a15
   ? !!python/tuple
   - 1917
   - Prix 2
@@ -12501,7 +12501,7 @@ prix:
   - 1916
   - Prix Ponsin
   - .nan
-  : c799ac9b-d507-42d1-950d-56b9db6ec1bc
+  : 1ef01f12-737b-4099-bef9-f5b7b11ae83b
   ? !!python/tuple
   - 1915
   - Accessit 1
@@ -12756,7 +12756,7 @@ prix:
   - 1916
   - Mention 2 Rappel
   - .nan
-  : 73b8f07a-813d-4bdd-b859-fd705ad5d7ff
+  : baba2001-d4b4-44d8-a3ce-f3582fd24214
   ? !!python/tuple
   - 1916
   - Prix 2
@@ -13721,7 +13721,7 @@ prix:
   - 1920
   - Prix
   - .nan
-  : f6adfc35-f1a7-46b2-a615-d18f43b2731b
+  : 83763966-2c76-4e8f-9bc5-531c165ceea0
   ? !!python/tuple
   - 1921
   - Accessit 1
@@ -13751,7 +13751,7 @@ prix:
   - 1917
   - Prix
   - .nan
-  : 31ee7e08-af4b-47c4-b8d3-de17cecf34f3
+  : b3d420b6-be3e-4d0a-bb78-8ebfb866319e
   ? !!python/tuple
   - 1917
   - 'Prix 1 '
@@ -13936,77 +13936,77 @@ prix:
   - .nan
   - .nan
   - .nan
-  : 444f559e-fa7a-44da-b0b4-eec94fa1b08e
+  : 3e5ac946-9ad1-4c80-a827-87bcc0e3386a
   ? !!python/tuple
   - '1920-00-00'
   - Prix Lepaulle
   - .nan
-  : fd6b11cd-86d8-472e-be43-ad6fec8443c3
+  : b98924a4-eae6-458c-be6a-128cf55f7213
   ? !!python/tuple
   - '1921-00-00'
   - Prix  2
   - .nan
-  : 13fe9c90-fd59-4e53-8b4e-41d18a7036cd
+  : 865c0bfe-946a-488d-873d-f83481eecc86
   ? !!python/tuple
   - '1922-00-00'
   - Prix 2
   - .nan
-  : c3bc00da-c1ba-4c7d-9e40-7633a6a0f6c7
+  : 40019ce2-751e-4b25-8112-40e02e32e5bb
   ? !!python/tuple
   - '1923-00-00'
   - Prix 1
   - .nan
-  : c29dd758-9bbb-44ea-8f75-0e66c092471b
+  : 376767e7-0bef-40cb-a774-3b8be7d77659
   ? !!python/tuple
   - '1922-00-00'
   - Grand prix (mention honorable)
   - .nan
-  : 4528798d-ee68-459f-a364-2836123d973e
+  : 34bb6753-c99f-490f-a13a-d5d218c0a63d
   ? !!python/tuple
   - '1919-00-00'
   - Prix
   - .nan
-  : aaae7f7f-bd86-4802-91e3-be3aed339a4d
+  : 2c39d5fe-55d4-4efc-9d4d-e9c81e5352af
   ? !!python/tuple
   - '1920-00-00'
   - Prix
   - .nan
-  : 0ea9bac2-7e19-4814-9ded-553c454abfff
+  : 8f46aac9-04c0-4656-828e-d28c9947cd4f
   ? !!python/tuple
   - '1920-00-00'
   - 'Prix '
   - .nan
-  : 28661ebf-2653-4c04-86c4-30016217f81c
+  : 900f45f9-542c-47bf-b8b9-0ea3187445cc
   ? !!python/tuple
   - 1916
   - Prix
   - .nan
-  : 57468e4a-25eb-4cc4-998c-3f50acb8a176
+  : 0a9246f6-f8d6-410f-b7e1-98195a727f77
   ? !!python/tuple
   - 1917
   - 'Prix 1 '
   - .nan
-  : d58188f1-5a57-469d-8227-18160b239a15
+  : a119250b-88cf-41b8-8b31-3e354d62aa90
   ? !!python/tuple
   - 1916
   - Prix Ponsin
   - .nan
-  : 1ef01f12-737b-4099-bef9-f5b7b11ae83b
+  : bf612577-aedc-4776-b1bc-4dd4da19cdfd
   ? !!python/tuple
   - 1916
   - Mention 2 Rappel
   - .nan
-  : baba2001-d4b4-44d8-a3ce-f3582fd24214
+  : 4032f529-a278-4365-ba0a-c4f04dfa55ff
   ? !!python/tuple
   - 1920
   - Prix
   - .nan
-  : 83763966-2c76-4e8f-9bc5-531c165ceea0
+  : 6fba8ea5-6a2e-416d-bb3c-aa12e55c6e94
   ? !!python/tuple
   - 1917
   - Prix
   - .nan
-  : b3d420b6-be3e-4d0a-bb78-8ebfb866319e
+  : 0579cc8d-27f7-4a72-a908-064d0bfbbd74
 professeurs:
   Pessard: 4e5c7afa-3d54-428a-94ec-0dfc4a1b7c27
   Guilmant: 2a44dade-c0f9-433e-b0c9-6f6f39c20df6
@@ -14023,7 +14023,7 @@ professeurs:
   ' Indy, de': 5e6d14cf-18e8-44e7-997c-5345c107e828
   Kaiser: a2769c76-c24e-466b-9118-21ec2e1edae7
   Taudou: 39ec615a-877f-43c5-a1c4-453baf983444
-  .nan: 58a27925-9690-488a-869e-5ce7da1757fd
+  .nan: 7156801d-9a5f-4e10-8eac-dc11a7d577c1
   Widor: 995656cc-c483-426a-8b7f-873a7fee86f3
   Cuignache: 6bc827dd-28bf-4bce-862d-748c9f494fed
   Savignac: ec476e7b-1116-45c2-86da-55cdc1b20368
@@ -14162,7 +14162,7 @@ professeurs:
   du Minil: 38cdfa61-4be9-48fb-86d0-89528faa1225
   P. Mounet: ece8f5e4-cb6a-43e3-a58b-690f09b504bf
   Guillamat: d8d60f13-1eea-49bf-99b8-7f385736a956
-  .nan: 7156801d-9a5f-4e10-8eac-dc11a7d577c1
+  .nan: 231d18ec-d633-40b3-b5cd-09d8121d6de0
 villes:
   Abbeville: 3a357db7-cb6b-4942-9d45-2f6e01e86f69
   "Alen\xE7on": 14b240a3-ac93-4e0e-8a4a-b4ebf427ee37

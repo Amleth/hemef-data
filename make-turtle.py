@@ -493,7 +493,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             (
                 URIRef(cursus[row['identifiant_1']]),
                 URIRef(is_a),
-                URIRef("Cursus")
+                URIRef(HEMEF["Cursus"])
             )
         )
         if (str(row["cursus_motif_admission"]) != 'NaN' and str(row["cursus_motif_admission"]) != 'nan'):
