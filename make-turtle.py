@@ -97,11 +97,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
 
-        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"])):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
-        if ((pandas.notna(row["identifiant_1"]) and ["parcours_classe_date_entree"] and row["parcours_classe_date_sortie"] and pandas.notna(row["classe_discipline"]))):
+        if ((pandas.notna(row["identifiant_1"]) and pandas.notna(["parcours_classe_date_entree"]) and pandas.notna(row["parcours_classe_date_sortie"]) and pandas.notna(row["classe_discipline"]))):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes",'Disciplines')
@@ -462,7 +462,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     URIRef(uriVille)
                 ))
 
-        if (str(row["eleve_ville_naissance_ancien_nom"]) != 'nan'):
+        if (pandas.notna(row["eleve_ville_naissance_ancien_nom"])):
             g.add(
                 (
                     URIRef(uriVille),
@@ -497,7 +497,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 URIRef(HEMEF["Cursus"])
             )
         )
-        if (str(row["cursus_motif_admission"]) != 'NaN' and str(row["cursus_motif_admission"]) != 'nan'):
+        if (pandas.notna(row["cursus_motif_admission"])):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -507,7 +507,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             )
 
         # cursus_date_epreuve_admission non traité, vide
-        if (str(row["cursus_date_entree_conservatoire"]) != 'NaN'):
+        if (pandas.notna(row["cursus_date_entree_conservatoire"])):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -516,7 +516,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        if (str(row["cursus_date_sortie_conservatoire"]).lower() != 'nan'):
+        if (pandas.notna(row["cursus_date_sortie_conservatoire"])):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -525,7 +525,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        if (str(row["cursus_motif_sortie"]).lower() != 'nan'):
+        if (pandas.notna(row["cursus_motif_sortie"])):
             g.add(
                 (
                     URIRef(cursus[row['identifiant_1']]),
@@ -554,11 +554,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         # Gestion des prix
         uriPrix = None
-        if (str(row["prix_date"]) != 'nan' and str(row["prix_nom"]) != 'nan' and str(row["prix_discipline"]) != 'nan'):
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"])):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             uriPrix = prix[id_prix]
 
-            if (str(row["prix_discipline"]) != 'NaN' and str(row["prix_discipline"]) != 'nan'):
+            if (pandas.notna(row["prix_discipline"])):
                 intitule_prix = str(row["prix_nom"]) + " " + str(row["prix_date"]) + " : " + str(row["prix_discipline"])
             else:
                 intitule_prix = str(row["prix_nom"]) + " " + str(row["prix_date"])
@@ -579,7 +579,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            if (str(row["prix_nom"]) != 'NaN'):
+            if (pandas.notna(row["prix_nom"])):
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -595,7 +595,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["prix_date"], datatype=XSD.Date)
                 )
             )
-            if (str(row["prix_discipline"]) != 'NaN' and str(row["prix_discipline"]) != 'nan'):
+            if (pandas.notna(row["prix_discipline"])):
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -666,7 +666,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
         # Gestion Parcours_classe
 
-        if (row["identifiant_1"] != 'nan' and row["parcours_classe_date_entree"] != 'nan' and row["parcours_classe_date_sortie"] != 'nan' and row["classe_discipline"] != 'nan'):
+        if (pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["parcours_classe_date_sortie"]) and pandas.notna(row["classe_discipline"])):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
             uri_parcours_classe = parcours_classe[id_parcours_classe]
 
