@@ -585,6 +585,11 @@
     hemef:profession_pere "tailleur d'habits" ;
     hemef:sexe "Homme" .
 
+<0f9a5c4a-9dbf-4838-9272-01e32991a2df> a hemef:Prix ;
+    <date_prix> "1916"^^xsd:Date ;
+    hemef:intitule "Mention 2 Rappel 1916" ;
+    hemef:nom_prix "Mention 2 Rappel" .
+
 <0fb9141b-7708-48a7-acc8-3ba4955ebd8e> a hemef:Professeur ;
     hemef:enseigne <e0f57a8b-9496-42c6-a39b-5bff9a4c8071>,
         <fd069f99-2dee-430e-a124-3b85d20998ed> ;
@@ -3413,11 +3418,6 @@
 <6630f6b3-060d-4929-9529-fca5a2950ddd> a hemef:Professeur ;
     hemef:enseigne <b96de003-52d9-4abb-84a7-7cc2116ce45f> ;
     hemef:nom_professeur "Mellet" .
-
-<66a25442-bbb7-4070-97c0-501c4926f5dd> a hemef:Prix ;
-    <date_prix> "1916"^^xsd:Date ;
-    hemef:intitule "Mention 2 Rappel 1916" ;
-    hemef:nom_prix "Mention 2 Rappel" .
 
 <67d1751d-7ecd-419f-bf30-2539b646ac51> a hemef:Eleve ;
     hemef:a_pour_cursus <2ff7d01d-16dc-4ea7-aaf2-6ee278f577ab> ;
@@ -9064,12 +9064,6 @@
     hemef:est_parcours_de <d631893c-d30c-40f5-9a76-b58cceecbf9c> ;
     hemef:observations_eleve "En 1912 et 1913 a concouru contrepoint ; en 1915 a concouru composition ; 1917 malade examen de juin, composition ; [Motif sortie classe contrepoint : 1er Prix ; motif sortie composition : rayé ] " .
 
-<19457a66-dddf-41a8-80c1-04a439710147> a hemef:Prix ;
-    <date_prix> "1920"^^xsd:Date ;
-    hemef:intitule "Prix 1920" ;
-    hemef:nom_prix "Prix" ;
-    hemef:recompense_parcours <68690dea-af87-43c9-a972-8b7876da7d9d> .
-
 <196db2c6-20b3-4217-908c-e45ebebd1559> a hemef:Parcours_classe ;
     hemef:classe_parcourue <e22c7dbe-38ac-46e7-8714-fe553761f1e8> ;
     hemef:est_parcours_de <e13440fe-99f2-45db-a73d-7e754b08e34b> ;
@@ -9299,12 +9293,6 @@
     hemef:classe_parcourue <c1bc9ee2-7a4a-4113-a5c1-24e491a90887> ;
     hemef:est_parcours_de <90d82233-f133-46e3-803e-10e993fa540e> ;
     hemef:observations_eleve "En 1910 et 1911 a concouru harmonie ; EN 1914 malade examen de juin ; en 1916, 1817, 1918 et 1920 a concouru fugue ; [Motif sortie ; démission du conservatoire]" .
-
-<24608bcd-930a-439b-ba58-87f410c84612> a hemef:Prix ;
-    <date_prix> "1917"^^xsd:Date ;
-    hemef:intitule "Prix 1917" ;
-    hemef:nom_prix "Prix" ;
-    hemef:recompense_parcours <74e15217-ea0b-4be3-acca-5d63229d2a85> .
 
 <24bfe401-3f90-4c4f-8dc2-1d97c14d5703> a hemef:Parcours_classe ;
     hemef:classe_parcourue <5e153de4-abb1-47e9-b195-27fb1fb13303> ;
@@ -9594,6 +9582,12 @@
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <204fd46a-52fc-464b-a945-6bf738231beb> .
 
+<31bcab07-1805-418d-b7ce-1d2c68b196d5> a hemef:Prix ;
+    <date_prix> "1920-00-00"^^xsd:Date ;
+    hemef:intitule "Prix 1920-00-00" ;
+    hemef:nom_prix "Prix" ;
+    hemef:recompense_parcours <0a1494df-4e11-4f0d-b194-382929dd075f> .
+
 <321ec33a-f381-475f-9a1e-994c60a77218> a hemef:Parcours_classe ;
     hemef:classe_parcourue <dce4fc2e-fa11-4717-a5bc-db5f40d91c1c> ;
     hemef:est_parcours_de <6955f47b-7303-4e85-baa8-b46971da1a69> ;
@@ -9876,6 +9870,12 @@
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <9f44dcfa-8266-4941-b1d7-b569b048eca7> .
 
+<3e72737a-d9e4-4f6f-b0c8-32a5d87b4895> a hemef:Prix ;
+    <date_prix> "1922-00-00"^^xsd:Date ;
+    hemef:intitule "Prix 2 1922-00-00" ;
+    hemef:nom_prix "Prix 2" ;
+    hemef:recompense_parcours <9acb1651-e1f3-4e57-8e62-839a64974e41> .
+
 <3f14e683-d5d8-492e-807e-6b6029a0dd39> a hemef:Parcours_classe ;
     hemef:classe_parcourue <e866d2cc-c969-45cc-9b59-b623b1944c1a> ;
     hemef:est_parcours_de <84d0e608-9e4a-48a6-93fb-c40b8b34fd95> .
@@ -10103,12 +10103,6 @@
     hemef:est_parcours_de <8752e9dc-a612-4063-ae80-0c3cb577794a> ;
     hemef:motif_entree "admis par décision du Directeur" .
 
-<4700cd4d-b25c-4605-bbf3-8e4b6c38a5ec> a hemef:Prix ;
-    <date_prix> "1916"^^xsd:Date ;
-    hemef:intitule "Prix 1916" ;
-    hemef:nom_prix "Prix" ;
-    hemef:recompense_parcours <98e3381f-fa7e-4f08-902b-200f9cd5d2af> .
-
 <4827c8c2-8463-4132-bd9e-7e134292188c> a hemef:Prix ;
     <date_prix> "1910-00-00"^^xsd:Date ;
     hemef:discipline_prix "Hautbois" ;
@@ -10187,6 +10181,12 @@
     hemef:est_parcours_de <d631893c-d30c-40f5-9a76-b58cceecbf9c> ;
     hemef:motif_entree "admis par décision du directeur " ;
     hemef:observations_eleve "En 1912 et 1913 a concouru contrepoint ; en 1915 a concouru composition ; 1917 malade examen de juin, composition ; [Motif sortie classe contrepoint : 1er Prix] " .
+
+<4d5af4da-4323-40db-b793-1775f04e800d> a hemef:Prix ;
+    <date_prix> "1920-00-00"^^xsd:Date ;
+    hemef:intitule "Prix  1920-00-00" ;
+    hemef:nom_prix "Prix " ;
+    hemef:recompense_parcours <1094c5b3-aa9e-4664-b9bb-01523f962409> .
 
 <4d5b0e02-c8ce-4f2e-9935-e5ad6285dc98> a hemef:Parcours_classe ;
     hemef:classe_parcourue <2bcf5305-6dfe-4cf4-a34e-acb0995d3cad> ;
@@ -10452,12 +10452,6 @@
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <bd1061b5-7e52-45d6-84cb-c9930eebc14d> .
 
-<583fd050-1b3a-4076-946e-0c8827518d02> a hemef:Prix ;
-    <date_prix> "1922-00-00"^^xsd:Date ;
-    hemef:intitule "Prix 2 1922-00-00" ;
-    hemef:nom_prix "Prix 2" ;
-    hemef:recompense_parcours <9acb1651-e1f3-4e57-8e62-839a64974e41> .
-
 <58e656d9-563c-40c2-8a25-7bbd6a5b14b7> a hemef:Prix ;
     <date_prix> "1916-00-00"^^xsd:Date ;
     hemef:discipline_prix "Piano " ;
@@ -10519,12 +10513,6 @@
     hemef:intitule "Accessit 2 1920 : Trompette" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <54eaae12-7773-465f-94c8-a09c02872990> .
-
-<5b59f018-791e-4819-8f19-c5f250ae8d32> a hemef:Prix ;
-    <date_prix> "1920-00-00"^^xsd:Date ;
-    hemef:intitule "Prix  1920-00-00" ;
-    hemef:nom_prix "Prix " ;
-    hemef:recompense_parcours <1094c5b3-aa9e-4664-b9bb-01523f962409> .
 
 <5b74a8e2-6e48-46e9-bac8-a6e80e40f793> a hemef:Parcours_classe ;
     hemef:classe_parcourue <2bcf5305-6dfe-4cf4-a34e-acb0995d3cad> ;
@@ -10606,6 +10594,12 @@
     hemef:classe_parcourue <e22c7dbe-38ac-46e7-8714-fe553761f1e8> ;
     hemef:est_parcours_de <f84726eb-5772-4ade-bc21-fe7169f12a84> ;
     hemef:motif_entree "admis par décision du Jury" .
+
+<5f814210-bc34-4ed6-86d2-1cfb9dfc7422> a hemef:Prix ;
+    <date_prix> "1917"^^xsd:Date ;
+    hemef:intitule "Prix 1917" ;
+    hemef:nom_prix "Prix" ;
+    hemef:recompense_parcours <74e15217-ea0b-4be3-acca-5d63229d2a85> .
 
 <5fa00a4d-6c9d-4354-9c09-413dd8f3c797> a hemef:Prix ;
     <date_prix> "1918-00-00"^^xsd:Date ;
@@ -10721,6 +10715,12 @@
     hemef:motif_entree "admis par décision du directeur " ;
     hemef:observations_eleve "En 1909 et 1910 a concouru opéra ;  [Motif de sortie : démission du conservatoire]" .
 
+<62aea5fe-531a-4998-a576-22e802adca38> a hemef:Prix ;
+    <date_prix> "1920-00-00"^^xsd:Date ;
+    hemef:intitule "Prix Lepaulle 1920-00-00" ;
+    hemef:nom_prix "Prix Lepaulle" ;
+    hemef:recompense_parcours <9acb1651-e1f3-4e57-8e62-839a64974e41> .
+
 <62cb085d-bc6a-4a38-a4b5-6c0cc5feaf29> a hemef:Prix ;
     <date_prix> "1914"^^xsd:Date ;
     hemef:discipline_prix "Alto" ;
@@ -10802,6 +10802,12 @@
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6d4582b2-dbe0-4636-87ba-e2386acbabf2> .
 
+<65036f87-2fd7-4fb8-a976-05d9b3eeecc0> a hemef:Prix ;
+    <date_prix> "1919-00-00"^^xsd:Date ;
+    hemef:intitule "Prix 1919-00-00" ;
+    hemef:nom_prix "Prix" ;
+    hemef:recompense_parcours <0a1494df-4e11-4f0d-b194-382929dd075f> .
+
 <653def9d-70f5-47c5-a4fb-cc668b48d791> a hemef:Prix ;
     <date_prix> "1908-00-00"^^xsd:Date ;
     hemef:discipline_prix "Violon préparatoire " ;
@@ -10828,12 +10834,6 @@
     hemef:intitule "Accessit 1 1921 : Comédie et drame" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <bf933ad5-b6b7-462e-bb46-0906939f94a1> .
-
-<65fcc29b-79b1-4e7e-82c8-a6e7bb50b065> a hemef:Prix ;
-    <date_prix> "1916"^^xsd:Date ;
-    hemef:intitule "Prix Ponsin 1916" ;
-    hemef:nom_prix "Prix Ponsin" ;
-    hemef:recompense_parcours <1e968c2f-5cb5-4a7f-b436-3a3d0c81a0ce> .
 
 <665b8a40-5ebe-44bc-a01e-0a0ce18b7605> a hemef:Prix ;
     <date_prix> "1919-00-00"^^xsd:Date ;
@@ -11130,12 +11130,6 @@
     hemef:classe_parcourue <e866d2cc-c969-45cc-9b59-b623b1944c1a> ;
     hemef:est_parcours_de <fd40bce1-4f3a-4a46-8bee-a5a625424899> .
 
-<72bea31f-90db-4fcc-9cb2-da632ec36c25> a hemef:Prix ;
-    <date_prix> "1917"^^xsd:Date ;
-    hemef:intitule "Prix 1  1917" ;
-    hemef:nom_prix "Prix 1 " ;
-    hemef:recompense_parcours <6414a4ec-d8d3-43de-9653-0287f6497786> .
-
 <7342fdef-f49a-4bf1-abea-f4d3f69ed0f0> a hemef:Parcours_classe ;
     hemef:classe_parcourue <afca02ee-e64f-4dbe-ab0a-ae43cc8bf655> ;
     hemef:est_parcours_de <4f99bd75-7c16-4bd7-be2f-e42a92a5b781> ;
@@ -11402,6 +11396,12 @@
     hemef:intitule "Prix 2 1920 : Orgue" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <61efddbb-e175-47a6-ab5e-40a02d3b29a3> .
+
+<7f4591e3-4448-4702-a575-aa6eaf77ffda> a hemef:Prix ;
+    <date_prix> "1921-00-00"^^xsd:Date ;
+    hemef:intitule "Prix  2 1921-00-00" ;
+    hemef:nom_prix "Prix  2" ;
+    hemef:recompense_parcours <9acb1651-e1f3-4e57-8e62-839a64974e41> .
 
 <7fbfa581-978f-4268-aa2a-b59deda94041> a hemef:Prix ;
     <date_prix> "1909-00-00"^^xsd:Date ;
@@ -12199,9 +12199,21 @@
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <81c51603-a05c-4ce7-a55e-097493ae4953> .
 
+<a7c2b2d7-746c-4723-9ff5-618e254e2a65> a hemef:Prix ;
+    <date_prix> "1920"^^xsd:Date ;
+    hemef:intitule "Prix 1920" ;
+    hemef:nom_prix "Prix" ;
+    hemef:recompense_parcours <68690dea-af87-43c9-a972-8b7876da7d9d> .
+
 <a7fcdb0b-b9bb-460c-b071-64d6c61f82a2> a hemef:Cursus ;
     hemef:date_entree_conservatoire "1908-10-27T00:00:00"^^xsd:Date ;
     hemef:motif_admission "admis par décision du jury" .
+
+<a89579ed-4f8b-4a5d-9cdd-ed01e72163f0> a hemef:Prix ;
+    <date_prix> "1916"^^xsd:Date ;
+    hemef:intitule "Prix 1916" ;
+    hemef:nom_prix "Prix" ;
+    hemef:recompense_parcours <98e3381f-fa7e-4f08-902b-200f9cd5d2af> .
 
 <a8af0756-2a44-4bbc-b50e-0dbf53028224> a hemef:Prix ;
     <date_prix> "1916"^^xsd:Date ;
@@ -12409,6 +12421,12 @@
     hemef:intitule "Prix 2 1908-00-00 : Contrepoint" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <45554ee8-c762-4ea1-ac18-aa9219794669> .
+
+<b389a4a1-64a8-447a-bbd8-f36dfd490ccd> a hemef:Prix ;
+    <date_prix> "1922-00-00"^^xsd:Date ;
+    hemef:intitule "Grand prix (mention honorable) 1922-00-00" ;
+    hemef:nom_prix "Grand prix (mention honorable)" ;
+    hemef:recompense_parcours <9211ce79-1863-4269-a4f2-4473c91a8067> .
 
 <b39f84b4-7e8e-44c7-889c-522276aa387f> a hemef:Prix ;
     <date_prix> "1913-00-00"^^xsd:Date ;
@@ -12955,12 +12973,6 @@
     hemef:motif_entree "admis par décision du directeur " ;
     hemef:observations_eleve "1910-02-03 et 1911-01-30 : encouragement de 300 [f], chapitre 16 ; En 1911 a concouru solfège et chant ; en 1912 a concouru solfège ; [Motif sortie conservatoire : 1er prix opéra et chant] " .
 
-<c779c857-43ee-489a-8471-d2f17b14418f> a hemef:Prix ;
-    <date_prix> "1921-00-00"^^xsd:Date ;
-    hemef:intitule "Prix  2 1921-00-00" ;
-    hemef:nom_prix "Prix  2" ;
-    hemef:recompense_parcours <9acb1651-e1f3-4e57-8e62-839a64974e41> .
-
 <c80c9281-a410-47ff-aa6c-115ed4f8c118> a hemef:Parcours_classe ;
     hemef:classe_parcourue <2bcf5305-6dfe-4cf4-a34e-acb0995d3cad> ;
     hemef:est_parcours_de <b90a58ea-8d7d-4b44-9f33-1e5bdc999418> ;
@@ -13059,12 +13071,6 @@
     hemef:classe_parcourue <c1bc9ee2-7a4a-4113-a5c1-24e491a90887> ;
     hemef:est_parcours_de <90d82233-f133-46e3-803e-10e993fa540e> ;
     hemef:observations_eleve "En 1910 et 1911 a concouru harmonie ; EN 1914 malade examen de juin ; en 1916, 1817, 1918 et 1920 a concouru fugue ; [Motif sortie ; démission du conservatoire]" .
-
-<cbc952eb-2984-4c6c-a774-4ea0fedea42d> a hemef:Prix ;
-    <date_prix> "1920-00-00"^^xsd:Date ;
-    hemef:intitule "Prix Lepaulle 1920-00-00" ;
-    hemef:nom_prix "Prix Lepaulle" ;
-    hemef:recompense_parcours <9acb1651-e1f3-4e57-8e62-839a64974e41> .
 
 <cbe08d43-bed4-42bc-b846-c543c432e085> a hemef:Prix ;
     <date_prix> "1916"^^xsd:Date ;
@@ -13243,12 +13249,6 @@
     hemef:intitule "Prix 2 1911-00-00 : Tragédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <15a752bf-645b-49f7-a343-6430d29d1b96> .
-
-<d185514f-5da4-4184-bbab-06a40ff87157> a hemef:Prix ;
-    <date_prix> "1920-00-00"^^xsd:Date ;
-    hemef:intitule "Prix 1920-00-00" ;
-    hemef:nom_prix "Prix" ;
-    hemef:recompense_parcours <0a1494df-4e11-4f0d-b194-382929dd075f> .
 
 <d1ccb1db-c28f-4717-b12c-13470e8527b1> a hemef:Prix ;
     <date_prix> "1926"^^xsd:Date ;
@@ -13551,12 +13551,6 @@
     hemef:classe_parcourue <e866d2cc-c969-45cc-9b59-b623b1944c1a> ;
     hemef:est_parcours_de <eb066869-54ff-4c21-a917-3fd2a8fb9501> .
 
-<df54cb4d-7582-4192-a045-0bc9df33e114> a hemef:Prix ;
-    <date_prix> "1922-00-00"^^xsd:Date ;
-    hemef:intitule "Grand prix (mention honorable) 1922-00-00" ;
-    hemef:nom_prix "Grand prix (mention honorable)" ;
-    hemef:recompense_parcours <9211ce79-1863-4269-a4f2-4473c91a8067> .
-
 <df7c181b-96cd-4720-8bfc-4e78fa1b37f4> a hemef:Parcours_classe ;
     hemef:classe_parcourue <81fca567-0a92-41eb-b5fa-4071a693f176> ;
     hemef:est_parcours_de <4f99bd75-7c16-4bd7-be2f-e42a92a5b781> .
@@ -13673,12 +13667,6 @@
     hemef:classe_parcourue <2bcf5305-6dfe-4cf4-a34e-acb0995d3cad> ;
     hemef:est_parcours_de <b5269167-9135-4e2f-b9f1-71ea1049816b> ;
     hemef:observations_eleve "En 1912, 1913 et 1914 a concouru, Harmonie " .
-
-<e33a65e8-f415-4983-95e6-6f7e5fe286e7> a hemef:Prix ;
-    <date_prix> "1919-00-00"^^xsd:Date ;
-    hemef:intitule "Prix 1919-00-00" ;
-    hemef:nom_prix "Prix" ;
-    hemef:recompense_parcours <0a1494df-4e11-4f0d-b194-382929dd075f> .
 
 <e3479bb8-fe42-4141-89d4-a52745d2da50> a hemef:Parcours_classe ;
     hemef:classe_parcourue <5e153de4-abb1-47e9-b195-27fb1fb13303> ;
@@ -13961,6 +13949,12 @@
     hemef:intitule "Prix 1 1910-00-00 : Cor" ;
     hemef:nom_prix "Prix 1" ;
     hemef:recompense_parcours <4800bcb8-a8e6-462a-b6ad-81f416377a29> .
+
+<ecbb0b80-30bb-4127-8647-98df9ac40c00> a hemef:Prix ;
+    <date_prix> "1917"^^xsd:Date ;
+    hemef:intitule "Prix 1  1917" ;
+    hemef:nom_prix "Prix 1 " ;
+    hemef:recompense_parcours <6414a4ec-d8d3-43de-9653-0287f6497786> .
 
 <ecbc7876-1375-42c9-963e-df4fce8c77ac> a hemef:Parcours_classe ;
     hemef:classe_parcourue <c9483037-c372-4120-9e2b-4cd34ee50519> ;
@@ -14335,6 +14329,12 @@
     hemef:est_parcours_de <cfd5929f-14dd-4d72-b969-43711d119646> ;
     hemef:motif_entree "admis par décision du directeur " ;
     hemef:observations_eleve "absente examen juin (solfège) excusée ; " .
+
+<fe9834f6-f7af-479e-9f8b-b700f3874c42> a hemef:Prix ;
+    <date_prix> "1916"^^xsd:Date ;
+    hemef:intitule "Prix Ponsin 1916" ;
+    hemef:nom_prix "Prix Ponsin" ;
+    hemef:recompense_parcours <1e968c2f-5cb5-4a7f-b436-3a3d0c81a0ce> .
 
 <fea7b576-d41f-442f-ba8a-22bbd62dddfb> a hemef:Prix ;
     <date_prix> "1914-00-00"^^xsd:Date ;
@@ -17290,13 +17290,6 @@
     hemef:motif_entree "admis par décision du Jury" ;
     hemef:prix_decerne <ce8b2a11-7795-4c79-9160-6791f369ca76> .
 
-<882226d7-669f-477e-95bb-8f396cd824d5> a hemef:Prix ;
-    <date_prix> "1923-00-00"^^xsd:Date ;
-    hemef:intitule "Prix 1 1923-00-00" ;
-    hemef:nom_prix "Prix 1" ;
-    hemef:recompense_parcours <9211ce79-1863-4269-a4f2-4473c91a8067>,
-        <9acb1651-e1f3-4e57-8e62-839a64974e41> .
-
 <8848464a-ffc5-402e-85e7-a7f150949df6> a hemef:Parcours_classe ;
     hemef:classe_parcourue <e866d2cc-c969-45cc-9b59-b623b1944c1a> ;
     hemef:est_parcours_de <14fb44b4-b5bd-41d1-ba3c-dbd579d6b701> ;
@@ -17767,6 +17760,13 @@
     hemef:date_sortie_conservatoire "1910-10-15T00:00:00"^^xsd:Date ;
     hemef:motif_admission "admis par décision du directeur " ;
     hemef:motif_sortie "Rayé , art. 66" .
+
+<9fd1ffde-348b-4806-9173-6436dff88bc8> a hemef:Prix ;
+    <date_prix> "1923-00-00"^^xsd:Date ;
+    hemef:intitule "Prix 1 1923-00-00" ;
+    hemef:nom_prix "Prix 1" ;
+    hemef:recompense_parcours <9211ce79-1863-4269-a4f2-4473c91a8067>,
+        <9acb1651-e1f3-4e57-8e62-839a64974e41> .
 
 <9ff96a5a-d442-4904-b33b-cca477535133> a hemef:Parcours_classe ;
     hemef:classe_parcourue <afca02ee-e64f-4dbe-ab0a-ae43cc8bf655> ;
@@ -25961,8 +25961,8 @@
     hemef:classe_parcourue <e22c7dbe-38ac-46e7-8714-fe553761f1e8> ;
     hemef:est_parcours_de <e01aebaa-830c-4bd4-babe-04c14104c001> ;
     hemef:motif_entree "admis par décision du Jury" ;
-    hemef:prix_decerne <19457a66-dddf-41a8-80c1-04a439710147>,
-        <a521044d-aefb-46a4-9477-571eb62fb1d2>,
+    hemef:prix_decerne <a521044d-aefb-46a4-9477-571eb62fb1d2>,
+        <a7c2b2d7-746c-4723-9ff5-618e254e2a65>,
         <e1faf8eb-cc3b-45c2-a52b-6201a731ee24> .
 
 <69c1a580-2904-4dca-960c-74f91b535266> a hemef:Cursus ;
@@ -26336,8 +26336,8 @@
     hemef:est_parcours_de <6a4e2fe4-bd00-4ec6-9235-30165333fa5a> ;
     hemef:observations_eleve "1908-12-02 : encouragement de 15 [f], chapitre 17 ; 1909-02-28 bourse de 600 [f], chapitre 17 ; 1912-02-13 : bourse d'études de 600 [f], chapitre 22 ; En 1916 a concouru harmonie ; En 1919 prix Fernand Halphen (600);En 1921 a concouru fugue;en 1922 admise a concourir fugue,excusée ;  [Motif sortie classe piano préparatoire : 1e Médaille ; Motif de sortie conservatoire :  1er  Prix de Rome]" ;
     hemef:prix_decerne <01424b82-1247-4bba-aab7-90ec5b22cc87>,
-        <882226d7-669f-477e-95bb-8f396cd824d5>,
-        <df54cb4d-7582-4192-a045-0bc9df33e114> .
+        <9fd1ffde-348b-4806-9173-6436dff88bc8>,
+        <b389a4a1-64a8-447a-bbd8-f36dfd490ccd> .
 
 <928b4f2c-4995-43ea-a00a-a0fdc15a6283> a hemef:Cursus ;
     hemef:a_pour_parcours <0a1494df-4e11-4f0d-b194-382929dd075f>,
@@ -27605,7 +27605,7 @@
     hemef:classe_parcourue <0772d6ad-2046-4669-b9d2-78c6bcb36dda> ;
     hemef:est_parcours_de <0a3a746c-8d80-4404-9a8e-ea4e7b11b80e> ;
     hemef:observations_eleve "En 1916 a concouru violon ; [Motif sortie solfège : 1er médaille ; motif sortie conservatoire : 1er prix histoire de la musique ]" ;
-    hemef:prix_decerne <5b59f018-791e-4819-8f19-c5f250ae8d32>,
+    hemef:prix_decerne <4d5af4da-4323-40db-b793-1775f04e800d>,
         <797a4f87-e0ff-4f63-b0d3-14442857061b>,
         <afcf523c-2944-4775-9fc5-08ec4a1e4891>,
         <de77dd4f-cdef-4389-90ba-c09d2c820d89> .
@@ -28005,8 +28005,8 @@
     hemef:est_parcours_de <1e398689-2800-4b64-8e07-e144f33e6e50> ;
     hemef:motif_entree "admis par décision du Jury" ;
     hemef:prix_decerne <36d5b2db-3534-4e81-bad2-27c5d5367eb8>,
-        <4700cd4d-b25c-4605-bbf3-8e4b6c38a5ec>,
         <821ea726-3530-4169-a930-a6a72d235259>,
+        <a89579ed-4f8b-4a5d-9cdd-ed01e72163f0>,
         <b6906668-9d47-45ce-af01-f4df7468babd> .
 
 <9958d35d-2d04-4359-9de1-f02cd607df15> a hemef:Cursus ;
@@ -28401,10 +28401,10 @@
     hemef:est_parcours_de <65306caa-62a9-404c-af74-716b06397e74> ;
     hemef:motif_entree "admis par décision du Jury" ;
     hemef:prix_decerne <1fdad867-70dd-4a47-a10e-edceecfc117c>,
-        <65fcc29b-79b1-4e7e-82c8-a6e7bb50b065>,
         <b6906668-9d47-45ce-af01-f4df7468babd>,
         <e5789bf7-63fa-49ed-aba5-b99948bdd75b>,
-        <f66a1c79-831e-431f-b3d7-04e069f61e87> .
+        <f66a1c79-831e-431f-b3d7-04e069f61e87>,
+        <fe9834f6-f7af-479e-9f8b-b700f3874c42> .
 
 <3097fe81-70c4-470e-a486-a06091e89884> a skos:Concept ;
     skos:broader <b66bbe5d-02bc-432f-8161-7d7a97ceeb25> ;
@@ -28466,7 +28466,7 @@
         <3b59bf06-5d64-47b8-997d-9880ba1b38b8>,
         <6e98e92f-e037-44e9-be31-a2f709f6813d>,
         <70873f2f-94ad-401c-bfda-a70126093ebd>,
-        <72bea31f-90db-4fcc-9cb2-da632ec36c25> .
+        <ecbb0b80-30bb-4127-8647-98df9ac40c00> .
 
 <6bfa9e33-68b8-4dac-b1f9-1636b9efbe33> a skos:Concept ;
     skos:broader <aa971cb8-6ad1-4f39-bdf2-a74edbc6141d> ;
@@ -28572,10 +28572,10 @@
     hemef:classe_parcourue <c1bc9ee2-7a4a-4113-a5c1-24e491a90887> ;
     hemef:est_parcours_de <eb8f820e-aaa4-41fc-b8a1-fdd8b4403742> ;
     hemef:observations_eleve "En 1908 a concouru Harmonie ; En 1912 malade examen juin, fugue ; En 1913 a concouru fugue ; en 1913-1914 congé d'un an militaire ; en 1914-1919 congé (guerre) : en 1920 a concouru Fugue ; en 1921 a concouru composition ; [Motif de sortie harmonie :  1er Prix]" ;
-    hemef:prix_decerne <583fd050-1b3a-4076-946e-0c8827518d02>,
-        <882226d7-669f-477e-95bb-8f396cd824d5>,
-        <c779c857-43ee-489a-8471-d2f17b14418f>,
-        <cbc952eb-2984-4c6c-a774-4ea0fedea42d>,
+    hemef:prix_decerne <3e72737a-d9e4-4f6f-b0c8-32a5d87b4895>,
+        <62aea5fe-531a-4998-a576-22e802adca38>,
+        <7f4591e3-4448-4702-a575-aa6eaf77ffda>,
+        <9fd1ffde-348b-4806-9173-6436dff88bc8>,
         <d1460533-074c-44e8-925f-c4f3715781c7> .
 
 <a2ace181-ff32-4211-95bf-282db5db716f> a hemef:Parcours_classe ;
@@ -28754,10 +28754,10 @@
     hemef:classe_parcourue <e22c7dbe-38ac-46e7-8714-fe553761f1e8> ;
     hemef:est_parcours_de <928b4f2c-4995-43ea-a00a-a0fdc15a6283> ;
     hemef:observations_eleve "En 1909 a concouru solfège, non admise lecture ; En 1920 a concouru comédie ; [Motif de sortie piano préparatoire :  1e médaille]" ;
-    hemef:prix_decerne <3d8c50eb-9f97-48d5-b797-e9912e9eac1a>,
+    hemef:prix_decerne <31bcab07-1805-418d-b7ce-1d2c68b196d5>,
+        <3d8c50eb-9f97-48d5-b797-e9912e9eac1a>,
         <61c23a8e-1b9d-477b-a953-daca13afd93e>,
-        <d185514f-5da4-4184-bbab-06a40ff87157>,
-        <e33a65e8-f415-4983-95e6-6f7e5fe286e7>,
+        <65036f87-2fd7-4fb8-a976-05d9b3eeecc0>,
         <e4c6078c-7f03-48c6-a27d-c8acd6392301>,
         <ed3ce872-7e96-460a-8d2e-85fbb5c2a688> .
 
@@ -28895,7 +28895,7 @@
     hemef:est_parcours_de <97eb50a5-c756-4cd2-8e86-47a53f05ab48> ;
     hemef:motif_entree "admis par décision du Jury" ;
     hemef:prix_decerne <16cc94f7-bfd8-4e8d-a2f8-1ac6926c01d1>,
-        <24608bcd-930a-439b-ba58-87f410c84612>,
+        <5f814210-bc34-4ed6-86d2-1cfb9dfc7422>,
         <70873f2f-94ad-401c-bfda-a70126093ebd>,
         <8cc30d2c-aeb1-40ba-9f24-858a7a125da4>,
         <d0ef4d10-dc91-49d9-944b-919c0428244f>,
