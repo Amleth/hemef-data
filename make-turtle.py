@@ -57,9 +57,8 @@ if os.path.exists("registre.yaml"):
 def générer_uuid(type_entité, clef_entité):
     if type_entité not in registre:
         registre[type_entité] = {}
-    if clef_entité not in registre[type_entité]:
+    if clef_entité not in registre[type_entité] :
         registre[type_entité][clef_entité] = str(uuid.uuid4())
-
     return registre[type_entité][clef_entité]
 
 ################################################################################
@@ -92,22 +91,24 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["eleve_departement_naissance"])):
             departement[row["eleve_departement_naissance"]] = générer_uuid("departements", row["eleve_departement_naissance"])
         if (pandas.notna(row["eleve_pays_naissance"])):
-            pays[row["eleve_pays_naissance"]] = générer_uuid("pays", row["eleve_pays_naissance"])
-        else:
-            pays[row["eleve_pays_naissance"]] = générer_uuid("pays", "France")
+            pays[row["eleve_pays_naissance"]] = générer_uuid("pays",row["eleve_pays_naissance"])
+        else :
+            pays[row["eleve_pays_naissance"]] = générer_uuid("pays","France")
 
-        cursus[row["identifiant_1"]] = générer_uuid("cursus", row["identifiant_1"])
-        if (row["prix_date"] and row["prix_nom"] and row["prix_discipline"]):
+        cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
+
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
         if ((row["identifiant_1"] != 'nan' and ["parcours_classe_date_entree"] != 'nan' and row["parcours_classe_date_sortie"] != 'nan' and row["classe_discipline"] != 'nan')):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
-        ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
-        classe[row['classe_discipline']] = générer_uuid('discipline', row['classe_discipline'])
-
-        professeur[row['classe_nom_professeur']] = générer_uuid('professeurs', row['classe_nom_professeur'])
+        ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes",'Disciplines')
+        if ((pandas.notna(row['classe_discipline']))):
+            classe[row['classe_discipline']] = générer_uuid('discipline', row['classe_discipline'])
+        if ((pandas.notna(row['classe_nom_professeur']))):
+            professeur[row['classe_nom_professeur']] = générer_uuid('professeurs', row['classe_nom_professeur'])
 
         # Voilà, on est sûr que la ligne est OK
 
@@ -693,7 +694,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            if (str(row['parcours_classe_motif_entree']) != 'NaN') and (str(row['parcours_classe_motif_entree']) != 'nan'):
+            if (pandas.notna(row['parcours_classe_motif_entree'])) :
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
@@ -701,7 +702,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         Literal(row['parcours_classe_motif_entree'])
                     )
                 )
-            if (str(row['parcours_classe_observations_eleve']) != 'NaN') and (str(row['parcours_classe_observations_eleve']) != 'nan'):
+            if (pandas.notna(row['parcours_classe_observations_eleve'])) :
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
@@ -710,13 +711,14 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-            g.add(
-                (
-                    URIRef(uri_parcours_classe),
-                    URIRef(HEMEF['classe_parcourue']),
-                    URIRef(classe[row['classe_discipline']])
-                )
-            )
+            if (pandas.notna(row['classe_discipline'])) :
+                g.add(
+                        (
+                            URIRef(uri_parcours_classe),
+                            URIRef(HEMEF['classe_parcourue']),
+                            URIRef(classe[row['classe_discipline']])
+                        )
+                    )
 
             # g.add(
             #     (
@@ -755,3 +757,4 @@ with open(args.turtle, "w") as file:
 
 with open("registre.yaml", "w") as file:
     yaml.dump(registre, file)
+
