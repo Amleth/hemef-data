@@ -101,7 +101,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
-        if ((row["identifiant_1"] != 'nan' and ["parcours_classe_date_entree"] != 'nan' and row["parcours_classe_date_sortie"] != 'nan' and row["classe_discipline"] != 'nan')):
+        if ((pandas.notna(row["identifiant_1"]) and ["parcours_classe_date_entree"] and row["parcours_classe_date_sortie"] and pandas.notna(row["classe_discipline"]))):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes",'Disciplines')
