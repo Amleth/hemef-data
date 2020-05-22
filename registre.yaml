@@ -3505,6 +3505,217 @@ parcours_classe:
   ? !!python/tuple ['1914-[0498 bis]', *id077, !!timestamp '1916-11-21 00:00:00',
     "Solf\xE8ge"]
   : e3248f05-7c00-4c74-a6c3-f37b3753ec3c
+  ? !!python/tuple [1906-0298, &id127 !!timestamp '1906-11-27 00:00:00', .nan, Orgue]
+  : 01408913-f29e-4c25-bef1-c57f45ed32c4
+  ? !!python/tuple ['1906-[0301-bis]', *id127, .nan, "Solf\xE8ge"]
+  : 51096ef3-5251-46db-873c-3b4dcd1f70d9
+  ? !!python/tuple [1906-0302, !!timestamp '1923-01-23 00:00:00', .nan, 'Composition ']
+  : d3797af5-debb-4fe0-aca7-ad1308950a5e
+  ? !!python/tuple ['1907-[0312 bis]', !!timestamp '1907-10-15 00:00:00', .nan, 'Harpe ']
+  : bcaf397b-4389-48c2-b8b7-8da6c9c10dfe
+  ? !!python/tuple ['1907-[0345 bis]', .nan, .nan, Chant]
+  : 717f2254-5039-4355-8eb0-f23ac8c91cab
+  ? !!python/tuple [1907-0348, &id128 !!timestamp '1907-11-05 00:00:00', .nan, Cor]
+  : 64dc82ab-ff98-49cc-8206-22f507e87ae2
+  ? !!python/tuple ['1907-[0351 bis]', *id128, .nan, Trompette]
+  : b147a6f5-22b1-49dc-8983-ec67343d7b8c
+  ? !!python/tuple ['1907-[0376 bis]', !!timestamp '1907-11-22 00:00:00', .nan, 'Violon  ']
+  : 8090326b-a47b-4e83-b7d1-ac848695959d
+  ? !!python/tuple ['1907-[0377 bis]', &id129 !!timestamp '1907-11-29 00:00:00', .nan,
+    "Solf\xE8ge"]
+  : 71c7a4ad-6e3d-445a-ab67-057a77a08d96
+  ? !!python/tuple ['1907-[0377 bis]', !!timestamp '1909-10-29 00:00:00', .nan, 'Violon  ']
+  : f2df709b-eebd-4269-9e46-47ec9c9d88c3
+  ? !!python/tuple [1907-0379, *id129, .nan, "Solf\xE8ge"]
+  : c44b0f81-6597-4aaa-a99c-f89cbbbd14d9
+  ? !!python/tuple [1907-0379, !!timestamp '1910-10-28 00:00:00', .nan, 'Violon  ']
+  : 799fb1d4-6e93-4f7f-a2ca-8284bf3f3530
+  ? !!python/tuple ['1907-[0379 bis]', *id129, .nan, "Solf\xE8ge"]
+  : c757edc6-068f-4e4a-aff9-24b619605019
+  ? !!python/tuple [1907-0383, !!timestamp '1907-11-28 00:00:00', .nan, Harmonie]
+  : a87cddbf-7f15-4a96-a2b3-7677ee2fc79b
+  ? !!python/tuple [1907-0385, *id129, .nan, "Solf\xE8ge"]
+  : 609e66b3-6e72-43b9-8e8a-901ce392cc23
+  ? !!python/tuple [1907-0385, !!timestamp '1909-11-18 00:00:00', .nan, 'Harpe ']
+  : d232e742-e41c-47c8-8cbc-4912ff1834f5
+  ? !!python/tuple [1907-0385, !!timestamp '1914-12-29 00:00:00', .nan, Contrepoint]
+  : ab7345e0-39df-4382-91a8-c6195ae807a2
+  ? !!python/tuple [1907-0385, !!timestamp '1915-01-22 00:00:00', .nan, 'Accompagnement
+      au piano ']
+  : 04817e7a-c74c-41d6-bb56-1971e1c634f0
+  ? !!python/tuple [1907-0385, !!timestamp '1915-10-06 00:00:00', .nan, Orgue]
+  : 9e2aa229-c032-42ab-9465-fbc30043b701
+  ? !!python/tuple ['1907-[0385 bis]', *id129, .nan, "Solf\xE8ge"]
+  : 944edac8-9b55-4743-8c41-cbd79d1064f5
+  ? !!python/tuple [1907-0393, *id129, .nan, "Solf\xE8ge"]
+  : a52a4138-e0f4-416a-98d5-e399d8156d0d
+  ? !!python/tuple [1907-0393, !!timestamp '1908-11-19 00:00:00', .nan, "Piano pr\xE9\
+      paratoire"]
+  : 05455e56-8c11-48c4-acb0-c5f13072ed2a
+  ? !!python/tuple [1907-0393, !!timestamp '1911-10-20 00:00:00', .nan, 'Piano ']
+  : 79eadaaa-c8d2-4676-af3d-4299bf594b4e
+  ? !!python/tuple [1907-0393, &id131 !!timestamp '1913-11-26 00:00:00', .nan, Harmonie]
+  : 086ac23a-5972-4864-9faa-61a23094a246
+  ? !!python/tuple [1907-0393, !!timestamp '1915-12-07 00:00:00', .nan, 'Accompagnement
+      au piano ']
+  : a17826f9-94e9-43c7-92f5-86e940b6ec5e
+  ? !!python/tuple [1907-0393, !!timestamp '1915-11-30 00:00:00', .nan, Contrepoint]
+  : 8149242d-9d56-4e6e-8f09-260ea4ab62e8
+  ? !!python/tuple [1907-0393, !!timestamp '1919-01-27 00:00:00', .nan, Fugue]
+  : 2d87549a-d4a9-477d-bbc4-c00f67725306
+  ? !!python/tuple ['1907-[0393 bis]', *id129, .nan, "Solf\xE8ge"]
+  : fad1a7a3-a16d-4fc8-87ea-1342ddfcfef6
+  ? !!python/tuple ['1907-[0393 bis]', !!timestamp '1911-11-28 00:00:00', .nan, Harmonie]
+  : b917e121-1628-4bd6-be03-a4868d0562c5
+  ? !!python/tuple ['1907-[0393 bis]', !!timestamp '1915-01-18 00:00:00', .nan, Contrepoint]
+  : e2f31df8-9421-4fe7-a505-16ea4f87d149
+  ? !!python/tuple [1907-0394, *id129, .nan, "Solf\xE8ge"]
+  : 138cbc0c-da0d-4270-a3af-9e25ec92d34a
+  ? !!python/tuple [1907-0397, *id129, .nan, "Solf\xE8ge"]
+  : 71a61937-2c57-42fb-9d15-dd6e112c34a5
+  ? !!python/tuple [1907-0398, !!timestamp '1907-11-30 00:00:00', .nan, Harmonie]
+  : fb821398-bb31-4dbc-ae57-98dc090498ea
+  ? !!python/tuple [1907-0398, !!timestamp '1905-03-26 00:00:00', .nan, Contrepoint]
+  : 0a65b0a9-98de-4be4-a457-5478eded9dec
+  ? !!python/tuple ['1907-[0401 bis]', !!timestamp '1912-01-10 00:00:00', .nan, Composition]
+  : a5bb56e7-0445-4c33-a1cd-beb490602bc6
+  ? !!python/tuple [1907-0405, !!timestamp '1908-11-30 00:00:00', .nan, Contrepoint]
+  : 12554c9b-18b8-40c5-b5df-0bba383a8532
+  ? !!python/tuple [1908-0423, &id133 !!timestamp '1908-11-28 00:00:00', .nan, "Solf\xE8\
+      ge"]
+  : d166e782-6188-429a-a97f-724294de5fef
+  ? !!python/tuple [1908-0429, &id130 !!timestamp '1908-10-27 00:00:00', .nan, "Solf\xE8\
+      ge"]
+  : fa38741b-de2c-4b27-b88e-0dd248c0a2b2
+  ? !!python/tuple [1908-0429, !!timestamp '1910-03-04 00:00:00', .nan, "D\xE9clamation\
+      \ lyrique"]
+  : 36f019cb-4e50-4856-92b3-e9ccd34bb0f0
+  ? !!python/tuple [1908-0438, *id130, .nan, Chant]
+  : 241cc5c5-baf7-4435-9d2e-fbe05a3ee6fa
+  ? !!python/tuple [1908-0438, *id130, .nan, "Solf\xE8ge"]
+  : 923e10cc-32e3-418c-9ea3-933a2646feff
+  ? !!python/tuple [1908-0438, !!timestamp '1911-01-22 00:00:00', .nan, "D\xE9clamation\
+      \ lyrique"]
+  : 6d582d91-5f56-42fc-8e5d-bcd677c1388f
+  ? !!python/tuple [1908-0468, !!timestamp '1912-11-29 00:00:00', .nan, 'Piano ']
+  : 763eed69-849a-4725-8251-0d7a97d418a6
+  ? !!python/tuple ['1910-[0471 bis]', !!timestamp '1908-11-20 00:00:00', .nan, Harmonie]
+  : 4eaa5919-6ee3-482c-9ef6-9fa5b938fff6
+  ? !!python/tuple [1908-0472, *id131, .nan, Contrepoint]
+  : 611d8f1f-c294-4990-8989-62a429b64b5e
+  ? !!python/tuple ['1910-[0472 bis]', &id132 !!timestamp '1908-11-26 00:00:00', .nan,
+    Harmonie]
+  : c5c5f01f-30ff-4f14-9261-0174012b56d8
+  ? !!python/tuple ['1910-[0473 bis]', *id132, .nan, Harmonie]
+  : d5046455-53b8-43f4-b16f-185e38e77d13
+  ? !!python/tuple [1908-0474, *id132, .nan, Harmonie]
+  : 1ed12efd-d55d-4070-af01-6e536e403305
+  ? !!python/tuple ['1910-[0475 bis]', !!timestamp '1911-11-22 00:00:00', .nan, 'Piano ']
+  : 1077b8db-29f2-4221-8a13-b84870330e97
+  ? !!python/tuple ['1910-[0481 bis]', *id133, '[1910-00-00]', .nan]
+  : 5b777f36-1f57-4aa3-8ee0-dab979adf7b2
+  ? !!python/tuple ['1912-[0363 bis]', !!timestamp '1912-11-30 00:00:00', .nan, Harmonie]
+  : ef07dc88-e719-4955-ae16-1f1cabeee046
+  ? !!python/tuple ['1912-[0363 bis]', !!timestamp '1919-09-12 00:00:00', .nan, Harmonie]
+  : 251b10e1-7093-47a7-a219-203451eb500e
+  ? !!python/tuple ['1912-[0363 bis]', !!timestamp '1913-11-30 00:00:00', .nan, Accompagnement
+      au piano]
+  : e6698456-ef76-4ec4-988a-78dfec950713
+  ? !!python/tuple [1913-0370, *id131, .nan, "Solf\xE8ge"]
+  : eb47d25b-2145-4725-9d81-5705ef55fd8c
+  ? !!python/tuple [1913-0371, !!timestamp '1913-10-15 00:00:00', .nan, Hautbois]
+  : b3ec61f7-c2f9-4173-96e7-50a9d713bf15
+  ? !!python/tuple [1913-0373, .nan, '1923-00-00', Histoire de la Musique]
+  : 6a310a34-6aad-42e3-9cbc-748ace8ee8bd
+  ? !!python/tuple ['1913-[0388 bis]', !!timestamp '1916-01-03 00:00:00', .nan, "Solf\xE8\
+      ge"]
+  : 9f72905a-5d07-47b1-978d-582719a2ae3b
+  ? !!python/tuple ['1913-[0403 bis]', !!timestamp '1913-11-21 00:00:00', .nan, "Solf\xE8\
+      ge"]
+  : 43d528b5-f0dd-45e3-9f18-37786ccf4d03
+  ? !!python/tuple ['1913-[0412 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : 14af3749-6a75-485f-80db-0778648e0934
+  ? !!python/tuple [1913-0413, .nan, '1917-00-00', Histoire de la Musique]
+  : a9d36164-087e-4836-b5aa-7c7535b86a45
+  ? !!python/tuple ['1913-[0413 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : 8c3756e2-8fea-46f7-b6a4-b6f97717960b
+  ? !!python/tuple [1913-0414, .nan, '[1918-00-00]', Histoire de la Musique]
+  : bbe2739d-b98d-417e-8b2f-637d52496bd0
+  ? !!python/tuple ['1913-[0414 bis]', .nan, .nan, .nan]
+  : 3eb7b295-c522-43cf-a7dc-046ca6c7916e
+  ? !!python/tuple ['1913-[0414 bis]', .nan, '1917-00-00', Histoire de la Musique]
+  : fed9bf77-8c52-4e98-a503-d2ba08e5407e
+  ? !!python/tuple ['1913-[0415 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : 21f10395-b216-4da9-bbf6-2c96b6f90ed4
+  ? !!python/tuple [1913-0416, .nan, '[1917-00-00]', Histoire de la Musique]
+  : 711d931e-aa6a-4ff1-991b-4ba39c7046ab
+  ? !!python/tuple [1913-0419, .nan, '1916-00-00', Histoire de la Musique]
+  : 89c9211f-4417-4cfb-981a-bb905e5a2a65
+  ? !!python/tuple ['1913-[0419 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : 03be863a-5402-4bcd-91ab-a21e0553f72d
+  ? !!python/tuple ['1913-[0419 bis]', .nan, '[1917-00-00]', "Solf\xE8ge"]
+  : 145fafa6-5137-4790-993e-f341fed9b398
+  ? !!python/tuple [1913-0420, .nan, .nan, Histoire de la Musique]
+  : f84a2e86-20df-4597-8673-76691a30fd37
+  ? !!python/tuple ['1913-[0420 bis]', .nan, .nan, Histoire de la Musique]
+  : 18354727-8ecd-43b5-8ea4-cdd6adfc7bcb
+  ? !!python/tuple [1913-0421, .nan, .nan, Histoire de la Musique]
+  : bde1ec71-cce8-4a44-a63d-31af8236faaa
+  ? !!python/tuple ['1913-[0431 bis]', .nan, .nan, Histoire de la Musique]
+  : e1cdc8c1-3019-49e7-a3b7-ac2992c20ddc
+  ? !!python/tuple ['1913-[0432 bis]', .nan, '[1916-00-00]', "Solf\xE8ge"]
+  : d2d28937-37e7-4758-b2ef-57d264e60bc6
+  ? !!python/tuple [1913-0435, .nan, '[1921-00-00]', Histoire de la Musique]
+  : 56540db2-d95c-43ba-ab80-a50ea654e079
+  ? !!python/tuple ['1913-[0435 bis]', .nan, '[1921-00-00]', Histoire de la Musique]
+  : 96fb9690-3715-4232-a85f-a40bc11115a6
+  ? !!python/tuple [1913-0438, .nan, '[1916-00-00]', Histoire de la Musique]
+  : 2c69b2d0-a263-4d72-9670-90e83b9ae894
+  ? !!python/tuple ['1913-[0439 bis]', .nan, '[1919-00-00]', Histoire de la Musique]
+  : 727eb753-9854-409e-ad9e-6ed206fa82d2
+  ? !!python/tuple ['1913-[0441 bis]', .nan, '[1923-00-00]', Histoire de la Musique]
+  : 9f05679f-3efa-4139-9969-0cd764dbc87e
+  ? !!python/tuple [1913-0447, .nan, .nan, Histoire de la Musique]
+  : 465f73bc-a087-4d59-81f1-cc70810c6787
+  ? !!python/tuple [1913-0448, .nan, '1918-00-00', Histoire de la Musique]
+  : 80cee63c-4b14-4505-a48b-910a22d4e4c7
+  ? !!python/tuple ['1913-[0455 bis]', .nan, .nan, .nan]
+  : afb4bb1c-990c-4ba6-82c4-0665970202fd
+  ? !!python/tuple ['1913-[0455 bis]', .nan, '1923-00-00', Direction d'Orchestre]
+  : ef71f78a-7d76-481a-942b-61de17355831
+  ? !!python/tuple ['1913-[0456 bis]', .nan, .nan, Histoire de la Musique]
+  : e8c469e9-4042-4af4-a1a3-d360b88b4a56
+  ? !!python/tuple ['1913-[0457 bis]', .nan, '[1920-00-00]', Histoire de la Musique]
+  : c714bc53-b791-41bd-9d74-0a6a54462b19
+  ? !!python/tuple ['1913-[0461 bis]', .nan, '[1916-00-00]', Histoire de la Musique]
+  : c35c3cb3-d235-4a55-9c5b-5d4b26e56879
+  ? !!python/tuple [1913-0463, .nan, '[1922-00-00]', Histoire de la Musique]
+  : c2735a34-8606-4ffb-aa8b-cf17ace5b627
+  ? !!python/tuple [1914-0464, .nan, &id134 !!timestamp '1923-01-23 00:00:00', Contrepoint]
+  : f43a358b-4017-44bc-abab-74e9c2cc072b
+  ? !!python/tuple [1914-0464, .nan, *id134, Direction d'Orchestre]
+  : 2452458d-3f8d-4393-a46b-2ecc208ba454
+  ? !!python/tuple [1914-0469, .nan, '1923-10-00', "Solf\xE8ge"]
+  : 2f302804-5caa-44f6-96b6-ba30fa7a8eef
+  ? !!python/tuple ['1914-[0471 bis]', &id135 !!timestamp '1914-12-19 00:00:00', .nan,
+    "D\xE9clamation"]
+  : 2c44225c-afe8-4684-97d2-ff0dfb76e5d0
+  ? !!python/tuple ['1914-[0471 bis]', .nan, .nan, "Histoire et Litt\xE9rature dramatique"]
+  : fb03b70d-7fb8-41c5-a1a8-9b634ac14c0d
+  ? !!python/tuple ['1914-[0474 bis]', *id135, .nan, "D\xE9clamation"]
+  : 0fad365c-fb21-4cc9-a3ce-22600689886c
+  ? !!python/tuple [1914-0482, .nan, '[1916-00-00]', Histoire de la Musique]
+  : 3ae5b480-1367-4215-86cb-177d6ed4e30c
+  ? !!python/tuple [1914-0482, .nan, '1920-00-00', "D\xE9clamation lyrique"]
+  : 0169567b-f1a6-40e5-9b66-19344654651d
+  ? !!python/tuple ['1914-[0488 bis]', .nan, .nan, Histoire de la Musique]
+  : c65bcfff-0733-49da-a48e-7710c62170c7
+  ? !!python/tuple [1914-0489, .nan, .nan, Histoire de la Musique]
+  : fdf8e451-dd96-4086-9474-daafcf438b6e
+  ? !!python/tuple ['1914-[0490 bis]', .nan, .nan, Histoire de la Musique]
+  : 9be354e4-7655-4457-8132-53c6b0e4ed93
+  ? !!python/tuple ['1914-[0491 bis]', .nan, '1915-00-00', "Solf\xE8ge"]
+  : 536774fa-b4a7-4c3f-bbe3-33a77f6b4a66
 pays: {' Turquie': ad3f8c5b-de97-4a22-bbbe-de08ba733166, "Alg\xE9rie": bf27ad85-7a5d-4997-892b-6e918061d6ad,
   "Am\xE9rique": cbe8212a-ff94-4835-b3d1-7a17a45352e0, "Am\xE9rique du Nord": 5a3bfb24-f66d-4cbd-9287-b9fbbf62c50c,
   Angleterre: d308aecc-237c-49af-afb4-d75a03bb1404, Belgique: 9a91ba99-78a0-4c3a-a62c-3f61ba84b2a0,
