@@ -97,16 +97,19 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         cursus[row["identifiant_1"]] = générer_uuid("cursus",row["identifiant_1"])
 
-        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"])):
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
         if ((pandas.notna(row["identifiant_1"]) and pandas.notna(["parcours_classe_date_entree"]) and pandas.notna(row["parcours_classe_date_sortie"]) and pandas.notna(row["classe_discipline"]))):
             id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
+
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes",'Disciplines')
+
         if ((pandas.notna(row['classe_discipline']))):
             classe[row['classe_discipline']] = générer_uuid('discipline', row['classe_discipline'])
+
         if ((pandas.notna(row['classe_nom_professeur']))):
             professeur[row['classe_nom_professeur']] = générer_uuid('professeurs', row['classe_nom_professeur'])
 
@@ -554,7 +557,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         # Gestion des prix
         uriPrix = None
-        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"])):
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             uriPrix = prix[id_prix]
 
