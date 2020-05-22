@@ -3364,6 +3364,62 @@ parcours_classe:
   ? !!python/tuple ['1914-[0498 bis]', *id074, !!timestamp '1916-11-21 00:00:00',
     "Solf\xE8ge"]
   : 207c1c72-e0c2-450b-9652-f3374954fe9a
+  ? !!python/tuple [1913-0373, .nan, '1923-00-00', Histoire de la Musique]
+  : 5dd241f8-c65e-4363-ad28-7b0882eb3934
+  ? !!python/tuple ['1913-[0412 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : 2a070525-d09f-4898-a257-1b0cb6300483
+  ? !!python/tuple [1913-0413, .nan, '1917-00-00', Histoire de la Musique]
+  : ea745a35-8cbe-4d45-bb6b-14757d29f2ff
+  ? !!python/tuple ['1913-[0413 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : ee6871e6-9e4d-4424-9ac8-81781e3576e9
+  ? !!python/tuple [1913-0414, .nan, '[1918-00-00]', Histoire de la Musique]
+  : c3d80e4b-c033-4d1b-9f48-87aa3dfdcc80
+  ? !!python/tuple ['1913-[0414 bis]', .nan, '1917-00-00', Histoire de la Musique]
+  : 4360eed3-65de-4de1-bc28-de4c6263ffa3
+  ? !!python/tuple ['1913-[0415 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : b2301170-bc5f-4e30-97fd-ac7adb6977b1
+  ? !!python/tuple [1913-0416, .nan, '[1917-00-00]', Histoire de la Musique]
+  : 69bf8118-846c-4085-82e3-58485ff7245e
+  ? !!python/tuple [1913-0419, .nan, '1916-00-00', Histoire de la Musique]
+  : 9507680b-dd75-4406-a42b-0838365e6001
+  ? !!python/tuple ['1913-[0419 bis]', .nan, '[1917-00-00]', Histoire de la Musique]
+  : ec276627-a037-415f-92c3-b4edf08302e7
+  ? !!python/tuple ['1913-[0419 bis]', .nan, '[1917-00-00]', "Solf\xE8ge"]
+  : 7a5c614d-5713-4470-8b50-288ffcab254a
+  ? !!python/tuple ['1913-[0432 bis]', .nan, '[1916-00-00]', "Solf\xE8ge"]
+  : 6741b14c-2f69-41dc-9ec6-086e76ca6dd4
+  ? !!python/tuple [1913-0435, .nan, '[1921-00-00]', Histoire de la Musique]
+  : 342d1239-6b29-48b9-aabb-aa2617732133
+  ? !!python/tuple ['1913-[0435 bis]', .nan, '[1921-00-00]', Histoire de la Musique]
+  : b1cd1fb0-8b4c-4676-9465-d84b4fb62f58
+  ? !!python/tuple [1913-0438, .nan, '[1916-00-00]', Histoire de la Musique]
+  : 6d2de216-587a-494a-91d5-9d9195aee737
+  ? !!python/tuple ['1913-[0439 bis]', .nan, '[1919-00-00]', Histoire de la Musique]
+  : 8c81df2f-f1c4-469c-8730-e43d720af488
+  ? !!python/tuple ['1913-[0441 bis]', .nan, '[1923-00-00]', Histoire de la Musique]
+  : 519b6e66-dab0-48f3-a980-5faeb23cce77
+  ? !!python/tuple [1913-0448, .nan, '1918-00-00', Histoire de la Musique]
+  : da129b42-7b38-4abb-9799-74e8169585e5
+  ? !!python/tuple ['1913-[0455 bis]', .nan, '1923-00-00', Direction d'Orchestre]
+  : 9858046f-34ec-4d45-8459-1d56a70f9b56
+  ? !!python/tuple ['1913-[0457 bis]', .nan, '[1920-00-00]', Histoire de la Musique]
+  : 5efecf8f-7372-463a-b9ab-76374b485f81
+  ? !!python/tuple ['1913-[0461 bis]', .nan, '[1916-00-00]', Histoire de la Musique]
+  : fe700952-c4ed-41a1-a83e-f79ff9c396f2
+  ? !!python/tuple [1913-0463, .nan, '[1922-00-00]', Histoire de la Musique]
+  : 5bf7ff0e-bb28-4017-8b8f-229cd86308a4
+  ? !!python/tuple [1914-0464, .nan, &id122 !!timestamp '1923-01-23 00:00:00', Contrepoint]
+  : b103222f-2386-43df-adec-a132781e02c9
+  ? !!python/tuple [1914-0464, .nan, *id122, Direction d'Orchestre]
+  : 43bfcc2e-8676-46b8-ad91-2405f1c51adf
+  ? !!python/tuple [1914-0469, .nan, '1923-10-00', "Solf\xE8ge"]
+  : d2a78072-b149-4458-92f7-c72639817d2e
+  ? !!python/tuple [1914-0482, .nan, '[1916-00-00]', Histoire de la Musique]
+  : 98ecee37-e6bb-4a0e-bd6e-b1d919ed08ac
+  ? !!python/tuple [1914-0482, .nan, '1920-00-00', "D\xE9clamation lyrique"]
+  : d011f468-2d6d-4fb5-978d-7076f037272e
+  ? !!python/tuple ['1914-[0491 bis]', .nan, '1915-00-00', "Solf\xE8ge"]
+  : 0dface3c-62b1-4b52-8765-bd3310a89783
 pays: {' Turquie': f253661a-a583-487b-83b1-58537bab8033, "Alg\xE9rie": ef65684c-0d3b-4f9e-a065-155c41bc2906,
   "Am\xE9rique": f6673159-7f62-4bf5-be04-b608b4926d0c, "Am\xE9rique du Nord": 5e3db5d8-09b3-48e5-8f19-116d109c409b,
   Angleterre: a44a1589-8fbc-4ac2-8c91-6636059c6c5d, Belgique: 6c2093bd-d992-47a7-89f8-1498b1b22fd5,
