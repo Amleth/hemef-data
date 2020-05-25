@@ -71,10 +71,11 @@ villes = {}
 departement = {}
 pays = {}
 eleves = {}
-cursus = {}
+# cursus = {}
 prix = {}
 parcours_classe = {}
-classe = {}
+discipline = {}
+classe = {} #un tuple discipline, professeur
 professeur = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8').iterrows():
@@ -95,23 +96,28 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         else:
             pays[row["eleve_pays_naissance"]] = générer_uuid("pays", "France")
 
-        cursus[row["identifiant_1"]] = générer_uuid("cursus", row["identifiant_1"])
+        # cursus[row["identifiant_1"]] = générer_uuid("cursus", row["identifiant_1"])
 
         if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
-        if ((pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["parcours_classe_date_sortie"]) and pandas.notna(row["classe_discipline"]))):
-            id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
+        if ((pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"]))):
+            id_parcours_classe = tuple((row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
 
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
+        ConceptSchemes['Classes'] = générer_uuid("ConceptSchemes", 'Classes')
 
         if ((pandas.notna(row['classe_discipline']))):
-            classe[row['classe_discipline']] = générer_uuid('discipline', row['classe_discipline'])
+            discipline[row['classe_discipline']] = générer_uuid('Disciplines', row['classe_discipline'])
 
         if ((pandas.notna(row['classe_nom_professeur']))):
-            professeur[row['classe_nom_professeur']] = générer_uuid('professeurs', row['classe_nom_professeur'])
+            professeur[row['classe_nom_professeur']] = générer_uuid('Professeurs', row['classe_nom_professeur'])
+
+        if ((pandas.notna(row['classe_discipline']) and pandas.notna(row['classe_nom_professeur']) )):
+            id_classe = tuple((row['classe_discipline'], row['classe_nom_professeur']))
+            classe[id_classe]=générer_uuid('Classe', id_classe)
 
         # Voilà, on est sûr que la ligne est OK
 
@@ -130,6 +136,23 @@ g.add(
         URIRef(ConceptSchemes['Disciplines']),
         URIRef(SKOS.prefLabel),
         Literal('Discipline_Classes')
+    )
+)
+
+#Classes
+g.add(
+    (
+        URIRef(ConceptSchemes['Classes']),
+        URIRef(is_a),
+        URIRef(SKOS.ConceptScheme)
+    )
+)
+
+g.add(
+    (
+        URIRef(ConceptSchemes['Classes']),
+        URIRef(SKOS.prefLabel),
+        Literal('Classes')
     )
 )
 
@@ -491,20 +514,58 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             #         )
             #     )
 
-        # Gestion des cursus
-
-        g.add(
-            (
-                URIRef(cursus[row['identifiant_1']]),
-                URIRef(is_a),
-                URIRef(HEMEF["Cursus"])
+        #Gestion des précursus
+        if (pandas.notna(row["pre-cursus_nom_etablissement"])):
+            g.add(
+                (
+                    URIRef(eleves[row['identifiant_1']]),
+                    URIRef(HEMEF["etablissement_pre-cursus"]),
+                    Literal(row["pre-cursus_nom_etablissement"])
+                )
             )
-        )
+        
+        if (pandas.notna(row["pre-cursus_type_etablissement_"])):
+            g.add(
+                (
+                    URIRef(eleves[row['identifiant_1']]),
+                    URIRef(HEMEF["type_etablissement_pre-cursus"]),
+                    Literal(row["pre-cursus_type_etablissement_"])
+                )
+            )
+        
+        villePC = None
+        if (pandas.notna(row["pre-cursus_ville_etablissement_"])):
+            villePC = row["pre-cursus_ville_etablissement_"]
+            if villePC in villes :
+                g.add(
+                    (
+                        URIRef(eleves[row['identifiant_1']]),
+                        URIRef(HEMEF["ville_pre-cursus"]),
+                        URIRef(villes[villePC])
+                    )
+                )
+            else :
+                g.add(
+                    (
+                        URIRef(eleves[row['identifiant_1']]),
+                        URIRef(HEMEF["ville_pre-cursus"]),
+                        Literal(row["pre-cursus_ville_etablissement_"])
+                    )
+                )
+
+        # Gestion des cursus ---> maintenant associés aux eleves
+        # g.add(
+        #     (
+        #         URIRef(cursus[row['identifiant_1']]),
+        #         URIRef(is_a),
+        #         URIRef(HEMEF["Cursus"])
+        #     )
+        # )
         if (pandas.notna(row["cursus_motif_admission"])):
             g.add(
                 (
-                    URIRef(cursus[row['identifiant_1']]),
-                    URIRef(HEMEF["motif_admission"]),
+                    URIRef(eleves[row['identifiant_1']]),
+                    URIRef(HEMEF["cursus_motif_admission"]),
                     Literal(row["cursus_motif_admission"])
                 )
             )
@@ -513,8 +574,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["cursus_date_entree_conservatoire"])):
             g.add(
                 (
-                    URIRef(cursus[row['identifiant_1']]),
-                    URIRef(HEMEF["date_entree_conservatoire"]),
+                    URIRef(eleves[row['identifiant_1']]),
+                    URIRef(HEMEF["cursus_date_entree_conservatoire"]),
                     Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
                 )
             )
@@ -522,8 +583,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["cursus_date_sortie_conservatoire"])):
             g.add(
                 (
-                    URIRef(cursus[row['identifiant_1']]),
-                    URIRef(HEMEF["date_sortie_conservatoire"]),
+                    URIRef(eleves[row['identifiant_1']]),
+                    URIRef(HEMEF["cursus_date_sortie_conservatoire"]),
                     Literal(row["cursus_date_sortie_conservatoire"], datatype=XSD.Date)
                 )
             )
@@ -531,27 +592,19 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["cursus_motif_sortie"])):
             g.add(
                 (
-                    URIRef(cursus[row['identifiant_1']]),
-                    URIRef(HEMEF["motif_sortie"]),
+                    URIRef(eleves[row['identifiant_1']]),
+                    URIRef(HEMEF["cursus_motif_sortie"]),
                     Literal(row["cursus_motif_sortie"])
                 )
             )
 
         # Relation Eleve - Cursus
 
-        g.add(
-            (
-                URIRef(eleves[row['identifiant_1']]),
-                URIRef(HEMEF["a_pour_cursus"]),
-                URIRef(cursus[row['identifiant_1']])
-            )
-        )
-
         # g.add(
         #     (
-        #         URIRef(cursus[row['identifiant_1']]),
-        #         URIRef(HEMEF["est_cursus_de"]),
-        #         URIRef(eleves[row['identifiant_1']])
+        #         URIRef(eleves[row['identifiant_1']]),
+        #         URIRef(HEMEF["a_pour_cursus"]),
+        #         URIRef(cursus[row['identifiant_1']])
         #     )
         # )
 
@@ -591,11 +644,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
+            # gYeat represents a specific calendar year. The letter g signifies "Gregorian." The format of xsd:gYear is CCYY
             g.add(
                 (
                     URIRef(uriPrix),
-                    URIRef(HEMEF['date_prix']),
-                    Literal(row["prix_date"], datatype=XSD.Date)
+                    URIRef(HEMEF['année_prix']),
+                    Literal(row["prix_date"], datatype=XSD.gYear)
                 )
             )
             if (pandas.notna(row["prix_discipline"])):
@@ -607,70 +661,135 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-          # Gestion des classes
+        # Gestion des classes
+        Discipline = None
+        if (pandas.notna(row['classe_discipline'])):
+            Discipline = row['classe_discipline']
+            g.add(
+                (
+                    URIRef(discipline[row['classe_discipline']]),
+                    URIRef(SKOS.inScheme),
+                    URIRef(ConceptSchemes['Disciplines'])
+                )
+            )
 
-            if (str(row['classe_discipline']) != 'NaN') and (str(row['classe_discipline']) != 'nan'):
+            g.add(
+                (
+                    URIRef(ConceptSchemes['Disciplines']),
+                    URIRef(SKOS.hasTopConcept),
+                    URIRef(discipline[row['classe_discipline']])
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(discipline[row['classe_discipline']]),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(discipline[row['classe_discipline']]),
+                    URIRef(SKOS.prefLabel),
+                    Literal(row['classe_discipline'])
+                )
+            )
+
+        Prof = None
+        if (pandas.notna(row['classe_nom_professeur'])):
+            Prof = row['classe_nom_professeur']
+            g.add(
+                (
+                    URIRef(professeur[row['classe_nom_professeur']]),
+                    URIRef(is_a),
+                    URIRef(HEMEF['Professeur'])
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(professeur[row['classe_nom_professeur']]),
+                    URIRef(HEMEF['nom_professeur']),
+                    Literal(row['classe_nom_professeur'])
+                )
+            )
+        
+        uriClasse = None
+        if Discipline and Prof :
+            id_classe = tuple((Discipline, Prof))
+            uriClasse = classe[id_classe]
+            g.add(
+                (
+                    URIRef(uriClasse),
+                    URIRef(SKOS.inScheme),
+                    URIRef(ConceptSchemes['Disciplines'])
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(ConceptSchemes['Disciplines']),
+                    URIRef(SKOS.hasTopConcept),
+                    URIRef(uriClasse)
+                )
+            )
+            g.add(
+                (
+                    URIRef(uriClasse),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+            nom_classe = Discipline + ", " + Prof
+            g.add(
+                (
+                    URIRef(uriClasse),
+                    URIRef(SKOS.prefLabel),
+                    Literal(nom_classe)
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(uriClasse),
+                    URIRef(HEMEF['enseignant']),
+                    URIRef(professeur[Prof]) 
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(uriClasse),
+                    URIRef(HEMEF['enseigne']),
+                    URIRef(discipline[Discipline])
+                )
+            )
+
+            if pandas.notna(row['classe_observations']):
                 g.add(
                     (
-                        URIRef(classe[row['classe_discipline']]),
-                        URIRef(SKOS.inScheme),
-                        URIRef(ConceptSchemes['Disciplines'])
+                        URIRef(uriClasse),
+                        URIRef(HEMEF['observations']),
+                        Literal(row['classe_observations'])
                     )
                 )
 
+            if pandas.notna(row['classes_remarques_saisie']):
                 g.add(
                     (
-                        URIRef(ConceptSchemes['Disciplines']),
-                        URIRef(SKOS.hasTopConcept),
-                        URIRef(classe[row['classe_discipline']])
+                        URIRef(uriClasse),
+                        URIRef(HEMEF['remarques_saisie']),
+                        Literal(row['classes_remarques_saisie'])
                     )
                 )
 
-                g.add(
-                    (
-                        URIRef(classe[row['classe_discipline']]),
-                        URIRef(is_a),
-                        URIRef(SKOS.Concept)
-                    )
-                )
-
-                g.add(
-                    (
-                        URIRef(classe[row['classe_discipline']]),
-                        URIRef(SKOS.prefLabel),
-                        Literal(row['classe_discipline'])
-                    )
-                )
-
-                if (str(row['classe_nom_professeur']) != 'NaN' and str(row['classe_nom_professeur']) != 'nan'):
-
-                    g.add(
-                        (
-                            URIRef(professeur[row['classe_nom_professeur']]),
-                            URIRef(is_a),
-                            URIRef(HEMEF['Professeur'])
-                        )
-                    )
-
-                    g.add(
-                        (
-                            URIRef(professeur[row['classe_nom_professeur']]),
-                            URIRef(HEMEF['nom_professeur']),
-                            Literal(row['classe_nom_professeur'])
-                        )
-                    )
-
-                    g.add(
-                        (
-                            URIRef(professeur[row['classe_nom_professeur']]),
-                            URIRef(HEMEF['enseigne']),
-                            URIRef(classe[row['classe_discipline']])
-                        )
-                    )
+        
         # Gestion Parcours_classe
 
-        if (pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["parcours_classe_date_sortie"]) and pandas.notna(row["classe_discipline"])):
-            id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["parcours_classe_date_sortie"], row["classe_discipline"]))
+        if (pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"])):
+            id_parcours_classe = tuple((row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
             uri_parcours_classe = parcours_classe[id_parcours_classe]
 
             g.add(
@@ -680,10 +799,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     URIRef(HEMEF["Parcours_classe"])
                 )
             )
-
+            
+            #modif : mtn lié a eleve et non plus a cursus
             g.add(
                 (
-                    URIRef(cursus[row['identifiant_1']]),
+                    URIRef(eleves[row['identifiant_1']]),
                     URIRef(HEMEF["a_pour_parcours"]),
                     URIRef(uri_parcours_classe)
                 )
@@ -693,7 +813,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 (
                     URIRef(uri_parcours_classe),
                     URIRef(HEMEF["est_parcours_de"]),
-                    URIRef(cursus[row['identifiant_1']])
+                    URIRef(eleves[row['identifiant_1']])
                 )
             )
 
@@ -714,39 +834,31 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-            if (pandas.notna(row['classe_discipline'])):
+            if (uriClasse):
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
                         URIRef(HEMEF['classe_parcourue']),
-                        URIRef(classe[row['classe_discipline']])
+                        URIRef(uriClasse)
                     )
                 )
 
-            # g.add(
-            #     (
-            #         URIRef(classe[row['classe_discipline']]),
-            #         URIRef(HEMEF['parcours_associe']),
-            #         URIRef(uri_parcours_classe)
-            #     )
-            # )
-
-            if uriPrix != None:
-                g.add(
-                    (
-                        URIRef(uriPrix),
-                        URIRef(HEMEF['recompense_parcours']),
-                        URIRef(uri_parcours_classe)
+                if uriPrix != None:
+                    g.add(
+                        (
+                            URIRef(uriPrix),
+                            URIRef(HEMEF['recompense_parcours']),
+                            URIRef(uri_parcours_classe)
+                        )
                     )
-                )
 
-                g.add(
-                    (
-                        URIRef(uri_parcours_classe),
-                        URIRef(HEMEF['prix_decerne']),
-                        URIRef(uriPrix),
+                    g.add(
+                        (
+                            URIRef(uri_parcours_classe),
+                            URIRef(HEMEF['prix_decerne']),
+                            URIRef(uriPrix),
+                        )
                     )
-                )
 
 ################################################################
 ################################################################################
