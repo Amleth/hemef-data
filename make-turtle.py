@@ -615,9 +615,9 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             uriPrix = prix[id_prix]
 
             if (pandas.notna(row["prix_discipline"])):
-                intitule_prix = str(row["prix_nom"]) + " " + str(row["prix_date"]) + " : " + str(row["prix_discipline"])
+                intitule_prix = str(row["prix_nom"]) + " - " + str(row["prix_date"]) + " : " + str(row["prix_discipline"])
             else:
-                intitule_prix = str(row["prix_nom"]) + " " + str(row["prix_date"])
+                intitule_prix = str(row["prix_nom"]) + " - " + str(row["prix_date"])
 
             g.add(
                 (
@@ -658,6 +658,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         URIRef(uriPrix),
                         URIRef(HEMEF['discipline_prix']),
                         Literal(row["prix_discipline"])
+                    )
+                )
+
+            if (pandas.notna(row["prix_type"])):
+                g.add(
+                    (
+                        URIRef(uriPrix),
+                        URIRef(HEMEF['type_prix']),
+                        Literal(row["prix_type"])
                     )
                 )
 
@@ -724,13 +733,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 (
                     URIRef(uriClasse),
                     URIRef(SKOS.inScheme),
-                    URIRef(ConceptSchemes['Disciplines'])
+                    URIRef(ConceptSchemes['Classes'])
                 )
             )
 
             g.add(
                 (
-                    URIRef(ConceptSchemes['Disciplines']),
+                    URIRef(ConceptSchemes['Classes']),
                     URIRef(SKOS.hasTopConcept),
                     URIRef(uriClasse)
                 )
