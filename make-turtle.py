@@ -577,12 +577,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         if (pandas.notna(row["cursus_date_sortie_conservatoire"])):
             if isinstance(row["cursus_date_sortie_conservatoire"], datetime.date):
-                date_time=str(row["cursus_date_sortie_conservatoire"]).split()
+                # date_time=str(row["cursus_date_sortie_conservatoire"]).split()
+                date=row["cursus_date_sortie_conservatoire"].date()
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
                         URIRef(HEMEF["cursus_date_sortie_conservatoire"]),
-                        Literal(date_time[0], datatype=XSD.Date)
+                        Literal(date, datatype=XSD.Date)
                     )
                 )
             else :
@@ -650,14 +651,24 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
 
             # gYeat represents a specific calendar year. The letter g signifies "Gregorian." The format of xsd:gYear is CCYY
-            g.add(
-                (
-                    URIRef(uriPrix),
-                    URIRef(HEMEF['année_prix']),
-                    Literal(row["prix_date"], datatype=XSD.gYear)
+            if isinstance(row["prix_date"], datetime.datetime) :
+                g.add(
+                    (
+                        URIRef(uriPrix),
+                        URIRef(HEMEF['année_prix']),
+                        Literal(row["prix_date"].year(), datatype=XSD.gYear)
+                    )
                 )
-            )
-            if (pandas.notna(row["prix_discipline"])):
+            else :
+                g.add(
+                    (
+                        URIRef(uriPrix),
+                        URIRef(HEMEF['année_prix']),
+                        Literal(row["prix_date"])
+                    )
+                )
+                    
+            if (pandas.notna(row["prix_discipline"])) :
                 g.add(
                     (
                         URIRef(uriPrix),
