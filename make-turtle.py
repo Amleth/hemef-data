@@ -275,12 +275,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal('Femme')
                 )
             )
-        if (isinstance(row["eleve_date_naissance"], datetime.datetime)):
+        if (isinstance(row["eleve_date_naissance"], datetime.date)):
+            date_time = str(row["eleve_date_naissance"]).split()
             g.add(
                 (
                     URIRef(uriEleve),
                     URIRef(HEMEF["année_de_naissance"]),
-                    Literal(row["eleve_date_naissance"], datatype=XSD.Date)
+                    Literal(date_time[0], datatype=XSD.Date)
                 )
             )
         else:
@@ -497,23 +498,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-            # if (str(row["eleve_departement_naissance"]) != 'nan'):
-            #     g.add(
-            #         (
-            #             URIRef(uriVille),
-            #             URIRef(HEMEF["departement"]),
-            #             Literal(row["eleve_departement_naissance"])
-            #         )
-            #     )
-            # if (str(row["eleve_pays_naissance"]) != 'nan'):
-            #     g.add(
-            #         (
-            #             URIRef(uriVille),
-            #             URIRef(HEMEF["pays"]),
-            #             Literal(row["eleve_pays_naissance"])
-            #         )
-            #     )
-
         #Gestion des précursus
         if (pandas.notna(row["pre-cursus_nom_etablissement"])):
             g.add(
@@ -572,13 +556,22 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         # cursus_date_epreuve_admission non traité, vide
         if (pandas.notna(row["cursus_date_entree_conservatoire"])):
-            g.add(
-                (
-                    URIRef(eleves[row['identifiant_1']]),
-                    URIRef(HEMEF["cursus_date_entree_conservatoire"]),
-                    Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
+            if isinstance(row["cursus_date_entree_conservatoire"], datetime.date):
+                g.add(
+                    (
+                        URIRef(eleves[row['identifiant_1']]),
+                        URIRef(HEMEF["cursus_date_entree_conservatoire"]),
+                        Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
+                    )
                 )
-            )
+            else :
+                g.add(
+                    (
+                        URIRef(eleves[row['identifiant_1']]),
+                        URIRef(HEMEF["cursus_date_entree_conservatoire"]),
+                        Literal(row["cursus_date_entree_conservatoire"])
+                    )
+                )
 
         if (pandas.notna(row["cursus_date_sortie_conservatoire"])):
             g.add(
@@ -852,7 +845,23 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-                if uriPrix != None:
+            if uriPrix != None:
+                if str(row["prix_type"]) == 'Prix de Rome' or str(row["prix_type"]) == 'Grand Prix de Rome':
+                    g.add(
+                        (
+                            URIRef(uriPrix),
+                            URIRef(HEMEF['recompense_eleve']),
+                            URIRef(uriEleve)
+                        )
+                    )
+                    g.add(
+                            (
+                                URIRef(uriEleve),
+                                URIRef(HEMEF['prix_decerne']),
+                                URIRef(uriPrix),
+                            )
+                        )
+                else :
                     g.add(
                         (
                             URIRef(uriPrix),
