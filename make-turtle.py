@@ -275,6 +275,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal('Femme')
                 )
             )
+        date_time = None
         if (isinstance(row["eleve_date_naissance"], datetime.date)):
             date_time = str(row["eleve_date_naissance"]).split()
             g.add(
@@ -557,11 +558,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # cursus_date_epreuve_admission non traité, vide
         if (pandas.notna(row["cursus_date_entree_conservatoire"])):
             if isinstance(row["cursus_date_entree_conservatoire"], datetime.date):
+                date_time=str(row["cursus_date_entree_conservatoire"]).split()
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
                         URIRef(HEMEF["cursus_date_entree_conservatoire"]),
-                        Literal(row["cursus_date_entree_conservatoire"], datatype=XSD.Date)
+                        Literal(date_time[0], datatype=XSD.Date)
                     )
                 )
             else :
@@ -574,13 +576,23 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
 
         if (pandas.notna(row["cursus_date_sortie_conservatoire"])):
-            g.add(
-                (
-                    URIRef(eleves[row['identifiant_1']]),
-                    URIRef(HEMEF["cursus_date_sortie_conservatoire"]),
-                    Literal(row["cursus_date_sortie_conservatoire"], datatype=XSD.Date)
+            if isinstance(row["cursus_date_sortie_conservatoire"], datetime.date):
+                date_time=str(row["cursus_date_sortie_conservatoire"]).split()
+                g.add(
+                    (
+                        URIRef(eleves[row['identifiant_1']]),
+                        URIRef(HEMEF["cursus_date_sortie_conservatoire"]),
+                        Literal(date_time[0], datatype=XSD.Date)
+                    )
                 )
-            )
+            else :
+                g.add(
+                    (
+                        URIRef(eleves[row['identifiant_1']]),
+                        URIRef(HEMEF["cursus_date_sortie_conservatoire"]),
+                        Literal(row["cursus_date_sortie_conservatoire"])
+                    )
+                )
 
         if (pandas.notna(row["cursus_motif_sortie"])):
             g.add(
