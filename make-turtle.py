@@ -281,7 +281,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             g.add(
                 (
                     URIRef(uriEleve),
-                    URIRef(HEMEF["année_de_naissance"]),
+                    URIRef(HEMEF["date_de_naissance"]),
                     Literal(date_time[0], datatype=XSD.Date)
                 )
             )
