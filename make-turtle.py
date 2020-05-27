@@ -570,7 +570,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
-                        URIRef(HEMEF["cursus_date_entree_conservatoire"]),
+                        URIRef(HEMEF["hypothese_cursus_date_entree_conservatoire"]),
                         Literal(row["cursus_date_entree_conservatoire"])
                     )
                 )
@@ -590,7 +590,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
-                        URIRef(HEMEF["cursus_date_sortie_conservatoire"]),
+                        URIRef(HEMEF["hypothese_cursus_date_sortie_conservatoire"]),
                         Literal(row["cursus_date_sortie_conservatoire"])
                     )
                 )
@@ -663,7 +663,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add(
                     (
                         URIRef(uriPrix),
-                        URIRef(HEMEF['année_prix']),
+                        URIRef(HEMEF['hypothese_année_prix']),
                         Literal(row["prix_date"])
                     )
                 )
