@@ -2319,7 +2319,7 @@ parcours_classe:
   ? !!python/tuple [1908-0481, Renart, *id041, "Solf\xE8ge"]
   : 8c920c6b-01f4-4b33-abfb-49b5a9523275
   ? !!python/tuple ['1910-[0481 bis]', *id041, .nan]
-  : 4b1e123a-0988-4a2e-aa54-00e3f667e702
+  : e84fa901-ddf6-44be-afba-e1c36d3faea8
   ? !!python/tuple [1908-0482, Renart, *id041, "Solf\xE8ge"]
   : 7dcac537-be7a-4110-8649-e80d3116c396
   ? !!python/tuple ['1910-[0482 bis]', Renart, *id041, "Solf\xE8ge"]
@@ -3517,7 +3517,7 @@ parcours_classe:
   ? !!python/tuple ['1914-[0498 bis]', Kaiser, *id071, "Solf\xE8ge"]
   : b581d219-fa9d-410c-a2f7-59811dbb4324
   ? !!python/tuple ['1910-[0481 bis]', !!timestamp '1908-11-28 00:00:00', .nan]
-  : e84fa901-ddf6-44be-afba-e1c36d3faea8
+  : 7ab183a6-2220-413c-a1ca-a289563926b2
 pays: {' Turquie': b10a25cd-ba9b-4801-be57-3e43ad1cdb2f, "Alg\xE9rie": 3887d736-7c2d-46a8-be6a-2e5e14fa2d94,
   "Am\xE9rique": c57534d8-2383-499f-a9d6-3c813182df0a, "Am\xE9rique du Nord": 1b595cae-5be1-4029-91d9-eeb8a223a1ae,
   Angleterre: e09047fb-fff4-4841-aca1-e8d1d651ddaf, Belgique: 21151b8d-b73a-414a-b798-7995ea4135d6,

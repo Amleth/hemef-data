@@ -891,6 +891,24 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             )
         )
 
+        if (pandas.notna(row['parcours_classe_date_entree'])):
+            if isinstance(row['parcours_classe_date_entree'], datetime.date):
+                g.add(
+                    (
+                        URIRef(uri_parcours_classe),
+                        URIRef(HEMEF["date_entree"]),
+                        Literal(row['parcours_classe_date_entree'], datatype = XSD.Date)
+                    )
+                )
+            else :
+                g.add(
+                    (
+                        URIRef(uri_parcours_classe),
+                        URIRef(HEMEF["hypothèse_date_entree"]),
+                        Literal(row['parcours_classe_date_entree'])
+                    )
+                )
+
         if (pandas.notna(row['parcours_classe_motif_entree'])):
             g.add(
                 (
@@ -899,6 +917,34 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row['parcours_classe_motif_entree'])
                 )
             )
+
+        if (pandas.notna(row['parcours_classe_date_sortie'])):
+            if isinstance(row['parcours_classe_date_sortie'], datetime.date):
+                g.add(
+                    (
+                        URIRef(uri_parcours_classe),
+                        URIRef(HEMEF["date_sortie"]),
+                        Literal(row['parcours_classe_date_sortie'], datatype = XSD.Date)
+                    )
+                )
+            else :
+                g.add(
+                    (
+                        URIRef(uri_parcours_classe),
+                        URIRef(HEMEF["hypothèse_date_sortie"]),
+                        Literal(row['parcours_classe_date_sortie'])
+                    )
+                )
+
+        if (pandas.notna(row['parcours_classe_motifs_sortie'])):
+            g.add(
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF["motif_sortie"]),
+                    Literal(row['parcours_classe_motifs_sortie'])
+                )
+            )
+
         if (pandas.notna(row['parcours_classe_observations_eleve'])):
             g.add(
                 (
