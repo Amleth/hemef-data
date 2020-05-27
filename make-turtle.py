@@ -75,7 +75,7 @@ eleves = {}
 prix = {}
 parcours_classe = {}
 discipline = {}
-classe = {} #un tuple discipline, professeur
+classe = {}  # un tuple discipline, professeur
 professeur = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8').iterrows():
@@ -102,28 +102,28 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
-        #Creation des clés pour les Parcours_classe
-        if (pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"])) :
+        # Creation des clés pour les Parcours_classe
+        if (pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"])):
             id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
-        else :
-            #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers 
-            if pandas.isna(row["classe_nom_professeur"]) :
-                if pandas.isna(row["parcours_classe_date_entree"]) :
+        else:
+            # Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
+            if pandas.isna(row["classe_nom_professeur"]):
+                if pandas.isna(row["parcours_classe_date_entree"]):
                     if pandas.isna(row["classe_discipline"]):
                         parcours_classe[row["identifiant_1"]] = générer_uuid('parcours_classe', row["identifiant_1"])
-                    else :
+                    else:
                         id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
-                else :
-                    if pandas.isna(row["classe_discipline"]) :
+                else:
+                    if pandas.isna(row["classe_discipline"]):
                         id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"]))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
-                    else :
+                    else:
                         id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
-            else :
-                #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
+            else:
+                # dernier cas possible : seul row["parcours_classe_date_entree"] est vide
                 id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
                 parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
 
@@ -136,12 +136,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if ((pandas.notna(row['classe_nom_professeur']))):
             professeur[row['classe_nom_professeur']] = générer_uuid('Professeurs', row['classe_nom_professeur'])
 
-        if ((pandas.notna(row['classe_discipline']) and pandas.notna(row['classe_nom_professeur']) )):
+        if ((pandas.notna(row['classe_discipline']) and pandas.notna(row['classe_nom_professeur']))):
             id_classe = tuple((row['classe_discipline'], row['classe_nom_professeur']))
-            classe[id_classe]=générer_uuid('Classe', id_classe)
-        elif pandas.notna(row['classe_discipline']) :
+            classe[id_classe] = générer_uuid('Classe', id_classe)
+        elif pandas.notna(row['classe_discipline']):
             id_classe = row['classe_discipline']
-            classe[id_classe]=générer_uuid('Classe', id_classe)
+            classe[id_classe] = générer_uuid('Classe', id_classe)
 
         # Voilà, on est sûr que la ligne est OK
 
@@ -524,7 +524,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        #Gestion des précursus
+        # Gestion des précursus
         if (pandas.notna(row["pre-cursus_nom_etablissement"])):
             g.add(
                 (
@@ -533,7 +533,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["pre-cursus_nom_etablissement"])
                 )
             )
-        
+
         if (pandas.notna(row["pre-cursus_type_etablissement_"])):
             g.add(
                 (
@@ -542,11 +542,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row["pre-cursus_type_etablissement_"])
                 )
             )
-        
+
         villePC = None
         if (pandas.notna(row["pre-cursus_ville_etablissement_"])):
             villePC = row["pre-cursus_ville_etablissement_"]
-            if villePC in villes :
+            if villePC in villes:
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
@@ -554,7 +554,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         URIRef(villes[villePC])
                     )
                 )
-            else :
+            else:
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
@@ -583,7 +583,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # cursus_date_epreuve_admission non traité, vide
         if (pandas.notna(row["cursus_date_entree_conservatoire"])):
             if isinstance(row["cursus_date_entree_conservatoire"], datetime.date):
-                date_time=str(row["cursus_date_entree_conservatoire"]).split()
+                date_time = str(row["cursus_date_entree_conservatoire"]).split()
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
@@ -591,7 +591,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         Literal(date_time[0], datatype=XSD.Date)
                     )
                 )
-            else :
+            else:
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
@@ -603,7 +603,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["cursus_date_sortie_conservatoire"])):
             if isinstance(row["cursus_date_sortie_conservatoire"], datetime.date):
                 # date_time=str(row["cursus_date_sortie_conservatoire"]).split()
-                date=row["cursus_date_sortie_conservatoire"].date()
+                date = row["cursus_date_sortie_conservatoire"].date()
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
@@ -611,7 +611,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         Literal(date, datatype=XSD.Date)
                     )
                 )
-            else :
+            else:
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
@@ -676,7 +676,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
 
             # gYeat represents a specific calendar year. The letter g signifies "Gregorian." The format of xsd:gYear is CCYY
-            if isinstance(row["prix_date"], datetime.datetime) :
+            if isinstance(row["prix_date"], datetime.datetime):
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -684,7 +684,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         Literal(row["prix_date"].year(), datatype=XSD.gYear)
                     )
                 )
-            else :
+            else:
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -692,8 +692,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         Literal(row["prix_date"])
                     )
                 )
-                    
-            if (pandas.notna(row["prix_discipline"])) :
+
+            if (pandas.notna(row["prix_discipline"])):
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -765,15 +765,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(row['classe_nom_professeur'])
                 )
             )
-        
+
         uriClasse = None
-        if Discipline and Prof :
+        if Discipline and Prof:
             id_classe = tuple((Discipline, Prof))
             uriClasse = classe[id_classe]
-        elif Discipline :
+        elif Discipline:
             id_classe = Discipline
             uriClasse = classe[id_classe]
-        if uriClasse :
+        if uriClasse:
             # g.add(
             #     (
             #         URIRef(uriClasse),
@@ -809,7 +809,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(uriClasse),
                         URIRef(HEMEF['enseignant']),
-                        URIRef(professeur[Prof]) 
+                        URIRef(professeur[Prof])
                     )
                 )
             # else :
@@ -817,7 +817,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             #         (
             #             URIRef(uriClasse),
             #             URIRef(HEMEF['enseignant']),
-            #             Literal("Professeur Anonyme") 
+            #             Literal("Professeur Anonyme")
             #         )
             #     )
 
@@ -847,30 +847,29 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-        
         # Gestion Parcours_classe
 
         if pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"]):
             id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
             uri_parcours_classe = parcours_classe[id_parcours_classe]
-        else :
-            #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers 
-            if pandas.isna(row["classe_nom_professeur"]) :
-                if pandas.isna(row["parcours_classe_date_entree"]) :
+        else:
+            # Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
+            if pandas.isna(row["classe_nom_professeur"]):
+                if pandas.isna(row["parcours_classe_date_entree"]):
                     if pandas.isna(row["classe_discipline"]):
                         uri_parcours_classe = parcours_classe[row["identifiant_1"]]
-                    else :
+                    else:
                         id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
-                else :
-                    if pandas.isna(row["classe_discipline"]) :
+                else:
+                    if pandas.isna(row["classe_discipline"]):
                         id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"]))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
-                    else :
+                    else:
                         id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
-            else :
-                #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
+            else:
+                # dernier cas possible : seul row["parcours_classe_date_entree"] est vide
                 id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
                 uri_parcours_classe = parcours_classe[id_parcours_classe]
 
@@ -881,8 +880,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 URIRef(HEMEF["Parcours_classe"])
             )
         )
-        
-        #modif : mtn lié a eleve et non plus a cursus
+
+        # modif : mtn lié a eleve et non plus a cursus
         g.add(
             (
                 URIRef(eleves[row['identifiant_1']]),
@@ -905,10 +904,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(uri_parcours_classe),
                         URIRef(HEMEF["date_entree"]),
-                        Literal(row['parcours_classe_date_entree'], datatype = XSD.Date)
+                        Literal(row['parcours_classe_date_entree'], datatype=XSD.Date)
                     )
                 )
-            else :
+            else:
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
@@ -932,10 +931,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(uri_parcours_classe),
                         URIRef(HEMEF["date_sortie"]),
-                        Literal(row['parcours_classe_date_sortie'], datatype = XSD.Date)
+                        Literal(row['parcours_classe_date_sortie'], datatype=XSD.Date)
                     )
                 )
-            else :
+            else:
                 g.add(
                     (
                         URIRef(uri_parcours_classe),
@@ -979,7 +978,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         #         )
         #     )
 
-
         if uriPrix != None:
             if str(row["prix_type"]) == 'Prix de Rome' or str(row["prix_type"]) == 'Grand Prix de Rome':
                 g.add(
@@ -990,13 +988,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
                 g.add(
-                        (
-                            URIRef(uriEleve),
-                            URIRef(HEMEF['prix_decerne']),
-                            URIRef(uriPrix),
-                        )
+                    (
+                        URIRef(uriEleve),
+                        URIRef(HEMEF['prix_decerne']),
+                        URIRef(uriPrix),
                     )
-            else :
+                )
+            else:
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -1014,7 +1012,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
     # on part sur une determination de l'identifiant + qu'un changement de comportement
     # else :
-    #     #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers 
+    #     #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
     #     if pandas.isna(row["classe_nom_professeur"]) :
     #         if pandas.isna(row["parcours_classe_date_entree"]) :
     #             if pandas.isna(row["classe_discipline"]):
@@ -1034,7 +1032,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         #     debug_eleve_sans_pc[row["identifiant_1"]] = []
         #     valeurs = tuple(( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ))
         #     debug_eleve_sans_pc[row["identifiant_1"]].append(valeurs)
-        
+
 
 ################################################################
 ################################################################################
