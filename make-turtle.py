@@ -102,9 +102,26 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
+        #Creation des clés pour les Parcours_classe
         if (pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"])) :
             id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
+        else :
+            #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers 
+            if pandas.isna(row["classe_nom_professeur"]) :
+                if pandas.isna(row["parcours_classe_date_entree"]) :
+                    if pandas.isna(row["classe_discipline"]):
+                        parcours_classe[row["identifiant_1"]] = générer_uuid('parcours_classe', row["identifiant_1"])
+                    else :
+                        id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
+                        parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
+                else :
+                    id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+                    parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
+            else :
+                #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
+                id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
+                parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
 
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
         # ConceptSchemes['Classes'] = générer_uuid("ConceptSchemes", 'Classes')
@@ -206,6 +223,7 @@ g.add(
 
 ################################################################################
 ################################################################################
+# debug_eleve_sans_pc = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8').iterrows():
     if row["identifiant_1"] in lignes_pourries_à_ne_pas_traiter:
@@ -816,92 +834,138 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"]):
             id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
             uri_parcours_classe = parcours_classe[id_parcours_classe]
-
-            g.add(
-                (
-                    URIRef(uri_parcours_classe),
-                    URIRef(is_a),
-                    URIRef(HEMEF["Parcours_classe"])
-                )
-            )
-            
-            #modif : mtn lié a eleve et non plus a cursus
-            g.add(
-                (
-                    URIRef(eleves[row['identifiant_1']]),
-                    URIRef(HEMEF["a_pour_parcours"]),
-                    URIRef(uri_parcours_classe)
-                )
-            )
-
-            g.add(
-                (
-                    URIRef(uri_parcours_classe),
-                    URIRef(HEMEF["est_parcours_de"]),
-                    URIRef(eleves[row['identifiant_1']])
-                )
-            )
-
-            if (pandas.notna(row['parcours_classe_motif_entree'])):
-                g.add(
-                    (
-                        URIRef(uri_parcours_classe),
-                        URIRef(HEMEF["motif_entree"]),
-                        Literal(row['parcours_classe_motif_entree'])
-                    )
-                )
-            if (pandas.notna(row['parcours_classe_observations_eleve'])):
-                g.add(
-                    (
-                        URIRef(uri_parcours_classe),
-                        URIRef(HEMEF["observations_eleve"]),
-                        Literal(row['parcours_classe_observations_eleve'])
-                    )
-                )
-
-            if (uriClasse):
-                g.add(
-                    (
-                        URIRef(uri_parcours_classe),
-                        URIRef(HEMEF['classe_parcourue']),
-                        URIRef(uriClasse)
-                    )
-                )
-
-            if uriPrix != None:
-                if str(row["prix_type"]) == 'Prix de Rome' or str(row["prix_type"]) == 'Grand Prix de Rome':
-                    g.add(
-                        (
-                            URIRef(uriPrix),
-                            URIRef(HEMEF['recompense_eleve']),
-                            URIRef(uriEleve)
-                        )
-                    )
-                    g.add(
-                            (
-                                URIRef(uriEleve),
-                                URIRef(HEMEF['prix_decerne']),
-                                URIRef(uriPrix),
-                            )
-                        )
+        else :
+            #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers 
+            if pandas.isna(row["classe_nom_professeur"]) :
+                if pandas.isna(row["parcours_classe_date_entree"]) :
+                    if pandas.isna(row["classe_discipline"]):
+                        uri_parcours_classe = parcours_classe[row["identifiant_1"]]
+                    else :
+                        id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
+                        uri_parcours_classe = parcours_classe[id_parcours_classe]
                 else :
-                    g.add(
-                        (
-                            URIRef(uriPrix),
-                            URIRef(HEMEF['recompense_parcours']),
-                            URIRef(uri_parcours_classe)
-                        )
-                    )
+                    id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+                    uri_parcours_classe = parcours_classe[id_parcours_classe]
+            else :
+                #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
+                id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
+                uri_parcours_classe = parcours_classe[id_parcours_classe]
 
-                    g.add(
+        g.add(
+            (
+                URIRef(uri_parcours_classe),
+                URIRef(is_a),
+                URIRef(HEMEF["Parcours_classe"])
+            )
+        )
+        
+        #modif : mtn lié a eleve et non plus a cursus
+        g.add(
+            (
+                URIRef(eleves[row['identifiant_1']]),
+                URIRef(HEMEF["a_pour_parcours"]),
+                URIRef(uri_parcours_classe)
+            )
+        )
+
+        g.add(
+            (
+                URIRef(uri_parcours_classe),
+                URIRef(HEMEF["est_parcours_de"]),
+                URIRef(eleves[row['identifiant_1']])
+            )
+        )
+
+        if (pandas.notna(row['parcours_classe_motif_entree'])):
+            g.add(
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF["motif_entree"]),
+                    Literal(row['parcours_classe_motif_entree'])
+                )
+            )
+        if (pandas.notna(row['parcours_classe_observations_eleve'])):
+            g.add(
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF["observations_eleve"]),
+                    Literal(row['parcours_classe_observations_eleve'])
+                )
+            )
+
+        if (uriClasse):
+            g.add(
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF['classe_parcourue']),
+                    URIRef(uriClasse)
+                )
+            )
+        elif pandas.notna(row["classe_discipline"]):
+            g.add(
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF['discipline_suivie']),
+                    Literal(row["classe_discipline"])
+                )
+            )
+
+
+        if uriPrix != None:
+            if str(row["prix_type"]) == 'Prix de Rome' or str(row["prix_type"]) == 'Grand Prix de Rome':
+                g.add(
+                    (
+                        URIRef(uriPrix),
+                        URIRef(HEMEF['recompense_eleve']),
+                        URIRef(uriEleve)
+                    )
+                )
+                g.add(
                         (
-                            URIRef(uri_parcours_classe),
+                            URIRef(uriEleve),
                             URIRef(HEMEF['prix_decerne']),
                             URIRef(uriPrix),
                         )
                     )
-        else :
-            print( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ) 
+            else :
+                g.add(
+                    (
+                        URIRef(uriPrix),
+                        URIRef(HEMEF['recompense_parcours']),
+                        URIRef(uri_parcours_classe)
+                    )
+                )
+
+                g.add(
+                    (
+                        URIRef(uri_parcours_classe),
+                        URIRef(HEMEF['prix_decerne']),
+                        URIRef(uriPrix),
+                    )
+                )
+    # on part sur une determination de l'identifiant + qu'un changement de comportement
+    # else :
+    #     #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers 
+    #     if pandas.isna(row["classe_nom_professeur"]) :
+    #         if pandas.isna(row["parcours_classe_date_entree"]) :
+    #             if pandas.isna(row["classe_discipline"]):
+    #                 pass
+    #             else :
+    #                 pass
+    #         else :
+    #             pass
+    #     else :
+    #         #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
+    #         pass
+
+        # if row["identifiant_1"] in debug_eleve_sans_pc :
+        #     valeurs = tuple(( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ))
+        #     debug_eleve_sans_pc[row["identifiant_1"]].append(valeurs)
+        # else :
+        #     debug_eleve_sans_pc[row["identifiant_1"]] = []
+        #     valeurs = tuple(( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ))
+        #     debug_eleve_sans_pc[row["identifiant_1"]].append(valeurs)
+        
 
 ################################################################
 ################################################################################
@@ -915,3 +979,6 @@ with open(args.turtle, "w") as file:
 
 with open("registre.yaml", "w") as file:
     yaml.dump(registre, file)
+
+# with open("eleves_sans_pc.yaml", "w") as file:
+#     yaml.dump(debug_eleve_sans_pc, file)

@@ -1,0 +1,2811 @@
+1906-0296:
+- !!python/tuple [Pessard, 1906-0296, &id001 !!timestamp '1906-11-27 00:00:00', 'Harmonie ']
+1906-0297:
+- !!python/tuple [Pessard, 1906-0297, *id001, 'Harmonie ']
+1906-0298:
+- !!python/tuple [Guilmant, 1906-0298, *id001, Orgue]
+- !!python/tuple [Guilmant, 1906-0298, *id001, Orgue]
+- !!python/tuple [Guilmant, 1906-0298, *id001, Orgue]
+1906-0299:
+- !!python/tuple [Laudon, 1906-0299, *id001, 'Harmonie ']
+- !!python/tuple [Caussade, 1906-0299, &id002 !!timestamp '1909-11-27 00:00:00', Contrepoint]
+1906-0300:
+- !!python/tuple [Chapuis, 1906-0300, *id001, 'Harmonie ']
+- !!python/tuple [Caussade, 1906-0300, *id002, Contrepoint]
+1906-0301:
+- !!python/tuple [Rougnon, 1906-0301, *id002, "Solf\xE8ge"]
+- !!python/tuple [Rougnon, 1906-0301, *id002, "Solf\xE8ge"]
+1906-0302:
+- !!python/tuple [Schvartz, 1906-0302, *id001, "Solf\xE8ge"]
+- !!python/tuple ["Di\xE9mer", 1906-0302, &id040 !!timestamp '1912-11-07 00:00:00',
+  'Piano ']
+- !!python/tuple [Leroux, 1906-0302, &id031 !!timestamp '1913-11-26 00:00:00', Harmonie]
+- !!python/tuple [Caussade, 1906-0302, '1920-00-00', Contrepoint et Fugue]
+- !!python/tuple [Caussade, 1906-0302, '1920-00-00', Contrepoint et Fugue]
+- !!python/tuple [Vidor, 1906-0302, &id118 !!timestamp '1923-01-23 00:00:00', 'Composition ']
+- !!python/tuple [' Indy, de', 1906-0302, &id095 !!timestamp '1924-11-06 00:00:00',
+  Direction d'orchestre]
+1906-0303:
+- !!python/tuple [Schvartz, 1906-0303, *id001, "Solf\xE8ge"]
+1906-0304:
+- !!python/tuple [Kaiser, 1906-0304, *id001, "Solf\xE8ge"]
+- !!python/tuple [Kaiser, 1906-0304, *id001, "Solf\xE8ge"]
+- !!python/tuple [Kaiser, 1906-0304, *id001, "Solf\xE8ge"]
+- !!python/tuple [Taudou, 1906-0304, &id007 !!timestamp '1911-11-29 00:00:00', Harmonie]
+- !!python/tuple [.nan, 1906-0304, &id003 !!timestamp '1915-02-09 00:00:00', 'Accompagnement
+    au piano ']
+- !!python/tuple [Widor, 1906-0304, *id003, Composition]
+- !!python/tuple [Widor, 1906-0304, *id003, Composition]
+1906-0305:
+- !!python/tuple [Cuignache, 1906-0305, *id001, "Solf\xE8ge"]
+1906-0306:
+- !!python/tuple [Leroux, 1906-0306, &id004 !!timestamp '1906-11-30 00:00:00', Harmonie]
+1906-0308:
+- !!python/tuple [Lavignac, 1906-0308, *id004, Harmonie]
+- !!python/tuple ["G\xE9dalge ", 1906-0308, &id037 !!timestamp '1908-11-30 00:00:00',
+  Contrepoint]
+- !!python/tuple [Vidal, 1906-0308, &id046 !!timestamp '1912-01-10 00:00:00', Composition]
+1906-0309:
+- !!python/tuple [Lavignac, 1906-0309, *id004, Harmonie]
+1906-0310:
+- !!python/tuple ["G\xE9dalge ", 1906-0310, *id004, Contrepoint]
+1906-0311:
+- !!python/tuple [Vizentini, 1906-0311, *id001, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, 1906-0311, *id001, "Solf\xE8ge"]
+- !!python/tuple ['Louche ', 1906-0311, &id005 !!timestamp '1910-10-28 00:00:00',
+  "Violon pr\xE9paratoire"]
+- !!python/tuple ['Louche ', 1906-0311, *id005, "Violon pr\xE9paratoire"]
+- !!python/tuple [Berthelier, 1906-0311, &id006 !!timestamp '1913-11-14 00:00:00',
+  'Violon  ']
+- !!python/tuple [Berthelier, 1906-0311, *id006, 'Violon  ']
+'1906-[0296 bis] ':
+- !!python/tuple [Pessard, '1906-[0296 bis] ', *id001, 'Harmonie ']
+1906-[0297 bis]:
+- !!python/tuple [Guilmant, '1906-[0297 bis]', *id001, Orgue]
+- !!python/tuple [Guilmant, '1906-[0297 bis]', *id001, Orgue]
+- !!python/tuple [Guilmant, '1906-[0297 bis]', *id001, Orgue]
+- !!python/tuple [Vidal, '1906-[0297 bis]', !!timestamp '1911-01-16 00:00:00', Composition]
+1906-[0299 bis]:
+- !!python/tuple [Laudon, '1906-[0299 bis]', *id001, Harmonie]
+1906-[0300 bis]:
+- !!python/tuple [Rougnon, '1906-[0300 bis]', *id002, "Solf\xE8ge"]
+1906-[0301-bis]:
+- !!python/tuple [Rougnon, '1906-[0301-bis]', *id001, "Solf\xE8ge"]
+- !!python/tuple [Rougnon, '1906-[0301-bis]', *id001, "Solf\xE8ge"]
+- !!python/tuple [Falkenberg, '1906-[0301-bis]', !!timestamp '1907-11-27 00:00:00',
+  "Piano pr\xE9paratoire"]
+1906-[0304 bis]:
+- !!python/tuple [Cuignache, '1906-[0304 bis]', *id001, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, '1906-[0304 bis]', *id001, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, '1906-[0304 bis]', *id001, "Solf\xE8ge"]
+- !!python/tuple [Savignac, '1906-[0304 bis]', *id007, Harmonie]
+- !!python/tuple [Savignac, '1906-[0304 bis]', *id007, Harmonie]
+- !!python/tuple [Savignac, '1906-[0304 bis]', *id007, Harmonie]
+- !!python/tuple [Caussade, '1906-[0304 bis]', !!timestamp '1919-12-05 00:00:00',
+  Contrepoint]
+1906-[0305 bis]:
+- !!python/tuple [Sujol, '1906-[0305 bis]', *id001, "Solf\xE8ge"]
+- !!python/tuple [Laforge, '1906-[0305 bis]', !!timestamp '1913-11-17 00:00:00', Alto]
+1906-[0306 bis]:
+- !!python/tuple [Leroux, '1906-[0306 bis]', *id004, Harmonie]
+1906-[0307 bis]:
+- !!python/tuple [Leroux, '1906-[0307 bis]', *id004, Harmonie]
+1906-[0308 bis]:
+- !!python/tuple [Lavignac, '1906-[0308 bis]', *id004, Harmonie]
+1906-[0309 bis]:
+- !!python/tuple ["G\xE9dalge ", '1906-[0309 bis]', *id004, Contrepoint]
+- !!python/tuple [Widor, '1906-[0309 bis]', &id008 !!timestamp '1910-01-14 00:00:00',
+  Composition]
+1906-[0310 bis]:
+- !!python/tuple ["G\xE9dalge ", '1906-[0310 bis]', *id004, Contrepoint]
+- !!python/tuple [Widor, '1906-[0310 bis]', *id008, Composition]
+- !!python/tuple [Estyle, '1906-[0310 bis]', &id039 !!timestamp '1913-11-30 00:00:00',
+  'Accompagnement au piano ']
+1907-0312:
+- !!python/tuple [Hasselmans, 1907-0312, &id009 !!timestamp '1907-10-15 00:00:00',
+  'Harpe ']
+- !!python/tuple [Hasselmans, 1907-0312, *id009, 'Harpe ']
+- !!python/tuple ['Hardonin ', 1907-0312, &id011 !!timestamp '1907-11-29 00:00:00',
+  "Solf\xE8ge"]
+1907-0313:
+- !!python/tuple [Tassu-Spencer, 1907-0313, *id009, 'Harpe chromatique ']
+- !!python/tuple ["L\xE9nars", 1907-0313, &id038 !!timestamp '1912-10-28 00:00:00',
+  'Harpe chromatique ']
+1907-0314:
+- !!python/tuple ["Di\xE9mer", 1907-0314, &id010 !!timestamp '1907-10-17 00:00:00',
+  'Piano ']
+- !!python/tuple ["Di\xE9mer", 1907-0314, &id071 !!timestamp '1910-10-24 00:00:00',
+  'Piano ']
+1907-0315:
+- !!python/tuple [Risler, 1907-0315, *id010, 'Piano ']
+1907-0316:
+- !!python/tuple [Falkenberg, 1907-0316, *id010, "Piano pr\xE9paratoire"]
+- !!python/tuple [Rougnon, 1907-0316, *id011, "Solf\xE8ge"]
+- !!python/tuple ["Di\xE9mer", 1907-0316, &id012 !!timestamp '1909-11-18 00:00:00',
+  'Piano ']
+- !!python/tuple ["Di\xE9mer", 1907-0316, *id012, 'Piano ']
+1907-0317:
+- !!python/tuple [Falkenberg, 1907-0317, *id010, "Piano pr\xE9paratoire"]
+- !!python/tuple [Rougnon, 1907-0317, *id011, "Solf\xE8ge"]
+1907-0318:
+- !!python/tuple [Taffanel, 1907-0318, &id013 !!timestamp '1907-10-24 00:00:00', "Fl\xFB\
+    te "]
+- !!python/tuple [Taffanel, 1907-0318, *id013, "Fl\xFBte "]
+- !!python/tuple [Taffanel, 1907-0318, *id013, "Fl\xFBte "]
+- !!python/tuple [Taffanel, 1907-0318, *id013, "Fl\xFBte "]
+1907-0319:
+- !!python/tuple [Taffanel, 1907-0319, *id013, "Fl\xFBte "]
+- !!python/tuple [Taffanel, 1907-0319, *id013, "Fl\xFBte "]
+- !!python/tuple [Cuignache, 1907-0319, !!timestamp '1909-10-14 00:00:00', "Solf\xE8\
+    ge"]
+1907-0320:
+- !!python/tuple [Gillet, 1907-0320, *id013, Hautbois]
+- !!python/tuple [Gillet, 1907-0320, *id013, Hautbois]
+- !!python/tuple [Kaiser, 1907-0320, !!timestamp '1908-10-12 00:00:00', "Solf\xE8\
+    ge"]
+1907-0321:
+- !!python/tuple [Minart, 1907-0321, *id013, Clarinette]
+- !!python/tuple [Minart, 1907-0321, *id013, Clarinette]
+- !!python/tuple [Sujol, 1907-0321, &id034 !!timestamp '1907-11-30 00:00:00', "Solf\xE8\
+    ge"]
+1907-0322:
+- !!python/tuple [Minart, 1907-0322, *id013, Clarinette]
+- !!python/tuple [Minart, 1907-0322, *id013, Clarinette]
+- !!python/tuple [Minart, 1907-0322, *id013, Clarinette]
+- !!python/tuple [Sujol, 1907-0322, *id011, "Solf\xE8ge"]
+1907-0323:
+- !!python/tuple [Minart, 1907-0323, *id013, Clarinette]
+- !!python/tuple [Minart, 1907-0323, *id013, Clarinette]
+- !!python/tuple [Savignac, 1907-0323, *id011, "Solf\xE8ge"]
+1907-0324:
+- !!python/tuple [Bourdeau, 1907-0324, *id013, Basson]
+- !!python/tuple [Bourdeau, 1907-0324, *id013, Basson]
+- !!python/tuple [Bourdeau, 1907-0324, *id013, Basson]
+- !!python/tuple [Bourdeau, 1907-0324, *id013, Basson]
+1907-0325:
+- !!python/tuple ['Bernarhdt, Sarah', 1907-0325, &id014 !!timestamp '1907-10-25 00:00:00',
+  "D\xE9clamation"]
+- !!python/tuple ['Bernarhdt, Sarah', 1907-0325, *id014, "D\xE9clamation"]
+1907-0326:
+- !!python/tuple [Leloir, 1907-0326, *id014, "D\xE9clamation"]
+1907-0327:
+- !!python/tuple [Monnet, 1907-0327, *id014, "D\xE9clamation"]
+1907-0328:
+- !!python/tuple [Berr, 1907-0328, *id014, "D\xE9clamation"]
+1907-0329:
+- !!python/tuple [Monnet, 1907-0329, *id014, "D\xE9clamation"]
+1907-0330:
+- !!python/tuple [Truffier, 1907-0330, *id014, "D\xE9clamation"]
+- !!python/tuple [Truffier, 1907-0330, *id014, "D\xE9clamation"]
+1907-0331:
+- !!python/tuple [Leloir, 1907-0331, *id014, "D\xE9clamation"]
+- !!python/tuple [Leloir, 1907-0331, *id014, "D\xE9clamation"]
+- !!python/tuple [Leloir, 1907-0331, *id014, "D\xE9clamation"]
+1907-0332:
+- !!python/tuple [Truffier, 1907-0332, *id014, "D\xE9clamation"]
+- !!python/tuple [Truffier, 1907-0332, *id014, "D\xE9clamation"]
+- !!python/tuple [Truffier, 1907-0332, *id014, "D\xE9clamation"]
+- !!python/tuple [Truffier, 1907-0332, *id014, "D\xE9clamation"]
+1907-0333:
+- !!python/tuple ['Berr ', 1907-0333, *id014, "D\xE9clamation"]
+1907-0334:
+- !!python/tuple [Manoury, 1907-0334, &id015 !!timestamp '1907-11-04 00:00:00', Chant]
+- !!python/tuple [Manoury, 1907-0334, *id015, Chant]
+- !!python/tuple [Auzende, 1907-0334, *id015, "Solf\xE8ge"]
+- !!python/tuple [Iisnardon, 1907-0334, &id016 !!timestamp '1909-01-25 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple [Iisnardon, 1907-0334, *id016, "D\xE9clamation lyrique"]
+1907-0335:
+- !!python/tuple [Duvernoy, 1907-0335, *id015, Chant]
+- !!python/tuple [Auzende, 1907-0335, *id015, "Solf\xE8ge"]
+1907-0336:
+- !!python/tuple [Engel, 1907-0336, *id015, Chant]
+- !!python/tuple [Auzende, 1907-0336, *id015, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1907-0336, *id016, "D\xE9clamation lyrique"]
+1907-0337:
+- !!python/tuple [Martini, 1907-0337, *id015, Chant]
+- !!python/tuple [Auzende, 1907-0337, *id015, "Solf\xE8ge"]
+1907-0338:
+- !!python/tuple [Duvernoy, 1907-0338, *id015, Chant]
+- !!python/tuple [Vernaelde, 1907-0338, *id015, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, 1907-0338, &id059 !!timestamp '1910-01-29 00:00:00', "D\xE9\
+    clamation lyrique"]
+1907-0339:
+- !!python/tuple [Hettich, 1907-0339, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0339, *id011, "Solf\xE8ge"]
+- !!python/tuple [Sujol, 1907-0339, *id011, "Solf\xE8ge"]
+- !!python/tuple [Iisnardon, 1907-0339, *id016, "D\xE9clamation lyrique"]
+1907-0340:
+- !!python/tuple [Caron, 1907-0340, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0340, *id011, "Solf\xE8ge"]
+- !!python/tuple [Sujol, 1907-0340, *id011, "Solf\xE8ge"]
+- !!python/tuple [Sujol, 1907-0340, *id011, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', 1907-0340, *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', 1907-0340, *id016, "D\xE9clamation lyrique"]
+1907-0341:
+- !!python/tuple [Lorrain, 1907-0341, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0341, *id011, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1907-0341, *id016, "D\xE9clamation lyrique"]
+1907-0342:
+- !!python/tuple [Lassalle, 1907-0342, *id015, Chant]
+- !!python/tuple [Lassalle, 1907-0342, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0342, *id011, "Solf\xE8ge"]
+- !!python/tuple [Iisnardon, 1907-0342, *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Iisnardon, 1907-0342, *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Iisnardon, 1907-0342, *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Iisnardon, 1907-0342, *id016, "D\xE9clamation lyrique"]
+1907-0343:
+- !!python/tuple [Duvernoy, 1907-0343, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0343, *id011, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', 1907-0343, *id016, "D\xE9clamation lyrique"]
+1907-0344:
+- !!python/tuple [Manoury, 1907-0344, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0344, *id011, "Solf\xE8ge"]
+1907-0345:
+- !!python/tuple [Dubulle, 1907-0345, *id015, Chant]
+- !!python/tuple [Dubulle, 1907-0345, *id015, Chant]
+- !!python/tuple [Sujol, 1907-0345, *id011, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1907-0345, *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, 1907-0345, *id016, "D\xE9clamation lyrique"]
+1907-0347:
+- !!python/tuple ["Br\xE9mond", 1907-0347, &id017 !!timestamp '1907-11-05 00:00:00',
+  Cor]
+- !!python/tuple ["Br\xE9mond", 1907-0347, *id017, Cor]
+- !!python/tuple ["Br\xE9mond", 1907-0347, *id017, Cor]
+- !!python/tuple [Kaiser, 1907-0347, &id041 !!timestamp '1909-11-30 00:00:00', "Solf\xE8\
+    ge"]
+1907-0348:
+- !!python/tuple ["Br\xE9mond", 1907-0348, *id017, Cor]
+1907-0349:
+- !!python/tuple [Mellet, 1907-0349, *id017, "Cornet \xE0 pistons"]
+1907-0350:
+- !!python/tuple [Mellet, 1907-0350, *id017, "Cornet \xE0 pistons"]
+- !!python/tuple [Mellet, 1907-0350, *id017, "Cornet \xE0 pistons"]
+1907-0351:
+- !!python/tuple [Mellet, 1907-0351, *id017, "Cornet \xE0 pistons"]
+1907-0352:
+- !!python/tuple [Franquin, 1907-0352, *id017, Trompette]
+- !!python/tuple [Franquin, 1907-0352, *id017, Trompette]
+- !!python/tuple [Franquin, 1907-0352, *id017, Trompette]
+- !!python/tuple [Franquin, 1907-0352, *id017, Trompette]
+1907-0353:
+- !!python/tuple [Franquin, 1907-0353, *id017, Trompette]
+1907-0354:
+- !!python/tuple [Allard, 1907-0354, *id017, Trombone]
+- !!python/tuple [Allard, 1907-0354, *id017, Trombone]
+- !!python/tuple [Allard, 1907-0354, *id017, Trombone]
+1907-0355:
+- !!python/tuple [Allard, 1907-0355, *id017, Trombone]
+- !!python/tuple [Allard, 1907-0355, *id017, Trombone]
+1907-0357:
+- !!python/tuple [Loeb, 1907-0357, &id018 !!timestamp '1907-11-07 00:00:00', Violoncelle]
+1907-0358:
+- !!python/tuple [Charpentier, 1907-0358, *id018, Contrebasse]
+- !!python/tuple [Franquin, 1907-0358, &id056 !!timestamp '1908-10-17 00:00:00', Trompette]
+1907-0359:
+- !!python/tuple [Charpentier, 1907-0359, *id018, Contrebasse]
+1907-0360:
+- !!python/tuple [Laforge, 1907-0360, *id018, Alto]
+1907-0361:
+- !!python/tuple [Philipp, 1907-0361, &id019 !!timestamp '1907-11-15 00:00:00', 'Piano ']
+- !!python/tuple [Philipp, 1907-0361, *id019, 'Piano ']
+- !!python/tuple [Philipp, 1907-0361, *id019, 'Piano ']
+1907-0362:
+- !!python/tuple [Philipp, 1907-0362, *id019, 'Piano ']
+1907-0363:
+- !!python/tuple [Cortot, 1907-0363, *id019, 'Piano ']
+1907-0364:
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0364, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", 1907-0364, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0364, *id011, "Piano pr\xE9paratoire"]
+- !!python/tuple [Staub, 1907-0364, &id020 !!timestamp '1915-01-08 00:00:00', 'Piano ']
+- !!python/tuple [Staub, 1907-0364, *id020, 'Piano ']
+- !!python/tuple [Staub, 1907-0364, *id020, 'Piano ']
+1907-0365:
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0365, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0365, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Renart, 1907-0365, *id011, "Solf\xE8ge"]
+- !!python/tuple [Cortot, 1907-0365, &id021 !!timestamp '1911-10-20 00:00:00', 'Piano ']
+- !!python/tuple [Cortot, 1907-0365, *id021, 'Piano ']
+- !!python/tuple [Cortot, 1907-0365, *id021, 'Piano ']
+- !!python/tuple [Cortot, 1907-0365, *id021, 'Piano ']
+1907-0366:
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0366, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0366, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Massart, 1907-0366, *id011, "Solf\xE8ge"]
+- !!python/tuple [Philipp, 1907-0366, &id022 !!timestamp '1910-11-29 00:00:00', 'Piano ']
+- !!python/tuple [Philipp, 1907-0366, *id022, 'Piano ']
+- !!python/tuple [Philipp, 1907-0366, *id022, 'Piano ']
+1907-0367:
+- !!python/tuple [Long, 1907-0367, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Renart, 1907-0367, *id011, "Solf\xE8ge"]
+- !!python/tuple [Delaborde, 1907-0367, &id023 !!timestamp '1909-11-26 00:00:00',
+  'Piano ']
+- !!python/tuple [Delaborde, 1907-0367, *id023, 'Piano ']
+- !!python/tuple [Delaborde, 1907-0367, *id023, 'Piano ']
+- !!python/tuple [Delaborde, 1907-0367, *id023, 'Piano ']
+1907-0368:
+- !!python/tuple [Long, 1907-0368, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Renart, 1907-0368, '1907-00-00', "Solf\xE8ge"]
+1907-0369:
+- !!python/tuple [Trouillebert, 1907-0369, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple ['Hardonin ', 1907-0369, '1907-00-00', "Solf\xE8ge"]
+1907-0370:
+- !!python/tuple ["Ch\xEAn\xE9", 1907-0370, *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, 1907-0370, *id011, "Solf\xE8ge"]
+- !!python/tuple [Roy, 1907-0370, *id011, "Solf\xE8ge"]
+1907-0371:
+- !!python/tuple [Berthelier, 1907-0371, &id024 !!timestamp '1907-11-22 00:00:00',
+  'Violon  ']
+- !!python/tuple [Berthelier, 1907-0371, *id024, 'Violon  ']
+1907-0372:
+- !!python/tuple [Lefort, 1907-0372, *id024, 'Violon  ']
+1907-0373:
+- !!python/tuple ["R\xE9my ", 1907-0373, *id024, 'Violon  ']
+- !!python/tuple ["R\xE9my ", 1907-0373, *id024, 'Violon  ']
+1907-0374:
+- !!python/tuple [Lefort, 1907-0374, *id024, 'Violon  ']
+- !!python/tuple [Lefort, 1907-0374, *id024, 'Violon  ']
+1907-0375:
+- !!python/tuple [Berthelier, 1907-0375, *id024, 'Violon  ']
+- !!python/tuple [Pessard, 1907-0375, &id025 !!timestamp '1909-10-29 00:00:00', Harmonie]
+1907-0376:
+- !!python/tuple ['Nadaud ', 1907-0376, *id024, 'Violon  ']
+- !!python/tuple ['Nadaud ', 1907-0376, *id024, 'Violon  ']
+1907-0377:
+- !!python/tuple [Brun, 1907-0377, *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Sautereau, 1907-0377, '1907-00-00', "Solf\xE8ge"]
+- !!python/tuple [Berthelier, 1907-0377, *id025, 'Violon  ']
+1907-0378:
+- !!python/tuple [Desjardins, 1907-0378, *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Vizentini, 1907-0378, *id011, "Solf\xE8ge"]
+- !!python/tuple ['Nadaud ', 1907-0378, *id005, 'Violon  ']
+1907-0379:
+- !!python/tuple [Brun, 1907-0379, *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Marcon, 1907-0379, *id011, "Solf\xE8ge"]
+- !!python/tuple [Berthelier, 1907-0379, *id005, 'Violon  ']
+- !!python/tuple [Berthelier, 1907-0379, *id005, 'Violon  ']
+1907-0380:
+- !!python/tuple [Desjardins, 1907-0380, &id044 !!timestamp '1912-11-22 00:00:00',
+  "Violon pr\xE9paratoire"]
+- !!python/tuple [Schvartz, 1907-0380, *id011, "Solf\xE8ge"]
+1907-0381:
+- !!python/tuple [Taudou, 1907-0381, &id026 !!timestamp '1907-11-28 00:00:00', Harmonie]
+- !!python/tuple [Taudou, 1907-0381, *id026, Harmonie]
+- !!python/tuple [Caussade, 1907-0381, &id051 !!timestamp '1911-11-22 00:00:00', Contrepoint]
+1907-0382:
+- !!python/tuple [Lavignac, 1907-0382, *id026, Harmonie]
+1907-0383:
+- !!python/tuple [Lavignac, 1907-0383, *id026, Harmonie]
+1907-0384:
+- !!python/tuple [Renart, 1907-0384, *id011, "Solf\xE8ge"]
+1907-0385:
+- !!python/tuple [Renart, 1907-0385, *id011, "Solf\xE8ge"]
+- !!python/tuple [Hasselmans, 1907-0385, *id012, 'Harpe ']
+- !!python/tuple [Hasselmans, 1907-0385, *id012, 'Harpe ']
+- !!python/tuple [Hasselmans, 1907-0385, *id012, 'Harpe ']
+- !!python/tuple [Chapuis, 1907-0385, *id022, Harmonie]
+- !!python/tuple [Caussade, 1907-0385, &id027 !!timestamp '1914-12-29 00:00:00', Contrepoint]
+- !!python/tuple [Caussade, 1907-0385, *id027, Contrepoint]
+- !!python/tuple [Caussade, 1907-0385, *id027, Contrepoint]
+- !!python/tuple [.nan, 1907-0385, &id113 !!timestamp '1915-01-22 00:00:00', 'Accompagnement
+    au piano ']
+- !!python/tuple [Gigout, 1907-0385, &id076 !!timestamp '1915-10-06 00:00:00', Orgue]
+- !!python/tuple [Widor, 1907-0385, &id115 !!timestamp '1918-01-07 00:00:00', Composition]
+- !!python/tuple [Widor, 1907-0385, '1919-00-00', Composition musicale]
+1907-0386:
+- !!python/tuple [Marcon, 1907-0386, *id011, "Solf\xE8ge"]
+- !!python/tuple [Marcon, 1907-0386, *id011, "Solf\xE8ge"]
+- !!python/tuple [Leroux, 1907-0386, !!timestamp '1916-12-16 00:00:00', Harmonie]
+1907-0387:
+- !!python/tuple [Marcon, 1907-0387, *id011, "Solf\xE8ge"]
+- !!python/tuple [Marcon, 1907-0387, *id011, "Solf\xE8ge"]
+- !!python/tuple [Trouillebert, 1907-0387, &id030 !!timestamp '1908-11-19 00:00:00',
+  "Piano pr\xE9paratoire"]
+1907-0388:
+- !!python/tuple [Roy, 1907-0388, *id011, "Solf\xE8ge"]
+- !!python/tuple [Roy, 1907-0388, *id011, "Solf\xE8ge"]
+- !!python/tuple ["L\xE9nars", 1907-0388, &id028 !!timestamp '1912-10-29 00:00:00',
+  'Harpe chromatique ']
+- !!python/tuple ["L\xE9nars", 1907-0388, *id028, 'Harpe chromatique ']
+1907-0389:
+- !!python/tuple ['Hardonin ', 1907-0389, *id011, "Solf\xE8ge"]
+- !!python/tuple ['Hardonin ', 1907-0389, *id011, "Solf\xE8ge"]
+1907-0390:
+- !!python/tuple [Schvartz, 1907-0390, *id011, "Solf\xE8ge"]
+1907-0391:
+- !!python/tuple [Schvartz, 1907-0391, *id011, "Solf\xE8ge"]
+- !!python/tuple [Hennebains, 1907-0391, &id029 !!timestamp '1910-10-31 00:00:00',
+  "Fl\xFBte "]
+- !!python/tuple [Hennebains, 1907-0391, *id029, "Fl\xFBte "]
+- !!python/tuple [Hennebains, 1907-0391, *id029, "Fl\xFBte "]
+1907-0392:
+- !!python/tuple [Massart, 1907-0392, *id011, "Solf\xE8ge"]
+1907-0393:
+- !!python/tuple [Massart, 1907-0393, *id011, "Solf\xE8ge"]
+- !!python/tuple [Long, 1907-0393, *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cortot, 1907-0393, *id021, 'Piano ']
+- !!python/tuple [Chapuis, 1907-0393, *id031, Harmonie]
+- !!python/tuple [Chapuis, 1907-0393, *id031, Harmonie]
+- !!python/tuple [Estyle, 1907-0393, &id079 !!timestamp '1915-12-07 00:00:00', 'Accompagnement
+    au piano ']
+- !!python/tuple [Caussade, 1907-0393, &id032 !!timestamp '1915-11-30 00:00:00', Contrepoint]
+- !!python/tuple [Caussade, 1907-0393, *id032, Contrepoint]
+- !!python/tuple [Caussade, 1907-0393, *id032, Contrepoint]
+- !!python/tuple [Caussade, 1907-0393, *id032, Contrepoint]
+- !!python/tuple [Caussade, 1907-0393, *id032, Contrepoint]
+- !!python/tuple [Widor, 1907-0393, &id069 !!timestamp '1919-01-27 00:00:00', Fugue]
+- !!python/tuple [Widor, 1907-0393, '1919-00-00', Composition musicale]
+1907-0394:
+- !!python/tuple [Vizentini, 1907-0394, *id011, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, 1907-0394, *id011, "Solf\xE8ge"]
+1907-0395:
+- !!python/tuple [Cuignache, 1907-0395, *id011, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1907-0395, *id011, "Solf\xE8ge"]
+1907-0396:
+- !!python/tuple [Cuignache, 1907-0396, *id011, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1907-0396, *id011, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1907-0396, *id011, "Solf\xE8ge"]
+- !!python/tuple ['Nadaud ', 1907-0396, *id006, 'Violon  ']
+1907-0397:
+- !!python/tuple [Rougnon, 1907-0397, *id011, "Solf\xE8ge"]
+- !!python/tuple ['Touche ', 1907-0397, &id050 !!timestamp '1911-11-17 00:00:00',
+  "Violon pr\xE9paratoire"]
+- !!python/tuple ['Nadaud ', 1907-0397, &id033 !!timestamp '1915-01-19 00:00:00',
+  'Violon  ']
+- !!python/tuple ['Nadaud ', 1907-0397, *id033, 'Violon  ']
+- !!python/tuple ['Nadaud ', 1907-0397, *id033, 'Violon  ']
+- !!python/tuple ['Nadaud ', 1907-0397, *id033, 'Violon  ']
+- !!python/tuple ['Nadaud ', 1907-0397, *id033, 'Violon  ']
+1907-0398:
+- !!python/tuple [Marty, 1907-0398, *id034, Harmonie]
+- !!python/tuple [.nan, 1907-0398, !!timestamp '1905-03-26 00:00:00', Contrepoint]
+1907-0399:
+- !!python/tuple [Chapuis, 1907-0399, *id026, Harmonie]
+1907-0400:
+- !!python/tuple [Sautereau, 1907-0400, *id011, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, 1907-0400, *id011, "Solf\xE8ge"]
+- !!python/tuple [Dallier, 1907-0400, &id035 !!timestamp '1915-01-30 00:00:00', Harmonie]
+- !!python/tuple [Dallier, 1907-0400, *id035, Harmonie]
+- !!python/tuple [Estyle, 1907-0400, &id036 !!timestamp '1916-11-23 00:00:00', 'Accompagnement
+    au piano ']
+- !!python/tuple [Estyle, 1907-0400, *id036, 'Accompagnement au piano ']
+- !!python/tuple [Estyle, 1907-0400, *id036, 'Accompagnement au piano ']
+- !!python/tuple [Caussade, 1907-0400, &id120 !!timestamp '1916-12-08 00:00:00', Contrepoint]
+1907-0401:
+- !!python/tuple [Pessard, 1907-0401, *id026, Harmonie]
+1907-0402:
+- !!python/tuple [Pessard, 1907-0402, *id026, Harmonie]
+1907-0403:
+- !!python/tuple [Pessard, 1907-0403, *id026, Harmonie]
+1907-0404:
+- !!python/tuple [Guilmant, 1907-0404, *id011, Orgue]
+1907-0405:
+- !!python/tuple ['Leroux, Xavier', 1907-0405, *id011, Harmonie]
+- !!python/tuple ['Leroux, Xavier', 1907-0405, *id011, Harmonie]
+- !!python/tuple ["G\xE9dalge ", 1907-0405, *id037, Contrepoint]
+- !!python/tuple [Vidal, 1907-0405, &id121 !!timestamp '1914-01-16 00:00:00', Composition]
+1907-0406:
+- !!python/tuple [Engel, 1907-0406, *id026, Chant]
+- !!python/tuple [Sujol, 1907-0406, !!timestamp '1907-12-28 00:00:00', "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1907-0406, !!timestamp '1909-10-25 00:00:00', "D\xE9clamation\
+    \ lyrique"]
+1907-[0311 bis]:
+- !!python/tuple [Hasselmans, '1907-[0311 bis]', *id009, 'Harpe ']
+- !!python/tuple [Hasselmans, '1907-[0311 bis]', *id009, 'Harpe ']
+- !!python/tuple ['Hardonin ', '1907-[0311 bis]', *id011, "Solf\xE8ge"]
+1907-[0312 bis]:
+- !!python/tuple [Hasselmans, '1907-[0312 bis]', *id009, 'Harpe ']
+- !!python/tuple [Hasselmans, '1907-[0312 bis]', *id009, 'Harpe ']
+1907-[0313 bis]:
+- !!python/tuple [Tassu-Spencer, '1907-[0313 bis]', *id009, 'Harpe chromatique ']
+- !!python/tuple [Vizentini, '1907-[0313 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ["L\xE9nars", '1907-[0313 bis]', *id038, 'Harpe chromatique ']
+1907-[0314 bis]:
+- !!python/tuple ["Di\xE9mer", '1907-[0314 bis]', *id010, 'Piano ']
+1907-[0315 bis]:
+- !!python/tuple [Risler, '1907-[0315 bis]', *id010, 'Piano ']
+- !!python/tuple [Risler, '1907-[0315 bis]', *id010, 'Piano ']
+1907-[0316 bis]:
+- !!python/tuple [Falkenberg, '1907-[0316 bis]', *id010, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cuignache, '1907-[0316 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Pessard, '1907-[0316 bis]', *id039, Harmonie]
+1907-[0317 bis]:
+- !!python/tuple [Falkenberg, '1907-[0317 bis]', *id010, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, '1907-[0317 bis]', *id010, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cuignache, '1907-[0317 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Staub, '1907-[0317 bis]', *id040, 'Piano ']
+- !!python/tuple [Staub, '1907-[0317 bis]', *id040, 'Piano ']
+1907-[0318 bis]:
+- !!python/tuple [Taffanel, '1907-[0318 bis]', *id013, "Fl\xFBte "]
+- !!python/tuple [Taffanel, '1907-[0318 bis]', *id013, "Fl\xFBte "]
+- !!python/tuple [Taffanel, '1907-[0318 bis]', *id013, "Fl\xFBte "]
+- !!python/tuple [Kaiser, '1907-[0318 bis]', *id041, "Solf\xE8ge"]
+1907-[0319 bis]:
+- !!python/tuple [Gillet, '1907-[0319 bis]', *id013, Hautbois]
+- !!python/tuple [Gillet, '1907-[0319 bis]', *id013, Hautbois]
+- !!python/tuple [Gillet, '1907-[0319 bis]', *id013, Hautbois]
+1907-[0321 bis]:
+- !!python/tuple [Minart, '1907-[0321 bis]', *id013, Clarinette]
+- !!python/tuple [Minart, '1907-[0321 bis]', *id013, Clarinette]
+- !!python/tuple [Minart, '1907-[0321 bis]', *id013, Clarinette]
+- !!python/tuple [Cuignache, '1907-[0321 bis]', *id011, "Solf\xE8ge"]
+1907-[0322 bis]:
+- !!python/tuple [Minart, '1907-[0322 bis]', *id013, Clarinette]
+- !!python/tuple [Savignac, '1907-[0322 bis]', *id011, "Solf\xE8ge"]
+1907-[0323 bis]:
+- !!python/tuple [Bourdeau, '1907-[0323 bis]', *id013, Basson]
+- !!python/tuple [Bourdeau, '1907-[0323 bis]', *id013, Basson]
+- !!python/tuple [Bourdeau, '1907-[0323 bis]', *id013, Basson]
+1907-[0324 bis]:
+- !!python/tuple [Berr, '1907-[0324 bis]', *id014, "D\xE9clamation"]
+- !!python/tuple [Berr, '1907-[0324 bis]', *id014, "D\xE9clamation"]
+1907-[0325 bis]:
+- !!python/tuple [Truffier, '1907-[0325 bis]', *id014, "D\xE9clamation"]
+1907-[0326 bis]:
+- !!python/tuple [Berr, '1907-[0326 bis]', *id014, "D\xE9clamation"]
+- !!python/tuple [Berr, '1907-[0326 bis]', *id014, "D\xE9clamation"]
+1907-[0327 bis]:
+- !!python/tuple [Truffier, '1907-[0327 bis]', *id014, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1907-[0327 bis]', *id014, "D\xE9clamation"]
+1907-[0328 bis]:
+- !!python/tuple [Monnet, '1907-[0328 bis]', *id014, "D\xE9clamation"]
+1907-[0329 bis]:
+- !!python/tuple [Leloir, '1907-[0329 bis]', *id014, "D\xE9clamation"]
+- !!python/tuple [Leloir, '1907-[0329 bis]', *id014, "D\xE9clamation"]
+1907-[0330 bis]:
+- !!python/tuple [Berr, '1907-[0330 bis]', *id014, "D\xE9clamation"]
+1907-[0331 bis]:
+- !!python/tuple [Truffier, '1907-[0331 bis]', *id014, "D\xE9clamation"]
+1907-[0332 bis]:
+- !!python/tuple [Silvain, '1907-[0332 bis]', *id014, "D\xE9clamation"]
+1907-[0333 bis]:
+- !!python/tuple [Cazeneuve, '1907-[0333 bis]', *id015, Chant]
+- !!python/tuple [Cazeneuve, '1907-[0333 bis]', *id015, Chant]
+- !!python/tuple [Vernaelde, '1907-[0333 bis]', *id015, "Solf\xE8ge"]
+- !!python/tuple [Vernaelde, '1907-[0333 bis]', *id015, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, '1907-[0333 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, '1907-[0333 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0334 bis]:
+- !!python/tuple [Cazeneuve, '1907-[0334 bis]', *id015, Chant]
+- !!python/tuple [Cazeneuve, '1907-[0334 bis]', *id015, Chant]
+- !!python/tuple [Vernaelde, '1907-[0334 bis]', *id015, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1907-[0334 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1907-[0334 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1907-[0334 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1907-[0334 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1907-[0334 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0335 bis]:
+- !!python/tuple [Hettich, '1907-[0335 bis]', *id015, Chant]
+- !!python/tuple [Hettich, '1907-[0335 bis]', *id015, Chant]
+- !!python/tuple [Bouvet, '1907-[0335 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Vernaelde, '1907-[0335 bis]', *id015, "Solf\xE8ge"]
+1907-[0336 bis]:
+- !!python/tuple [Hettich, '1907-[0336 bis]', *id015, Chant]
+- !!python/tuple [Vernaelde, '1907-[0336 bis]', *id015, "Solf\xE8ge"]
+1907-[0337 bis]:
+- !!python/tuple [Lassalle, '1907-[0337 bis]', *id015, Chant]
+- !!python/tuple [Vernaelde, '1907-[0337 bis]', *id015, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, '1907-[0337 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple [Bouvet, '1907-[0337 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0338 bis]:
+- !!python/tuple [Martini, '1907-[0338 bis]', *id015, Chant]
+- !!python/tuple [Martini, '1907-[0338 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0338 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Iisnardon, '1907-[0338 bis]', &id042 !!timestamp '1909-02-12 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple [Iisnardon, '1907-[0338 bis]', *id042, "D\xE9clamation lyrique"]
+- !!python/tuple [Iisnardon, '1907-[0338 bis]', *id042, "D\xE9clamation lyrique"]
+1907-[0339 bis]:
+- !!python/tuple [Duvernoy, '1907-[0339 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0339 bis]', *id011, "Solf\xE8ge"]
+1907-[0340 bis]:
+- !!python/tuple [Lassalle, '1907-[0340 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0340 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Sujol, '1907-[0340 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, '1907-[0340 bis]', !!timestamp '1909-01-30 00:00:00',
+  "D\xE9clamation lyrique"]
+1907-[0341 bis]:
+- !!python/tuple [Lorrain, '1907-[0341 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0341 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, '1907-[0341 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0342 bis]:
+- !!python/tuple [Manoury, '1907-[0342 bis]', *id015, Chant]
+- !!python/tuple [Manoury, '1907-[0342 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0342 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0342 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0342 bis]', *id016, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0342 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0343 bis]:
+- !!python/tuple [Duvernoy, '1907-[0343 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0343 bis]', '1907-00-00', "Solf\xE8ge"]
+- !!python/tuple [Sujol, '1907-[0343 bis]', '1907-00-00', "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1907-[0343 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0344 bis]:
+- !!python/tuple [Caron, '1907-[0344 bis]', *id015, Chant]
+- !!python/tuple [Sujol, '1907-[0344 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0344 bis]', *id016, "D\xE9clamation lyrique"]
+1907-[0345 bis]:
+- !!python/tuple [.nan, '1907-[0345 bis]', .nan, Chant]
+1907-[0346 bis]:
+- !!python/tuple ["Br\xE9mond", '1907-[0346 bis]', *id017, Cor]
+1907-[0347 bis]:
+- !!python/tuple ["Br\xE9mond", '1907-[0347 bis]', *id017, Cor]
+1907-[0348 bis]:
+- !!python/tuple ["Br\xE9mond", '1907-[0348 bis]', *id017, Cor]
+- !!python/tuple ["Br\xE9mond", '1907-[0348 bis]', *id017, Cor]
+- !!python/tuple [Rougnon, '1907-[0348 bis]', &id055 !!timestamp '1908-11-28 00:00:00',
+  "Solf\xE8ge"]
+1907-[0349 bis]:
+- !!python/tuple [Mellet, '1907-[0349 bis]', *id017, "Cornet \xE0 pistons"]
+- !!python/tuple [Mellet, '1907-[0349 bis]', *id017, "Cornet \xE0 pistons"]
+- !!python/tuple [Mellet, '1907-[0349 bis]', *id017, "Cornet \xE0 pistons"]
+- !!python/tuple [Kaiser, '1907-[0349 bis]', *id041, "Solf\xE8ge"]
+1907-[0350 bis]:
+- !!python/tuple [Mellet, '1907-[0350 bis]', *id017, "Cornet \xE0 pistons"]
+- !!python/tuple [Mellet, '1907-[0350 bis]', *id017, "Cornet \xE0 pistons"]
+- !!python/tuple [Kaiser, '1907-[0350 bis]', &id075 !!timestamp '1910-11-10 00:00:00',
+  "Solf\xE8ge"]
+1907-[0351 bis]:
+- !!python/tuple [Franquin, '1907-[0351 bis]', *id017, Trompette]
+1907-[0352 bis]:
+- !!python/tuple [Franquin, '1907-[0352 bis]', *id017, Trompette]
+- !!python/tuple [Franquin, '1907-[0352 bis]', *id017, Trompette]
+- !!python/tuple [Franquin, '1907-[0352 bis]', *id017, Trompette]
+- !!python/tuple [Kaiser, '1907-[0352 bis]', *id011, "Solf\xE8ge"]
+1907-[0353 bis]:
+- !!python/tuple [Franquin, '1907-[0353 bis]', *id017, Trompette]
+1907-[0354 bis]:
+- !!python/tuple [Allard, '1907-[0354 bis]', *id017, Trombone]
+1907-[0355 bis]:
+- !!python/tuple [Loeb, '1907-[0355 bis]', *id018, Violoncelle]
+- !!python/tuple [Loeb, '1907-[0355 bis]', *id018, Violoncelle]
+- !!python/tuple [Loeb, '1907-[0355 bis]', *id018, Violoncelle]
+1907-[0356 bis]:
+- !!python/tuple [Loeb, '1907-[0356 bis]', *id018, Violoncelle]
+- !!python/tuple [Loeb, '1907-[0356 bis]', *id018, Violoncelle]
+- !!python/tuple [Loeb, '1907-[0356 bis]', *id018, Violoncelle]
+- !!python/tuple [Loeb, '1907-[0356 bis]', *id018, Violoncelle]
+1907-[0357 bis]:
+- !!python/tuple [Charpentier, '1907-[0357 bis]', *id018, Contrebasse]
+- !!python/tuple [Charpentier, '1907-[0357 bis]', *id018, Contrebasse]
+1907-[0358 bis]:
+- !!python/tuple [Charpentier, '1907-[0358 bis]', *id018, Contrebasse]
+- !!python/tuple [Charpentier, '1907-[0358 bis]', *id018, Contrebasse]
+1907-[0359 bis]:
+- !!python/tuple [Laforge, '1907-[0359 bis]', *id018, Alto]
+- !!python/tuple [Laforge, '1907-[0359 bis]', *id018, Alto]
+1907-[0360 bis]:
+- !!python/tuple [Laforge, '1907-[0360 bis]', *id018, Alto]
+- !!python/tuple [Laforge, '1907-[0360 bis]', *id018, Alto]
+- !!python/tuple [Laforge, '1907-[0360 bis]', *id018, Alto]
+- !!python/tuple [Lorrain, '1907-[0360 bis]', &id043 !!timestamp '1911-10-27 00:00:00',
+  Chant]
+- !!python/tuple [Lorrain, '1907-[0360 bis]', *id043, Chant]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0360 bis]', !!timestamp '1913-01-29 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0360 bis]', *id043, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", '1907-[0360 bis]', *id043, "D\xE9clamation lyrique"]
+1907-[0361 bis]:
+- !!python/tuple [Delaborde, '1907-[0361 bis]', *id019, 'Piano ']
+1907-[0362 bis]:
+- !!python/tuple [Philipp, '1907-[0362 bis]', *id019, 'Piano ']
+- !!python/tuple [Philipp, '1907-[0362 bis]', *id019, 'Piano ']
+1907-[0363 bis]:
+- !!python/tuple [Cortot, '1907-[0363 bis]', *id019, 'Piano ']
+1907-[0364 bis]:
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0364 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, '1907-[0364 bis]', *id011, "Solf\xE8ge"]
+1907-[0365 bis]:
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0365 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, '1907-[0365 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1907-[0365 bis]', *id011, "Solf\xE8ge"]
+1907-[0366 bis]:
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0366 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Renart, '1907-[0366 bis]', *id011, "Solf\xE8ge"]
+1907-[0367 bis]:
+- !!python/tuple [Trouillebert, '1907-[0367 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, '1907-[0367 bis]', *id011, "Solf\xE8ge"]
+1907-[0368 bis]:
+- !!python/tuple [Long, '1907-[0368 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1907-[0368 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Massart, '1907-[0368 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Massart, '1907-[0368 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Philipp, '1907-[0368 bis]', *id022, 'Piano ']
+- !!python/tuple [Philipp, '1907-[0368 bis]', *id022, 'Piano ']
+1907-[0369 bis]:
+- !!python/tuple [Trouillebert, '1907-[0369 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1907-[0369 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Massart, '1907-[0369 bis]', *id011, "Solf\xE8ge"]
+1907-[0370 bis]:
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0370 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, '1907-[0370 bis]', *id011, "Solf\xE8ge"]
+1907-[0371 bis]:
+- !!python/tuple ["R\xE9my ", '1907-[0371 bis]', *id024, 'Violon  ']
+- !!python/tuple ["R\xE9my ", '1907-[0371 bis]', *id024, 'Violon  ']
+1907-[0372 bis]:
+- !!python/tuple [Berthelier, '1907-[0372 bis]', *id024, 'Violon  ']
+- !!python/tuple [Berthelier, '1907-[0372 bis]', *id024, 'Violon  ']
+- !!python/tuple [Berthelier, '1907-[0372 bis]', *id024, 'Violon  ']
+1907-[0373 bis]:
+- !!python/tuple [Berthelier, '1907-[0373 bis]', *id024, 'Violon  ']
+1907-[0374 bis]:
+- !!python/tuple ["R\xE9my ", '1907-[0374 bis]', *id024, 'Violon  ']
+- !!python/tuple ["R\xE9my ", '1907-[0374 bis]', *id024, 'Violon  ']
+1907-[0375 bis]:
+- !!python/tuple [Berthelier, '1907-[0375 bis]', *id024, 'Violon  ']
+1907-[0376 bis]:
+- !!python/tuple [Lefort, '1907-[0376 bis]', *id024, 'Violon  ']
+1907-[0377 bis]:
+- !!python/tuple [Brun, '1907-[0377 bis]', *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1907-[0377 bis]', *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Marcon, '1907-[0377 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ['Nadaud ', '1907-[0377 bis]', *id025, 'Violon  ']
+- !!python/tuple ['Nadaud ', '1907-[0377 bis]', *id025, 'Violon  ']
+- !!python/tuple ['Nadaud ', '1907-[0377 bis]', *id025, 'Violon  ']
+1907-[0378 bis]:
+- !!python/tuple [Desjardins, '1907-[0378 bis]', *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Kaiser, '1907-[0378 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ['Nadaud ', '1907-[0378 bis]', *id025, 'Violon  ']
+- !!python/tuple ['Nadaud ', '1907-[0378 bis]', *id025, 'Violon  ']
+- !!python/tuple ['Nadaud ', '1907-[0378 bis]', *id025, 'Violon  ']
+1907-[0379 bis]:
+- !!python/tuple [Desjardins, '1907-[0379 bis]', *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Desjardins, '1907-[0379 bis]', *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Desjardins, '1907-[0379 bis]', *id024, "Violon pr\xE9paratoire"]
+- !!python/tuple [Cuignache, '1907-[0379 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, '1907-[0379 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ["R\xE9my ", '1907-[0379 bis]', *id044, 'Violon  ']
+- !!python/tuple ["R\xE9my ", '1907-[0379 bis]', *id044, 'Violon  ']
+- !!python/tuple ["R\xE9my ", '1907-[0379 bis]', *id044, 'Violon  ']
+- !!python/tuple [Lavignac, '1907-[0379 bis]', &id045 !!timestamp '1915-01-21 00:00:00',
+  Harmonie]
+- !!python/tuple [Lavignac, '1907-[0379 bis]', *id045, Harmonie]
+- !!python/tuple ["G\xE9dalge ", '1907-[0379 bis]', &id073 !!timestamp '1916-12-05
+    00:00:00', Contrepoint]
+1907-[0380 bis]:
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0380 bis]', *id019, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, '1907-[0380 bis]', *id011, "Solf\xE8ge"]
+1907-[0382 bis]:
+- !!python/tuple [Lavignac, '1907-[0382 bis]', *id026, Harmonie]
+- !!python/tuple [Lavignac, '1907-[0382 bis]', *id026, Harmonie]
+- !!python/tuple [Lavignac, '1907-[0382 bis]', *id026, Harmonie]
+- !!python/tuple [Staub, '1907-[0382 bis]', *id012, 'Piano ']
+- !!python/tuple [Staub, '1907-[0382 bis]', *id012, 'Piano ']
+- !!python/tuple [Caussade, '1907-[0382 bis]', *id022, Contrepoint]
+- !!python/tuple [Estyle, '1907-[0382 bis]', !!timestamp '1911-11-30 00:00:00', 'Accompagnement
+    au piano ']
+- !!python/tuple [Vidal, '1907-[0382 bis]', *id046, Composition]
+- !!python/tuple [Vidal, '1907-[0382 bis]', '1921-00-00', Composition]
+1907-[0383 bis]:
+- !!python/tuple [Renart, '1907-[0383 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Chapuis, '1907-[0383 bis]', !!timestamp '1912-11-25 00:00:00', Harmonie]
+1907-[0384 bis]:
+- !!python/tuple [Renart, '1907-[0384 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Long, '1907-[0384 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1907-[0384 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Delaborde, '1907-[0384 bis]', &id047 !!timestamp '1912-11-29 00:00:00',
+  'Piano ']
+- !!python/tuple [Delaborde, '1907-[0384 bis]', *id047, 'Piano ']
+1907-[0385 bis]:
+- !!python/tuple [Marcon, '1907-[0385 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0385 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0385 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Philipp, '1907-[0385 bis]', &id048 !!timestamp '1913-11-07 00:00:00',
+  'Piano ']
+- !!python/tuple [Philipp, '1907-[0385 bis]', *id048, 'Piano ']
+- !!python/tuple [Philipp, '1907-[0385 bis]', *id048, 'Piano ']
+- !!python/tuple [Philipp, '1907-[0385 bis]', *id048, 'Piano ']
+1907-[0386 bis]:
+- !!python/tuple [Marcon, '1907-[0386 bis]', *id011, "Solf\xE8ge"]
+1907-[0387 bis]:
+- !!python/tuple [Roy, '1907-[0387 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Long, '1907-[0387 bis]', *id030, "Piano pr\xE9paratoire"]
+1907-[0388 bis]:
+- !!python/tuple [Roy, '1907-[0388 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1907-[0388 bis]', *id011, "Solf\xE8ge"]
+1907-[0389 bis]:
+- !!python/tuple ['Hardonin ', '1907-[0389 bis]', *id011, "Solf\xE8ge"]
+1907-[0390 bis]:
+- !!python/tuple [Schvartz, '1907-[0390 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, '1907-[0390 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Desjardins, '1907-[0390 bis]', &id049 !!timestamp '1908-11-03 00:00:00',
+  "Violon pr\xE9paratoire"]
+- !!python/tuple [Desjardins, '1907-[0390 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple ["R\xE9my ", '1907-[0390 bis]', *id050, 'Violon  ']
+- !!python/tuple ["R\xE9my ", '1907-[0390 bis]', *id050, 'Violon  ']
+- !!python/tuple ["R\xE9my ", '1907-[0390 bis]', *id050, 'Violon  ']
+1907-[0391 bis]:
+- !!python/tuple [Kaiser, '1907-[0391 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Kaiser, '1907-[0391 bis]', *id011, "Solf\xE8ge"]
+1907-[0392 bis]:
+- !!python/tuple [Massart, '1907-[0392 bis]', *id011, "Solf\xE8ge"]
+1907-[0393 bis]:
+- !!python/tuple [Vizentini, '1907-[0393 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, '1907-[0393 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Chapuis, '1907-[0393 bis]', !!timestamp '1911-11-28 00:00:00', Harmonie]
+- !!python/tuple [Caussade, '1907-[0393 bis]', !!timestamp '1915-01-18 00:00:00',
+  Contrepoint]
+1907-[0394 bis]:
+- !!python/tuple [Vizentini, '1907-[0394 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, '1907-[0394 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, '1907-[0394 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple ["Ch\xEAn\xE9", '1907-[0394 bis]', *id030, "Piano pr\xE9paratoire"]
+1907-[0395 bis]:
+- !!python/tuple [Cuignache, '1907-[0395 bis]', *id011, "Solf\xE8ge"]
+1907-[0396 bis]:
+- !!python/tuple [Cuignache, '1907-[0396 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, '1907-[0396 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Desjardins, '1907-[0396 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Desjardins, '1907-[0396 bis]', *id049, "Violon pr\xE9paratoire"]
+1907-[0397 bis]:
+- !!python/tuple [Rougnon, '1907-[0397 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Rougnon, '1907-[0397 bis]', *id011, "Solf\xE8ge"]
+1907-[0398 bis]:
+- !!python/tuple [Marty, '1907-[0398 bis]', *id034, Harmonie]
+- !!python/tuple [Caussade, '1907-[0398 bis]', *id051, Contrepoint]
+- !!python/tuple [Widor, '1907-[0398 bis]', *id003, Composition]
+1907-[0399 bis]:
+- !!python/tuple [Chapuis, '1907-[0399 bis]', *id026, Harmonie]
+- !!python/tuple [Caussade, '1907-[0399 bis]', *id002, Contrepoint]
+- !!python/tuple [Caussade, '1907-[0399 bis]', *id002, Contrepoint]
+- !!python/tuple [.nan, '1907-[0399 bis]', &id052 !!timestamp '1910-11-22 00:00:00',
+  'Accompagnement au piano ']
+- !!python/tuple [.nan, '1907-[0399 bis]', *id052, 'Accompagnement au piano ']
+- !!python/tuple [.nan, '1907-[0399 bis]', *id052, 'Accompagnement au piano ']
+- !!python/tuple [Paul-Vidal, '1907-[0399 bis]', *id052, Composition]
+- !!python/tuple [Paul-Vidal, '1907-[0399 bis]', *id052, Composition]
+1907-[0400 bis]:
+- !!python/tuple [Sautereau, '1907-[0400 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, '1907-[0400 bis]', *id011, "Solf\xE8ge"]
+- !!python/tuple [Brun, '1907-[0400 bis]', *id011, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1907-[0400 bis]', *id011, "Violon pr\xE9paratoire"]
+- !!python/tuple [Berthelier, '1907-[0400 bis]', *id050, 'Violon  ']
+- !!python/tuple [Berthelier, '1907-[0400 bis]', *id050, 'Violon  ']
+- !!python/tuple [Berthelier, '1907-[0400 bis]', *id050, 'Violon  ']
+- !!python/tuple [Berthelier, '1907-[0400 bis]', *id050, 'Violon  ']
+1907-[0401 bis]:
+- !!python/tuple [Pessard, '1907-[0401 bis]', *id026, Harmonie]
+- !!python/tuple [Widor, '1907-[0401 bis]', *id046, Composition]
+1907-[0402 bis]:
+- !!python/tuple [Pessard, '1907-[0402 bis]', *id026, Harmonie]
+1907-[0403 bis]:
+- !!python/tuple [Pessard, '1907-[0403 bis]', *id026, Harmonie]
+- !!python/tuple [Widor, '1907-[0403 bis]', !!timestamp '1913-02-10 00:00:00', Fugue]
+1907-[0404 bis]:
+- !!python/tuple ['Leroux, Xavier', '1907-[0404 bis]', *id011, Harmonie]
+- !!python/tuple ["G\xE9dalge ", '1907-[0404 bis]', *id037, Contrepoint]
+- !!python/tuple ["G\xE9dalge ", '1907-[0404 bis]', *id037, Contrepoint]
+- !!python/tuple [Widor, '1907-[0404 bis]', &id053 !!timestamp '1910-01-16 00:00:00',
+  Composition]
+- !!python/tuple [Widor, '1907-[0404 bis]', *id053, Composition]
+- !!python/tuple [Widor, '1907-[0404 bis]', *id053, Composition]
+- !!python/tuple [Widor, '1907-[0404 bis]', *id053, Composition]
+- !!python/tuple [Widor, '1907-[0404 bis]', *id053, Composition]
+1907-[0405 bis]:
+- !!python/tuple ['Leroux, Xavier', '1907-[0405 bis]', *id011, Harmonie]
+1908-0407:
+- !!python/tuple [Taffanel, 1908-0407, !!timestamp '1908-11-16 00:00:00', "Fl\xFB\
+    te "]
+1908-0408:
+- !!python/tuple [Gillet, 1908-0408, &id054 !!timestamp '1908-10-16 00:00:00', Hautbois]
+- !!python/tuple [Gillet, 1908-0408, *id054, Hautbois]
+- !!python/tuple [Gillet, 1908-0408, *id054, Hautbois]
+- !!python/tuple [Sujol, 1908-0408, *id037, "Solf\xE8ge"]
+1908-0409:
+- !!python/tuple [Gillet, 1908-0409, *id054, Hautbois]
+- !!python/tuple [Gillet, 1908-0409, *id054, Hautbois]
+- !!python/tuple [Sujol, 1908-0409, *id037, "Solf\xE8ge"]
+1908-0410:
+- !!python/tuple [Minart, 1908-0410, *id054, Clarinette]
+- !!python/tuple [Minart, 1908-0410, *id054, Clarinette]
+- !!python/tuple [Minart, 1908-0410, *id054, Clarinette]
+- !!python/tuple [Minart, 1908-0410, *id055, Clarinette]
+1908-0411:
+- !!python/tuple [Minart, 1908-0411, *id054, Clarinette]
+- !!python/tuple [Sujol, 1908-0411, *id037, "Solf\xE8ge"]
+1908-0412:
+- !!python/tuple [Bourdeau, 1908-0412, *id054, Basson]
+1908-0413:
+- !!python/tuple [Bourdeau, 1908-0413, *id054, Basson]
+- !!python/tuple [Bourdeau, 1908-0413, *id054, Basson]
+- !!python/tuple ["Cuignache int\xE9rimaire", 1908-0413, *id041, "Solf\xE8ge"]
+1908-0414:
+- !!python/tuple [Mellet, 1908-0414, *id056, "Cornet \xE0 pistons"]
+- !!python/tuple [Mellet, 1908-0414, *id056, "Cornet \xE0 pistons"]
+1908-0415:
+- !!python/tuple [Mellet, 1908-0415, *id056, "Cornet \xE0 pistons"]
+1908-0416:
+- !!python/tuple [Franquin, 1908-0416, *id056, Trompette]
+- !!python/tuple [Mellet, 1908-0416, !!timestamp '1909-10-15 00:00:00', "Cornet \xE0\
+    \ pistons"]
+1908-0417:
+- !!python/tuple [Allard, 1908-0417, *id056, Trombone]
+- !!python/tuple [Kaiser, 1908-0417, *id041, "Solf\xE8ge"]
+1908-0418:
+- !!python/tuple [Allard, 1908-0418, *id056, Trombone]
+- !!python/tuple [Allard, 1908-0418, *id056, Trombone]
+- !!python/tuple [Kaiser, 1908-0418, *id055, "Solf\xE8ge"]
+1908-0419:
+- !!python/tuple [Hasselmans, 1908-0419, &id057 !!timestamp '1908-10-21 00:00:00',
+  'Harpe ']
+1908-0420:
+- !!python/tuple [Hasselmans, 1908-0420, *id057, 'Harpe ']
+1908-0421:
+- !!python/tuple [Risler, 1908-0421, *id057, 'Piano ']
+1908-0422:
+- !!python/tuple [Risler, 1908-0422, *id057, 'Piano ']
+- !!python/tuple [Risler, 1908-0422, *id057, 'Piano ']
+- !!python/tuple [Risler, 1908-0422, *id057, 'Piano ']
+1908-0423:
+- !!python/tuple [Falkenberg, 1908-0423, *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, 1908-0423, *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Rougnon, 1908-0423, *id055, "Solf\xE8ge"]
+- !!python/tuple ["Di\xE9mer", 1908-0423, *id051, 'Piano ']
+- !!python/tuple [Savignac, 1908-0423, !!timestamp '1912-11-28 00:00:00', Harmonie]
+1908-0424:
+- !!python/tuple [Falkenberg, 1908-0424, *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, 1908-0424, *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Schvartz, 1908-0424, *id055, "Solf\xE8ge"]
+1908-0425:
+- !!python/tuple [Cazeneuve, 1908-0425, &id058 !!timestamp '1908-10-27 00:00:00',
+  Chant]
+- !!python/tuple [vernaelde, 1908-0425, *id058, "Solf\xE8ge"]
+- !!python/tuple [vernaelde, 1908-0425, *id058, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1908-0425, *id059, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, 1908-0425, *id059, "D\xE9clamation lyrique"]
+1908-0426:
+- !!python/tuple [Engel, 1908-0426, *id058, Chant]
+- !!python/tuple [Vernaelde, 1908-0426, *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0426, *id059, "D\xE9clamation lyrique"]
+1908-0427:
+- !!python/tuple [Hettich, 1908-0427, *id058, Chant]
+- !!python/tuple [Hettich, 1908-0427, *id058, Chant]
+- !!python/tuple [vernaelde, 1908-0427, *id058, "Solf\xE8ge"]
+- !!python/tuple [Iisnardon, 1908-0427, &id061 !!timestamp '1911-01-22 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple [vernaelde, 1908-0427, *id058, "Solf\xE8ge"]
+- !!python/tuple [Hettich, 1908-0427, *id058, Chant]
+1908-0428:
+- !!python/tuple [Caron, 1908-0428, *id058, Chant]
+- !!python/tuple [Caron, 1908-0428, *id058, Chant]
+- !!python/tuple [Vernaelde, 1908-0428, *id058, "Solf\xE8ge"]
+- !!python/tuple [Iisnardon, 1908-0428, *id059, "D\xE9clamation lyrique"]
+1908-0429:
+- !!python/tuple [Duvernoy, 1908-0429, *id058, Chant]
+- !!python/tuple [Vernaelde, 1908-0429, *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0429, &id060 !!timestamp '1910-03-04 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0429, *id060, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0429, *id060, "D\xE9clamation lyrique"]
+1908-0430:
+- !!python/tuple [Lassalle, 1908-0430, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0430, *id058, "Solf\xE8ge"]
+1908-0431:
+- !!python/tuple [Duvernoy, 1908-0431, *id058, Chant]
+- !!python/tuple [Duvernoy, 1908-0431, *id058, Chant]
+- !!python/tuple [Sujol, 1908-0431, *id058, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, 1908-0431, *id061, "D\xE9clamation lyrique"]
+- !!python/tuple [Bouvet, 1908-0431, *id061, "D\xE9clamation lyrique"]
+1908-0432:
+- !!python/tuple [Dubulle, 1908-0432, *id058, Chant]
+- !!python/tuple [Dubulle, 1908-0432, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0432, *id058, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1908-0432, *id059, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, 1908-0432, *id059, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, 1908-0432, *id059, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, 1908-0432, *id059, "D\xE9clamation lyrique"]
+1908-0433:
+- !!python/tuple [Lorrain, 1908-0433, *id058, Chant]
+- !!python/tuple [Lorrain, 1908-0433, *id058, Chant]
+- !!python/tuple [Lorrain, 1908-0433, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0433, *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0433, *id059, "D\xE9clamation lyrique"]
+1908-0434:
+- !!python/tuple [Duvernoy, 1908-0434, *id058, Chant]
+- !!python/tuple [Duvernoy, 1908-0434, *id058, Chant]
+- !!python/tuple [Sujol, 1908-0434, *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0434, *id061, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0434, *id061, "D\xE9clamation lyrique"]
+1908-0435:
+- !!python/tuple [Engel, 1908-0435, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0435, *id058, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, 1908-0435, !!timestamp '1910-02-23 00:00:00', "D\xE9clamation\
+    \ lyrique"]
+1908-0436:
+- !!python/tuple [Manoury, 1908-0436, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0436, *id058, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1908-0436, *id061, "D\xE9clamation lyrique"]
+1908-0437:
+- !!python/tuple [Lorrain, 1908-0437, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0437, *id058, "Solf\xE8ge"]
+- !!python/tuple [Piffaretti, 1908-0437, *id058, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1908-0437, *id059, "D\xE9clamation lyrique"]
+- !!python/tuple [Dupeyron, 1908-0437, *id059, "D\xE9clamation lyrique"]
+1908-0438:
+- !!python/tuple [Caron, 1908-0438, *id058, Chant]
+- !!python/tuple [Vinot, 1908-0438, *id058, "Solf\xE8ge"]
+- !!python/tuple [Dupeyron, 1908-0438, *id061, "D\xE9clamation lyrique"]
+1908-0439:
+- !!python/tuple [duvernoy, 1908-0439, *id058, Chant]
+- !!python/tuple [Piffaretti, 1908-0439, *id058, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, 1908-0439, *id061, "D\xE9clamation lyrique"]
+1908-0440:
+- !!python/tuple ['Nadaud ', 1908-0440, *id049, 'Violon  ']
+1908-0441:
+- !!python/tuple [Berthelier, 1908-0441, *id049, 'Violon  ']
+- !!python/tuple [Berthelier, 1908-0441, *id049, 'Violon  ']
+1908-0442:
+- !!python/tuple [Brun, 1908-0442, *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1908-0442, *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple ['Hardonin ', 1908-0442, *id055, "Solf\xE8ge"]
+- !!python/tuple ['Hardonin ', 1908-0442, *id055, "Solf\xE8ge"]
+- !!python/tuple ["Ch\xE9n\xE9", 1908-0442, *id023, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", 1908-0442, *id023, "Piano pr\xE9paratoire"]
+- !!python/tuple ["R\xE9my ", 1908-0442, *id005, 'Violon  ']
+1908-0443:
+- !!python/tuple [Brun, 1908-0443, *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1908-0443, *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1908-0443, *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Schvartz, 1908-0443, *id055, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, 1908-0443, *id055, "Solf\xE8ge"]
+- !!python/tuple ['Nadaud ', 1908-0443, *id050, 'Violon  ']
+- !!python/tuple ['Nadaud ', 1908-0443, *id050, 'Violon  ']
+1908-0444:
+- !!python/tuple [Berr, 1908-0444, &id062 !!timestamp '1908-11-13 00:00:00', "D\xE9\
+    clamation"]
+- !!python/tuple [Berr, 1908-0444, *id062, "D\xE9clamation"]
+- !!python/tuple [Berr, 1908-0444, *id062, "D\xE9clamation"]
+- !!python/tuple [Berr, 1908-0444, *id062, "D\xE9clamation"]
+1908-0445:
+- !!python/tuple [Leloir, 1908-0445, *id062, "D\xE9clamation"]
+1908-0446:
+- !!python/tuple [Berr, 1908-0446, *id062, "D\xE9clamation"]
+1908-0447:
+- !!python/tuple [Truffier, 1908-0447, *id062, "D\xE9clamation"]
+- !!python/tuple [Truffier, 1908-0447, *id062, "D\xE9clamation"]
+1908-0448:
+- !!python/tuple ['Monnet, Paul', 1908-0448, *id062, "D\xE9clamation"]
+1908-0449:
+- !!python/tuple [Leitner, 1908-0449, *id062, "D\xE9clamation"]
+- !!python/tuple [Leitner, 1908-0449, *id062, "D\xE9clamation"]
+- !!python/tuple [Leitner, 1908-0449, *id062, "D\xE9clamation"]
+- !!python/tuple [Leitner, 1908-0449, *id062, "D\xE9clamation"]
+1908-0450:
+- !!python/tuple [Berr, 1908-0450, *id062, "D\xE9clamation"]
+- !!python/tuple [Berr, 1908-0450, *id062, "D\xE9clamation"]
+1908-0451:
+- !!python/tuple [Leitner, 1908-0451, *id062, "D\xE9clamation"]
+1908-0452:
+- !!python/tuple ['Monnet, Paul', 1908-0452, *id062, "D\xE9clamation"]
+- !!python/tuple ['Monnet, Paul', 1908-0452, *id062, "D\xE9clamation"]
+- !!python/tuple ['Monnet, Paul', 1908-0452, *id062, "D\xE9clamation"]
+- !!python/tuple ['Monnet, Paul', 1908-0452, *id062, "D\xE9clamation"]
+1908-0453:
+- !!python/tuple ['Monnet, Paul', 1908-0453, *id062, "D\xE9clamation"]
+- !!python/tuple [Engel, 1908-0453, &id063 !!timestamp '1914-11-24 00:00:00', Chant]
+- !!python/tuple [Engel, 1908-0453, *id063, Chant]
+- !!python/tuple [Engel, 1908-0453, *id063, Chant]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0453, &id064 !!timestamp '1916-01-31 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1908-0453, *id064, "D\xE9clamation lyrique"]
+1908-0454:
+- !!python/tuple [Truffier, 1908-0454, *id062, "D\xE9clamation"]
+1908-0455:
+- !!python/tuple [Berr, 1908-0455, *id062, "D\xE9clamation"]
+- !!python/tuple [Berr, 1908-0455, *id062, "D\xE9clamation"]
+1908-0456:
+- !!python/tuple [Leitner, 1908-0456, *id062, "D\xE9clamation"]
+1908-0457:
+- !!python/tuple [Leitner, 1908-0457, *id062, "D\xE9clamation"]
+1908-0458:
+- !!python/tuple [Charpentier, 1908-0458, &id065 !!timestamp '1908-11-14 00:00:00',
+  Contrebasse]
+- !!python/tuple [Charpentier, 1908-0458, *id065, Contrebasse]
+- !!python/tuple [Charpentier, 1908-0458, *id065, Contrebasse]
+- !!python/tuple [Cuignache, 1908-0458, "1908-11-28\_: ", "Solf\xE8ge"]
+1908-0459:
+- !!python/tuple [Laforge, 1908-0459, *id065, Alto]
+1908-0460:
+- !!python/tuple [Laforge, 1908-0460, *id065, Alto]
+- !!python/tuple [Laforge, 1908-0460, *id065, Alto]
+1908-0461:
+- !!python/tuple [Cros Saint-Ange, 1908-0461, *id065, Violoncelle]
+1908-0462:
+- !!python/tuple [Loeb, 1908-0462, *id065, Violoncelle]
+- !!python/tuple [Loeb, 1908-0462, *id065, Violoncelle]
+1908-0463:
+- !!python/tuple [Cros Saint-Ange, 1908-0463, *id065, Violoncelle]
+- !!python/tuple [Cros Saint-Ange, 1908-0463, *id065, Violoncelle]
+1908-0464:
+- !!python/tuple [Cortot, 1908-0464, *id030, 'Piano ']
+- !!python/tuple [Cortot, 1908-0464, *id030, 'Piano ']
+1908-0465:
+- !!python/tuple [Philipp, 1908-0465, *id030, 'Piano ']
+1908-0466:
+- !!python/tuple [delaborde, 1908-0466, *id030, 'Piano ']
+- !!python/tuple [delaborde, 1908-0466, *id030, 'Piano ']
+- !!python/tuple [delaborde, 1908-0466, *id030, 'Piano ']
+1908-0467:
+- !!python/tuple [Trouillebert, 1908-0467, *id030, "Piano pr\xE9paratoire"]
+1908-0468:
+- !!python/tuple [Long, 1908-0468, *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1908-0468, *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, 1908-0468, *id055, "Solf\xE8ge"]
+- !!python/tuple [Cortot, 1908-0468, *id047, 'Piano ']
+- !!python/tuple [Cortot, 1908-0468, *id047, 'Piano ']
+- !!python/tuple [Cortot, 1908-0468, *id047, 'Piano ']
+- !!python/tuple [Cortot, 1908-0468, *id047, 'Piano ']
+- !!python/tuple ['Minil, R. du ', 1908-0468, &id066 !!timestamp '1917-10-20 00:00:00',
+  "D\xE9clamation"]
+- !!python/tuple ['Minil, R. du ', 1908-0468, *id066, "D\xE9clamation"]
+- !!python/tuple ['Minil, R. du ', 1908-0468, *id066, "D\xE9clamation"]
+- !!python/tuple ['Minil, R. du ', 1908-0468, *id066, "D\xE9clamation"]
+- !!python/tuple ['Minil, R. du ', 1908-0468, *id066, "D\xE9clamation"]
+- !!python/tuple ['Minil, R. du ', 1908-0468, *id066, "D\xE9clamation"]
+1908-0469:
+- !!python/tuple [Long, 1908-0469, *id055, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1908-0469, *id055, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1908-0469, *id055, "Piano pr\xE9paratoire"]
+- !!python/tuple ['Hardonin ', 1908-0469, *id055, "Solf\xE8ge"]
+- !!python/tuple [Cortot, 1908-0469, &id067 !!timestamp '1918-11-29 00:00:00', 'Piano ']
+- !!python/tuple [Cortot, 1908-0469, *id067, 'Piano ']
+- !!python/tuple [Cortot, 1908-0469, *id067, 'Piano ']
+1908-0470:
+- !!python/tuple [Trouillebert, 1908-0470, *id030, 'Piano ']
+- !!python/tuple [Trouillebert, 1908-0470, *id030, 'Piano ']
+- !!python/tuple [renart, 1908-0470, *id055, "Solf\xE8ge"]
+1908-0471:
+- !!python/tuple [Trouillebert, 1908-0471, *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Marcon, 1908-0471, "1908-11-28\_: ", "Solf\xE8ge"]
+- !!python/tuple [Marcon, 1908-0471, "1908-11-28\_: ", "Solf\xE8ge"]
+- !!python/tuple [Philipp, 1908-0471, *id020, 'Piano ']
+- !!python/tuple [Philipp, 1908-0471, *id020, 'Piano ']
+- !!python/tuple [Philipp, 1908-0471, *id020, 'Piano ']
+1908-0472:
+- !!python/tuple [Chapuis, 1908-0472, &id068 !!timestamp '1908-11-20 00:00:00', Harmonie]
+- !!python/tuple [Chapuis, 1908-0472, *id068, Harmonie]
+- !!python/tuple [Caussade, 1908-0472, *id031, Contrepoint]
+- !!python/tuple [Widor, 1908-0472, !!timestamp '1916-01-10 00:00:00', Composition]
+- !!python/tuple [Widor, 1908-0472, *id069, Composition]
+- !!python/tuple [Widor, 1908-0472, '1921-00-00', Composition]
+1908-0473:
+- !!python/tuple [Pessard, 1908-0473, &id070 !!timestamp '1908-11-26 00:00:00', Harmonie]
+1908-0474:
+- !!python/tuple [Pessard, 1908-0474, *id070, Harmonie]
+1908-0475:
+- !!python/tuple [Pessard, 1908-0475, *id070, Harmonie]
+1908-0476:
+- !!python/tuple [Rougnon, 1908-0476, 190!-11-28, "Solf\xE8ge"]
+1908-0477:
+- !!python/tuple [Schvartz, 1908-0477, *id055, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, 1908-0477, *id055, "Solf\xE8ge"]
+- !!python/tuple [Falkenberg, 1908-0477, *id012, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Di\xE9mer", 1908-0477, &id092 !!timestamp '1913-11-19 00:00:00',
+  'Piano ']
+- !!python/tuple [Gedalge, 1908-0477, '1915-00-00', Contrepoint]
+- !!python/tuple [Gedalge, 1908-0477, '1915-00-00', Contrepoint]
+1908-0478:
+- !!python/tuple [Cuignache, 1908-0478, *id055, "Solf\xE8ge"]
+1908-0479:
+- !!python/tuple [Cuignache, 1908-0479, *id055, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1908-0479, *id055, "Solf\xE8ge"]
+- !!python/tuple [falkenberg, 1908-0479, *id055, "Piano pr\xE9paratoire"]
+- !!python/tuple [falkenberg, 1908-0479, *id071, "Piano pr\xE9paratoire"]
+1908-0480:
+- !!python/tuple ['hardonin ', 1908-0480, *id055, "Solf\xE8ge"]
+- !!python/tuple ['hardonin ', 1908-0480, *id055, "Solf\xE8ge"]
+- !!python/tuple [Brun, 1908-0480, *id044, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1908-0480, *id044, "Violon pr\xE9paratoire"]
+- !!python/tuple [Capet, 1908-0480, &id072 !!timestamp '1915-11-19 00:00:00', 'Violon  ']
+- !!python/tuple [Capet, 1908-0480, *id072, 'Violon  ']
+- !!python/tuple [Capet, 1908-0480, *id072, 'Violon  ']
+1908-0481:
+- !!python/tuple [Renart, 1908-0481, *id055, "Solf\xE8ge"]
+1908-0482:
+- !!python/tuple [Renart, 1908-0482, *id055, "Solf\xE8ge"]
+1908-0483:
+- !!python/tuple [Marcon, 1908-0483, *id055, "Solf\xE8ge"]
+1908-0484:
+- !!python/tuple [Marcon, 1908-0484, *id055, "Solf\xE8ge"]
+- !!python/tuple [Marcon, 1908-0484, *id055, "Solf\xE8ge"]
+- !!python/tuple ["R\xE9my ", 1908-0484, *id033, 'Violon  ']
+- !!python/tuple ["R\xE9my ", 1908-0484, *id033, 'Violon  ']
+- !!python/tuple ["R\xE9my ", 1908-0484, *id033, 'Violon  ']
+- !!python/tuple ["R\xE9my ", 1908-0484, *id033, 'Violon  ']
+1908-0485:
+- !!python/tuple [Sautereau, 1908-0485, *id055, "Solf\xE8ge"]
+1908-0486:
+- !!python/tuple [Sautereau, 1908-0486, *id055, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, 1908-0486, *id055, "Solf\xE8ge"]
+1908-0487:
+- !!python/tuple [Massart, 1908-0487, *id055, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1908-0487, *id055, "Solf\xE8ge"]
+1908-0488:
+- !!python/tuple [Massart, 1908-0488, *id055, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1908-0488, *id055, "Solf\xE8ge"]
+1908-0489:
+- !!python/tuple [Vizentini, 1908-0489, *id055, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, 1908-0489, *id055, "Solf\xE8ge"]
+1908-0490:
+- !!python/tuple [vizentini, 1908-0490, *id055, "Solf\xE8ge"]
+- !!python/tuple [vizentini, 1908-0490, *id055, "Solf\xE8ge"]
+- !!python/tuple [Dallier, 1908-0490, *id073, Harmonie]
+1908-0491:
+- !!python/tuple [Roy, 1908-0491, *id055, "Solf\xE8ge"]
+- !!python/tuple [Roy, 1908-0491, *id055, "Solf\xE8ge"]
+1908-0492:
+- !!python/tuple [Roy, 1908-0492, *id055, "Solf\xE8ge"]
+- !!python/tuple [Roy, 1908-0492, *id055, "Solf\xE8ge"]
+- !!python/tuple [Dallier, 1908-0492, *id035, Harmonie]
+- !!python/tuple [Dallier, 1908-0492, *id035, Harmonie]
+- !!python/tuple [Dallier, 1908-0492, *id035, Harmonie]
+- !!python/tuple ["G\xE9dalge ", 1908-0492, &id077 !!timestamp '1917-12-11 00:00:00',
+  Contrepoint]
+- !!python/tuple [Vidal, 1908-0492, !!timestamp '1921-12-31 00:00:00', Composition]
+1908-0493:
+- !!python/tuple [Chapuis, 1908-0493, *id070, Harmonie]
+1908-0494:
+- !!python/tuple [Kaiser, 1908-0494, *id055, "Solf\xE8ge"]
+- !!python/tuple [Brun, 1908-0494, *id025, "Violon pr\xE9paratoire"]
+- !!python/tuple [Berthelier, 1908-0494, *id044, 'Violon  ']
+- !!python/tuple [Berthelier, 1908-0494, *id044, 'Violon  ']
+1908-0495:
+- !!python/tuple [Cuignache, 1908-0495, *id037, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1908-0495, *id037, "Solf\xE8ge"]
+1908-0496:
+- !!python/tuple [Kaiser, 1908-0496, *id055, "Solf\xE8ge"]
+1908-0497:
+- !!python/tuple [Massart, 1908-0497, *id037, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1908-0497, *id037, "Solf\xE8ge"]
+- !!python/tuple [Cros Saint-Ange, 1908-0497, &id074 !!timestamp '1910-10-15 00:00:00',
+  Violoncelle]
+- !!python/tuple [Cros Saint-Ange, 1908-0497, *id074, Violoncelle]
+1908-0498:
+- !!python/tuple [Lavignac, 1908-0498, *id037, Harmonie]
+1908-0499:
+- !!python/tuple [lavignac, 1908-0499, *id037, Harmonie]
+1908-0500:
+- !!python/tuple [lavignac, 1908-0500, *id037, Harmonie]
+1908-[0406 bis]:
+- !!python/tuple [Widor, '1908-[0406 bis]', !!timestamp '1908-01-08 00:00:00', Composition]
+1908-[0407 bis]:
+- !!python/tuple [Gillet, '1908-[0407 bis]', *id054, Hautbois]
+- !!python/tuple [Gillet, '1908-[0407 bis]', *id054, Hautbois]
+1908-[0408 bis]:
+- !!python/tuple [Gillet, '1908-[0408 bis]', *id054, Hautbois]
+- !!python/tuple [Gillet, '1908-[0408 bis]', *id054, Hautbois]
+- !!python/tuple [Gillet, '1908-[0408 bis]', *id054, Hautbois]
+1908-[0409 bis]:
+- !!python/tuple [Gillet, '1908-[0409 bis]', *id054, Hautbois]
+- !!python/tuple [Gillet, '1908-[0409 bis]', *id054, Hautbois]
+- !!python/tuple [Kaiser, '1908-[0409 bis]', *id055, "Solf\xE8ge"]
+1908-[0410 bis]:
+- !!python/tuple [Minart, '1908-[0410 bis]', *id054, Clarinette]
+- !!python/tuple [Minart, '1908-[0410 bis]', *id054, Clarinette]
+- !!python/tuple [Minart, '1908-[0410 bis]', *id054, Clarinette]
+- !!python/tuple [Sujol, '1908-[0410 bis]', *id037, "Solf\xE8ge"]
+1908-[0411 bis]:
+- !!python/tuple [Bourdeau, '1908-[0411 bis]', *id054, Basson]
+- !!python/tuple [Bourdeau, '1908-[0411 bis]', *id054, Basson]
+- !!python/tuple [Bourdeau, '1908-[0411 bis]', *id054, Basson]
+1908-[0412 bis]:
+- !!python/tuple [Bourdeau, '1908-[0412 bis]', *id054, Basson]
+- !!python/tuple [Bourdeau, '1908-[0412 bis]', *id054, Basson]
+- !!python/tuple [Sautereau, '1908-[0412 bis]', *id037, "Solf\xE8ge"]
+1908-[0413 bis]:
+- !!python/tuple ["Br\xE9mond", '1908-[0413 bis]', *id056, Cor]
+- !!python/tuple ["Br\xE9mond", '1908-[0413 bis]', *id056, Cor]
+- !!python/tuple ["Br\xE9mond", '1908-[0413 bis]', *id056, Cor]
+1908-[0414 bis]:
+- !!python/tuple [Mellet, '1908-[0414 bis]', *id056, "Cornet \xE0 pistons"]
+- !!python/tuple [Franquin, '1908-[0414 bis]', &id084 !!timestamp '1913-10-16 00:00:00',
+  Trompette]
+- !!python/tuple [franquin, '1908-[0414 bis]', &id085 !!timestamp '1913-10-17 00:00:00',
+  Trompette]
+- !!python/tuple [Kaiser, '1908-[0414 bis]', *id031, "Solf\xE8ge"]
+1908-[0415 bis]:
+- !!python/tuple [Mellet, '1908-[0415 bis]', *id056, "Cornet \xE0 pistons"]
+- !!python/tuple [Mellet, '1908-[0415 bis]', *id056, "Cornet \xE0 pistons"]
+- !!python/tuple [Franquin, '1908-[0415 bis]', !!timestamp '1910-11-07 00:00:00',
+  Trompette]
+- !!python/tuple ["Cuignache int\xE9rimaire", '1908-[0415 bis]', *id075, "Solf\xE8\
+    ge"]
+1908-[0416 bis]:
+- !!python/tuple [Allard, '1908-[0416 bis]', *id056, Trombone]
+- !!python/tuple [Allard, '1908-[0416 bis]', *id056, Trombone]
+- !!python/tuple [Sujol, '1908-[0416 bis]', *id037, "Solf\xE8ge"]
+1908-[0417 bis]:
+- !!python/tuple [Allard, '1908-[0417 bis]', *id056, Trombone]
+- !!python/tuple [Allard, '1908-[0417 bis]', *id056, Trombone]
+- !!python/tuple [Allard, '1908-[0417 bis]', *id056, Trombone]
+1908-[0418 bis]:
+- !!python/tuple [Hasselmans, '1908-[0418 bis]', *id056, 'Harpe ']
+- !!python/tuple [Hasselmans, '1908-[0418 bis]', *id056, 'Harpe ']
+- !!python/tuple [Sautereau, '1908-[0418 bis]', *id055, "Solf\xE8ge"]
+1908-[0419 bis]:
+- !!python/tuple [Hasselmans, '1908-[0419 bis]', *id057, 'Harpe ']
+1908-[0420 bis]:
+- !!python/tuple ["Di\xE9mer", '1908-[0420 bis]', *id057, 'Piano ']
+1908-[0421 bis]:
+- !!python/tuple [Risler, '1908-[0421 bis]', *id057, 'Piano ']
+1908-[0422 bis]:
+- !!python/tuple ["Di\xE9mer", '1908-[0422 bis]', *id057, 'Piano ']
+1908-[0423 bis]:
+- !!python/tuple [Falkenberg, '1908-[0423 bis]', *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, '1908-[0423 bis]', *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cuignache, '1908-[0423 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, '1908-[0423 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple ["Di\xE9mer", '1908-[0423 bis]', *id051, 'Piano ']
+- !!python/tuple ["Di\xE9mer", '1908-[0423 bis]', *id051, 'Piano ']
+1908-[0425 bis]:
+- !!python/tuple [Cazeneuve, '1908-[0425 bis]', *id058, Chant]
+1909-[0422 bis]:
+- !!python/tuple ["G\xE9dalge ", '1909-[0422 bis]', *id041, Contrepoint]
+1909-[0425 bis]:
+- !!python/tuple [Auzende, '1909-[0425 bis]', *id058, "Solf\xE8ge"]
+1910-[0422 bis]:
+- !!python/tuple [Gigout, '1910-[0422 bis]', *id076, Orgue]
+1910-[0424 bis]:
+- !!python/tuple [Falkenberg, '1910-[0424 bis]', *id057, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cuignache, '1910-[0424 bis]', *id055, "Solf\xE8ge"]
+1910-[0425 bis]:
+- !!python/tuple [Iisnardon, '1910-[0425 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0426 bis]:
+- !!python/tuple [Martini, '1910-[0426 bis]', *id058, Chant]
+- !!python/tuple [Martini, '1910-[0426 bis]', *id058, Chant]
+- !!python/tuple [Auzende, '1910-[0426 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1910-[0426 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0426 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0427 bis]:
+- !!python/tuple [Manoury, '1910-[0427 bis]', *id058, Chant]
+- !!python/tuple [Vernaelde, '1910-[0427 bis]', *id058, "Solf\xE8ge"]
+1910-[0428 bis]:
+- !!python/tuple [Martini, '1910-[0428 bis]', *id058, Chant]
+- !!python/tuple [Auzende, '1910-[0428 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, '1910-[0428 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0429 bis]:
+- !!python/tuple [Lorrain, '1910-[0429 bis]', *id058, Chant]
+- !!python/tuple [auzende, '1910-[0429 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1910-[0429 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0430 bis]:
+- !!python/tuple [Martini, '1910-[0430 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0430 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple [Vinot, '1910-[0430 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1910-[0430 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0430 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0430 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0430 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0430 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0430 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple [Martini, '1910-[0430 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0430 bis]', *id058, "Solf\xE8ge"]
+1910-[0431 bis]:
+- !!python/tuple [Manoury, '1910-[0431 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0431 bis]', *id058, "Solf\xE8ge"]
+1910-[0432 bis]:
+- !!python/tuple [Engel, '1910-[0432 bis]', *id058, Chant]
+- !!python/tuple [Engel, '1910-[0432 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0432 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1910-[0432 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0433 bis]:
+- !!python/tuple [Dubulle, '1910-[0433 bis]', *id058, Chant]
+- !!python/tuple [Dubulle, '1910-[0433 bis]', *id058, Chant]
+- !!python/tuple [Dubulle, '1910-[0433 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0433 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1910-[0433 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0433 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0433 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0433 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0434 bis]:
+- !!python/tuple [Dubulle, '1910-[0434 bis]', *id058, Chant]
+- !!python/tuple [Dubulle, '1910-[0434 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0434 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, '1910-[0434 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0435 bis]:
+- !!python/tuple [Lassalle, '1910-[0435 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0435 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1910-[0435 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0435 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0435 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0436 bis]:
+- !!python/tuple [Hettich, '1910-[0436 bis]', *id058, Chant]
+- !!python/tuple [Piffaretti, '1910-[0436 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1910-[0436 bis]', *id061, "D\xE9clamation lyrique"]
+1910-[0437 bis]:
+- !!python/tuple [Martini, '1910-[0437 bis]', *id058, Chant]
+- !!python/tuple [Martini, '1910-[0437 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0437 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple ['Isnardon ', '1910-[0437 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0437 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0437 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0437 bis]', *id059, "D\xE9clamation lyrique"]
+- !!python/tuple ['Isnardon ', '1910-[0437 bis]', *id059, "D\xE9clamation lyrique"]
+1910-[0438 bis]:
+- !!python/tuple [lassalle, '1910-[0438 bis]', *id058, Chant]
+- !!python/tuple [Vinot, '1910-[0438 bis]', *id058, "Solf\xE8ge"]
+- !!python/tuple [Bouvet, '1910-[0438 bis]', *id061, "D\xE9clamation lyrique"]
+1910-[0439 bis]:
+- !!python/tuple [Lefort, '1910-[0439 bis]', *id049, 'Violon  ']
+- !!python/tuple [Lefort, '1910-[0439 bis]', *id049, 'Violon  ']
+- !!python/tuple [Lefort, '1910-[0439 bis]', *id049, 'Violon  ']
+1910-[0440 bis]:
+- !!python/tuple ["R\xE9my ", '1910-[0440 bis]', *id049, 'Violon  ']
+1910-[0441 bis]:
+- !!python/tuple [Brun, '1910-[0441 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1910-[0441 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Rougnon, '1910-[0441 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Berthelier, '1910-[0441 bis]', *id044, 'Violon  ']
+- !!python/tuple [Berthelier, '1910-[0441 bis]', *id044, 'Violon  ']
+- !!python/tuple [Berthelier, '1910-[0441 bis]', *id044, 'Violon  ']
+- !!python/tuple [Berthelier, '1910-[0441 bis]', *id044, 'Violon  ']
+1910-[0442 bis]:
+- !!python/tuple [Desjardins, '1910-[0442 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Desjardins, '1910-[0442 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Roy, '1910-[0442 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Berthelier, '1910-[0442 bis]', *id050, 'Violon  ']
+- !!python/tuple [Berthelier, '1910-[0442 bis]', *id050, 'Violon  ']
+- !!python/tuple [Berthelier, '1910-[0442 bis]', *id050, 'Violon  ']
+1910-[0443 bis]:
+- !!python/tuple [Desjardins, '1910-[0443 bis]', *id049, "Violon pr\xE9paratoire"]
+- !!python/tuple [Schvartz, '1910-[0443 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple ["R\xE9my ", '1910-[0443 bis]', *id044, 'Violon  ']
+1910-[0444 bis]:
+- !!python/tuple [Silvain, '1910-[0444 bis]', *id062, "D\xE9clamation"]
+1910-[0445 bis]:
+- !!python/tuple ['Monnet, Paul', '1910-[0445 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple ['Monnet, Paul', '1910-[0445 bis]', *id062, "D\xE9clamation"]
+1910-[0446 bis]:
+- !!python/tuple [Leloir, '1910-[0446 bis]', *id062, "D\xE9clamation"]
+1910-[0447 bis]:
+- !!python/tuple [Truffier, '1910-[0447 bis]', *id062, "D\xE9clamation"]
+1910-[0448 bis]:
+- !!python/tuple [Silvain, '1910-[0448 bis]', *id062, "D\xE9clamation"]
+1910-[0449 bis]:
+- !!python/tuple ['Monnet, Paul', '1910-[0449 bis]', *id062, "D\xE9clamation"]
+1910-[0450 bis]:
+- !!python/tuple [Truffier, '1910-[0450 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1910-[0450 bis]', *id062, "D\xE9clamation"]
+1910-[0451 bis]:
+- !!python/tuple [Silvain, '1910-[0451 bis]', *id062, "D\xE9clamation"]
+1910-[0452 bis]:
+- !!python/tuple [Truffier, '1910-[0452 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1910-[0452 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1910-[0452 bis]', *id062, "D\xE9clamation"]
+1910-[0453 bis]:
+- !!python/tuple ['Monnet, Paul', '1910-[0453 bis]', *id062, "D\xE9clamation"]
+1910-[0454 bis]:
+- !!python/tuple [Leitner, '1910-[0454 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Leitner, '1910-[0454 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Leitner, '1910-[0454 bis]', *id062, "D\xE9clamation"]
+1910-[0455 bis]:
+- !!python/tuple [Leitner, '1910-[0455 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Leitner, '1910-[0455 bis]', *id062, "D\xE9clamation"]
+1910-[0456 bis]:
+- !!python/tuple [Leitner, '1910-[0456 bis]', *id062, "D\xE9clamation"]
+1910-[0457 bis]:
+- !!python/tuple [Berr, '1910-[0457 bis]', *id062, "D\xE9clamation"]
+- !!python/tuple [Berr, '1910-[0457 bis]', *id062, "D\xE9clamation"]
+1910-[0458 bis]:
+- !!python/tuple [Charpentier, '1910-[0458 bis]', *id065, Contrebasse]
+- !!python/tuple [Charpentier, '1910-[0458 bis]', *id065, Contrebasse]
+1910-[0459bis]:
+- !!python/tuple [Laforge, '1910-[0459bis]', *id065, Alto]
+1910-[0460bis]:
+- !!python/tuple [Cros Saint-Ange, '1910-[0460bis]', *id065, Violoncelle]
+- !!python/tuple [Cros Saint-Ange, '1910-[0460bis]', *id065, Violoncelle]
+1910-[0461bis]:
+- !!python/tuple [Cros Saint-Ange, '1910-[0461bis]', *id065, Violoncelle]
+1910-[0462 bis]:
+- !!python/tuple [Cros Saint-Ange, '1910-[0462 bis]', *id065, Violoncelle]
+1910-[0463 bis]:
+- !!python/tuple [Loeb, '1910-[0463 bis]', *id065, Violoncelle]
+- !!python/tuple [Loeb, '1910-[0463 bis]', *id065, Violoncelle]
+- !!python/tuple [Loeb, '1910-[0463 bis]', *id065, Violoncelle]
+1910-[0464 bis]:
+- !!python/tuple [Philipp, '1910-[0464 bis]', *id030, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0464 bis]', *id030, 'Piano ']
+- !!python/tuple [Dallier, '1910-[0464 bis]', *id031, Harmonie]
+1910-[0465 bis]:
+- !!python/tuple [Philipp, '1910-[0465 bis]', *id030, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0465 bis]', *id030, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0465 bis]', *id030, 'Piano ']
+1910-[0466 bis]:
+- !!python/tuple [Long, '1910-[0466 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Estyle, '1910-[0466 bis]', *id036, 'Accompagnement au piano ']
+- !!python/tuple [Widor, '1910-[0466 bis]', &id078 !!timestamp '1920-01-26 00:00:00',
+  Fugue]
+1910-[0466bis]:
+- !!python/tuple [Long, '1910-[0466bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cortot, '1910-[0466bis]', *id021, 'Piano ']
+- !!python/tuple [Cortot, '1910-[0466bis]', *id021, 'Piano ']
+- !!python/tuple [Chapuis, '1910-[0466bis]', &id103 !!timestamp '1915-11-29 00:00:00',
+  Harmonie]
+- !!python/tuple [Estyle, '1910-[0466bis]', *id036, 'Accompagnement au piano ']
+- !!python/tuple [Caussade, '1910-[0466bis]', *id077, Contrepoint]
+- !!python/tuple [Caussade, '1910-[0466bis]', *id077, Contrepoint]
+- !!python/tuple [Widor, '1910-[0466bis]', *id078, Fugue]
+- !!python/tuple [Widor, '1910-[0466bis]', *id078, Fugue]
+- !!python/tuple [Widor, '1910-[0466bis]', *id078, Fugue]
+1910-[0467 bis]:
+- !!python/tuple [Long, '1910-[0467 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1910-[0467 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, '1910-[0467 bis]', "1908-11-28\_: ", "Solf\xE8ge"]
+- !!python/tuple [Delaborde, '1910-[0467 bis]', *id047, 'Piano ']
+- !!python/tuple [Delaborde, '1910-[0467 bis]', *id047, 'Piano ']
+- !!python/tuple [Delaborde, '1910-[0467 bis]', *id047, 'Piano ']
+- !!python/tuple [Delaborde, '1910-[0467 bis]', *id047, 'Piano ']
+1910-[0468 bis]:
+- !!python/tuple [Trouillebert, '1910-[0468 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1910-[0468 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple ['Hardonin ', '1910-[0468 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple ['Hardonin ', '1910-[0468 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple ['Hardonin ', '1910-[0468 bis]', *id055, "Solf\xE8ge"]
+1910-[0469 bis]:
+- !!python/tuple [Long, '1910-[0469 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1910-[0469 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1910-[0469 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [marcon, '1910-[0469 bis]', *id055, "Solf\xE8ge"]
+1910-[0470 bis]:
+- !!python/tuple ["Ch\xE9n\xE9", '1910-[0470 bis]', *id030, "Piano pr\xE9paratoire"]
+- !!python/tuple [vizentini, '1910-[0470 bis]', *id055, "Solf\xE8ge"]
+1910-[0471 bis]:
+- !!python/tuple [Laudon, '1910-[0471 bis]', *id068, Harmonie]
+1910-[0472 bis]:
+- !!python/tuple [Pessard, '1910-[0472 bis]', *id070, Harmonie]
+1910-[0473 bis]:
+- !!python/tuple [Pessard, '1910-[0473 bis]', *id070, Harmonie]
+1910-[0474 bis]:
+- !!python/tuple [Pessard, '1910-[0474 bis]', *id070, Harmonie]
+1910-[0475 bis]:
+- !!python/tuple [Rougnon, '1910-[0475 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Rougnon, '1910-[0475 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Falkenberg, '1910-[0475 bis]', *id012, "Piano pr\xE9paratoire"]
+- !!python/tuple ["di\xE9mer", '1910-[0475 bis]', *id051, 'Piano ']
+- !!python/tuple ["di\xE9mer", '1910-[0475 bis]', *id051, 'Piano ']
+- !!python/tuple ["di\xE9mer", '1910-[0475 bis]', *id051, 'Piano ']
+- !!python/tuple [Leroux, '1910-[0475 bis]', *id079, Harmonie]
+- !!python/tuple [Leroux, '1910-[0475 bis]', *id079, Harmonie]
+- !!python/tuple [.nan, '1910-[0475 bis]', !!timestamp '1921-11-21 00:00:00', 'Accompagnement
+    au piano ']
+- !!python/tuple [Caussade, '1910-[0475 bis]', !!timestamp '1922-10-23 00:00:00',
+  Contrepoint et Fugue]
+- !!python/tuple [Gigout, '1910-[0475 bis]', !!timestamp '1922-12-22 00:00:00', Orgue]
+1910-[0476 bis]:
+- !!python/tuple [Rougnon, '1910-[0476 bis]', 190!-11-28, "Solf\xE8ge"]
+- !!python/tuple [Falkenberg, '1910-[0476 bis]', *id012, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, '1910-[0476 bis]', *id012, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Di\xE9mer", '1910-[0476 bis]', !!timestamp '1915-01-13 00:00:00',
+  'Piano ']
+1910-[0477 bis]:
+- !!python/tuple [Schvartz, '1910-[0477 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, '1910-[0477 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Loeb, '1910-[0477 bis]', &id080 !!timestamp '1911-11-24 00:00:00',
+  Violoncelle]
+- !!python/tuple [Loeb, '1910-[0477 bis]', *id080, Violoncelle]
+- !!python/tuple [Loeb, '1910-[0477 bis]', *id080, Violoncelle]
+1910-[0478 bis]:
+- !!python/tuple [Cuignache, '1910-[0478 bis]', *id055, "Solf\xE8ge"]
+1910-[0479 bis]:
+- !!python/tuple [Cuignache, '1910-[0479 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, '1910-[0479 bis]', *id055, "Solf\xE8ge"]
+1910-[0480 bis]:
+- !!python/tuple ['Hardonin ', '1910-[0480 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple ['Hardonin ', '1910-[0480 bis]', *id055, "Solf\xE8ge"]
+1910-[0481 bis]:
+- !!python/tuple [.nan, '1910-[0481 bis]', *id055, .nan]
+1910-[0482 bis]:
+- !!python/tuple [Renart, '1910-[0482 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Renart, '1910-[0482 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Philipp, '1910-[0482 bis]', &id081 !!timestamp '1915-11-26 00:00:00',
+  'Piano ']
+- !!python/tuple [Philipp, '1910-[0482 bis]', *id081, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0482 bis]', *id081, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0482 bis]', *id081, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0482 bis]', *id081, 'Piano ']
+1910-[0483 bis]:
+- !!python/tuple [Marcon, '1910-[0483 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Marcon, '1910-[0483 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Marcon, '1910-[0483 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Trouillebert, '1910-[0483 bis]', *id022, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1910-[0483 bis]', *id022, "Piano pr\xE9paratoire"]
+1910-[0484 bis]:
+- !!python/tuple [Marcon, '1910-[0484 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Marcon, '1910-[0484 bis]', *id055, "Solf\xE8ge"]
+1910-[0485 bis]:
+- !!python/tuple [Sautereau, '1910-[0485 bis]', *id055, "Solf\xE8ge"]
+1910-[0486 bis]:
+- !!python/tuple [Massart, '1910-[0486 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Massart, '1910-[0486 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Philipp, '1910-[0486 bis]', *id021, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0486 bis]', *id021, 'Piano ']
+- !!python/tuple [Philipp, '1910-[0486 bis]', *id021, 'Piano ']
+1910-[0487 bis]:
+- !!python/tuple [Massart, '1910-[0487 bis]', *id055, "Solf\xE8ge"]
+1910-[0488 bis]:
+- !!python/tuple [Vizentini, '1910-[0488 bis]', *id055, "Solf\xE8ge"]
+1910-[0489 bis]:
+- !!python/tuple [Vizentini, '1910-[0489 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, '1910-[0489 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, '1910-[0489 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Dallier, '1910-[0489 bis]', *id035, Harmonie]
+- !!python/tuple [Dallier, '1910-[0489 bis]', *id035, Harmonie]
+- !!python/tuple [Dallier, '1910-[0489 bis]', *id035, Harmonie]
+- !!python/tuple [Caussade, '1910-[0489 bis]', *id077, Contrepoint]
+1910-[0490 bis]:
+- !!python/tuple [Roy, '1910-[0490 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1910-[0490 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple ["Ch\xE9n\xE9", '1910-[0490 bis]', '1909-00-00', "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", '1910-[0490 bis]', *id055, "Piano pr\xE9paratoire"]
+1910-[0491 bis]:
+- !!python/tuple [Roy, '1910-[0491 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1910-[0491 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Staub, '1910-[0491 bis]', *id020, 'Piano ']
+1910-[0492 bis]:
+- !!python/tuple [Roy, '1910-[0492 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1910-[0492 bis]', *id055, "Solf\xE8ge"]
+- !!python/tuple [Brun, '1910-[0492 bis]', *id025, "Violon pr\xE9paratoire"]
+1910-[0493 bis]:
+- !!python/tuple [Caussade, '1910-[0493 bis]', !!timestamp '1908-11-27 00:00:00',
+  Contrepoint]
+1910-[0494 bis]:
+- !!python/tuple [Kaiser, '1910-[0494 bis]', *id055, "Solf\xE8ge"]
+1910-[0495 bis]:
+- !!python/tuple [Sujol, '1910-[0495 bis]', *id037, "Solf\xE8ge"]
+1910-[0496 bis]:
+- !!python/tuple [Massart, '1910-[0496 bis]', *id037, "Solf\xE8ge"]
+- !!python/tuple [Massart, '1910-[0496 bis]', *id037, "Solf\xE8ge"]
+1910-[0497 bis]:
+- !!python/tuple [Lavignac, '1910-[0497 bis]', *id037, Harmonie]
+1910-[0498 bis]:
+- !!python/tuple [Lavignac, '1910-[0498 bis]', *id037, Harmonie]
+- !!python/tuple [Estyle, '1910-[0498 bis]', '1913-00-00', 'Accompagnement au piano ']
+1910-[0499 bis]:
+- !!python/tuple [lavignac, '1910-[0499 bis]', *id037, Harmonie]
+1910-[0500 bis]:
+- !!python/tuple [gedalge, '1910-[0500 bis]', *id037, Contrepoint]
+1911-[0422 bis]:
+- !!python/tuple [Gigout, '1911-[0422 bis]', *id076, Orgue]
+1912-0363:
+- !!python/tuple [Rougnon, 1912-0363, &id082 !!timestamp '1912-11-30 00:00:00', "Solf\xE8\
+    ge"]
+1912-0364:
+- !!python/tuple [Pessard, 1912-0364, *id082, Harmonie]
+1912-0365:
+- !!python/tuple [Pessard, 1912-0365, *id082, Harmonie]
+1912-0367:
+- !!python/tuple [Sautereau, 1912-0367, *id082, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, 1912-0367, *id082, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, 1912-0367, *id082, "Solf\xE8ge"]
+1912-[0363 bis]:
+- !!python/tuple [Pessard, '1912-[0363 bis]', *id082, Harmonie]
+- !!python/tuple [Silver, '1912-[0363 bis]', !!timestamp '1919-09-12 00:00:00', Harmonie]
+- !!python/tuple [Estyle, '1912-[0363 bis]', *id039, Accompagnement au piano]
+1912-[0364 bis]:
+- !!python/tuple [Pessard, '1912-[0364 bis]', *id082, Harmonie]
+1912-[0365 bis]:
+- !!python/tuple [Sautereau, '1912-[0365 bis]', *id082, "Solf\xE8ge"]
+1912-[0366 bis]:
+- !!python/tuple [Vizentini, '1912-[0366 bis]', *id082, "Solf\xE8ge"]
+1912-[0367 bis]:
+- !!python/tuple ["G\xE9dalge", '1912-[0367 bis]', *id082, Contrepoint]
+1912-[0422 bis]:
+- !!python/tuple [Gigout, '1912-[0422 bis]', *id076, Orgue]
+1913-0368:
+- !!python/tuple [Widor, 1913-0368, !!timestamp '1913-01-30 00:00:00', Composition]
+1913-0369:
+- !!python/tuple [Gigout, 1913-0369, &id104 !!timestamp '1913-10-08 00:00:00', Orgue]
+1913-0370:
+- !!python/tuple [Hennebains, 1913-0370, &id083 !!timestamp '1913-10-15 00:00:00',
+  "Fl\xFBte"]
+- !!python/tuple [Hennebains, 1913-0370, *id083, "Fl\xFBte"]
+- !!python/tuple [Cuignache, 1913-0370, *id031, "Solf\xE8ge"]
+1913-0371:
+- !!python/tuple [Gillet, 1913-0371, *id083, Hautbois]
+- !!python/tuple [Gillet, 1913-0371, *id083, Hautbois]
+- !!python/tuple [Gillet, 1913-0371, *id083, Hautbois]
+- !!python/tuple [Cuignache, 1913-0371, *id031, "Solf\xE8ge"]
+- !!python/tuple [Silver, 1913-0371, !!timestamp '1920-11-29 00:00:00', Harmonie]
+- !!python/tuple ["G\xE9dalge", 1913-0371, !!timestamp '1923-12-19 00:00:00', Contrepoint
+    et Fugue]
+1913-0372:
+- !!python/tuple [Gillet, 1913-0372, *id083, Hautbois]
+- !!python/tuple [Kaiser, 1913-0372, *id031, "Solf\xE8ge"]
+1913-0373:
+- !!python/tuple [Gillet, 1913-0373, *id083, Hautbois]
+- !!python/tuple [Gillet, 1913-0373, *id083, Hautbois]
+- !!python/tuple [Gillet, 1913-0373, *id083, Hautbois]
+- !!python/tuple [Kaiser, 1913-0373, *id031, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1913-0373, .nan, Histoire de la Musique]
+1913-0374:
+- !!python/tuple [Minart, 1913-0374, *id083, Clarinette]
+- !!python/tuple [Minart, 1913-0374, *id083, Clarinette]
+- !!python/tuple [Cuignache, 1913-0374, *id031, "Solf\xE8ge"]
+1913-0375:
+- !!python/tuple [Minart, 1913-0375, *id083, Clarinette]
+- !!python/tuple [Minart, 1913-0375, *id083, Clarinette]
+- !!python/tuple [Radiguer, 1913-0375, *id031, "Solf\xE8ge"]
+1913-0376:
+- !!python/tuple [Bourdeau, 1913-0376, *id083, Basson]
+- !!python/tuple [Radiguer, 1913-0376, *id031, "Solf\xE8ge"]
+1913-0377:
+- !!python/tuple [Bourdeau, 1913-0377, *id083, Basson]
+- !!python/tuple [Radiguer, 1913-0377, *id031, "Solf\xE8ge"]
+1913-0378:
+- !!python/tuple ["Br\xE9mond", 1913-0378, *id084, Cor]
+- !!python/tuple [Radiguer, 1913-0378, *id031, "Solf\xE8ge"]
+1913-0379:
+- !!python/tuple ["Br\xE9mond", 1913-0379, *id084, Cor]
+- !!python/tuple ["Br\xE9mond", 1913-0379, *id084, Cor]
+- !!python/tuple [Radiguer, 1913-0379, *id031, "Solf\xE8ge"]
+1913-0380:
+- !!python/tuple [Franquin, 1913-0380, *id084, Trompette]
+1913-0381:
+- !!python/tuple [Franquin, 1913-0381, *id084, Trompette]
+- !!python/tuple [Franquin, 1913-0381, *id084, Trompette]
+1913-0382:
+- !!python/tuple [Franquin, 1913-0382, *id084, Trompette]
+- !!python/tuple [Franquin, 1913-0382, *id084, Trompette]
+- !!python/tuple [Cuignache, 1913-0382, &id105 !!timestamp '1913-09-26 00:00:00',
+  "Solf\xE8ge"]
+1913-0383:
+- !!python/tuple [A. Petit, 1913-0383, *id084, "Cornet \xE0 pistons"]
+- !!python/tuple [Kaiser, 1913-0383, *id031, "Solf\xE8ge"]
+1913-0384:
+- !!python/tuple [Allard, 1913-0384, *id084, Trombone]
+- !!python/tuple [Kaiser, 1913-0384, *id031, "Solf\xE8ge"]
+1913-0385:
+- !!python/tuple [Allard, 1913-0385, *id084, Trombone]
+- !!python/tuple [Allard, 1913-0385, *id084, Trombone]
+1913-0386:
+- !!python/tuple [Charpentier, 1913-0386, *id085, Contrebasse]
+- !!python/tuple [Radiguer, 1913-0386, &id086 !!timestamp '1916-01-03 00:00:00', "Solf\xE8\
+    ge"]
+1913-0387:
+- !!python/tuple [Laforge, 1913-0387, *id085, Alto]
+1913-0388:
+- !!python/tuple [Loeb, 1913-0388, *id085, Violoncelle]
+- !!python/tuple [Loeb, 1913-0388, *id085, Violoncelle]
+- !!python/tuple [Loeb, 1913-0388, *id085, Violoncelle]
+- !!python/tuple [Rougnon, 1913-0388, *id086, "Solf\xE8ge"]
+1913-0389:
+- !!python/tuple [Silvain, 1913-0389, &id087 !!timestamp '1913-10-24 00:00:00', "D\xE9\
+    clamation"]
+- !!python/tuple [Silvain, 1913-0389, *id087, "D\xE9clamation"]
+1913-0390:
+- !!python/tuple [Truffier, 1913-0390, *id087, "D\xE9clamation"]
+1913-0391:
+- !!python/tuple [R. Duflos, 1913-0391, *id087, "D\xE9clamation"]
+1913-0392:
+- !!python/tuple [Truffier, 1913-0392, *id087, "D\xE9clamation"]
+1913-0393:
+- !!python/tuple [Silvain, 1913-0393, *id087, "D\xE9clamation"]
+1913-0394:
+- !!python/tuple [Paul-Mounet, 1913-0394, *id087, "D\xE9clamation"]
+1913-0395:
+- !!python/tuple [Leitner, 1913-0395, *id087, "D\xE9clamation"]
+1913-0396:
+- !!python/tuple [Paul-Mounet, 1913-0396, *id087, "D\xE9clamation"]
+1913-0397:
+- !!python/tuple [Leitner, 1913-0397, *id087, "D\xE9clamation"]
+1913-0398:
+- !!python/tuple [Leitner, 1913-0398, *id087, "D\xE9clamation"]
+1913-0399:
+- !!python/tuple [Truffier, 1913-0399, *id087, "D\xE9clamation"]
+1913-0400:
+- !!python/tuple [Silvain, 1913-0400, *id087, "D\xE9clamation"]
+- !!python/tuple [Silvain, 1913-0400, *id087, "D\xE9clamation"]
+- !!python/tuple [Silvain, 1913-0400, *id087, "D\xE9clamation"]
+- !!python/tuple [Silvain, 1913-0400, *id087, "D\xE9clamation"]
+- !!python/tuple [Silvain, 1913-0400, *id087, "D\xE9clamation"]
+1913-0401:
+- !!python/tuple [G. Berr, 1913-0401, *id087, "D\xE9clamation"]
+- !!python/tuple [G. Berr, 1913-0401, *id087, "D\xE9clamation"]
+1913-0402:
+- !!python/tuple [Truffier, 1913-0402, *id087, "D\xE9clamation"]
+1913-0403:
+- !!python/tuple [Paul-Mounet, 1913-0403, *id087, "D\xE9clamation"]
+- !!python/tuple [Paul-Mounet, 1913-0403, *id087, "D\xE9clamation"]
+- !!python/tuple [Paul-Mounet, 1913-0403, *id087, "D\xE9clamation"]
+- !!python/tuple [Paul-Mounet, 1913-0403, *id087, "D\xE9clamation"]
+- !!python/tuple [Paul-Mounet, 1913-0403, *id087, "D\xE9clamation"]
+1913-0404:
+- !!python/tuple [Tournier, 1913-0404, &id088 !!timestamp '1913-10-25 00:00:00', Harpe]
+- !!python/tuple [Massart, 1913-0404, &id089 !!timestamp '1913-11-21 00:00:00', "Solf\xE8\
+    ge"]
+1913-0405:
+- !!python/tuple [Tournier, 1913-0405, *id088, Harpe]
+- !!python/tuple [Tournier, 1913-0405, *id088, Harpe]
+- !!python/tuple [Hardouin, 1913-0405, *id089, "Solf\xE8ge"]
+1913-0406:
+- !!python/tuple ["L\xE9nars", 1913-0406, *id088, Harpe chromatique]
+- !!python/tuple ["L\xE9nars", 1913-0406, *id088, Harpe chromatique]
+- !!python/tuple ["L\xE9nars", 1913-0406, *id088, Harpe chromatique]
+- !!python/tuple [Renart, 1913-0406, *id089, "Solf\xE8ge"]
+1913-0407:
+- !!python/tuple [Hettich, 1913-0407, &id090 !!timestamp '1913-10-31 00:00:00', Chant]
+- !!python/tuple [Cornibert, 1913-0407, !!timestamp '1921-02-15 00:00:00', "D\xE9\
+    clamation lyrique"]
+- !!python/tuple [Vernaelde, 1913-0407, *id090, "Solf\xE8ge"]
+1913-0408:
+- !!python/tuple [Engel, 1913-0408, *id090, Chant]
+- !!python/tuple [Vernaelde, 1913-0408, *id090, "Solf\xE8ge"]
+1913-0409:
+- !!python/tuple [Berton, 1913-0409, *id090, Chant]
+- !!python/tuple [Berton, 1913-0409, *id090, Chant]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0409, &id091 !!timestamp '1915-02-16 00:00:00',
+  "D\xE9clamation lyrique"]
+- !!python/tuple [Vernaelde, 1913-0409, *id090, "Solf\xE8ge"]
+1913-0410:
+- !!python/tuple [Cazeneuve, 1913-0410, *id090, Chant]
+- !!python/tuple [Vernaelde, 1913-0410, *id090, "Solf\xE8ge"]
+1913-0411:
+- !!python/tuple [Hettich, 1913-0411, *id090, Chant]
+- !!python/tuple [Hettich, 1913-0411, *id090, Chant]
+- !!python/tuple [Auzende, 1913-0411, *id090, "Solf\xE8ge"]
+- !!python/tuple [Isnardon, 1913-0411, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, 1913-0411, *id091, "D\xE9clamation lyrique"]
+1913-0412:
+- !!python/tuple [Berton, 1913-0412, *id090, Chant]
+- !!python/tuple [Auzende, 1913-0412, *id090, "Solf\xE8ge"]
+- !!python/tuple [Sizes, 1913-0412, &id106 !!timestamp '1920-02-09 00:00:00', "D\xE9\
+    clamation lyrique"]
+1913-0413:
+- !!python/tuple [Hettich, 1913-0413, *id090, Chant]
+- !!python/tuple [Hettich, 1913-0413, *id090, Chant]
+- !!python/tuple [Sujol, 1913-0413, *id090, "Solf\xE8ge"]
+- !!python/tuple [Sujol, 1913-0413, *id090, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0413, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0413, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0413, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, 1913-0413, .nan, Histoire de la Musique]
+- !!python/tuple [.nan, 1913-0413, .nan, Histoire de la Musique]
+1913-0414:
+- !!python/tuple [Cazeneuve, 1913-0414, *id090, Chant]
+- !!python/tuple [Cazeneuve, 1913-0414, *id090, Chant]
+- !!python/tuple [Piffaretti, 1913-0414, *id090, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0414, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0414, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, 1913-0414, .nan, Histoire de la Musique]
+1913-0415:
+- !!python/tuple [Grandjean, 1913-0415, *id090, Chant]
+- !!python/tuple [Grandjean, 1913-0415, *id090, Chant]
+- !!python/tuple [Grandjean, 1913-0415, *id090, Chant]
+- !!python/tuple [Colin-Vinot, 1913-0415, *id090, "Solf\xE8ge"]
+- !!python/tuple [Isnardon, 1913-0415, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, 1913-0415, *id091, "D\xE9clamation lyrique"]
+1913-0416:
+- !!python/tuple [Grandjean, 1913-0416, *id090, Chant]
+- !!python/tuple [Sujol, 1913-0416, *id090, "Solf\xE8ge"]
+- !!python/tuple [Sujol, 1913-0416, *id090, "Solf\xE8ge"]
+- !!python/tuple [Sujol, 1913-0416, *id090, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1913-0416, .nan, Histoire de la Musique]
+- !!python/tuple ["Melchiss\xE9dec", 1913-0416, *id091, "D\xE9clamation lyrique"]
+1913-0417:
+- !!python/tuple [Engel, 1913-0417, *id090, Chant]
+- !!python/tuple [Sujol, 1913-0417, *id090, "Solf\xE8ge"]
+1913-0418:
+- !!python/tuple [Berton, 1913-0418, *id090, Chant]
+- !!python/tuple [Piffaretti, 1913-0418, *id090, "Solf\xE8ge"]
+- !!python/tuple [Piffaretti, 1913-0418, *id090, "Solf\xE8ge"]
+- !!python/tuple [Sizes, 1913-0418, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Sizes, 1913-0418, *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Sizes, 1913-0418, *id091, "D\xE9clamation lyrique"]
+1913-0419:
+- !!python/tuple [Cortot, 1913-0419, *id048, Piano]
+- !!python/tuple [Cortot, 1913-0419, *id048, Piano]
+- !!python/tuple [Kaiser, 1913-0419, *id086, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1913-0419, .nan, Histoire de la Musique]
+1913-0420:
+- !!python/tuple [Long, 1913-0420, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0420, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0420, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, 1913-0420, *id089, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1913-0420, .nan, Histoire de la Musique]
+1913-0421:
+- !!python/tuple [Long, 1913-0421, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0421, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0421, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0421, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0421, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, 1913-0421, *id089, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1913-0421, .nan, Histoire de la Musique]
+1913-0422:
+- !!python/tuple [Long, 1913-0422, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0422, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0422, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0422, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, 1913-0422, *id089, "Solf\xE8ge"]
+1913-0423:
+- !!python/tuple ["Ch\xE9n\xE9", 1913-0423, *id048, "Piano pr\xE9paratoire"]
+1913-0424:
+- !!python/tuple ["Ch\xE9n\xE9", 1913-0424, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, 1913-0424, *id089, "Solf\xE8ge"]
+1913-0425:
+- !!python/tuple [Trouillebert, 1913-0425, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0425, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0425, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0425, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0425, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Massart, 1913-0425, *id089, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1913-0425, *id089, "Solf\xE8ge"]
+- !!python/tuple [Samuel-Rousseau (inter.), 1913-0425, !!timestamp '1917-11-24 00:00:00',
+  Harmonie]
+1913-0426:
+- !!python/tuple [Trouillebert, 1913-0426, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0426, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0426, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0426, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0426, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, 1913-0426, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Vizentini, 1913-0426, *id089, "Solf\xE8ge"]
+1913-0427:
+- !!python/tuple ["Ch\xE9n\xE9", 1913-0427, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", 1913-0427, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", 1913-0427, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Massart, 1913-0427, *id089, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1913-0427, *id089, "Solf\xE8ge"]
+1913-0428:
+- !!python/tuple [Long, 1913-0428, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0428, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0428, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, 1913-0428, *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Vizentini, 1913-0428, *id089, "Solf\xE8ge"]
+1913-0429:
+- !!python/tuple [Nadaud, 1913-0429, *id006, 'Violon ']
+- !!python/tuple [Nadaud, 1913-0429, *id006, 'Violon ']
+- !!python/tuple [Nadaud, 1913-0429, *id006, 'Violon ']
+- !!python/tuple [Nadaud, 1913-0429, *id006, 'Violon ']
+- !!python/tuple [Schvartz, 1913-0429, *id086, "Solf\xE8ge"]
+1913-0430:
+- !!python/tuple [Berthelier, 1913-0430, *id006, 'Violon ']
+- !!python/tuple [Rougnon, 1913-0430, *id086, "Solf\xE8ge"]
+1913-0431:
+- !!python/tuple [Touche, 1913-0431, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Touche, 1913-0431, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Schvartz, 1913-0431, *id031, "Solf\xE8ge"]
+1913-0432:
+- !!python/tuple [Touche, 1913-0432, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Touche, 1913-0432, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Sautereau, 1913-0432, *id089, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, 1913-0432, *id089, "Solf\xE8ge"]
+1913-0433:
+- !!python/tuple [Brun, 1913-0433, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1913-0433, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1913-0433, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, 1913-0433, *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Marcou, 1913-0433, *id089, "Solf\xE8ge"]
+1913-0434:
+- !!python/tuple [Staub, 1913-0434, *id092, Piano]
+- !!python/tuple [Rougnon, 1913-0434, *id086, "Solf\xE8ge"]
+1913-0435:
+- !!python/tuple [Staub, 1913-0435, *id092, Piano]
+- !!python/tuple [Staub, 1913-0435, *id092, Piano]
+- !!python/tuple [Staub, 1913-0435, *id092, Piano]
+- !!python/tuple [Samuel-Rousseau, 1913-0435, &id093 !!timestamp '1920-12-07 00:00:00',
+  Harmonie]
+- !!python/tuple [Samuel-Rousseau, 1913-0435, *id093, Harmonie]
+- !!python/tuple [.nan, 1913-0435, .nan, Histoire de la Musique]
+- !!python/tuple [Vidal, 1913-0435, &id094 !!timestamp '1924-01-30 00:00:00', Composition]
+- !!python/tuple [Vidal, 1913-0435, *id094, Composition]
+- !!python/tuple [Vidal, 1913-0435, *id094, Composition]
+- !!python/tuple [d'Indy, 1913-0435, *id095, Direction d'Orchestre]
+1913-0436:
+- !!python/tuple [Staub, 1913-0436, *id092, Piano]
+- !!python/tuple [Sautereau, 1913-0436, *id086, "Solf\xE8ge"]
+1913-0437:
+- !!python/tuple [Talkeuberg, 1913-0437, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0437, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0437, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0437, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0437, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Cuignache, 1913-0437, *id031, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1913-0437, *id031, "Solf\xE8ge"]
+- !!python/tuple [Dallier, 1913-0437, !!timestamp '1922-12-06 00:00:00', Harmonie]
+1913-0438:
+- !!python/tuple [Talkeuberg, 1913-0438, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0438, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0438, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, 1913-0438, *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Rougnon, 1913-0438, *id031, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1913-0438, .nan, Histoire de la Musique]
+- !!python/tuple [Leroux, 1913-0438, &id116 !!timestamp '1918-12-17 00:00:00', Harmonie]
+- !!python/tuple [Estyle, 1913-0438, !!timestamp '1919-12-31 00:00:00', Accompagnement
+    au piano]
+1913-0439:
+- !!python/tuple [Roy, 1913-0439, &id096 !!timestamp '1913-11-25 00:00:00', "Solf\xE8\
+    ge"]
+- !!python/tuple [Roy, 1913-0439, *id096, "Solf\xE8ge"]
+1913-0440:
+- !!python/tuple [Hardouin, 1913-0440, *id096, "Solf\xE8ge"]
+- !!python/tuple [Hardouin, 1913-0440, *id096, "Solf\xE8ge"]
+- !!python/tuple [Hardouin, 1913-0440, *id096, "Solf\xE8ge"]
+1913-0441:
+- !!python/tuple [Renart, 1913-0441, *id096, "Solf\xE8ge"]
+- !!python/tuple [Falkenberg, 1913-0441, &id097 !!timestamp '1917-12-13 00:00:00',
+  "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, 1913-0441, *id097, "Piano pr\xE9paratoire"]
+1913-0442:
+- !!python/tuple [Marcou, 1913-0442, *id096, "Solf\xE8ge"]
+1913-0443:
+- !!python/tuple [Sautereau, 1913-0443, *id096, "Solf\xE8ge"]
+1913-0444:
+- !!python/tuple [Massart, 1913-0444, *id096, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1913-0444, *id096, "Solf\xE8ge"]
+- !!python/tuple [Massart, 1913-0444, *id096, "Solf\xE8ge"]
+- !!python/tuple [Vieux, 1913-0444, &id098 !!timestamp '1919-11-08 00:00:00', Alto]
+- !!python/tuple [Vieux, 1913-0444, *id098, Alto]
+- !!python/tuple [Vieux, 1913-0444, *id098, Alto]
+- !!python/tuple [Samuel-Rousseau, 1913-0444, &id117 !!timestamp '1919-12-08 00:00:00',
+  Harmonie]
+1913-0445:
+- !!python/tuple [Vizentini, 1913-0445, *id096, "Solf\xE8ge"]
+- !!python/tuple [Vizentini, 1913-0445, *id096, "Solf\xE8ge"]
+1913-0446:
+- !!python/tuple [Cuignache, 1913-0446, *id031, "Solf\xE8ge"]
+1913-0447:
+- !!python/tuple [Cuignache, 1913-0447, *id031, "Solf\xE8ge"]
+- !!python/tuple [Cuignache, 1913-0447, *id031, "Solf\xE8ge"]
+- !!python/tuple ["Ch\xE9n\xE9", 1913-0447, &id101 !!timestamp '1916-12-15 00:00:00',
+  "Piano pr\xE9paratoire"]
+- !!python/tuple [Chapuis, 1913-0447, &id110 !!timestamp '1921-11-27 00:00:00', Harmonie]
+- !!python/tuple [.nan, 1913-0447, .nan, Histoire de la Musique]
+- !!python/tuple [.nan, 1913-0447, !!timestamp '1923-10-31 00:00:00', Accompagnement
+    au piano]
+1913-0448:
+- !!python/tuple [Chapuis, 1913-0448, *id031, Harmonie]
+- !!python/tuple [Chapuis, 1913-0448, *id031, Harmonie]
+- !!python/tuple [.nan, 1913-0448, .nan, Histoire de la Musique]
+- !!python/tuple [.nan, 1913-0448, .nan, Histoire de la Musique]
+- !!python/tuple [.nan, 1913-0448, .nan, Histoire de la Musique]
+- !!python/tuple [Caussade, 1913-0448, *id077, Contrepoint]
+- !!python/tuple [Caussade, 1913-0448, &id099 !!timestamp '1920-10-25 00:00:00', Contrepoint
+    et Fugue]
+- !!python/tuple [Caussade, 1913-0448, *id099, Contrepoint et Fugue]
+1913-0449:
+- !!python/tuple [X. Leroux, 1913-0449, *id031, Harmonie]
+1913-0450:
+- !!python/tuple [Schvartz, 1913-0450, *id031, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, 1913-0450, *id031, "Solf\xE8ge"]
+- !!python/tuple [Nanny, 1913-0450, &id100 !!timestamp '1924-11-12 00:00:00', Contrebasse]
+- !!python/tuple [Nanny, 1913-0450, *id100, Contrebasse]
+1913-0451:
+- !!python/tuple [Schvartz, 1913-0451, *id031, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, 1913-0451, *id031, "Solf\xE8ge"]
+- !!python/tuple [Long, 1913-0451, *id101, "Piano pr\xE9paratoire"]
+1913-0452:
+- !!python/tuple [Mouquet, 1913-0452, *id039, Harmonie]
+1913-0453:
+- !!python/tuple [Rougnon, 1913-0453, *id039, "Solf\xE8ge"]
+- !!python/tuple [Rougnon, 1913-0453, *id039, "Solf\xE8ge"]
+- !!python/tuple [Vieux, 1913-0453, &id102 !!timestamp '1921-11-15 00:00:00', Alto]
+- !!python/tuple [Vieux, 1913-0453, *id102, Alto]
+- !!python/tuple [Vieux, 1913-0453, *id102, Alto]
+1913-0454:
+- !!python/tuple [Kaiser, 1913-0454, *id039, "Solf\xE8ge"]
+1913-0455:
+- !!python/tuple [Lessard, 1913-0455, *id039, Harmonie]
+1913-0456:
+- !!python/tuple [Lessard, 1913-0456, *id039, Harmonie]
+1913-0457:
+- !!python/tuple [Dallier, 1913-0457, *id031, Harmonie]
+1913-0458:
+- !!python/tuple [Dallier, 1913-0458, *id031, Harmonie]
+1913-0459:
+- !!python/tuple [Lavignac, 1913-0459, *id096, Harmonie]
+1913-0460:
+- !!python/tuple [Mouquet, 1913-0460, *id039, Harmonie]
+1913-0461:
+- !!python/tuple ["G\xE9dalge", 1913-0461, *id039, Contrepoint]
+1913-0462:
+- !!python/tuple ["G\xE9dalge", 1913-0462, *id039, Contrepoint]
+1913-0463:
+- !!python/tuple [Sautereau, 1913-0463, *id039, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, 1913-0463, *id039, "Solf\xE8ge"]
+- !!python/tuple [Falkenberg, 1913-0463, *id103, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, 1913-0463, *id103, "Piano pr\xE9paratoire"]
+- !!python/tuple [Falkenberg, 1913-0463, *id103, "Piano pr\xE9paratoire"]
+- !!python/tuple [.nan, 1913-0463, .nan, Histoire de la Musique]
+1913-[0368 bis]:
+- !!python/tuple [Gigout, '1913-[0368 bis]', *id104, Orgue]
+1913-[0369 bis]:
+- !!python/tuple [Gigout, '1913-[0369 bis]', *id104, Orgue]
+- !!python/tuple [Gigout, '1913-[0369 bis]', *id104, Orgue]
+1913-[0370 bis]:
+- !!python/tuple [Hennebains, '1913-[0370 bis]', *id083, "Fl\xFBte"]
+- !!python/tuple [Hennebains, '1913-[0370 bis]', *id083, "Fl\xFBte"]
+- !!python/tuple [Hennebains, '1913-[0370 bis]', *id083, "Fl\xFBte"]
+- !!python/tuple [Hennebains, '1913-[0370 bis]', *id083, "Fl\xFBte"]
+- !!python/tuple [Rougnon, '1913-[0370 bis]', *id031, "Solf\xE8ge"]
+1913-[0371 bis]:
+- !!python/tuple [Gillet, '1913-[0371 bis]', *id083, Hautbois]
+- !!python/tuple [Gillet, '1913-[0371 bis]', *id083, Hautbois]
+- !!python/tuple [Gillet, '1913-[0371 bis]', *id083, Hautbois]
+1913-[0372 bis]:
+- !!python/tuple [Gillet, '1913-[0372 bis]', *id083, Hautbois]
+1913-[0373 bis]:
+- !!python/tuple [Minart, '1913-[0373 bis]', *id083, Clarinette]
+- !!python/tuple [Minart, '1913-[0373 bis]', *id083, Clarinette]
+- !!python/tuple [Radiguer, '1913-[0373 bis]', *id031, "Solf\xE8ge"]
+1913-[0374 bis]:
+- !!python/tuple [Minart, '1913-[0374 bis]', *id083, Clarinette]
+- !!python/tuple [Minart, '1913-[0374 bis]', *id083, Clarinette]
+- !!python/tuple [Radiguer, '1913-[0374 bis]', *id031, "Solf\xE8ge"]
+1913-[0375 bis]:
+- !!python/tuple [Minart, '1913-[0375 bis]', *id083, Clarinette]
+- !!python/tuple [Schvartz, '1913-[0375 bis]', *id031, "Solf\xE8ge"]
+1913-[0376 bis]:
+- !!python/tuple [Bourdeau, '1913-[0376 bis]', *id083, Basson]
+- !!python/tuple [Bourdeau, '1913-[0376 bis]', *id083, Basson]
+- !!python/tuple [Radiguer, '1913-[0376 bis]', *id031, "Solf\xE8ge"]
+1913-[0377 bis]:
+- !!python/tuple [Bourdeau, '1913-[0377 bis]', *id083, Basson]
+- !!python/tuple [Bourdeau, '1913-[0377 bis]', *id083, Basson]
+1913-[0378 bis]:
+- !!python/tuple ["Br\xE9mond", '1913-[0378 bis]', *id084, Cor]
+1913-[0379 bis]:
+- !!python/tuple ["Br\xE9mond", '1913-[0379 bis]', *id084, Cor]
+- !!python/tuple ["Br\xE9mond", '1913-[0379 bis]', *id084, Cor]
+1913-[0380 bis]:
+- !!python/tuple [Franquin, '1913-[0380 bis]', *id084, Trompette]
+- !!python/tuple [Radiguer, '1913-[0380 bis]', *id031, "Solf\xE8ge"]
+1913-[0381 bis]:
+- !!python/tuple [Franquin, '1913-[0381 bis]', *id084, Trompette]
+1913-[0382 bis]:
+- !!python/tuple [A. Petit, '1913-[0382 bis]', *id084, "Cornet \xE0 pistons"]
+- !!python/tuple [Kaiser, '1913-[0382 bis]', *id031, "Solf\xE8ge"]
+1913-[0383 bis]:
+- !!python/tuple [A. Petit, '1913-[0383 bis]', *id084, "Cornet \xE0 pistons"]
+- !!python/tuple [Kaiser, '1913-[0383 bis]', *id105, "Solf\xE8ge"]
+1913-[0384 bis]:
+- !!python/tuple [Allard, '1913-[0384 bis]', *id084, Trombone]
+1913-[0385 bis]:
+- !!python/tuple [Allard, '1913-[0385 bis]', *id084, Trombone]
+1913-[0386 bis]:
+- !!python/tuple [Charpentier, '1913-[0386 bis]', *id085, Contrebasse]
+- !!python/tuple [Charpentier, '1913-[0386 bis]', *id085, Contrebasse]
+- !!python/tuple [Charpentier, '1913-[0386 bis]', *id085, Contrebasse]
+- !!python/tuple [Cuignache, '1913-[0386 bis]', *id031, "Solf\xE8ge"]
+1913-[0387 bis]:
+- !!python/tuple [Laforge, '1913-[0387 bis]', *id085, Alto]
+- !!python/tuple [Laforge, '1913-[0387 bis]', *id085, Alto]
+1913-[0388 bis]:
+- !!python/tuple [Loeb, '1913-[0388 bis]', *id085, Violoncelle]
+- !!python/tuple [Loeb, '1913-[0388 bis]', *id085, Violoncelle]
+- !!python/tuple [Loeb, '1913-[0388 bis]', *id085, Violoncelle]
+- !!python/tuple [Rougnon, '1913-[0388 bis]', *id086, "Solf\xE8ge"]
+1913-[0389 bis]:
+- !!python/tuple [G. Berr, '1913-[0389 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1913-[0389 bis]', *id087, "D\xE9clamation"]
+1913-[0390 bis]:
+- !!python/tuple [R. Duflos, '1913-[0390 bis]', *id087, "D\xE9clamation"]
+1913-[0391 bis]:
+- !!python/tuple [G. Berr, '1913-[0391 bis]', *id087, "D\xE9clamation"]
+1913-[0392 bis]:
+- !!python/tuple [Leitner, '1913-[0392 bis]', *id087, "D\xE9clamation"]
+1913-[0393 bis]:
+- !!python/tuple [G. Berr, '1913-[0393 bis]', *id087, "D\xE9clamation"]
+1913-[0394 bis]:
+- !!python/tuple [G. Berr, '1913-[0394 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1913-[0394 bis]', *id087, "D\xE9clamation"]
+1913-[0395 bis]:
+- !!python/tuple [R. Duflos, '1913-[0395 bis]', *id087, "D\xE9clamation"]
+1913-[0396 bis]:
+- !!python/tuple [Leitner, '1913-[0396 bis]', *id087, "D\xE9clamation"]
+1913-[0397 bis]:
+- !!python/tuple [R. Duflos, '1913-[0397 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [R. Duflos, '1913-[0397 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [R. Duflos, '1913-[0397 bis]', *id087, "D\xE9clamation"]
+1913-[0398 bis]:
+- !!python/tuple [Truffier, '1913-[0398 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1913-[0398 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1913-[0398 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [Truffier, '1913-[0398 bis]', *id087, "D\xE9clamation"]
+1913-[0399 bis]:
+- !!python/tuple [Truffier, '1913-[0399 bis]', *id087, "D\xE9clamation"]
+1913-[0400 bis]:
+- !!python/tuple [Silvain, '1913-[0400 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [Silvain, '1913-[0400 bis]', *id087, "D\xE9clamation"]
+1913-[0401 bis]:
+- !!python/tuple [G. Berr, '1913-[0401 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1913-[0401 bis]', *id087, "D\xE9clamation"]
+1913-[0402 bis]:
+- !!python/tuple [Paul-Mounet, '1913-[0402 bis]', *id087, "D\xE9clamation"]
+- !!python/tuple [Paul-Mounet, '1913-[0402 bis]', *id087, "D\xE9clamation"]
+1913-[0403 bis]:
+- !!python/tuple [Tournier, '1913-[0403 bis]', *id088, Harpe]
+- !!python/tuple [Tournier, '1913-[0403 bis]', *id088, Harpe]
+- !!python/tuple [Hardouin, '1913-[0403 bis]', *id089, "Solf\xE8ge"]
+1913-[0404 bis]:
+- !!python/tuple [Tournier, '1913-[0404 bis]', *id088, Harpe]
+- !!python/tuple [Massart, '1913-[0404 bis]', *id089, "Solf\xE8ge"]
+1913-[0405 bis]:
+- !!python/tuple ["L\xE9nars", '1913-[0405 bis]', *id088, Harpe chromatique]
+- !!python/tuple ["L\xE9nars", '1913-[0405 bis]', *id088, Harpe chromatique]
+- !!python/tuple [Marcou, '1913-[0405 bis]', *id089, "Solf\xE8ge"]
+1913-[0406 bis]:
+- !!python/tuple ["L\xE9nars", '1913-[0406 bis]', *id088, Harpe chromatique]
+- !!python/tuple ["L\xE9nars", '1913-[0406 bis]', *id088, Harpe chromatique]
+- !!python/tuple [Vizentini, '1913-[0406 bis]', *id089, "Solf\xE8ge"]
+1913-[0407 bis]:
+- !!python/tuple [Lorrain, '1913-[0407 bis]', *id090, Chant]
+- !!python/tuple [Lorrain, '1913-[0407 bis]', *id090, Chant]
+- !!python/tuple [Cornibert, '1913-[0407 bis]', *id106, "D\xE9clamation lyrique"]
+- !!python/tuple [Auzende, '1913-[0407 bis]', *id090, "Solf\xE8ge"]
+1913-[0408 bis]:
+- !!python/tuple [Lorrain, '1913-[0408 bis]', *id090, Chant]
+- !!python/tuple [Lorrain, '1913-[0408 bis]', *id090, Chant]
+- !!python/tuple [Lorrain, '1913-[0408 bis]', *id090, Chant]
+- !!python/tuple [Cornibert, '1913-[0408 bis]', *id106, "D\xE9clamation lyrique"]
+- !!python/tuple [Auzende, '1913-[0408 bis]', *id090, "Solf\xE8ge"]
+1913-[0409 bis]:
+- !!python/tuple [Berton, '1913-[0409 bis]', *id090, Chant]
+- !!python/tuple [Vernaelde, '1913-[0409 bis]', *id090, "Solf\xE8ge"]
+1913-[0410 bis]:
+- !!python/tuple [de Martini, '1913-[0410 bis]', *id090, Chant]
+- !!python/tuple [Isnardon, '1913-[0410 bis]', *id106, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, '1913-[0410 bis]', *id106, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, '1913-[0410 bis]', *id106, "D\xE9clamation lyrique"]
+- !!python/tuple [Auzende, '1913-[0410 bis]', *id090, "Solf\xE8ge"]
+1913-[0411 bis]:
+- !!python/tuple [de Martini, '1913-[0411 bis]', *id090, Chant]
+- !!python/tuple [Auzende, '1913-[0411 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple [Sizes, '1913-[0411 bis]', !!timestamp '1921-02-19 00:00:00', "D\xE9\
+    clamation lyrique"]
+1913-[0412 bis]:
+- !!python/tuple [Berton, '1913-[0412 bis]', *id090, Chant]
+- !!python/tuple [Berton, '1913-[0412 bis]', *id090, Chant]
+- !!python/tuple [Colin-Vinot, '1913-[0412 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple [Isnardon, '1913-[0412 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, '1913-[0412 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, '1913-[0412 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, '1913-[0412 bis]', .nan, Histoire de la Musique]
+1913-[0413 bis]:
+- !!python/tuple [Cazeneuve, '1913-[0413 bis]', *id090, Chant]
+- !!python/tuple [Cazeneuve, '1913-[0413 bis]', *id090, Chant]
+- !!python/tuple [Cazeneuve, '1913-[0413 bis]', *id090, Chant]
+- !!python/tuple [Piffaretti, '1913-[0413 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple [Sizes, '1913-[0413 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [Sizes, '1913-[0413 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, '1913-[0413 bis]', .nan, Histoire de la Musique]
+- !!python/tuple [.nan, '1913-[0413 bis]', .nan, Histoire de la Musique]
+1913-[0414 bis]:
+- !!python/tuple [de Martini, '1913-[0414 bis]', *id090, Chant]
+- !!python/tuple [Piffaretti, '1913-[0414 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple [Piffaretti, '1913-[0414 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple [.nan, '1913-[0414 bis]', .nan, .nan]
+- !!python/tuple ["Melchiss\xE9dec", '1913-[0414 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", '1913-[0414 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", '1913-[0414 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, '1913-[0414 bis]', .nan, Histoire de la Musique]
+1913-[0415 bis]:
+- !!python/tuple [Grandjean, '1913-[0415 bis]', *id090, Chant]
+- !!python/tuple [Grandjean, '1913-[0415 bis]', *id090, Chant]
+- !!python/tuple [Grandjean, '1913-[0415 bis]', *id090, Chant]
+- !!python/tuple [Vinot, '1913-[0415 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple ["Sal\xE9za", '1913-[0415 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Sal\xE9za", '1913-[0415 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple ["Sal\xE9za", '1913-[0415 bis]', *id091, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, '1913-[0415 bis]', .nan, Histoire de la Musique]
+1913-[0416 bis]:
+- !!python/tuple [Lorrain, '1913-[0416 bis]', *id090, Chant]
+- !!python/tuple [Piffaretti, '1913-[0416 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple [Isnardon, '1913-[0416 bis]', *id091, "D\xE9clamation lyrique"]
+1913-[0417 bis]:
+- !!python/tuple [Cazeneuve, '1913-[0417 bis]', *id090, Chant]
+- !!python/tuple [Colin-Vinot, '1913-[0417 bis]', *id090, "Solf\xE8ge"]
+- !!python/tuple ["Sal\xE9za", '1913-[0417 bis]', *id090, "D\xE9clamation lyrique"]
+1913-[0418 bis]:
+- !!python/tuple [Cortot, '1913-[0418 bis]', *id048, Piano]
+- !!python/tuple [Cortot, '1913-[0418 bis]', *id048, Piano]
+- !!python/tuple [Roy, '1913-[0418 bis]', *id086, "Solf\xE8ge"]
+1913-[0419 bis]:
+- !!python/tuple [Cortot, '1913-[0419 bis]', *id048, Piano]
+- !!python/tuple [Cortot, '1913-[0419 bis]', *id048, Piano]
+- !!python/tuple [Cortot, '1913-[0419 bis]', *id048, Piano]
+- !!python/tuple [Cortot, '1913-[0419 bis]', *id048, Piano]
+- !!python/tuple [.nan, '1913-[0419 bis]', .nan, Histoire de la Musique]
+- !!python/tuple [.nan, '1913-[0419 bis]', .nan, "Solf\xE8ge"]
+1913-[0420 bis]:
+- !!python/tuple [Long, '1913-[0420 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0420 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0420 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0420 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0420 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, '1913-[0420 bis]', *id086, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1913-[0420 bis]', *id086, "Solf\xE8ge"]
+- !!python/tuple [.nan, '1913-[0420 bis]', .nan, Histoire de la Musique]
+1913-[0421 bis]:
+- !!python/tuple [Trouillebert, '1913-[0421 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Hardouin, '1913-[0421 bis]', *id089, "Solf\xE8ge"]
+1913-[0423 bis]:
+- !!python/tuple [Long, '1913-[0423 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0423 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0423 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0423 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Long, '1913-[0423 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, '1913-[0423 bis]', *id089, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1913-[0423 bis]', *id089, "Solf\xE8ge"]
+1913-[0424 bis]:
+- !!python/tuple ["Ch\xE9n\xE9", '1913-[0424 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", '1913-[0424 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Sautereau, '1913-[0424 bis]', *id089, "Solf\xE8ge"]
+1913-[0425 bis]:
+- !!python/tuple [Trouillebert, '1913-[0425 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0425 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0425 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0425 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0425 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0425 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Renart, '1913-[0425 bis]', *id089, "Solf\xE8ge"]
+1913-[0426 bis]:
+- !!python/tuple [Long, '1913-[0426 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Roy, '1913-[0426 bis]', *id089, "Solf\xE8ge"]
+1913-[0427 bis]:
+- !!python/tuple ["Ch\xE9n\xE9", '1913-[0427 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple ["Ch\xE9n\xE9", '1913-[0427 bis]', *id048, "Piano pr\xE9paratoire"]
+- !!python/tuple [Hardouin, '1913-[0427 bis]', *id089, "Solf\xE8ge"]
+1913-[0428 bis]:
+- !!python/tuple [Nadaud, '1913-[0428 bis]', *id006, 'Violon ']
+- !!python/tuple [Nadaud, '1913-[0428 bis]', *id006, 'Violon ']
+- !!python/tuple [Nadaud, '1913-[0428 bis]', *id006, 'Violon ']
+- !!python/tuple [Radiguer, '1913-[0428 bis]', *id086, "Solf\xE8ge"]
+1913-[0429 bis]:
+- !!python/tuple ["R\xE9my", '1913-[0429 bis]', *id006, 'Violon ']
+- !!python/tuple ["R\xE9my", '1913-[0429 bis]', *id006, 'Violon ']
+- !!python/tuple ["R\xE9my", '1913-[0429 bis]', *id006, 'Violon ']
+- !!python/tuple [Kaiser, '1913-[0429 bis]', *id086, "Solf\xE8ge"]
+- !!python/tuple [Gresse, '1913-[0429 bis]', &id107 !!timestamp '1922-12-05 00:00:00',
+  Chant]
+- !!python/tuple [Gresse, '1913-[0429 bis]', *id107, Chant]
+- !!python/tuple ["Ch\xE9reau", '1913-[0429 bis]', &id108 !!timestamp '1923-12-01
+    00:00:00', "D\xE9clamation lyrique"]
+- !!python/tuple ["Ch\xE9reau", '1913-[0429 bis]', *id108, "D\xE9clamation lyrique"]
+1913-[0430 bis]:
+- !!python/tuple [Lefort, '1913-[0430 bis]', *id006, 'Violon ']
+- !!python/tuple [Lefort, '1913-[0430 bis]', *id006, 'Violon ']
+1913-[0431 bis]:
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0431 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Schvartz, '1913-[0431 bis]', *id031, "Solf\xE8ge"]
+- !!python/tuple [.nan, '1913-[0431 bis]', .nan, Histoire de la Musique]
+1913-[0432 bis]:
+- !!python/tuple [Brun, '1913-[0432 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0432 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0432 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [.nan, '1913-[0432 bis]', .nan, "Solf\xE8ge"]
+1913-[0433 bis]:
+- !!python/tuple [Brun, '1913-[0433 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0433 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0433 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0433 bis]', *id006, "Violon pr\xE9paratoire"]
+- !!python/tuple [Rougnon, '1913-[0433 bis]', *id031, "Solf\xE8ge"]
+1913-[0434 bis]:
+- !!python/tuple ["Di\xE9mer", '1913-[0434 bis]', *id092, Piano]
+- !!python/tuple ["Di\xE9mer", '1913-[0434 bis]', *id092, Piano]
+- !!python/tuple [Estyle, '1913-[0434 bis]', !!timestamp '1920-11-18 00:00:00', Accompagnement
+    au piano]
+1913-[0435 bis]:
+- !!python/tuple [Staub (Riera), '1913-[0435 bis]', *id092, Piano]
+- !!python/tuple [Staub (Riera), '1913-[0435 bis]', *id092, Piano]
+- !!python/tuple [.nan, '1913-[0435 bis]', .nan, Histoire de la Musique]
+1913-[0436 bis]:
+- !!python/tuple [Talkeuberg, '1913-[0436 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, '1913-[0436 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, '1913-[0436 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Kaiser, '1913-[0436 bis]', *id031, "Solf\xE8ge"]
+1913-[0437 bis]:
+- !!python/tuple [Talkeuberg, '1913-[0437 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, '1913-[0437 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, '1913-[0437 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Talkeuberg, '1913-[0437 bis]', *id092, "Piano pr\xE9paratoire"]
+- !!python/tuple [Rougnon, '1913-[0437 bis]', *id031, "Solf\xE8ge"]
+1913-[0438 bis]:
+- !!python/tuple [Roy, '1913-[0438 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1913-[0438 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Trouillebert, '1913-[0438 bis]', *id020, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0438 bis]', *id020, "Piano pr\xE9paratoire"]
+- !!python/tuple [Trouillebert, '1913-[0438 bis]', *id020, "Piano pr\xE9paratoire"]
+1913-[0439 bis]:
+- !!python/tuple [Roy, '1913-[0439 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1913-[0439 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Roy, '1913-[0439 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Cortot, '1913-[0439 bis]', &id111 !!timestamp '1917-12-05 00:00:00',
+  Piano]
+- !!python/tuple [.nan, '1913-[0439 bis]', .nan, Histoire de la Musique]
+- !!python/tuple [.nan, '1913-[0439 bis]', .nan, Histoire de la Musique]
+1913-[0440 bis]:
+- !!python/tuple [Renart, '1913-[0440 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Renart, '1913-[0440 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Brun, '1913-[0440 bis]', &id109 !!timestamp '1915-11-22 00:00:00',
+  "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0440 bis]', *id109, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0440 bis]', *id109, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0440 bis]', *id109, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0440 bis]', *id109, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0440 bis]', *id109, "Violon pr\xE9paratoire"]
+1913-[0441 bis]:
+- !!python/tuple [Marcou, '1913-[0441 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Marcou, '1913-[0441 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Chapuis, '1913-[0441 bis]', *id110, Harmonie]
+- !!python/tuple [.nan, '1913-[0441 bis]', .nan, Histoire de la Musique]
+1913-[0442 bis]:
+- !!python/tuple [Marcou, '1913-[0442 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Marcou, '1913-[0442 bis]', *id096, "Solf\xE8ge"]
+1913-[0443 bis]:
+- !!python/tuple [Sautereau, '1913-[0443 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Sautereau, '1913-[0443 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple ["Di\xE9mer", '1913-[0443 bis]', *id111, Piano]
+- !!python/tuple ["Di\xE9mer", '1913-[0443 bis]', *id111, Piano]
+- !!python/tuple ["Di\xE9mer", '1913-[0443 bis]', *id111, Piano]
+- !!python/tuple ["Di\xE9mer", '1913-[0443 bis]', *id111, Piano]
+1913-[0444 bis]:
+- !!python/tuple [Massart, '1913-[0444 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Massart, '1913-[0444 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Massart, '1913-[0444 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple ["Ch\xE9n\xE9", '1913-[0444 bis]', *id101, "Piano pr\xE9paratoire"]
+1913-[0445 bis]:
+- !!python/tuple [Cuignache, '1913-[0445 bis]', *id096, "Solf\xE8ge"]
+- !!python/tuple [Brun, '1913-[0445 bis]', *id033, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0445 bis]', *id033, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0445 bis]', *id033, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0445 bis]', *id033, "Violon pr\xE9paratoire"]
+- !!python/tuple [Brun, '1913-[0445 bis]', *id033, "Violon pr\xE9paratoire"]
+1913-[0446 bis]:
+- !!python/tuple [Cuignache, '1913-[0446 bis]', *id031, "Solf\xE8ge"]
+1913-[0447 bis]:
+- !!python/tuple [Cuignache, '1913-[0447 bis]', *id031, "Solf\xE8ge"]
+- !!python/tuple [Franquin, '1913-[0447 bis]', &id112 !!timestamp '1921-11-12 00:00:00',
+  Trompette]
+- !!python/tuple [Franquin, '1913-[0447 bis]', *id112, Trompette]
+1913-[0448 bis]:
+- !!python/tuple [X. Leroux, '1913-[0448 bis]', *id031, Harmonie]
+- !!python/tuple [X. Leroux, '1913-[0448 bis]', *id031, Harmonie]
+- !!python/tuple [X. Leroux, '1913-[0448 bis]', *id031, Harmonie]
+- !!python/tuple ["G\xE9dalge", '1913-[0448 bis]', *id113, Contrepoint]
+- !!python/tuple ["G\xE9dalge", '1913-[0448 bis]', *id113, Contrepoint]
+- !!python/tuple [Vidal, '1913-[0448 bis]', &id114 !!timestamp '1921-10-31 00:00:00',
+  Composition]
+- !!python/tuple [Vidal, '1913-[0448 bis]', *id114, Composition]
+- !!python/tuple [Vidal, '1913-[0448 bis]', *id114, Composition]
+- !!python/tuple [.nan, '1913-[0448 bis]', *id108, Direction d'Orchestre]
+1913-[0449 bis]:
+- !!python/tuple [X. Leroux, '1913-[0449 bis]', *id031, Harmonie]
+- !!python/tuple [X. Leroux, '1913-[0449 bis]', *id031, Harmonie]
+- !!python/tuple [Caussade, '1913-[0449 bis]', *id032, Contrepoint]
+- !!python/tuple [Caussade, '1913-[0449 bis]', *id032, Contrepoint]
+- !!python/tuple [Widor, '1913-[0449 bis]', *id115, Composition]
+- !!python/tuple [Widor, '1913-[0449 bis]', *id115, Composition]
+1913-[0450 bis]:
+- !!python/tuple [Schvartz, '1913-[0450 bis]', *id031, "Solf\xE8ge"]
+- !!python/tuple [Schvartz, '1913-[0450 bis]', *id031, "Solf\xE8ge"]
+- !!python/tuple [X. Leroux, '1913-[0450 bis]', *id116, Harmonie]
+- !!python/tuple [Caussade, '1913-[0450 bis]', *id117, Contrepoint]
+- !!python/tuple [Widor, '1913-[0450 bis]', *id118, Composition]
+- !!python/tuple [d'Indy, '1913-[0450 bis]', *id108, Direction d'Orchestre]
+1913-[0451 bis]:
+- !!python/tuple [Mouquet, '1913-[0451 bis]', *id039, Harmonie]
+- !!python/tuple [Widor, '1913-[0451 bis]', *id078, Fugue]
+1913-[0452 bis]:
+- !!python/tuple [Rougnon, '1913-[0452 bis]', *id039, "Solf\xE8ge"]
+1913-[0453 bis]:
+- !!python/tuple [Rougnon, '1913-[0453 bis]', *id039, "Solf\xE8ge"]
+- !!python/tuple [Rougnon, '1913-[0453 bis]', *id039, "Solf\xE8ge"]
+- !!python/tuple [Cros Saint-Ange, '1913-[0453 bis]', &id119 !!timestamp '1915-11-23
+    00:00:00', Violoncelle]
+- !!python/tuple [Cros Saint-Ange, '1913-[0453 bis]', *id119, Violoncelle]
+- !!python/tuple [Cros Saint-Ange, '1913-[0453 bis]', *id119, Violoncelle]
+1913-[0454 bis]:
+- !!python/tuple [Cuignache, '1913-[0454 bis]', *id039, "Solf\xE8ge"]
+1913-[0455 bis]:
+- !!python/tuple [Lessard, '1913-[0455 bis]', *id039, Harmonie]
+- !!python/tuple [Lessard, '1913-[0455 bis]', *id039, Harmonie]
+- !!python/tuple [Lessard, '1913-[0455 bis]', *id039, Harmonie]
+- !!python/tuple [.nan, '1913-[0455 bis]', .nan, .nan]
+- !!python/tuple [Widor, '1913-[0455 bis]', *id115, Composition]
+- !!python/tuple [Widor, '1913-[0455 bis]', *id115, Composition]
+- !!python/tuple [Widor, '1913-[0455 bis]', *id115, Composition]
+- !!python/tuple [.nan, '1913-[0455 bis]', .nan, Direction d'Orchestre]
+- !!python/tuple [.nan, '1913-[0455 bis]', .nan, Direction d'Orchestre]
+1913-[0456 bis]:
+- !!python/tuple [Dallier, '1913-[0456 bis]', *id031, Harmonie]
+- !!python/tuple [Dallier, '1913-[0456 bis]', *id031, Harmonie]
+- !!python/tuple [.nan, '1913-[0456 bis]', .nan, Histoire de la Musique]
+- !!python/tuple [Estyle, '1913-[0456 bis]', *id036, Accompagnement au piano]
+- !!python/tuple [Estyle, '1913-[0456 bis]', *id036, Accompagnement au piano]
+- !!python/tuple [Caussade, '1913-[0456 bis]', *id120, Contrepoint]
+- !!python/tuple [Caussade, '1913-[0456 bis]', *id120, Contrepoint]
+- !!python/tuple [Widor, '1913-[0456 bis]', *id078, Fugue]
+1913-[0457 bis]:
+- !!python/tuple [Dallier, '1913-[0457 bis]', *id031, Harmonie]
+- !!python/tuple ["G\xE9dalge", '1913-[0457 bis]', !!timestamp '1915-12-05 00:00:00',
+  Contrepoint]
+- !!python/tuple [.nan, '1913-[0457 bis]', .nan, Histoire de la Musique]
+1913-[0458 bis]:
+- !!python/tuple [Lavignac, '1913-[0458 bis]', *id096, Harmonie]
+- !!python/tuple [Caussade, '1913-[0458 bis]', *id117, Contrepoint]
+1913-[0459 bis]:
+- !!python/tuple [Lavignac, '1913-[0459 bis]', *id096, Harmonie]
+1913-[0460 bis]:
+- !!python/tuple [Renart, '1913-[0460 bis]', *id039, "Solf\xE8ge"]
+1913-[0461 bis]:
+- !!python/tuple ["G\xE9dalge", '1913-[0461 bis]', *id039, Contrepoint]
+- !!python/tuple [.nan, '1913-[0461 bis]', .nan, Histoire de la Musique]
+1913-[0462 bis]:
+- !!python/tuple ["G\xE9dalge", '1913-[0462 bis]', *id039, Contrepoint]
+1913-[0463 bis]:
+- !!python/tuple [Pessard, '1913-[0463 bis]', *id039, Harmonie]
+1914-0464:
+- !!python/tuple [Widor, 1914-0464, *id121, Composition]
+- !!python/tuple [.nan, 1914-0464, .nan, Contrepoint]
+- !!python/tuple [.nan, 1914-0464, .nan, Direction d'Orchestre]
+1914-0465:
+- !!python/tuple [Hennebains, 1914-0465, &id122 !!timestamp '1914-12-17 00:00:00',
+  "Fl\xFBte"]
+1914-0466:
+- !!python/tuple [Gillet, 1914-0466, *id122, Hautbois]
+- !!python/tuple [Gillet, 1914-0466, *id122, Hautbois]
+- !!python/tuple [Massart, 1914-0466, *id086, "Solf\xE8ge"]
+1914-0467:
+- !!python/tuple [Minart, 1914-0467, *id122, Clarinette]
+- !!python/tuple [Minart, 1914-0467, *id122, Clarinette]
+- !!python/tuple [Schvartz, 1914-0467, *id086, "Solf\xE8ge"]
+1914-0468:
+- !!python/tuple [Minart, 1914-0468, *id122, Clarinette]
+1914-0469:
+- !!python/tuple [Bourdeau, 1914-0469, *id122, Basson]
+- !!python/tuple [Bourdeau, 1914-0469, *id122, Basson]
+- !!python/tuple [.nan, 1914-0469, .nan, "Solf\xE8ge"]
+1914-0470:
+- !!python/tuple [A. Petit, 1914-0470, *id122, "Cornet \xE0 pistons"]
+- !!python/tuple [A. Petit, 1914-0470, *id122, "Cornet \xE0 pistons"]
+- !!python/tuple [Radiguer, 1914-0470, *id086, "Solf\xE8ge"]
+1914-0471:
+- !!python/tuple [Paul-Mounet, 1914-0471, &id123 !!timestamp '1914-12-19 00:00:00',
+  "D\xE9clamation"]
+1914-0472:
+- !!python/tuple [Paul-Mounet, 1914-0472, *id123, "D\xE9clamation"]
+1914-0473:
+- !!python/tuple ["Ren\xE9e du Minil", 1914-0473, *id123, "D\xE9clamation"]
+- !!python/tuple ["Ren\xE9e du Minil", 1914-0473, *id123, "D\xE9clamation"]
+1914-0474:
+- !!python/tuple [Leitner, 1914-0474, *id123, "D\xE9clamation"]
+- !!python/tuple [Leitner, 1914-0474, *id123, "D\xE9clamation"]
+- !!python/tuple [Leitner, 1914-0474, *id123, "D\xE9clamation"]
+1914-0475:
+- !!python/tuple [R. Duflos, 1914-0475, *id123, "D\xE9clamation"]
+- !!python/tuple [R. Duflos, 1914-0475, *id123, "D\xE9clamation"]
+- !!python/tuple [R. Duflos, 1914-0475, *id123, "D\xE9clamation"]
+1914-0476:
+- !!python/tuple [du Minil, 1914-0476, *id123, "D\xE9clamation"]
+- !!python/tuple [du Minil, 1914-0476, *id123, "D\xE9clamation"]
+1914-0477:
+- !!python/tuple [du Minil, 1914-0477, *id123, "D\xE9clamation"]
+- !!python/tuple [du Minil, 1914-0477, *id123, "D\xE9clamation"]
+- !!python/tuple [du Minil, 1914-0477, *id123, "D\xE9clamation"]
+- !!python/tuple [du Minil, 1914-0477, *id123, "D\xE9clamation"]
+1914-0478:
+- !!python/tuple [G. Berr, 1914-0478, *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, 1914-0478, *id123, "D\xE9clamation"]
+1914-0479:
+- !!python/tuple [P. Mounet, 1914-0479, *id123, "D\xE9clamation"]
+1914-0480:
+- !!python/tuple [J. Truffier, 1914-0480, *id123, "D\xE9clamation"]
+1914-0481:
+- !!python/tuple [Dubulle, 1914-0481, &id124 !!timestamp '1914-12-24 00:00:00', Chant]
+- !!python/tuple [Dubulle, 1914-0481, *id124, Chant]
+- !!python/tuple [Auzende, 1914-0481, *id124, "Solf\xE8ge"]
+- !!python/tuple [Auzende, 1914-0481, *id064, "Solf\xE8ge"]
+- !!python/tuple ["Sal\xE9za", 1914-0481, *id064, "D\xE9clmation lyrique"]
+1914-0482:
+- !!python/tuple [Guillamat, 1914-0482, *id124, Chant]
+- !!python/tuple [Guillamat, 1914-0482, *id124, Chant]
+- !!python/tuple [Auzende, 1914-0482, *id124, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1914-0482, .nan, Histoire de la Musique]
+- !!python/tuple ["Melchiss\xE9dec", 1914-0482, .nan, "D\xE9clamation lyrique"]
+- !!python/tuple ["Melchiss\xE9dec", 1914-0482, .nan, "D\xE9clamation lyrique"]
+1914-0483:
+- !!python/tuple [Engel, 1914-0483, *id124, Chant]
+- !!python/tuple [Vernaelde, 1914-0483, *id124, "Solf\xE8ge"]
+1914-0484:
+- !!python/tuple [Engel, 1914-0484, *id124, Chant]
+- !!python/tuple [Vernaelde, 1914-0484, *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, 1914-0484, *id064, "D\xE9clamation lyrique"]
+1914-0485:
+- !!python/tuple [Hettich, 1914-0485, *id124, Chant]
+- !!python/tuple [Hettich, 1914-0485, *id124, Chant]
+- !!python/tuple [Colin-Vinot, 1914-0485, *id124, "Solf\xE8ge"]
+- !!python/tuple [Isnardon, 1914-0485, *id064, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, 1914-0485, *id064, "D\xE9clamation lyrique"]
+1914-0486:
+- !!python/tuple [Hettich, 1914-0486, *id124, Chant]
+- !!python/tuple [Colin-Vinot, 1914-0486, *id124, "Solf\xE8ge"]
+1914-0487:
+- !!python/tuple [de Martini, 1914-0487, *id124, Chant]
+- !!python/tuple [de Martini, 1914-0487, *id124, Chant]
+- !!python/tuple [Colin-Vinot, 1914-0487, *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, 1914-0487, &id125 !!timestamp '1917-01-22 00:00:00', "D\xE9\
+    clamation lyrique"]
+- !!python/tuple [Sizes, 1914-0487, *id125, "D\xE9clamation lyrique"]
+1914-0488:
+- !!python/tuple [Hettich, 1914-0488, *id124, Chant]
+- !!python/tuple [Sujol, 1914-0488, *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, 1914-0488, *id064, "D\xE9clamation lyrique"]
+1914-0489:
+- !!python/tuple [Engel, 1914-0489, *id124, Chant]
+- !!python/tuple [Piffaretti, 1914-0489, *id124, "Solf\xE8ge"]
+- !!python/tuple [.nan, 1914-0489, .nan, Histoire de la Musique]
+- !!python/tuple [.nan, 1914-0489, .nan, Histoire de la Musique]
+- !!python/tuple ["Melchiss\xE9dec", 1914-0489, *id069, "D\xE9clamation lyrique"]
+1914-0490:
+- !!python/tuple [Grandjean, 1914-0490, *id124, Chant]
+- !!python/tuple [Sujol, 1914-0490, *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, 1914-0490, *id064, "D\xE9clamation lyrique"]
+1914-0491:
+- !!python/tuple [Cazeneuve, 1914-0491, *id124, Chant]
+- !!python/tuple [Sujol, 1914-0491, *id124, "Solf\xE8ge"]
+- !!python/tuple ["Sal\xE9za", 1914-0491, !!timestamp '1918-01-24 00:00:00', "D\xE9\
+    clamation lyrique"]
+1914-0492:
+- !!python/tuple [Charpentier, 1914-0492, &id126 !!timestamp '1914-12-28 00:00:00',
+  Contrebasse]
+1914-0493:
+- !!python/tuple [Charpentier, 1914-0493, *id126, Contrebasse]
+- !!python/tuple [Hardouin, 1914-0493, *id086, "Solf\xE8ge"]
+1914-0494:
+- !!python/tuple [Laforge, 1914-0494, *id126, Alto]
+- !!python/tuple [Laforge, 1914-0494, *id126, Alto]
+1914-0495:
+- !!python/tuple [Laforge, 1914-0495, *id126, Alto]
+1914-0496:
+- !!python/tuple [Cros Saint-Ange, 1914-0496, *id126, Violoncelle]
+- !!python/tuple [Cros Saint-Ange, 1914-0496, *id126, Violoncelle]
+- !!python/tuple [Cros Saint-Ange, 1914-0496, *id126, Violoncelle]
+1914-0497:
+- !!python/tuple [Loeb, 1914-0497, *id126, Violoncelle]
+1914-0498:
+- !!python/tuple [Cros Saint-Ange, 1914-0498, *id126, Violoncelle]
+- !!python/tuple [Rougnon, 1914-0498, *id086, "Solf\xE8ge"]
+1914-[0464 bis]:
+- !!python/tuple [Paul Vidal, '1914-[0464 bis]', *id121, Composition]
+1914-[0465 bis]:
+- !!python/tuple [Hennebains, '1914-[0465 bis]', *id122, "Fl\xFBte"]
+- !!python/tuple [Hennebains, '1914-[0465 bis]', *id122, "Fl\xFBte"]
+- !!python/tuple [Hennebains, '1914-[0465 bis]', *id122, "Fl\xFBte"]
+- !!python/tuple [Hennebains, '1914-[0465 bis]', *id122, "Fl\xFBte"]
+- !!python/tuple [Radiguer, '1914-[0465 bis]', *id086, "Solf\xE8ge"]
+1914-[0466 bis]:
+- !!python/tuple [Gillet, '1914-[0466 bis]', *id122, Hautbois]
+- !!python/tuple [Gillet, '1914-[0466 bis]', *id122, Hautbois]
+- !!python/tuple [Hardouin, '1914-[0466 bis]', *id086, "Solf\xE8ge"]
+1914-[0467 bis]:
+- !!python/tuple [Minart, '1914-[0467 bis]', *id122, Clarinette]
+- !!python/tuple [Minart, '1914-[0467 bis]', *id122, Clarinette]
+- !!python/tuple [Minart, '1914-[0467 bis]', *id122, Clarinette]
+- !!python/tuple [Radiguer, '1914-[0467 bis]', *id086, "Solf\xE8ge"]
+1914-[0468 bis]:
+- !!python/tuple [Bourdeau, '1914-[0468 bis]', *id122, Basson]
+- !!python/tuple [Bourdeau, '1914-[0468 bis]', *id122, Basson]
+- !!python/tuple [Radiguer, '1914-[0468 bis]', *id086, "Solf\xE8ge"]
+1914-[0469 bis]:
+- !!python/tuple ["Br\xE9mond", '1914-[0469 bis]', *id122, Cor]
+- !!python/tuple ["Br\xE9mond", '1914-[0469 bis]', *id122, Cor]
+- !!python/tuple [Marcou, '1914-[0469 bis]', *id086, "Solf\xE8ge"]
+1914-[0470 bis]:
+- !!python/tuple [Al. Petit, '1914-[0470 bis]', *id122, "Cornet \xE0 pistons"]
+- !!python/tuple [Al. Petit, '1914-[0470 bis]', *id122, "Cornet \xE0 pistons"]
+- !!python/tuple [Lavignac, '1914-[0470 bis]', *id045, Harmonie]
+- !!python/tuple [Lavignac, '1914-[0470 bis]', *id045, Harmonie]
+1914-[0471 bis]:
+- !!python/tuple [J. Truffier, '1914-[0471 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [J. Truffier, '1914-[0471 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [.nan, '1914-[0471 bis]', .nan, "Histoire et Litt\xE9rature dramatique"]
+1914-[0472 bis]:
+- !!python/tuple [G. Berr, '1914-[0472 bis]', *id123, "D\xE9clamation"]
+1914-[0473 bis]:
+- !!python/tuple [G. Berr, '1914-[0473 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1914-[0473 bis]', *id123, "D\xE9clamation"]
+1914-[0474 bis]:
+- !!python/tuple [R. Duflos, '1914-[0474 bis]', *id123, "D\xE9clamation"]
+1914-[0475 bis]:
+- !!python/tuple [Truffier, '1914-[0475 bis]', *id123, "D\xE9clamation"]
+1914-[0476 bis]:
+- !!python/tuple [G. Berr, '1914-[0476 bis]', *id123, "D\xE9clamation"]
+1914-[0477 bis]:
+- !!python/tuple [Leitner, '1914-[0477 bis]', *id123, "D\xE9clamation"]
+1914-[0478 bis]:
+- !!python/tuple [J. Truffier, '1914-[0478 bis]', *id123, "D\xE9clamation"]
+1914-[0479 bis]:
+- !!python/tuple [G. Berr, '1914-[0479 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1914-[0479 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1914-[0479 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1914-[0479 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1914-[0479 bis]', *id123, "D\xE9clamation"]
+- !!python/tuple [G. Berr, '1914-[0479 bis]', *id123, "D\xE9clamation"]
+1914-[0480 bis]:
+- !!python/tuple [P. Mounet, '1914-[0480 bis]', *id123, "D\xE9clamation"]
+1914-[0481 bis]:
+- !!python/tuple [Guillamat, '1914-[0481 bis]', *id124, Chant]
+- !!python/tuple [Auzende, '1914-[0481 bis]', *id124, "Solf\xE8ge"]
+1914-[0482 bis]:
+- !!python/tuple [Dubulle, '1914-[0482 bis]', *id124, Chant]
+- !!python/tuple [Auzende, '1914-[0482 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, '1914-[0482 bis]', *id106, "D\xE9clamation lyrique"]
+1914-[0483 bis]:
+- !!python/tuple [Cazeneuve, '1914-[0483 bis]', *id124, Chant]
+- !!python/tuple [Cazeneuve, '1914-[0483 bis]', *id124, Chant]
+- !!python/tuple [Vernaelde, '1914-[0483 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1914-[0483 bis]', !!timestamp '1919-01-12 00:00:00',
+  "D\xE9clamation lyrique"]
+1914-[0484 bis]:
+- !!python/tuple [Cazeneuve, '1914-[0484 bis]', *id124, Chant]
+- !!python/tuple [Sujol, '1914-[0484 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, '1914-[0484 bis]', *id064, "D\xE9clamation lyrique"]
+1914-[0485 bis]:
+- !!python/tuple [Grandjean, '1914-[0485 bis]', *id124, Chant]
+- !!python/tuple [Grandjean, '1914-[0485 bis]', *id124, Chant]
+- !!python/tuple [Grandjean, '1914-[0485 bis]', *id124, Chant]
+- !!python/tuple [Colin-Vinot, '1914-[0485 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple ["Sal\xE9za", '1914-[0485 bis]', *id064, "D\xE9clamation lyrique"]
+- !!python/tuple ["Sal\xE9za", '1914-[0485 bis]', *id064, "D\xE9clamation lyrique"]
+- !!python/tuple ["Sal\xE9za", '1914-[0485 bis]', *id064, "D\xE9clamation lyrique"]
+1914-[0486 bis]:
+- !!python/tuple [Grandjean, '1914-[0486 bis]', *id124, Chant]
+- !!python/tuple [Sujol, '1914-[0486 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple ["Sal\xE9za", '1914-[0486 bis]', *id064, "D\xE9clamation lyrique"]
+1914-[0487 bis]:
+- !!python/tuple [Berton, '1914-[0487 bis]', *id124, Chant]
+- !!python/tuple [Piffaretti, '1914-[0487 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple [Piffaretti, '1914-[0487 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple ["Melchiss\xE9dec", '1914-[0487 bis]', *id064, "D\xE9clamation lyrique"]
+1914-[0488 bis]:
+- !!python/tuple [Guillamat, '1914-[0488 bis]', *id124, Chant]
+- !!python/tuple [Sujol, '1914-[0488 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple [Sizes, '1914-[0488 bis]', *id064, "D\xE9clamation lyrique"]
+- !!python/tuple [.nan, '1914-[0488 bis]', .nan, Histoire de la Musique]
+1914-[0489 bis]:
+- !!python/tuple [Grandjean, '1914-[0489 bis]', *id124, Chant]
+- !!python/tuple [Sujol, '1914-[0489 bis]', *id124, "Solf\xE8ge"]
+1914-[0490 bis]:
+- !!python/tuple [Engel, '1914-[0490 bis]', *id124, Chant]
+- !!python/tuple [Engel, '1914-[0490 bis]', *id124, Chant]
+- !!python/tuple [Engel, '1914-[0490 bis]', *id124, Chant]
+- !!python/tuple [Piffaretti, '1914-[0490 bis]', *id124, "Solf\xE8ge"]
+- !!python/tuple [.nan, '1914-[0490 bis]', .nan, Histoire de la Musique]
+- !!python/tuple [Isnardon, '1914-[0490 bis]', *id125, "D\xE9clamation lyrique"]
+- !!python/tuple [Isnardon, '1914-[0490 bis]', *id125, "D\xE9clamation lyrique"]
+1914-[0491 bis]:
+- !!python/tuple [Charpentier, '1914-[0491 bis]', *id126, Contrebasse]
+- !!python/tuple [.nan, '1914-[0491 bis]', .nan, "Solf\xE8ge"]
+1914-[0492 bis]:
+- !!python/tuple [Charpentier, '1914-[0492 bis]', *id126, Contrebasse]
+- !!python/tuple [Charpentier, '1914-[0492 bis]', *id126, Contrebasse]
+- !!python/tuple [Radiguer, '1914-[0492 bis]', *id086, "Solf\xE8ge"]
+1914-[0493 bis]:
+- !!python/tuple [Charpentier, '1914-[0493 bis]', *id126, Contrebasse]
+1914-[0494 bis]:
+- !!python/tuple [Laforge, '1914-[0494 bis]', *id126, Alto]
+- !!python/tuple [Laforge, '1914-[0494 bis]', *id126, Alto]
+- !!python/tuple [Laforge, '1914-[0494 bis]', *id126, Alto]
+- !!python/tuple [Laforge, '1914-[0494 bis]', *id126, Alto]
+- !!python/tuple [Laforge, '1914-[0494 bis]', *id126, Alto]
+1914-[0495 bis]:
+- !!python/tuple [Loeb, '1914-[0495 bis]', *id126, Violoncelle]
+1914-[0496 bis]:
+- !!python/tuple [Loeb, '1914-[0496 bis]', *id126, Violoncelle]
+- !!python/tuple [Loeb, '1914-[0496 bis]', *id126, Violoncelle]
+- !!python/tuple [Radiguer, '1914-[0496 bis]', *id086, "Solf\xE8ge"]
+1914-[0497 bis]:
+- !!python/tuple [Loeb, '1914-[0497 bis]', *id126, Violoncelle]
+- !!python/tuple [Loeb, '1914-[0497 bis]', *id126, Violoncelle]
+- !!python/tuple [Loeb, '1914-[0497 bis]', *id126, Violoncelle]
+- !!python/tuple [Kaiser, '1914-[0497 bis]', *id086, "Solf\xE8ge"]
+1914-[0498 bis]:
+- !!python/tuple [Cros Saint-Ange, '1914-[0498 bis]', *id126, Violoncelle]
+- !!python/tuple [Cros Saint-Ange, '1914-[0498 bis]', *id126, Violoncelle]
+- !!python/tuple [Kaiser, '1914-[0498 bis]', *id086, "Solf\xE8ge"]
