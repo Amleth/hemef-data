@@ -116,8 +116,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
                 else :
-                    id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
-                    parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
+                    if pandas.isna(row["classe_discipline"]) :
+                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"]))
+                        parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
+                    else :
+                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+                        parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
             else :
                 #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
                 id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
@@ -859,8 +863,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
                 else :
-                    id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
-                    uri_parcours_classe = parcours_classe[id_parcours_classe]
+                    if pandas.isna(row["classe_discipline"]) :
+                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"]))
+                        uri_parcours_classe = parcours_classe[id_parcours_classe]
+                    else :
+                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+                        uri_parcours_classe = parcours_classe[id_parcours_classe]
             else :
                 #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
                 id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
