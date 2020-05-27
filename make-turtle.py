@@ -107,7 +107,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
 
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
-        ConceptSchemes['Classes'] = générer_uuid("ConceptSchemes", 'Classes')
+        # ConceptSchemes['Classes'] = générer_uuid("ConceptSchemes", 'Classes')
 
         if ((pandas.notna(row['classe_discipline']))):
             discipline[row['classe_discipline']] = générer_uuid('Disciplines', row['classe_discipline'])
@@ -139,22 +139,22 @@ g.add(
     )
 )
 
-#Classes
-g.add(
-    (
-        URIRef(ConceptSchemes['Classes']),
-        URIRef(is_a),
-        URIRef(SKOS.ConceptScheme)
-    )
-)
+# #Classes
+# g.add(
+#     (
+#         URIRef(ConceptSchemes['Classes']),
+#         URIRef(is_a),
+#         URIRef(SKOS.ConceptScheme)
+#     )
+# )
 
-g.add(
-    (
-        URIRef(ConceptSchemes['Classes']),
-        URIRef(SKOS.prefLabel),
-        Literal('Classes')
-    )
-)
+# g.add(
+#     (
+#         URIRef(ConceptSchemes['Classes']),
+#         URIRef(SKOS.prefLabel),
+#         Literal('Classes')
+#     )
+# )
 
 NoeudVilles = ConceptSchemes['Villes']
 NoeudDepartement = ConceptSchemes['Departement']
@@ -745,36 +745,36 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if Discipline and Prof :
             id_classe = tuple((Discipline, Prof))
             uriClasse = classe[id_classe]
-            g.add(
-                (
-                    URIRef(uriClasse),
-                    URIRef(SKOS.inScheme),
-                    URIRef(ConceptSchemes['Classes'])
-                )
-            )
+            # g.add(
+            #     (
+            #         URIRef(uriClasse),
+            #         URIRef(SKOS.inScheme),
+            #         URIRef(ConceptSchemes['Classes'])
+            #     )
+            # )
 
-            g.add(
-                (
-                    URIRef(ConceptSchemes['Classes']),
-                    URIRef(SKOS.hasTopConcept),
-                    URIRef(uriClasse)
-                )
-            )
+            # g.add(
+            #     (
+            #         URIRef(ConceptSchemes['Classes']),
+            #         URIRef(SKOS.hasTopConcept),
+            #         URIRef(uriClasse)
+            #     )
+            # )
             g.add(
                 (
                     URIRef(uriClasse),
                     URIRef(is_a),
-                    URIRef(SKOS.Concept)
+                    URIRef(HEMEF['Classe'])
                 )
             )
-            nom_classe = Discipline + ", " + Prof
-            g.add(
-                (
-                    URIRef(uriClasse),
-                    URIRef(SKOS.prefLabel),
-                    Literal(nom_classe)
-                )
-            )
+            # nom_classe = Discipline + ", " + Prof
+            # g.add(
+            #     (
+            #         URIRef(uriClasse),
+            #         URIRef(SKOS.prefLabel),
+            #         Literal(nom_classe)
+            #     )
+            # )
 
             g.add(
                 (
@@ -787,7 +787,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             g.add(
                 (
                     URIRef(uriClasse),
-                    URIRef(HEMEF['enseigne']),
+                    URIRef(HEMEF['discipline_enseignee']),
                     URIRef(discipline[Discipline])
                 )
             )
@@ -900,6 +900,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                             URIRef(uriPrix),
                         )
                     )
+        else :
+            print( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ) 
 
 ################################################################
 ################################################################################
