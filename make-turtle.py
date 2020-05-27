@@ -136,7 +136,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             id_classe = tuple((row['classe_discipline'], row['classe_nom_professeur']))
             classe[id_classe]=générer_uuid('Classe', id_classe)
         elif pandas.notna(row['classe_discipline']) :
-            id_classe = tuple((row['classe_discipline'], "Professeur Anonyme"))
+            id_classe = row['classe_discipline']
             classe[id_classe]=générer_uuid('Classe', id_classe)
 
         # Voilà, on est sûr que la ligne est OK
@@ -766,6 +766,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if Discipline and Prof :
             id_classe = tuple((Discipline, Prof))
             uriClasse = classe[id_classe]
+        elif Discipline :
+            id_classe = Discipline
+            uriClasse = classe[id_classe]
+        if uriClasse :
             # g.add(
             #     (
             #         URIRef(uriClasse),
@@ -796,14 +800,22 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             #         Literal(nom_classe)
             #     )
             # )
-
-            g.add(
-                (
-                    URIRef(uriClasse),
-                    URIRef(HEMEF['enseignant']),
-                    URIRef(professeur[Prof]) 
+            if pandas.notna(row['classe_nom_professeur']):
+                g.add(
+                    (
+                        URIRef(uriClasse),
+                        URIRef(HEMEF['enseignant']),
+                        URIRef(professeur[Prof]) 
+                    )
                 )
-            )
+            # else :
+            #     g.add(
+            #         (
+            #             URIRef(uriClasse),
+            #             URIRef(HEMEF['enseignant']),
+            #             Literal("Professeur Anonyme") 
+            #         )
+            #     )
 
             g.add(
                 (
