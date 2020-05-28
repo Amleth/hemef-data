@@ -969,14 +969,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     URIRef(uriClasse)
                 )
             )
-        # elif pandas.notna(row["classe_discipline"]):
-        #     g.add(
-        #         (
-        #             URIRef(uri_parcours_classe),
-        #             URIRef(HEMEF['discipline_suivie']),
-        #             Literal(row["classe_discipline"])
-        #         )
-        #     )
 
         if uriPrix != None:
             if str(row["prix_type"]) == 'Prix de Rome' or str(row["prix_type"]) == 'Grand Prix de Rome':
@@ -1010,31 +1002,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         URIRef(uriPrix),
                     )
                 )
-    # on part sur une determination de l'identifiant + qu'un changement de comportement
-    # else :
-    #     #Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
-    #     if pandas.isna(row["classe_nom_professeur"]) :
-    #         if pandas.isna(row["parcours_classe_date_entree"]) :
-    #             if pandas.isna(row["classe_discipline"]):
-    #                 pass
-    #             else :
-    #                 pass
-    #         else :
-    #             pass
-    #     else :
-    #         #dernier cas possible : seul row["parcours_classe_date_entree"] est vide
-    #         pass
 
-        # if row["identifiant_1"] in debug_eleve_sans_pc :
-        #     valeurs = tuple(( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ))
-        #     debug_eleve_sans_pc[row["identifiant_1"]].append(valeurs)
-        # else :
-        #     debug_eleve_sans_pc[row["identifiant_1"]] = []
-        #     valeurs = tuple(( row["classe_nom_professeur"], row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"] ))
-        #     debug_eleve_sans_pc[row["identifiant_1"]].append(valeurs)
-
-
-################################################################
 ################################################################################
 ################################################################################
 

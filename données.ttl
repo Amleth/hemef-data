@@ -5234,6 +5234,12 @@
     hemef:profession_pere "facteur de pianos" ;
     hemef:sexe "Homme" .
 
+<68d0d206-04ee-4e63-847c-8674f52b86a6> a hemef:Parcours_classe ;
+    hemef:classe_parcourue <5730d572-7110-40dc-b685-934618a7dafd> ;
+    hemef:date_entree "1921-11-28T00:00:00"^^xsd:Date ;
+    hemef:est_parcours_de <64ec1210-fb01-4a6b-993d-5949a99f07ce> ;
+    hemef:hypothèse_date_sortie "1923-00-00" .
+
 <695e98e8-b7ed-478d-b082-46fba21669b9> a hemef:Parcours_classe ;
     hemef:classe_parcourue <5254e2b9-ce5d-4ec9-8299-e1448c163c67> ;
     hemef:date_entree "1907-11-29T00:00:00"^^xsd:Date ;
@@ -8204,6 +8210,13 @@
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <7c1e3d5b-f882-4ad5-a20c-c232e89882ad> ;
     hemef:type_prix "Conservatoire" .
+
+<a63f16ee-b5e9-4043-8ecc-b5fa8231cb60> a hemef:Parcours_classe ;
+    hemef:classe_parcourue <b0d93086-33b9-41bc-9a19-ad34dbb518f6> ;
+    hemef:date_entree "1912-11-30T00:00:00"^^xsd:Date ;
+    hemef:est_parcours_de <64ec1210-fb01-4a6b-993d-5949a99f07ce> ;
+    hemef:hypothèse_date_sortie "1914-00-00" ;
+    hemef:motif_entree "admis par décision du Directeur" .
 
 <a678bcc9-37da-4fcf-b0cc-503608897c2f> a hemef:Eleve ;
     hemef:a_pour_parcours <c965d49d-45f8-4fb3-a6ed-d7d4504e991e> ;
@@ -15754,6 +15767,22 @@
     hemef:observations_eleve "En 1912 malade examen juin (harmonie) ; En 1913 et 1915  concouru Harmonie ; en 1918 a concouru Fugue " ;
     hemef:prix_decerne <55908689-2966-46ae-8086-564bf8dd338b> .
 
+<64ec1210-fb01-4a6b-993d-5949a99f07ce> a hemef:Eleve ;
+    hemef:a_pour_parcours <68d0d206-04ee-4e63-847c-8674f52b86a6>,
+        <a63f16ee-b5e9-4043-8ecc-b5fa8231cb60> ;
+    hemef:cote_AN_registre "AJ/37/397" ;
+    hemef:cursus_date_entree_conservatoire "1912-11-30"^^xsd:Date ;
+    hemef:cursus_motif_admission "admis par décision du Directeur" ;
+    hemef:cursus_motif_sortie "Rayé art. 80",
+        "Rayé art. 88" ;
+    hemef:date_de_naissance "1899-05-20"^^xsd:Date ;
+    hemef:hypothese_cursus_date_sortie_conservatoire "1923-00-00" ;
+    hemef:nait_a <6b6e6987-d4d6-479f-bca4-4904b8289734> ;
+    hemef:nom "Gourdon" ;
+    hemef:prenom "Jean Pierre Henri Emile" ;
+    hemef:profession_pere "artiste compositeur" ;
+    hemef:sexe "Homme" .
+
 <64f75c87-7169-4c7c-a42b-e311c2174bd7> a hemef:Eleve ;
     hemef:a_pour_parcours <5c6b9692-b3aa-4179-93e2-cda58f830e65>,
         <e92317d9-eb1f-497c-bbe8-6f916eed52e0> ;
@@ -22552,13 +22581,6 @@
     skos:narrower <f41387ea-8abf-4996-94f1-a9c445423364> ;
     skos:prefLabel "Basses-Pyrénées" .
 
-<5730d572-7110-40dc-b685-934618a7dafd> a hemef:Classe ;
-    hemef:discipline_enseignee <944e0511-fef2-4783-a4f0-1d9f9ec492c8> ;
-    hemef:enseignant <beeaf321-4499-4fde-bb0d-1f33e8731679> ;
-    hemef:observations "1914 : A concouru Harmonie ; Congé (Guerre) 1914-1919.",
-        "1914 : A concouru Harmonie ; 1915 : A concouru Harmonie ; Congé (Guerre) 1915-1919.",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Harmonie." .
-
 <5732481e-3ee1-4d8a-8853-d87faa017a97> a hemef:Parcours_classe ;
     hemef:classe_parcourue <f6948249-7d72-4286-b971-4801a8dcdcf9> ;
     hemef:date_entree "1915-01-21T00:00:00"^^xsd:Date ;
@@ -23044,6 +23066,11 @@
     skos:inScheme <38b40ae5-ae18-466b-b172-057d24d2992e> ;
     skos:narrower <2bee44b3-8ed8-468a-a6c7-7f5905809542> ;
     skos:prefLabel "Tarn-et-Garonne " .
+
+<6b6e6987-d4d6-479f-bca4-4904b8289734> a skos:Concept ;
+    skos:broader <1f41e504-b11d-41c9-9789-ea7623ca571c> ;
+    skos:inScheme <8d162003-ed40-43b6-a874-c2e61150c4ef> ;
+    skos:prefLabel "Maubert-Fontaine" .
 
 <6be9520e-33fb-44b0-b676-4cfc39bf4891> a skos:Concept ;
     skos:broader <77d41fad-f2de-4705-9425-ce645293c55e> ;
@@ -27550,13 +27577,6 @@
         <dc2d4469-96ee-47fe-a7af-0aefdb917af6>,
         <e20dcd4b-fc29-4dfd-aa38-e7b853434188> .
 
-<1f41e504-b11d-41c9-9789-ea7623ca571c> a skos:Concept ;
-    skos:broader <be80ac23-85fe-4a27-9ee5-a52932231749> ;
-    skos:inScheme <38b40ae5-ae18-466b-b172-057d24d2992e> ;
-    skos:narrower <06c94e06-a7f6-45e6-9dbc-b5128d5726f0>,
-        <fdc28655-dca2-4802-a2e4-01e9ca29a2d5> ;
-    skos:prefLabel "Ardennes" .
-
 <23bb6cfa-eb3f-480e-adb9-ee6357b121bf> a hemef:Parcours_classe ;
     hemef:classe_parcourue <a9adcca8-1d45-491e-8d58-0dbe70b6e6e1> ;
     hemef:date_entree "1913-11-07T00:00:00"^^xsd:Date ;
@@ -28076,6 +28096,13 @@
         <62437717-0c31-495b-bef7-7a3835fbe19c>,
         <9d96ada3-b11a-4afc-a4e0-e0a80176747a>,
         <c4c18a06-7b77-40bd-997d-f5e54c39bf4c> .
+
+<5730d572-7110-40dc-b685-934618a7dafd> a hemef:Classe ;
+    hemef:discipline_enseignee <944e0511-fef2-4783-a4f0-1d9f9ec492c8> ;
+    hemef:enseignant <beeaf321-4499-4fde-bb0d-1f33e8731679> ;
+    hemef:observations "1914 : A concouru Harmonie ; Congé (Guerre) 1914-1919.",
+        "1914 : A concouru Harmonie ; 1915 : A concouru Harmonie ; Congé (Guerre) 1915-1919.",
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Harmonie." .
 
 <58893a6e-22a8-4015-9002-58cfdf8171b0> a hemef:Eleve ;
     hemef:a_pour_parcours <266c3a0c-46e2-451e-ae90-8c49b3c0b578>,
@@ -29800,6 +29827,14 @@
         <a4fdb8b5-8ee4-45dd-bd2f-1279bf30eeb7>,
         <ab0b9ac8-22e3-4530-857f-2b47c0acb2e6>,
         <ba994e64-111b-41c1-aa6e-ab9c0b488e1b> .
+
+<1f41e504-b11d-41c9-9789-ea7623ca571c> a skos:Concept ;
+    skos:broader <be80ac23-85fe-4a27-9ee5-a52932231749> ;
+    skos:inScheme <38b40ae5-ae18-466b-b172-057d24d2992e> ;
+    skos:narrower <06c94e06-a7f6-45e6-9dbc-b5128d5726f0>,
+        <6b6e6987-d4d6-479f-bca4-4904b8289734>,
+        <fdc28655-dca2-4802-a2e4-01e9ca29a2d5> ;
+    skos:prefLabel "Ardennes" .
 
 <20b04381-160f-4bc9-93cd-8ce2b2e54a61> a hemef:Classe ;
     hemef:discipline_enseignee <dacaba55-2b2d-4563-9673-72e6253e7385> ;
@@ -32961,6 +32996,7 @@
         <68aa1584-d34f-4631-b917-f725bd0a0761>,
         <691f5373-b4be-42f1-b5e9-57b3daf70e3c>,
         <69fbad6a-033f-4c64-b652-3bc745dea76c>,
+        <6b6e6987-d4d6-479f-bca4-4904b8289734>,
         <6be9520e-33fb-44b0-b676-4cfc39bf4891>,
         <705b3a32-b4e2-4c89-a62f-591b1ff4f1c2>,
         <706d5561-9dc5-4513-9173-4cdd7147ca39>,

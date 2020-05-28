@@ -27,7 +27,7 @@ def check(xlsx_file, divergences_file):
         "eleve_cote_AN_registre",
         "cursus_date_entree_conservatoire",
         "cursus_date_sortie_conservatoire",
-        "cursus_motif_sortie",
+        # "cursus_motif_sortie",
         "pre-cursus_nom_etablissement",
         "pre-cursus_type_etablissement_",
         "pre-cursus_ville_etablissement_",
