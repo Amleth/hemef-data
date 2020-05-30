@@ -529,7 +529,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             g.add(
                 (
                     URIRef(eleves[row['identifiant_1']]),
-                    URIRef(HEMEF["etablissement_pre-cursus"]),
+                    URIRef(HEMEF["etablissement_pre_cursus"]),
                     Literal(row["pre-cursus_nom_etablissement"])
                 )
             )
@@ -538,7 +538,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             g.add(
                 (
                     URIRef(eleves[row['identifiant_1']]),
-                    URIRef(HEMEF["type_etablissement_pre-cursus"]),
+                    URIRef(HEMEF["type_etablissement_pre_cursus"]),
                     Literal(row["pre-cursus_type_etablissement_"])
                 )
             )
@@ -550,7 +550,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
-                        URIRef(HEMEF["ville_pre-cursus"]),
+                        URIRef(HEMEF["ville_pre_cursus"]),
                         URIRef(villes[villePC])
                     )
                 )
@@ -558,7 +558,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add(
                     (
                         URIRef(eleves[row['identifiant_1']]),
-                        URIRef(HEMEF["ville_pre-cursus"]),
+                        URIRef(HEMEF["ville_pre_cursus"]),
                         Literal(row["pre-cursus_ville_etablissement_"])
                     )
                 )

@@ -1512,7 +1512,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Démissionaire" ;
     hemef:date_de_naissance "1896-11-25"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole d'Abbeville" ;
+    hemef:etablissement_pre_cursus "Ecole d'Abbeville" ;
     hemef:nait_a <a9b7f413-79e6-4c2c-8115-53f1f4698519> ;
     hemef:nom "Girard" ;
     hemef:prenom "Marcel Auguste Edouard" ;
@@ -2091,7 +2091,7 @@
     hemef:cursus_date_entree_conservatoire "1907-10-24"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1887-06-26"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1911-00-00]" ;
     hemef:nait_a <765849d2-46fa-4379-a995-26c3254c6489> ;
     hemef:nom "Druvert" ;
@@ -2100,7 +2100,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:profession_pere "tapissier" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <2d4e04a2-fafb-481d-bc21-95d136543866> a hemef:Prix ;
     hemef:discipline_prix "Violoncelle" ;
@@ -2174,7 +2174,7 @@
     hemef:cote_AN_registre "AJ/37/396" ;
     hemef:cursus_date_entree_conservatoire "1907-11-22"^^xsd:Date ;
     hemef:date_de_naissance "1889-04-27"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Dijon" ;
+    hemef:etablissement_pre_cursus "Ecole de Dijon" ;
     hemef:nait_a <fd05c73f-0d66-4b77-b4ac-db4bf829766d> ;
     hemef:nom "Reusz" ;
     hemef:observations "Carte d'électeur de M. Reysz (Jean) de la ville de Dijon 2e Bureau du 7 août 1904 ; Ecole de Dijon " ;
@@ -2182,7 +2182,7 @@
     hemef:profession_mere "négociante" ;
     hemef:profession_pere "mécanicien" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <0d1b7d63-ee61-4fc2-85ff-688a2790fc4c> .
+    hemef:ville_pre_cursus <0d1b7d63-ee61-4fc2-85ff-688a2790fc4c> .
 
 <2ed9b1fd-00f2-492d-ae74-14434dc046d1> a hemef:Professeur ;
     hemef:nom_professeur "falkenberg" .
@@ -3214,7 +3214,7 @@
     hemef:cursus_date_entree_conservatoire "1913-10-15"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1895-05-13"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1919-00-00" ;
     hemef:nait_a <c5c0e676-a9f2-474f-87f5-aaaa82c8efa8> ;
     hemef:nom "Debondue" ;
@@ -4130,7 +4130,7 @@
     hemef:cursus_date_entree_conservatoire "1907-11-07"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1889-04-15"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nîmes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nîmes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1909-00-00]" ;
     hemef:nait_a <4ec539d3-cffb-426d-acdb-71977dc1c073> ;
     hemef:nom "Dumond" ;
@@ -4139,7 +4139,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "Employé d'octroi" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus "Nîmes" .
+    hemef:ville_pre_cursus "Nîmes" .
 
 <56a0027b-59a4-4094-9302-36408e60141e> a hemef:Prix ;
     hemef:discipline_prix "Accompagnement piano " ;
@@ -4177,7 +4177,7 @@
     hemef:cursus_date_entree_conservatoire "1913-10-16"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1892-11-04"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nîmes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nîmes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1919-00-00" ;
     hemef:nait_a <3eb274c9-38b2-40c1-9f8a-a2f845081d78> ;
     hemef:nom "Combelle" ;
@@ -4379,7 +4379,7 @@
     hemef:cursus_motif_sortie "Rayé, Art. 88" ;
     hemef:date_de_naissance "1892-05-26"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Lieu de naissance Paris 14e" ;
-    hemef:etablissement_pre-cursus "Ecole de Nantes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nantes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1910-00-00" ;
     hemef:nait_a <ccc4539c-b973-436d-b74a-8757f4a61b18> ;
     hemef:nom "Jandin" ;
@@ -4387,7 +4387,7 @@
     hemef:prenom "Marcel Julien " ;
     hemef:profession_mere "couturière" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus "Nantes " .
+    hemef:ville_pre_cursus "Nantes " .
 
 <5abc2532-fcbc-4895-8318-1d22b68090c2> a hemef:Eleve ;
     hemef:a_pour_parcours <fe00c09c-b4de-4f69-be8d-cc08741cb6a9> ;
@@ -4747,7 +4747,7 @@
     hemef:cursus_date_entree_conservatoire "1908-10-16"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1890-05-08"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Roubaix" ;
+    hemef:etablissement_pre_cursus "Ecole de Roubaix" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1910-00-00]" ;
     hemef:nait_a <06c94e06-a7f6-45e6-9dbc-b5128d5726f0> ;
     hemef:nom "Boulze" ;
@@ -4756,7 +4756,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "Comptable" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <55897894-32c9-4be7-b9fc-9be048197e8d> .
+    hemef:ville_pre_cursus <55897894-32c9-4be7-b9fc-9be048197e8d> .
 
 <60b6034c-06a5-46f2-9e98-49af6d271244> a hemef:Eleve ;
     hemef:a_pour_parcours <dedf9b68-b459-4918-a938-005184eb1b6c> ;
@@ -4806,7 +4806,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 66" ;
     hemef:date_de_naissance "1891-08-02"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Montpellier" ;
+    hemef:etablissement_pre_cursus "Ecole de Montpellier" ;
     hemef:nait_a <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> ;
     hemef:nom "Bonnafé" ;
     hemef:observations "Ecole de Montpellier" ;
@@ -4814,7 +4814,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "négociant " ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> .
+    hemef:ville_pre_cursus <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> .
 
 <617502ae-a4f5-47eb-9686-3f5b29b2cdf2> a hemef:Professeur ;
     hemef:nom_professeur "Brun" .
@@ -6996,14 +6996,14 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 66" ;
     hemef:date_de_naissance "1891-08-06"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Rennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Rennes" ;
     hemef:nait_a <691f5373-b4be-42f1-b5e9-57b3daf70e3c> ;
     hemef:nom "Louin" ;
     hemef:observations "Ecole de Rennes" ;
     hemef:prenom "Marcel Henri Emmanuel" ;
     hemef:profession_pere "employé des Postes" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
+    hemef:ville_pre_cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
 
 <8f3967d1-e144-4485-b5d3-8ce4c51284a5> a hemef:Parcours_classe ;
     hemef:classe_parcourue <6efebc7d-ccaf-44b6-b9f0-840b4375f2ed> ;
@@ -7365,7 +7365,7 @@
     hemef:cursus_motif_sortie "Rayé art. 75" ;
     hemef:date_de_naissance "1893-12-20"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Date d'admission pas assez claire (confussion entre 15 et 16). Entrées précedentes dans le registre datant du 16-10-1913, pourtant on lirait plutôt ici «15-10-1913 . » À confronter avec une autre source." ;
-    hemef:etablissement_pre-cursus "Ecole de Douai" ;
+    hemef:etablissement_pre_cursus "Ecole de Douai" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1920-00-00" ;
     hemef:nait_a <0584b24f-076f-4b06-912f-20a8687d57f7> ;
     hemef:nom "Moguez" ;
@@ -7378,7 +7378,7 @@
     hemef:cursus_date_entree_conservatoire "1907-10-24"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1892-03-24"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Boulogne-sur-mer" ;
+    hemef:etablissement_pre_cursus "Ecole de Boulogne-sur-mer" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1912-00-00]" ;
     hemef:nait_a <41937beb-46d7-40ba-a602-8140953ed7e0> ;
     hemef:nom "Bourgain" ;
@@ -7387,7 +7387,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:profession_pere "marin" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <41937beb-46d7-40ba-a602-8140953ed7e0> .
+    hemef:ville_pre_cursus <41937beb-46d7-40ba-a602-8140953ed7e0> .
 
 <951c3fb7-3241-4b74-a67f-56e59f86c71a> a hemef:Eleve ;
     hemef:a_pour_parcours <15561ab8-7150-45b5-b6ab-e5b6970a3f3b> ;
@@ -7808,7 +7808,7 @@
     hemef:cursus_motif_sortie "Démissionnaire" ;
     hemef:date_de_naissance "1891-03-20"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Date d'admission pas assez claire (confussion entre 15 et 16). Entrées précedentes dans le registre datant du 16-10-1913, pourtant on lirait plutôt ici «15-10-1913 . » À confronter avec une autre source." ;
-    hemef:etablissement_pre-cursus "Ecole de Roubaix" ;
+    hemef:etablissement_pre_cursus "Ecole de Roubaix" ;
     hemef:nait_a <55897894-32c9-4be7-b9fc-9be048197e8d> ;
     hemef:nom "Desplanques" ;
     hemef:prenom "Régis Gabriel" ;
@@ -7954,7 +7954,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 89, § 2" ;
     hemef:date_de_naissance "1890-12-06"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1914-00-00" ;
     hemef:nait_a <765849d2-46fa-4379-a995-26c3254c6489> ;
     hemef:nom "Cazeneuve" ;
@@ -7963,7 +7963,7 @@
     hemef:profession_mere "tailleuse" ;
     hemef:profession_pere "photographe" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <a0561739-beb9-47e2-bc64-aedc69da1428> a hemef:Prix ;
     hemef:discipline_prix "Accompagnement au piano" ;
@@ -8296,7 +8296,7 @@
     hemef:cursus_date_entree_conservatoire "1907-11-07"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1890-01-28"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1909-00-00" ;
     hemef:nait_a <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> ;
     hemef:nom "Juste" ;
@@ -8304,7 +8304,7 @@
     hemef:prenom "Louis Charles" ;
     hemef:profession_pere "fabricant de meubles" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
+    hemef:ville_pre_cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
 
 <a79c9334-f2d7-40ea-b595-ade856fdc555> a hemef:Eleve ;
     hemef:a_pour_parcours <802253e3-5c03-4af6-9ba6-05a798ddf213> ;
@@ -8667,7 +8667,7 @@
     hemef:cursus_date_entree_conservatoire "1907-10-24"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1889-03-30"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1912-00-00]" ;
     hemef:nait_a <d6ed2d13-c31b-4806-a227-9070085ef7c4> ;
     hemef:nom "Clouet" ;
@@ -8675,7 +8675,7 @@
     hemef:prenom "Julien Ferdinand" ;
     hemef:profession_pere "Blanchisseur" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
+    hemef:ville_pre_cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
 
 <adbf44e3-c485-4626-b6f8-ad329502b31f> a hemef:Parcours_classe ;
     hemef:classe_parcourue <c2bbb032-ccef-4fc2-b226-ccc6b5b7e6b9> ;
@@ -8839,7 +8839,7 @@
     hemef:cursus_motif_sortie "Décédé" ;
     hemef:date_de_naissance "1892-06-19"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Date d'admission pas assez claire (confussion entre 15 et 16). Entrées précedentes dans le registre datant du 16-10-1913, pourtant on lirait plutôt ici «15-10-1913 . » À confronter avec une autre source." ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1919-00-00" ;
     hemef:nait_a <765849d2-46fa-4379-a995-26c3254c6489> ;
     hemef:nom "Racaud" ;
@@ -9263,7 +9263,7 @@
     hemef:cursus_motif_sortie "Mort au champ d'Honneur" ;
     hemef:date_de_naissance "1896-01-06"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "la mention « Saint-Omer » se rapporte à l'École de Saint-Omer ?" ;
-    hemef:etablissement_pre-cursus "Saint-Omer" ;
+    hemef:etablissement_pre_cursus "Saint-Omer" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1917-00-00" ;
     hemef:nait_a <8977fb6b-313f-4d77-8181-2a1fae79e596> ;
     hemef:nom "Mulot" ;
@@ -10321,7 +10321,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé,art. 88" ;
     hemef:date_de_naissance "1888-09-25"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nancy" ;
+    hemef:etablissement_pre_cursus "Ecole de Nancy" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1910-00-00" ;
     hemef:nait_a <26fa484e-df46-4445-bd74-1393249c541f> ;
     hemef:nom "Le Gal" ;
@@ -10330,7 +10330,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "capitaine" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <acccc9e7-2848-43cb-916d-23afc6b285af> .
+    hemef:ville_pre_cursus <acccc9e7-2848-43cb-916d-23afc6b285af> .
 
 <d04edc6e-5e00-4c41-aef3-48ac0edec0aa> a hemef:Parcours_classe ;
     hemef:classe_parcourue <6efebc7d-ccaf-44b6-b9f0-840b4375f2ed> ;
@@ -12378,7 +12378,7 @@
     hemef:cursus_date_entree_conservatoire "1908-10-16"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1893-09-06"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1910-00-00]" ;
     hemef:nait_a <765849d2-46fa-4379-a995-26c3254c6489> ;
     hemef:nom "Dennes" ;
@@ -12387,7 +12387,7 @@
     hemef:profession_mere "tailleuse" ;
     hemef:profession_pere "éléniste" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <f795d4ce-0b53-40a6-8c9f-74bdd937f12c> a hemef:Parcours_classe ;
     hemef:classe_parcourue <e7394334-1e00-4826-9e42-6d0fafadb0cf> ;
@@ -12650,7 +12650,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1894-03-02"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Née à « Paris (17e) ». Manquent les informations sur son inscription et examens dans la classe de solfège." ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1917-00-00" ;
     hemef:nait_a <ccc4539c-b973-436d-b74a-8757f4a61b18> ;
     hemef:nom "Videt" ;
@@ -12710,7 +12710,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 89, § 2" ;
     hemef:date_de_naissance "1893-03-12"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Valenciennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Valenciennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1912-00-00" ;
     hemef:nait_a <52516129-2ba3-4060-bb6a-7ba481c97abe> ;
     hemef:nom "Ritte" ;
@@ -12719,7 +12719,7 @@
     hemef:profession_mere "repasseuse" ;
     hemef:profession_pere "clerc d'avoué" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <b21b8624-b193-4717-bf6f-8289a9181fa9> .
+    hemef:ville_pre_cursus <b21b8624-b193-4717-bf6f-8289a9181fa9> .
 
 <fcceaadc-771b-4f66-8caf-654877b49fb5> a hemef:Parcours_classe ;
     hemef:classe_parcourue <951e1bd7-857b-48e2-a610-4105dfa18b5a> ;
@@ -13026,7 +13026,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, art. 82, §2" ;
     hemef:date_de_naissance "1882-06-14"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1911-00-00" ;
     hemef:nait_a <4a708ac7-a914-42f4-bd3e-b812dd6d6acb> ;
     hemef:nom "Descols" ;
@@ -13035,7 +13035,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "cultivateur" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <071a7e04-cddf-4dee-8f30-50528360bcd6> a hemef:Eleve ;
     hemef:a_pour_parcours <a7e0c9c4-9b7e-479e-8cca-b30c8bb5e9d1>,
@@ -13044,7 +13044,7 @@
     hemef:cursus_date_entree_conservatoire "1913-10-15"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1895-04-13"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Roubaix" ;
+    hemef:etablissement_pre_cursus "Ecole de Roubaix" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1922-00-00" ;
     hemef:nait_a <55897894-32c9-4be7-b9fc-9be048197e8d> ;
     hemef:nom "Carpentier" ;
@@ -13271,7 +13271,7 @@
     hemef:cursus_motif_sortie "Démissionaire" ;
     hemef:date_de_naissance "1896-07-23"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Prénom pas clair : « Elies » ou « Elie » ?" ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:nait_a <5237c564-daab-49af-b53b-ef3fb1cf1fe9> ;
     hemef:nom "Brouillac" ;
     hemef:prenom "Fernand François Elies" ;
@@ -14181,7 +14181,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Démissionne des 2 classes " ;
     hemef:date_de_naissance "1888-04-26"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Boulogne-sur-mer" ;
+    hemef:etablissement_pre_cursus "Ecole de Boulogne-sur-mer" ;
     hemef:nait_a <41937beb-46d7-40ba-a602-8140953ed7e0> ;
     hemef:nom "Godebert" ;
     hemef:observations "Ecole de Boulogne-sur-mer" ;
@@ -14189,7 +14189,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:profession_pere "serrurier" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <41937beb-46d7-40ba-a602-8140953ed7e0> .
+    hemef:ville_pre_cursus <41937beb-46d7-40ba-a602-8140953ed7e0> .
 
 <2e3f4590-53ba-44c4-a2ac-e6b8c3996b45> a hemef:Eleve ;
     hemef:a_pour_parcours <adfad3c5-91e2-48ed-bd34-cfd33738143c>,
@@ -14559,7 +14559,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "1920 : « Porté décédé sur le procès-verbal de l'examen du 25 Mai 1920 »" ;
     hemef:date_de_naissance "1895-08-24"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Valenciennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Valenciennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1920-00-00" ;
     hemef:nait_a <b21b8624-b193-4717-bf6f-8289a9181fa9> ;
     hemef:nom "Caillaux" ;
@@ -15670,7 +15670,7 @@
     hemef:cursus_date_entree_conservatoire "1908-10-16"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1892-05-03"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nantes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nantes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1912-00-00]" ;
     hemef:nait_a <33fe60cc-9a90-4bcd-8b48-2313ed2709ce> ;
     hemef:nom "Saivin" ;
@@ -15679,7 +15679,7 @@
     hemef:profession_mere "lingère" ;
     hemef:profession_pere "employé de Commerce " ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus "Nantes " .
+    hemef:ville_pre_cursus "Nantes " .
 
 <62e987e3-48a5-4510-8a63-412be20eee0b> a hemef:Eleve ;
     hemef:a_pour_parcours <6b7cf7ef-d942-4b9f-9c72-3749ef84648d>,
@@ -15808,14 +15808,14 @@
     hemef:cursus_motif_sortie "Démission" ;
     hemef:date_de_naissance "1889-06-18"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Ville de naissance : Cettes ?  Celte ?" ;
-    hemef:etablissement_pre-cursus "Ecole de Cette" ;
+    hemef:etablissement_pre_cursus "Ecole de Cette" ;
     hemef:nait_a <da9df1ec-cafb-4ec4-8c91-d9b924d9f5ad> ;
     hemef:nom "Fabre" ;
     hemef:observations "Ecole de Celte ? " ;
     hemef:prenom "Marius Joseph" ;
     hemef:profession_pere "commis négociant" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus "Cette" .
+    hemef:ville_pre_cursus "Cette" .
 
 <6556b781-a884-45fe-a197-04b349a545ce> a hemef:Prix ;
     hemef:discipline_prix "Piano" ;
@@ -16131,7 +16131,7 @@
     hemef:cursus_date_entree_conservatoire "1914-12-17"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1896-01-15"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nîmes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nîmes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1917-00-00" ;
     hemef:nait_a <af43839c-cf72-403a-a6e1-58a0ac065928> ;
     hemef:nom "Nazzi" ;
@@ -16264,7 +16264,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 89, § 1" ;
     hemef:date_de_naissance "1891-06-18"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Montpellier" ;
+    hemef:etablissement_pre_cursus "Ecole de Montpellier" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1911-00-00" ;
     hemef:nait_a <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> ;
     hemef:nom "Garric" ;
@@ -16272,7 +16272,7 @@
     hemef:prenom "Louis Auguste" ;
     hemef:profession_pere "agent de police" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> .
+    hemef:ville_pre_cursus <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> .
 
 <7a39431f-0023-46b8-8883-8a1f7739824f> a hemef:Classe ;
     hemef:discipline_enseignee <eca94f43-36ce-456c-85f6-3ac3723bf6e3> ;
@@ -16538,7 +16538,7 @@
     hemef:cursus_date_entree_conservatoire "1913-11-14"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1900-05-02"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Rennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Rennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1917-00-00" ;
     hemef:nait_a <571f757d-6892-43bf-96c6-16e9d266cd20> ;
     hemef:nom "Noury" ;
@@ -16973,7 +16973,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 86 § 2" ;
     hemef:date_de_naissance "1895-06-22"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Dijon" ;
+    hemef:etablissement_pre_cursus "Ecole de Dijon" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1922-00-00" ;
     hemef:nait_a <62d2374e-64d3-41bf-bf38-f5c17b87aa22> ;
     hemef:nom "Crozet" ;
@@ -17077,7 +17077,7 @@
     hemef:cursus_motif_admission "admis par décision du Directeur" ;
     hemef:date_de_naissance "1903-08-29"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Aucune information entre 1916 et 1924" ;
-    hemef:etablissement_pre-cursus "Ecole de Nancy" ;
+    hemef:etablissement_pre_cursus "Ecole de Nancy" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1926-00-00" ;
     hemef:nait_a <f2fef17c-4772-4b0d-9862-2d3989c2ac57> ;
     hemef:nom "Moreau" ;
@@ -17242,7 +17242,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1897-02-23"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "« Clement » sans accent" ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1919-00-00" ;
     hemef:nait_a <0e252d31-0fef-4ad3-accd-9a3d9d99a948> ;
     hemef:nom "Robillard" ;
@@ -17554,7 +17554,7 @@
     hemef:cursus_date_entree_conservatoire "1908-10-16"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1890-10-30"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Valenciennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Valenciennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1913-00-00]" ;
     hemef:nait_a <c9fc3876-ef55-4f6c-a402-0b63cc117ebf> ;
     hemef:nom "Bailleux" ;
@@ -17563,7 +17563,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:profession_pere "cordonnier" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <b21b8624-b193-4717-bf6f-8289a9181fa9> .
+    hemef:ville_pre_cursus <b21b8624-b193-4717-bf6f-8289a9181fa9> .
 
 <a54bd134-1917-4a88-b532-6e21ff62ac5d> a hemef:Parcours_classe ;
     hemef:classe_parcourue <a9adcca8-1d45-491e-8d58-0dbe70b6e6e1> ;
@@ -17692,7 +17692,7 @@
     hemef:cursus_date_entree_conservatoire "1913-10-15"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1900-06-22"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Cambrai" ;
+    hemef:etablissement_pre_cursus "Ecole de Cambrai" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1917-00-00" ;
     hemef:nait_a <831180d7-7fe3-4ce0-9768-e5a4812d3a9a> ;
     hemef:nom "Bigerelle" ;
@@ -17925,14 +17925,14 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 75" ;
     hemef:date_de_naissance "1890-08-26"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:nait_a <8ebe0c6b-325e-4ef5-b7a1-298db22521f7> ;
     hemef:nom "Thellier" ;
     hemef:observations "Ecole de Lille" ;
     hemef:prenom "Paul Jean Olivier" ;
     hemef:profession_pere "professeur de musique" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
+    hemef:ville_pre_cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
 
 <b02defa5-70cf-47d4-b27d-08bee1edd10a> a hemef:Parcours_classe ;
     hemef:classe_parcourue <a5d2f28d-376b-46b4-8519-60927c4ba17e> ;
@@ -17959,7 +17959,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 75" ;
     hemef:date_de_naissance "1895-06-06"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Valenciennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Valenciennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1920-00-00" ;
     hemef:nait_a <d7989b73-13c8-41ed-ab51-47d0fecc5b8b> ;
     hemef:nom "Guillotin" ;
@@ -18082,7 +18082,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé , Art. 89, § 2" ;
     hemef:date_de_naissance "1894-01-23"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nantes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nantes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1910-00-00" ;
     hemef:nait_a <33fe60cc-9a90-4bcd-8b48-2313ed2709ce> ;
     hemef:nom "Bentz" ;
@@ -18090,7 +18090,7 @@
     hemef:prenom "René Jules Auguste" ;
     hemef:profession_pere "professeur de musique " ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus "Nantes " .
+    hemef:ville_pre_cursus "Nantes " .
 
 <b466fb6f-bb94-4888-80eb-065ac0c35ad6> a hemef:Parcours_classe ;
     hemef:classe_parcourue <7c578448-f518-4a00-91f2-ac882f14c166> ;
@@ -18523,7 +18523,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1894-08-11"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Date d'admission pas assez claire (confussion entre 15 et 16). Entrées précedentes dans le registre datant du 16-10-1913, pourtant on lirait plutôt ici «15-10-1913 . » À confronter avec une autre source." ;
-    hemef:etablissement_pre-cursus "Ecole de Lyon" ;
+    hemef:etablissement_pre_cursus "Ecole de Lyon" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1914-00-00" ;
     hemef:nait_a <924ac5b0-4f1e-4a8d-b144-c3f42cd8ca0a> ;
     hemef:nom "Bodet" ;
@@ -18595,7 +18595,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 75" ;
     hemef:date_de_naissance "1894-09-15"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1920-00-00" ;
     hemef:nait_a <55897894-32c9-4be7-b9fc-9be048197e8d> ;
     hemef:nom "Marissal" ;
@@ -19405,7 +19405,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Démissionnaire" ;
     hemef:date_de_naissance "1893-06-16"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1919-07-00" ;
     hemef:nait_a <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> ;
     hemef:nom "Mille" ;
@@ -19554,7 +19554,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé absent à la rentrée sur la demande de M. Périer" ;
     hemef:date_de_naissance "1895-05-20"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1920-00-00" ;
     hemef:nait_a <c5c0e676-a9f2-474f-87f5-aaaa82c8efa8> ;
     hemef:nom "Vanhée" ;
@@ -20312,7 +20312,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 102 § 2" ;
     hemef:date_de_naissance "1893-01-28"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Perpignan" ;
+    hemef:etablissement_pre_cursus "Ecole de Perpignan" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1919-00-00" ;
     hemef:nait_a <a3843819-8e5d-4b4d-a422-cc1abbf82bea> ;
     hemef:nom "Costa" ;
@@ -20482,7 +20482,7 @@
     hemef:cursus_date_entree_conservatoire "1913-11-07"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:date_de_naissance "1903-03-24"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Montpellier" ;
+    hemef:etablissement_pre_cursus "Ecole de Montpellier" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1918-00-00" ;
     hemef:nait_a <a3843819-8e5d-4b4d-a422-cc1abbf82bea> ;
     hemef:nom "Durand" ;
@@ -21142,7 +21142,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 86 § 2" ;
     hemef:date_de_naissance "1891-06-30"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1921-00-00" ;
     hemef:nait_a <39d44162-c20c-4f76-a969-e9d1ec2a20a4> ;
     hemef:nom "Cabanel" ;
@@ -21433,7 +21433,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayée, Art. 88" ;
     hemef:date_de_naissance "1886-02-05"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lyon" ;
+    hemef:etablissement_pre_cursus "Ecole de Lyon" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1910-00-00" ;
     hemef:nait_a <563336e7-cbfe-4d91-8b87-689240152c9d> ;
     hemef:nom "Calignon" ;
@@ -21442,7 +21442,7 @@
     hemef:profession_pere "docteur en médecine " ;
     hemef:pseudonyme "Roseland" ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <64124e8c-7f04-4042-8bec-0a8656766df9> .
+    hemef:ville_pre_cursus <64124e8c-7f04-4042-8bec-0a8656766df9> .
 
 <3235d937-7e5d-408a-867a-4f6792456739> a hemef:Parcours_classe ;
     hemef:classe_parcourue <b2db5491-ba28-4f33-adab-7a563a20085b> ;
@@ -21693,7 +21693,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 66" ;
     hemef:date_de_naissance "1893-01-23"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Nîmes" ;
+    hemef:etablissement_pre_cursus "Ecole de Nîmes" ;
     hemef:nait_a <cf0fce7b-cc93-45f8-bcf7-20e04b1afcb8> ;
     hemef:nom "Bouliech" ;
     hemef:prenom "Henri Georges" ;
@@ -21813,7 +21813,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 89, § 2" ;
     hemef:date_de_naissance "1886-10-10"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Rennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Rennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1912-00-00" ;
     hemef:nait_a <571f757d-6892-43bf-96c6-16e9d266cd20> ;
     hemef:nom "Vadot" ;
@@ -21821,7 +21821,7 @@
     hemef:prenom "Emmanuel Marie Jeanne" ;
     hemef:profession_pere "secrétaire général de la mairie" ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
+    hemef:ville_pre_cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
 
 <40030ffe-d1cc-489f-8d3c-0b3e6d1a2bdb> a skos:Concept ;
     skos:broader <74a6ad8d-41d2-43e6-8d9d-cff42ebc098e> ;
@@ -22022,7 +22022,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, Art. 89, § 2" ;
     hemef:date_de_naissance "1888-07-17"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Roubaix" ;
+    hemef:etablissement_pre_cursus "Ecole de Roubaix" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1912-00-00" ;
     hemef:nait_a <55897894-32c9-4be7-b9fc-9be048197e8d> ;
     hemef:nom "Debarbieux" ;
@@ -22031,7 +22031,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:profession_pere "employé de Commerce " ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <55897894-32c9-4be7-b9fc-9be048197e8d> .
+    hemef:ville_pre_cursus <55897894-32c9-4be7-b9fc-9be048197e8d> .
 
 <46e80847-c958-47e7-8231-22ee0af95cfd> a hemef:Parcours_classe ;
     hemef:classe_parcourue <36d89624-eae9-47ca-acdf-384bc29adfc4> ;
@@ -22067,7 +22067,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, art. 82, §2" ;
     hemef:date_de_naissance "1883-05-20"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1911-00-00" ;
     hemef:nait_a <484ec1f3-f25b-446a-90df-f88efb976792> ;
     hemef:nom "Fontaine" ;
@@ -22076,7 +22076,7 @@
     hemef:profession_mere "couturière" ;
     hemef:profession_pere "menuisier" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
+    hemef:ville_pre_cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
 
 <47af6ade-6120-4905-91c1-005accfead1a> a skos:Concept ;
     skos:broader <0ac05e28-62d9-4a2f-8d42-309cf9d9a0bc> ;
@@ -22193,7 +22193,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1887-05-25"^^xsd:Date ;
     hemef:eleve_remarques_de_saisie "Père inconnu" ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1910-00-00]" ;
     hemef:nait_a <765849d2-46fa-4379-a995-26c3254c6489> ;
     hemef:nom "Rabau" ;
@@ -22202,7 +22202,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:pseudonyme "Carrié" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <4cab6e33-8457-4bce-8ecc-a51bcc7501cb> a skos:Concept ;
     skos:broader <87f1a6f1-19ea-4efe-a532-c4b0b4d9d6d1> ;
@@ -22417,7 +22417,7 @@
     hemef:cursus_date_entree_conservatoire "1908-10-27"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1891-02-05"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1912-00-00]" ;
     hemef:nait_a <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> ;
     hemef:nom "Weykaert" ;
@@ -22425,7 +22425,7 @@
     hemef:prenom "Raymonde Henriette" ;
     hemef:profession_pere "cordonnier" ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
+    hemef:ville_pre_cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
 
 <53015141-d496-4617-b459-22a5aaf82be4> a hemef:Eleve ;
     hemef:a_pour_parcours <7f20cc8f-91bf-481f-b9be-8ad6d89f7c90>,
@@ -23302,7 +23302,7 @@
     hemef:cursus_date_entree_conservatoire "1908-11-03"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1897-02-07"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Montpellier" ;
+    hemef:etablissement_pre_cursus "Ecole de Montpellier" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1916-00-00]" ;
     hemef:nait_a <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> ;
     hemef:nom "Bouillon" ;
@@ -23311,7 +23311,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "professeur de musique" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> .
+    hemef:ville_pre_cursus <e2bff139-4bce-477d-a9b4-3bd0f7ec236d> .
 
 <738bc59f-54f5-43d4-99b3-cbc52a623c7e> a hemef:Parcours_classe ;
     hemef:classe_parcourue <c7d48993-b27b-4e4e-a353-1b234015d038> ;
@@ -23860,7 +23860,7 @@
     hemef:cursus_date_entree_conservatoire "1908-11-19"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1898-12-30"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Rennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Rennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1923-00-00]" ;
     hemef:nait_a <1216e0c2-602c-44bc-9c75-c5409729db0a> ;
     hemef:nom "Leleu" ;
@@ -23869,7 +23869,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "chef de musique" ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
+    hemef:ville_pre_cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
 
 <84719708-f76b-4f27-814c-1c0f14e99f90> a hemef:Parcours_classe ;
     hemef:classe_parcourue <e7394334-1e00-4826-9e42-6d0fafadb0cf> ;
@@ -24657,7 +24657,7 @@
     hemef:cursus_date_entree_conservatoire "1907-11-04"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1886-04-29"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1911-00-00]" ;
     hemef:nait_a <66a821d7-4979-445e-b59c-7a591ff12fcc> ;
     hemef:nom "Calvet" ;
@@ -24665,7 +24665,7 @@
     hemef:prenom "Jeanny Mathilde Aimée" ;
     hemef:profession_pere "buraliste" ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <a17eaccb-bdff-4fe5-bc41-31bd3798f33e> a hemef:Prix ;
     hemef:discipline_prix "Opéra-comique" ;
@@ -26636,7 +26636,7 @@
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:cursus_motif_sortie "Rayé, art. 89, §1" ;
     hemef:date_de_naissance "1884-10-14"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Toulouse" ;
+    hemef:etablissement_pre_cursus "Ecole de Toulouse" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1911-00-00" ;
     hemef:nait_a <ffca0229-7084-485e-875e-9b266419439d> ;
     hemef:nom "Delgal" ;
@@ -26645,7 +26645,7 @@
     hemef:profession_mere "épicière " ;
     hemef:profession_pere "marchand de grains" ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <765849d2-46fa-4379-a995-26c3254c6489> .
+    hemef:ville_pre_cursus <765849d2-46fa-4379-a995-26c3254c6489> .
 
 <eb610b0e-3b64-496c-be7f-0946d058b20a> a hemef:Eleve ;
     hemef:a_pour_parcours <095672e5-af55-4021-aecc-82accf80d237>,
@@ -28283,7 +28283,7 @@
     hemef:cursus_motif_admission "admis par décision du Jury" ;
     hemef:cursus_motif_sortie "Rayé art. 66" ;
     hemef:date_de_naissance "1898-01-14"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Cambrai" ;
+    hemef:etablissement_pre_cursus "Ecole de Cambrai" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "1924-10-00" ;
     hemef:nait_a <8bdfa146-3b3c-4fbd-b9ca-e4d84b37bf67> ;
     hemef:nom "Honoré" ;
@@ -30587,7 +30587,7 @@
     hemef:cursus_date_entree_conservatoire "1908-11-19"^^xsd:Date ;
     hemef:cursus_motif_admission "admis par décision du jury" ;
     hemef:date_de_naissance "1898-12-30"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Rennes" ;
+    hemef:etablissement_pre_cursus "Ecole de Rennes" ;
     hemef:hypothese_cursus_date_sortie_conservatoire "[1923-00-00]" ;
     hemef:nait_a <1216e0c2-602c-44bc-9c75-c5409729db0a> ;
     hemef:nom "Leleu" ;
@@ -30596,7 +30596,7 @@
     hemef:profession_mere "sans profession" ;
     hemef:profession_pere "chef de musique" ;
     hemef:sexe "Femme" ;
-    hemef:ville_pre-cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
+    hemef:ville_pre_cursus <571f757d-6892-43bf-96c6-16e9d266cd20> .
 
 <11460ecc-a095-49fe-b7d4-c2f330c70594> a skos:Concept ;
     skos:broader <be80ac23-85fe-4a27-9ee5-a52932231749> ;
@@ -30948,7 +30948,7 @@
     hemef:cursus_motif_admission "admis par décision du directeur " ;
     hemef:cursus_motif_sortie "Démission" ;
     hemef:date_de_naissance "1892-05-21"^^xsd:Date ;
-    hemef:etablissement_pre-cursus "Ecole de Lille" ;
+    hemef:etablissement_pre_cursus "Ecole de Lille" ;
     hemef:nait_a <69fbad6a-033f-4c64-b652-3bc745dea76c> ;
     hemef:nom "Becker" ;
     hemef:observations "Le père Georges Louis Becker, né à Lille,  Ecole de Lille" ;
@@ -30956,7 +30956,7 @@
     hemef:profession_mere "ménagère " ;
     hemef:profession_pere "employé de Commerce " ;
     hemef:sexe "Homme" ;
-    hemef:ville_pre-cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
+    hemef:ville_pre_cursus <e0bcf4bd-9644-4b3f-948c-3c23f7fc7c1f> .
 
 <dbf9877b-ae80-4c4d-97ae-b82725b108d7> a hemef:Prix ;
     hemef:discipline_prix "Piano" ;
