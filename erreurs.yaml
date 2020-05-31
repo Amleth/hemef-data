@@ -1,108 +1,42 @@
 1906-0307:
-  pre-cursus_nom_etablissement:
-  - ''
-  - Ecole de Rennes
-  pre-cursus_ville_etablissement_:
-  - ''
-  - Rennes
+  pre-cursus_nom_etablissement: ['', Ecole de Rennes]
+  pre-cursus_ville_etablissement_: ['', Rennes]
 1906-[0298 bis]:
-  cursus_date_sortie_conservatoire:
-  - '1908-00-00'
-  - '[1908-00-00]'
+  cursus_date_sortie_conservatoire: ['1908-00-00', '[1908-00-00]']
 1906-[0302 bis]:
-  cursus_date_sortie_conservatoire:
-  - '1908-00-00'
-  - '1920-00-00'
-  eleve_complement_nom:
-  - ''
-  - di San Marcello
-  eleve_complement_prenom:
-  - ''
-  - Alfred
-  eleve_date_naissance:
-  - '1894-07-10 00:00:00'
-  - '1895-02-06 00:00:00'
-  eleve_nom:
-  - Pastoris
-  - Bernard
-  eleve_pays_naissance:
-  - ''
-  - Italie
-  eleve_prenom_1:
-  - Armand
-  - Charles
-  eleve_prenom_2:
-  - Hubert
-  - Joseph
-  eleve_profession_mere:
-  - ''
-  - sans profession
-  eleve_profession_pere:
-  - ''
-  - artiste lyrique
-  'eleve_ville_naissance ':
-  - Paris
-  - Turin
+  cursus_date_sortie_conservatoire: ['1920-00-00', '1908-00-00']
+  eleve_complement_nom: ['', di San Marcello]
+  eleve_complement_prenom: ['', Alfred]
+  eleve_date_naissance: ['1895-02-06 00:00:00', '1894-07-10 00:00:00']
+  eleve_nom: [Bernard, Pastoris]
+  eleve_pays_naissance: ['', Italie]
+  eleve_prenom_1: [Armand, Charles]
+  eleve_prenom_2: [Joseph, Hubert]
+  eleve_profession_mere: ['', sans profession]
+  eleve_profession_pere: ['', artiste lyrique]
+  'eleve_ville_naissance ': [Turin, Paris]
 1907-0346:
-  eleve_date_naissance:
-  - '1884-08-30 00:00:00'
-  - '1884-09-01 00:00:00'
-  - '1884-08-31 00:00:00'
+  eleve_date_naissance: ['1884-08-31 00:00:00', '1884-09-01 00:00:00', '1884-08-30
+      00:00:00']
 1907-0356:
-  pre-cursus_nom_etablissement:
-  - ''
-  - Ecole de Dijon
-  pre-cursus_ville_etablissement_:
-  - ''
-  - Dijon
+  pre-cursus_nom_etablissement: ['', Ecole de Dijon]
+  pre-cursus_ville_etablissement_: ['', Dijon]
 1907-[0320 bis]:
-  pre-cursus_nom_etablissement:
-  - ''
-  - Ecole de Toulouse
-  pre-cursus_ville_etablissement_:
-  - ''
-  - Toulouse
+  pre-cursus_nom_etablissement: ['', Ecole de Toulouse]
+  pre-cursus_ville_etablissement_: ['', Toulouse]
 1907-[0381 bis]:
-  cursus_date_sortie_conservatoire:
-  - 19121-01-17
-  - '1921-01-17 00:00:00'
+  cursus_date_sortie_conservatoire: ['1921-01-17 00:00:00', 19121-01-17]
 1913-[0422 bis]:
-  cursus_date_entree_conservatoire:
-  - '1908-10-21 00:00:00'
-  - '1913-11-07 00:00:00'
-  cursus_date_sortie_conservatoire:
-  - '1919-00-00'
-  - '[1918-00-00]'
-  eleve_complement_prenom:
-  - Victor, Michel, Gaston
-  - Felicité
-  eleve_cote_AN_registre:
-  - AJ/37/397
-  - AJ/37/396
-  eleve_date_naissance:
-  - '1901-02-17 00:00:00'
-  - '1893-12-06 00:00:00'
-  eleve_departement_naissance:
-  - ''
-  - Ile Maurice
-  eleve_nom:
-  - Singery
-  - Richardot
-  eleve_pays_naissance:
-  - ''
-  - Angleterre
-  eleve_prenom_1:
-  - Marie
-  - Jeanne
-  eleve_prenom_2:
-  - Victoire
-  - Philomène
-  eleve_profession_pere:
-  - ''
-  - s/s Lieutenant au 7e Régiment d'Infanterie de Marine
-  eleve_sexe:
-  - H
-  - F
-  'eleve_ville_naissance ':
-  - Beau-Bassin
-  - Paris
+  cursus_date_entree_conservatoire: ['1913-11-07 00:00:00', '1908-10-21 00:00:00']
+  cursus_date_sortie_conservatoire: ['1919-00-00', '[1918-00-00]']
+  eleve_complement_prenom: [Felicité, 'Victor, Michel, Gaston']
+  eleve_cote_AN_registre: [AJ/37/397, AJ/37/396]
+  eleve_date_naissance: ['1901-02-17 00:00:00', '1893-12-06 00:00:00']
+  eleve_departement_naissance: ['', Ile Maurice]
+  eleve_nom: [Richardot, Singery]
+  eleve_pays_naissance: ['', Angleterre]
+  eleve_prenom_1: [Marie, Jeanne]
+  eleve_prenom_2: [Victoire, Philomène]
+  eleve_profession_pere: ['', s/s Lieutenant au 7e Régiment d'Infanterie de Marine]
+  eleve_sexe: [H, F]
+  'eleve_ville_naissance ': [Paris, Beau-Bassin]

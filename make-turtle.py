@@ -27,6 +27,7 @@ SCHEMA = Namespace("http://schema.org/")
 is_a = "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
 
 g = Graph()
+g.bind("dcterms", DCTERMS)
 g.bind("skos", SKOS)
 g.bind("hemef", HEMEF)
 
@@ -158,7 +159,7 @@ g.add(
 g.add(
     (
         URIRef(ConceptSchemes['Disciplines']),
-        URIRef(SKOS.prefLabel),
+        URIRef(DCTERMS.title),
         Literal('Discipline_Classes')
     )
 )
@@ -194,7 +195,7 @@ g.add(
 g.add(
     (
         URIRef(NoeudVilles),
-        URIRef(SKOS.prefLabel),
+        URIRef(DCTERMS.title),
         Literal('Villes')
     )
 )
@@ -209,7 +210,7 @@ g.add(
 g.add(
     (
         URIRef(NoeudDepartement),
-        URIRef(SKOS.prefLabel),
+        URIRef(DCTERMS.title),
         Literal('Departements')
     )
 )
@@ -223,7 +224,7 @@ g.add(
 g.add(
     (
         URIRef(NoeudPays),
-        URIRef(SKOS.prefLabel),
+        URIRef(DCTERMS.title),
         Literal('Pays')
     )
 )
