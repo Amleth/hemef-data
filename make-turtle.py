@@ -89,23 +89,23 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes", 'Pays')
 
         if (pandas.notna(row["eleve_ville_naissance "])):
-            villes[row["eleve_ville_naissance "]] = générer_uuid("villes", row["eleve_ville_naissance "])
+            villes[row["eleve_ville_naissance "].strip().capitalize()] = générer_uuid("villes", row["eleve_ville_naissance "].strip().capitalize())
         if (pandas.notna(row["eleve_departement_naissance"])):
-            departement[row["eleve_departement_naissance"]] = générer_uuid("departements", row["eleve_departement_naissance"])
+            departement[row["eleve_departement_naissance"].strip().capitalize()] = générer_uuid("departements", row["eleve_departement_naissance"])
         if (pandas.notna(row["eleve_pays_naissance"])):
-            pays[row["eleve_pays_naissance"]] = générer_uuid("pays", row["eleve_pays_naissance"])
+            pays[row["eleve_pays_naissance"].strip().capitalize()] = générer_uuid("pays", row["eleve_pays_naissance"])
         else:
             pays[row["eleve_pays_naissance"]] = générer_uuid("pays", "France")
 
         # cursus[row["identifiant_1"]] = générer_uuid("cursus", row["identifiant_1"])
 
-        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
-            id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"].strip().capitalize()) and pandas.notna(row["prix_discipline"])):
+            id_prix = tuple((row["prix_date"], row["prix_nom"].strip().capitalize(), row["prix_discipline"].strip().capitalize()))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
         # Creation des clés pour les Parcours_classe
         if (pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"])):
-            id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+            id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"].strip().capitalize(), row["parcours_classe_date_entree"], row["classe_discipline"].strip().capitalize()))
             parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
         else:
             # Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
@@ -114,34 +114,34 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     if pandas.isna(row["classe_discipline"]):
                         parcours_classe[row["identifiant_1"]] = générer_uuid('parcours_classe', row["identifiant_1"])
                     else:
-                        id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
+                        id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"].strip().capitalize()))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
                 else:
                     if pandas.isna(row["classe_discipline"]):
                         id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"]))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
                     else:
-                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"].strip().capitalize()))
                         parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
             else:
                 # dernier cas possible : seul row["parcours_classe_date_entree"] est vide
-                id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
+                id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"].strip().capitalize(), row["classe_discipline"].strip().capitalize()))
                 parcours_classe[id_parcours_classe] = générer_uuid('parcours_classe', id_parcours_classe)
 
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
         # ConceptSchemes['Classes'] = générer_uuid("ConceptSchemes", 'Classes')
 
         if ((pandas.notna(row['classe_discipline']))):
-            discipline[row['classe_discipline']] = générer_uuid('Disciplines', row['classe_discipline'])
+            discipline[row['classe_discipline'].strip().capitalize()] = générer_uuid('Disciplines', row['classe_discipline'].strip().capitalize())
 
         if ((pandas.notna(row['classe_nom_professeur']))):
-            professeur[row['classe_nom_professeur']] = générer_uuid('Professeurs', row['classe_nom_professeur'])
+            professeur[row['classe_nom_professeur'].strip().capitalize()] = générer_uuid('Professeurs', row['classe_nom_professeur'].strip().capitalize())
 
         if ((pandas.notna(row['classe_discipline']) and pandas.notna(row['classe_nom_professeur']))):
-            id_classe = tuple((row['classe_discipline'], row['classe_nom_professeur']))
+            id_classe = tuple((row['classe_discipline'].strip().capitalize(), row['classe_nom_professeur'].strip().capitalize()))
             classe[id_classe] = générer_uuid('Classe', id_classe)
         elif pandas.notna(row['classe_discipline']):
-            id_classe = row['classe_discipline']
+            id_classe = row['classe_discipline'].strip().capitalize()
             classe[id_classe] = générer_uuid('Classe', id_classe)
 
         # Voilà, on est sûr que la ligne est OK
@@ -363,7 +363,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # Creation des villes
         uriVille = None
         if (pandas.notna(row["eleve_ville_naissance "])):
-            uriVille = villes[row["eleve_ville_naissance "]]
+            uriVille = villes[row["eleve_ville_naissance "].strip().capitalize()]
             g.add(
                 (
                     URIRef(uriVille),
@@ -375,7 +375,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 (
                     URIRef(uriVille),
                     URIRef(SKOS.prefLabel),
-                    Literal(row["eleve_ville_naissance "])
+                    Literal(row["eleve_ville_naissance "].strip().capitalize())
                 )
             )
             g.add(
@@ -406,7 +406,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # creation des departements
         uriDep = None
         if (pandas.notna(row["eleve_departement_naissance"])):
-            uriDep = departement[row["eleve_departement_naissance"]]
+            uriDep = departement[row["eleve_departement_naissance"].strip().capitalize()]
             g.add(
                 (
                     URIRef(uriDep),
@@ -418,7 +418,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 (
                     URIRef(uriDep),
                     URIRef(SKOS.prefLabel),
-                    Literal(row["eleve_departement_naissance"])
+                    Literal(row["eleve_departement_naissance"].strip().capitalize())
                 )
             )
             g.add(
@@ -437,7 +437,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             )
 
         # creation des Pays
-        uriPays = pays[row["eleve_pays_naissance"]]
+        if pandas.notna(row["eleve_pays_naissance"]):
+            uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
+        else :
+            uriPays = pays[row["eleve_pays_naissance"]]
         g.add(
             (
                 URIRef(uriPays),
@@ -465,7 +468,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 (
                     URIRef(uriPays),
                     URIRef(SKOS.prefLabel),
-                    Literal(row["eleve_pays_naissance"])
+                    Literal(row["eleve_pays_naissance"].strip().capitalize())
                 )
             )
         # Une case vide (NaN) correspond à la France
@@ -546,7 +549,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         villePC = None
         if (pandas.notna(row["pre-cursus_ville_etablissement_"])):
-            villePC = row["pre-cursus_ville_etablissement_"]
+            villePC = row["pre-cursus_ville_etablissement_"].strip().capitalize()
             if villePC in villes:
                 g.add(
                     (
@@ -560,7 +563,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(eleves[row['identifiant_1']]),
                         URIRef(HEMEF["ville_pre_cursus"]),
-                        Literal(row["pre-cursus_ville_etablissement_"])
+                        Literal(row["pre-cursus_ville_etablissement_"].strip().capitalize())
                     )
                 )
 
@@ -643,7 +646,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # Gestion des prix
         uriPrix = None
         if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
-            id_prix = tuple((row["prix_date"], row["prix_nom"], row["prix_discipline"]))
+            id_prix = tuple((row["prix_date"], row["prix_nom"].strip().capitalize(), row["prix_discipline"].strip().capitalize()))
             uriPrix = prix[id_prix]
 
             if (pandas.notna(row["prix_discipline"])):
@@ -694,6 +697,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
+            #Checker si dans dico discipline si oui on lit à l'UUID sinon on créer une discipline, pas de lien à une string
+            #voir avant avec Marie si distinction avec les disciplines de classes
             if (pandas.notna(row["prix_discipline"])):
                 g.add(
                     (
@@ -708,17 +713,17 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(uriPrix),
                         URIRef(HEMEF['type_prix']),
-                        Literal(row["prix_type"])
+                        Literal(row["prix_type"].strip().capitalize())
                     )
                 )
 
         # Gestion des classes
         Discipline = None
         if (pandas.notna(row['classe_discipline'])):
-            Discipline = row['classe_discipline']
+            Discipline = row['classe_discipline'].strip().capitalize()
             g.add(
                 (
-                    URIRef(discipline[row['classe_discipline']]),
+                    URIRef(discipline[row['classe_discipline'].strip().capitalize()]),
                     URIRef(SKOS.inScheme),
                     URIRef(ConceptSchemes['Disciplines'])
                 )
@@ -728,13 +733,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 (
                     URIRef(ConceptSchemes['Disciplines']),
                     URIRef(SKOS.hasTopConcept),
-                    URIRef(discipline[row['classe_discipline']])
+                    URIRef(discipline[row['classe_discipline'].strip().capitalize()])
                 )
             )
 
             g.add(
                 (
-                    URIRef(discipline[row['classe_discipline']]),
+                    URIRef(discipline[row['classe_discipline'].strip().capitalize()]),
                     URIRef(is_a),
                     URIRef(SKOS.Concept)
                 )
@@ -742,18 +747,18 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
             g.add(
                 (
-                    URIRef(discipline[row['classe_discipline']]),
+                    URIRef(discipline[row['classe_discipline'].strip().capitalize()]),
                     URIRef(SKOS.prefLabel),
-                    Literal(row['classe_discipline'])
+                    Literal(row['classe_discipline'].strip().capitalize())
                 )
             )
 
         Prof = None
         if (pandas.notna(row['classe_nom_professeur'])):
-            Prof = row['classe_nom_professeur']
+            Prof = row['classe_nom_professeur'].strip().capitalize()
             g.add(
                 (
-                    URIRef(professeur[row['classe_nom_professeur']]),
+                    URIRef(professeur[row['classe_nom_professeur'].strip().capitalize()]),
                     URIRef(is_a),
                     URIRef(HEMEF['Professeur'])
                 )
@@ -761,9 +766,9 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
             g.add(
                 (
-                    URIRef(professeur[row['classe_nom_professeur']]),
+                    URIRef(professeur[row['classe_nom_professeur'].strip().capitalize()]),
                     URIRef(HEMEF['nom_professeur']),
-                    Literal(row['classe_nom_professeur'])
+                    Literal(row['classe_nom_professeur'].strip().capitalize())
                 )
             )
 
@@ -851,7 +856,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # Gestion Parcours_classe
 
         if pandas.notna(row["classe_nom_professeur"]) and pandas.notna(row["identifiant_1"]) and pandas.notna(row["parcours_classe_date_entree"]) and pandas.notna(row["classe_discipline"]):
-            id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+            id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"].strip().capitalize(), row["parcours_classe_date_entree"], row["classe_discipline"].strip().capitalize()))
             uri_parcours_classe = parcours_classe[id_parcours_classe]
         else:
             # Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
@@ -860,18 +865,18 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     if pandas.isna(row["classe_discipline"]):
                         uri_parcours_classe = parcours_classe[row["identifiant_1"]]
                     else:
-                        id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"]))
+                        id_parcours_classe = tuple((row["identifiant_1"], row["classe_discipline"].strip().capitalize()))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
                 else:
                     if pandas.isna(row["classe_discipline"]):
                         id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"]))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
                     else:
-                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"]))
+                        id_parcours_classe = tuple((row["identifiant_1"], row["parcours_classe_date_entree"], row["classe_discipline"].strip().capitalize()))
                         uri_parcours_classe = parcours_classe[id_parcours_classe]
             else:
                 # dernier cas possible : seul row["parcours_classe_date_entree"] est vide
-                id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"], row["classe_discipline"]))
+                id_parcours_classe = tuple((row["identifiant_1"], row["classe_nom_professeur"].strip().capitalize(), row["classe_discipline"].strip().capitalize()))
                 uri_parcours_classe = parcours_classe[id_parcours_classe]
 
         g.add(
