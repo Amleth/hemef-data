@@ -704,7 +704,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(uriPrix),
                         URIRef(HEMEF['discipline_prix']),
-                        Literal(row["prix_discipline"])
+                        Literal(row["prix_discipline"].strip().capitalize())
                     )
                 )
 
