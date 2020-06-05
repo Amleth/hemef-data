@@ -556,8 +556,8 @@
 
 <0b31c31e-9791-4545-8812-beb58d3ce477> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <74513627-2a0a-4adf-a72f-c90142bf4ef6> ;
-    hemef:observations "1919 : A concouru Harmonie ; 1920 : A concouru Harmonie ; 1921 : A concouru Harmonie." .
+    hemef:observations "1919 : A concouru Harmonie ; 1920 : A concouru Harmonie ; 1921 : A concouru Harmonie." ;
+    hemef:professeur <74513627-2a0a-4adf-a72f-c90142bf4ef6> .
 
 <0b86e7de-33d6-4b77-91fb-28a03967aafc> a hemef:Prix ;
     hemef:discipline_prix "Cor" ;
@@ -2258,8 +2258,8 @@
 
 <307d1da7-6e03-416e-a18b-e4ebe0df143d> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <d0d1e924-d2fb-4e8a-85b6-89b5099ada77> ;
-    hemef:observations "1925 : A concouru Opéra et Opéra-Comique." .
+    hemef:observations "1925 : A concouru Opéra et Opéra-Comique." ;
+    hemef:professeur <d0d1e924-d2fb-4e8a-85b6-89b5099ada77> .
 
 <30978f9c-5bcf-4c28-a1ed-5f710756fcaa> a hemef:Prix ;
     hemef:discipline_prix "Violoncelle" ;
@@ -3592,8 +3592,8 @@
 
 <47ef4571-0d9b-41ff-bdd6-fe89084e7fd1> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <30b97610-ab2d-4e86-ac6c-b998d6c38aa2> ;
-    hemef:observations "Congé (Guerre) 1916-1919 ; 1925 : A concouru Chant." .
+    hemef:observations "Congé (Guerre) 1916-1919 ; 1925 : A concouru Chant." ;
+    hemef:professeur <30b97610-ab2d-4e86-ac6c-b998d6c38aa2> .
 
 <4824d382-eb1c-4f39-9035-ca97cf9076c3> a hemef:Eleve ;
     hemef:a_pour_parcours <5875547f-d0ba-4058-bea8-c81614ffc406> ;
@@ -3849,7 +3849,7 @@
 
 <4d61105d-176a-4c5a-99ea-6bcd3eccd44e> a hemef:Classe ;
     hemef:discipline_enseignee <65f7e7db-02b6-4e4d-b21f-bad3d8f5f429> ;
-    hemef:enseignant <1c021c07-ef75-4556-8a33-9d7961f47c32> .
+    hemef:professeur <1c021c07-ef75-4556-8a33-9d7961f47c32> .
 
 <4d62b16f-f97b-4e3a-bb68-54f130ad4288> a hemef:Prix ;
     hemef:discipline_prix "Violoncelle" ;
@@ -4097,7 +4097,7 @@
 
 <53b38188-b559-4473-88b4-bacfa7a4a1a1> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <357166a3-5119-4395-a41a-ab19f3722711> .
+    hemef:professeur <357166a3-5119-4395-a41a-ab19f3722711> .
 
 <53c7afdb-f470-4711-8dc4-1a7c833e17d5> a hemef:Parcours_classe ;
     hemef:classe_parcourue <248bd143-617c-471d-9293-e9eb0d183981> ;
@@ -4504,7 +4504,7 @@
 
 <5c0f7a8a-71f7-474b-9d37-f20f22421cd8> a hemef:Classe ;
     hemef:discipline_enseignee <e1f62b81-ee3a-49cf-9d45-b597cb25d122> ;
-    hemef:enseignant <fa8cc503-fab3-4fe6-8727-975168227c5d> .
+    hemef:professeur <fa8cc503-fab3-4fe6-8727-975168227c5d> .
 
 <5c27b9cc-825d-4415-886c-4495a1d2dd14> a hemef:Prix ;
     hemef:discipline_prix "Orgue" ;
@@ -4681,7 +4681,7 @@
 
 <608f15eb-63e9-4c39-9245-8347a0cdf4da> a hemef:Classe ;
     hemef:discipline_enseignee <f7d29422-74cc-4a9c-940c-3dce610873b4> ;
-    hemef:enseignant <c2e11d31-9e9c-41ae-bb6d-e105e40ee022> .
+    hemef:professeur <c2e11d31-9e9c-41ae-bb6d-e105e40ee022> .
 
 <61243b9f-0342-4169-a1f2-46885aa39f5b> a hemef:Eleve ;
     hemef:a_pour_parcours <355fc291-cb02-47cb-bdd8-e428ac5c88ed> ;
@@ -4716,7 +4716,7 @@
 
 <61725705-384b-4546-b4f7-5508687047a8> a hemef:Classe ;
     hemef:discipline_enseignee <84c59020-fba2-4e79-b420-3fd51cbad5d1> ;
-    hemef:enseignant <37ba62c2-4896-43fa-8229-f0ffc7e061ea> .
+    hemef:professeur <37ba62c2-4896-43fa-8229-f0ffc7e061ea> .
 
 <61d009c2-ec00-4d79-880a-0263a6ba7884> a hemef:Parcours_classe ;
     hemef:classe_parcourue <9cb79cdd-cae0-47dd-9f96-028c97915544> ;
@@ -5030,7 +5030,7 @@
 
 <68cd370f-2ce2-4d0a-a955-3bbf9fe8e6b7> a hemef:Classe ;
     hemef:discipline_enseignee <63ce03e5-7eb2-4ce9-bc68-0546b8c34aa5> ;
-    hemef:enseignant <d708c32e-6811-4875-b247-00a586df9398> .
+    hemef:professeur <d708c32e-6811-4875-b247-00a586df9398> .
 
 <68f0de42-9e58-40cd-834b-25980c1112ec> a hemef:Parcours_classe ;
     hemef:classe_parcourue <d3282878-080c-4ed2-a1ae-4bfe62b48f3e> ;
@@ -6476,8 +6476,8 @@
 
 <84226206-f372-4d09-a940-73ee30beb4ac> a hemef:Classe ;
     hemef:discipline_enseignee <bb883fa4-1c7a-434b-af6f-ca81f18da304> ;
-    hemef:enseignant <499ce8a4-435e-496a-b5bf-5a2085213944> ;
-    hemef:observations "1915 : A concouru Cornet à pistons ; Congé (Guerre) 1916-1919 ; 1920 : A concouru Lecture à Vue." .
+    hemef:observations "1915 : A concouru Cornet à pistons ; Congé (Guerre) 1916-1919 ; 1920 : A concouru Lecture à Vue." ;
+    hemef:professeur <499ce8a4-435e-496a-b5bf-5a2085213944> .
 
 <842ac567-99fa-42ee-820d-6f1a8d65accf> a hemef:Eleve ;
     hemef:a_pour_parcours <1b432422-e622-4418-b9d3-72f038aef9df> ;
@@ -7401,7 +7401,7 @@
 
 <961edfcf-abbb-4351-8596-c7d83559ef40> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <26ca801b-19b4-4566-acdd-e5ffa3773ca1> .
+    hemef:professeur <26ca801b-19b4-4566-acdd-e5ffa3773ca1> .
 
 <961edfe0-2fed-401c-b2c4-880103ffe95c> a hemef:Prix ;
     hemef:discipline_prix "Cornet à pistons" ;
@@ -7658,8 +7658,8 @@
 
 <9b06f7d5-7008-42f0-8365-af0de1fc85a7> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <d72d2f7f-a456-4928-a337-954d23f7f4f4> ;
-    hemef:observations "Congé (Guerre) 1916-1919 ; 1920 : Rayé art. 102 § 2 ; 1920 : Maintenu un 1 an en surbombre." .
+    hemef:observations "Congé (Guerre) 1916-1919 ; 1920 : Rayé art. 102 § 2 ; 1920 : Maintenu un 1 an en surbombre." ;
+    hemef:professeur <d72d2f7f-a456-4928-a337-954d23f7f4f4> .
 
 <9b2b200b-0580-4102-9791-b34cc7cd56d5> a hemef:Professeur ;
     hemef:nom_professeur "Silvain" .
@@ -9539,7 +9539,7 @@
 
 <c0a7664c-f942-4bc8-91bc-2cb20bfc8752> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <2d29070c-b482-404f-afcb-8e3cfe38ee9f> .
+    hemef:professeur <2d29070c-b482-404f-afcb-8e3cfe38ee9f> .
 
 <c0bfa1c8-065d-4b89-9c8f-14d25f9b6987> a hemef:Eleve ;
     hemef:a_pour_parcours <deb9eb4c-2fb0-4e80-8c8d-4834c34981e9> ;
@@ -9755,7 +9755,7 @@
 
 <c58a0de8-36e1-46d0-8386-4d178a3d1c43> a hemef:Classe ;
     hemef:discipline_enseignee <efad8c56-55bc-430b-87dc-949af8d9a503> ;
-    hemef:enseignant <ade33954-23c2-4fd8-83cd-59b0e7a3ae79> ;
+    hemef:professeur <ade33954-23c2-4fd8-83cd-59b0e7a3ae79> ;
     hemef:remarques_saisie "Violon préparatoire et violon : deux classes différentes ? " .
 
 <c590801d-2166-473e-b6cd-b1c2929ffa93> a hemef:Professeur ;
@@ -10805,8 +10805,8 @@
 
 <d9ced622-60ac-439b-a0b6-ff45ac1491ba> a hemef:Classe ;
     hemef:discipline_enseignee <63ce03e5-7eb2-4ce9-bc68-0546b8c34aa5> ;
-    hemef:enseignant <fa1f63d1-e6ac-4387-8086-b0df70f9a850> ;
-    hemef:observations "1914 : A concouru Prix de Rome. Non admis au définitif ; Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." .
+    hemef:observations "1914 : A concouru Prix de Rome. Non admis au définitif ; Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <fa1f63d1-e6ac-4387-8086-b0df70f9a850> .
 
 <d9f59cb0-f73f-4595-8d0b-b58ef80e815c> a hemef:Parcours_classe ;
     hemef:classe_parcourue <d3282878-080c-4ed2-a1ae-4bfe62b48f3e> ;
@@ -11311,7 +11311,7 @@
 
 <e4f33bb9-56c4-4b7d-893e-eb742039b096> a hemef:Classe ;
     hemef:discipline_enseignee <63ce03e5-7eb2-4ce9-bc68-0546b8c34aa5> ;
-    hemef:enseignant <196edc11-218a-4459-9d0f-ba8739c42d9a> .
+    hemef:professeur <196edc11-218a-4459-9d0f-ba8739c42d9a> .
 
 <e5158f45-422c-4c85-bdfb-0ed2b3e0ffaa> a hemef:Parcours_classe ;
     hemef:classe_parcourue <8f921677-d4fd-4553-849f-706190f49ffe> ;
@@ -12103,8 +12103,8 @@
 
 <f43e1d45-bf87-45d5-b0d0-460725d7808b> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <776956bb-0de8-44df-bdf3-372b0748b632> ;
-    hemef:observations "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à Vue." .
+    hemef:observations "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à Vue." ;
+    hemef:professeur <776956bb-0de8-44df-bdf3-372b0748b632> .
 
 <f472422a-97ec-465f-a839-059a0cfa849d> a hemef:Eleve ;
     hemef:a_pour_parcours <d06a6a25-f91b-4e92-b69c-52a1195a6f74> ;
@@ -12313,8 +12313,8 @@
 
 <f96e50a6-c8d7-415d-bc7f-eaf41ea9e7ba> a hemef:Classe ;
     hemef:discipline_enseignee <ed4b199d-2cd4-4b05-a9a4-f4e0fde43283> ;
-    hemef:enseignant <35755646-f12a-4f46-b2f8-c42a1fdb5c82> ;
-    hemef:observations "1915 Fév. : Encouragement de 600 frs." .
+    hemef:observations "1915 Fév. : Encouragement de 600 frs." ;
+    hemef:professeur <35755646-f12a-4f46-b2f8-c42a1fdb5c82> .
 
 <f97c25f4-0416-4130-b096-55bbaa02d53e> a hemef:Prix ;
     hemef:discipline_prix "Comédie" ;
@@ -12703,7 +12703,7 @@
 
 <04590cb1-4f13-4be6-b3b6-3da1d1588fda> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <acc76817-1d1e-4b81-9069-83d165678dd2> .
+    hemef:professeur <acc76817-1d1e-4b81-9069-83d165678dd2> .
 
 <05a94f10-e54f-48a6-9e57-a1a7f62018de> a hemef:Parcours_classe ;
     hemef:classe_parcourue <21c37d55-9095-4818-b1d2-bc7a2e6f844b> ;
@@ -12890,8 +12890,8 @@
 
 <09571f64-40f4-497a-9090-7aa0cf364672> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <acc76817-1d1e-4b81-9069-83d165678dd2> ;
-    hemef:observations "Cuignache intérimaire" .
+    hemef:observations "Cuignache intérimaire" ;
+    hemef:professeur <acc76817-1d1e-4b81-9069-83d165678dd2> .
 
 <0957da47-3040-450c-86ae-ea70f734baa7> a hemef:Prix ;
     hemef:discipline_prix "Opéra-comique" ;
@@ -13071,8 +13071,8 @@
 
 <0f9854ad-b5d0-4c44-b1b7-b5b67b57f0f8> a hemef:Classe ;
     hemef:discipline_enseignee <0574e282-123d-4ee4-9fcf-1b5c358d45ff> ;
-    hemef:enseignant <e1204169-293a-4897-8a57-06ccedd00d64> ;
     hemef:observations "Classe rétablie" ;
+    hemef:professeur <e1204169-293a-4897-8a57-06ccedd00d64> ;
     hemef:remarques_saisie "Classe supprimé,  puis rétablie, changement de professeur : mettre dans la même ligne ou séparer ? " .
 
 <0fe89800-25d0-409c-a4b0-c942dc314eb4> a hemef:Eleve ;
@@ -13347,8 +13347,8 @@
 
 <19065387-89d6-42ce-aa75-46a05091a3d1> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <416e0721-4411-4de2-ad3f-1cb19a1dc4c1> ;
-    hemef:observations "1922 : A concouru Harmonie ; 1924 : Absent Examen de Mai (Harmonie)." .
+    hemef:observations "1922 : A concouru Harmonie ; 1924 : Absent Examen de Mai (Harmonie)." ;
+    hemef:professeur <416e0721-4411-4de2-ad3f-1cb19a1dc4c1> .
 
 <1906633f-743b-40bd-affb-42d94a0e46d2> a hemef:Eleve ;
     hemef:a_pour_parcours <2ab54892-458c-4aaf-87e0-4e951ca93e90>,
@@ -13766,9 +13766,9 @@
 
 <26b032d0-3c3b-4f87-a28a-048c479270f8> a hemef:Classe ;
     hemef:discipline_enseignee <e1f62b81-ee3a-49cf-9d45-b597cb25d122> ;
-    hemef:enseignant <d33a1cfa-0299-4d2f-aa0d-8a5d4dfa39dd> ;
     hemef:observations "1924 : A concouru Direction d'orchestre.",
-        "1926 : Malade. Examen de Mai cl. Direction d'Orchestre." .
+        "1926 : Malade. Examen de Mai cl. Direction d'Orchestre." ;
+    hemef:professeur <d33a1cfa-0299-4d2f-aa0d-8a5d4dfa39dd> .
 
 <26ca801b-19b4-4566-acdd-e5ffa3773ca1> a hemef:Professeur ;
     hemef:nom_professeur "Trouillebert" .
@@ -15081,7 +15081,7 @@
 
 <5ec8d555-8946-43da-b34c-0902d4bc788d> a hemef:Classe ;
     hemef:discipline_enseignee <8c319494-1def-4b97-9f8b-6d178a4e69bc> ;
-    hemef:enseignant <daebfa59-0940-4947-b3f3-fc1b340a0713> .
+    hemef:professeur <daebfa59-0940-4947-b3f3-fc1b340a0713> .
 
 <5ee0ed09-f29e-42c3-9e4d-6ba40b38e30b> a hemef:Eleve ;
     hemef:a_pour_parcours <51eab427-52d1-48d7-b810-b0676635eafc>,
@@ -15616,7 +15616,7 @@
 
 <6d64d82d-9290-44fc-9598-e10174fa7b10> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <78dce279-b083-400b-8640-8ac579589064> .
+    hemef:professeur <78dce279-b083-400b-8640-8ac579589064> .
 
 <6d732145-209d-40ce-ad4b-47e9b2b8cbb1> a hemef:Parcours_classe ;
     hemef:classe_parcourue <f8c26e61-8df5-4e3c-a04d-95c1f6840781> ;
@@ -15674,7 +15674,7 @@
 
 <6ff111bd-1eb9-4d60-ae3f-0d7dc4bf1a0e> a hemef:Classe ;
     hemef:discipline_enseignee <ba905dca-8b8f-4164-8217-935c8d6b223d> ;
-    hemef:enseignant <2d805406-ef99-4d44-8e62-b36795cfc536> .
+    hemef:professeur <2d805406-ef99-4d44-8e62-b36795cfc536> .
 
 <70f7d43f-de26-4986-b786-6408dba5d3f0> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -17200,8 +17200,8 @@
 
 <a3c00634-994e-4a25-ae86-8dd2fc1401ad> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <f09da69a-6f5e-4b34-975f-65e58515d381> ;
-    hemef:observations "1912-12-10 passé à la classe solfège de M. Kaiser" .
+    hemef:observations "1912-12-10 passé à la classe solfège de M. Kaiser" ;
+    hemef:professeur <f09da69a-6f5e-4b34-975f-65e58515d381> .
 
 <a497151b-0827-49f2-b9b2-7aa2807d6fb6> a hemef:Parcours_classe ;
     hemef:classe_parcourue <5600ff7d-0fde-4703-b944-83bd567d250d> ;
@@ -17807,8 +17807,8 @@
 
 <b85b4813-2fb6-47f0-ab09-1237f1184a6e> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <40b7e699-458c-40c4-94b5-c24d716369a0> ;
-    hemef:observations "1921 : A concouru Harmonie." .
+    hemef:observations "1921 : A concouru Harmonie." ;
+    hemef:professeur <40b7e699-458c-40c4-94b5-c24d716369a0> .
 
 <b897142f-e362-4918-8af6-21617281d68e> a hemef:Parcours_classe ;
     hemef:classe_parcourue <6a5097f4-05aa-448f-bfba-fd22d3bbbd9a> ;
@@ -17990,8 +17990,8 @@
 
 <bdbd4432-3678-4fe7-a0e1-48485400a4e1> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <215ceed8-117a-4d61-a95b-7ac4c7af6414> ;
-    hemef:observations "1915 Fév. : Encouragement de 100 frs. ; 1916 : A concouru Comédie ; 1917 : A concouru Comédie." .
+    hemef:observations "1915 Fév. : Encouragement de 100 frs. ; 1916 : A concouru Comédie ; 1917 : A concouru Comédie." ;
+    hemef:professeur <215ceed8-117a-4d61-a95b-7ac4c7af6414> .
 
 <be94c1ea-965d-4658-a853-79134a0d7766> a hemef:Parcours_classe ;
     hemef:classe_parcourue <10597767-a09c-473c-8cce-67b9cbec0f99> ;
@@ -18126,7 +18126,7 @@
 
 <c42a4dcb-61b5-4cb4-8b2d-4399c592d8e6> a hemef:Classe ;
     hemef:discipline_enseignee <0d5c0e95-ad0b-494f-8ed9-b70764f580f9> ;
-    hemef:enseignant <c590801d-2166-473e-b6cd-b1c2929ffa93> .
+    hemef:professeur <c590801d-2166-473e-b6cd-b1c2929ffa93> .
 
 <c497f77d-782f-44ae-b955-92b1b8925b78> a hemef:Parcours_classe ;
     hemef:classe_parcourue <adae20e6-409c-441a-a5f3-975040bae9f0> ;
@@ -18992,9 +18992,9 @@
 
 <e21aa49c-92b4-45f9-8ef6-f1854b0ff729> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <e7f094e9-e563-4055-8a74-413bf2d9442f> ;
     hemef:observations "1916 : A concouru Comédie.",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie." ;
+    hemef:professeur <e7f094e9-e563-4055-8a74-413bf2d9442f> .
 
 <e2ce3a81-a48f-4e1b-a1bc-73132bf163e2> a hemef:Parcours_classe ;
     hemef:classe_parcourue <54812749-0626-4deb-885d-d2ca24785003> ;
@@ -19319,7 +19319,7 @@
 
 <ed230e82-5ef0-45c5-9c05-55290987b5e4> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <ffbc2ef3-ff1e-4b97-bce8-06175f4c8697> .
+    hemef:professeur <ffbc2ef3-ff1e-4b97-bce8-06175f4c8697> .
 
 <ed3f5fcb-9d63-408b-a50a-15f9930039de> a hemef:Parcours_classe ;
     hemef:classe_parcourue <eed91cd0-c090-4c44-b2f2-f6dd10fbefff> ;
@@ -20214,7 +20214,7 @@
 
 <0f4fec8e-0aeb-460d-8fb5-10344bf6199f> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <da30c271-0bf3-44f6-9b7b-625e7026e4d8> .
+    hemef:professeur <da30c271-0bf3-44f6-9b7b-625e7026e4d8> .
 
 <101e38ea-9419-463e-9bea-b7b3cc386c4a> a hemef:Parcours_classe ;
     hemef:classe_parcourue <827b7e94-2397-4c4e-b116-2daf39222ff6> ;
@@ -21531,7 +21531,7 @@
 
 <3c14188b-facc-409c-a526-10ac782fb2af> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <8a2da4a1-14b9-4c4d-97bd-4fd7569e3d4e> .
+    hemef:professeur <8a2da4a1-14b9-4c4d-97bd-4fd7569e3d4e> .
 
 <3c15e15d-ff35-4214-917b-337c10f49234> a hemef:Parcours_classe ;
     hemef:classe_parcourue <827b7e94-2397-4c4e-b116-2daf39222ff6> ;
@@ -21762,10 +21762,10 @@
 
 <45e59e76-1766-4069-9979-c3eb3e614047> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <ef397833-2bfa-4351-9102-f079a0a3e093> ;
     hemef:observations "1914 – 5 Févr. : Bourse d'études de 600 frs. (chapitre 22)  ; Congé (Guerre) 1914-1918 ; 1921 : A concouru Opéra-Comique.",
         "1914-01-12 : Encouragement de 300 frs. (chapitre 21) ; 1915-02-05 : Bourse d'études de 600 frs. (chapitre 22) ; Congé (Guerre) 1914-1918 ; 1920-1921 : Congé d'un an. Malade.",
-        "1914 : Excusé Militaire Examen de Juin (Chant et Solfège) ; Congé (Guerre) 1914-1919 ; 1921 : A concouru Opéra-Comique." .
+        "1914 : Excusé Militaire Examen de Juin (Chant et Solfège) ; Congé (Guerre) 1914-1919 ; 1921 : A concouru Opéra-Comique." ;
+    hemef:professeur <ef397833-2bfa-4351-9102-f079a0a3e093> .
 
 <469e3096-234a-45e2-8ce7-326431592a3d> a hemef:Prix ;
     hemef:discipline_prix "Clarinette" ;
@@ -21998,7 +21998,7 @@
 
 <4cdf3dc7-cf55-4acb-8bb8-552bd13858d4> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <b807ba67-a834-4e3a-b80b-8986cc1f13db> .
+    hemef:professeur <b807ba67-a834-4e3a-b80b-8986cc1f13db> .
 
 <4d75504f-1e70-45e7-9c02-e9c6779f8d3d> a skos:Concept ;
     skos:broader <c2f5e201-6e44-429e-8908-4cdcdbad1e40> ;
@@ -24439,8 +24439,8 @@
 
 <a55181bf-73f6-4e97-8061-b471266e93ce> a hemef:Classe ;
     hemef:discipline_enseignee <f7d29422-74cc-4a9c-940c-3dce610873b4> ;
-    hemef:enseignant <fff9a8bf-d445-4aa9-be6f-870a59b76ef6> ;
-    hemef:observations "1921 : A concouru Fugue ; 1923 : A concouru Fugue." .
+    hemef:observations "1921 : A concouru Fugue ; 1923 : A concouru Fugue." ;
+    hemef:professeur <fff9a8bf-d445-4aa9-be6f-870a59b76ef6> .
 
 <a70626ff-ba17-4dcf-9224-11d19c98b3bc> a skos:Concept ;
     skos:broader <2fbfa461-1557-4b33-9a8f-846c5eb14a3d> ;
@@ -24616,9 +24616,9 @@
 
 <adbd66d9-8231-4316-acd7-784d418aa973> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <2219b77f-3c7e-428f-a149-23635e08f3f3> ;
     hemef:observations "1916 : A concouru Comédie.",
-        "1916 : A concouru Comédie ; 1917 : Rayé art. 102 § 2 ; 1917-1918 : Autorisée à faire une année supplémentaire." .
+        "1916 : A concouru Comédie ; 1917 : Rayé art. 102 § 2 ; 1917-1918 : Autorisée à faire une année supplémentaire." ;
+    hemef:professeur <2219b77f-3c7e-428f-a149-23635e08f3f3> .
 
 <ae06b203-f380-43b1-a45b-2fa983a25451> a hemef:Eleve ;
     hemef:a_pour_parcours <2bc5f3ec-7875-41b7-b7ee-471bec2a23ef>,
@@ -24787,10 +24787,10 @@
 
 <b2eb6819-83db-42de-980d-67ff703fac85> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <4096ffb0-899e-4808-aa41-53c0ec167c21> ;
     hemef:observations "1915 Fév. : Encouragement de 200 frs. ; Congé (Guerre) 1916-1918.",
         "1917 : A concouru Chant.",
-        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." .
+        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <4096ffb0-899e-4808-aa41-53c0ec167c21> .
 
 <b395513d-88e6-4957-ad0a-8b61c25bbcf6> a hemef:Parcours_classe ;
     hemef:classe_parcourue <4851946e-b9f2-4715-ad43-c8d3471598ba> ;
@@ -25465,8 +25465,8 @@
 
 <cfa24d2e-d42a-44ca-8df5-934e6e67e00c> a hemef:Classe ;
     hemef:discipline_enseignee <efad8c56-55bc-430b-87dc-949af8d9a503> ;
-    hemef:enseignant <f9ac54e9-8869-43a2-ba1f-7cb61dd6e168> ;
     hemef:observations "Congé (Guerre) 1914-1915 ; 1917 : Malade examen de Juin (Solfège et Violon) ; 1917-1918 : Congé d'un an. Malade ; Congé (Guerre) 1918-1919." ;
+    hemef:professeur <f9ac54e9-8869-43a2-ba1f-7cb61dd6e168> ;
     hemef:remarques_saisie "Pour Médaille 3 discipline indiqué : violon, mais il est  toujours dans la classe de  violon préparatoire" .
 
 <d0aa104b-29d0-4633-8690-afd817f38dbc> a hemef:Parcours_classe ;
@@ -25965,9 +25965,9 @@
 
 <e492795c-b9e3-4afd-ae4c-4b75efb30c8d> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <1c8441bb-9028-4bd1-900b-8559e15a459f> ;
     hemef:observations "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." .
+        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <1c8441bb-9028-4bd1-900b-8559e15a459f> .
 
 <e4c88b22-782d-4991-b2b6-d565619269c7> a hemef:Prix ;
     hemef:discipline_prix "Piano" ;
@@ -26804,7 +26804,7 @@
 
 <feadeb7a-596d-446c-ba9d-5b85148e8f7b> a hemef:Classe ;
     hemef:discipline_enseignee <04971b91-871a-4cdd-8bb7-5cad18afcba5> ;
-    hemef:enseignant <304c825a-a047-4156-bdf9-c099b679675f> .
+    hemef:professeur <304c825a-a047-4156-bdf9-c099b679675f> .
 
 <ffa4a32c-e604-49fb-be28-5257adc304b9> a hemef:Parcours_classe ;
     hemef:classe_parcourue <d52e478e-2998-47ac-9a43-d123cc694c03> ;
@@ -27039,10 +27039,10 @@
 
 <1e14b5e8-b805-493a-bcaa-c59ec80ff877> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <48b819fb-359a-4ae2-861c-fe92d2af4751> ;
     hemef:observations "1914 : Malade Examen de Juin (Solfège et Chant) ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Chant ; 1921 : A concouru Chant.",
         "1915 : A concouru Chant ; 1916 : Rayé art.  102 § 2 ; 1917 : Rayé art.  102 § 2.",
-        "Congé (Guerre) 1914-1919." .
+        "Congé (Guerre) 1914-1919." ;
+    hemef:professeur <48b819fb-359a-4ae2-861c-fe92d2af4751> .
 
 <1f38aa2b-a0d8-4e62-adb6-658d8fda330c> a hemef:Parcours_classe ;
     hemef:classe_parcourue <f8c26e61-8df5-4e3c-a04d-95c1f6840781> ;
@@ -27240,10 +27240,10 @@
 
 <2e974ab6-c04f-4df1-a9b7-8ddb6792bfda> a hemef:Classe ;
     hemef:discipline_enseignee <d64c0532-5e71-4734-9be9-05bf8d9250b8> ;
-    hemef:enseignant <ba97e7e6-7b5b-4ec3-94d0-d3bd5d7c4065> ;
     hemef:observations "1915 : A concouru Piano préparatoire ; 1920 : A concouru Lecture à Vue.",
         "1916 : A concouru Piano préparatoire ; 1916 : Rayé art. 102 § 2 (Piano préparatoire).",
-        "1916 : Rayé art.  102 § 2 ; 1920 : A concouru Lecture à Vue ; 1920-1921 : Congé d'un an. Malade ; 1923 : A concouru Piano." .
+        "1916 : Rayé art.  102 § 2 ; 1920 : A concouru Lecture à Vue ; 1920-1921 : Congé d'un an. Malade ; 1923 : A concouru Piano." ;
+    hemef:professeur <ba97e7e6-7b5b-4ec3-94d0-d3bd5d7c4065> .
 
 <2eab4809-c532-4fa3-a6fe-d1b472e4b7cf> a hemef:Parcours_classe ;
     hemef:classe_parcourue <7e795443-3da8-4f63-bf69-8c0834876c2a> ;
@@ -27726,11 +27726,11 @@
 
 <63eadc7e-02bf-485f-8c6e-35372c9ab636> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <13a81f61-eba2-47f0-a03c-5bbcdcd45dcb> ;
     hemef:observations "1909, rentrée : passée à la classe de M. de Martini",
         "1909, rentrée : passée à la classe de Mlle Grandjean",
         "En 1909, rentrée:passé à la classe de M. Cazeneuve",
-        "En 1909, rentrée:passée à la classe de M. Dubulle" .
+        "En 1909, rentrée:passée à la classe de M. Dubulle" ;
+    hemef:professeur <13a81f61-eba2-47f0-a03c-5bbcdcd45dcb> .
 
 <6616387f-da59-4a2d-ab55-dbc2192ba2d1> a hemef:Parcours_classe ;
     hemef:classe_parcourue <293e7657-4db7-4398-a296-0dc505fab4d5> ;
@@ -27927,10 +27927,10 @@
 
 <751e29ab-f67a-4c03-beca-875114d61878> a hemef:Classe ;
     hemef:discipline_enseignee <bb883fa4-1c7a-434b-af6f-ca81f18da304> ;
-    hemef:enseignant <261e8715-533c-4a4e-8886-fbb465e8a60c> ;
     hemef:observations "1914 : A concouru Cornet à pistons.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire) Cornet à pistons.",
-        "Congé (Guerre) 1916-1917." .
+        "Congé (Guerre) 1916-1917." ;
+    hemef:professeur <261e8715-533c-4a4e-8886-fbb465e8a60c> .
 
 <754a93ff-ef61-4d10-8355-f117c5c13fce> a hemef:Parcours_classe ;
     hemef:classe_parcourue <21c37d55-9095-4818-b1d2-bc7a2e6f844b> ;
@@ -28174,15 +28174,15 @@
 
 <92daeb2a-ce89-4956-9cad-b44e47736a2c> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <f14ff87b-5d41-483a-b5d8-174eb56de00e> ;
     hemef:observations "1914 : A concouru Harmonie ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Harmonie ; 1922 : Admis à concourir. Malade.",
         "1915 : A concouru Harmonie.",
-        "Congé (Guerre) 1914-1919." .
+        "Congé (Guerre) 1914-1919." ;
+    hemef:professeur <f14ff87b-5d41-483a-b5d8-174eb56de00e> .
 
 <93eacb22-d9fe-40ab-8a5a-60cc62b5971a> a hemef:Classe ;
     hemef:discipline_enseignee <b7bd5833-d6d6-4258-8ca6-cba0aa2577e1> ;
-    hemef:enseignant <d46e7abe-ab4c-44e6-bd10-5b4ff20071a4> ;
-    hemef:observations "Congé (Guerre) 1914-1915 ; 3-11-1915 : Rayée. Absente à la rentrée ; 10-10-1915 : Réintégrée (Directeur) ; Congé (Guerre) 1915-1919." .
+    hemef:observations "Congé (Guerre) 1914-1915 ; 3-11-1915 : Rayée. Absente à la rentrée ; 10-10-1915 : Réintégrée (Directeur) ; Congé (Guerre) 1915-1919." ;
+    hemef:professeur <d46e7abe-ab4c-44e6-bd10-5b4ff20071a4> .
 
 <93fe71e8-4114-4f79-b7ba-fea50825632e> a skos:Concept ;
     skos:inScheme <de04fe70-e256-4e7e-8799-79dacdc562ce> ;
@@ -28204,10 +28204,10 @@
 
 <95cc39d9-d40d-418f-ab62-aa52cb9a3487> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <06c442fc-fb48-4d65-aff0-1a8aa3309123> ;
     hemef:observations "1914 : A concouru Harmonie ; Congé (Guerre) 1914-1919.",
         "1914 : A concouru Harmonie ; 1915 : A concouru Harmonie ; Congé (Guerre) 1915-1919.",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Harmonie." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Harmonie." ;
+    hemef:professeur <06c442fc-fb48-4d65-aff0-1a8aa3309123> .
 
 <975d6c86-b8b7-4e96-86f9-d6d1bfbfd6c0> a hemef:Parcours_classe ;
     hemef:classe_parcourue <690afec7-c1cf-4e9a-bf9a-84249258e05f> ;
@@ -28935,7 +28935,7 @@
 
 <db17a578-d41b-4b5b-b9dc-26056556474e> a hemef:Classe ;
     hemef:discipline_enseignee <67f3e92e-7b6f-4249-861e-a195301519b5> ;
-    hemef:enseignant <7473011c-7f99-4fb4-9313-dc79eb611776> .
+    hemef:professeur <7473011c-7f99-4fb4-9313-dc79eb611776> .
 
 <dc212077-cca2-4614-8f55-bef9e1c17de0> a hemef:Parcours_classe ;
     hemef:classe_parcourue <293e7657-4db7-4398-a296-0dc505fab4d5> ;
@@ -29612,15 +29612,15 @@
 
 <53f7c845-0f0c-4c99-9c85-3f6383020829> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <35755646-f12a-4f46-b2f8-c42a1fdb5c82> ;
     hemef:observations "1915 Fév. : Encouragement de 300 frs.",
         "1915 Fév. : Encouragement de 300 frs. ; 1915 : A concouru Opéra-Comique.",
-        "1916-1917 : Congé d'un an. Malade." .
+        "1916-1917 : Congé d'un an. Malade." ;
+    hemef:professeur <35755646-f12a-4f46-b2f8-c42a1fdb5c82> .
 
 <54f28839-823e-407f-91c7-867dc50c4340> a hemef:Classe ;
     hemef:discipline_enseignee <65f7e7db-02b6-4e4d-b21f-bad3d8f5f429> ;
-    hemef:enseignant <836e6522-2c55-4c7a-a701-70a6ecea09aa> ;
-    hemef:observations "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue." .
+    hemef:observations "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue." ;
+    hemef:professeur <836e6522-2c55-4c7a-a701-70a6ecea09aa> .
 
 <55a04cd3-2147-43f5-a2b4-41c4fe70140d> a hemef:Parcours_classe ;
     hemef:classe_parcourue <e187618b-ac9a-4bdf-ac9a-207ec65cff58> ;
@@ -29751,7 +29751,7 @@
 
 <8924613a-8870-445a-bd45-6c93df7ec8ac> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <7c505cd7-dc86-42cc-9938-d46f800ac324> .
+    hemef:professeur <7c505cd7-dc86-42cc-9938-d46f800ac324> .
 
 <8f70e861-1a63-4a50-b53d-b62800222e12> a hemef:Parcours_classe ;
     hemef:classe_parcourue <d52e478e-2998-47ac-9a43-d123cc694c03> ;
@@ -29915,7 +29915,7 @@
 
 <af3fe222-c021-4c29-8a11-114f6f978f36> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <e4da756d-5c87-4a3d-8d15-0135eac7cd75> .
+    hemef:professeur <e4da756d-5c87-4a3d-8d15-0135eac7cd75> .
 
 <b090150a-a6ca-4729-8c3a-9fe10a3fcf08> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b> ;
@@ -29975,10 +29975,10 @@
 
 <ca34bbfd-aa15-4b5c-8bdb-cd5f6270d722> a hemef:Classe ;
     hemef:discipline_enseignee <67f3e92e-7b6f-4249-861e-a195301519b5> ;
-    hemef:enseignant <bfd34f99-66a2-4e4a-b056-8bd81841a443> ;
     hemef:observations "Congé (Guerre) 1914-1917.",
         "Congé (Guerre) 1914-1918.",
-        "Congé (Guerre) 1916-1918 ; 1919 : Malade examen de Mai. Flûte ; 1920 : A concouru Lecture à Vue. Flûte." .
+        "Congé (Guerre) 1916-1918 ; 1919 : Malade examen de Mai. Flûte ; 1920 : A concouru Lecture à Vue. Flûte." ;
+    hemef:professeur <bfd34f99-66a2-4e4a-b056-8bd81841a443> .
 
 <cc3fdb85-4efb-4c9f-ae67-74303f2d26f6> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b> ;
@@ -30122,7 +30122,7 @@
 
 <f2d4fd38-6e85-4db7-9282-b251f2b1563b> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <a29d35fd-b090-40db-a6e1-fd8442557253> .
+    hemef:professeur <a29d35fd-b090-40db-a6e1-fd8442557253> .
 
 <f49e6ed5-93c5-496d-a723-79a376b28b54> a hemef:Parcours_classe ;
     hemef:classe_parcourue <db17a578-d41b-4b5b-b9dc-26056556474e> ;
@@ -30257,12 +30257,12 @@
 
 <450739f5-aeb2-4ed3-8a90-8d187874ed3f> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <a433db6c-9ef9-44ae-bc84-dad1cc8cbfee> ;
     hemef:observations "1910 passée à la classe de M. Berton ",
         "1910-09-12 : passée à la classe de M. Berton ",
         "1910-11-12 : passée à la classe de M. Berton",
         "En 1910-10-12:passée à la classe de M. Berton",
-        "En 1910-11-12 : passé à la classe de M. Berton " .
+        "En 1910-11-12 : passé à la classe de M. Berton " ;
+    hemef:professeur <a433db6c-9ef9-44ae-bc84-dad1cc8cbfee> .
 
 <4517ea68-bc49-4742-b01d-985e003807b8> a hemef:Parcours_classe ;
     hemef:classe_parcourue <8f921677-d4fd-4553-849f-706190f49ffe> ;
@@ -30298,11 +30298,11 @@
 
 <5163f269-b6f2-4711-a6d8-5425d6b95a3f> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <c2c37542-5974-471f-b17b-94f7c4e7319a> ;
     hemef:observations "1910-09-12 : passée dans le classe de Mlle Grandjean",
         "1910-11-12 : passé à la classe de Mlle Grandjean",
         "1910-11-12 : passée à la classe de M. Grandjean",
         "En 1909, rentrée : passé à la classe de M. Hettich" ;
+    hemef:professeur <c2c37542-5974-471f-b17b-94f7c4e7319a> ;
     hemef:remarques_saisie "1910-10-07 : rayée, art. 66 ; 1910-11-11 : réintégrée" .
 
 <5247ddc3-4c4e-4e15-996b-6b122ded1dfb> a skos:Concept ;
@@ -30335,9 +30335,9 @@
 
 <5e0b9495-936a-4d29-9e2b-569b60ed9226> a hemef:Classe ;
     hemef:discipline_enseignee <0574e282-123d-4ee4-9fcf-1b5c358d45ff> ;
-    hemef:enseignant <9e1a0d96-1a14-41b6-9f0d-bdf0c1cd9826> ;
     hemef:observations "1914 : Malade Examen de Juin – Harpe chromatique.",
         "Classe rétablie" ;
+    hemef:professeur <9e1a0d96-1a14-41b6-9f0d-bdf0c1cd9826> ;
     hemef:remarques_saisie "L'année 1er Prix harpe indiqué au crayon " .
 
 <6141c896-eac8-4238-9d2a-f68da54eef31> a hemef:Parcours_classe ;
@@ -30399,11 +30399,11 @@
 
 <71c8c6bd-154a-4d91-8c3b-b2620727d257> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <f0f3ec27-32cd-40f9-bf09-b52e002edbaa> ;
     hemef:observations "1914 : A concouru Solfège.",
         "1914-11-27 : Rayé du Solfège (cas force majeure) ; 1915 : Dispensé du Solfège (Examen du 8 décembre).",
         "1914 : A concouru Solfège ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
-        "Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 (Solfège) ; 1919-1920 : Congé (Militaire)." .
+        "Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 (Solfège) ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <f0f3ec27-32cd-40f9-bf09-b52e002edbaa> .
 
 <801dd58a-12ef-4ae1-bf0a-bde09af11215> a hemef:Eleve ;
     hemef:a_pour_parcours <2b6689aa-278f-4c34-9632-a551db486d91>,
@@ -30429,19 +30429,19 @@
 
 <8e58d414-b4fe-4a1c-91e4-159c1477ec25> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <f7f2eae3-2aae-4e28-85e8-180cee596d55> ;
     hemef:observations "1915 Fév. : Encouragement de 200 frs. ; Congé (Guerre) 1915-1919 ; 1920 : A concouru Chant ; 1921 : A concouru Chant.",
-        "1915 Fév. : Encouragement de 600 frs." .
+        "1915 Fév. : Encouragement de 600 frs." ;
+    hemef:professeur <f7f2eae3-2aae-4e28-85e8-180cee596d55> .
 
 <8f65de30-31b9-4ab9-b5d6-ea11e53640b4> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <180c3f4c-76f5-48a5-823f-8933229f5dbb> ;
     hemef:observations "1915 Fév. : Encouragement de 100 frs. ; 1915 : A concouru Comédie ; Congé (Guerre) 1916-1919.",
         "1915 Fév. : Encouragement de 200 frs. ; 1916 : Autorisee à faire une année supplementaire.",
         "Congé (Guerre) 1914-1915.",
         "Congé (Guerre) 1914-1917 ; 1918 : A concouru Comédie ; 1918-1919 : A concouru Comédie.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie." ;
+    hemef:professeur <180c3f4c-76f5-48a5-823f-8933229f5dbb> .
 
 <977fcfbb-d52f-4cb1-b86a-3a615d54e808> a hemef:Prix ;
     hemef:discipline_prix "Piano préparatoire" ;
@@ -30475,22 +30475,22 @@
 
 <a7c4aa41-978a-48e1-b404-02e7e338f36e> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <b525b261-3c48-4da6-8d6f-f85c1c58c6d4> ;
     hemef:observations "1914 : A concouru Comédie ; 1915 Fév.  Encouragement de 100 frs. : ; 1915 : A concouru Tragédie.",
         "1915 Fév. : Encouragement de 100 frs.",
         "1915 Fév. : Encouragement de 200 frs. ; 1915 : A concouru Comédie ; 30-08-1916 : Autorisee à faire une année supplementaire.",
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie et drame ; 1920 : A concouru Tragédie ; 1920-21 : Congé d'un an. Malade.",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie et drame ; 1920 : A concouru Tragédie." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Comédie et drame ; 1920 : A concouru Tragédie." ;
+    hemef:professeur <b525b261-3c48-4da6-8d6f-f85c1c58c6d4> .
 
 <a85dcd2c-5cf2-4413-87bf-12dbf40c4a12> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <80de3c16-81c7-426f-9c28-9bcbf47b9c6f> ;
     hemef:observations "1914 – 12 Janv. : Encouragement de 200 frs. (chapitre 21)  ; 1915 Fév. : Encouragement de 400 frs. ; Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 : (Solfège) et (Déclamation Lyrique) ;1920 : Rayé art. 102 § 2 ; 1920 Octobre : Maintenu un an en surnombre.",
         "1915 : A concouru Chant.",
         "1915 Fév. : Encouragement de 200 frs.",
         "1917 : Malade examen de Juin. Chant ; 1917-1918 : Congé d'un an. Malade ; 1919 : A concouru par décision spéciale. Chant.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Chant ; 1921 : A concouru Chant." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Chant ; 1921 : A concouru Chant." ;
+    hemef:professeur <80de3c16-81c7-426f-9c28-9bcbf47b9c6f> .
 
 <aa5e7a03-5621-4e83-9e05-3231b86e7aca> a hemef:Parcours_classe ;
     hemef:classe_parcourue <bc7df933-1a20-42e7-9a4b-d28298695329> ;
@@ -30506,9 +30506,9 @@
 
 <aa8ee75b-e5d9-4b4c-a2b6-63f961c41bd9> a hemef:Classe ;
     hemef:discipline_enseignee <6e9b40ab-9841-4ee3-be17-ed89cb644c94> ;
-    hemef:enseignant <2d805406-ef99-4d44-8e62-b36795cfc536> ;
     hemef:observations "1920 : A concouru Fugue ; 1921 : A concouru Fugue ; 1922 : Malade Examen Mai.",
-        "1921 : A concouru Fugue." .
+        "1921 : A concouru Fugue." ;
+    hemef:professeur <2d805406-ef99-4d44-8e62-b36795cfc536> .
 
 <c2f5e201-6e44-429e-8908-4cdcdbad1e40> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b> ;
@@ -30616,12 +30616,12 @@
 
 <e187618b-ac9a-4bdf-ac9a-207ec65cff58> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <bc0c9eae-823b-4ea4-9f84-8c3c6e5d478b> .
+    hemef:professeur <bc0c9eae-823b-4ea4-9f84-8c3c6e5d478b> .
 
 <e59c8d07-7574-4693-835e-61239d6edf11> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <44e98ad3-d79f-4b5f-b5a2-7ec9f8736137> ;
-    hemef:observations "En 1910-02-21 : passée chez M. Melchissédec" .
+    hemef:observations "En 1910-02-21 : passée chez M. Melchissédec" ;
+    hemef:professeur <44e98ad3-d79f-4b5f-b5a2-7ec9f8736137> .
 
 <f043ee4c-98fb-4463-9cca-e5d84aac4a17> a skos:Concept ;
     skos:broader <4f8fd70b-cdab-49f9-b217-fa0acc242aad> ;
@@ -30718,11 +30718,11 @@
 
 <230b9189-ddac-4dc0-8210-9c40855d4345> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <b58fa52d-cfd4-4daf-9c54-734c27839253> ;
     hemef:observations "1914 : Malade Examen de Juin (Solfège et Chant) ; 1915 Fév. : Encouragement de 200 frs. ; 1916 : A concouru Chant.",
         "1915 Fév. : Encouragement de 200 frs.",
         "1915 Fév. : Encouragement de 300 frs.",
-        "1916-1917 : Congé d'un an. Malade." .
+        "1916-1917 : Congé d'un an. Malade." ;
+    hemef:professeur <b58fa52d-cfd4-4daf-9c54-734c27839253> .
 
 <2db3e9af-0942-4fa1-9c71-def76c5d92de> a hemef:Prix ;
     hemef:discipline_prix "Piano" ;
@@ -30740,12 +30740,12 @@
 
 <34366e92-fc48-482b-b997-8eba39f8a2f7> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <0f01be4f-849f-454a-964e-4f955d19ec81> ;
     hemef:observations "1914 : A concouru Solfège ; 1915 : A concouru Solfège , 1915 : Rayée du Solfège art. 89 § 1er ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
         "1914 : A concouru Solfège.",
         "1914 : A concouru Solfège.",
         "1915 : A concouru Solfège ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
-        "Congé (Guerre) 1916-1919 ; 1920 : A concouru Solfège ; 1920-1922 : Congé (Militaire). " .
+        "Congé (Guerre) 1916-1919 ; 1920 : A concouru Solfège ; 1920-1922 : Congé (Militaire). " ;
+    hemef:professeur <0f01be4f-849f-454a-964e-4f955d19ec81> .
 
 <35908bc9-6598-421d-8405-d7c9cd8ecaff> a skos:Concept ;
     skos:broader <51f9597b-404e-4118-a0f9-bfbea1f7f239> ;
@@ -30778,14 +30778,14 @@
 
 <808dea43-ccc6-4f1e-9c57-58d1197f7615> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <4d119e0f-f1a9-4f2c-9d89-74e0b3d551f5> ;
     hemef:observations "1914 : A concouru Solfège ; 1915 Fév. : Encouragement de 200 frs. ; 1915 : A concouru Solfège ; 1917 : A concouru Solfège.",
         "1915 : A concouru Solfège ; 1917 : A concouru Solfège.",
         "1915 Fév. : Encouragement de 200 frs. ; 1915-1916 : Congé d'un an. Malade.",
         "1915 Fév. : Encouragement de 200 frs. ; 1917 : A concouru Solfège.",
         "1915 Fév. : Encouragement de 300 frs. ; 1915 : A concouru Solfège.",
         "1915 Fév. : Encouragement de 300 frs. ; 1915 : A concouru Solfège ;  1917 : A concouru Solfège.",
-        "1915 Fév. : Encouragement de 300 frs. ; 1916 : A concouru Solfège ; 1917 : A concouru Solfège." .
+        "1915 Fév. : Encouragement de 300 frs. ; 1916 : A concouru Solfège ; 1917 : A concouru Solfège." ;
+    hemef:professeur <4d119e0f-f1a9-4f2c-9d89-74e0b3d551f5> .
 
 <83e7e188-5299-4f92-877a-b83893f314d4> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b> ;
@@ -30799,9 +30799,9 @@
 
 <861cace8-5f83-425d-8269-9713abc6b8de> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <28c984a0-f0d5-4038-a677-11adc065ea26> ;
     hemef:observations "1914 : Malade Examen de Juin  ; 1915 : A concouru Piano.",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à Vue ; 1921 : A concouru Piano." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à Vue ; 1921 : A concouru Piano." ;
+    hemef:professeur <28c984a0-f0d5-4038-a677-11adc065ea26> .
 
 <8e55b646-3ca9-4d2e-85c1-8c5c73d43e2c> a hemef:Prix ;
     hemef:discipline_prix "Chant" ;
@@ -30878,8 +30878,8 @@
 
 <dddd4fa2-5b87-483a-86bc-03dd7d2ad818> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <ae070590-772a-4b13-960a-ff75c0b2353a> ;
-    hemef:observations "1920 : A concouru Harmonie" .
+    hemef:observations "1920 : A concouru Harmonie" ;
+    hemef:professeur <ae070590-772a-4b13-960a-ff75c0b2353a> .
 
 <e5a67f48-ee9e-445c-910d-198809c70ef7> a hemef:Prix ;
     hemef:discipline_prix "Piano préparatoire" ;
@@ -30946,8 +30946,8 @@
 
 <f302a7e1-f28f-42ed-a2cb-14fa5774b9f6> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <4a517e7e-d29a-4713-b086-8f4ca202842d> ;
-    hemef:observations "1910-02-21 : passé chez M. Bouvet " .
+    hemef:observations "1910-02-21 : passé chez M. Bouvet " ;
+    hemef:professeur <4a517e7e-d29a-4713-b086-8f4ca202842d> .
 
 <fd8f48ca-b39d-4421-bca7-25d006e5a427> a hemef:Eleve ;
     hemef:a_pour_parcours <34b2162f-4ce9-4ee2-a495-33df1380ffbe>,
@@ -30973,17 +30973,17 @@
 
 <0d92d42b-902f-4786-81bc-319cb7ec119e> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <9b2b200b-0580-4102-9791-b34cc7cd56d5> ;
     hemef:observations "1914 – 10 Janv. : Encouragement de 100 frs. (chapitre 21)  ; 1914 : A concouru Comédie ; 1915 Fév. : Encouragement de 100 frs. ; 1917 : Prix de la Sociétés des Auteurs dramatique 100 frs.",
         "1915 Fév. : Encouragement de 100 frs. ; 1915 : A concouru Tragédie ; 1916-10-30 : Autorisee à faire une année supplementaire ; 1917 : A concouru Tragédie.",
         "Congé (Guerre) 1914-1918 ; 1920 : A concouru Comédie.",
-        "Congé (Guerre) 1914-1919 ; 1920-1921 : Congé d'un an. Malade." .
+        "Congé (Guerre) 1914-1919 ; 1920-1921 : Congé d'un an. Malade." ;
+    hemef:professeur <9b2b200b-0580-4102-9791-b34cc7cd56d5> .
 
 <3bb2d53d-6529-4443-9eb1-7d63c8e76067> a hemef:Classe ;
     hemef:discipline_enseignee <63ce03e5-7eb2-4ce9-bc68-0546b8c34aa5> ;
-    hemef:enseignant <b694b4ad-e58a-4298-aca3-d620a90e47a5> ;
     hemef:observations "1922 : Admis à concourir Composition. Excusé ; 1923 : Admis à concourir Composition. Malade ; 1924 : Admis à concourir Composition. Absent ; 1925 : Malade Examen de Mai. Composition.",
-        "1924 : A concouru Fugue ; 1925 : [Malade Examen de Mai] Composition et Fugue ; 1926 : Admis à concourir Fugue. Excusé ; 1926 : A concouru Composition ; 1927 : Admis à concourir Composition." .
+        "1924 : A concouru Fugue ; 1925 : [Malade Examen de Mai] Composition et Fugue ; 1926 : Admis à concourir Fugue. Excusé ; 1926 : A concouru Composition ; 1927 : Admis à concourir Composition." ;
+    hemef:professeur <b694b4ad-e58a-4298-aca3-d620a90e47a5> .
 
 <46051452-643f-45be-ba15-93bc17c55c66> a hemef:Eleve ;
     hemef:a_pour_parcours <1176bb4e-6471-4f45-a3c1-9f0fddd21f8b>,
@@ -31013,9 +31013,9 @@
 
 <9b92c639-0962-4cb4-a38d-68450703aa29> a hemef:Classe ;
     hemef:discipline_enseignee <04971b91-871a-4cdd-8bb7-5cad18afcba5> ;
-    hemef:enseignant <1e2bd00c-d415-45d6-a6fb-14f28a9c5145> ;
     hemef:observations "1917 : A concouru Orgue.",
-        "Congé (Guerre) 1914-1919 ; 1921 : A concouru Orgue." .
+        "Congé (Guerre) 1914-1919 ; 1921 : A concouru Orgue." ;
+    hemef:professeur <1e2bd00c-d415-45d6-a6fb-14f28a9c5145> .
 
 <a074ffc7-fdf0-419b-9b85-bf3bff53f5e7> a hemef:Prix ;
     hemef:discipline_prix "Histoire de la musique" ;
@@ -31044,7 +31044,7 @@
 
 <cee6888f-aeb5-4c57-a499-a7ec1457fb14> a hemef:Classe ;
     hemef:discipline_enseignee <b7bd5833-d6d6-4258-8ca6-cba0aa2577e1> ;
-    hemef:enseignant <73904ab4-31ae-4cfd-9e70-7bf3e5fea983> .
+    hemef:professeur <73904ab4-31ae-4cfd-9e70-7bf3e5fea983> .
 
 <de423e27-39c9-4c1b-a98a-360481a7d4f4> a hemef:Eleve ;
     hemef:a_pour_parcours <03cc53f7-d40f-4e0e-84be-737b3510b90f>,
@@ -31107,13 +31107,13 @@
 
 <fefb200e-ad29-4b06-8c28-7f1248176005> a hemef:Classe ;
     hemef:discipline_enseignee <efad8c56-55bc-430b-87dc-949af8d9a503> ;
-    hemef:enseignant <47537daf-4306-442a-8efb-9a34133dc632> ;
+    hemef:professeur <47537daf-4306-442a-8efb-9a34133dc632> ;
     hemef:remarques_saisie "En 1911 1e médaille : pour discipline indiqué violon, mais il est toujours dans la classe de violon préparatoire " .
 
 <2440ea82-a55b-4fdc-a3ca-51a87122f9ea> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <6819e604-d336-42ea-8266-1e2a103e7a5e> ;
-    hemef:observations "1908-12-03 : passée à la classe de solfège de Mme Vinot" .
+    hemef:observations "1908-12-03 : passée à la classe de solfège de Mme Vinot" ;
+    hemef:professeur <6819e604-d336-42ea-8266-1e2a103e7a5e> .
 
 <42292886-769c-4eb6-9122-52a0f295eb45> a skos:Concept ;
     skos:broader <c2f5e201-6e44-429e-8908-4cdcdbad1e40> ;
@@ -31162,10 +31162,10 @@
 
 <773089a3-18e7-4127-b453-55ac90afb9fd> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <ea0dcaf2-2521-4f46-92bf-5d789e1c53f9> ;
     hemef:observations "1914 – 5 Févr. : Bourse d'études de 600 frs. (chapitre 22)  ; Congé (Guerre) 1914-1918.",
         "1914-01-12 : Encouragement de 300 frs. (chapitre 21) ; 1915-02-05 : Bourse d'études de 600 frs. (chapitre 22) ; Congé (Guerre) 1914-1918 ; 1920-1921 : Congé d'un an. Malade.",
-        "1914-02-05 : Bourse d'études de 600 frs. Chapitre 22 ; 1915 Fév. : Encouragement de 200 frs. ; 1915 : Malade à l'examen de Juin (Solfège, Chant, Déclamation lyrique) ; 1916-06-17 : Maintenue un an par demande du Comité d'examen, décision du Sous-Secrétaire d'Etat ; 1916-1917 : Congé d'un an. Malade ; 1917-1918 : Congé d'un an. Malade ; 1919 : Malade examen de Mai (Solfège, Chant)." .
+        "1914-02-05 : Bourse d'études de 600 frs. Chapitre 22 ; 1915 Fév. : Encouragement de 200 frs. ; 1915 : Malade à l'examen de Juin (Solfège, Chant, Déclamation lyrique) ; 1916-06-17 : Maintenue un an par demande du Comité d'examen, décision du Sous-Secrétaire d'Etat ; 1916-1917 : Congé d'un an. Malade ; 1917-1918 : Congé d'un an. Malade ; 1919 : Malade examen de Mai (Solfège, Chant)." ;
+    hemef:professeur <ea0dcaf2-2521-4f46-92bf-5d789e1c53f9> .
 
 <7961f6c0-de0b-440f-9a5b-8610e0d10a8f> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b> ;
@@ -31181,7 +31181,7 @@
 
 <8db14165-2d7b-43da-b685-7a9c7587e72c> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <4aa89afb-c60f-42d7-9b52-6ba721c00272> .
+    hemef:professeur <4aa89afb-c60f-42d7-9b52-6ba721c00272> .
 
 <90d0c4c4-c166-467a-a991-a5b894fee82e> a skos:Concept ;
     skos:broader <a71af870-07ae-4a22-abab-5d2aa51ecfeb> ;
@@ -31268,15 +31268,15 @@
 
 <059c87f8-a65c-4fd8-84dd-b3363a980980> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <65c4fe29-2130-43fe-b55b-e821de6e7cb2> ;
     hemef:observations "1914 : Malade Examen de Juin ; 1917 : A concouru Harmonie ; 1918 : Admise à concourir. Malade. Harmonie ; 1919-01 : Prix de 500 fr de la Fondation Fernand Halphen.",
         "1915 : A concouru Harmonie.",
         "1924 : Militaire Examen de Mai ; 1925 : Militaire Examen de Mai.",
-        "Congé (Guerre) 1914-1916." .
+        "Congé (Guerre) 1914-1916." ;
+    hemef:professeur <65c4fe29-2130-43fe-b55b-e821de6e7cb2> .
 
 <21c37d55-9095-4818-b1d2-bc7a2e6f844b> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <863fb0e6-ecf0-41e1-943b-364a8b1a7729> ;
+    hemef:professeur <863fb0e6-ecf0-41e1-943b-364a8b1a7729> ;
     hemef:remarques_saisie "En 1913 rayée, art. 89, § 1, puis réintégré" .
 
 <25955935-2e29-4aac-83df-1627812bb287> a skos:Concept ;
@@ -31300,10 +31300,10 @@
 
 <27ca4ac2-40e3-4fe3-998f-2ade83c754b9> a hemef:Classe ;
     hemef:discipline_enseignee <4cb47943-b9eb-486f-9311-237e317da0b1> ;
-    hemef:enseignant <00450d75-a272-49da-a68e-52da6a7b7452> ;
     hemef:observations "1915 : A concouru Violoncelle ; 1916 : A concouru Violoncelle.",
         "1915 : Dispensée du Solfège (Examen du 8 Décembre).",
-        "1917 : A concouru Violoncelle ; 1918 : Malade examen de Juin. Violoncelle ; 1919 : A concouru Violoncelle." .
+        "1917 : A concouru Violoncelle ; 1918 : Malade examen de Juin. Violoncelle ; 1919 : A concouru Violoncelle." ;
+    hemef:professeur <00450d75-a272-49da-a68e-52da6a7b7452> .
 
 <47156e45-d17f-4e39-98da-3e804f2661f8> a skos:Concept ;
     skos:broader <0d0e8170-4837-49f0-b1b1-839b46ae7aed> ;
@@ -31318,18 +31318,18 @@
 
 <b8fea156-dd13-40e7-96b6-70b83e2af419> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <b56926df-bfcc-4c3a-b629-9cd20bcbbde0> ;
     hemef:observations "1915 Fév. : Encouragement de 300 frs." ;
+    hemef:professeur <b56926df-bfcc-4c3a-b629-9cd20bcbbde0> ;
     hemef:remarques_saisie "1910-10-07 : rayée, art. 66 ; 1910-11-11 : réintégrée" .
 
 <bc7df933-1a20-42e7-9a4b-d28298695329> a hemef:Classe ;
     hemef:discipline_enseignee <65f7e7db-02b6-4e4d-b21f-bad3d8f5f429> ;
-    hemef:enseignant <920a43a2-4b3b-4c0b-a4c1-e06a1b95dc80> ;
-    hemef:observations "1915 : A concouru Violon." .
+    hemef:observations "1915 : A concouru Violon." ;
+    hemef:professeur <920a43a2-4b3b-4c0b-a4c1-e06a1b95dc80> .
 
 <bf2e2bdf-ad62-41b8-9671-e0fa3afd12c9> a hemef:Classe ;
     hemef:discipline_enseignee <bb883fa4-1c7a-434b-af6f-ca81f18da304> ;
-    hemef:enseignant <1ad53279-a77d-45e4-ac30-661b9e264515> .
+    hemef:professeur <1ad53279-a77d-45e4-ac30-661b9e264515> .
 
 <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> a skos:Concept ;
     skos:inScheme <fd367ce2-17b1-4db4-99e1-9a4021c20ed0> ;
@@ -31337,16 +31337,15 @@
 
 <ca6ba262-e45d-4565-b48f-cf877bef503c> a hemef:Classe ;
     hemef:discipline_enseignee <65f7e7db-02b6-4e4d-b21f-bad3d8f5f429> ;
-    hemef:enseignant <f857bae7-a482-4ad5-9376-14a0989d6c4e> ;
-    hemef:observations "1915 : A concouru Violon ; Congé (Guerre) 1916-1919 ; 1920 : A concouru Lecture à vue." .
+    hemef:observations "1915 : A concouru Violon ; Congé (Guerre) 1916-1919 ; 1920 : A concouru Lecture à vue." ;
+    hemef:professeur <f857bae7-a482-4ad5-9376-14a0989d6c4e> .
 
 <d8c06c93-404b-484b-b1ee-08d6d04a27d6> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <a8e4aed4-4bcc-44cd-ab20-43872bcf4efb> .
+    hemef:professeur <a8e4aed4-4bcc-44cd-ab20-43872bcf4efb> .
 
 <634a2429-5988-4f9a-8b9d-da7ac15c3f80> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <8d48a3ea-99fb-4f1c-9c19-8db3ef29d5ba> ;
     hemef:observations "1914-1915 : Congé d'un an. Malade.",
         "1915 : A concouru Tragédie ; 1916 : A concouru Comédie.",
         "1915 Fév. : Encouragement de 100 frs.",
@@ -31355,23 +31354,24 @@
         "Congé (Guerre) 1914-1915.",
         "Congé (Guerre) 1914-1916 ; 1917 : A concouru Comédie.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1914-1919 ; 09-11-1920 : Rayé art. 75 ; 1920 : Réadmis élève (décision du Directeur)." .
+        "Congé (Guerre) 1914-1919 ; 09-11-1920 : Rayé art. 75 ; 1920 : Réadmis élève (décision du Directeur)." ;
+    hemef:professeur <8d48a3ea-99fb-4f1c-9c19-8db3ef29d5ba> .
 
 <6a5097f4-05aa-448f-bfba-fd22d3bbbd9a> a hemef:Classe ;
     hemef:discipline_enseignee <f285cd3f-5a72-4d81-91e1-d18b1b2f7671> ;
-    hemef:enseignant <29fcb778-542b-4d71-bad1-f61412a90efa> ;
     hemef:observations "1914 : Excusé Examen de Juin. Militaire ; Congé (Guerre) 1914-1919 ; 1919-1920 Congé (Militaire).",
         "1914 : Excusé Examen de Juin. Militaire ; Congé (Guerre) 1914-1919 ; 1921 : A concouru Trombone.",
-        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." .
+        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <29fcb778-542b-4d71-bad1-f61412a90efa> .
 
 <7e795443-3da8-4f63-bf69-8c0834876c2a> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <55ea9254-2380-446d-b4ee-d3f86dc139b9> ;
     hemef:observations "1915 Fév. : Encouragement de 200 frs. ; 1917 : Malade examen de Juin. Déclamation lyrique ; 1917-1918 : Congé d'un an. Malade.",
         "1918 : A concouru Déclamation lyrique.",
         "1921 : A concouru Opéra-Comique ; 1922 : A concouru Opéra-Comique.",
         "1921 : A concouru Opéra-Comique.",
-        "1922 : A concouru Opéra." .
+        "1922 : A concouru Opéra." ;
+    hemef:professeur <55ea9254-2380-446d-b4ee-d3f86dc139b9> .
 
 <88415c69-6b62-4d12-8b4e-5b3089b4554c> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31394,36 +31394,36 @@
 
 <c666275f-d22b-4926-9adc-d98be07036a5> a hemef:Classe ;
     hemef:discipline_enseignee <742052d5-5339-4178-be6e-de691f921eab> ;
-    hemef:enseignant <f351c702-f499-4a6c-963c-7f571c415998> ;
     hemef:observations "1914 : Excusé Examen de Juin. Militaire ; Congé (Guerre) 1914-1918.",
         "Congé (Guerre) 1914-1918.",
         "Congé (Guerre) 1914-1919 ; 1921 : A concouru Cor ; 1922 : A concouru Cor.",
         "Congé (Guerre) 1914-1919.",
-        "Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 (Solfège) ; 1919-1920 : Congé (Militaire)." .
+        "Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 (Solfège) ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <f351c702-f499-4a6c-963c-7f571c415998> .
 
 <d3c69df7-e16c-4e3f-8b48-569e8c0e1974> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <169f0972-e54b-408b-8d62-293c713fbeac> ;
     hemef:observations "1914-01-05 : Bourse de 600 frs (chapitre 22) ; Congé (Guerre) 1914-1918.",
         "1915 Fév. : Encouragement de 200 frs. , 1917 : Malade examen de Juin. Chant.",
         "1915 Fév. : Encouragement de 200 frs. ; 1917 : Malade examen de Juin. Chant ; 1917-1918 : Congé d'un an. Malade.",
         "1915 Fév. : Encouragement de 300 frs.",
         "1917 : Rayé art. 102 § 2 ; 1917-1918 : Autorisé à faire une année supplémentaire ; 1918 : A concouru Chant. ",
-        "Congé (Guerre) 1914-1917 ; 1919 : A concouru Chant ; 1921 : A concouru Chant." .
+        "Congé (Guerre) 1914-1917 ; 1919 : A concouru Chant ; 1921 : A concouru Chant." ;
+    hemef:professeur <169f0972-e54b-408b-8d62-293c713fbeac> .
 
 <f8c26e61-8df5-4e3c-a04d-95c1f6840781> a hemef:Classe ;
     hemef:discipline_enseignee <60f8f47b-3b2d-40bb-8cdd-9e74fdd4aae7> ;
-    hemef:enseignant <dcb53039-b1b2-4d20-92f5-3eed01fe0b47> ;
-    hemef:observations "Congé (Guerre) 1914-1919." .
+    hemef:observations "Congé (Guerre) 1914-1919." ;
+    hemef:professeur <dcb53039-b1b2-4d20-92f5-3eed01fe0b47> .
 
 <ff12731b-86b1-4f1f-b9aa-97c1ecfe25d4> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <a4fc27ec-6140-481d-8c01-994e8ed11573> ;
     hemef:observations "1914 : Excusé Militaire Examen de Juin (Chant et Solfège) ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Chant.",
         "1915 Fév. : Encouragement de 200 frs.",
         "1915 Fév. : Encouragement de 200 frs. ; 1915-1916 : Congé d'un an. Malade.",
         "1915 Fév. : Encouragement de 400 frs. ; 1915-1916 : Congé d'un an. Malade.",
-        "1915 Fév. : Encouragement de 600 frs. ; 1915 : A concouru Chant." .
+        "1915 Fév. : Encouragement de 600 frs. ; 1915 : A concouru Chant." ;
+    hemef:professeur <a4fc27ec-6140-481d-8c01-994e8ed11573> .
 
 <0bedd5dd-ad34-4fb6-b856-4df41a0244fc> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31446,38 +31446,38 @@
 
 <10597767-a09c-473c-8cce-67b9cbec0f99> a hemef:Classe ;
     hemef:discipline_enseignee <d64c0532-5e71-4734-9be9-05bf8d9250b8> ;
-    hemef:enseignant <dd2862b9-79db-4230-83c7-c8d4919045a6> ;
     hemef:observations "1914 : A concouru Piano préparatoire.",
         "1915 : A concouru Piano préparatoire.",
         "1917 : A concouru Piano préparatoire ; 1918 : A concouru Piano préparatoire.",
         "1918 : A concouru Piano préparatoire ; 1919 : A concouru Piano préparatoire ; 1919 : Rayé art. 102 § 2." ;
+    hemef:professeur <dd2862b9-79db-4230-83c7-c8d4919045a6> ;
     hemef:remarques_saisie "En 1913 rayée, art. 89, § 1, puis réintégré  1913-11-07, classe piano M. Delaborde",
         "En 1913 rayée, art. 89, § 1 ;  réintégré  1913-11-07, classe piano M. Delaborde ; 1913-01-21 démissionnaire [confusion des dates]" .
 
 <293e7657-4db7-4398-a296-0dc505fab4d5> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <2ad06787-9062-4ec2-b2e5-8cd05d6638d0> .
+    hemef:professeur <2ad06787-9062-4ec2-b2e5-8cd05d6638d0> .
 
 <4851946e-b9f2-4715-ad43-c8d3471598ba> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <2053ff10-8c5d-480a-88a6-d4a2690267c4> ;
-    hemef:observations "1910-09-12 : passée dans le classe de Mlle Grandjean" .
+    hemef:observations "1910-09-12 : passée dans le classe de Mlle Grandjean" ;
+    hemef:professeur <2053ff10-8c5d-480a-88a6-d4a2690267c4> .
 
 <5bc94294-4ec8-4879-b4ac-d8aee73815d6> a hemef:Classe ;
     hemef:discipline_enseignee <8c319494-1def-4b97-9f8b-6d178a4e69bc> ;
-    hemef:enseignant <9187efd8-d8c2-4574-8ea7-2251b9d973d6> ;
     hemef:observations "1915 : Dispensée du Solfège (Examen du 8 Décembre).",
         "Congé (Guerre) 1914-1916.",
-        "Congé (Guerre) 1914-1917." .
+        "Congé (Guerre) 1914-1917." ;
+    hemef:professeur <9187efd8-d8c2-4574-8ea7-2251b9d973d6> .
 
 <5f6a9f89-573d-470e-930b-5770a95c3b88> a hemef:Classe ;
     hemef:discipline_enseignee <d64c0532-5e71-4734-9be9-05bf8d9250b8> ;
-    hemef:enseignant <c67556f2-5844-4f0f-a69e-5869dc4752c4> ;
-    hemef:observations "Médaille de solfège est reçu en 1911, mais l'élève est déjà rayée (du conservatoire ou classe?) en 1910  " .
+    hemef:observations "Médaille de solfège est reçu en 1911, mais l'élève est déjà rayée (du conservatoire ou classe?) en 1910  " ;
+    hemef:professeur <c67556f2-5844-4f0f-a69e-5869dc4752c4> .
 
 <7a636f38-0150-43c6-b844-cd2c211d7351> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <99c3df69-b9e5-4172-b6d1-ca90ce481495> .
+    hemef:professeur <99c3df69-b9e5-4172-b6d1-ca90ce481495> .
 
 <7dd1f710-e42b-401a-b9c4-d4f2af386cdd> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31501,22 +31501,22 @@
 
 <85319108-9957-4b3e-89c4-a92cf8574210> a hemef:Classe ;
     hemef:discipline_enseignee <91ca6533-6511-488e-8bb5-55baafdf6bfb> ;
-    hemef:enseignant <b827e14c-499d-4d6f-8519-b0fa6e15e5c7> ;
     hemef:observations "1915 Fév. : Encouragement de 200 frs.",
         "1915 Fév. : Encouragement de 200 frs. ; 1917 : Malade examen de Juin. Chant ; 1917-1918 : Congé d'un an. Malade ; 1919-06-20 : Maintenue une année supplémentaire (décision Minist.) ; 1920 : A concouru Chant.",
         "1915 Fév. : Encouragement de 300 frs. ; 1916 : A concouru Chant.",
         "Congé (Guerre) 1914-1915 ; 1915-1916 : Congé d'un an. Malade.",
         "Congé (Guerre) 1914-1915.",
         "Congé (Guerre) 1914-1918." ;
+    hemef:professeur <b827e14c-499d-4d6f-8519-b0fa6e15e5c7> ;
     hemef:remarques_saisie "pour solfège : élève de Mme Colin Vinot, mais pas de date d'éntrée dans la classe" .
 
 <add749ea-aa5f-4eb8-9408-32e777c5f79f> a hemef:Classe ;
     hemef:discipline_enseignee <66280a1e-b831-406b-9dfb-6ab04d1d46d6> ;
-    hemef:enseignant <ac4de945-dc96-4420-ac19-d3e22b707c84> ;
     hemef:observations "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire) Basson.",
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à Vue ; 1923 : A concouru Basson.",
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue.",
-        "Congé (Guerre) 1916-1917." .
+        "Congé (Guerre) 1916-1917." ;
+    hemef:professeur <ac4de945-dc96-4420-ac19-d3e22b707c84> .
 
 <b194de40-da56-4cd0-a8f1-0614c457396a> a skos:Concept ;
     skos:broader <a71af870-07ae-4a22-abab-5d2aa51ecfeb> ;
@@ -31525,25 +31525,25 @@
 
 <bf1505ba-95cc-4706-8181-a2a9ae79e3bc> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <0aba3657-aa74-4a7c-b514-a71a17a3bfd6> ;
-    hemef:observations "1914 : Malade Examen de Juin ; Congé (Guerre) 1915-1917 ; 1917-10 : Rayée pour absences ; 1922-01-07 (Retablie comme ayant été maintenue en Russie)." .
+    hemef:observations "1914 : Malade Examen de Juin ; Congé (Guerre) 1915-1917 ; 1917-10 : Rayée pour absences ; 1922-01-07 (Retablie comme ayant été maintenue en Russie)." ;
+    hemef:professeur <0aba3657-aa74-4a7c-b514-a71a17a3bfd6> .
 
 <f9bba4fa-6cfc-41ef-a3ea-fab9798a56c7> a hemef:Classe ;
     hemef:discipline_enseignee <4cb47943-b9eb-486f-9311-237e317da0b1> ;
-    hemef:enseignant <9233d474-d16e-412b-b67a-a058d91e6988> ;
     hemef:observations "1915 : A concouru Violoncelle ; 1915 : Dispensée du Solfège (Examen du 8 décembre) ; 1917 : A concouru Violoncelle.",
         "1915 : A concouru Violoncelle.",
-        "Congé (Guerre) 1914-1915." .
+        "Congé (Guerre) 1914-1915." ;
+    hemef:professeur <9233d474-d16e-412b-b67a-a058d91e6988> .
 
 <0873d2a4-1f24-4df5-90f8-5a2de1d360f6> a hemef:Classe ;
     hemef:discipline_enseignee <84c59020-fba2-4e79-b420-3fd51cbad5d1> ;
-    hemef:enseignant <d5a56d22-b57e-44c7-8b7d-696ec914d57c> ;
     hemef:observations "1915 : A concouru Contrebasse.",
         "1916 : A concouru Contrebasse.",
         "1916 : A concouru Contrebasse ; Congé (Guerre) 1916-1919 ; 1919-1920 : Congé (Militaire). Contrebasse ; 1920-1922 : Congé (Militaire). ",
         "Congé (Guerre) 1914-1916.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1915-1918." .
+        "Congé (Guerre) 1915-1918." ;
+    hemef:professeur <d5a56d22-b57e-44c7-8b7d-696ec914d57c> .
 
 <4a4febfa-d725-4757-b293-19a548fa9128> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31566,17 +31566,17 @@
 
 <aa71a04b-cdb2-4c0e-a43b-a9f48c84a86b> a hemef:Classe ;
     hemef:discipline_enseignee <d64c0532-5e71-4734-9be9-05bf8d9250b8> ;
-    hemef:enseignant <26ca801b-19b4-4566-acdd-e5ffa3773ca1> ;
     hemef:observations "1915 : A concouru Piano préparatoire.",
         "1915 : A concouru Piano préparatoire ; 1916-12-02 : Rayée pour absences ; 1922 : A concouru Piano.",
-        "En 1908 est nommée auditrice - indiquer dans le statut ?  « 1908-11-28 : élève de solfège Cl. De M Massart (directeur) » – rayé par la suite " .
+        "En 1908 est nommée auditrice - indiquer dans le statut ?  « 1908-11-28 : élève de solfège Cl. De M Massart (directeur) » – rayé par la suite " ;
+    hemef:professeur <26ca801b-19b4-4566-acdd-e5ffa3773ca1> .
 
 <f77d15c4-d0cb-46f4-b3c6-a8d2ec82aaf6> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <cb2bfff0-96da-4d60-abca-10b8b2d8f00d> ;
     hemef:observations "1914 : A concouru Harmonie ; 1915 : A concouru Harmonie ; 1916 : A concouru Harmonie ; 1916 : Rayée art. 102 § 1er ; 1916-11-27 : readmise élève d'Harmonie (M. Chapuis).",
         "1922 : A concouru Harmonie ; 1924 : A concouru Harmonie.",
-        "1922 : A concouru Harmonie ; 1924 : A concouru Harmonie ; 1925 : A concouru Harmonie." .
+        "1922 : A concouru Harmonie ; 1924 : A concouru Harmonie ; 1925 : A concouru Harmonie." ;
+    hemef:professeur <cb2bfff0-96da-4d60-abca-10b8b2d8f00d> .
 
 <10e2b7af-86ea-4745-8a83-c29909355331> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31600,17 +31600,17 @@
 
 <248bd143-617c-471d-9293-e9eb0d183981> a hemef:Classe ;
     hemef:discipline_enseignee <90fd5e2b-5a95-494a-af8e-9f4128cdec98> ;
-    hemef:enseignant <0a01c292-7100-4340-b698-e29fd567884d> ;
     hemef:observations "1915 : A concouru Hautbois.",
         "Congé (Guerre) 1914-1916 et 1917-1918.",
         "Congé (Guerre) 1914-1918 ; 1919-1920 : Congé (Militaire) Hautbois.",
         "Congé (Guerre) 1914-1919.",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue ; 1921 : A concouru Hautbois." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue ; 1921 : A concouru Hautbois." ;
+    hemef:professeur <0a01c292-7100-4340-b698-e29fd567884d> .
 
 <54812749-0626-4deb-885d-d2ca24785003> a hemef:Classe ;
     hemef:discipline_enseignee <5a34ae33-8886-485e-b10e-6363c281d53a> ;
-    hemef:enseignant <c7cf392f-3eae-4687-9c8b-a969f6b07df9> ;
-    hemef:observations "1918 : Excusé examen de Juin. Piano." .
+    hemef:observations "1918 : Excusé examen de Juin. Piano." ;
+    hemef:professeur <c7cf392f-3eae-4687-9c8b-a969f6b07df9> .
 
 <9ca4598d-6ad7-4aa7-962a-a6b1779907ce> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31634,17 +31634,17 @@
 
 <bf9147ce-494f-4a90-9550-9337df6a2975> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <df4bf4e4-b18c-4244-8d74-5786e2836e10> ;
     hemef:observations "1914 : A concouru Comédie ; Congé (Guerre) 1914-1919 ; 1929-1920 : Congé (Militaire).",
         "1915 Fév. : Encouragement de 100 frs.",
         "1915 Fév. : Encouragement de 100 frs. ; 1915 : A concouru Tragédie.",
         "1915 Fév. : Encouragement de 200 frs. ; 1915 : A concouru Comédie ; 30-08-1916 : Autorisee à faire une année supplementaire.",
-        "Congé (Guerre) 1914-1915 ; 1917 : A concouru Comédie." .
+        "Congé (Guerre) 1914-1915 ; 1917 : A concouru Comédie." ;
+    hemef:professeur <df4bf4e4-b18c-4244-8d74-5786e2836e10> .
 
 <d52e478e-2998-47ac-9a43-d123cc694c03> a hemef:Classe ;
     hemef:discipline_enseignee <65f7e7db-02b6-4e4d-b21f-bad3d8f5f429> ;
-    hemef:enseignant <a00878f5-355c-4d21-b497-414cc7fb7c17> ;
     hemef:observations "1915 : Malade examen de Juin Violon ; 1916 : A concouru Violon." ;
+    hemef:professeur <a00878f5-355c-4d21-b497-414cc7fb7c17> ;
     hemef:remarques_saisie "Violon préparatoire et violon : deux classes différentes ? " .
 
 <d6ef5087-070a-46ee-9e06-5dc64e6ce9ae> a hemef:Prix ;
@@ -31681,58 +31681,57 @@
 
 <043607a1-f32a-436c-a1ad-d0640c714413> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <96dfdc43-557d-432e-b49d-dd2c8d7b5d25> ;
     hemef:observations "1914-02-05 : Bourse d'études de 600 frs. Chapitre 22 ; 1915 Fév. : Encouragement de 200 frs. ; 1915 : Malade à l'examen de Juin (Solfège, Chant, Déclamation lyrique) ; 1916-06-17 : Maintenue un an par demande du Comité d'examen, décision du Sous-Secrétaire d'Etat ; 1916-1917 : Congé d'un an. Malade ; 1917-1918 : Congé d'un an. Malade.",
         "1915 Fév. : Encouragement de 300 frs. ; 1915 : A concouru Opéra-Comique.",
         "1915 Fév. : Encouragement de 400 frs. ; 1915-1916 : Congé d'un an. Malade.",
-        "Congé (Guerre) 1914-1919." .
+        "Congé (Guerre) 1914-1919." ;
+    hemef:professeur <96dfdc43-557d-432e-b49d-dd2c8d7b5d25> .
 
 <0d1482e2-68e7-4b2b-a110-c87895ab19ee> a hemef:Classe ;
     hemef:discipline_enseignee <efad8c56-55bc-430b-87dc-949af8d9a503> ;
-    hemef:enseignant <14f28816-2263-499b-91d4-04da60ac0030> ;
     hemef:observations "1917 : A concouru Violon préparatoire.",
         "1917 : A concouru Violon.",
         "1919 : Malade examen de Mai Violon ; 1919-1920 : Congé d'un an. Malade ; 1920 : A concouru Lecture à Vue." ;
+    hemef:professeur <14f28816-2263-499b-91d4-04da60ac0030> ;
     hemef:remarques_saisie "En 1913 rayée, art. 89, § 1, puis réintégré" .
 
 <31aab98e-2484-45ef-96db-70d3760b11e7> a hemef:Classe ;
     hemef:discipline_enseignee <0d5c0e95-ad0b-494f-8ed9-b70764f580f9> ;
-    hemef:enseignant <c2e11d31-9e9c-41ae-bb6d-e105e40ee022> ;
     hemef:observations "1914 : Malade Examen de Juin ; Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
         "1918 : Excusé examen de Juin. Contrepoint ; 1919-01 : Prix de 500 fr de la Fondation Fernand Halphen ; 1919 : Excusé examen de Mai. Contrepoint ; 1921-1922 : Congé d'un an. Malade.",
         "Congé (Guerre) 1914-1915 ; 1916 : A concouru Contrepoint ; 1917 : A concouru Contrepoint.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1914-1919 ; 1922 : A concouru Fugue." .
+        "Congé (Guerre) 1914-1919 ; 1922 : A concouru Fugue." ;
+    hemef:professeur <c2e11d31-9e9c-41ae-bb6d-e105e40ee022> .
 
 <4b1c1153-6405-4c2f-b8aa-0017005dbe49> a hemef:Classe ;
     hemef:discipline_enseignee <daf64254-84fb-4624-9be4-9612f8109fdb> ;
-    hemef:enseignant <ab8e23f8-f504-45fc-afda-99f3dba1ef1f> ;
     hemef:observations "1924-1925 : Congé (Malade)",
         "Congé (Guerre) 1914-1918.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue ; 1921 : A concouru Trompette ; 1923 : A concouru Trompette." .
+        "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue ; 1921 : A concouru Trompette ; 1923 : A concouru Trompette." ;
+    hemef:professeur <ab8e23f8-f504-45fc-afda-99f3dba1ef1f> .
 
 <5600ff7d-0fde-4703-b944-83bd567d250d> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <d63cee6d-dbbc-40bf-835f-bdbfabd549aa> ;
     hemef:observations "1913 : Malade Examen Juin ; 1914 : A concouru Solfège.",
         "1915 : A concouru Solfège ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
         "1915 : A concouru Solfège.",
         "1916 : A concouru Solfège.",
-        "1916 : Dispensé du Solfège (Examen du 20 décembre)." .
+        "1916 : Dispensé du Solfège (Examen du 20 décembre)." ;
+    hemef:professeur <d63cee6d-dbbc-40bf-835f-bdbfabd549aa> .
 
 <e416ccc2-f1cf-4bf6-86e2-bea59e6ceb40> a hemef:Classe ;
     hemef:discipline_enseignee <63ce03e5-7eb2-4ce9-bc68-0546b8c34aa5> ;
-    hemef:enseignant <2d805406-ef99-4d44-8e62-b36795cfc536> ;
     hemef:observations "1913-1914 : Congé d'un an. Militaire ; Congé (Guerre) 1914-1919 ; 1919 : Janvier Prix Lepaulle ; 1919-1920 : Congé (Militaire).",
         "1923 : Malde examen de Mai.",
         "1925 : Absent Examen de Mai Composition ; 1925-1926 : Congé d'un an. Malade.",
         "Congé (Guerre) 1914-1919.",
-        "Rayée, puis réadmise deux fois" .
+        "Rayée, puis réadmise deux fois" ;
+    hemef:professeur <2d805406-ef99-4d44-8e62-b36795cfc536> .
 
 <e675887a-dd3c-4d0a-8129-858739ac658f> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <30c02049-2f7a-46b2-aacd-daba6a64832f> ;
     hemef:observations "1908-12-03 : passée à la classe de solfège de Mme Vinot",
         "1910-09-12 : passée dans le classe de Mlle Grandjean",
         "1914-02-05 : Bourse d'études de 600 frs. Chapitre 22 ; 1915 Fév. : Encouragement de 200 frs. ; 1915 : Malade à l'examen de Juin (Solfège, Chant, Déclamation lyrique) ; 1916-06-17 : Maintenue un an par demande du Comité d'examen, décision du Sous-Secrétaire d'Etat ; 1916-1917 : Congé d'un an. Malade ; 1917-1918 : Congé d'un an. Malade ; 1919 : Malade examen de Mai (Solfège, Chant).",
@@ -31742,13 +31741,14 @@
         "1915 Fév. : Encouragement de 200 frs. ; 1915 : A concouru Solfège ; 1916 : A concouru Solfège ; 1917 : Malade examen de Juin. Solfège ; 1917-1918 : Congé d'un an. Malade ; 1919-06-20 : Maintenue une année supplémentaire (décision Minist.) ; 1919 : Malade examen de Mai. Solfège.",
         "1915 Fév. : Encouragement de 200 frs. ; 1915 : A concouru Solfège ; 1916 : A concouru Solfège ; 1918 : A concouru Solfège.",
         "1915 : A concouru Solfège.",
-        "1917 : Admise à concourir Solfège. Malade ; 1917-1918 : Congé d'un an. Malade." .
+        "1917 : Admise à concourir Solfège. Malade ; 1917-1918 : Congé d'un an. Malade." ;
+    hemef:professeur <30c02049-2f7a-46b2-aacd-daba6a64832f> .
 
 <ebe96732-a1c8-4692-b9f0-d9aee2923c76> a hemef:Classe ;
     hemef:discipline_enseignee <d64c0532-5e71-4734-9be9-05bf8d9250b8> ;
-    hemef:enseignant <e95a153e-1909-42a8-af84-b94a16edc447> ;
     hemef:observations "1920 : A concouru Lecture à Vue.",
-        "1920 : A concouru Lecture à Vue ; 1923 : Aconcouru Piano." .
+        "1920 : A concouru Lecture à Vue ; 1923 : Aconcouru Piano." ;
+    hemef:professeur <e95a153e-1909-42a8-af84-b94a16edc447> .
 
 <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> a skos:Concept ;
     skos:inScheme <fd367ce2-17b1-4db4-99e1-9a4021c20ed0> ;
@@ -31756,18 +31756,18 @@
 
 <3d32c76d-f62d-4878-a7ca-5980d253403d> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <89ebbf31-3581-467c-9838-68c5e31937e9> ;
     hemef:observations "1913-1914 : Congé d'un an. Militaire ; Congé (Guerre) 1914-1919 ; 1920 :  A concouru Harmonie ; 1921 :  A concouru Harmonie.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
-        "Congé (Guerre) 1916-1919 ; 1921 : A concouru Harmonie" .
+        "Congé (Guerre) 1916-1919 ; 1921 : A concouru Harmonie" ;
+    hemef:professeur <89ebbf31-3581-467c-9838-68c5e31937e9> .
 
 <74c3d6db-35ac-4846-9e5b-6693bfe5782a> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <c8f001c9-8ced-4318-a9c5-83ab64be1d48> ;
     hemef:observations "1914 : A concouru Solfège.",
         "1914 : A concouru Solfège ; 1915 : A concouru Solfège ; 1915 : Rayée art. 89 § 1er ; 1917 : Dispensé du Solfège examen du 21 décembre.",
         "1915 : A concouru Solfège ; 1916-12-02 : Rayée pour absences.",
-        "1916 : A concouru Solfège." .
+        "1916 : A concouru Solfège." ;
+    hemef:professeur <c8f001c9-8ced-4318-a9c5-83ab64be1d48> .
 
 <7e92d9bc-247d-47b6-b031-395a292bd22f> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31796,7 +31796,6 @@
 
 <7eca0b41-c849-45e4-91a8-2b72c0f103c0> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <c7d6367d-7630-4f89-b39d-0e93954e40a4> ;
     hemef:observations "1914 : A concouru Solfège ; Congé (Guerre) 1914-1918 ; 1920 : A concouru Solfège.",
         "1914 : Malade Examen de Juin Solfège ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Solfège ; 06-11-1920 : « dispensé du Solfège (décision du Directeur) ».",
         "1914 : Malade Examen de Juin Solfège ; Congé (Guerre) 1914-1919.",
@@ -31808,17 +31807,18 @@
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Solfège.",
         "Congé (Guerre) 1915-1918.",
         "Congé (Guerre) 1916-1917.",
-        "Congé (Guerre) 1916-1918." .
+        "Congé (Guerre) 1916-1918." ;
+    hemef:professeur <c7d6367d-7630-4f89-b39d-0e93954e40a4> .
 
 <8c66fae7-f3cc-4ae1-b9ad-4f6ff5a4e2be> a hemef:Classe ;
     hemef:discipline_enseignee <3b3b04e0-c784-4646-9a6b-c7e336ade2c2> ;
-    hemef:enseignant <56a7d683-e8cf-470b-96be-18c6a30af097> ;
     hemef:observations "1914 – 20 Janv. : Encouragement de 100 frs. (chapitre 21)  ; 1915 Fév. : Encouragement de 200 frs. ; 1916 : Prix de la Sociétés des Auteurs dramatique 100 frs.",
         "1914 : A concouru Tragédie et comédie ; 1915 : Malade à l'examen de Juin déclamation dramatique.",
         "1915-1916 : Congé d'un an. Malade ; 1916-1917 : Congé d'un an. Malade.",
         "1915 : Fév. Encouragement de 100 frs. ; Congé guerre 1916-1917.",
         "Congé (Guerre) 1914-1915 ; 1916 : A concouru Comédie.",
         "Congé (Guerre) 1914-1915." ;
+    hemef:professeur <56a7d683-e8cf-470b-96be-18c6a30af097> ;
     hemef:remarques_saisie "En 1910 rayé, art. 88 ; 1910-10-21 : réadmis (jury) " .
 
 <91ca6533-6511-488e-8bb5-55baafdf6bfb> a skos:Concept ;
@@ -31856,13 +31856,13 @@
 
 <e40a8edd-de98-4919-b28e-08b0c9c06423> a hemef:Classe ;
     hemef:discipline_enseignee <5fe2b109-c35f-404e-affe-db765c9c7185> ;
-    hemef:enseignant <536e0477-0b1e-4446-a001-759333d050b1> ;
     hemef:observations "1914 : A concouru Clarinette ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue ; 1921 : A concouru Clarinette.",
         "Congé (Guerre) 1914-1918 ; 1918-1919 : Congé (Militaire) Clarinette.",
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue ; 1921 : A concouru Clarinette ; 1922 : A concouru Clarinette.",
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Lecture à vue.",
         "Congé (Guerre) 1914-1919 ; 1914 : A concouru Clarinette.",
-        "Congé (Guerre) 1915-1919 ; 1919-1920 : Congé (Militaire) ; 1920-1921 : Congé d'un an. Militaire." .
+        "Congé (Guerre) 1915-1919 ; 1919-1920 : Congé (Militaire) ; 1920-1921 : Congé d'un an. Militaire." ;
+    hemef:professeur <536e0477-0b1e-4446-a001-759333d050b1> .
 
 <8ac0c3db-79b6-473a-9d5c-783963fa0834> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b>,
@@ -31872,7 +31872,6 @@
 
 <06ccc8d6-7819-4585-86d7-3ebc4748a9bb> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <ac22604f-53bd-4077-b845-b21b671918c5> ;
     hemef:observations "1914 – 5 Févr. : Bourse d'études de 600 frs. (chapitre 22)  ; Congé (Guerre) 1914-1918 ; 1919 : Militaire examen de Mai – Solfège ; 1920 : A concouru Solfège ; 1920-11 : Dispensé de Solfège (décision du Directeur).",
         "1914-01-12 : Encouragement de 300 frs. (chapitre 21) ; 1915-02-05 : Bourse d'études de 600 frs. (chapitre 22) ; Congé (Guerre) 1914-1918 ; 1919 : Militaire examen de Mai - Solfège ; 1920 : A concouru Solfège ; 1920-1921 : Congé d'un an. Malade.",
         "1914 : Malade Examen de Juin (Solfège et Chant) ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Solfège ; 1922 : A concouru Solfège.",
@@ -31882,7 +31881,8 @@
         "1915 Fév. : Encouragement de 600 frs.",
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
         "Congé (Guerre) 1914-1919 ; 1920 : A concouru Solfège.",
-        "Congé (Guerre) 1914-1919 ; 1920-10-29 : Rayé de Solfège comme 2e Médaille." .
+        "Congé (Guerre) 1914-1919 ; 1920-10-29 : Rayé de Solfège comme 2e Médaille." ;
+    hemef:professeur <ac22604f-53bd-4077-b845-b21b671918c5> .
 
 <5d7adc4b-5fcc-471b-8d8c-cfdcf3001329> a hemef:Prix ;
     hemef:discipline_prix "Solfège" ;
@@ -31911,10 +31911,10 @@
 
 <adae20e6-409c-441a-a5f3-975040bae9f0> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <c4d62b88-d0dc-4447-a85b-864f37244a9c> ;
     hemef:observations "1914 : A concouru [Solfège]",
         "1915 : A concouru Solfège.",
         "Congé (Guerre) 1914-1915 ; 3-11-1915 : Rayée. Absente à la rentrée ; 10-10-1915 : Réintégrée (Directeur) ; Congé (Guerre) 1915-1919." ;
+    hemef:professeur <c4d62b88-d0dc-4447-a85b-864f37244a9c> ;
     hemef:remarques_saisie "Prix discipline non indiqué, mais elle est dans la classe de solfège" .
 
 <cdc4d33c-7ba5-40e9-8449-bd3e4e809d2f> a hemef:Prix ;
@@ -31944,26 +31944,25 @@
 
 <dea18eb9-8961-4cfc-8e4b-4605d5e4f9ec> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <0e18fd1c-5f3e-428c-a77e-6ba551cdd18a> ;
     hemef:observations "1914 : Malade examen de Juin Solfège ; 1917 : Malade examen de Juin Solfège ; 1917-12-21 : Dispensé du Solfège examen du 21 décembre ; 1919-1920 : Congé d'un an. Malade.",
         "1915 : A concouru Solfège.",
         "1916 : Dispensé du Solfège (Examen du 20 décembre)",
         "Congé (Guerre) 1914-1915 ; 1917 : Malade examen de Juin (Solfège et Violon) ; 1917-1918 : Congé d'un an. Malade ; Congé (Guerre) 1918-1919.",
-        "Congé (Guerre) 1914-1919." .
+        "Congé (Guerre) 1914-1919." ;
+    hemef:professeur <0e18fd1c-5f3e-428c-a77e-6ba551cdd18a> .
 
 <661f886e-1be9-4f97-8ffb-c1bdb00c9f4c> a hemef:Classe ;
     hemef:discipline_enseignee <0d5c0e95-ad0b-494f-8ed9-b70764f580f9> ;
-    hemef:enseignant <fff9a8bf-d445-4aa9-be6f-870a59b76ef6> ;
     hemef:observations "1916 : A concouru Contrepoint ; 1917 : A concouru Contrepoint ; 1920 : A concouru Fugue ; 1921 : A concouru Fugue.",
         "1918 : A concouru Contrepoint ; 1919 : A concouru Contrepoint ; 1920 : A concouru Contrepoint.",
         "1918 : A concouru Contrepoint.",
         "1920-1921 : Congé d'un an. Malade ; 1922 : A concouru Fugue ; 1923 : A concouru Fugue.",
         "1921 : Absent à l'Examen." ;
+    hemef:professeur <fff9a8bf-d445-4aa9-be6f-870a59b76ef6> ;
     hemef:remarques_saisie "Classe contrepoint et classe fugue : la même ? " .
 
 <77899735-96af-4f26-a304-79d23ac4915d> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <81eac561-b73a-4673-bd15-e146f3c7d36e> ;
     hemef:observations "1914 – 12 Janv. : Encouragement de 200 frs. (chapitre 21)  ; 1915 Fév. : Encouragement de 400 frs. ; Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 : (Solfège) et (Déclamation Lyrique) ; 1920 : A concouru Solfège ; 1920 : Rayé art. 102 § 2 ; 1920 Octobre : Maintenu un an en surnombre.",
         "1914-01-05 : Bourse de 600 frs (chapitre 22) ; Congé (Guerre) 1914-1918 ; 1919 : A concouru Solfège.",
         "1914 : Excusé Militaire Examen de Juin (Chant et Solfège) ; Congé (Guerre) 1914-1919 ; 1920 : A concouru Solfège.",
@@ -31971,18 +31970,18 @@
         "Congé (Guerre) 1914-1915.",
         "Congé (Guerre) 1914-1917 ; 1920 : A concouru Solfège.",
         "Congé (Guerre) 1914-1918 ; 1919 : A concouru Solfège.",
-        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." .
+        "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire)." ;
+    hemef:professeur <81eac561-b73a-4673-bd15-e146f3c7d36e> .
 
 <8f921677-d4fd-4553-849f-706190f49ffe> a hemef:Classe ;
     hemef:discipline_enseignee <d64c0532-5e71-4734-9be9-05bf8d9250b8> ;
-    hemef:enseignant <72a5ddbe-0698-48cb-bb1d-80a2c7921090> ;
     hemef:observations "1914 : A concouru Piano préparatoire ; 1915 : A concouru Piano préparatoire.",
         "1915 : A concouru Piano préparatoire ; 1916 : Rayée art. 102 § 2 ; 1920 : A concouru lecture à vue ; 1922 : A concouru Piano." ;
+    hemef:professeur <72a5ddbe-0698-48cb-bb1d-80a2c7921090> ;
     hemef:remarques_saisie "Pour discipline  prix : indiqué seulement piano mais elle était toujours en préparatoire" .
 
 <cf681eb0-ff2f-4f2d-8946-ededdbcb70e8> a hemef:Classe ;
     hemef:discipline_enseignee <c55641cd-69a2-4950-b7dd-b5e15d0b5f8d> ;
-    hemef:enseignant <8116cf83-81c1-482d-a762-e66f2c0c3d9a> ;
     hemef:observations "1909-12-02 : Rayé sur sa demande de chez M. Melchissédec1910-01-00 : passée à la classe de M. Dupeyron",
         "1911-03-09 : passée à la classe de M. Dupeyron",
         "1914 – 12 Janv. : Encouragement de 200 frs. (chapitre 21)  ; 1915 Fév. : Encouragement de 400 frs. ; Congé (Guerre) 1915-1918 ; Congé (Guerre) 1918-1919 : (Solfège) et (Déclamation Lyrique) ;1920 : Rayé art. 102 § 2 ; 1920 Octobre : Maintenu un an en surnombre.",
@@ -31991,11 +31990,11 @@
         "1916 : Rayé art.  102 § 2 ; 1917 : Rayé art.  102 § 2.",
         "1917 : Malade examen de Juin. Déclamation lyrique ; 1917-1918 : Congé d'un an. Malade ; 1919 : admise à concourir Déclamation lyrique. Malade.",
         "1917 : Rayé art. 102 § 2 ; 1917-1918 : Autorisé à faire une année supplémentaire ; 1918 : A concouru Déclamation lyrique. ",
-        "1919-06-20 : Maintenue une année supplémentaire (décision Minist.)." .
+        "1919-06-20 : Maintenue une année supplémentaire (décision Minist.)." ;
+    hemef:professeur <8116cf83-81c1-482d-a762-e66f2c0c3d9a> .
 
 <827b7e94-2397-4c4e-b116-2daf39222ff6> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <fa8dd60a-1611-4117-aee8-c893578f0ddd> ;
     hemef:observations "1914 : A concouru Solfège.",
         "1914 : A concouru Solfège ; 1915 : A concouru Solfège ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
         "1914 : A concouru Solfège ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
@@ -32003,26 +32002,27 @@
         "1914 : Malade Examen de Juin ; Congé (Guerre) 1915-1917 ; 1917-10 : Rayée pour absences ; 1922-01-07 (Retablie comme ayant été maintenue en Russie).",
         "1914 : Malade Examen de Juin.",
         "1917-10-14 : Dispensée du Solfège (décision de M. le Directeur)." ;
+    hemef:professeur <fa8dd60a-1611-4117-aee8-c893578f0ddd> ;
     hemef:remarques_saisie "En 1910 Rayé du solfège, art. 89 § ;  1910-10-00 maintenue par décision du Secrétaire General " .
 
 <9cb79cdd-cae0-47dd-9f96-028c97915544> a hemef:Classe ;
     hemef:discipline_enseignee <d932340a-05d2-4476-8569-d1468411c9fc> ;
-    hemef:enseignant <2e1fa226-e1f6-4a82-bec2-eb73e3721158> ;
     hemef:observations "1913 : A concouru Harmonie ; 1913-1914 : Congé d'un an. Militaire ; Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
         "1913 : A concouru Harmonie ; 1913-1914 : Congé d'un an. Militaire ; Congé (Guerre) 1914-1919 ; 1921 : Admis à concourir Harmonie. Malade.",
         "1913 : A concouru Harmonie ; 1914 : A concuru Harmonie ; Congé (Guerre) 1914-1919.",
         "1914 : Malade Examen de Juin ; Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire).",
         "1919-11-14 passé à la classe d'harmonie M. Ballier",
-        "En 1910 rentrée passé à la classe de M. Lavignac" .
+        "En 1910 rentrée passé à la classe de M. Lavignac" ;
+    hemef:professeur <2e1fa226-e1f6-4a82-bec2-eb73e3721158> .
 
 <eed91cd0-c090-4c44-b2f2-f6dd10fbefff> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <631cda7b-742d-49c5-9819-f5bc0bbca78b> ;
     hemef:observations "1913 : Admise à concourir Solfège. Malade.",
         "1914 : A concouru Solfège.",
         "1915-01-08 : Démissionaire (Solfège) ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
         "1915 : A concouru Solfège ; 1916 : A concouru Solfège.",
-        "Cuignache intérimaire" .
+        "Cuignache intérimaire" ;
+    hemef:professeur <631cda7b-742d-49c5-9819-f5bc0bbca78b> .
 
 <a71af870-07ae-4a22-abab-5d2aa51ecfeb> a skos:Concept ;
     skos:broader <0c1b805c-eaef-4b41-bea7-6ad626b9031b> ;
@@ -32091,7 +32091,6 @@
 
 <16998358-28ec-4ccb-b4b7-83b623d97f48> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <a72972dc-ad38-44cd-8a00-a467c16974a3> ;
     hemef:observations "1913 : A concouru Solfège.",
         "1914 : A concouru Solfège.",
         "1914 : A concouru Solfège.",
@@ -32100,7 +32099,8 @@
         "1915 : Malade examen de Juin. Solfège ; 1915 : Dispensé du Solfège (Examen du 8 décembre)",
         "1915 : A concouru Solfège ; 1915 : Dispensé du Solfège (Examen du 8 décembre).",
         "1916 : A concouru Solfège.",
-        "1917 : Dispensée du Solfège, examen du 21 décembre." .
+        "1917 : Dispensée du Solfège, examen du 21 décembre." ;
+    hemef:professeur <a72972dc-ad38-44cd-8a00-a467c16974a3> .
 
 <de04fe70-e256-4e7e-8799-79dacdc562ce> a skos:ConceptScheme ;
     dcterms:title "Pays" ;
@@ -32168,7 +32168,6 @@
 
 <690afec7-c1cf-4e9a-bf9a-84249258e05f> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <b20b8f49-80ff-4766-b8bf-cbed1cf59b19> ;
     hemef:observations "1910-10-04 : passé à la classe de solfège de M. Schvartz",
         "1914 : A concouru Solfège.",
         "1916 : A concouru Solfège ; 1916 : Dispensé du Solfège (Examen du 20 décembre).",
@@ -32176,7 +32175,8 @@
         "Congé (Guerre) 1914-1919 ; 1919-1920 : Congé (Militaire) Cornet à pistons ; 1920 : A concouru Solfège.",
         "Congé (Guerre) 1914-1919.",
         "Congé (Guerre) 1914-1919 ; 29-10-1920 : Dispensé du Solfège comme 3e Médaille.",
-        "Congé (Guerre) 1916-1919 ; 1920 : A concouru Solfège ; 1923 : A concouru Solfège." .
+        "Congé (Guerre) 1916-1919 ; 1920 : A concouru Solfège ; 1923 : A concouru Solfège." ;
+    hemef:professeur <b20b8f49-80ff-4766-b8bf-cbed1cf59b19> .
 
 <e7faafb4-8c80-4392-a6f2-051e4d34d773> a hemef:Classe ;
     hemef:discipline_enseignee <81806736-d491-4916-98e5-46e6b6ee710b> ;
@@ -32228,7 +32228,6 @@
 
 <d3282878-080c-4ed2-a1ae-4bfe62b48f3e> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <85d76290-6acd-495f-91e4-30f9f6c9a9f3> ;
     hemef:observations "1914 : A concouru Solfège ; 1915 : A concouru  Solfège ; 1915 : Dispensée du Solfège (Examen du 8 décembre).",
         "1914 : Malade Examen de Juin (Solfège).",
         "1914 : Malade Examen de Juin (Solfège) ; Congé (Guerre) 1914-1918.",
@@ -32238,7 +32237,8 @@
         "1919 : Rayé art. 102 § 2.",
         "Congé (Guerre) 1914-1918 ; 1920 : A concouru Solfège.",
         "Congé (Guerre) 1914-1919 ; 1920 : Dispensé du Solfège comme 3e Médaille.",
-        "intérminaire" .
+        "intérminaire" ;
+    hemef:professeur <85d76290-6acd-495f-91e4-30f9f6c9a9f3> .
 
 <fd367ce2-17b1-4db4-99e1-9a4021c20ed0> a skos:ConceptScheme ;
     dcterms:title "Discipline_Classes" ;
@@ -32278,7 +32278,6 @@
 
 <bf3fee0f-11e0-4b1f-8207-2d370691bd73> a hemef:Classe ;
     hemef:discipline_enseignee <61919ee2-76e2-47ad-825b-b667b30b989d> ;
-    hemef:enseignant <658d0c14-6c8d-4ef2-9cab-9d1d3584f949> ;
     hemef:observations "1914 : Malade Examen de Juin (Solfège et Chant) ; 1915 Fév. : Encouragement de 200 frs.",
         "1915 : A concouru Solfège.",
         "1915 : A concouru Solfège ; 1917 : A concouru Solfège.",
@@ -32289,7 +32288,8 @@
         "1916-1917 : Congé d'un an. Malade.",
         "Congé (Guerre) 1914-1915 ; 1915-1916 : Congé d'un an. Malade.",
         "Cuignache intérimaire",
-        "intérminaire Cuignache" .
+        "intérminaire Cuignache" ;
+    hemef:professeur <658d0c14-6c8d-4ef2-9cab-9d1d3584f949> .
 
 <b1cab6dc-f932-461e-9c1f-c006af3fc5d8> a skos:ConceptScheme ;
     dcterms:title "Departements" ;

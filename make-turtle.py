@@ -439,7 +439,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # creation des Pays
         if pandas.notna(row["eleve_pays_naissance"]):
             uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
-        else :
+        else:
             uriPays = pays[row["eleve_pays_naissance"]]
         g.add(
             (
@@ -697,8 +697,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-            #Checker si dans dico discipline si oui on lit à l'UUID sinon on créer une discipline, pas de lien à une string
-            #voir avant avec Marie si distinction avec les disciplines de classes
+            # Checker si dans dico discipline si oui on lit à l'UUID sinon on créer une discipline, pas de lien à une string
+            # voir avant avec Marie si distinction avec les disciplines de classes
             if (pandas.notna(row["prix_discipline"])):
                 g.add(
                     (
@@ -814,7 +814,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 g.add(
                     (
                         URIRef(uriClasse),
-                        URIRef(HEMEF['enseignant']),
+                        URIRef(HEMEF['professeur']),
                         URIRef(professeur[Prof])
                     )
                 )
