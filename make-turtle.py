@@ -73,6 +73,7 @@ departement = {}
 pays = {}
 eleves = {}
 # cursus = {}
+metiers = {}
 prix = {}
 parcours_classe = {}
 discipline = {}
@@ -87,6 +88,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes", 'Villes')
         ConceptSchemes['Departement'] = générer_uuid("ConceptSchemes", 'Departement')
         ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes", 'Pays')
+        ConceptSchemes['Métiers'] = générer_uuid("ConceptSchemes", 'Métiers')
 
         if (pandas.notna(row["eleve_ville_naissance "])):
             villes[row["eleve_ville_naissance "].strip().capitalize()] = générer_uuid("villes", row["eleve_ville_naissance "].strip().capitalize())
@@ -131,6 +133,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         ConceptSchemes['Disciplines'] = générer_uuid("ConceptSchemes", 'Disciplines')
         # ConceptSchemes['Classes'] = générer_uuid("ConceptSchemes", 'Classes')
 
+        if ((pandas.notna(row['eleve_profession_pere']))):
+            metiers[row['eleve_profession_pere'].strip().capitalize()] = générer_uuid('Métiers', row['eleve_profession_pere'].strip().capitalize())
+        
+        if ((pandas.notna(row['eleve_profession_mere']))):
+            metiers[row['eleve_profession_mere'].strip().capitalize()] = générer_uuid('Métiers', row['eleve_profession_mere'].strip().capitalize())
+
         if ((pandas.notna(row['classe_discipline']))):
             discipline[row['classe_discipline'].strip().capitalize()] = générer_uuid('Disciplines', row['classe_discipline'].strip().capitalize())
 
@@ -164,22 +172,22 @@ g.add(
     )
 )
 
-# #Classes
-# g.add(
-#     (
-#         URIRef(ConceptSchemes['Classes']),
-#         URIRef(is_a),
-#         URIRef(SKOS.ConceptScheme)
-#     )
-# )
+g.add(
+    (
+        URIRef(ConceptSchemes['Métiers']),
+        URIRef(is_a),
+        URIRef(SKOS.ConceptScheme)
+    )
+)
 
-# g.add(
-#     (
-#         URIRef(ConceptSchemes['Classes']),
-#         URIRef(SKOS.prefLabel),
-#         Literal('Classes')
-#     )
-# )
+g.add(
+    (
+        URIRef(ConceptSchemes['Métiers']),
+        URIRef(DCTERMS.title),
+        Literal('Métiers')
+    )
+)
+
 
 NoeudVilles = ConceptSchemes['Villes']
 NoeudDepartement = ConceptSchemes['Departement']
@@ -231,7 +239,7 @@ g.add(
 
 ################################################################################
 ################################################################################
-# debug_eleve_sans_pc = {}
+
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8').iterrows():
     if row["identifiant_1"] in lignes_pourries_à_ne_pas_traiter:
@@ -342,21 +350,85 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             )
 
         # Creation des métiers parents
-        if (str(row["eleve_profession_pere"]) != 'nan' and (str(row["eleve_profession_pere"]) != 'NaN')):
+        if pandas.notna(row["eleve_profession_pere"]):
+            profession_pere = str(row["eleve_profession_pere"]).strip().capitalize()
+            g.add(
+                (
+                    URIRef(metiers[profession_pere]),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(metiers[profession_pere]),
+                    URIRef(SKOS.inScheme),
+                    URIRef(ConceptSchemes['Métiers'])
+                )
+            )
+            g.add(
+                (
+                    URIRef(ConceptSchemes['Métiers']),
+                    URIRef(SKOS.hasTopConcept),
+                    URIRef(metiers[profession_pere])
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(metiers[profession_pere]),
+                    URIRef(SKOS.prefLabel),
+                    Literal(profession_pere)
+                )
+            )
+
             g.add(
                 (
                     URIRef(uriEleve),
                     URIRef(HEMEF["profession_pere"]),
-                    Literal(row["eleve_profession_pere"])
+                    URIRef(metiers[profession_pere])
                 )
             )
 
-        if (str(row["eleve_profession_mere"]) != 'nan' and (str(row["eleve_profession_mere"]) != 'NaN')):
+        if pandas.notna(row["eleve_profession_mere"]):
+            profession_mere = row["eleve_profession_mere"].strip().capitalize()
+            g.add(
+                (
+                    URIRef(metiers[profession_mere]),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(metiers[profession_mere]),
+                    URIRef(SKOS.inScheme),
+                    URIRef(ConceptSchemes['Métiers'])
+                )
+            )
+            g.add(
+                (
+                    URIRef(ConceptSchemes['Métiers']),
+                    URIRef(SKOS.hasTopConcept),
+                    URIRef(metiers[profession_mere])
+                )
+            )
+
+            g.add(
+                (
+                    URIRef(metiers[profession_mere]),
+                    URIRef(SKOS.prefLabel),
+                    Literal(profession_mere)
+                )
+            )
+
             g.add(
                 (
                     URIRef(uriEleve),
                     URIRef(HEMEF["profession_mere"]),
-                    Literal(row["eleve_profession_mere"])
+                    URIRef(metiers[profession_mere])
                 )
             )
 
@@ -780,21 +852,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             id_classe = Discipline
             uriClasse = classe[id_classe]
         if uriClasse:
-            # g.add(
-            #     (
-            #         URIRef(uriClasse),
-            #         URIRef(SKOS.inScheme),
-            #         URIRef(ConceptSchemes['Classes'])
-            #     )
-            # )
-
-            # g.add(
-            #     (
-            #         URIRef(ConceptSchemes['Classes']),
-            #         URIRef(SKOS.hasTopConcept),
-            #         URIRef(uriClasse)
-            #     )
-            # )
             g.add(
                 (
                     URIRef(uriClasse),
@@ -802,14 +859,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     URIRef(HEMEF['Classe'])
                 )
             )
-            # nom_classe = Discipline + ", " + Prof
-            # g.add(
-            #     (
-            #         URIRef(uriClasse),
-            #         URIRef(SKOS.prefLabel),
-            #         Literal(nom_classe)
-            #     )
-            # )
             if pandas.notna(row['classe_nom_professeur']):
                 g.add(
                     (
@@ -818,14 +867,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         URIRef(professeur[Prof])
                     )
                 )
-            # else :
-            #     g.add(
-            #         (
-            #             URIRef(uriClasse),
-            #             URIRef(HEMEF['enseignant']),
-            #             Literal("Professeur Anonyme")
-            #         )
-            #     )
 
             g.add(
                 (
