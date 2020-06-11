@@ -639,14 +639,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     )
                 )
 
-        # Gestion des cursus ---> maintenant associés aux eleves
-        # g.add(
-        #     (
-        #         URIRef(cursus[row['identifiant_1']]),
-        #         URIRef(is_a),
-        #         URIRef(HEMEF["Cursus"])
-        #     )
-        # )
         if (pandas.notna(row["cursus_motif_admission"])):
             g.add(
                 (
@@ -705,16 +697,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        # Relation Eleve - Cursus
-
-        # g.add(
-        #     (
-        #         URIRef(eleves[row['identifiant_1']]),
-        #         URIRef(HEMEF["a_pour_cursus"]),
-        #         URIRef(cursus[row['identifiant_1']])
-        #     )
-        # )
-
         # Gestion des prix
         uriPrix = None
         if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
@@ -752,12 +734,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
 
             # gYeat represents a specific calendar year. The letter g signifies "Gregorian." The format of xsd:gYear is CCYY
-            if isinstance(row["prix_date"], datetime.datetime):
+            if (len(str(row["prix_date"]).strip()) == 4 ):
                 g.add(
                     (
                         URIRef(uriPrix),
                         URIRef(HEMEF['année_prix']),
-                        Literal(row["prix_date"].year(), datatype=XSD.gYear)
+                        Literal(row["prix_date"], datatype=XSD.gYear)
                     )
                 )
             else:

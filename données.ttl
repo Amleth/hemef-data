@@ -8,16 +8,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <00225754-b48f-42eb-88b9-b1e15d6ce971> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 2 - 1921 : Flûte" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <b731e0e3-e2f3-473d-9f57-e891237d6b7f> ;
     hemef:type_prix "Conservatoire" .
 
 <00270a2f-e3c8-47ee-991a-9ce0f173e94f> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Médaille 2 - 1919 : Solfège" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <00a15dc5-9226-4c9a-abe3-604220e3e95a> ;
@@ -45,16 +45,16 @@
     hemef:hypothèse_date_sortie "1915-00-00" .
 
 <00a29916-fc1a-4560-a9ef-6322da7d5e64> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Hautbois" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <986ecbca-1b68-4f1f-acfa-9307aa5153fe> ;
     hemef:type_prix "Conservatoire" .
 
 <00c51f74-cc1f-427c-a04f-741f84b62cd6> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 2 Rappel - 1918 : Harmonie" ;
     hemef:nom_prix "Prix 2 Rappel" ;
     hemef:recompense_parcours <ca712dfa-796c-4b22-bacc-3bc4c49f09c4> ;
@@ -201,8 +201,8 @@
     hemef:sexe "Homme" .
 
 <0410f26c-6527-4bd4-b655-c17641a152d7> a hemef:Prix ;
+    hemef:année_prix "1925"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1925 ;
     hemef:intitule "Accessit 1 - 1925 : Composition" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <761d3cb7-577e-4344-9cb7-d596efd60e66> ;
@@ -246,8 +246,8 @@
     hemef:recompense_parcours <1622eb72-fa7c-40a4-82c5-294885912a24> .
 
 <053faaf8-82a0-4dea-96b0-8964fc20a675> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <ac829507-c430-4d82-b60b-b08c6c2577d8> ;
@@ -323,8 +323,8 @@
     hemef:nom_professeur "Gigout" .
 
 <06b9f821-8bc6-4b19-af6b-ad6b545994fb> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1918 : Piano" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <2b2aa15a-a4bc-4d08-8a18-62057547e042> ;
@@ -350,8 +350,8 @@
     hemef:sexe "Femme" .
 
 <0720cf03-f89f-40e7-9b4a-9d7bceac7f8e> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Chant" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <e0d2347d-3a22-4fb2-81c0-f81e680f3012> ;
@@ -419,16 +419,16 @@
     hemef:recompense_parcours <2ca9a8de-f611-48e1-ac5f-0ad3160b323b> .
 
 <0911d906-f208-4fa7-98cc-bf633cbc4a95> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Contrebasse" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <4bc341f9-9cc1-4aa6-8ea5-97d077a53254> ;
     hemef:type_prix "Conservatoire" .
 
 <092ff0fd-bbe6-43aa-9308-d049b999ed23> a hemef:Prix ;
+    hemef:année_prix "1925"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1925 ;
     hemef:intitule "Accessit 1 - 1925 : Contrebasse" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <b532707a-ec98-4e7f-844b-b03fc4f7f06e> ;
@@ -445,8 +445,8 @@
     hemef:nom_professeur "Lorrain" .
 
 <094b0620-3cea-4166-b915-3eacd6b701c3> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Harmonie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <a450235d-4f96-4eab-8b2b-be7a3e98fa13> ;
@@ -461,8 +461,8 @@
     hemef:observations_eleve "En 1909 a concouru, opéra-comique ; [Motif de sortie : démission du conservatoire]" .
 
 <09d951dd-3f09-4a6a-9fb5-b10ea6888783> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Harmonie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <a450235d-4f96-4eab-8b2b-be7a3e98fa13> ;
@@ -483,8 +483,8 @@
     hemef:sexe "Femme" .
 
 <0a761ffb-34fa-4f42-9303-4cbe9502e0b3> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Clarinette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <8b7ce722-6325-44b3-8e4e-eca331099878> ;
@@ -498,8 +498,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <0aec4e36-be78-4658-86d5-02847c6bdf89> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 2 - 1919 : Violon" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <f5a7edc7-0c39-4bd2-9499-7b0759c994e9> ;
@@ -569,8 +569,8 @@
     hemef:nom_professeur "Marcon" .
 
 <0c79f3eb-d731-4a7c-bafa-148443504b36> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix d'Honneur - 1918 : Piano" ;
     hemef:nom_prix "Prix d'Honneur" ;
     hemef:recompense_parcours <31d5efc9-a7f9-4391-a7d0-976844d55a96> ;
@@ -640,8 +640,8 @@
     hemef:recompense_parcours <60436156-c4ba-4ea1-bfe3-1cce5f227c14> .
 
 <0d27db05-7c75-459f-b2ff-054f50c37f4a> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Flûte" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <b731e0e3-e2f3-473d-9f57-e891237d6b7f> ;
@@ -678,8 +678,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <0daa62e6-b2a0-49b5-92b4-146a60476d9c> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1917 : Contrebasse" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <4bc341f9-9cc1-4aa6-8ea5-97d077a53254> ;
@@ -694,8 +694,8 @@
     hemef:observations_eleve "[motif sortie : décédé] " .
 
 <0dff9ae2-5934-4039-b0d3-acf32614ee2c> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Histoire de la musique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <58bdf525-fd55-489c-afe3-b6a26cd8e278> ;
@@ -747,8 +747,8 @@
     hemef:hypothèse_date_sortie "1920-00-00" .
 
 <0f759576-097c-46a5-8fc1-e8e1767c12f1> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Hautbois" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <986ecbca-1b68-4f1f-acfa-9307aa5153fe> ;
@@ -805,8 +805,8 @@
     hemef:professeur <80829cb1-1648-4460-a687-815d4150076c> .
 
 <10f80a95-dd99-4c8d-af01-8604fe8547b9> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Direction d'orchestre" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Prix 2 - 1924 : Direction d'Orchestre" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <b6e274c6-b36a-49a0-ab77-119b9972ffd9> ;
@@ -841,8 +841,8 @@
     hemef:observations_eleve " [Motif de sortie : rayé du conservatoire]" .
 
 <116c1484-d5ae-4310-9a14-afa6eed1f006> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1920 : Clarinette" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <93902089-71ac-4419-909e-84c95ce78c4e> ;
@@ -878,16 +878,16 @@
     hemef:sexe "Femme" .
 
 <12b50ee5-ce82-4945-9ac6-bbbc89d0ad9a> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 2 - 1918 : Violon" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <8b35999e-0fb0-4421-baeb-a96715bdd0bf> ;
     hemef:type_prix "Conservatoire" .
 
 <12c29a86-40b3-4f90-bd9f-327b7755c800> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1920 : Harmonie" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <3a39321b-49b0-4d8a-bd2b-28917d5b0b3d> ;
@@ -928,16 +928,16 @@
     hemef:nom_professeur "Monnet, paul" .
 
 <131847a9-5a82-4f65-89d0-53b77a6d4d30> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Histoire et littérature dramatique" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Histoire et Littérature dramatique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <931ad60c-d4c4-452b-8e3a-176fd1db762e> ;
     hemef:type_prix "Conservatoire" .
 
 <131b1e3b-0610-4994-8174-426dd771c9e7> a hemef:Prix ;
+    hemef:année_prix "1913"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1913 ;
     hemef:intitule "Médaille 3 - 1913 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <d708f999-3fec-44a1-a0a6-e67884708a5f> ;
@@ -960,8 +960,8 @@
     hemef:motif_sortie "Démissionnaire" .
 
 <139ebfd9-d9d6-4d10-8d7c-7e3b6649e226> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Flûte" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <166201fe-80f2-431d-9373-8a18fc36bdbb> ;
@@ -995,8 +995,8 @@
     hemef:sexe "Homme" .
 
 <13e9f6f0-40df-4967-b257-dc8aaf032249> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <c4ebb367-65e9-426a-b895-a386fb05ff84> ;
@@ -1062,8 +1062,8 @@
     hemef:observations_eleve "En 1908 : Malade examen de chant ; En 190-01-28 et 1910-02-03 : encouragement de 200 [f], chapitre 16 ; En 1909 a concouru, chant ; [Motif de sortie : rayé du conservatoire]" .
 
 <15b4a97b-c5bb-4cac-9249-3f4ec332c8e9> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Tragédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <bc30fe98-4a3a-4a45-b96a-14864563195f> ;
@@ -1134,16 +1134,16 @@
     hemef:nom_professeur "Cuignache intérimaire" .
 
 <17c892e8-b2e0-463c-bc3d-ce26b15fa896> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 Rappel - 1920 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2 Rappel" ;
     hemef:recompense_parcours <9db8d3c2-6a39-46f5-a721-de3dc5d95bb1> ;
     hemef:type_prix "Conservatoire" .
 
 <182d40b0-170f-4a90-8123-878ee0b8314b> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Orgue" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Orgue" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <d96e0bfd-a63f-4bec-8fab-660ddcb7aefa> ;
@@ -1179,8 +1179,8 @@
     hemef:recompense_parcours <2ca9a8de-f611-48e1-ac5f-0ad3160b323b> .
 
 <187280c0-8ba4-413f-9495-2612e1a73a90> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Fugue" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 2 - 1921 : Fugue" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <97e184b9-5b04-4e21-b43a-45cf765e20bc> ;
@@ -1269,8 +1269,8 @@
     hemef:recompense_parcours <1c7facf4-3cd0-479b-9386-557555c5418a> .
 
 <1a7b9274-a95c-4b10-a416-554c4301ddf2> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Tragédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <c8ae0948-d3c6-4e20-b0ca-393b00f978a5> ;
@@ -1319,8 +1319,8 @@
     hemef:observations_eleve "En 1913 a concouru, harpe chromatique  [Motif de sortie : démissionné du conservatoire]" .
 
 <1b40d549-4ab3-4e81-889d-a72e10fba71c> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1916 : Violoncelle" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <02ecbfdf-12af-44ad-8d0d-19613cdaa3b3> ;
@@ -1442,8 +1442,8 @@
     hemef:sexe "Femme" .
 
 <1d2b3326-ff4e-475c-922b-fd67f30eadae> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Violoncelle" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <d3f546f9-bea9-4f9f-817a-aa972f0fb010> ;
@@ -1488,8 +1488,8 @@
     hemef:observations_eleve "En 1908 malade examen juin (solfège) ; en 1909 a concouru solfège ; [Motif de sortie : démission du conservatoire]" .
 
 <1d9a74b1-0e9a-47a8-ba73-e3967709ed47> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 1 - 1922 : Piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <f203fbc8-7301-4e11-bcd9-20eccbc25a8b> ;
@@ -1591,8 +1591,8 @@
     hemef:sexe "Homme" .
 
 <1f8368db-bf18-4761-bb8f-c89b2b953c36> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Harmonie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <4fef28f6-19cd-4c0e-82f2-6acc201ee50c> ;
@@ -1648,8 +1648,8 @@
     hemef:sexe "Homme" .
 
 <20ddd82f-01ca-47aa-886e-e62130133c46> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Basson" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <24357ccd-9466-412d-aac9-cc002cf1a18b> ;
@@ -1663,8 +1663,8 @@
     hemef:recompense_parcours <e6c221ca-0762-4685-ac46-c7faf9c63be5> .
 
 <210fa907-4aa3-4853-9a4c-da02f8ef81a8> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Fugue" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 2 - 1918 : Fugue" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <27020a31-f67f-4eeb-91bd-a1c30d725e12> ;
@@ -1719,8 +1719,8 @@
     hemef:motif_sortie "Mort pour la Patrie" .
 
 <225991e2-f6db-480b-917c-d8b7c59cda43> a hemef:Prix ;
+    hemef:année_prix "1927"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1927 ;
     hemef:intitule "Prix 1  - 1927 : Composition" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_eleve <2790934e-2803-4eec-aaf7-7f65bf7aebfe> ;
@@ -1741,8 +1741,8 @@
     hemef:recompense_parcours <72a5ae49-13e0-4995-a90c-5b151bc41ae6> .
 
 <235aa71a-31a7-48a8-ba0d-787f5ec9200a> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 1 - 1919 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <8f0e51df-ea7d-4a09-ba8b-e5a91983e84c> ;
@@ -1775,24 +1775,24 @@
     hemef:sexe "Homme" .
 
 <23a460dd-56c4-4c8c-bd6a-a8a40437a24c> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Alto" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <f203e5b1-058c-44f7-b3a8-f1c8414e5363> ;
     hemef:type_prix "Conservatoire" .
 
 <23fc7a26-8e13-4157-bf49-39be284d8d85> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Flûte" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <48c953d3-a044-47d5-9db1-21c1a5b411d4> ;
     hemef:type_prix "Conservatoire" .
 
 <2418e6ee-a83a-4ad7-adec-3be0e72aa7d4> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Prix 2 - 1923 : Harmonie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <9c2fe332-c2c2-4fb4-928c-e44adffd45d9> ;
@@ -1822,8 +1822,8 @@
     hemef:sexe "Homme" .
 
 <255ca561-0557-4527-9b50-538edff15c4f> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1917 : Chant" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <d6bd81bd-bc8f-43e1-bb02-68ffd298d14d> ;
@@ -1999,8 +1999,8 @@
     hemef:recompense_parcours <f0b10f1b-d006-4acc-a56a-fedb07f390fc> .
 
 <27733b95-f2aa-45ce-8027-6b06eda642c5> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 2 - 1921 : Basson" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <fae9afa2-abf8-4003-9619-2cb91cbe69ad> ;
@@ -2057,8 +2057,8 @@
     hemef:sexe "Homme" .
 
 <28986a15-10b5-48fb-bd98-e4d237bda50c> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 1 - 1918 : Piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <35d5c191-829d-4134-b633-71761273fedc> ;
@@ -2120,8 +2120,8 @@
     hemef:sexe "Homme" .
 
 <2ae1acc0-8dcf-412a-8778-738314ed1129> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Médaille 3 - 1918 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <73a17a5b-3e27-4920-b2c1-4cd0edb9f462> ;
@@ -2174,8 +2174,8 @@
     hemef:observations_eleve "En 1909 et 1910 a concouru piano préparatoire ; [Motif de sortie :  1er prix piano]" .
 
 <2b8ed835-b073-4dae-9597-2761b130517b> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Accompagnement au piano" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Accompagnement au piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <b2f811dc-151a-4bac-ab03-3a5406c06f65> ;
@@ -2211,8 +2211,8 @@
     hemef:observations_eleve "En 1915 et 1916 a concouru violon ; [Motif de sortie solfège:  1e médaille ; motif sortie violon : rayé du conservatoire]" .
 
 <2c91f041-c8b2-4894-84c7-92ce6d1cd675> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Basson" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <bec916cb-07ec-4f66-a71f-dc5a57b0d8bb> ;
@@ -2351,16 +2351,16 @@
     hemef:observations_eleve "1908-12-02 : encouragement de 30 [f], chapitre 17 ; En 1909 malade examen de juin ; [Motif de sortie : rayé du conservatoire]" .
 
 <2eabc535-a3c0-4cbd-be59-a5aaac38b866> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Médaille 1 - 1917 : Piano" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <945f66a9-c4cf-4caf-bb11-6ffcae6af3d4> ;
     hemef:type_prix "Conservatoire" .
 
 <2eedb2e4-febd-4c57-b7c3-1d1c68541c51> a hemef:Prix ;
+    hemef:année_prix "1926"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1926 ;
     hemef:intitule "Prix 1  - 1926 : Contrebasse" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <b532707a-ec98-4e7f-844b-b03fc4f7f06e> ;
@@ -2398,8 +2398,8 @@
     hemef:recompense_parcours <006f6368-fc06-4052-9b4c-f73ebec63fb1> .
 
 <30d5af54-f33b-421f-99e0-be186a1e773c> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Clarinette" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <d0ed0b63-5daa-46ed-826d-7ea922664849> ;
@@ -2454,8 +2454,8 @@
     hemef:motif_sortie "Mort pour la Patrie" .
 
 <321b26e3-a09b-4dc4-a0f8-63aab302933f> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Clarinette" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <1f8cc343-5883-407c-8270-7d1ce9144906> ;
@@ -2470,8 +2470,8 @@
     hemef:motif_sortie "Rayé art. 86 § 1er" .
 
 <3260009b-e2ec-449a-8c1f-6be8e75e2a7f> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 1 - 1922 : Alto" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <1663f1c7-f0ce-4359-aeac-d0056c938bf3> ;
@@ -2501,8 +2501,8 @@
     hemef:type_prix "Conservatoire" .
 
 <32a4a408-22a5-4689-9b40-840c417dd7ea> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 2 - 1922 : Comédie et drame" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <bba6f039-7747-4732-b7b3-75b2aa624dd6> ;
@@ -2577,8 +2577,8 @@
     hemef:nom_professeur "Sujol" .
 
 <33ac9a64-f8c7-41ab-9c4a-c7401daa5e15> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harpe" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Harpe" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <cafe06c1-ed4f-4b96-aa07-6310a1478393> ;
@@ -2595,16 +2595,16 @@
     hemef:hypothèse_date_sortie "1916-00-00" .
 
 <34c5c32b-b895-40be-b48a-9672266857a9> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Alto" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <a0ef0c8c-3c49-45a2-81bd-3e18b89fd10e> ;
     hemef:type_prix "Conservatoire" .
 
 <34ce8220-7723-4242-97a6-2695dc93ebea> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Fugue" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 1 - 1918 : Fugue" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <965c8b08-1b02-4998-b66d-c183131150e7> ;
@@ -2637,8 +2637,8 @@
     hemef:hypothèse_date_sortie "[1917-00-00]" .
 
 <35a8fddf-7ede-4722-ac03-d5d7dcf42a55> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Comédie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <73e965de-bcb1-4dec-ad03-70f753550570> ;
@@ -2652,8 +2652,8 @@
     hemef:observations_eleve "En 1911-1913  congé service militaire ; en 1914 malade examen de Juin ; en 1914-1919  congé (guerre) ; en 1919-1920 congé (militaire) ; [Motif sortie : rayé du conservatoire]" .
 
 <36540f18-a316-4d56-903e-873b90ba705a> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Tragédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6624db42-8170-44ed-a030-6b8417c57a79> ;
@@ -2709,16 +2709,16 @@
     hemef:recompense_parcours <ec5781aa-dc9f-420c-85bc-5cf43e6f1f5f> .
 
 <373554d1-bcbb-405c-b56b-2d4458141c9b> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <3530c288-569f-4b69-96c3-65a6308b9b26> ;
     hemef:type_prix "Conservatoire" .
 
 <37396353-f140-4339-bb81-bda4773acc56> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Accompagnement au piano" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1920 : Accompagnement au piano" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <f233f9ae-27c8-4187-9090-be78a96e8658> ;
@@ -2744,8 +2744,8 @@
     hemef:sexe "Homme" .
 
 <37911980-d627-4c1c-ab59-28f27afd2595> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Contrepoint" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Contrepoint" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <97e184b9-5b04-4e21-b43a-45cf765e20bc> ;
@@ -2759,8 +2759,8 @@
     hemef:motif_sortie "Démissionnaire" .
 
 <385a53e5-eec9-407c-bb39-ca78602b956a> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1920 : Violon" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <b959dc89-97e4-47e1-8358-e9edb31422cd> ;
@@ -2915,8 +2915,8 @@
     hemef:sexe "Homme" .
 
 <3a509d55-3178-4a1c-afa9-9766398108ce> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Vocalises" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Médaille 1 - 1918 : Vocalises" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <8a8dad06-5723-4d52-ba76-dcab64e10d1f> ;
@@ -3025,8 +3025,8 @@
     hemef:observations_eleve "EN 1908, 1909 et 1911  a concouru harmonie ; En 1909, 1910 et 1911 a concouru contrepoint ; En 1914, 1919 et 1920  a concouru fugue ; en 1914-1918 congé (guerre) ; [Motif de sortie harmonie:  1er prix]" .
 
 <3c01b0d9-1e12-408a-8d7d-daea3362b935> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harpe" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Harpe" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <e1bb8b13-0e80-46e2-9f54-09cf789fab50> ;
@@ -3048,8 +3048,8 @@
     hemef:observations_eleve "En 1910 et 1911 a concouru harmonie ; EN 1914 malade examen de juin ; en 1916, 1817, 1918 et 1920 a concouru fugue ; [Motif sortie ; démission du conservatoire]" .
 
 <3c8f9394-1235-4292-95ef-9f39a7868aac> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Histoire de la musique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <cd4142bd-fe5d-40e3-8651-16b331728bdd> ;
@@ -3108,8 +3108,8 @@
     hemef:ville_pre_cursus <7728d3e8-9f28-48b6-ba64-02ebcbe1ca12> .
 
 <3d3dee04-ce85-4e99-ae26-9c7dce95d7f6> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Médaille 3 - 1921 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <b34b3ce4-0fb3-4e69-b842-1bd2e247a037> ;
@@ -3205,8 +3205,8 @@
     hemef:observations_eleve "En 1910 et 1911 : a concouru solfège, non admis lecture" .
 
 <3e94dc6f-5b81-449b-bdbb-a03e672c664c> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <98ced32a-c6e3-4c83-8668-e8137d354de2> ;
@@ -3228,8 +3228,8 @@
     hemef:sexe "Femme" .
 
 <3eeb7793-40ce-4ca5-a1ac-3a1bf4f45038> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Harpe chromatique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Harpe chromatique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <9a90f302-f22a-4fa9-9f6a-25f5ba7d2dee> ;
@@ -3296,8 +3296,8 @@
     hemef:nom_professeur "Touche" .
 
 <40c9c82d-ad5f-4d56-943a-4bcbbb8b816d> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Clarinette" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6125c4bd-24c0-46d5-b4e8-c4fd095725d3> ;
@@ -3339,8 +3339,8 @@
     hemef:motif_entree "admis par décision du Directeur" .
 
 <41a7d247-affc-4cfd-b6a6-ef5f0f4a2297> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Alto" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <7d403803-5c06-4099-b98c-74486320eb56> ;
@@ -3380,16 +3380,16 @@
     hemef:hypothèse_date_sortie "1920-00-00" .
 
 <431316b5-7242-4e7f-a6cf-ab018c122ff4> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Basson" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <fae9afa2-abf8-4003-9619-2cb91cbe69ad> ;
     hemef:type_prix "Conservatoire" .
 
 <431ab22e-80a0-4e18-8d87-c30beee50504> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <3a39321b-49b0-4d8a-bd2b-28917d5b0b3d> ;
@@ -3579,8 +3579,8 @@
     hemef:recompense_parcours <f3901164-3d05-439e-b7a9-0e087ba962ea> .
 
 <4797339e-9fbc-4ab2-9c64-16d5e0d7e175> a hemef:Prix ;
+    hemef:année_prix "1926"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1926 ;
     hemef:intitule "Second - 1926 : Composition" ;
     hemef:nom_prix "Second" ;
     hemef:recompense_eleve <fd9f82cd-7c24-45aa-b3d7-6e8e8aeef25f> ;
@@ -3680,8 +3680,8 @@
     hemef:nom_professeur "Gresse" .
 
 <49590113-752a-449b-a441-7c059189d826> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Cornet à pistons" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Cornet à pistons" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <97594141-5f89-4b6e-870e-d200bd29989b> ;
@@ -3720,8 +3720,8 @@
     hemef:professeur <ab5b72fa-b3a6-4f6a-96ff-a34415c6d650> .
 
 <4a63a9f5-7ed9-4d22-aba5-664cbc827694> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Prix 1  - 1924 : Alto" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <1663f1c7-f0ce-4359-aeac-d0056c938bf3> ;
@@ -3800,8 +3800,8 @@
     hemef:motif_sortie "Mort au champ d'Honneur" .
 
 <4cd9a571-e005-4384-8fc2-965bc9e30940> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Histoire et littérature dramatique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Histoire et Littérature dramatique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <468200fb-5d84-4c98-8a26-253b8b743aa6> ;
@@ -3823,8 +3823,8 @@
     hemef:sexe "Homme" .
 
 <4d2c82d5-f99e-4ff6-8e46-3fa008d87213> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <58bdf525-fd55-489c-afe3-b6a26cd8e278> ;
@@ -3839,8 +3839,8 @@
     hemef:observations_eleve "[Motif de sortie : démission du conservatoire]" .
 
 <4d4d4126-086f-4017-911b-8095e6ec0c24> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <bbe797e6-1cf3-4f39-9c77-165e14b9c0aa> ;
@@ -3908,16 +3908,16 @@
     hemef:recompense_parcours <cda34ef6-27c6-4e58-a70b-ab73ec8fc305> .
 
 <4dc259f7-c5cc-4d0b-95c6-b4ef80b7b811> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Prix 1  - 1922 : Clarinette" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <8b7ce722-6325-44b3-8e4e-eca331099878> ;
     hemef:type_prix "Conservatoire" .
 
 <4dded631-f54a-4df3-81c8-cbd0f4fff724> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Violon" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <e158dc69-ec7c-4fdb-b4ca-c7e659cf8ec3> ;
@@ -3971,8 +3971,8 @@
     hemef:motif_sortie "Rayé art. 75" .
 
 <4f5a17a6-e613-4c86-8803-78072c939899> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Violoncelle" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <47527fac-14ea-4e1e-bd6f-a1861b25e31b> ;
@@ -3987,8 +3987,8 @@
     hemef:observations_eleve "En 1909 a concouru solfège ; en 1910 a concouru solfège non admis lecture ; [motif sortie : rayé du conservatoire]" .
 
 <4fb4eae6-d826-47f9-8be4-03b861ead43f> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Cor" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Cor" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <051e7e93-d4dd-419d-9e85-07e1dd0ba03a> ;
@@ -4053,8 +4053,8 @@
     hemef:sexe "Homme" .
 
 <503bd100-703b-45e3-a555-3e2f43e129f9> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 Rappel - 1920 : Chant" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <0302c8ec-3af6-44eb-b957-3b38fa0cdb39> ;
@@ -4068,16 +4068,16 @@
     hemef:motif_entree "admis par décision du Jury" .
 
 <50674506-dc62-4a55-9a9b-212fbd47d364> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 2 - 1919 : Clarinette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <1df4193a-16b8-4ca7-989c-e634e251ea45> ;
     hemef:type_prix "Conservatoire" .
 
 <50b3328d-61e3-4f01-9ac6-25e91d84142f> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1917 : Harmonie" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <c4ebb367-65e9-426a-b895-a386fb05ff84> ;
@@ -4100,8 +4100,8 @@
     hemef:sexe "Homme" .
 
 <51478517-9f41-4a0e-9780-461775040510> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 Rappel - 1920 : Flûte" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <b731e0e3-e2f3-473d-9f57-e891237d6b7f> ;
@@ -4116,8 +4116,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <51d3bbc1-8c8c-485f-8608-f4fd575d185d> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Alto" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <ad2fbe0e-adbb-4c6e-a59e-2757c9e6577d> ;
@@ -4277,8 +4277,8 @@
     hemef:sexe "Homme" .
 
 <54e6e064-0f67-4d58-bfec-ba11e720f830> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Hautbois" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <1b4e4ea4-8d21-42dd-b971-49ddfbda7caa> ;
@@ -4374,8 +4374,8 @@
     hemef:observations_eleve "En 1910 et 1913 a concouru hautbois ; [Motif de sortie classes : rayé du conservatoire]" .
 
 <55eb4821-c355-44ec-b90e-e47a3f093927> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Comédie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <2872367c-98ec-4bc8-bc60-16ca76aa1a52> ;
@@ -4457,8 +4457,8 @@
     hemef:sexe "Homme" .
 
 <57aac693-0c27-4ba2-90c8-86102ab8c36a> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 3 - 1915 : Violon" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <d571f350-1417-4d83-90ab-1649a235f06c> ;
@@ -4499,16 +4499,16 @@
     hemef:recompense_parcours <fccd13d6-1a3a-4506-95be-b97dd9caa1b2> .
 
 <57fe2cfe-6d75-4ae8-add3-3dec1781da90> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 Rappel - 1916 : Tragédie" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <c8ae0948-d3c6-4e20-b0ca-393b00f978a5> ;
     hemef:type_prix "Conservatoire" .
 
 <581c6e83-e4b6-4451-a126-39b3210a057b> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Cornet à pistons" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Cornet à pistons" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <97594141-5f89-4b6e-870e-d200bd29989b> ;
@@ -4539,8 +4539,8 @@
     hemef:observations_eleve "En 1912 et 1913 a concouru contrepoint ; en 1915 a concouru composition ; 1917 malade examen de juin, composition ; [Motif sortie classe contrepoint : 1er Prix ; motif sortie composition : rayé ] " .
 
 <59228d2c-8574-4ba5-b735-95f9b257cebe> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Trombone" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 1  - 1914 : Trombone" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <62c78ec7-b503-49c3-aa26-3072694c2da6> ;
@@ -4594,8 +4594,8 @@
     hemef:sexe "Femme" .
 
 <59611012-dee5-4ff0-a55a-6b8d08164b0e> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 1  - 1914 : Harmonie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <66214f49-8e9a-44b0-b2c5-0e3e953ed975> ;
@@ -4616,8 +4616,8 @@
     hemef:observations_eleve " 06-11-1920 : « dispensé du Solfège (décision du Directeur) »." .
 
 <59955ac6-7b76-4f1e-a0f0-11bc0f1d4182> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Flûte" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <48c953d3-a044-47d5-9db1-21c1a5b411d4> ;
@@ -4734,8 +4734,8 @@
     hemef:sexe "Homme" .
 
 <5beda8fc-380a-4c7a-8c6a-8db25946ed5d> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Vocalises" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Médaille 3 - 1923 : Vocalises" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <6204fc95-997b-4ec5-b249-aa691212cd51> ;
@@ -4757,8 +4757,8 @@
     hemef:recompense_parcours <ade4586c-46b6-4da5-a882-013695d6d8cc> .
 
 <5c52e101-6739-4865-a5f0-67862728af86> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Opéra" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 2 - 1921 : Opéra" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <c27c7427-bebe-4cf0-83ae-2c06e7255db1> ;
@@ -4823,8 +4823,8 @@
     hemef:recompense_parcours <2ce6579b-d5e0-4cf0-86f8-b42c9e46b69e> .
 
 <5da53b59-fd39-4a1a-9207-ecdd9cad39c0> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 1  - 1915 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <086f04d5-56d1-4ded-b64e-7e75bc425677> ;
@@ -4835,8 +4835,8 @@
     hemef:professeur <f4278256-4112-49e0-9d23-ad5106e42f9e> .
 
 <5de3a4c3-4784-4853-85d9-bcd6f1d6fe6b> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 Rappel - 1917 : Déclamation lyrique" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <b7c41f53-c57c-42d4-bfcd-dca746d28c14> ;
@@ -4850,16 +4850,16 @@
     hemef:recompense_parcours <1064a489-aa5d-424c-bb91-c51f6c338293> .
 
 <5dfe7a0a-ad39-452d-b06f-09e77713ba83> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <d31c8d33-ae39-451a-952e-228db06e5d7c> ;
     hemef:type_prix "Conservatoire" .
 
 <5e55ba30-a709-457b-aecf-a188811b4ea1> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Tragédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <39df59fd-dce1-4b7b-ad12-bb676dea47f6> ;
@@ -4872,16 +4872,16 @@
     hemef:hypothèse_date_sortie "[1915-00-00]" .
 
 <5e78e927-dfc0-47b6-a9bf-db3331520516> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Prix 1  - 1923 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <5d575b7c-7e3c-4309-90f5-cf593e586c65> ;
     hemef:type_prix "Conservatoire" .
 
 <5e869a80-9e59-4d52-a996-e2a56abcfa42> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1917 : Comédie" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <39df59fd-dce1-4b7b-ad12-bb676dea47f6> ;
@@ -4918,8 +4918,8 @@
     hemef:observations_eleve "En 1909 a concouru piano préparatoire ; En 1910 a concouru solfège ; [Motif de sortie : rayé du conservatoire]" .
 
 <5fa2e474-5ffd-4bdc-9db9-ceea21a2a9dc> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Orgue" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Orgue" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <0f33504e-1fbc-417d-b005-53c7ccb8509d> ;
@@ -4946,8 +4946,8 @@
     hemef:recompense_parcours <87b5c40b-7e9b-4c17-979c-79f6901fbb8e> .
 
 <6051ef39-9002-4aa7-8960-5659e6f952d4> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Clarinette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <0c6a1f02-0096-400b-b510-cec6a330a721> ;
@@ -4978,8 +4978,8 @@
     hemef:sexe "Homme" .
 
 <613368f4-d898-4ab1-93a0-d800b86cf250> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 1  - 1915 : Comédie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <91c578a0-b990-422a-b735-693bf8d2a550> ;
@@ -4993,8 +4993,8 @@
     hemef:observations_eleve "En 1912 malade examen juin (harmonie) ; En 1913 et 1915  concouru Harmonie ; en 1918 a concouru Fugue " .
 
 <619b56f1-3804-4d3e-b759-2248950dea12> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Composition" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <59b4104c-47f0-48b2-8879-a30a28534f95> ;
@@ -5214,16 +5214,16 @@
     hemef:nom_professeur "Talkeuberg" .
 
 <65966097-b799-4d8f-9d38-dbe189b221f1> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <2acb4fbe-ef94-46b1-800f-e80418994059> ;
     hemef:type_prix "Conservatoire" .
 
 <65fc2655-1693-4eed-9c43-2afba0cc5c12> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 2 - 1919 : Hautbois" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <986ecbca-1b68-4f1f-acfa-9307aa5153fe> ;
@@ -5319,8 +5319,8 @@
     hemef:motif_sortie "Démissionaire" .
 
 <68dff588-7f46-431b-9909-dcc61a22a2ed> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Composition musicale" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Accessit 2 - 1924 : Composition musicale" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <564d3c8c-0018-444c-8503-03e29ca0a64d> ;
@@ -5453,8 +5453,8 @@
     hemef:observations_eleve "En 1908 est nommée auditrice, ne connais pas le français (solf) ; En 1909 en congé examen juin ;[Motif de sortie : rayé du conservatoire]" .
 
 <6ad5dba2-0076-4d8c-996e-9aadf9fb525c> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 1 - 1918 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <416df7a9-cbd6-4bf8-95ca-3c689f5149da> ;
@@ -5467,8 +5467,8 @@
     hemef:observations_eleve "En 1907-1908 : congé d'un an, service militaire ; en 1912, 1913 et 1914 a concouru Fugue " .
 
 <6b138e24-2edb-4bc4-a7e0-44768c04d818> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Cornet à pistons" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Cornet à pistons" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <d91e8347-b392-4e20-956c-83a2eeb58df4> ;
@@ -5632,8 +5632,8 @@
     hemef:nom_professeur "Staub" .
 
 <6f3cdf40-0962-4b64-a467-9c0d2df8e2f6> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 2 - 1921 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <27dbe90c-cb17-40aa-8d97-5df6e4c20e90> ;
@@ -5675,24 +5675,24 @@
     hemef:observations_eleve "En 1908 a concouru solfège, non admise lecture ; en 1910 a concouru piano préparatoire ; en 1914 a concouru piano ; [Motif sortie classe piano préparatoire : 1e médaille] " .
 
 <6fe6a524-1cf6-43f4-911e-8e43411a9fa5> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Direction d'orchestre" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 2 - 1921 : Direction d'Orchestre" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <c5cd1509-8257-4bae-a88e-b1ad16592f05> ;
     hemef:type_prix "Conservatoire" .
 
 <70042c56-73f1-44c2-96cb-62b0e4d1c762> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Alto" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <f203e5b1-058c-44f7-b3a8-f1c8414e5363> ;
     hemef:type_prix "Conservatoire" .
 
 <701bd334-f0dd-47f8-b5e7-8f4b877b522c> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Alto" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <ad2fbe0e-adbb-4c6e-a59e-2757c9e6577d> ;
@@ -5757,32 +5757,32 @@
     hemef:professeur <d20bc871-6b27-4437-8cd6-6a02f9a6d93b> .
 
 <71637480-7962-4867-b292-e83d1944d30c> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1917 : Piano" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <768f8be9-f6a3-4165-bb48-bacebbc3efd9> ;
     hemef:type_prix "Conservatoire" .
 
 <71656e76-70e6-4626-98ab-c8640d1aceb2> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <e0d2347d-3a22-4fb2-81c0-f81e680f3012> ;
     hemef:type_prix "Conservatoire" .
 
 <7167d2c6-c09c-4910-ad9a-72148f25c5ff> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <dc7e116d-9fa1-4a62-8f5b-b5b2947c4dae> ;
     hemef:type_prix "Conservatoire" .
 
 <71692fd2-d655-4f99-94b8-c978bb8cff0b> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Trompette" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <d13e7ef4-b9a5-4387-a313-4ea50ffcc7b6> ;
@@ -5813,8 +5813,8 @@
     hemef:professeur <ac8b324a-6f07-4232-90d4-e53aba16ae14> .
 
 <732f37c3-7d6b-4810-b149-2cc15a73292d> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Trompette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <4e95a320-1b89-4626-88d5-25ecfa1ae572> ;
@@ -5859,8 +5859,8 @@
     hemef:recompense_parcours <39f60277-e4f9-42b5-a59b-6424bc82b8e1> .
 
 <73acc941-72f6-4bdb-9c6b-678b5087144a> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Médaille 1 - 1918 : Violon" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <f5a7edc7-0c39-4bd2-9499-7b0759c994e9> ;
@@ -5881,8 +5881,8 @@
     hemef:recompense_parcours <459b1c99-3eb6-4f3c-b68e-8873b1df21df> .
 
 <7451c693-df38-4aa1-96a3-d663e579ce89> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 2 - 1917 : Violon" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <33d726f9-ec61-4b6a-8441-1964b1f0d285> ;
@@ -5929,24 +5929,24 @@
     hemef:recompense_parcours <18096574-9636-4be9-b388-c1ded44ca22c> .
 
 <75a9f285-43bc-4ad4-81e5-a759596bb6f8> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Prix 1  - 1922 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <02ac9467-c075-487a-9c0b-2e19eadbe212> ;
     hemef:type_prix "Conservatoire" .
 
 <75baaa9a-f744-4097-84a3-e91dc81bb7fd> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Violon" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <c9cc0829-041f-4ae8-89bc-96b442aac6f0> ;
     hemef:type_prix "Conservatoire" .
 
 <75bec355-94f3-4cd1-8c95-5e14a3fb1f2f> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 Rappel - 1917 : Comédie" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <bc061a8c-b38e-459b-8fb6-a109d907e62d> ;
@@ -5961,8 +5961,8 @@
     hemef:motif_sortie "Démissionnaire" .
 
 <7629b542-56c0-4bf9-9e82-39103ba261ce> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 2 - 1918 : Alto" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <1b5b88ae-0a9d-4909-8848-4993295483d3> ;
@@ -6061,8 +6061,8 @@
     hemef:observations_eleve "Observation barrée : « 1914, 10 Janvier. Pasé à la classe de M. Schvartz »" .
 
 <7816cc58-7877-4101-98ce-9dabc1289bec> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Composition musicale" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Accessit 1 - 1924 : Composition musicale" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <0d485793-8baf-4e2a-b33d-e376eaa69d4c> ;
@@ -6135,8 +6135,8 @@
     hemef:observations_eleve "En 1909 et 1910 a concouru piano préparatoire ; [Motif de sortie solfège:  1e médaille ; motif sortie piano préparatoire : rayée du conservatoire] " .
 
 <78a8fc86-d5b1-41fd-8434-bdc8cd00bac7> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Vocalises" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 2 - 1920 : Vocalises" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <8a8dad06-5723-4d52-ba76-dcab64e10d1f> ;
@@ -6151,8 +6151,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <78ecd607-6055-4fbe-9e0b-d3434475419e> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1  - 1919 : Histoire de la musique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <416df7a9-cbd6-4bf8-95ca-3c689f5149da> ;
@@ -6175,16 +6175,16 @@
     hemef:observations_eleve "En 1909 malade examen juin (chant et solfège) ; 1910-02-03 : encouragement de 300 [f)], chapitre 16 ; En 1911 malade examen de juin ; 1911-01-30 : encouragement de 300 [f)], chapitre 16 ; En 1911 a concouru solfège, non admis lecture ; en 1911 a concouru chant;en 1912 a concouru solfège ; " .
 
 <7955b732-7d29-4523-bd86-470cdf1e721f> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Histoire et littérature dramatique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Histoire et Littérature dramatique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6624db42-8170-44ed-a030-6b8417c57a79> ;
     hemef:type_prix "Conservatoire" .
 
 <797f26e9-482a-4d7f-a7b1-ccb8b5cb4909> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1918 : Violon" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <d571f350-1417-4d83-90ab-1649a235f06c> ;
@@ -6234,8 +6234,8 @@
     hemef:hypothèse_date_sortie "1920-00-00" .
 
 <79ef4697-e2fb-4318-b124-4ca310ceed16> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Prix 2 - 1924 : Trompette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <62cc21a0-1238-40d5-adcb-c0bd2f7f9f8c> ;
@@ -6350,8 +6350,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <7b9017a7-1848-4f0b-a012-01e4173c3b03> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Prix 2 - 1923 : Composition" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_eleve <98714bc8-7ed2-4c8b-b786-2f651f73a969> ;
@@ -6372,8 +6372,8 @@
     hemef:sexe "Homme" .
 
 <7be8f864-5888-483f-8e39-f737960becdc> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Comédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <39d20e71-2df2-48d9-b6e6-8722c7c90e00> ;
@@ -6442,8 +6442,8 @@
     hemef:observations_eleve "[Motif de sortie : 1er Prix Hautbois]" .
 
 <7da64c5f-245b-495b-9a8e-ea1869282e68> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 Rappel - 1916 : Comédie" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <468200fb-5d84-4c98-8a26-253b8b743aa6> ;
@@ -6525,16 +6525,16 @@
     hemef:observations_eleve "1909-01-28,  1910-02-03 et 1911-01-30 : encouragement de 600 [f], chapitre 16 ; 1912-01-11 encouragement de 200 [f] ; En 1910 et 1912 a concouru solfège ; [Motif de sortie : rayé du conservatoire]" .
 
 <7fbbfed0-6a62-423c-8dc2-e0816cfed894> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Cornet à pistons" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Cornet à pistons" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <cb01e8d5-49cb-46d8-ab21-b5a032da8560> ;
     hemef:type_prix "Conservatoire" .
 
 <7fe7bc39-4ec8-49a3-ad17-c17565e5a31b> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Hautbois" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <4a603c5b-dfe8-43a0-9861-e38a5b84b944> ;
@@ -6565,16 +6565,16 @@
     hemef:observations_eleve "1908-12-02 : encouragement de 50 [f], chapitre 17 ; En 1910 et 1911 a concouru solfège ; En 1910 et 1911 a concouru trombone ; [Motif sortie classe : rayé du conservatoire] " .
 
 <815663a6-1bc5-46a1-ab66-d5be97eaa431> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 2 - 1919 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <9db8d3c2-6a39-46f5-a721-de3dc5d95bb1> ;
     hemef:type_prix "Conservatoire" .
 
 <8160fef0-18f8-46f2-a29a-538d407b2f1c> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Orgue" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 1  - 1914 : Orgue" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <9499da53-122b-400a-be16-81fe9beef1db> ;
@@ -6685,8 +6685,8 @@
     hemef:nom_professeur "P. mounet" .
 
 <843594da-2bd8-4f9d-82a2-b782c4f1a6e1> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Chant" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <d6bd81bd-bc8f-43e1-bb02-68ffd298d14d> ;
@@ -6751,32 +6751,32 @@
     hemef:nom_professeur "Tournier" .
 
 <864aa5f2-033b-450e-ba76-38318bff4d8e> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 2 - 1918 : Comédie et drame" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <a43878b4-4981-463c-9455-d8be061c3d3c> ;
     hemef:type_prix "Conservatoire" .
 
 <8695ebdc-1467-4065-98d9-2e69d7b78dbb> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Médaille 2 (Rappel) - 1917 : Piano" ;
     hemef:nom_prix "Médaille 2 (Rappel)" ;
     hemef:recompense_parcours <bc59e948-ea7d-4caa-8efa-099cbf254752> ;
     hemef:type_prix "Conservatoire" .
 
 <8729ff7d-a4ff-49bf-94c2-eaf2611ccf41> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Histoire de la musique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <b3bafa4b-88bb-4a43-83dc-6e24ef593943> ;
     hemef:type_prix "Conservatoire" .
 
 <874596a8-ac11-4ca6-8752-fa99a490111f> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1  - 1919 : Violon" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <33d726f9-ec61-4b6a-8441-1964b1f0d285> ;
@@ -6814,8 +6814,8 @@
     hemef:sexe "Femme" .
 
 <8876adc3-7698-4c05-bc3b-2e9a8b945ab8> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Cornet à pistons" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 1  - 1914 : Cornet à pistons" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <821ecd43-1073-4217-af76-0d791cc3abac> ;
@@ -6843,8 +6843,8 @@
     hemef:observations_eleve "En 1915 a concouru piano ; En 1915-1916 congé d'un an Malade; En 1915 dispensé du Solfège (examen du 8 décembre) ; [Motif sorti piano préparatoire : 1er médaille ; motif sortie piano:rayé du conservatoire]" .
 
 <892365dd-71f2-442d-8d5a-2416cf0b56be> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 Rappel - 1916 : Violoncelle" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <34488b92-f49b-41cf-95b1-17a70697f101> ;
@@ -6859,24 +6859,24 @@
     hemef:motif_sortie "Mort pour la Patrie" .
 
 <89b8e8fa-b490-485d-ba74-6d833cb71294> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 3 - 1916 : Violon" ;
     hemef:nom_prix "Mention 3" ;
     hemef:recompense_parcours <f5a7edc7-0c39-4bd2-9499-7b0759c994e9> ;
     hemef:type_prix "Conservatoire" .
 
 <89eff6c3-0ab0-467c-8e71-bda9df85583d> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Flûte" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <48c953d3-a044-47d5-9db1-21c1a5b411d4> ;
     hemef:type_prix "Conservatoire" .
 
 <8a5352ee-b56e-46c4-a391-66dbc3f852e4> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 2 - 1915 : Harmonie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <3a39321b-49b0-4d8a-bd2b-28917d5b0b3d> ;
@@ -6946,8 +6946,8 @@
     hemef:sexe "Femme" .
 
 <8b9c3dec-6962-4d3d-89be-77182a0e30cd> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Hautbois" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <04cf5546-483d-4e0f-abfc-03abd151d5b3> ;
@@ -6960,8 +6960,8 @@
     hemef:observations_eleve "1909-01-28 : encouragement de 200 [f], chapitre 16 ; 1910-02-03 et 1911-01-30 : encouragements de 300 [f], chapitre 16 ; En 1910 a concouru solfège et chant;En 1911 a concouru chant " .
 
 <8be7cee7-98a1-4923-9ebe-d31aa3f1a057> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 2 - 1920 : Trompette" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <ffe573ed-b02e-4b7b-93a6-a7e57089918d> ;
@@ -7007,16 +7007,16 @@
     hemef:recompense_parcours <7788400f-ba8f-477f-b98a-adc425f593ee> .
 
 <8e638aa2-6d91-4dc8-9fac-081c2c33a3e4> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1919 : Harmonie" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <185bde70-a642-4a9c-b125-4939df8cc456> ;
     hemef:type_prix "Conservatoire" .
 
 <8e8c36b5-0412-4a7e-a599-572153af85d9> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Opéra" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Accessit 2 - 1924 : Opéra" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <117b7bd1-8249-4d14-b806-50d2442346f6> ;
@@ -7030,8 +7030,8 @@
     hemef:recompense_parcours <ac831189-b92c-4664-8340-b615069677df> .
 
 <8f27a99a-c642-4ba5-9eb9-3f4e28c886d9> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Fugue" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 1 - 1919 : Fugue" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <27020a31-f67f-4eeb-91bd-a1c30d725e12> ;
@@ -7153,16 +7153,16 @@
     hemef:hypothèse_date_sortie "[1922-00-00]" .
 
 <91a79f53-0191-44ef-acf2-7d1946e77b12> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 2 - 1918 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <3d7eb38e-7b83-4cb5-b31e-67a746e1d5ee> ;
     hemef:type_prix "Conservatoire" .
 
 <91e8c60e-4f8f-45f1-93a3-2f04b8ed3a79> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harpe chromatique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Harpe chromatique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <dd52d094-934c-4335-ab8d-94dfe020c117> ;
@@ -7202,16 +7202,16 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <9362f2e4-bc68-402b-a459-a284e8fc5c02> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Harpe" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 1  - 1915 : Harpe" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <e77716e8-9a53-45b5-8c01-49dbecbee9c5> ;
     hemef:type_prix "Conservatoire" .
 
 <936e6d96-29c0-4994-ab02-85943656b0ce> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <fbad90bd-7d5c-4b91-bc5e-8e6facce7092> ;
@@ -7225,8 +7225,8 @@
     hemef:recompense_parcours <2a977267-6132-49d3-aa01-826af9d4017a> .
 
 <93ebd6ce-faf3-49a5-8512-495bb9b4f025> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Prix 1  - 1922 : Violon" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <8b35999e-0fb0-4421-baeb-a96715bdd0bf> ;
@@ -7246,8 +7246,8 @@
     hemef:observations_eleve "En 1910 a concouru solfège, non admis lecture  et chant ; en 1911 a concouru solfège et chant ; [Motif de sortie : rayé du conservatoire]" .
 
 <943bc768-1c48-4e2b-ac94-0a3c0e60b822> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Contrebasse" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <4bc341f9-9cc1-4aa6-8ea5-97d077a53254> ;
@@ -7371,8 +7371,8 @@
     hemef:observations_eleve "En 1909 et 1910 a concouru opéra ;  [Motif de sortie : démission du conservatoire]" .
 
 <97181145-ff3f-474d-bca1-c65b565f0ad2> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <f265ae08-490c-4a53-aa91-11740097382c> ;
@@ -7594,8 +7594,8 @@
     hemef:sexe "Homme" .
 
 <9affce3b-fb25-4636-8081-f4170f84cd84> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Flûte" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <48c953d3-a044-47d5-9db1-21c1a5b411d4> ;
@@ -7865,8 +7865,8 @@
     hemef:observations_eleve "En 1911 et 1912 a concouru clarinette ; [Motif de sortie : rayé du conservatoire]" .
 
 <9ec1bf88-d131-4199-8650-278abb20f314> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Cor" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 2 - 1919 : Cor" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <6fe6f652-2001-4994-b36e-2aa40c6387ae> ;
@@ -7945,8 +7945,8 @@
     hemef:motif_sortie "Décédé" .
 
 <a0276480-896e-4189-8d15-6d276c80fdae> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Contrepoint" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 2 - 1918 : Contrepoint" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <dc6b51d8-27df-4f1a-a324-1aaec3da31df> ;
@@ -7961,8 +7961,8 @@
     hemef:observations_eleve "1916-12-30 : Elève de Solfège (M. Schvartz)" .
 
 <a06aba2c-dee0-47d9-b30f-3092c0c96c57> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 2 - 1921 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <945f66a9-c4cf-4caf-bb11-6ffcae6af3d4> ;
@@ -7985,8 +7985,8 @@
     hemef:observations_eleve "En 1909 a concouru, chant ; [Motif de sortie : démission du conservatoire]" .
 
 <a0d3375a-5694-4c38-ba58-0faa4cb60210> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <48f184d4-f020-41cf-9321-acbfb7bcec7f> ;
@@ -8054,8 +8054,8 @@
     hemef:motif_sortie "Rayé art. 102 § 2" .
 
 <a21ee42e-802a-4440-97f2-702689a8e2f1> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Hautbois" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <6b46ae72-ea5a-4e62-874c-7ffdc57f2b6a> ;
@@ -8090,8 +8090,8 @@
     hemef:recompense_parcours <1941e65c-a216-4bd6-8361-e9963e2a6178> .
 
 <a279fc57-e96a-4dc4-967f-ca2526d6e424> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 2 - 1919 : Trompette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <a8b2bf6d-f5ae-4787-88e4-b4187f37fff6> ;
@@ -8136,8 +8136,8 @@
     hemef:sexe "Femme" .
 
 <a34bc9e7-2d8b-49da-8104-3e00157a8cb8> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 3 (Rappel) - 1916 : Piano" ;
     hemef:nom_prix "Mention 3 (Rappel)" ;
     hemef:recompense_parcours <ea103f98-5d53-4db1-8cb5-2a8f2ba368d3> ;
@@ -8166,8 +8166,8 @@
     hemef:motif_entree "admis par décision du Directeur" .
 
 <a3ededb9-c81f-4757-ac44-29e547911e33> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Contrepoint" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Contrepoint" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <4be20dfb-a651-4fb8-ad3f-1ee577afb24f> ;
@@ -8211,8 +8211,8 @@
     hemef:sexe "Homme" .
 
 <a49446bc-e065-48bf-875e-63298199eb0b> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 2 - 1919 : Chant" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <5d340a82-3543-4c06-b941-178040c7681d> ;
@@ -8301,8 +8301,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <a6759f9a-f302-4f9c-a0ea-ebb09a59d59b> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Flûte" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <b731e0e3-e2f3-473d-9f57-e891237d6b7f> ;
@@ -8400,8 +8400,8 @@
     hemef:motif_sortie "Rayé art. 102 § 1er" .
 
 <a87cc312-7e78-4ddd-948d-8b4fc409092a> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1919 : Trompette" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <4e95a320-1b89-4626-88d5-25ecfa1ae572> ;
@@ -8462,8 +8462,8 @@
     hemef:nom_professeur "Lavignac" .
 
 <a9e5d23a-6b64-43e9-adaa-30a76f29822c> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Contrebasse" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <a7073991-1ff6-4eee-b0ed-433723e460dd> ;
@@ -8528,8 +8528,8 @@
     hemef:recompense_parcours <1941e65c-a216-4bd6-8361-e9963e2a6178> .
 
 <aaccbb87-9e2f-49f9-879d-f86cd2ab1358> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Contrebasse" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <5441bad9-a85c-40f8-ac51-f80901474351> ;
@@ -8539,8 +8539,8 @@
     hemef:nom_professeur "Al. petit" .
 
 <ac3425f8-c7fa-4c00-8021-d18b6481fc2d> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 2 - 1915 : Comédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <4c49ed52-0c48-495f-ba27-0f2c5dad1e8c> ;
@@ -8569,8 +8569,8 @@
     hemef:sexe "Homme" .
 
 <ac7dbf87-ddbb-4e4f-9254-c9e9f87fd607> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 1  - 1915 : Violoncelle" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <87db77d8-69c2-487c-bc8b-a380e04580f4> ;
@@ -8668,8 +8668,8 @@
     hemef:recompense_parcours <35f055be-74f7-4fd2-a136-a05cb81e5f53> .
 
 <ad60b8c5-d284-4ff9-b8da-95cbfaa1e107> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1  - 1919 : Alto" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <1b5b88ae-0a9d-4909-8848-4993295483d3> ;
@@ -8746,8 +8746,8 @@
     hemef:sexe "Homme" .
 
 <ae795836-a9f3-4c5b-964e-4f99cd298aa6> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Prix 1  - 1923 : Hautbois" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <1b4e4ea4-8d21-42dd-b971-49ddfbda7caa> ;
@@ -8762,8 +8762,8 @@
     hemef:observations_eleve "En 1908 a concouru solfège  (non admise lecture) ; En 1909 et 1910 a concouru piano préparatoire ; [Motif de sortie : rayée du conservatoire]" .
 
 <aef34dd0-1127-42a4-ae3c-f5fbda11e011> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix Lepaulle - 1919 : Composition" ;
     hemef:nom_prix "Prix Lepaulle" ;
     hemef:recompense_parcours <89193cdc-e935-4c93-a613-08560094135e> ;
@@ -8904,8 +8904,8 @@
     hemef:motif_sortie "Démissionaire" .
 
 <b06bab1c-1868-4a77-b9f4-afc478979772> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Histoire de la musique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <065b41de-fc94-4839-917b-294f8fb23269> ;
@@ -8919,16 +8919,16 @@
     hemef:recompense_parcours <cdaba540-c39a-45dd-89d6-715dd0fa9485> .
 
 <b10e3b9c-d491-4e68-ba4a-a37ea35e76bc> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Trombone" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Trombone" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <adcbeb7f-da67-4736-a4d2-23121ad51205> ;
     hemef:type_prix "Conservatoire" .
 
 <b1166b87-4f80-4a58-98b7-300b7199faf1> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Hautbois" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <6b46ae72-ea5a-4e62-874c-7ffdc57f2b6a> ;
@@ -8963,16 +8963,16 @@
     hemef:nom_professeur "Kaiser" .
 
 <b265456f-9d4b-4fe1-8a80-6440bf4504fe> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Fugue" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 2 - 1922 : Fugue" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <0e708cbf-8d52-47db-8282-472173d9a0db> ;
     hemef:type_prix "Conservatoire" .
 
 <b2788cb9-9be7-4d48-8578-18a76f400159> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Tragédie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <92ce79bf-18e3-4059-9bca-c8df0e3d35e5> ;
@@ -8989,8 +8989,8 @@
     hemef:motif_sortie "Rayé pour absences" .
 
 <b2bbe723-27ac-4d87-be8e-b0b3e612af89> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Fugue" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Prix 2 - 1924 : Fugue" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <0e708cbf-8d52-47db-8282-472173d9a0db> ;
@@ -9012,8 +9012,8 @@
     hemef:recompense_parcours <96a128d9-25ca-4aa1-be24-9c06e551c738> .
 
 <b3b54ec4-d769-42d6-bbb0-b9a8706c3bc6> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Médaille 1 - 1924 : Solfège" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <425657c6-a50a-4746-a7e4-c15deaccc156> ;
@@ -9101,8 +9101,8 @@
     hemef:sexe "Femme" .
 
 <b516675a-c548-468f-96ee-a12601a5b40f> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Basson" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <24357ccd-9466-412d-aac9-cc002cf1a18b> ;
@@ -9162,8 +9162,8 @@
     hemef:motif_sortie "Démissionaire" .
 
 <b5f8f066-d66c-48b3-b6fb-66379e70d7c3> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Alto" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <1b5b88ae-0a9d-4909-8848-4993295483d3> ;
@@ -9177,8 +9177,8 @@
     hemef:recompense_parcours <5d7070bd-0e64-42c3-8d25-75669cbeb0a5> .
 
 <b6550165-82fd-4808-8755-66c4506a55ad> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Harpe chromatique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1918 : Harpe chromatique" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <9a90f302-f22a-4fa9-9f6a-25f5ba7d2dee> ;
@@ -9205,16 +9205,16 @@
     hemef:sexe "Homme" .
 
 <b7688eee-ae3e-4a06-aa62-d0e9ac45397e> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Opéra-comique" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Opéra-Comique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <87144103-70b2-4c9c-925a-7513b3cf6552> ;
     hemef:type_prix "Conservatoire" .
 
 <b7ce67a2-da0e-4417-9352-0f0b46f5d599> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Prix 2 - 1923 : Alto" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <1663f1c7-f0ce-4359-aeac-d0056c938bf3> ;
@@ -9232,8 +9232,8 @@
     hemef:nom_professeur "Lénars" .
 
 <b8757ce8-5564-4fb8-a3be-1e21fd6fc81a> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Contrebasse" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1  - 1919 : Contrebasse" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <a7073991-1ff6-4eee-b0ed-433723e460dd> ;
@@ -9315,8 +9315,8 @@
     hemef:sexe "Homme" .
 
 <ba4d50f7-161e-4af7-baae-99c67b7e7a40> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 Rappel - 1917 : Alto" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <1b5b88ae-0a9d-4909-8848-4993295483d3> ;
@@ -9386,16 +9386,16 @@
     hemef:recompense_parcours <ade4586c-46b6-4da5-a882-013695d6d8cc> .
 
 <bb6e578d-4b54-45e2-9488-4febb7ab37c9> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Clarinette" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <0c6a1f02-0096-400b-b510-cec6a330a721> ;
     hemef:type_prix "Conservatoire" .
 
 <bbce7d4f-e87c-4563-98d2-eb45462a9d88> a hemef:Prix ;
+    hemef:année_prix "1925"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1925 ;
     hemef:intitule "Mention honorable - 1925 : Composition" ;
     hemef:nom_prix "Mention honorable" ;
     hemef:recompense_eleve <fd9f82cd-7c24-45aa-b3d7-6e8e8aeef25f> ;
@@ -9455,8 +9455,8 @@
     hemef:professeur <ea53264c-119b-4e56-a25b-617fa168ba4d> .
 
 <bdb2f10a-3068-4376-8da9-d3ac1af9ccf4> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Médaille 3 - 1922 : Histoire de la musique" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <c1b95b39-7089-440d-b95d-66308356948c> ;
@@ -9471,8 +9471,8 @@
     hemef:observations_eleve "[Motif de sortie : 1er Prix Clarinette]" .
 
 <bdd2de76-12b4-42c4-8242-1df6764ca470> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Violon" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <d571f350-1417-4d83-90ab-1649a235f06c> ;
@@ -9507,8 +9507,8 @@
     hemef:recompense_parcours <9bc0a5d7-1ece-45fc-9847-f7f64c6c9d7b> .
 
 <be61627c-0a95-42d5-bbd3-51378105e06b> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Contrepoint" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 2 - 1920 : Contrepoint" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <488cf44a-2d26-4e49-b2b6-ac279a295540> ;
@@ -9523,8 +9523,8 @@
     hemef:observations_eleve "En 1909 malade examen juin ; [Motif de sortie : rayé du conservatoire]" .
 
 <beb254e3-167e-4182-b1e6-23acb3cf3cf0> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Orgue" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 Rappel - 1916 : Orgue" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <0f33504e-1fbc-417d-b005-53c7ccb8509d> ;
@@ -9534,8 +9534,8 @@
     hemef:nom_professeur "Chéné" .
 
 <bf23cf92-7fc9-4d9e-bbf8-8c2b9feb6e74> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 Rappel - 1917 : Chant" ;
     hemef:nom_prix "Accessit 1 Rappel" ;
     hemef:recompense_parcours <082073e5-26f6-49d5-bfe9-4df0bffa3f7e> ;
@@ -9603,8 +9603,8 @@
     hemef:sexe "Homme" .
 
 <c1dc7126-b2f3-474b-9732-3ee490bf336e> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Cornet à pistons" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Cornet à pistons" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <cb01e8d5-49cb-46d8-ab21-b5a032da8560> ;
@@ -9686,16 +9686,16 @@
     hemef:sexe "Homme" .
 
 <c3227d78-1505-46bf-b616-3b562b9fb38a> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Hautbois" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <04cf5546-483d-4e0f-abfc-03abd151d5b3> ;
     hemef:type_prix "Conservatoire" .
 
 <c334d22e-49a9-408d-8028-144c9a659800> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 2 Rappel - 1918 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2 Rappel" ;
     hemef:recompense_parcours <ea5bfe09-d219-44a9-bdad-f646813f3f9f> ;
@@ -9815,8 +9815,8 @@
     hemef:observations_eleve "Aucune information sur la date d'inscription dans la classe de Solfège, ni prof. Titulaire." .
 
 <c5ad21f9-d5f7-449f-93bb-6b4b81fd2e89> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 1 - 1922 : Composition" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <d0548388-6820-4c50-9d3b-0441ad7bca4b> ;
@@ -9863,8 +9863,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <c67aaefc-9445-47e7-84b2-7603c08d1c54> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 2 - 1919 : Harmonie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <b9bd7cd9-29df-4e19-b375-e3a9a4147c2b> ;
@@ -9933,8 +9933,8 @@
     hemef:ville_pre_cursus <7728d3e8-9f28-48b6-ba64-02ebcbe1ca12> .
 
 <c763a62a-6a09-4d53-b4fe-92d42c146b42> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Prix 2 - 1922 : Hautbois" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <1b4e4ea4-8d21-42dd-b971-49ddfbda7caa> ;
@@ -10001,8 +10001,8 @@
     hemef:motif_sortie "Rayé du Solfège. Elève d'Harmonie" .
 
 <c8831cc2-2d55-4021-afc8-c0245b1e12c3> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Violon" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <5c49932e-399a-4c8f-b2db-3460bbc33c2c> ;
@@ -10037,8 +10037,8 @@
     hemef:recompense_parcours <4c01c842-9173-4a73-ab40-369f6e8b7188> .
 
 <c90232cb-8026-4614-a323-483dc17201a7> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Médaille 2 (Rappel) - 1917 : Solfège" ;
     hemef:nom_prix "Médaille 2 (Rappel)" ;
     hemef:recompense_parcours <c1bf273c-0ad6-402b-a7e9-a0d7c5642959> ;
@@ -10062,8 +10062,8 @@
     hemef:motif_sortie "Rayé du Chant art 102 § 1er" .
 
 <ca26b967-ee1d-47fe-a886-eed757f1c8f0> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Prix 2 - 1922 : Composition" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_eleve <53e40f04-d148-42ea-bf06-2e671361f2a7> ;
@@ -10182,8 +10182,8 @@
     hemef:recompense_parcours <230f415d-6ebd-480b-b8cd-2f4ce524dc7c> .
 
 <ccc49173-0d73-4522-9b77-13f7aa307d84> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harpe chromatique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Harpe chromatique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <02d13004-5406-4a92-aba7-f7244f11c013> ;
@@ -10212,8 +10212,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <cd542683-0d42-4b22-a03c-756ed355153c> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 Rappel - 1917 : Hautbois" ;
     hemef:nom_prix "Prix 2 Rappel" ;
     hemef:recompense_parcours <4a603c5b-dfe8-43a0-9861-e38a5b84b944> ;
@@ -10235,8 +10235,8 @@
     hemef:type_prix "Conservatoire" .
 
 <ce0fa84d-16fc-49b5-877b-6d3216eaabf0> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 2 - 1915 : Alto" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <7d403803-5c06-4099-b98c-74486320eb56> ;
@@ -10330,8 +10330,8 @@
     hemef:sexe "Homme" .
 
 <cf95d976-00a9-4834-9493-532ede3860bf> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Prix 1  - 1923 : Harmonie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <68d957fa-c53a-4ce0-8e6e-ea74f1cdaad6> ;
@@ -10358,8 +10358,8 @@
     hemef:recompense_parcours <906736f5-9f2c-4f72-b2ee-4c960002b5fc> .
 
 <d0250d09-ef8e-4079-a0f0-2b290e2402ca> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 Rappel - 1916 : Harmonie" ;
     hemef:nom_prix "Accessit 2 Rappel" ;
     hemef:recompense_parcours <4fef28f6-19cd-4c0e-82f2-6acc201ee50c> ;
@@ -10369,8 +10369,8 @@
     hemef:nom_professeur "Manoury" .
 
 <d0391cf5-4130-45be-89a9-42362db3512c> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Clarinette" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <0c6a1f02-0096-400b-b510-cec6a330a721> ;
@@ -10524,8 +10524,8 @@
     hemef:nom_professeur "Grandjean" .
 
 <d2f0926c-530c-4127-a5c7-eecf63739198> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 2 - 1921 : Violon" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <8b35999e-0fb0-4421-baeb-a96715bdd0bf> ;
@@ -10543,8 +10543,8 @@
     hemef:observations_eleve "En 1910 a concouru solfège ; En 1911 a concouru, solfège, no admise lecture" .
 
 <d331e406-86a2-44fb-99c6-745556725774> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Histoire de la musique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <3944f1e0-f674-4760-9974-34064b883a4d> ;
@@ -10559,8 +10559,8 @@
     hemef:observations_eleve "[Motif de sortie :  1er prix trombone] " .
 
 <d41268f0-4ae3-4901-b0fa-1e29aa8f8d2e> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Accompagnement au piano" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 2 - 1918 : Accompagnement au piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <648a3011-bae3-40d8-ad03-4247873a2088> ;
@@ -10583,8 +10583,8 @@
     hemef:sexe "Femme" .
 
 <d479b81c-4c6d-4acc-ab59-ea85a35d2b7c> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Prix 2 - 1924 : Composition" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_eleve <2790934e-2803-4eec-aaf7-7f65bf7aebfe> ;
@@ -10611,8 +10611,8 @@
     hemef:sexe "Homme" .
 
 <d520b7d5-f212-4b87-926e-5837a100018f> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Flûte" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1919 : Flûte" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <166201fe-80f2-431d-9373-8a18fc36bdbb> ;
@@ -10641,8 +10641,8 @@
     hemef:motif_sortie "Rayé art. 101" .
 
 <d62ea47d-6b2b-4b39-907d-6722fa72c6b9> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Comédie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <a2f0e1c8-d294-47d0-b974-a9aeadd65d93> ;
@@ -10712,16 +10712,16 @@
     hemef:nom_professeur "Leitner" .
 
 <d78ab173-0854-4ad2-b72f-a21a1ae13b85> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Violoncelle" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <bc685cc8-a94a-4f99-9846-fe158e5fb751> ;
     hemef:type_prix "Conservatoire" .
 
 <d80b9893-3c20-4952-9941-aa9b2b912503> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Violoncelle" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <277d64ef-f69b-4cae-846b-f4208c40caa5> ;
@@ -10736,8 +10736,8 @@
     hemef:observations_eleve "En 1908 excusé examen juin solfège et trompette : malade ;  [Motif de sortie :  1er Prix trompette]" .
 
 <d895368c-3018-4c78-9545-fa7e40f31112> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Accessit 1 - 1923 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <76ec98c1-74bb-4372-aecd-0e33a2ce89ca> ;
@@ -10792,16 +10792,16 @@
     hemef:motif_sortie "Démissionnaire" .
 
 <daa686f5-ff96-4db8-abd8-d870ea71052e> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille - 1914 : Violon" ;
     hemef:nom_prix "Médaille" ;
     hemef:recompense_parcours <e73499c5-ec42-4d5f-b0d6-4d4e07b708d7> ;
     hemef:type_prix "Conservatoire" .
 
 <dae5363e-492e-4e06-acef-41526089923d> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Cor" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Cor" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <118a8d37-15f1-4d92-ac60-8406dbdfe609> ;
@@ -10846,8 +10846,8 @@
     hemef:observations_eleve "En 1908 : malade examen de juin, chant ; [Motif de sortie :  démission du conservatoire]" .
 
 <dd867e6c-b056-45be-b84f-3d0de07b9f4a> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Médaille 2 - 1918 : Solfège" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <3b19bc6a-52b1-4438-9ff4-ff40cbaf5d68> ;
@@ -10857,8 +10857,8 @@
     hemef:nom_professeur "Hasselmans" .
 
 <ddcc28b7-0574-430f-8796-6061c64c45a0> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 1 - 1921 : Comédie et drame" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <82f836f9-dd59-40ed-a768-fa7d4a180b81> ;
@@ -10892,8 +10892,8 @@
     hemef:professeur <2e3baa32-1cbc-4a1d-b33c-2e7fea3dab02> .
 
 <de668d9f-d21c-4f45-b503-d7df9bfeae42> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Tragédie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <6624db42-8170-44ed-a030-6b8417c57a79> ;
@@ -10911,8 +10911,8 @@
     hemef:observations_eleve "E1910-02-03 : encouragement de 200 [f], chapitre 16 ; En 1910 malade examen juin solfège ; En 1911 a concouru chant ; [motif sortie conservatoire : 1er prix chant ; motif sortie délamation : 1er Prix]" .
 
 <deae5843-2371-4f86-a625-2316ab6231b9> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Chant" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <6e82d5ea-9c24-42bd-adef-99d9e3499df5> ;
@@ -10965,8 +10965,8 @@
     hemef:sexe "Homme" .
 
 <dfa02f51-e349-40f4-b5a2-9b848d16674c> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 1 - 1922 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <68d957fa-c53a-4ce0-8e6e-ea74f1cdaad6> ;
@@ -11010,8 +11010,8 @@
     hemef:sexe "Homme" .
 
 <e01fabca-c6e7-4f37-a785-26036b1d1094> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Harmonie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <dc7e116d-9fa1-4a62-8f5b-b5b2947c4dae> ;
@@ -11034,24 +11034,24 @@
     hemef:sexe "Femme" .
 
 <e04c91b9-5682-44cd-9d88-8bec271b3e6c> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Violon" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <8b35999e-0fb0-4421-baeb-a96715bdd0bf> ;
     hemef:type_prix "Conservatoire" .
 
 <e0666010-2d4f-4278-888f-934c71d463c2> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Tragédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <8aa9683f-09ce-44a6-8d7e-987fa934b393> ;
     hemef:type_prix "Conservatoire" .
 
 <e0f0c316-7032-4489-8ad9-3dc52001529d> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 2 - 1920 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <f203fbc8-7301-4e11-bcd9-20eccbc25a8b> ;
@@ -11084,16 +11084,16 @@
     hemef:hypothèse_date_sortie "[1920-10-22]" .
 
 <e1145d73-ce0c-4e5b-b990-416d8e8b776b> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Harmonie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <ca712dfa-796c-4b22-bacc-3bc4c49f09c4> ;
     hemef:type_prix "Conservatoire" .
 
 <e11d5f73-5564-4506-bc33-ee8a01daaf0b> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 1 - 1918 : Harmonie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <10bd8e52-c248-4650-9279-94053d1077c2> ;
@@ -11148,8 +11148,8 @@
     hemef:motif_sortie "Démissionaire" .
 
 <e21de0fa-1b40-4d95-b215-89ae2c9ec661> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Cor" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Cor" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <a1216092-c9b4-4faa-a311-7a18ad2e7739> ;
@@ -11290,8 +11290,8 @@
     hemef:est_parcours_de <8c245af8-59ec-45bf-b4ec-738b71b5b53d> .
 
 <e7239dbf-1dd0-4bf6-ba2b-d532c5a12e83> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Harmonie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <e9afdbf3-87b8-41cc-b22f-032577e689a8> ;
@@ -11336,8 +11336,8 @@
     hemef:recompense_parcours <850cd205-c7e9-4d03-9635-e0f61a49f6d8> .
 
 <e7e12c67-6f0e-47b2-8cb3-d7ffa79824ce> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Accessit 1 - 1924 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6204fc95-997b-4ec5-b249-aa691212cd51> ;
@@ -11398,8 +11398,8 @@
     hemef:recompense_parcours <854d8139-affd-43ee-9cb1-7279aeaf2f50> .
 
 <e94be5cc-20bd-4767-8483-fb7c3851647b> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Harmonie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Harmonie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <a450235d-4f96-4eab-8b2b-be7a3e98fa13> ;
@@ -11440,8 +11440,8 @@
     hemef:observations_eleve "[Motif de sortie : rayé du conservatoire]" .
 
 <e9fc202d-5686-405d-b64c-bfbc5a364853> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Direction d'orchestre" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Accessit 1 - 1922 : Direction d'Orchestre" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <c5cd1509-8257-4bae-a88e-b1ad16592f05> ;
@@ -11555,8 +11555,8 @@
     hemef:motif_sortie "Rayé art. 86 § 2" .
 
 <eba6b162-cca5-41e7-aaa2-a0db69f34de8> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Médaille 2 - 1920 : Solfège" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <ab6c1f48-aac4-4113-bfc2-f895c5835557> ;
@@ -11632,8 +11632,8 @@
     hemef:motif_sortie "Rayé art. 86 § 1er" .
 
 <ed679bce-b503-41f6-b6ae-b1b3f016b304> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Harpe chromatique" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Harpe chromatique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <9a90f302-f22a-4fa9-9f6a-25f5ba7d2dee> ;
@@ -11687,8 +11687,8 @@
     hemef:observations_eleve "En 1908 a concouru violon préparatoire ; En 1910 a concouru violon ; [Motif de sortie violon préparatoire : 1er médaille ; Motif de sortie conservatoire :  1er prix violon]" .
 
 <ee5c0dcc-e301-4e07-838e-f82cb118848b> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Opéra-comique" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Accessit 2 - 1924 : Opéra-Comique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <117b7bd1-8249-4d14-b806-50d2442346f6> ;
@@ -11746,8 +11746,8 @@
     hemef:recompense_parcours <1fc13ad7-e33f-459c-9319-c932456fe42f> .
 
 <eeb10453-2fa0-4179-862d-d8fa2e76f495> a hemef:Prix ;
+    hemef:année_prix "1924"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1924 ;
     hemef:intitule "Prix 2 - 1924 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <f203fbc8-7301-4e11-bcd9-20eccbc25a8b> ;
@@ -11835,8 +11835,8 @@
     hemef:recompense_parcours <ac4146fd-2c16-4ad6-932e-d5f2e3fe9eb9> .
 
 <f107b741-6b84-440c-9c5c-8976118c7f54> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 2 - 1915 : Violoncelle" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <bc685cc8-a94a-4f99-9846-fe158e5fb751> ;
@@ -12176,8 +12176,8 @@
     hemef:recompense_parcours <0b72fd24-a0a6-46dd-8ee1-34e09e142e25> .
 
 <f93ceb71-b466-4612-91ad-bcaca8453b03> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1  - 1920 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <b2183f62-1f21-4674-9f26-df5c4f53d5c8> ;
@@ -12225,8 +12225,8 @@
     hemef:hypothèse_date_sortie "1917-00-00" .
 
 <f9e08718-f390-4c6b-9e3a-71512f5e4309> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1917 : Violoncelle" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <277d64ef-f69b-4cae-846b-f4208c40caa5> ;
@@ -12248,8 +12248,8 @@
     hemef:sexe "Femme" .
 
 <fa47efd5-b233-42c3-8814-80bd42feeeff> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Médaille 3 - 1919 : Piano" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <4918932d-ad8b-43e7-b90f-a2b348ec7abf> ;
@@ -12345,8 +12345,8 @@
     hemef:sexe "Homme" .
 
 <fb8b69d5-4bfa-4b51-89b7-daf26fea365c> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Cor" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Cor" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6fe6f652-2001-4994-b36e-2aa40c6387ae> ;
@@ -12367,8 +12367,8 @@
     hemef:sexe "Homme" .
 
 <fbffd872-19ad-42c8-9d27-2f9115185c73> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Accompagnement au piano" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 1 - 1919 : Accompagnement au piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <648a3011-bae3-40d8-ad03-4247873a2088> ;
@@ -12389,8 +12389,8 @@
     hemef:observations_eleve "1919-02-00 : Passé à la classe de M. Leitner" .
 
 <fcbb9820-3940-47ff-af91-69ac27e7e42c> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Trombone" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Trombone" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <514729d1-0ab7-48f9-b393-ccc6420e4b92> ;
@@ -12502,8 +12502,8 @@
     hemef:recompense_parcours <00fae412-2acd-49a5-8b7a-65043d1b104b> .
 
 <fde7b3b3-03d6-426c-8629-51f0e9da33cd> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Hautbois" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1919 : Hautbois" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <4a603c5b-dfe8-43a0-9861-e38a5b84b944> ;
@@ -12540,8 +12540,8 @@
     hemef:nom_professeur "Hardouin" .
 
 <feec53e5-aedd-425b-b6fc-0710fd8aebc7> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 2 - 1915 : Clarinette" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <d0ed0b63-5daa-46ed-826d-7ea922664849> ;
@@ -12564,8 +12564,8 @@
     hemef:observations_eleve "1908-02-03 1909-01-28 : encouragements 400 fr, chapitre 16, § 1 ; En 1910-02-03 : encouragement de 500 [f], chapitre 16 ; En 1909, 1910 a concouru, chant ;" .
 
 <ff7f4cc1-4d36-4719-822d-db21e0048caf> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Piano préparatoire" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Médaille 1 - 1920 : Piano préparatoire" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <4918932d-ad8b-43e7-b90f-a2b348ec7abf> ;
@@ -12579,8 +12579,8 @@
     hemef:motif_sortie "Rayé art. 102 § 2" .
 
 <fff7fa57-fc7d-4867-8f10-16cba68f5af6> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Accessit 1 - 1918 : Violon" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <33d726f9-ec61-4b6a-8441-1964b1f0d285> ;
@@ -12623,8 +12623,8 @@
     skos:prefLabel "Amérique du nord" .
 
 <00fa0c93-64ae-44a5-a76d-0207bd351d5e> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Trompette" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Accessit 1 - 1923 : Trompette" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <62cc21a0-1238-40d5-adcb-c0bd2f7f9f8c>,
@@ -12909,8 +12909,8 @@
     hemef:prix_decerne <d851af3a-820b-4d95-b215-175664c66c69> .
 
 <0bb93726-dd3d-4700-a71a-2e35650a673b> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <082073e5-26f6-49d5-bfe9-4df0bffa3f7e>,
@@ -13360,8 +13360,8 @@
     skos:prefLabel "Fabricante de sacs" .
 
 <1a2bea01-224f-4898-88fe-59cb1696b2ea> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Histoire et littérature dramatique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Histoire et Littérature dramatique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <6624db42-8170-44ed-a030-6b8417c57a79>,
@@ -13627,8 +13627,8 @@
     skos:prefLabel "Mexique" .
 
 <23aa3cf4-8970-48c0-926e-8d775d2b0262> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 2 - 1917 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <650dbfee-fd55-4800-b62d-e1b642ac864f>,
@@ -13873,8 +13873,8 @@
     skos:prefLabel "Fleuriste" .
 
 <29900a28-843f-43bb-a842-b6f3de3cc4b1> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Tragédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <4c49ed52-0c48-495f-ba27-0f2c5dad1e8c>,
@@ -13926,8 +13926,8 @@
     hemef:prix_decerne <02050f98-6300-477d-b65b-571a0c28c4cd> .
 
 <2ca76680-58b9-4ea7-a7ee-737152df21e3> a hemef:Prix ;
+    hemef:année_prix "1923"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1923 ;
     hemef:intitule "Médaille 2 - 1923 : Histoire de la musique" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <7a025cad-6879-40db-aad7-b69f201b2fed>,
@@ -14108,8 +14108,8 @@
     hemef:sexe "Femme" .
 
 <3408aa65-b571-4a54-90d0-41710675f718> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <3d07ccbe-1f30-40d8-92c5-ba0a9fe4ba0e>,
@@ -14128,8 +14128,8 @@
     hemef:prix_decerne <b4a44374-7f4a-473a-a3f2-5c96c0774fea> .
 
 <35cfb651-72d5-479e-b017-dca48a4e3426> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Harpe" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Harpe" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <cafe06c1-ed4f-4b96-aa07-6310a1478393>,
@@ -14148,8 +14148,8 @@
     hemef:professeur <a32ceefd-b4fc-4c86-a2c7-730a6958a4c2> .
 
 <35e74bde-cd75-469e-80e7-8189e76666fe> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Violoncelle" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <908d9a5d-1a20-4916-ae55-249074c12859>,
@@ -14165,8 +14165,8 @@
     skos:prefLabel "C-is principal des douanes" .
 
 <372dffe0-ee59-4958-92c0-c352db047a04> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Violon" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <5f678291-5875-44e6-897c-f49815f018a6>,
@@ -14217,8 +14217,8 @@
     hemef:sexe "Homme" .
 
 <3909c8f9-b72e-4abe-b543-77904cd0c053> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 1 - 1919 : Piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <5ad0e94e-5717-4fc6-8dd9-8537f2c668bf>,
@@ -14410,8 +14410,8 @@
     skos:prefLabel "Entrepreneur zingueur" .
 
 <3f5447d9-f24d-40dd-ac5c-3eb8a4439b84> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <3d07ccbe-1f30-40d8-92c5-ba0a9fe4ba0e>,
@@ -14657,8 +14657,8 @@
     hemef:prix_decerne <a591a87e-3d62-46d3-9b8d-68b7bc879845> .
 
 <47115a85-d1c3-4eaf-a485-4f895c21295f> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Opéra" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 1  - 1921 : Opéra" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <87144103-70b2-4c9c-925a-7513b3cf6552>,
@@ -14666,8 +14666,8 @@
     hemef:type_prix "Conservatoire" .
 
 <4760ec46-35bd-4cdd-8b55-e4166f2255eb> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Violoncelle" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <02ecbfdf-12af-44ad-8d0d-19613cdaa3b3>,
@@ -14809,8 +14809,8 @@
     skos:prefLabel "Traducteur" .
 
 <4be4c29d-cb54-48fc-a7df-9794f66d53f4> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Chant" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <082073e5-26f6-49d5-bfe9-4df0bffa3f7e>,
@@ -14961,8 +14961,8 @@
     hemef:sexe "Femme" .
 
 <52a5ff93-b80d-40fe-b226-7f9294400d31> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Tragédie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <3d0b3304-29ee-485d-86f5-811bd3308cb6>,
@@ -14992,8 +14992,8 @@
     hemef:prix_decerne <ebe9a660-ac31-43bc-891a-cfcd99e495c8> .
 
 <5347ce59-de6a-46aa-967b-efa613220718> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Comédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <2872367c-98ec-4bc8-bc60-16ca76aa1a52>,
@@ -15069,8 +15069,8 @@
     hemef:prix_decerne <68dff588-7f46-431b-9909-dcc61a22a2ed> .
 
 <56aa51a0-bb09-4415-bb75-414ddc31e801> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 2 - 1918 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <650dbfee-fd55-4800-b62d-e1b642ac864f>,
@@ -15094,8 +15094,8 @@
     hemef:sexe "Homme" .
 
 <56dc3041-ed36-40b2-bdfa-b38f4c0cb5c0> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 2 - 1919 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <3530c288-569f-4b69-96c3-65a6308b9b26>,
@@ -15161,8 +15161,8 @@
     hemef:prix_decerne <619b56f1-3804-4d3e-b759-2248950dea12> .
 
 <59bec9c8-8f1b-48ca-9633-a21670443744> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Médaille 2 - 1922 : Histoire de la musique" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <31efb215-effb-4b67-96a0-5837e26a9d0d>,
@@ -15262,8 +15262,8 @@
     hemef:prix_decerne <0cdd9361-f9cd-4fd5-bdd6-56937d8860f7> .
 
 <5c09e717-81b6-4633-acc8-c73c51924343> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 1 - 1919 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <0302c8ec-3af6-44eb-b957-3b38fa0cdb39>,
@@ -15476,8 +15476,8 @@
     hemef:sexe "Femme" .
 
 <615288af-a9bd-482e-a196-2ee2ce8fde48> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Tragédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <4c49ed52-0c48-495f-ba27-0f2c5dad1e8c>,
@@ -15523,8 +15523,8 @@
     skos:prefLabel "Couturière, mariés" .
 
 <629c1549-a39c-42e5-9b0f-18f8a10f6c4e> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Médaille 3 - 1917 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <74f2442e-51f4-4051-ac13-fb862cca7b94>,
@@ -15707,8 +15707,8 @@
     skos:prefLabel "Employée au chemin de fer du nord" .
 
 <67a091c1-6537-4fef-abd5-4cdf6084f555> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 2 (Rappel) - 1916 : Solfège" ;
     hemef:nom_prix "Mention 2 (Rappel)" ;
     hemef:recompense_parcours <9a717aec-5c83-4554-ab29-c3d9626a1275>,
@@ -15891,8 +15891,8 @@
     hemef:prix_decerne <20238f2b-f327-4f61-b0c3-2f1ceb01cbe1> .
 
 <6e3c7327-c6b5-4b5d-bbbb-966e7584a9f5> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Harpe chromatique" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Harpe chromatique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <02d13004-5406-4a92-aba7-f7244f11c013>,
@@ -15991,8 +15991,8 @@
     hemef:sexe "Homme" .
 
 <70b5e638-f259-4909-a322-7ce778703459> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Comédie et drame" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <395e7bde-fe7a-434c-a8d5-3c91c257997e>,
@@ -16063,8 +16063,8 @@
     hemef:prix_decerne <62a472f1-08fc-4c6a-b44d-16450c327dd2> .
 
 <71d3cdae-e7a1-44d3-bd31-e1fb2e7f2435> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Cor" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1  - 1919 : Cor" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <118a8d37-15f1-4d92-ac60-8406dbdfe609>,
@@ -16325,8 +16325,8 @@
     hemef:prix_decerne <c6269348-1263-47d2-badd-7027694ff36f> .
 
 <7854dedf-80d1-4b37-8841-fe4e2d968449> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Prix 2 - 1915 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <02ac9467-c075-487a-9c0b-2e19eadbe212>,
@@ -16509,8 +16509,8 @@
     hemef:remarques_saisie "Professeur contrepoint non indiqué " .
 
 <7ebc49e3-902d-4f7a-963e-e094f5b00405> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Médaille 2 - 1917 : Solfège" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <4f3aa992-7395-4e07-9106-a1d819e7b3f5>,
@@ -16625,8 +16625,8 @@
     hemef:prix_decerne <0d3cb5cb-33f0-4d51-995b-e09839e69b15> .
 
 <815a85fa-27b2-4f16-82b0-4ec1cd542b09> a hemef:Prix ;
+    hemef:année_prix "1922"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1922 ;
     hemef:intitule "Prix 2 - 1922 : Comédie et drame" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <82f836f9-dd59-40ed-a768-fa7d4a180b81>,
@@ -16814,8 +16814,8 @@
     skos:prefLabel "Professeur au conservatoire de rennes" .
 
 <875da676-feea-4fbc-b585-172ef336d01d> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Contrepoint" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1919 : Contrepoint" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <4be20dfb-a651-4fb8-ad3f-1ee577afb24f>,
@@ -16831,8 +16831,8 @@
     hemef:prix_decerne <ac7dbf87-ddbb-4e4f-9254-c9e9f87fd607> .
 
 <88606771-6f26-43d3-97a4-182bed6226c0> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 1 - 1914 : Piano" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <20e717f5-7f45-47bb-9cba-fba5fe13adec>,
@@ -16881,8 +16881,8 @@
     hemef:prix_decerne <1814b0ec-ba23-4593-a8f2-bff33bd314e8> .
 
 <8ad1d52d-b966-433a-8cc8-fe66f07defdd> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Tragédie" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Prix 2 - 1914 : Tragédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <c044dd02-d328-4c55-8b1c-45f431191148>,
@@ -16982,8 +16982,8 @@
     hemef:sexe "Femme" .
 
 <8cca0a90-ad33-4326-8649-30e8d2022267> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Chant" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <e29f2e00-e29f-4de1-b48c-18b7efe65e14>,
@@ -17114,8 +17114,8 @@
     hemef:sexe "Femme" .
 
 <90b06a92-87da-4136-acd6-b6a703b8049f> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <31d5efc9-a7f9-4391-a7d0-976844d55a96>,
@@ -17182,8 +17182,8 @@
         <71a1db80-e573-4e80-a445-ab53b965ad6a> .
 
 <93ee3bf2-aeaa-4198-81b7-03de59a68ab9> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 1 - 1919 : Comédie et drame" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <8f87a687-3c99-4f65-8cf7-645ba5844a74>,
@@ -17199,8 +17199,8 @@
         <f28edef4-e0ff-4b1d-a22b-7186317f9549> .
 
 <9466eb88-9323-4f52-9742-e2783068b4bd> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Composition" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Accessit 2 - 1921 : Composition" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <453cc469-3882-4e54-91b6-7df4e1f109ef>,
@@ -18017,8 +18017,8 @@
     hemef:prix_decerne <30750e59-8281-4d6e-b368-bbefb02437d3> .
 
 <b253f95d-005e-45f0-a7fa-f46712b4d048> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Comédie et drame" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 2 - 1920 : Comédie et drame" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <931ad60c-d4c4-452b-8e3a-176fd1db762e>,
@@ -18103,8 +18103,8 @@
     hemef:sexe "Femme" .
 
 <b4b2599b-f907-4cfa-ad44-a54d34cfde3b> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Comédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <73e965de-bcb1-4dec-ad03-70f753550570>,
@@ -18329,8 +18329,8 @@
     hemef:sexe "Homme" .
 
 <bb11a337-4ee8-4364-b151-e617508aa7cf> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 1 - 1914 : Basson" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <a5b6d369-3bbb-4a46-b23f-11179aaabb22>,
@@ -18355,8 +18355,8 @@
     hemef:sexe "Homme" .
 
 <bb6ebaa6-da6f-43fd-85b0-02c7c9436597> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <d9e7e410-0a61-41e8-96e8-23fa196b288f>,
@@ -18416,8 +18416,8 @@
     hemef:sexe "Femme" .
 
 <bd5ec7ca-3f62-40c2-87ed-37acb963cd81> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 3 - 1914 : Violon" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <0d30347b-0738-4e1f-b985-94a1393d4fe6>,
@@ -18506,8 +18506,8 @@
     hemef:prix_decerne <b88c3d63-6350-4c10-8093-9161cf2fea85> .
 
 <bfe72470-cd92-4bbf-b502-d4986f362504> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 2 - 1914 : Violon" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <5c49932e-399a-4c8f-b2db-3460bbc33c2c>,
@@ -18595,8 +18595,8 @@
     hemef:prix_decerne <5c52e101-6739-4865-a5f0-67862728af86> .
 
 <c2a605c1-a9ad-48eb-b85b-dc4fe3721300> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Chant" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <566d57a3-a997-4ad7-b9a3-37f2f007312b>,
@@ -18636,8 +18636,8 @@
     hemef:prix_decerne <da6e99ff-9813-45ba-988c-62f7554ea959> .
 
 <c361c97c-fe47-41f2-82a3-b3756d562197> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Comédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <468200fb-5d84-4c98-8a26-253b8b743aa6>,
@@ -18661,8 +18661,8 @@
     skos:prefLabel "Rédacteur au ministère des finances" .
 
 <c40cb113-c133-4876-9062-881c0674e596> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1  - 1920 : Chant" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <b604a9d6-1b31-4ba4-8cbd-cd36cd5a0566>,
@@ -18670,8 +18670,8 @@
     hemef:type_prix "Conservatoire" .
 
 <c46684e6-2412-48a9-b1f2-b721d47e31ce> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Violon" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <5f678291-5875-44e6-897c-f49815f018a6>,
@@ -18804,8 +18804,8 @@
     hemef:sexe "Femme" .
 
 <c8fba1dc-69c8-4278-a167-a5e18bf340cc> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Alto" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Alto" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <1b5b88ae-0a9d-4909-8848-4993295483d3>,
@@ -18874,8 +18874,8 @@
     hemef:prix_decerne <4fd4ec29-d141-4e64-9420-25e0853e916c> .
 
 <cbcd7cdf-2c41-454d-8b96-618c26b4928b> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Déclamation lyrique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <192f5fe3-b587-43a6-a98a-bb3fa44ceadc>,
@@ -19175,8 +19175,8 @@
     hemef:prix_decerne <2a827a17-f69d-4fc2-bc1a-541ca75dfe86> .
 
 <d465ef62-9805-4517-b419-c909edde9a8c> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Violon" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <b959dc89-97e4-47e1-8358-e9edb31422cd>,
@@ -19342,8 +19342,8 @@
     hemef:prix_decerne <be8ba9ce-f0c8-4f66-a1d3-f450934697bb> .
 
 <d9619917-894b-40f3-bbb7-81b4d205ad77> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 3 - 1915 : Piano" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <bc59e948-ea7d-4caa-8efa-099cbf254752>,
@@ -19475,8 +19475,8 @@
     skos:prefLabel "Apprêteuse de neuf" .
 
 <df5286d0-00bf-4bdf-944f-659b07d86d44> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Violon" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <5c49932e-399a-4c8f-b2db-3460bbc33c2c>,
@@ -19488,8 +19488,8 @@
     skos:prefLabel "Clerc de notaire" .
 
 <dfe64da5-6be1-47ca-9718-ab0d7a8f4c2e> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1 (Prix d'Excellence) - 1918 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 1 (Prix d'Excellence)" ;
     hemef:recompense_parcours <0629dd63-e09c-43f9-8dac-479487ef5a99>,
@@ -19601,8 +19601,8 @@
     skos:prefLabel "Doreur" .
 
 <e4ace45a-00ed-4b67-b02d-f8b5216cfddb> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Histoire et littérature dramatique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Histoire et Littérature dramatique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <8aa9683f-09ce-44a6-8d7e-987fa934b393>,
@@ -19620,8 +19620,8 @@
     hemef:prix_decerne <249d1955-dd93-485c-a78b-f53a10baca25> .
 
 <e5210341-fb86-416c-a341-e3288becdc7e> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Violoncelle" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <02ecbfdf-12af-44ad-8d0d-19613cdaa3b3>,
@@ -19664,8 +19664,8 @@
     hemef:prix_decerne <9ba07d58-243c-4bb7-8500-81d30d529ed2> .
 
 <e65ec3e4-4b29-40ac-974e-e21fa8bc9e99> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Opéra" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 1 - 1915 : Opéra" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <325c451e-16aa-448c-a223-a042582ff7c3>,
@@ -19702,8 +19702,8 @@
     hemef:sexe "Femme" .
 
 <e6fc6484-176b-477c-8e8b-9fc842d0b109> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Violon" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <c9cc0829-041f-4ae8-89bc-96b442aac6f0>,
@@ -19758,8 +19758,8 @@
     hemef:sexe "Femme" .
 
 <e900cbf0-98b1-4a58-abcd-cc57aa2e98ac> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <272cd72c-0a9c-4c9d-b82e-c430dd4e132e>,
@@ -19995,8 +19995,8 @@
     skos:prefLabel "Professeur à l'ecole n-le de musique" .
 
 <f0dd894a-eb2f-4164-9734-978092269881> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <b1b9ed11-2356-46ae-860e-23c7d613a82e>,
@@ -20042,8 +20042,8 @@
         <ab93f861-f1e2-407c-b4d0-44aae046f2b4> .
 
 <f2123c34-7dd4-402a-8fd1-91288bb230dc> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <332667c1-de45-46b1-9a46-91c6df444d07>,
@@ -20175,8 +20175,8 @@
     hemef:sexe "Femme" .
 
 <f3c3f6a1-80e3-4cc2-8f77-2eb8190e6156> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Basson" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 1  - 1920 : Basson" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <a5b6d369-3bbb-4a46-b23f-11179aaabb22>,
@@ -20184,8 +20184,8 @@
     hemef:type_prix "Conservatoire" .
 
 <f437d3a4-1fe8-4b00-a985-417d588a1978> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Prix 1  - 1919 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <650dbfee-fd55-4800-b62d-e1b642ac864f>,
@@ -20313,8 +20313,8 @@
     skos:prefLabel "Adjudant au 6e régiment du génie" .
 
 <f8981d60-4ce7-4bbe-9738-c692cc0b0426> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 1 - 1915 : Violon" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <5c49932e-399a-4c8f-b2db-3460bbc33c2c>,
@@ -21119,8 +21119,8 @@
         <b2bbe723-27ac-4d87-be8e-b0b3e612af89> .
 
 <0efe8464-a4dd-4e7a-9b28-2101298e9876> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 2 - 1917 : Chant" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <02562ed7-b07c-4d68-b5df-e7670bf8e23d>,
@@ -21139,8 +21139,8 @@
         <beb254e3-167e-4182-b1e6-23acb3cf3cf0> .
 
 <0fa9b43e-5aef-4f2f-8ac7-cf16c3b36a20> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 3 - 1916 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 3" ;
     hemef:recompense_parcours <1726faf5-7e1e-4cf1-bc45-4ddf3b870708>,
@@ -21334,8 +21334,8 @@
         <d35347e7-dd74-4942-946a-3fab84709b96> .
 
 <1543a7f0-57fc-4088-b134-5c124cbb9b91> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 2 - 1916 : Piano" ;
     hemef:nom_prix "Mention 2" ;
     hemef:recompense_parcours <5d575b7c-7e3c-4309-90f5-cf593e586c65>,
@@ -21408,8 +21408,8 @@
     skos:prefLabel "Jossigny" .
 
 <181836da-b3c1-4cb8-9a00-076aff1206eb> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Piano" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <0a1f6241-c7a0-40b5-b48c-b26cecb780f3>,
@@ -21428,8 +21428,8 @@
         <e576df1d-3cf3-4a34-8dbc-6d8091f49d61> .
 
 <18eb3cb6-346f-460a-af92-101712d1d4b0> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Comédie" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <2872367c-98ec-4bc8-bc60-16ca76aa1a52>,
@@ -21438,8 +21438,8 @@
     hemef:type_prix "Conservatoire" .
 
 <18f2ab8c-338d-4e5f-b3bb-33508ab284fe> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 1  - 1916 : Comédie" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <39d20e71-2df2-48d9-b6e6-8722c7c90e00>,
@@ -21818,8 +21818,8 @@
         <f0312b0d-72f9-4bea-8adb-ddfc15c382da> .
 
 <258fe12c-ea17-4df5-b172-d99a98dc633d> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Clarinette" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Clarinette" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <1df4193a-16b8-4ca7-989c-e634e251ea45>,
@@ -21838,8 +21838,8 @@
         <b88c3d63-6350-4c10-8093-9161cf2fea85> .
 
 <26229194-9b91-4ef1-9ac5-1e2e15f04a7f> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Médaille 3 - 1920 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <14de50e5-6fc2-4121-a584-885156fea0c2>,
@@ -22006,8 +22006,8 @@
     hemef:sexe "Femme" .
 
 <2a827a17-f69d-4fc2-bc1a-541ca75dfe86> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Prix 2 - 1920 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <6679403c-1c32-42dc-922e-327b7c155764>,
@@ -22614,8 +22614,8 @@
         <ea63d862-de90-4663-9879-d7f2589f209c> .
 
 <42f4beb5-79da-4d97-99c1-487b0936591c> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 1  - 1918 : Violoncelle" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <47527fac-14ea-4e1e-bd6f-a1861b25e31b>,
@@ -23192,8 +23192,8 @@
         <b42115f1-de96-45e3-8f21-b5e4013c7197> .
 
 <583c10d8-793b-480c-b674-cc1503b71718> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 2 - 1917 : Déclamation lyrique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <21913a56-724b-47f8-bbd5-c6a94a8b969f>,
@@ -23230,8 +23230,8 @@
         <0f18b9a5-4cbc-4e1d-8b32-80cd2781d9f3> .
 
 <5a3d9a4e-58a5-4518-bd27-8032a9bc4707> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Violon" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <c43e6aba-4386-4a61-ac0c-8cfcb3060486>,
@@ -23711,8 +23711,8 @@
         <b1166b87-4f80-4a58-98b7-300b7199faf1> .
 
 <6bc4dcae-f503-4f52-83e3-023b4728a764> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Déclamation lyrique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <7c819f91-143f-41a1-94d7-817745d8ab25>,
@@ -24277,8 +24277,8 @@
     skos:prefLabel "Fontainebleau" .
 
 <81b76f01-d614-440c-b050-f212c2deeb62> a hemef:Prix ;
+    hemef:année_prix "1921"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1921 ;
     hemef:intitule "Prix 2 - 1921 : Piano" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <5d575b7c-7e3c-4309-90f5-cf593e586c65>,
@@ -24525,8 +24525,8 @@
     skos:prefLabel "Cafetier" .
 
 <8e438db0-01d6-41e5-8e64-ab8440c4949b> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violoncelle" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Violoncelle" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <46140665-1442-4a5a-9228-aca0d2ab85f8>,
@@ -25217,8 +25217,8 @@
     skos:prefLabel "Annecy" .
 
 <a6b0dd55-0666-407e-8e6c-03a0d92923ce> a hemef:Prix ;
+    hemef:année_prix "1919"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1919 ;
     hemef:intitule "Accessit 2 - 1919 : Chant" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <48f184d4-f020-41cf-9321-acbfb7bcec7f>,
@@ -25657,8 +25657,8 @@
         <2eedb2e4-febd-4c57-b7c3-1d1c68541c51> .
 
 <b61a5a49-c7ee-47cd-871a-6b0b32a84913> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Chant" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <ab09eb59-529e-41b4-90c5-2507798599ad>,
@@ -26022,8 +26022,8 @@
     skos:prefLabel "Bayonne" .
 
 <c52650e6-bd98-4d24-a91b-07d32718c609> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 1  - 1917 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 1 " ;
     hemef:recompense_parcours <2b119a79-fc57-4e85-8abd-0958b19deb3e>,
@@ -26246,8 +26246,8 @@
     skos:prefLabel "Port de bouc" .
 
 <ccdd62dd-bf0c-4425-8482-77a5836f1cfc> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Opéra-comique" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Opéra-Comique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <0f005324-9a50-48d8-80f0-ce5d7977c47a>,
@@ -26447,8 +26447,8 @@
     hemef:sexe "Femme" .
 
 <d338ef25-3f29-4d12-a21f-27a0f00ebc82> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 1 - 1914 : Solfège" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <05981414-2d1a-432d-b56d-0811709884d8>,
@@ -26709,8 +26709,8 @@
         <e6c221ca-0762-4685-ac46-c7faf9c63be5> .
 
 <dd14aa7e-c9f8-4a47-8b44-a29c51019158> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 2 - 1915 : Violon" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <0d30347b-0738-4e1f-b985-94a1393d4fe6>,
@@ -26779,8 +26779,8 @@
         <7a3c6d9b-90f4-4a9f-9ead-e79df4fa89a6> .
 
 <df54e306-9417-477f-9992-2569ecda67b9> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Accessit 2 - 1914 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <086f04d5-56d1-4ded-b64e-7e75bc425677>,
@@ -27843,8 +27843,8 @@
         <8be7cee7-98a1-4923-9ebe-d31aa3f1a057> .
 
 <01c86594-b3fb-40f8-a456-75203029392b> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Prix 2 - 1916 : Déclamation lyrique" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <0f005324-9a50-48d8-80f0-ce5d7977c47a>,
@@ -27907,8 +27907,8 @@
         <bf23cf92-7fc9-4d9e-bbf8-8c2b9feb6e74> .
 
 <0940d1cf-c164-4646-aa13-2c9de87ed781> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 2 - 1915 : Piano" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <650dbfee-fd55-4800-b62d-e1b642ac864f>,
@@ -29081,8 +29081,8 @@
         <a95af625-019a-438d-9874-3f80f4d3d7dc> .
 
 <7a3c6d9b-90f4-4a9f-9ead-e79df4fa89a6> a hemef:Prix ;
+    hemef:année_prix "1918"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1918 ;
     hemef:intitule "Prix 2 - 1918 : Chant" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <02562ed7-b07c-4d68-b5df-e7670bf8e23d>,
@@ -29409,8 +29409,8 @@
         <c5c07d86-0f42-48e7-bbb7-9a3e31347784> .
 
 <96d698e8-48ec-4a84-b7ec-219383d01241> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Accessit 1 - 1920 : Piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <3530c288-569f-4b69-96c3-65a6308b9b26>,
@@ -29520,8 +29520,8 @@
     hemef:sexe "Femme" .
 
 <9d5b8d2f-b6fe-489f-b82a-424f3c59276c> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Médaille 1 - 1917 : Solfège" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <0308e5b5-1f06-4944-8143-f10ca1a9869e>,
@@ -29531,8 +29531,8 @@
     hemef:type_prix "Conservatoire" .
 
 <9d845790-611a-4cf7-9d93-1bc2b3545f7a> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Violon" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 1 - 1916 : Violon" ;
     hemef:nom_prix "Mention 1" ;
     hemef:recompense_parcours <33d726f9-ec61-4b6a-8441-1964b1f0d285>,
@@ -29667,8 +29667,8 @@
         <ebe9a660-ac31-43bc-891a-cfcd99e495c8> .
 
 <ae4fa924-280b-4987-b389-f9ea10bdd04c> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Accessit 2 - 1915 : Comédie" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <0d1164e3-36e8-4f6a-b0aa-149a2840f875>,
@@ -29894,8 +29894,8 @@
         <b42115f1-de96-45e3-8f21-b5e4013c7197> .
 
 <ca5bf25c-c532-46b2-b5c2-efa027ce150c> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 2 - 1916 : Solfège" ;
     hemef:nom_prix "Mention 2" ;
     hemef:recompense_parcours <0308e5b5-1f06-4944-8143-f10ca1a9869e>,
@@ -29905,8 +29905,8 @@
     hemef:type_prix "Conservatoire" .
 
 <cb750212-77db-4845-ba14-84d89802e26c> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Déclamation lyrique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <0f005324-9a50-48d8-80f0-ce5d7977c47a>,
@@ -29916,8 +29916,8 @@
     hemef:type_prix "Conservatoire" .
 
 <cbccef41-e7d3-49c4-ba9c-d50704711bcb> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Piano" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <272cd72c-0a9c-4c9d-b82e-c430dd4e132e>,
@@ -29954,8 +29954,8 @@
     skos:prefLabel "Liège" .
 
 <cefab18a-17db-4850-b37e-4cc8e4c200d6> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Piano" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <0a1f6241-c7a0-40b5-b48c-b26cecb780f3>,
@@ -30569,8 +30569,8 @@
         <d432eb8e-6169-4f50-b84c-6739158a12ad> .
 
 <3222573f-fe96-4fd2-9c89-b33605915b20> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Comédie" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Comédie" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <98e7acb5-9b63-4799-b135-f6eaf96b1cf1>,
@@ -30987,8 +30987,8 @@
     skos:prefLabel "Typographe" .
 
 <a95af625-019a-438d-9874-3f80f4d3d7dc> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Chant" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Prix 2 - 1917 : Chant" ;
     hemef:nom_prix "Prix 2" ;
     hemef:recompense_parcours <566d57a3-a997-4ad7-b9a3-37f2f007312b>,
@@ -31040,8 +31040,8 @@
         <b98f0e6a-d90f-405f-9514-f1b37ac347dc> .
 
 <b4a44374-7f4a-473a-a3f2-5c96c0774fea> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 3 - 1916 : Solfège" ;
     hemef:nom_prix "Mention 3" ;
     hemef:recompense_parcours <09243938-651a-480b-9972-e737aeba4d15>,
@@ -31192,8 +31192,8 @@
     skos:prefLabel "Marchand de vins" .
 
 <d432eb8e-6169-4f50-b84c-6739158a12ad> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 1 - 1915 : Piano" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <0a1f6241-c7a0-40b5-b48c-b26cecb780f3>,
@@ -31665,8 +31665,8 @@
     hemef:professeur <c96eebe6-0b26-420a-abee-b715e745b738> .
 
 <9e93bf2a-f4b3-4ee3-978a-44d5f235f2a7> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 1 - 1916 : Piano" ;
     hemef:nom_prix "Mention 1" ;
     hemef:recompense_parcours <16ac1bc0-caa2-411d-b7e8-2ba54c3023bf>,
@@ -31735,8 +31735,8 @@
         <f93ceb71-b466-4612-91ad-bcaca8453b03> .
 
 <bf03a4d2-6651-42b2-8926-185bc59c3758> a hemef:Prix ;
+    hemef:année_prix "1920"^^xsd:gYear ;
     hemef:discipline_prix "Lecture à vue" ;
-    hemef:hypothese_année_prix 1920 ;
     hemef:intitule "Médaille - 1920 : Lecture à vue" ;
     hemef:nom_prix "Médaille" ;
     hemef:recompense_parcours <051e7e93-d4dd-419d-9e85-07e1dd0ba03a>,
@@ -31770,8 +31770,8 @@
     hemef:professeur <a50ec579-aea6-44c8-8e6c-4e9accb1770f> .
 
 <c64fa640-92a6-47fc-b17a-b3180555827a> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 2 - 1914 : Piano" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <0a1f6241-c7a0-40b5-b48c-b26cecb780f3>,
@@ -31783,8 +31783,8 @@
     hemef:type_prix "Conservatoire" .
 
 <ccf3e32c-2107-45ce-925c-00bbe6da76fb> a hemef:Prix ;
+    hemef:année_prix "1917"^^xsd:gYear ;
     hemef:discipline_prix "Déclamation lyrique" ;
-    hemef:hypothese_année_prix 1917 ;
     hemef:intitule "Accessit 1 - 1917 : Déclamation lyrique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <332667c1-de45-46b1-9a46-91c6df444d07>,
@@ -31961,8 +31961,8 @@
     skos:prefLabel "Seine-inférieure" .
 
 <6bfff121-528d-42d4-8233-632b089e64de> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 3 - 1915 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <00a15dc5-9226-4c9a-abe3-604220e3e95a>,
@@ -32010,8 +32010,8 @@
     hemef:professeur <6f327a47-599d-4de2-8938-bdf89945d777> .
 
 <959dcaa0-0779-4106-a555-8779bde22499> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Piano" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 3 - 1914 : Piano" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <16ac1bc0-caa2-411d-b7e8-2ba54c3023bf>,
@@ -32247,8 +32247,8 @@
     hemef:sexe "Femme" .
 
 <74f281e3-7663-495e-89ab-9f239c288b01> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 1 - 1916 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 1" ;
     hemef:recompense_parcours <065b41de-fc94-4839-917b-294f8fb23269>,
@@ -32266,8 +32266,8 @@
     hemef:professeur <ddb3dedf-99b8-4fb6-8cc0-1dec9729faee> .
 
 <7cb48746-9d6c-4043-a92e-6b8909fc1272> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Histoire de la musique" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Accessit 2 - 1916 : Histoire de la musique" ;
     hemef:nom_prix "Accessit 2" ;
     hemef:recompense_parcours <3854bbfb-c653-4b7d-b333-261fea8db2aa>,
@@ -32378,8 +32378,8 @@
     skos:prefLabel "Asnières" .
 
 <93ccde91-44d9-4f86-b21b-42b63dfca387> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 2 - 1914 : Solfège" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <0ed60274-5faa-45da-b76b-2a36a292c6d8>,
@@ -32409,8 +32409,8 @@
         <d02845d6-51c1-4aeb-ba1a-0693263959e8> .
 
 <b05468b5-0065-4593-bf67-94e185e7412d> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 1 - 1915 : Solfège" ;
     hemef:nom_prix "Médaille 1" ;
     hemef:recompense_parcours <1553177b-b97b-42b4-8dd5-aeeac65117a4>,
@@ -32425,8 +32425,8 @@
     hemef:type_prix "Conservatoire" .
 
 <b5de02c2-e24c-45f8-98fd-9e09455e6f7c> a hemef:Prix ;
+    hemef:année_prix "1916"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1916 ;
     hemef:intitule "Mention 1 - 1916 : Solfège" ;
     hemef:nom_prix "Mention 1" ;
     hemef:recompense_parcours <0436d7da-322f-43d1-b8e7-adc62eadf77f>,
@@ -32729,8 +32729,8 @@
     hemef:professeur <e802003e-8606-438d-ba48-39d37726a1e2> .
 
 <ee637a9f-534d-49fd-9830-56f805dad2ae> a hemef:Prix ;
+    hemef:année_prix "1915"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1915 ;
     hemef:intitule "Médaille 2 - 1915 : Solfège" ;
     hemef:nom_prix "Médaille 2" ;
     hemef:recompense_parcours <118a8722-ce09-4685-8b03-b04a85e0ca69>,
@@ -32839,8 +32839,8 @@
     hemef:professeur <d76c1b79-4575-4104-8ed5-500a0e0062ec> .
 
 <be8ba9ce-f0c8-4f66-a1d3-f450934697bb> a hemef:Prix ;
+    hemef:année_prix "1914"^^xsd:gYear ;
     hemef:discipline_prix "Solfège" ;
-    hemef:hypothese_année_prix 1914 ;
     hemef:intitule "Médaille 3 - 1914 : Solfège" ;
     hemef:nom_prix "Médaille 3" ;
     hemef:recompense_parcours <45397766-02dd-404c-b32b-bc1bfdcd160e>,
