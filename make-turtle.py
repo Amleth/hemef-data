@@ -68,11 +68,16 @@ def générer_uuid(type_entité, clef_entité):
 lignes_pourries_à_ne_pas_traiter = check(args.xlsx, args.divergences)
 
 ConceptSchemes = {}
+toponymes = {}
+
 villes = {}
-departement = {}
+departements = {}
 pays = {}
+
 eleves = {}
+
 # cursus = {}
+
 metiers = {}
 prixNom = {}
 prixType = {}
@@ -89,10 +94,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
     else:
         eleves[row["identifiant_1"]] = générer_uuid(
             "eleves", row["identifiant_1"])
-        ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes", 'Villes')
-        ConceptSchemes['Departement'] = générer_uuid(
-            "ConceptSchemes", 'Departement')
-        ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes", 'Pays')
+        # ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes", 'Villes')
+        # ConceptSchemes['Departement'] = générer_uuid(
+        #     "ConceptSchemes", 'Departement')
+        # ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes", 'Pays')
+        ConceptSchemes['Toponymes'] = générer_uuid("ConceptSchemes", 'Toponymes')
+
         ConceptSchemes['Métiers'] = générer_uuid("ConceptSchemes", 'Métiers')
         # CS Thesaurus Prix
         ConceptSchemes['PrixNom'] = générer_uuid("ConceptSchemes", 'PrixNom')
@@ -103,14 +110,20 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["eleve_ville_naissance "])):
             villes[row["eleve_ville_naissance "].strip().capitalize()] = générer_uuid(
                 "villes", row["eleve_ville_naissance "].strip().capitalize())
+        else :
+            villes["Ville inconnue"] = générer_uuid("villes", "Ville inconnue")
+
         if (pandas.notna(row["eleve_departement_naissance"])):
-            departement[row["eleve_departement_naissance"].strip().capitalize(
+            departements[row["eleve_departement_naissance"].strip().capitalize(
             )] = générer_uuid("departements", row["eleve_departement_naissance"])
+        else :
+            departements["Département inconnu"] = générer_uuid("departements", "Département inconnu")
+
         if (pandas.notna(row["eleve_pays_naissance"])):
             pays[row["eleve_pays_naissance"].strip().capitalize()] = générer_uuid(
                 "pays", row["eleve_pays_naissance"])
         else:
-            pays[row["eleve_pays_naissance"]] = générer_uuid("pays", "France")
+            pays["France"] = générer_uuid("pays", "France")
 
         # Thesaurus Prix
         if (pandas.notna(row['prix_nom'])):
@@ -229,54 +242,70 @@ g.add(
     )
 )
 
-
-NoeudVilles = ConceptSchemes['Villes']
-NoeudDepartement = ConceptSchemes['Departement']
-NoeudPays = ConceptSchemes['Pays']
+NoeudToponymes = ConceptSchemes['Toponymes']
 
 g.add(
     (
-        URIRef(NoeudVilles),
+        URIRef(NoeudToponymes),
         URIRef(is_a),
         URIRef(SKOS.ConceptScheme)
     )
 )
 g.add(
     (
-        URIRef(NoeudVilles),
+        URIRef(NoeudToponymes),
         URIRef(DCTERMS.title),
-        Literal('Villes')
+        Literal('Toponymes')
     )
 )
 
-g.add(
-    (
-        URIRef(NoeudDepartement),
-        URIRef(is_a),
-        URIRef(SKOS.ConceptScheme)
-    )
-)
-g.add(
-    (
-        URIRef(NoeudDepartement),
-        URIRef(DCTERMS.title),
-        Literal('Departements')
-    )
-)
-g.add(
-    (
-        URIRef(NoeudPays),
-        URIRef(is_a),
-        URIRef(SKOS.ConceptScheme)
-    )
-)
-g.add(
-    (
-        URIRef(NoeudPays),
-        URIRef(DCTERMS.title),
-        Literal('Pays')
-    )
-)
+# NoeudVilles = ConceptSchemes['Villes']
+# NoeudDepartement = ConceptSchemes['Departement']
+# NoeudPays = ConceptSchemes['Pays']
+
+# g.add(
+#     (
+#         URIRef(NoeudVilles),
+#         URIRef(is_a),
+#         URIRef(SKOS.ConceptScheme)
+#     )
+# )
+# g.add(
+#     (
+#         URIRef(NoeudVilles),
+#         URIRef(DCTERMS.title),
+#         Literal('Villes')
+#     )
+# )
+
+# g.add(
+#     (
+#         URIRef(NoeudDepartement),
+#         URIRef(is_a),
+#         URIRef(SKOS.ConceptScheme)
+#     )
+# )
+# g.add(
+#     (
+#         URIRef(NoeudDepartement),
+#         URIRef(DCTERMS.title),
+#         Literal('Departements')
+#     )
+# )
+# g.add(
+#     (
+#         URIRef(NoeudPays),
+#         URIRef(is_a),
+#         URIRef(SKOS.ConceptScheme)
+#     )
+# )
+# g.add(
+#     (
+#         URIRef(NoeudPays),
+#         URIRef(DCTERMS.title),
+#         Literal('Pays')
+#     )
+# )
 
 NoeudPrixNom = ConceptSchemes['PrixNom']
 NoeudPrixType = ConceptSchemes['PrixType']
@@ -524,167 +553,288 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
-        # Creation des villes
-        uriVille = None
+        # Creation des données géogaphiques
+
         if (pandas.notna(row["eleve_ville_naissance "])):
             uriVille = villes[row["eleve_ville_naissance "].strip(
             ).capitalize()]
-            g.add(
-                (
-                    URIRef(uriVille),
-                    URIRef(is_a),
-                    URIRef(SKOS.Concept)
-                )
-            )
-            g.add(
-                (
-                    URIRef(uriVille),
-                    URIRef(SKOS.prefLabel),
-                    Literal(row["eleve_ville_naissance "].strip().capitalize())
-                )
-            )
-            g.add(
-                (
-                    URIRef(uriVille),
-                    URIRef(SKOS.inScheme),
-                    URIRef(NoeudVilles)
-                )
-            )
-            g.add(
-                (
-                    URIRef(NoeudVilles),
-                    URIRef(SKOS.hasTopConcept),
-                    URIRef(uriVille)
-                )
-            )
+            nomVille = row["eleve_ville_naissance "].strip(
+            ).capitalize()
+        else : 
+            nomVille = "Ville inconnue"
+            uriVille = villes["Ville inconnue"]
+            
 
-            # Lien ville - eleve
-            # On ne tient pas compte des villes 'NaN'
-            g.add(
-                (
-                    URIRef(uriEleve),
-                    URIRef(HEMEF["nait_a"]),
-                    URIRef(uriVille)
-                )
-            )
-
-        # creation des departements
-        uriDep = None
         if (pandas.notna(row["eleve_departement_naissance"])):
-            uriDep = departement[row["eleve_departement_naissance"].strip(
+            uriDep = departements[row["eleve_departement_naissance"].strip(
             ).capitalize()]
-            g.add(
-                (
-                    URIRef(uriDep),
-                    URIRef(is_a),
-                    URIRef(SKOS.Concept)
-                )
-            )
-            g.add(
-                (
-                    URIRef(uriDep),
-                    URIRef(SKOS.prefLabel),
-                    Literal(
-                        row["eleve_departement_naissance"].strip().capitalize())
-                )
-            )
-            g.add(
-                (
-                    URIRef(uriDep),
-                    URIRef(SKOS.inScheme),
-                    URIRef(NoeudDepartement)
-                )
-            )
-            g.add(
-                (
-                    URIRef(NoeudDepartement),
-                    URIRef(SKOS.hasTopConcept),
-                    URIRef(uriDep)
-                )
-            )
-
-        # creation des Pays
+            nomDep = row["eleve_departement_naissance"].strip(
+            ).capitalize()
+        else :
+            nomDep = "Département inconnu"
+            uriDep = departements["Département inconnu"]
+        
         if pandas.notna(row["eleve_pays_naissance"]):
             uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
+            nomPays = row["eleve_pays_naissance"].strip().capitalize()
         else:
-            uriPays = pays[row["eleve_pays_naissance"]]
+            uriPays = pays['France']
+            nomPays = 'France'
+
         g.add(
             (
-                URIRef(uriPays),
+                URIRef(uriVille),
                 URIRef(is_a),
                 URIRef(SKOS.Concept)
             )
         )
+        g.add(
+            (
+                URIRef(uriVille),
+                URIRef(SKOS.prefLabel),
+                Literal(nomVille)
+            )
+        )
+
+        g.add(
+            (
+                URIRef(uriVille),
+                URIRef(SKOS.inScheme),
+                URIRef(NoeudToponymes)
+            )
+        )
+
+        g.add(
+            (
+                URIRef(NoeudToponymes),
+                URIRef(SKOS.hasTopConcept),
+                URIRef(uriVille)
+            )
+        )
+
+        g.add(
+                (
+                    URIRef(uriDep),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+
+        g.add(
+            (
+                URIRef(uriDep),
+                URIRef(SKOS.prefLabel),
+                Literal(nomDep)
+            )
+        )
+
+        g.add(
+            (
+                URIRef(uriDep),
+                URIRef(SKOS.inScheme),
+                URIRef(NoeudToponymes)
+            )
+        )
+
+        g.add(
+            (
+                URIRef(NoeudToponymes),
+                URIRef(SKOS.hasTopConcept),
+                URIRef(uriDep)
+            )
+        )
+
+        g.add(
+                (
+                    URIRef(uriPays),
+                    URIRef(is_a),
+                    URIRef(SKOS.Concept)
+                )
+            )
+
+        g.add(
+                (
+                    URIRef(uriPays),
+                    URIRef(SKOS.prefLabel),
+                    Literal(nomPays)
+                )
+            )
 
         g.add(
             (
                 URIRef(uriPays),
                 URIRef(SKOS.inScheme),
-                URIRef(NoeudPays)
+                URIRef(NoeudToponymes)
             )
         )
+
         g.add(
             (
-                URIRef(NoeudPays),
+                URIRef(NoeudToponymes),
                 URIRef(SKOS.hasTopConcept),
                 URIRef(uriPays)
             )
         )
-        if (pandas.notna(row["eleve_pays_naissance"])):
-            g.add(
-                (
-                    URIRef(uriPays),
-                    URIRef(SKOS.prefLabel),
-                    Literal(row["eleve_pays_naissance"].strip().capitalize())
-                )
+
+        g.add(
+            (
+                URIRef(uriPays),
+                URIRef(SKOS.broader),
+                URIRef(uriDep)
             )
-        # Une case vide (NaN) correspond à la France
-        else:
-            g.add(
-                (
-                    URIRef(uriPays),
-                    URIRef(SKOS.prefLabel),
-                    Literal("France")
-                )
+        )
+
+        g.add(
+            (
+                URIRef(uriDep),
+                URIRef(SKOS.narrower),
+                URIRef(uriPays)
             )
+        )
 
-        if uriVille:
-            if uriDep:
-                g.add((
-                    URIRef(uriVille),
-                    URIRef(SKOS.broader),
-                    URIRef(uriDep)
-                ))
+        g.add(
+            (
+                URIRef(uriDep),
+                URIRef(SKOS.broader),
+                URIRef(uriVille)
+            )
+        )
 
-                g.add((
-                    URIRef(uriDep),
-                    URIRef(SKOS.narrower),
-                    URIRef(uriVille)
-                ))
-                if uriPays:
-                    g.add((
-                        URIRef(uriDep),
-                        URIRef(SKOS.broader),
-                        URIRef(uriPays)
-                    ))
+        g.add(
+            (
+                URIRef(uriVille),
+                URIRef(SKOS.narrower),
+                URIRef(uriDep)
+            )
+        )
 
-                    g.add((
-                        URIRef(uriPays),
-                        URIRef(SKOS.narrower),
-                        URIRef(uriDep)
-                    ))
-            elif uriPays:
-                g.add((
-                    URIRef(uriVille),
-                    URIRef(SKOS.broader),
-                    URIRef(uriPays)
-                ))
+        # Lien ville - eleve
+        # On ne tient pas compte des villes 'NaN'
+        g.add(
+            (
+                URIRef(uriEleve),
+                URIRef(HEMEF["nait_a"]),
+                URIRef(uriVille)
+            )
+        )
 
-                g.add((
-                    URIRef(uriPays),
-                    URIRef(SKOS.narrower),
-                    URIRef(uriVille)
-                ))
+        # # creation des departements
+        # uriDep = None
+        # if (pandas.notna(row["eleve_departement_naissance"])):
+        #     uriDep = departement[row["eleve_departement_naissance"].strip(
+        #     ).capitalize()]
+        #     g.add(
+        #         (
+        #             URIRef(uriDep),
+        #             URIRef(is_a),
+        #             URIRef(SKOS.Concept)
+        #         )
+        #     )
+        #     g.add(
+        #         (
+        #             URIRef(uriDep),
+        #             URIRef(SKOS.prefLabel),
+        #             Literal(
+        #                 row["eleve_departement_naissance"].strip().capitalize())
+        #         )
+        #     )
+        #     g.add(
+        #         (
+        #             URIRef(uriDep),
+        #             URIRef(SKOS.inScheme),
+        #             URIRef(NoeudDepartement)
+        #         )
+        #     )
+        #     g.add(
+        #         (
+        #             URIRef(NoeudDepartement),
+        #             URIRef(SKOS.hasTopConcept),
+        #             URIRef(uriDep)
+        #         )
+        #     )
+
+        # # creation des Pays
+        # if pandas.notna(row["eleve_pays_naissance"]):
+        #     uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
+        # else:
+        #     uriPays = pays[row["eleve_pays_naissance"]]
+        # g.add(
+        #     (
+        #         URIRef(uriPays),
+        #         URIRef(is_a),
+        #         URIRef(SKOS.Concept)
+        #     )
+        # )
+
+        # g.add(
+        #     (
+        #         URIRef(uriPays),
+        #         URIRef(SKOS.inScheme),
+        #         URIRef(NoeudPays)
+        #     )
+        # )
+        # g.add(
+        #     (
+        #         URIRef(NoeudPays),
+        #         URIRef(SKOS.hasTopConcept),
+        #         URIRef(uriPays)
+        #     )
+        # )
+        # if (pandas.notna(row["eleve_pays_naissance"])):
+        #     g.add(
+        #         (
+        #             URIRef(uriPays),
+        #             URIRef(SKOS.prefLabel),
+        #             Literal(row["eleve_pays_naissance"].strip().capitalize())
+        #         )
+        #     )
+        # # Une case vide (NaN) correspond à la France
+        # else:
+        #     g.add(
+        #         (
+        #             URIRef(uriPays),
+        #             URIRef(SKOS.prefLabel),
+        #             Literal("France")
+        #         )
+        #     )
+
+        # if uriVille:
+        #     if uriDep:
+        #         g.add((
+        #             URIRef(uriVille),
+        #             URIRef(SKOS.broader),
+        #             URIRef(uriDep)
+        #         ))
+
+        #         g.add((
+        #             URIRef(uriDep),
+        #             URIRef(SKOS.narrower),
+        #             URIRef(uriVille)
+        #         ))
+        #         if uriPays:
+        #             g.add((
+        #                 URIRef(uriDep),
+        #                 URIRef(SKOS.broader),
+        #                 URIRef(uriPays)
+        #             ))
+
+        #             g.add((
+        #                 URIRef(uriPays),
+        #                 URIRef(SKOS.narrower),
+        #                 URIRef(uriDep)
+        #             ))
+        #     elif uriPays:
+        #         g.add((
+        #             URIRef(uriVille),
+        #             URIRef(SKOS.broader),
+        #             URIRef(uriPays)
+        #         ))
+
+        #         g.add((
+        #             URIRef(uriPays),
+        #             URIRef(SKOS.narrower),
+        #             URIRef(uriVille)
+        #         ))
 
         if (pandas.notna(row["eleve_ville_naissance_ancien_nom"])):
             g.add(
