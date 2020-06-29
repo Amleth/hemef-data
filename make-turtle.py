@@ -605,14 +605,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         )
 
         g.add(
-            (
-                URIRef(NoeudToponymes),
-                URIRef(SKOS.hasTopConcept),
-                URIRef(uriVille)
-            )
-        )
-
-        g.add(
                 (
                     URIRef(uriDep),
                     URIRef(is_a),
@@ -633,14 +625,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 URIRef(uriDep),
                 URIRef(SKOS.inScheme),
                 URIRef(NoeudToponymes)
-            )
-        )
-
-        g.add(
-            (
-                URIRef(NoeudToponymes),
-                URIRef(SKOS.hasTopConcept),
-                URIRef(uriDep)
             )
         )
 
@@ -679,7 +663,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         g.add(
             (
                 URIRef(uriPays),
-                URIRef(SKOS.broader),
+                URIRef(SKOS.narrower),
                 URIRef(uriDep)
             )
         )
@@ -687,7 +671,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         g.add(
             (
                 URIRef(uriDep),
-                URIRef(SKOS.narrower),
+                URIRef(SKOS.broader),
                 URIRef(uriPays)
             )
         )
@@ -695,7 +679,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         g.add(
             (
                 URIRef(uriDep),
-                URIRef(SKOS.broader),
+                URIRef(SKOS.narrower),
                 URIRef(uriVille)
             )
         )
@@ -703,13 +687,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         g.add(
             (
                 URIRef(uriVille),
-                URIRef(SKOS.narrower),
+                URIRef(SKOS.broaser),
                 URIRef(uriDep)
             )
         )
 
         # Lien ville - eleve
-        # On ne tient pas compte des villes 'NaN'
         g.add(
             (
                 URIRef(uriEleve),
@@ -717,124 +700,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 URIRef(uriVille)
             )
         )
-
-        # # creation des departements
-        # uriDep = None
-        # if (pandas.notna(row["eleve_departement_naissance"])):
-        #     uriDep = departement[row["eleve_departement_naissance"].strip(
-        #     ).capitalize()]
-        #     g.add(
-        #         (
-        #             URIRef(uriDep),
-        #             URIRef(is_a),
-        #             URIRef(SKOS.Concept)
-        #         )
-        #     )
-        #     g.add(
-        #         (
-        #             URIRef(uriDep),
-        #             URIRef(SKOS.prefLabel),
-        #             Literal(
-        #                 row["eleve_departement_naissance"].strip().capitalize())
-        #         )
-        #     )
-        #     g.add(
-        #         (
-        #             URIRef(uriDep),
-        #             URIRef(SKOS.inScheme),
-        #             URIRef(NoeudDepartement)
-        #         )
-        #     )
-        #     g.add(
-        #         (
-        #             URIRef(NoeudDepartement),
-        #             URIRef(SKOS.hasTopConcept),
-        #             URIRef(uriDep)
-        #         )
-        #     )
-
-        # # creation des Pays
-        # if pandas.notna(row["eleve_pays_naissance"]):
-        #     uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
-        # else:
-        #     uriPays = pays[row["eleve_pays_naissance"]]
-        # g.add(
-        #     (
-        #         URIRef(uriPays),
-        #         URIRef(is_a),
-        #         URIRef(SKOS.Concept)
-        #     )
-        # )
-
-        # g.add(
-        #     (
-        #         URIRef(uriPays),
-        #         URIRef(SKOS.inScheme),
-        #         URIRef(NoeudPays)
-        #     )
-        # )
-        # g.add(
-        #     (
-        #         URIRef(NoeudPays),
-        #         URIRef(SKOS.hasTopConcept),
-        #         URIRef(uriPays)
-        #     )
-        # )
-        # if (pandas.notna(row["eleve_pays_naissance"])):
-        #     g.add(
-        #         (
-        #             URIRef(uriPays),
-        #             URIRef(SKOS.prefLabel),
-        #             Literal(row["eleve_pays_naissance"].strip().capitalize())
-        #         )
-        #     )
-        # # Une case vide (NaN) correspond à la France
-        # else:
-        #     g.add(
-        #         (
-        #             URIRef(uriPays),
-        #             URIRef(SKOS.prefLabel),
-        #             Literal("France")
-        #         )
-        #     )
-
-        # if uriVille:
-        #     if uriDep:
-        #         g.add((
-        #             URIRef(uriVille),
-        #             URIRef(SKOS.broader),
-        #             URIRef(uriDep)
-        #         ))
-
-        #         g.add((
-        #             URIRef(uriDep),
-        #             URIRef(SKOS.narrower),
-        #             URIRef(uriVille)
-        #         ))
-        #         if uriPays:
-        #             g.add((
-        #                 URIRef(uriDep),
-        #                 URIRef(SKOS.broader),
-        #                 URIRef(uriPays)
-        #             ))
-
-        #             g.add((
-        #                 URIRef(uriPays),
-        #                 URIRef(SKOS.narrower),
-        #                 URIRef(uriDep)
-        #             ))
-        #     elif uriPays:
-        #         g.add((
-        #             URIRef(uriVille),
-        #             URIRef(SKOS.broader),
-        #             URIRef(uriPays)
-        #         ))
-
-        #         g.add((
-        #             URIRef(uriPays),
-        #             URIRef(SKOS.narrower),
-        #             URIRef(uriVille)
-        #         ))
 
         if (pandas.notna(row["eleve_ville_naissance_ancien_nom"])):
             g.add(
