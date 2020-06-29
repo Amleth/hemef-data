@@ -687,7 +687,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         g.add(
             (
                 URIRef(uriVille),
-                URIRef(SKOS.broaser),
+                URIRef(SKOS.broader),
                 URIRef(uriDep)
             )
         )
