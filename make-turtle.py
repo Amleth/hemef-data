@@ -76,8 +76,6 @@ pays = {}
 
 eleves = {}
 
-# cursus = {}
-
 metiers = {}
 prixNom = {}
 prixType = {}
@@ -94,11 +92,9 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
     else:
         eleves[row["identifiant_1"]] = générer_uuid(
             "eleves", row["identifiant_1"])
-        # ConceptSchemes['Villes'] = générer_uuid("ConceptSchemes", 'Villes')
-        # ConceptSchemes['Departement'] = générer_uuid(
-        #     "ConceptSchemes", 'Departement')
-        # ConceptSchemes['Pays'] = générer_uuid("ConceptSchemes", 'Pays')
-        ConceptSchemes['Toponymes'] = générer_uuid("ConceptSchemes", 'Toponymes')
+
+        ConceptSchemes['Toponymes'] = générer_uuid(
+            "ConceptSchemes", 'Toponymes')
 
         ConceptSchemes['Métiers'] = générer_uuid("ConceptSchemes", 'Métiers')
         # CS Thesaurus Prix
@@ -110,14 +106,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         if (pandas.notna(row["eleve_ville_naissance "])):
             villes[row["eleve_ville_naissance "].strip().capitalize()] = générer_uuid(
                 "villes", row["eleve_ville_naissance "].strip().capitalize())
-        else :
+        else:
             villes["Ville inconnue"] = générer_uuid("villes", "Ville inconnue")
 
         if (pandas.notna(row["eleve_departement_naissance"])):
             departements[row["eleve_departement_naissance"].strip().capitalize(
             )] = générer_uuid("departements", row["eleve_departement_naissance"])
-        else :
-            departements["Département inconnu"] = générer_uuid("departements", "Département inconnu")
+        else:
+            departements["Département inconnu"] = générer_uuid(
+                "departements", "Département inconnu")
 
         if (pandas.notna(row["eleve_pays_naissance"])):
             pays[row["eleve_pays_naissance"].strip().capitalize()] = générer_uuid(
@@ -206,8 +203,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             id_classe = row['classe_discipline'].strip().capitalize()
             classe[id_classe] = générer_uuid('Classe', id_classe)
 
-        # Voilà, on est sûr que la ligne est OK
-
 ###############################################################################
 # Initialisation des CS
 g.add(
@@ -258,54 +253,6 @@ g.add(
         Literal('Toponymes')
     )
 )
-
-# NoeudVilles = ConceptSchemes['Villes']
-# NoeudDepartement = ConceptSchemes['Departement']
-# NoeudPays = ConceptSchemes['Pays']
-
-# g.add(
-#     (
-#         URIRef(NoeudVilles),
-#         URIRef(is_a),
-#         URIRef(SKOS.ConceptScheme)
-#     )
-# )
-# g.add(
-#     (
-#         URIRef(NoeudVilles),
-#         URIRef(DCTERMS.title),
-#         Literal('Villes')
-#     )
-# )
-
-# g.add(
-#     (
-#         URIRef(NoeudDepartement),
-#         URIRef(is_a),
-#         URIRef(SKOS.ConceptScheme)
-#     )
-# )
-# g.add(
-#     (
-#         URIRef(NoeudDepartement),
-#         URIRef(DCTERMS.title),
-#         Literal('Departements')
-#     )
-# )
-# g.add(
-#     (
-#         URIRef(NoeudPays),
-#         URIRef(is_a),
-#         URIRef(SKOS.ConceptScheme)
-#     )
-# )
-# g.add(
-#     (
-#         URIRef(NoeudPays),
-#         URIRef(DCTERMS.title),
-#         Literal('Pays')
-#     )
-# )
 
 NoeudPrixNom = ConceptSchemes['PrixNom']
 NoeudPrixType = ConceptSchemes['PrixType']
@@ -366,7 +313,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
     else:
         # Creation des eleves
         uriEleve = eleves[row["identifiant_1"]]
-        # On definit chaque elève comme une personne
         g.add(
             (
                 URIRef(uriEleve),
@@ -560,20 +506,19 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             ).capitalize()]
             nomVille = row["eleve_ville_naissance "].strip(
             ).capitalize()
-        else : 
+        else:
             nomVille = "Ville inconnue"
             uriVille = villes["Ville inconnue"]
-            
 
         if (pandas.notna(row["eleve_departement_naissance"])):
             uriDep = departements[row["eleve_departement_naissance"].strip(
             ).capitalize()]
             nomDep = row["eleve_departement_naissance"].strip(
             ).capitalize()
-        else :
+        else:
             nomDep = "Département inconnu"
             uriDep = departements["Département inconnu"]
-        
+
         if pandas.notna(row["eleve_pays_naissance"]):
             uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
             nomPays = row["eleve_pays_naissance"].strip().capitalize()
@@ -605,12 +550,12 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         )
 
         g.add(
-                (
-                    URIRef(uriDep),
-                    URIRef(is_a),
-                    URIRef(SKOS.Concept)
-                )
+            (
+                URIRef(uriDep),
+                URIRef(is_a),
+                URIRef(SKOS.Concept)
             )
+        )
 
         g.add(
             (
@@ -629,20 +574,20 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         )
 
         g.add(
-                (
-                    URIRef(uriPays),
-                    URIRef(is_a),
-                    URIRef(SKOS.Concept)
-                )
+            (
+                URIRef(uriPays),
+                URIRef(is_a),
+                URIRef(SKOS.Concept)
             )
+        )
 
         g.add(
-                (
-                    URIRef(uriPays),
-                    URIRef(SKOS.prefLabel),
-                    Literal(nomPays)
-                )
+            (
+                URIRef(uriPays),
+                URIRef(SKOS.prefLabel),
+                Literal(nomPays)
             )
+        )
 
         g.add(
             (
@@ -905,7 +850,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             if (pandas.notna(row["prix_discipline"])):
                 g.add(
                     (
-                        URIRef(prixDiscipline[row['prix_discipline'].strip().capitalize()]),
+                        URIRef(
+                            prixDiscipline[row['prix_discipline'].strip().capitalize()]),
                         URIRef(is_a),
                         URIRef(SKOS.Concept)
                     )
@@ -913,7 +859,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
                 g.add(
                     (
-                        URIRef(prixDiscipline[row['prix_discipline'].strip().capitalize()]),
+                        URIRef(
+                            prixDiscipline[row['prix_discipline'].strip().capitalize()]),
                         URIRef(SKOS.inScheme),
                         URIRef(NoeudPrixDiscipline)
                     )
@@ -923,13 +870,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(NoeudPrixDiscipline),
                         URIRef(SKOS.hasTopConcept),
-                         URIRef(prixDiscipline[row['prix_discipline'].strip().capitalize()]),
+                        URIRef(
+                            prixDiscipline[row['prix_discipline'].strip().capitalize()]),
                     )
                 )
 
                 g.add(
                     (
-                        URIRef(prixDiscipline[row['prix_discipline'].strip().capitalize()]),
+                        URIRef(
+                            prixDiscipline[row['prix_discipline'].strip().capitalize()]),
                         URIRef(SKOS.prefLabel),
                         Literal(row['prix_discipline'].strip().capitalize())
                     )
@@ -939,14 +888,16 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(uriPrix),
                         URIRef(HEMEF['discipline_prix']),
-                        URIRef(prixDiscipline[row['prix_discipline'].strip().capitalize()])
+                        URIRef(
+                            prixDiscipline[row['prix_discipline'].strip().capitalize()])
                     )
                 )
 
             if (pandas.notna(row["prix_type"])):
                 g.add(
                     (
-                        URIRef(prixType[row['prix_type'].strip().capitalize()]),
+                        URIRef(
+                            prixType[row['prix_type'].strip().capitalize()]),
                         URIRef(is_a),
                         URIRef(SKOS.Concept)
                     )
@@ -954,7 +905,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
                 g.add(
                     (
-                        URIRef(prixType[row['prix_type'].strip().capitalize()]),
+                        URIRef(
+                            prixType[row['prix_type'].strip().capitalize()]),
                         URIRef(SKOS.inScheme),
                         URIRef(NoeudPrixType)
                     )
@@ -964,13 +916,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     (
                         URIRef(NoeudPrixType),
                         URIRef(SKOS.hasTopConcept),
-                         URIRef(prixType[row['prix_type'].strip().capitalize()]),
+                        URIRef(
+                            prixType[row['prix_type'].strip().capitalize()]),
                     )
                 )
 
                 g.add(
                     (
-                        URIRef(prixType[row['prix_type'].strip().capitalize()]),
+                        URIRef(
+                            prixType[row['prix_type'].strip().capitalize()]),
                         URIRef(SKOS.prefLabel),
                         Literal(row['prix_type'].strip().capitalize())
                     )
