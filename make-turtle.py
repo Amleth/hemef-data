@@ -113,14 +113,17 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             departements[row["eleve_departement_naissance"].strip().capitalize(
             )] = générer_uuid("departements", row["eleve_departement_naissance"])
         else:
-            departements["Département inconnu"] = générer_uuid(
-                "departements", "Département inconnu")
+            if pandas.notna(row["eleve_pays_naissance"]) :
+                ssZoneDe = row["eleve_pays_naissance"]
+            else : ssZoneDe = 'France'
+            departements[ssZoneDe + " - Département inconnu"] = générer_uuid(
+                "departements", ssZoneDe + " - Département inconnu")
 
         if (pandas.notna(row["eleve_pays_naissance"])):
             pays[row["eleve_pays_naissance"].strip().capitalize()] = générer_uuid(
                 "pays", row["eleve_pays_naissance"])
         else:
-            pays["France"] = générer_uuid("pays", "France")
+            pays['France'] = générer_uuid("pays", "France")
 
         # Thesaurus Prix
         if (pandas.notna(row['prix_nom'])):
@@ -499,6 +502,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 )
             )
 
+        # print(departements)
+
         # Creation des données géogaphiques
 
         if (pandas.notna(row["eleve_ville_naissance "])):
@@ -516,8 +521,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             nomDep = row["eleve_departement_naissance"].strip(
             ).capitalize()
         else:
-            nomDep = "Département inconnu"
-            uriDep = departements["Département inconnu"]
+            if pandas.notna(row["eleve_pays_naissance"]) :
+                ssZoneDe = row["eleve_pays_naissance"]
+            else : 
+                ssZoneDe = 'France'
+            
+            nomDep = ssZoneDe + " - Département inconnu"
+            uriDep = departements[nomDep]
 
         if pandas.notna(row["eleve_pays_naissance"]):
             uriPays = pays[row["eleve_pays_naissance"].strip().capitalize()]
