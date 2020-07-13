@@ -139,8 +139,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                 'PrixDiscipline', row['prix_discipline'].strip().capitalize())
 
         if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"].strip().capitalize()) and pandas.notna(row["prix_discipline"])):
-            id_prix = tuple((row["prix_date"], row["prix_nom"].strip(
-            ).capitalize(), row["prix_discipline"].strip().capitalize()))
+            id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip(
+            ).capitalize(), row["prix_discipline"].strip().capitalize())) #Ajout de l'ID de l'eleve dans identité du prix
             prix[id_prix] = générer_uuid('prix', id_prix)
 
         # Creation des clés pour les Parcours_classe
@@ -150,7 +150,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             parcours_classe[id_parcours_classe] = générer_uuid(
                 'parcours_classe', id_parcours_classe)
         else:
-            # Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifiers
+            # Il existe des éléments vides dans la clé, il va falloir bricoler d'après les cas identifies
             if pandas.isna(row["classe_nom_professeur"]):
                 if pandas.isna(row["parcours_classe_date_entree"]):
                     if pandas.isna(row["classe_discipline"]):
@@ -769,7 +769,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
 
         uriPrix = None
         if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
-            id_prix = tuple((row["prix_date"], row["prix_nom"].strip(
+            id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip(
             ).capitalize(), row["prix_discipline"].strip().capitalize()))
             uriPrix = prix[id_prix]
 
