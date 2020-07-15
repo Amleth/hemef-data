@@ -138,9 +138,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             prixDiscipline[row['prix_discipline'].strip().capitalize()] = générer_uuid(
                 'PrixDiscipline', row['prix_discipline'].strip().capitalize())
 
-        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"].strip().capitalize()) and pandas.notna(row["prix_discipline"])):
-            id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip(
-            ).capitalize(), row["prix_discipline"].strip().capitalize())) #Ajout de l'ID de l'eleve dans identité du prix
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"].strip().capitalize())):
+            if pandas.notna(row["prix_discipline"]):
+                id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip().capitalize(), row["prix_discipline"].strip().capitalize()))
+            else : id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip().capitalize()))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
         # Creation des clés pour les Parcours_classe
@@ -768,9 +769,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
         # Gestion des prix
 
         uriPrix = None
-        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"]) and pandas.notna(row["prix_discipline"])):
-            id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip(
-            ).capitalize(), row["prix_discipline"].strip().capitalize()))
+        if (pandas.notna(row["prix_date"]) and pandas.notna(row["prix_nom"])): 
+            if pandas.notna(row["prix_discipline"]):
+                id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip().capitalize(), row["prix_discipline"].strip().capitalize()))
+            else : id_prix = tuple((row['identifiant_1'], row["prix_date"], row["prix_nom"].strip().capitalize()))
             uriPrix = prix[id_prix]
 
             if (pandas.notna(row["prix_discipline"])):
@@ -945,6 +947,14 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                         URIRef(uriPrix),
                         URIRef(HEMEF['type_prix']),
                         URIRef(prixType[row['prix_type'].strip().capitalize()])
+                    )
+                )
+            if (pandas.notna(row["prix_rang"])):
+                g.add(
+                    (
+                        URIRef(uriPrix),
+                        URIRef(HEMEF['rang_du_prix']),
+                        Literal(row["prix_rang"])
                     )
                 )
 
@@ -1190,7 +1200,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
             )
 
         if uriPrix != None:
-            if str(row["prix_type"]) == 'Prix de Rome' or str(row["prix_type"]) == 'Grand Prix de Rome':
+            if str(row["prix_type"]).strip().capitalize()== 'Prix de Rome'.capitalize() or str(row["prix_type"]).strip().capitalize() == 'Grand Prix de Rome'.capitalize():
                 g.add(
                     (
                         URIRef(uriPrix),
