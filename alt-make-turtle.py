@@ -1311,5 +1311,7 @@ with open(args.turtle, "w") as file:
 with open("registre.yaml", "w") as file:
     yaml.dump(registre, file)
 
+print('fin script')
+
 # with open("eleves_sans_pc.yaml", "w") as file:
 #     yaml.dump(debug_eleve_sans_pc, file)
