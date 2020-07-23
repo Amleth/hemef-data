@@ -410,9 +410,14 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="Sheet1", encoding='utf-8
                     Literal(date_time[0], datatype=XSD.Date)
                 )
             )
-        else:
-            print("Erreur de date : ",
-                  row["identifiant_1"], " ", row["eleve_date_naissance"])
+        elif(pandas.notna(row["eleve_date_naissance"])):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["hypothèse_date_de_naissance"]),
+                    Literal(row["eleve_date_naissance"])
+                )
+            )
 
         if str(row["eleve_cote_AN_registre"] != 'nan'):
             g.add(
