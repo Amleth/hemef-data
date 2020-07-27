@@ -1,2 +1,3 @@
 # hemef-data
-Pour executer make-turtle.py, lancer le script "go.sh" dans un terminal.
+Pour executer alt-make-turtle.py, lancer le script "altgo.sh" dans un terminal.
+(alt = version la plus a jour)
