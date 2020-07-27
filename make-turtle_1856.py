@@ -88,7 +88,7 @@ classe = {}  # un tuple discipline, professeur
 professeur = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8').iterrows():
-    if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter:
+    if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter or pandas.isna(row['Identifiant_1']) :
         continue
     else:
         eleves[row["Identifiant_1"]] = générer_uuid(
@@ -335,7 +335,7 @@ g.add(
 
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8').iterrows():
-    if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter:
+    if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter or pandas.isna(row["Identifiant_1"]):
         continue
     else:
         # Creation des eleves
@@ -444,6 +444,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     URIRef(uriEleve),
                     URIRef(HEMEF["eleve_remarques_de_saisie"]),
                     Literal(row["eleve_remarques de saisie"])
+                )
+            )
+        
+        if(pandas.notna(row["eleve_refs_bibliographiques"])):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["eleve_refs_bibliographiques"]),
+                    Literal(row["eleve_refs_bibliographiques"])
                 )
             )
 
@@ -917,6 +926,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     )
                 )
             else:
+                print('date à vérifier : ', row["Prix_date"])
                 g.add(
                     (
                         URIRef(uriPrix),
