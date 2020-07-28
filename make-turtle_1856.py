@@ -76,6 +76,8 @@ pays = {}
 
 eleves = {}
 
+adresses = {}
+
 metiers = {}
 prixNom = {}
 prixType = {}
@@ -214,6 +216,26 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             id_classe = str(row['classe_discipline']).strip().capitalize()
             classe[id_classe] = générer_uuid('Classe', id_classe)
 
+        #creation des adresses
+        def initadresse(a):
+            if (pandas.notna(row[str(a)])):
+                print (row[a])
+                return row[str(a)]
+        
+        adresse = ''
+        if pandas.notna(row['Adresse_numero_voie']) :
+            adresse += str(row['Adresse_numero_voie']).strip() + ' '
+        if pandas.notna(row['Adresse_type_voie']) :
+            adresse += str(row['Adresse_type_voie']).strip() + ' '
+        if pandas.notna(row['Adresse_article_voie']) :
+            adresse += str(row['Adresse_article_voie']).strip() + ' '
+        if pandas.notna(row['Adresse_nom_voie']) :
+            adresse += str(row['Adresse_nom_voie']).strip()
+
+        if adresse != '' :
+            adresse = adresse.strip()
+            adresses[adresse] = générer_uuid('adresses', adresse)
+        
 ###############################################################################
 # Initialisation des CS
 g.add(
@@ -1146,6 +1168,77 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                         Literal(row['classes_remarques_saisie'])
                     )
                 )
+        
+        # Gestion des adresses 
+
+        adresse = ''
+        if pandas.notna(row['Adresse_numero_voie']) :
+            adresse += str(row['Adresse_numero_voie']).strip() + ' '
+        if pandas.notna(row['Adresse_type_voie']) :
+            adresse += str(row['Adresse_type_voie']).strip() + ' '
+        if pandas.notna(row['Adresse_article_voie']) :
+            adresse += str(row['Adresse_article_voie']).strip() + ' '
+        if pandas.notna(row['Adresse_nom_voie']) :
+            adresse += str(row['Adresse_nom_voie']).strip()
+
+        if adresse != '' :
+            adresse = adresse.strip()
+            URIadresse = adresses[adresse]
+
+            g.add(
+                (
+                URIRef(URIadresse),
+                URIRef(is_a),
+                URIRef(HEMEF['Adresse'])
+                )
+            )
+
+            g.add(
+                (
+                URIRef(uriEleve),
+                URIRef(HEMEF['a_résidé']),
+                URIRef(URIadresse),
+                )
+            )
+
+            g.add(
+                (
+                URIRef(URIadresse),
+                URIRef(HEMEF['libellé_adresse']),
+                Literal(adresse)
+                )
+            )
+
+            
+            
+            if pandas.notna(row["Adresse_ville"]):
+                if (row["Adresse_ville"] in villes):
+                    g.add(
+                        (
+                        URIRef(URIadresse),
+                        URIRef(HEMEF['a_pour_ville']),
+                        URIRef(villes[row["Adresse_ville"]])
+                        )
+                    )
+                else :
+                    g.add(
+                        (
+                        URIRef(URIadresse),
+                        URIRef(HEMEF['a_pour_ville_literal']),
+                        Literal(row["Adresse_ville"])
+                        )
+                    )
+            
+            if pandas.notna(row['Adresse_ville_ancien nom']):
+                g.add(
+                        (
+                        URIRef(URIadresse),
+                        URIRef(HEMEF['ville_ancien_nom']),
+                        Literal(row["Adresse_ville_ancien nom"])
+                        )
+                    )
+
+
 
         # Gestion Parcours_classe
 
@@ -1309,6 +1402,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                         URIRef(uriPrix),
                     )
                 )
+
+        
 
 ################################################################################
 ################################################################################
