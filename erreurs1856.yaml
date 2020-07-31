@@ -3,22 +3,22 @@
 1857-0290:
   cursus_date_sortie_conservatoire: ['[1860 ?]--', '[1860-00-00]']
   eleve_prenom_1: [Jules, '[Jules']
-  eleve_prenom_2: [Émile, 'Émile]']
+  eleve_prenom_2: ['Émile]', Émile]
 1857-0342:
-  cursus_date_sortie_conservatoire: ['?-?-?', '-?-?']
+  cursus_date_sortie_conservatoire: ['-?-?', '?-?-?']
 1857-0357:
   Identifiant_2: ['', '[1860-0779 (Bonnange)]']
 1858-0500:
-  eleve_profession_pere: [contrôleur de ville dans les contributions indirectes,
-    contrôleur de ville  dans les contributions indirectes]
+  eleve_profession_pere: [contrôleur de ville  dans les contributions indirectes,
+    contrôleur de ville dans les contributions indirectes]
 1858-0521:
-  eleve_profession_pere: ['ébéniste ; chef ? de l''attraction au chemin de fer de
-      l''ouest', 'ébéniste ; chef visiteur ? de l''attraction au chemin de fer de
-      l''ouest']
+  eleve_profession_pere: ['ébéniste ; chef visiteur ? de l''attraction au chemin
+      de fer de l''ouest', 'ébéniste ; chef ? de l''attraction au chemin de fer
+      de l''ouest']
 1858-0526:
-  Identifiant_2: ['', R. 3. D. f° 298]
+  Identifiant_2: [R. 3. D. f° 298, '']
 1860-0903:
-  cursus_date_sortie_conservatoire: ['1862-?-01', '1862-00-01']
+  cursus_date_sortie_conservatoire: ['1862-00-01', '1862-?-01']
 1861-1083:
   pre-cursus_nom_etablissement: ['', Nantes]
 1861-1165:

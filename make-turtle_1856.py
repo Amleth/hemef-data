@@ -90,7 +90,7 @@ classe = {}  # un tuple discipline, professeur
 professeur = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8').iterrows():
-    if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter or pandas.isna(row['Identifiant_1']) :
+    if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter or pandas.isna(row['Identifiant_1']):
         continue
     else:
         eleves[row["Identifiant_1"]] = générer_uuid(
@@ -105,7 +105,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
         ConceptSchemes['PrixType'] = générer_uuid("ConceptSchemes", 'PrixType')
         ConceptSchemes['PrixDiscipline'] = générer_uuid(
             "ConceptSchemes", 'PrixDiscipline')
-        ConceptSchemes['PrixNomComplément'] = générer_uuid("ConceptSchemes", 'PrixNomComplément')
+        ConceptSchemes['PrixNomComplément'] = générer_uuid(
+            "ConceptSchemes", 'PrixNomComplément')
 
         if (pandas.notna(row["eleve_ville_naissance"])):
             villes[row["eleve_ville_naissance"].strip().capitalize()] = générer_uuid(
@@ -117,9 +118,10 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             departements[row["eleve_departement_naissance"].strip().capitalize(
             )] = générer_uuid("departements", row["eleve_departement_naissance"])
         else:
-            if pandas.notna(row["eleve_pays_naissance"]) :
+            if pandas.notna(row["eleve_pays_naissance"]):
                 ssZoneDe = row["eleve_pays_naissance"]
-            else : ssZoneDe = 'France'
+            else:
+                ssZoneDe = 'France'
             departements[ssZoneDe + " - Département inconnu"] = générer_uuid(
                 "departements", ssZoneDe + " - Département inconnu")
 
@@ -148,8 +150,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
 
         if (pandas.notna(row["Prix_date"]) and pandas.notna(row["Prix_nom"].strip().capitalize())):
             if pandas.notna(row["Prix_discipline"]):
-                id_prix = tuple((row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip().capitalize(), row["Prix_discipline"].strip().capitalize()))
-            else : id_prix = tuple((row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip().capitalize()))
+                id_prix = tuple((row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip(
+                ).capitalize(), row["Prix_discipline"].strip().capitalize()))
+            else:
+                id_prix = tuple(
+                    (row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip().capitalize()))
             prix[id_prix] = générer_uuid('prix', id_prix)
 
         # Creation des clés pour les Parcours_classe
@@ -190,6 +195,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
 
         ConceptSchemes['Disciplines'] = générer_uuid(
             "ConceptSchemes", 'Disciplines')
+        
+        #Metiers
 
         if ((pandas.notna(row['eleve_profession_pere']))):
             metiers[row['eleve_profession_pere'].strip().capitalize()] = générer_uuid(
@@ -199,10 +206,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             metiers[row['eleve_profession_mere'].strip().capitalize()] = générer_uuid(
                 'Métiers', row['eleve_profession_mere'].strip().capitalize())
 
+        if ((pandas.notna(row['eleve_profession_mere']))):
+
+
+
         if ((pandas.notna(row['classe_discipline']))):
             discipline[str(row['classe_discipline']).strip().capitalize()] = générer_uuid(
-                'Disciplines', str(row['classe_discipline']).strip().capitalize()
-                )
+                'Disciplines', str(
+                    row['classe_discipline']).strip().capitalize()
+            )
 
         if ((pandas.notna(row['classe_nom_professeur']))):
             professeur[row['classe_nom_professeur'].strip().capitalize()] = générer_uuid(
@@ -216,26 +228,26 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             id_classe = str(row['classe_discipline']).strip().capitalize()
             classe[id_classe] = générer_uuid('Classe', id_classe)
 
-        #creation des adresses
+        # creation des adresses
         def initadresse(a):
             if (pandas.notna(row[str(a)])):
-                print (row[a])
+                print(row[a])
                 return row[str(a)]
-        
+
         adresse = ''
-        if pandas.notna(row['Adresse_numero_voie']) :
+        if pandas.notna(row['Adresse_numero_voie']):
             adresse += str(row['Adresse_numero_voie']).strip() + ' '
-        if pandas.notna(row['Adresse_type_voie']) :
+        if pandas.notna(row['Adresse_type_voie']):
             adresse += str(row['Adresse_type_voie']).strip() + ' '
-        if pandas.notna(row['Adresse_article_voie']) :
+        if pandas.notna(row['Adresse_article_voie']):
             adresse += str(row['Adresse_article_voie']).strip() + ' '
-        if pandas.notna(row['Adresse_nom_voie']) :
+        if pandas.notna(row['Adresse_nom_voie']):
             adresse += str(row['Adresse_nom_voie']).strip()
 
-        if adresse != '' :
+        if adresse != '':
             adresse = adresse.strip()
             adresses[adresse] = générer_uuid('adresses', adresse)
-        
+
 ###############################################################################
 # Initialisation des CS
 g.add(
@@ -371,7 +383,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
         )
 
         if (pandas.notna(row['eleve_prenom_2'])):
-            prenom = str(row['eleve_prenom_1']) + " " + str(row['eleve_prenom_2'])
+            prenom = str(row['eleve_prenom_1']) + " " + \
+                str(row['eleve_prenom_2'])
         else:
             prenom = str(row['eleve_prenom_1'])
         if (pandas.notna(row['eleve_complement_prenom'])):
@@ -390,7 +403,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                 Literal(row["eleve_nom"])
             )
         )
-        if (str(row['eleve_complement_nom']) != "nan"):
+        if (pandas.notna(row['eleve_complement_nom'])):
             g.add(
                 (
                     URIRef(uriEleve),
@@ -398,8 +411,17 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     Literal(row['eleve_complement_nom'])
                 )
             )
-        # nom_epouse vide, non gere pour le moment
-        if (str(row['eleve_pseudonyme']) != "nan"):
+
+        if (pandas.notna(row['eleve_nom_epouse'])):
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF["eleve_nom_d_epouse"]),
+                    Literal(row['eleve_nom_epouse'])
+                )
+            )
+
+        if (pandas.notna(row['eleve_pseudonyme'])):
             g.add(
                 (
                     URIRef(uriEleve),
@@ -468,7 +490,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     Literal(row["eleve_remarques de saisie"])
                 )
             )
-        
+
         if(pandas.notna(row["eleve_refs_bibliographiques"])):
             g.add(
                 (
@@ -581,11 +603,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             nomDep = row["eleve_departement_naissance"].strip(
             ).capitalize()
         else:
-            if pandas.notna(row["eleve_pays_naissance"]) :
+            if pandas.notna(row["eleve_pays_naissance"]):
                 ssZoneDe = row["eleve_pays_naissance"]
-            else : 
+            else:
                 ssZoneDe = 'France'
-            
+
             nomDep = ssZoneDe + " - Département inconnu"
             uriDep = departements[nomDep]
 
@@ -828,10 +850,13 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
         # Gestion des prix
 
         uriPrix = None
-        if (pandas.notna(row["Prix_date"]) and pandas.notna(row["Prix_nom"])): 
+        if (pandas.notna(row["Prix_date"]) and pandas.notna(row["Prix_nom"])):
             if pandas.notna(row["Prix_discipline"]):
-                id_prix = tuple((row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip().capitalize(), row["Prix_discipline"].strip().capitalize()))
-            else : id_prix = tuple((row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip().capitalize()))
+                id_prix = tuple((row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip(
+                ).capitalize(), row["Prix_discipline"].strip().capitalize()))
+            else:
+                id_prix = tuple(
+                    (row['Identifiant_1'], row["Prix_date"], row["Prix_nom"].strip().capitalize()))
             uriPrix = prix[id_prix]
 
             if (pandas.notna(row["Prix_discipline"])):
@@ -900,7 +925,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             if (pandas.notna(row["Prix_nom_complément"])):
                 g.add(
                     (
-                        URIRef(prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
+                        URIRef(
+                            prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
                         URIRef(is_a),
                         URIRef(SKOS.Concept)
                     )
@@ -908,9 +934,11 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
 
                 g.add(
                     (
-                        URIRef(prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
+                        URIRef(
+                            prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
                         URIRef(SKOS.prefLabel),
-                        Literal(row["Prix_nom_complément"].strip().capitalize())
+                        Literal(
+                            row["Prix_nom_complément"].strip().capitalize())
                     )
                 )
 
@@ -918,13 +946,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     (
                         URIRef(uriPrix),
                         URIRef(HEMEF['complément_nom_prix']),
-                        URIRef(prixNomComplément[row["Prix_nom_complément"].strip().capitalize()])
+                        URIRef(
+                            prixNomComplément[row["Prix_nom_complément"].strip().capitalize()])
                     )
                 )
 
                 g.add(
                     (
-                        URIRef(prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
+                        URIRef(
+                            prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
                         URIRef(SKOS.inScheme),
                         URIRef(NoeudPrixNomComplément)
                     )
@@ -934,7 +964,8 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     (
                         URIRef(NoeudPrixNomComplément),
                         URIRef(SKOS.hasTopConcept),
-                        URIRef(prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
+                        URIRef(
+                            prixNomComplément[row["Prix_nom_complément"].strip().capitalize()]),
                     )
                 )
 
@@ -1168,77 +1199,73 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                         Literal(row['classes_remarques_saisie'])
                     )
                 )
-        
-        # Gestion des adresses 
+
+        # Gestion des adresses
 
         adresse = ''
-        if pandas.notna(row['Adresse_numero_voie']) :
+        if pandas.notna(row['Adresse_numero_voie']):
             adresse += str(row['Adresse_numero_voie']).strip() + ' '
-        if pandas.notna(row['Adresse_type_voie']) :
+        if pandas.notna(row['Adresse_type_voie']):
             adresse += str(row['Adresse_type_voie']).strip() + ' '
-        if pandas.notna(row['Adresse_article_voie']) :
+        if pandas.notna(row['Adresse_article_voie']):
             adresse += str(row['Adresse_article_voie']).strip() + ' '
-        if pandas.notna(row['Adresse_nom_voie']) :
+        if pandas.notna(row['Adresse_nom_voie']):
             adresse += str(row['Adresse_nom_voie']).strip()
 
-        if adresse != '' :
+        if adresse != '':
             adresse = adresse.strip()
             URIadresse = adresses[adresse]
 
             g.add(
                 (
-                URIRef(URIadresse),
-                URIRef(is_a),
-                URIRef(HEMEF['Adresse'])
+                    URIRef(URIadresse),
+                    URIRef(is_a),
+                    URIRef(HEMEF['Adresse'])
                 )
             )
 
             g.add(
                 (
-                URIRef(uriEleve),
-                URIRef(HEMEF['a_résidé']),
-                URIRef(URIadresse),
+                    URIRef(uriEleve),
+                    URIRef(HEMEF['a_résidé']),
+                    URIRef(URIadresse),
                 )
             )
 
             g.add(
                 (
-                URIRef(URIadresse),
-                URIRef(HEMEF['libellé_adresse']),
-                Literal(adresse)
+                    URIRef(URIadresse),
+                    URIRef(HEMEF['libellé_adresse']),
+                    Literal(adresse)
                 )
             )
 
-            
-            
             if pandas.notna(row["Adresse_ville"]):
                 if (row["Adresse_ville"] in villes):
                     g.add(
                         (
-                        URIRef(URIadresse),
-                        URIRef(HEMEF['a_pour_ville']),
-                        URIRef(villes[row["Adresse_ville"]])
+                            URIRef(URIadresse),
+                            URIRef(HEMEF['a_pour_ville']),
+                            URIRef(villes[row["Adresse_ville"]])
                         )
                     )
-                else :
+                else:
                     g.add(
                         (
-                        URIRef(URIadresse),
-                        URIRef(HEMEF['a_pour_ville_literal']),
-                        Literal(row["Adresse_ville"])
+                            URIRef(URIadresse),
+                            URIRef(HEMEF['a_pour_ville_literal']),
+                            Literal(row["Adresse_ville"])
                         )
                     )
-            
+
             if pandas.notna(row['Adresse_ville_ancien nom']):
                 g.add(
-                        (
+                    (
                         URIRef(URIadresse),
                         URIRef(HEMEF['ville_ancien_nom']),
                         Literal(row["Adresse_ville_ancien nom"])
-                        )
                     )
-
-
+                )
 
         # Gestion Parcours_classe
 
@@ -1287,6 +1314,15 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                 URIRef(uri_parcours_classe)
             )
         )
+
+        if pandas.notna(row["parcours_classe_statut_eleve"]):
+            g.add(
+                (
+                    URIRef(uri_parcours_classe),
+                    URIRef(HEMEF["statut_de_l_eleve"]),
+                    Literal(row["parcours_classe_statut_eleve"])
+                )
+            )
 
         g.add(
             (
@@ -1371,7 +1407,7 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             )
 
         if uriPrix != None:
-            if str(row["Prix_type"]).strip().capitalize()== 'Prix de Rome'.capitalize() or str(row["Prix_type"]).strip().capitalize() == 'Grand Prix de Rome'.capitalize():
+            if str(row["Prix_type"]).strip().capitalize() == 'Prix de Rome'.capitalize() or str(row["Prix_type"]).strip().capitalize() == 'Grand Prix de Rome'.capitalize():
                 g.add(
                     (
                         URIRef(uriPrix),
@@ -1403,7 +1439,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                     )
                 )
 
-        
 
 ################################################################################
 ################################################################################
