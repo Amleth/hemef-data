@@ -10676,6 +10676,1323 @@ prix:
   : 6ace5529-0ba8-493c-a315-ef2a04b886fa
   ? !!python/tuple [1861-1225, 1867, Prix 1, Harmonie et accompagnement]
   : ad6436d8-4c28-4fe3-8bff-36f3cea4fc4b
+profession:
+  ? !!python/tuple ["Ga\xEEt\xE9 (1858)", '1858-00-00', "Ga\xEEt\xE9"]
+  : e0654ef5-a950-45af-86bc-f0992b27f8eb
+  ? !!python/tuple [Gymnase (1861), '1861-00-00', Gymnase]
+  : 7660b7c1-744b-47cb-be6f-8daaa63ba559
+  ? !!python/tuple ["Porte Saint Martin\_\xBB (1861)", '1861-00-00']
+  : d57f5266-02a7-4003-be3f-1d4ff66b33f4
+  ? !!python/tuple ["Op\xE9ra (1861-1864)", '1861-00-00', "Op\xE9ra"]
+  : 88f88d37-24dc-4d5c-946b-324f6d803f55
+  ? !!python/tuple ["Folies dramatiques (1861)\_; Op\xE9ra (1862)", '1861-00-00',
+    "Folies dramatiques\_; op\xE9ra"]
+  : e831433f-4aa5-4dc8-9398-5bb158ac64f0
+  ? !!python/tuple ["joue les r\xF4les d'enfants \xE0 la Com\xE9die Fran\xE7aise",
+    "Com\xE9die Fran\xE7aise"]
+  : 52d728be-9de2-4ba0-b525-789993160a57
+  ? !!python/tuple ["engag\xE9 au Gymnase o\xF9 elle a d\xE9but\xE9 (d\xE9cembre 1857)",
+    '1857-12-00', Gymnase]
+  : b63e6cdf-7485-4ab2-b891-09c3c2bc9c32
+  ? !!python/tuple ["a d\xE9but\xE9 sans engagement au Gymnase le 8 janvier 1857 ",
+    !!timestamp '1857-01-09 00:00:00', Gymnase]
+  : 79c9c467-33ba-45d1-86fe-0443a6006d75
+  ? !!python/tuple [Folies dramatiques (1862), '1862-00-00', Folies dramatiques]
+  : e50e0d43-3502-4202-9d6e-378effc7c873
+  ? !!python/tuple ["musicien au 7e d'artillerie, en garnison \xE0 Metz ; sous-chef\
+      \ de musique au 4e voltigeurs (1858)", '1858-00-00']
+  : 0d6bc1ed-86c0-459f-86b3-8f44949d6708
+  ? !!python/tuple [1856-0044, "appartient au 29e de ligne, en garnison \xE0 Rouen"]
+  : d4fda9dc-308d-428b-8328-7ebcb57cbfd8
+  ? !!python/tuple ["appartient au 78e de ligne, en garnison \xE0 Saint-Omer (1856)\
+      \ ; sous-chef de musique au 97e de ligne (1858)", '1856-00-00']
+  : a3f37a49-8680-458c-b8d6-333113d69116
+  ? !!python/tuple ["appartient au 7e chasseurs, en garnison \xE0 Lille ; sous-chef\
+      \ de musique 6e chasseurs (1858)", '1858-00-00']
+  : 647a1466-8f0f-425a-aa9d-01104d393812
+  ? !!python/tuple [1856-0047, "appartient au 3e hussard en garnison \xE0 Libourne\
+      \ ; sous-chef au 1er chasseur d'Afrique"]
+  : f2e6683c-1841-4713-a492-71ecb1bf6122
+  ? !!python/tuple [1856-0048, "appartient au 58e de ligne, en garnison \xE0 Lyon"]
+  : c3a7853d-8947-4668-8948-7ccc37b36765
+  ? !!python/tuple ["appartient au 6e r\xE9giment d'artillerie, en garnison \xE0 Strasbourg\
+      \ (1856) ; sous-chef de musique au 10e de ligne (1858)", '1856-00-00', "R\xE9\
+      giment"]
+  : 5e981d94-ad56-4592-888e-36461e375bdf
+  ? !!python/tuple ["appartient au 59e r\xE9giment de ligne, en garnison \xE0 Toulon\
+      \ ; sous-chef de musique au 16e de ligne", "R\xE9giment"]
+  : b0746dc0-8bda-4444-863b-455f2b109180
+  ? !!python/tuple ["appartient au 3e r\xE9giment du g\xE9nie, en garnison \xE0 Montpellier\
+      \ (1856) ; sous-chef [de musique] (1859)", '1856-00-00', "R\xE9giment"]
+  : 53ad4bc2-cdc4-4d46-8e5c-2cddd0c63056
+  ? !!python/tuple ["appartient au 24e r\xE9giment de ligne, en garnison \xE0 Lyon\
+      \ ; sous-chef [de musique]", "R\xE9giment"]
+  : 36a6b945-9cde-4fea-8253-8e8a6c512838
+  ? !!python/tuple ["appartient au 5e r\xE9giment de dragons en garnison \xE0 Limoges\
+      \ (1856)\_; musicien 1\xE8re classe au 5e r\xE9giment de dragons en garnison\
+      \ \xE0 Pont-\xE0-Mousson (1863)", '1856-00-00', "R\xE9giment"]
+  : 9f940f5c-3650-41d0-afa1-8f1fce36be39
+  ? !!python/tuple ["appartient au 9e r\xE9giment de chasseurs, en garnison \xE0 Niort",
+    "R\xE9giment"]
+  : 54514850-b77c-4bb9-9280-de3e1d1f777f
+  ? !!python/tuple ["appartient au 22e r\xE9giment de ligne, en garnison \xE0 Paris\
+      \ (1856) ; sous-chef de musique au 91e de ligne (1858)", '1856-00-00', "R\xE9\
+      giment"]
+  : 09f8e785-8cf7-4426-a23c-93e12a94e3cf
+  ? !!python/tuple ['appartient au 88e de ligne, en garnison au camp d''Houvault ;
+      sous-chef de musique au 64e de ligne', "R\xE9giment"]
+  : 63a1ec0b-e0b2-4fec-aa77-86a82d141cea
+  ? !!python/tuple ["appartient au 12e r\xE9giment  d'artillerie, en garnison \xE0\
+      \ Bourges", "R\xE9giment"]
+  : b4f6384b-3bb5-428e-bef2-7e67265771f3
+  ? !!python/tuple ["appartient au 4e r\xE9giment d'artillerie, en garnison \xE0 Strasbourg",
+    "R\xE9giment"]
+  : 0e1f10c2-de6a-451a-a7b6-3a27b2b57bf2
+  ? !!python/tuple ["appartient au 17e r\xE9giment d'artillerie, en garnison Vincennes\
+      \ ; sous-chef de musique au 13e de ligne", "R\xE9giment"]
+  : 8b33282d-912f-421a-b25b-fff96cee6134
+  ? !!python/tuple ["appartient au 2e r\xE9giment des grenadiers de la Garde imp\xE9\
+      riale", "R\xE9giment"]
+  : 6816f8a3-ca87-4808-89da-780c1ecca919
+  ? !!python/tuple ["appartient au 8e r\xE9giment d'artillerie, en garnison \xE0 Toulouse",
+    "R\xE9giment"]
+  : d869596e-a552-4549-8dbe-c82d6547d745
+  ? !!python/tuple ["appartient au 8e r\xE9giment d'artillerie, en garnison \xE0 Toulouse\
+      \ ; sous-chef de musique aux chasseurs de la garde", "R\xE9giment"]
+  : 158518ce-c2f0-4acb-af90-bbfcc473cb50
+  ? !!python/tuple ["musicien au 1er r\xE9giment d'artillerie", "R\xE9giment"]
+  : cda5b449-e58b-4e1d-9915-6afb177aa879
+  ? !!python/tuple ["appartient au 76e r\xE9giment de ligne, en garnison au fou de\
+      \ Noisy-le-Sec", "R\xE9giment"]
+  : a95ccd2f-f67c-4f50-8f08-018c75cba064
+  ? !!python/tuple [1856-0066, "musicien au 1er d'artillerie, en garnison \xE0 Vincennes"]
+  : 7468f314-638b-4c85-8420-2650b8c48d6d
+  ? !!python/tuple [1856-0069, "appartient au 3e de ligne, en garnison \xE0 Paris"]
+  : 0b929ea9-c281-4072-9cb8-432eca515dd5
+  ? !!python/tuple ["appartient au 23e de ligne (1856)\_; sous-chef au 2e voltigeur\
+      \ de la Garde (1858)", '1856-00-00', Garde]
+  : 84a561db-fe1d-4989-9356-4fc73854821e
+  ? !!python/tuple ["trompette au 1er Cuirassiers de la Garde \xE0 Paris", Garde]
+  : 2d24f0db-6528-4541-950e-c036565478a0
+  ? !!python/tuple ["appartient au 2e r\xE9giment des voltigeurs de la garde imp\xE9\
+      riale (1856)\_; sous-chef de musique au 100e de ligne (1858)", '1856-00-00',
+    Garde]
+  : 89b61c8f-1ae5-452b-aa6b-98ade2f71665
+  ? !!python/tuple ["il est trombone aux Concerts Musard ; a remplac\xE9 M. Dieppo\
+      \ du 13 janvier au 9 novembre 1858", !!timestamp '1858-01-14 00:00:00']
+  : 5b55b5fa-da54-408c-ab00-c8320fa38e07
+  ? !!python/tuple ["musicien \xE0 la Garde de Paris", Garde]
+  : 9c4e5907-a333-41f2-a877-b2025ab6b9b3
+  ? !!python/tuple [1856-0079, "\xE9tait musicien au 57e de ligne"]
+  : 96a84022-6a32-4285-b2a8-ad69b0273b16
+  ? !!python/tuple ["il est attach\xE9 \xE0 l'orchestre des Bouffes Parisiens", Bouffes
+      Parisiens]
+  : 29da2df4-312c-4dda-b79c-0b55a5920d23
+  ? !!python/tuple ["engag\xE9 au Gymnase o\xF9 il a d\xE9but\xE9 en septembre 1858",
+    '1858-09-00', Gymnase]
+  : 1e9def0e-a69f-4473-9023-d875e1aeb262
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre Fran\xE7ais o\xF9 il d\xE9bute le\
+      \ 14 f\xE9vrier 1858 dans Val\xE8re de Tartuffe", &id063 !!timestamp '1858-02-15
+      00:00:00', "Th\xE9\xE2tre fran\xE7ais"]
+  : 806d3097-2bfc-4743-a7b0-744a62332db2
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre Fran\xE7ais o\xF9 il d\xE9bute le\
+      \ 14 f\xE9vrier 1858", *id063, "Th\xE9\xE2tre fran\xE7ais"]
+  : 496f2819-d7f0-4d4c-9f9a-839080649f96
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Od\xE9on (1857) dans Andromaque, r\xF4\
+      le de Pyrrhon", '1857-00-00', "Od\xE9on"]
+  : 6f5e93bc-188f-4461-a4f8-8a535466036f
+  ? !!python/tuple ["a d\xE9but\xE9 au Th\xE9\xE2tre Fran\xE7ais le 24 ao\xFBt 1860\
+      \ dans Hortense de L'\xE9cole des vieillards et le 13 septembre dans Silvia\
+      \ du Jeu de l'amour et du hasard", !!timestamp '1869-08-25 00:00:00', "Th\xE9\
+      \xE2tre fran\xE7ais"]
+  : 5c0a1131-8940-40b4-aff8-3049312461c1
+  ? !!python/tuple ['musicien gagiste de la marine ; en 1863, musicien de 3e classe
+      gagiste dans la gendarmerie de la garde au Louvre', '1863-00-00', Garde]
+  : 6704488a-4665-48dd-9bd3-a95310a1f0b2
+  ? !!python/tuple ["musicien gagiste de la marine \xE0 bord du Friedland ; en 1863,\
+      \ musicien de 3e classe gagiste dans la gendarmerie de la garde au Louvre",
+    '1863-00-00', Garde]
+  : f8ee8b9e-9db4-44a5-8f6a-3f7faf315125
+  ? !!python/tuple ["engag\xE9 \xE0 l\u2019Op\xE9ra-Comique o\xF9 elle a d\xE9but\xE9\
+      \ le 6 mars 1860 dans Fra Diavolo (r\xF4le de Zerlmie)", !!timestamp '1860-03-07
+      00:00:00', "Op\xE9ra-comique"]
+  : 399557c8-35b0-404b-8685-032d2bc4ca2e
+  ? !!python/tuple [1856-0106, musicien aux Concerts Musard]
+  : 831a3b0a-7b33-414b-ac9e-aad0d7cf3222
+  ? !!python/tuple ["Eldorado (1864)\_?", '1864-00-00']
+  : f3cb85e4-b291-4fc6-be20-3a46eba14087
+  ? !!python/tuple ["a exerc\xE9 les fonctions de professeur de la classe \xE9l\xE9\
+      mentaire de solf\xE8ge (1 octobre 1853 au 1 f\xE9vrier 1855) et de professeur\
+      \ suppl\xE9ant de la 2e classe de solf\xE8ge (1 f\xE9vrier 1855 au 30 ao\xFB\
+      t 1856)", !!timestamp '1856-10-02 00:00:00']
+  : b7262150-ab42-4467-9c21-538ec2f1fd69
+  ? !!python/tuple ["engag\xE9 \xE0 la Nouvelle-Orl\xE9ans (1858)", '1858-00-00']
+  : 688d6fab-60df-4991-850e-cbc074328045
+  ? !!python/tuple ["d\xE9but \xE0 l'Op\xE9ra (octobre 1861) o\xF9 elle est engag\xE9\
+      e", '1861-10-00', "Op\xE9ra"]
+  : 64114d4a-b3ea-4717-ba4d-43e5fc723d33
+  ? !!python/tuple ["\xAB\_au Th\xE9\xE2tre Lyrique\_\xBB (1861)", '1861-10-00', "Th\xE9\
+      \xE2tre lyrique"]
+  : eba58932-86d8-4782-a972-fe328cceee88
+  ? !!python/tuple ["musicien au r\xE9giment d'artillerie \xE0 pied en garnison \xE0\
+      \ Versailles", "R\xE9giment"]
+  : 0d75f7fa-666e-447d-9aac-e70ca2fe4832
+  ? !!python/tuple ["Th\xE9\xE2tre de l'Ambigu (1863)", '1863-00-00', "Th\xE9\xE2\
+      tre de l'ambigu"]
+  : c44df455-b355-40d8-92c2-34c8af9ea277
+  ? !!python/tuple [1856-0129, "musicien de premi\xE8re classe au 11e dragons"]
+  : 707ab374-9682-4039-8fc0-66cf5a656ab8
+  ? !!python/tuple ['Bouffes Parisiens (1860, 1861)', '1860-00-00', Bouffes parisiens]
+  : 10eb74a8-acf9-4cb1-b4f6-556c867cb361
+  ? !!python/tuple ["engag\xE9 en province (1858)", '1858-00-00']
+  : af173f0a-1a6e-4b35-83cc-798ca43a142f
+  ? !!python/tuple ["\xAB\_au Th\xE9\xE2tre Lyrique\_\xBB (1859)", '1859-00-00', "Th\xE9\
+      \xE2tre lyrique"]
+  : 7f60d1fe-aaba-4638-ac30-b7d94d719812
+  ? !!python/tuple ["a d\xE9but\xE9 dans Joconde \xE0 l'Op\xE9ra-Comique (28 octobre\
+      \ 1857) o\xF9 il est engag\xE9", !!timestamp '1857-10-29 00:00:00', "Op\xE9\
+      ra-comique"]
+  : 7881725f-b8cf-4dd7-b78d-054a9d816792
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique (1858)", '1858-00-00', "Op\xE9\
+      ra-comique"]
+  : b86c1539-1226-47a3-b925-3e0ca924ddcf
+  ? !!python/tuple ["engag\xE9 \xE0 Marseille (1858)", '1858-00-00']
+  : e2d7c00f-660f-4d40-9f87-3cf1e83bfad7
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra o\xF9 il a d\xE9but\xE9 le 11 f\xE9\
+      vrier 1859 dans le r\xF4le de Gessler de Guillaume Tell", !!timestamp '1859-02-12
+      00:00:00', "Op\xE9ra"]
+  : 3bdbe639-e29c-44f3-b50e-982eefb2e291
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique o\xF9 elle d\xE9bute en janvier\
+      \ 1859", '1859-01-00', "Op\xE9ra-comique"]
+  : 5892887a-ca25-486e-8c9d-04bcb0024ec1
+  ? !!python/tuple ["engag\xE9 \xE0 Rouen (1860)", '1860-00-00']
+  : 5fa842d2-efc2-4755-b728-16ad058d0249
+  ? !!python/tuple ["engag\xE9 \xE0 Douai (1860)", '1860-00-00']
+  : 6ee3963d-d350-45f2-944f-61270f9ceefc
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra o\xF9 elle d\xE9bute le 22 d\xE9cembre\
+      \ 1858  dans Mathilde de Guillaume Tell", !!timestamp '1858-12-23 00:00:00',
+    "Op\xE9ra"]
+  : 23ac823a-e4e0-44f7-a543-b80b189c0b2e
+  ? !!python/tuple ["engag\xE9 aux Folies- Nouvelles (d\xE9bute en novembre 1858)",
+    '1858-11-00', Folies- nouvelles]
+  : 1b310afb-2fc9-4758-be61-823955e2b346
+  ? !!python/tuple ["a d\xE9but\xE9 au Th\xE9\xE2tre de l'Op\xE9ra-Comique (20 d\xE9\
+      cembre 1858) dans La dame blanche, r\xF4le d'Anna", !!timestamp '1858-12-21
+      00:00:00', "Op\xE9ra-comique"]
+  : 8fc61f63-3a31-498d-882f-8464df023813
+  ? !!python/tuple ["a d\xE9but\xE9 au Gymnase dans Les deux timides (engag\xE9e en\
+      \ mars 1860)", '1860-03-00', Gymnase]
+  : f1b02b7f-8709-4f60-acf2-06c10a82f8df
+  ? !!python/tuple ["engag\xE9 en Su\xE8de (1858)", '1858-00-00']
+  : 943648fd-cc6a-4b9a-a1fe-0c122cc582d9
+  ? !!python/tuple ["Th\xE9\xE2tre-Fran\xE7ais (1863), d\xE9buts en octobre 1863,\
+      \ dans Emilie de Cinna\_; Od\xE9on (1864), d\xE9buts en novembre 1864 dans Hermione",
+    '1863-00-00', "Th\xE9\xE2tre-fran\xE7ais"]
+  : 22f25fc7-f080-408b-a050-5c2855a96ef0
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra (5 octobre 1858) dans le r\xF4\
+      le d'Azucona du Trouv\xE8re", !!timestamp '1858-10-06 00:00:00', "Op\xE9ra"]
+  : 30a89a3b-e21f-4bd0-a910-eb93bbf2ccb5
+  ? !!python/tuple ["La Ga\xEEt\xE9 (1861)\_; Th\xE9\xE2tre Lyrique (1863)", '1861-00-00',
+    "Ga\xEEt\xE9\_; th\xE9\xE2tre lyrique"]
+  : 4ebd33f1-a238-4550-8221-38b7bf327d0d
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra (1859)", '1859-00-00', "Op\xE9ra"]
+  : 3b880545-b7ec-41ad-885a-4d5b380f32b3
+  ? !!python/tuple [1857-0186, "musicien au 91e de ligne en garnison \xE0 N\xEEmes"]
+  : c10c98b6-c421-446a-97c7-383b87eec868
+  ? !!python/tuple ["musicien de 2e classe au 81e r\xE9giment de ligne \xE0 Rouen",
+    "R\xE9giment"]
+  : cc1ea478-5795-40be-b703-9599c5e8153e
+  ? !!python/tuple [1857-0188, "musicien de 2e classe au 5e d'artillerie \xE0 pied,\
+      \ en garnison \xE0 Grenoble"]
+  : 6edc9d39-90a2-4bda-a160-0fe83fc7e1f1
+  ? !!python/tuple ["musicien de 3e classe aux chasseurs de la garde imp\xE9riale\
+      \ de Compi\xE8gne ; musicien de 1\xE8re classe au 9e d'artillerie de Vincennes\
+      \ (1863)", '1863-00-00', Garde]
+  : 7db4795a-db74-4e89-9912-2008b2fa1903
+  ? !!python/tuple ["\xE9l\xE8ve musicien au 3e r\xE9giment du g\xE9nie en garnison\
+      \ \xE0 Arras", "R\xE9giment"]
+  : 9564476e-83ac-4b8a-8cb8-b85b92571569
+  ? !!python/tuple [1857-0191, "musicien de 2e classe au 32e de ligne, en garnison\
+      \ \xE0 Soissons"]
+  : 724a1bbf-52db-4102-8dc7-386834369327
+  ? !!python/tuple [1857-0192, "musicien au 26e de ligne, en garnison \xE0 Mont\xE9\
+      limart"]
+  : 2940d528-fb19-4dda-8050-d583258647c9
+  ? !!python/tuple [1857-0193, "musicien de 3e classe au 1er r\xE9giment d'artillerie\
+      \ \xE0 Vincennes"]
+  : 44c79888-93ca-4a97-baaf-30abbdb337f9
+  ? !!python/tuple [1857-0194, "musicien au 5e r\xE9giment d'artillerie, en garnison\
+      \ \xE0 Grenoble"]
+  : 905d723a-c5d6-4682-bb12-f57fe5874e21
+  ? !!python/tuple ["musicien de 3e classe au 1er r\xE9giment d'atillerie, en garnison\
+      \ \xE0 Vincennes", "R\xE9giment"]
+  : e8bd0adf-5ed9-4c23-9ff6-d1fb6cdca1d4
+  ? !!python/tuple [1857-0196, "musicien de 2e classe au 55e de ligne, en garnison\
+      \ \xE0 Lyon"]
+  : 7b096517-0c89-44c1-9bb1-2cb540c50fd4
+  ? !!python/tuple ["musicien de 2e classe au1er r\xE9giment de lanciers, en garnison\
+      \ \xE0 Tarascon", "R\xE9giment"]
+  : 29f40c8f-33d8-4539-9981-e9792a0a9f39
+  ? !!python/tuple [1857-0198, "musicien de 2e classe au 61e de ligne, en garnison\
+      \ \xE0 Lyon"]
+  : b4b4b9b0-c6fc-4671-a9d9-f356a5a293d8
+  ? !!python/tuple [1857-0199, "musicien au 7e chasseurs en garnison \xE0 Lyon"]
+  : afdc0572-b187-4034-b6f9-783ff8c0e570
+  ? !!python/tuple [1857-0200, "musicien au 2e classe au 24e de ligne, en garnison\
+      \ \xE0 Perpignan"]
+  : 57f2a968-2fbc-4c44-be6e-c15b57499e5d
+  ? !!python/tuple [1857-0201, "musicien de 3e classe au 2e r\xE9giment d'artillerie\
+      \ \xE0 pied, en garnison \xE0 Besan\xE7on"]
+  : 8efcc98a-9e27-49db-9126-47971f3909d8
+  ? !!python/tuple [1857-0202, "musicien au 8e dragons, en garnison \xE0 Abbeville"]
+  : 0e9b5ba6-36b4-499c-8eff-6417dffc9f71
+  ? !!python/tuple [1857-0203, "musicien au 76e de ligne, en garnison \xE0 Lyon"]
+  : d14606a7-aa88-4e94-b8f7-8b89b3de9175
+  ? !!python/tuple [1857-0204, "musicien au 50e de ligne, en garnison \xE0 Paris"]
+  : c23c58a5-523b-4241-8043-1110896c5c93
+  ? !!python/tuple [1857-0205, "musicien de 3e classe au 64e de ligne, en garnison\
+      \ \xE0 Phalsbourg"]
+  : 6ffa1301-0f5e-4085-8c8c-5d161fc5ce1b
+  ? !!python/tuple [1857-0206, "musicien au 67e de ligne, en garnison \xE0 Givet (Ardennes)"]
+  : 1e8858dc-8112-4610-aefe-31c127cf95b3
+  ? !!python/tuple ["engag\xE9 \xE0 l'Od\xE9on (d\xE9bute en octobre 1858)", '1858-10-00',
+    "Od\xE9on"]
+  : 8796cfb7-deda-44e3-98cd-77fbe813d091
+  ? !!python/tuple [1857-0214, "engag\xE9 \xE0 la Porte Saint-Martin"]
+  : 623e1938-1872-4f03-81ab-b6948019f2dd
+  ? !!python/tuple ["d\xE9but \xE0 l'Od\xE9on (17 mars 1860)  dans le r\xF4le d'Hermione\
+      \ d'Andromaque", "Od\xE9on"]
+  : f4bdd7d1-87d9-4a2f-9ac0-c3c3009e7e64
+  ? !!python/tuple [1857-0219, "musicien au 10e d'artillerie, en garnison \xE0 Rennes"]
+  : c71f30e7-0e32-4d2a-9395-cc0bbd4f1ae1
+  ? !!python/tuple ["musicien au 10e d'artillerie, en garnison \xE0 Rennes (1857)\_\
+      ; sous-chef au 17e d\u2019artillerie (1859)", '1857-00-00']
+  : e38535a6-83f2-4d23-aa8f-cc4d88d72242
+  ? !!python/tuple ["musicien au 1er r\xE9giment de la garde imp\xE9riale", Garde]
+  : e0e7a5b4-4969-40a3-9881-23aa1b55ddf7
+  ? !!python/tuple ["musicien au r\xE9giment d'artillerie \xE0 cheval de la garde\
+      \ \xE0 Versailles ; engag\xE9 au Th\xE9\xE2tre-Lyrique (1860)", '1860-00-00',
+    "R\xE9giment\_; th\xE9\xE2tre-lyrique"]
+  : 56c46289-c01f-4b5c-9300-8f3dd9346bbe
+  ? !!python/tuple [1857-0222, "musicien au 34e de ligne, en garnison \xE0 Brian\xE7\
+      on"]
+  : d74080c1-a109-402f-8ea4-f039f62003a3
+  ? !!python/tuple [1857-0223, "musicien au 13e de ligne \xE0 Caen"]
+  : 9e147313-76b5-4f7f-82bc-0f1ff88bddd9
+  ? !!python/tuple ["d\xE9but \xE0 l'Op\xE9ra  dans le Comte Ory en 1861", '1861-00-00',
+    "Op\xE9ra"]
+  : b49a603b-b099-4312-b257-519d7ee669bd
+  ? !!python/tuple [1857-0225, 'musicien au 17e de ligne, en garnison au fort de Charenton']
+  : 654f9443-f287-4e1a-a16f-f4312f3a0071
+  ? !!python/tuple ["Vari\xE9t\xE9s (1863)", '1863-00-00', "Vari\xE9t\xE9s"]
+  : b16d9f49-df27-4da3-8dc8-a24bfb4593a0
+  ? !!python/tuple ["r\xE9p\xE9titeur de solf\xE8ge (3 octobre 1864)", !!timestamp '1864-10-04
+      00:00:00']
+  : 2de15ad9-5688-4ad5-9129-88ad48b4e78b
+  ? !!python/tuple ["musicien de 3e classe au 1er r\xE9giment de grenadiers de la\
+      \ garde \xE0 Courbevoie", "R\xE9giment"]
+  : c1a68a10-c2ff-44cd-ba53-de315840297a
+  ? !!python/tuple ["Ga\xEEt\xE9 (1861)", '1861-00-00', "Ga\xEEt\xE9"]
+  : aa964631-ae25-4cb7-b2ff-f0e3a6897c9f
+  ? !!python/tuple ["Ga\xEEt\xE9 (1861)", '1861-00-00']
+  : 57c68a38-7676-45eb-b123-4f2cbd5e820f
+  ? !!python/tuple [1857-0243, "musicien gagiste aux Guides (\xE9cole militaire)"]
+  : 6e7e4e94-5570-4251-a20a-7f3bca7f146f
+  ? !!python/tuple ["Cirque Imp\xE9rial (1861)", '1861-00-00', "Cirque imp\xE9rial"]
+  : 871c8976-898e-47fa-adbb-d5358b2f62f8
+  ? !!python/tuple ["Op\xE9ra Comique (1861)", '1861-00-00', "Op\xE9ra comique"]
+  : ffdab9f3-4b27-45d9-a24b-c0544eb040ad
+  ? !!python/tuple ["violon \xE0 l\u2019Op\xE9ra-Comique (1859)", '1859-00-00', "Op\xE9\
+      ra comique"]
+  : 2b6bad66-8b96-46ba-9a77-34e1fddb5c02
+  ? !!python/tuple [" Gymnase (1860)\_; Vari\xE9t\xE9s (1861)", '1860-00-00', "Gymnase\_\
+      ; vari\xE9t\xE9s"]
+  : 57056372-0456-4a34-99b1-892f5254c304
+  ? !!python/tuple ["Op\xE9ra-Comique (1861)", '1861-00-00', "Op\xE9ra-comique"]
+  : 298a758b-2d9c-4030-b03c-01be2338e42a
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique (1860)", '1860-00-00', "Op\xE9\
+      ra-comique"]
+  : 4dc70cd9-f625-47d9-a7b5-22b9b6a1f9b1
+  ? !!python/tuple ["Th\xE9\xE2tre du Gymnase (1862)", '1862-00-00', Gymnase]
+  : a5d865b1-9c67-41d3-abce-e7547ad00c91
+  ? !!python/tuple ["a d\xE9but\xE9 au Th\xE9\xE2tre Fran\xE7ais (18 juin 1859)",
+    !!timestamp '1859-06-19 00:00:00', "Th\xE9\xE2tre fran\xE7ais"]
+  : 1960ad5a-55eb-4cdf-baf0-7c0767d53192
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Od\xE9on (1860)", '1860-00-00', "Od\xE9\
+      on"]
+  : d4817454-d946-4dc5-968f-8197cfdc8928
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Lyrique  o\xF9 il d\xE9bute en 1860\
+      \ dans Les p\xEAcheurs de Catane", !!timestamp '1860-11-02 00:00:00', "Th\xE9\
+      \xE2tre lyrique"]
+  : f8f35164-15df-492f-b278-7ec566ca4b19
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Lyrique  o\xF9 il d\xE9bute en 1860\
+      \ dans Les p\xEAcheurs de Catane", '1860-00-00', "Th\xE9\xE2tre lyrique"]
+  : 1e70836c-c4c6-45c5-8492-881128001070
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Lyrique (1859)", '1859-00-00', "Th\xE9\
+      \xE2tre lyrique"]
+  : 6e2c286b-f41b-4d79-88d9-d76b6180427d
+  ? !!python/tuple ["engag\xE9 \xE0 Dijon (1859)", '1859-00-00']
+  : 43455c04-6dd3-4303-8500-e4320c9589ce
+  ? !!python/tuple ["choriste \xE0 l'Op\xE9ra", "Op\xE9ra"]
+  : f0494983-bfe8-4164-9271-f0ebae707d46
+  ? !!python/tuple ['La Porte Saint-Martin (1861), timbalier ', '1861-00-00']
+  : bd2056f5-fe8c-47a0-9afe-91023dcba4b7
+  ? !!python/tuple [1857-0327, "lieutenant (en cong\xE9) au 62e de ligne, en garnison\
+      \ \xE0 Strasbourg ou Saint-Brieuc\_?"]
+  : 5b167159-bc9c-4de4-9e6b-761c71db6f4b
+  ? !!python/tuple ["engag\xE9 \xE0 Dunkerque (1861)", '1861-00-00']
+  : a4a7530d-25f1-4656-85a4-fcdb8709420e
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra o\xF9 il d\xE9bute le 28 novembre 1859\
+      \ dans le trouv\xE8re, r\xF4le du comte de Luna", !!timestamp '1859-11-29 00:00:00',
+    "Op\xE9ra"]
+  : 09a6fe38-730d-47b7-92c4-b8a22bd9a7a2
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Lyrique (1857)", '1857-00-00', "Th\xE9\
+      \xE2tre-lyrique"]
+  : c799deb8-3f29-49bc-9cff-ea6d6e6f959b
+  ? !!python/tuple ["\xAB\_au Th\xE9\xE2tre Lyrique\_\xBB (1861)", '1861-00-00', "Th\xE9\
+      \xE2tre-lyrique"]
+  : 3c684e75-79c7-4282-a14c-846416b00f9a
+  ? !!python/tuple ["choriste \xE0 l\u2019Op\xE9ra Comique (1860)\_; engag\xE9 \xE0\
+      \ Dunkerque (1861)", '1860-00-00', "Op\xE9ra-comique"]
+  : b8a9efcb-e0eb-4ed0-b084-c3eb2691e0b0
+  ? !!python/tuple ["Garde imp\xE9riale, 4e voltigeurs", Garde]
+  : 020799ff-b56a-4ca4-a6a0-886095b7a0b6
+  ? !!python/tuple ["danseuse \xE0 l\u2019Op\xE9ra (1858)\_; a d\xE9but\xE9 au Gymnase\
+      \ dans le Paratonnerre (20 mars 1860) ; pass\xE9 au Vaudeville", '1858-00-00',
+    "Op\xE9ra\_; gymnase"]
+  : 80746058-831f-486d-aebe-183dff2ec58c
+  ? !!python/tuple ["danseuse \xE0 l\u2019Op\xE9ra (1858)\_; a d\xE9but\xE9 au Gymnase\
+      \ (20 mars 1860) ; pass\xE9 au Vaudeville", '1858-00-00', "Op\xE9ra\_; gymnase"]
+  : 2d1ae0d4-7abe-4715-8062-6e138c7fe399
+  ? !!python/tuple ["danseuse \xE0 l\u2019Op\xE9ra (1858)\_; a d\xE9but\xE9 au Gymnase\
+      \ (20 mars 1860) ; pass\xE9 au Vaudeville (1862)", '1858-00-00', "Op\xE9ra\_\
+      ; gymnase"]
+  : 66c8f6e6-385f-4f5a-bac6-202e058ef886
+  ? !!python/tuple ["engag\xE9 \xE0 l'Od\xE9on (1860)", '1860-00-00', "Od\xE9on"]
+  : 755f9e31-feb3-4f85-ae93-125bbf6e2632
+  ? !!python/tuple [" Cirque de l\u2019Imp\xE9ratrice (1861)", '1861-00-00', "Cirque\
+      \ de l\u2019imp\xE9ratrice"]
+  : 06a645a1-644e-4fbd-ae20-7116eb319bb6
+  ? !!python/tuple ["Op\xE9ra (1861)", '1861-00-00', "Op\xE9ra"]
+  : 796fce5d-2622-47a2-bc35-69105ce655c1
+  ? !!python/tuple ["Gymnase (1860)\_; Th\xE9\xE2tre Lyrique (1862)", '1860-00-00',
+    "Gymnase \_; th\xE9\xE2tre lyrique"]
+  : ff7c011c-d1b6-4684-a086-d2024482b953
+  ? !!python/tuple ["musicien au 2e r\xE9giment de voltigeurs de la garde \xE0 Rueil",
+    "R\xE9giment"]
+  : 669f37a5-7f73-4c11-9ecc-479782763465
+  ? !!python/tuple ["engag\xE9 \xE0 Metz (1859)", '1859-00-00']
+  : 9792b22f-d9eb-483b-ba3c-a583d580e25d
+  ? !!python/tuple [Vaudeville (1859), '1859-00-00', Vaudeville]
+  : 72d0d7b3-7d6a-4571-9a0b-e4f7bf6dd4bf
+  ? !!python/tuple ["attach\xE9 au ch\u0153ur du Th\xE9\xE2tre-Lyrique (1859)", '1859-00-00',
+    "Th\xE9\xE2tre lyrique"]
+  : d92fc234-726f-4b49-8283-b8ea28b9e098
+  ? !!python/tuple ["attach\xE9 au ch\u0153ur de l'Op\xE9ra", "Op\xE9ra"]
+  : 1717328b-8429-484f-b161-98d7df438df4
+  ? !!python/tuple ["engag\xE9 aux Vari\xE9t\xE9s (1861)", '1861-00-00', "Vari\xE9\
+      t\xE9s"]
+  : c9dfe101-e0e4-4a1c-86ce-62d6aa2a68f2
+  ? !!python/tuple ["engag\xE9 au th\xE9\xE2tre de la Porte Saint-Martin (1859)",
+    '1859-00-00', "Th\xE9\xE2tre de la porte saint-martin"]
+  : 98e0a57f-1965-4dd4-97b8-a9a39ccd3ff9
+  ? !!python/tuple ["engag\xE9 au Vaudeville (1859)", '1859-00-00', Vaudeville]
+  : 6354e98f-59c2-4ae5-86c8-fb06f904c276
+  ? !!python/tuple ["Engag\xE9 (1859)", '1859-00-00']
+  : 8f4ca279-e49f-4375-8404-741a5aa1e681
+  ? !!python/tuple ["grenadier au 3e des grenadiers de la Garde en garnison \xE0 Orl\xE9\
+      ans\_; \xAB\_\xE0 la Ga\xEEt\xE9\_\xBB (1861)", '1861-00-00', "Garde\_; ga\xEE\
+      t\xE9"]
+  : fecae9a1-6a99-4d29-a8e0-0bdff2dedeec
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique (1859)", '1859-00-00', "Op\xE9\
+      ra-comique"]
+  : abe6d971-f3ce-4c11-b9ec-5dfc70f54825
+  ? !!python/tuple [1858-0444, musicien de 2e classe au 91e de ligne]
+  : 8ecc9542-8dbc-4c66-89aa-d8a8c6600759
+  ? !!python/tuple [1858-0446, "musicien de 1\xE8re classe au 27e de ligne en garnison\
+      \ \xE0 Bordeaux"]
+  : 81fec4db-3190-40cb-ab87-fe1538f92bf4
+  ? !!python/tuple [1858-0447, "musicien de 3e classe au 81e de ligne en garnison\
+      \ \xE0 Rouen"]
+  : 37b1ebf9-94d8-4b36-b9ea-82279febd72c
+  ? !!python/tuple [1858-0448, "musicien de 1\xE8re classe au 31e de ligne"]
+  : b5c9ba8e-1cea-4d01-8126-d3af5749c304
+  ? !!python/tuple [1858-0449, "musicien \xE0 la gendarmerie de la garde en garnison\
+      \ \xE0 Paris"]
+  : f74d316f-b28c-43cc-94ca-afdc56326595
+  ? !!python/tuple [1858-0450, "musicien au 2e grenadiers de la garde en garnison\
+      \ \xE0 Versailles"]
+  : db2bbf9f-f656-4997-bfa7-8e992c13b66f
+  ? !!python/tuple [1858-0451, "musicien au 4e d'artillerie en garnison \xE0 Metz"]
+  : 9e406c3a-35c8-4b75-8ed6-f41d04ea05a3
+  ? !!python/tuple ["musicien au 4e voltigeurs de la garde en garnison \xE0 Courbevoie",
+    Garde]
+  : a7017255-7c14-4e9c-a3b7-50478e1dc49a
+  ? !!python/tuple [1858-0453, "musicien au 67e de ligne en garnison \xE0 Givet"]
+  : 1ae56b8d-b6fb-46e9-8087-697e75157004
+  ? !!python/tuple [1858-0454, "musicien au 21e de ligne en garnison \xE0 Avignon"]
+  : 0b47f572-9a08-4eb8-90d6-27399c760c4a
+  ? !!python/tuple [1858-0455, "musicien au 91e de ligne en garnison \xE0 Paris"]
+  : 5170b3cc-c777-450e-b3f4-f66e2266e6d3
+  ? !!python/tuple [1858-0456, "musicien au 46e de ligne en garnison \xE0 Paris"]
+  : e9f3f42b-3911-462a-83b5-e760fe1be499
+  ? !!python/tuple ["musicien aux chasseurs de la garde en garnison \xE0 Fontainebleau",
+    Garde]
+  : 1ae1fb82-3b0f-4ea2-ad8b-5b5995e4d46c
+  ? !!python/tuple [1858-0458, "musicien au 81e de ligne en garnison \xE0 Rouen"]
+  : c3ff8ab4-c450-4a11-bd46-d12d689aac83
+  ? !!python/tuple [1858-0459, "musicien au 97e de ligne en garnison \xE0 Neubrisach "]
+  : 0da365f7-805c-4a61-8ab2-304b8095f7a5
+  ? !!python/tuple [1858-0460, "musicien au 67e de ligne en garnison \xE0 Givet"]
+  : 4806ed6b-dab7-4540-9c18-dcbe6a9738a4
+  ? !!python/tuple [1858-0461, "musicien au 2e dragons en garnison \xE0 Luneville"]
+  : 3056e883-6527-4626-bb6a-7ff6dbdedb5d
+  ? !!python/tuple [1858-0462, "musicien au 2e d'infanterie en garnison \xE0 Lyon"]
+  : b96d3981-d341-4788-bb80-e765a6e58d76
+  ? !!python/tuple [1858-0463, "musicien au 74e de ligne en garnison \xE0 Paris"]
+  : 58f1a82e-18ed-4311-bbdc-f33ffb599387
+  ? !!python/tuple [1858-0464, "musicien au 2e de cuirassiers en garnison \xE0 Compi\xE8\
+      gne"]
+  : dc1589dc-2cd9-431b-bcd1-e429e7e80956
+  ? !!python/tuple [1858-0465, "musicien au 74e de ligne en garnison \xE0 Paris"]
+  : 93187d79-1559-4e78-b451-4193776563b7
+  ? !!python/tuple [1858-0466, "musicien au 8e lanciers en garnison \xE0 Paris"]
+  : cd311d5e-7003-49bd-af66-087fd0851478
+  ? !!python/tuple ["musicien aux guides de la garde imp\xE9riale en garnison \xE0\
+      \ Melun", Garde]
+  : 49f13c5c-0a8f-426c-8a03-86a9e57c571f
+  ? !!python/tuple [1858-0468, "musicien au 91e de ligne en garnison \xE0 Paris"]
+  : b1182291-901b-4d78-9a78-2544d295cdd0
+  ? !!python/tuple [1858-0469, "musicien au 91e de ligne en garnison \xE0 Paris"]
+  : 24cd1422-b183-4241-8b78-dda19ba7acc3
+  ? !!python/tuple [1858-0470, "musicien au 39e de ligne en garnison \xE0 Lille"]
+  : dffad935-81b0-4709-9da6-97692c9336ff
+  ? !!python/tuple [1858-0471, "musicien au 93e de ligne en garnison \xE0 Delhy (Alg\xE9\
+      rie)"]
+  : 6b7e7182-0bac-497b-b09b-e3fa36c0d192
+  ? !!python/tuple [1858-0472, "musicien au 5e cuirassiers en garnison \xE0 Belfort"]
+  : a896a425-fd02-4570-b5b7-eda69536c7e7
+  ? !!python/tuple [1858-0473, "musicien au 39e de ligne en garnison \xE0 Lille"]
+  : c28f8521-9b7f-407d-86d5-6c1107dfd0a5
+  ? !!python/tuple [1858-0474, "musicien au 10e dragons en garnison \xE0 Lyon"]
+  : 199b5952-1049-46a9-a601-497897cd4481
+  ? !!python/tuple [1858-0475, "musicien au 66e de ligne en garnison \xE0 Verdun"]
+  : 210b2b03-1bfb-47ee-9b2a-11ced6c550b6
+  ? !!python/tuple [1858-0476, "musicien au 66e de ligne en garnison \xE0 Verdun"]
+  : 6d035d2d-1bc0-4f01-af30-1d90df7edabc
+  ? !!python/tuple [1858-0477, "musicien au 10e chasseurs en garnison \xE0 Tarbes"]
+  : f6ae8789-2de0-4d85-9836-62a35f35cf65
+  ? !!python/tuple [1858-0478, "musicien au 10e de ligne en garnison \xE0 Strasbourg"]
+  : 88033b62-4838-4952-8b5b-45e49ce77638
+  ? !!python/tuple [1858-0479, "musicien au 90e de ligne en garnison \xE0 Miliana\
+      \ (Alg\xE9rie)"]
+  : aa5e9655-7fce-4db1-8971-0a6bef94ba78
+  ? !!python/tuple [aux Bouffes (1864), '1864-00-00', Bouffes]
+  : 35422ae7-d7f5-4c69-8f44-ed4a47905d6c
+  ? !!python/tuple ["d\xE9but au th\xE9\xE2tre de l'Od\xE9on de Chim\xE8ne du Cid\
+      \ (14 janvier 1861), au Th\xE9\xE2tre Fran\xE7ais (1864)", &id064 !!timestamp '1861-01-15
+      00:00:00', "Od\xE9on\_; th\xE9\xE2tre fran\xE7ais"]
+  : ab1c7c42-ced3-4080-9e0a-a67f78332717
+  ? !!python/tuple ["d\xE9but au th\xE9\xE2tre de l'Od\xE9on (14 janvier 1861), au\
+      \ Th\xE9\xE2tre Fran\xE7ais (1864)", *id064, "Od\xE9on\_; th\xE9\xE2tre fran\xE7\
+      ais"]
+  : bbbb1ad2-17fd-4557-82f3-af179a25ed06
+  ? !!python/tuple ["d\xE9but \xE0 l'Od\xE9on (septembre 1861)", '1861-09-00', "Od\xE9\
+      on"]
+  : 63c2cdb5-5c7c-46b0-8cb9-499f3ca40153
+  ? !!python/tuple ["engag\xE9 \xE0 Rouen (1859)", '1859-00-00']
+  : b9ced48c-4756-42e6-8783-ba169dd52103
+  ? !!python/tuple [1858-0505, "musicien de 1\xE8re classe au 2e grenadiers de la\
+      \ garde"]
+  : 4b6c7917-707d-4026-8cbd-c9d553c3e62a
+  ? !!python/tuple ["d\xE9but en province (1861)", '1861-00-00']
+  : 2cb1cb1c-e64b-4ec3-b4fe-377f0e480cb5
+  ? !!python/tuple ["Op\xE9ra Comique (1863), 2e timbalier", '1863-00-00', "Op\xE9\
+      ra-comique"]
+  : 2108167a-1774-451a-b80c-88d9f65e9dfd
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra o\xF9 il a d\xE9but\xE9 le 20 octobre\
+      \ 1861 dans le Trouv\xE8re, r\xF4le de Manrique", !!timestamp '1861-10-21 00:00:00',
+    "Op\xE9ra"]
+  : 53fb5e04-9d7f-4a88-bb0f-6bb89f7ee0c5
+  ? !!python/tuple ["musicien de 2e classe au 3e r\xE9giment de voltigeurs de la garde",
+    "R\xE9giment"]
+  : 62226d54-75a7-469a-9aaa-3a5901ed3cdf
+  ? !!python/tuple ["engag\xE9 \xE0 Strasbourg (1862)", '1862-00-00']
+  : bd16a320-a2a4-4a59-ba5a-aa1f791bcd7c
+  ? !!python/tuple ["Th\xE9\xE2tre Lyrique\_(1861)", '1861-00-00', "Th\xE9\xE2tre\
+      \ lyrique"]
+  : 763ba1f1-238c-492e-9d23-38d0e253778a
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra  dans Valentine des Huguenots\
+      \ (septembre 1869)", '1869-09-00', "Op\xE9ra"]
+  : cd7a97c3-8eae-466a-9540-2d4275c8c75a
+  ? !!python/tuple ["\xAB\_aux Italiens\_\xBB\_? (1858)", '1858-00-00', "Th\xE9\xE2\
+      tre-italien"]
+  : 50eba149-a982-491d-b0ca-962c80162a02
+  ? !!python/tuple ["engag\xE9 \xE0 Nice (1860)", '1860-00-00']
+  : 4e315272-9f22-40d2-8eb2-1b55d12041fa
+  ? !!python/tuple ["engag\xE9 en province (1859)", '1859-00-00']
+  : 5b926281-7f28-407d-98ee-79559725bb78
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra-Comique (18 mars 1861)", &id065 !!timestamp '1861-03-19
+      00:00:00', "Op\xE9ra-comique"]
+  : e23f16c7-0050-4eaa-ab21-c191b2cf554a
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra-Comique dans Ma\xEEtre Claude,\
+      \ premier ouvrage de Jules Cohen (18 mars 1861)", *id065, "Op\xE9ra-comique"]
+  : 62750e18-39db-4610-8606-20f62b8051f8
+  ? !!python/tuple ["engag\xE9 \xE0 Bayonne (1862)", '1862-00-00']
+  : f7c232eb-4ee9-431f-baf5-a397f3a3f2df
+  ? !!python/tuple ["choriste au Th\xE9\xE2tre-Lyrique ; engag\xE9 \xE0 B\xE9ziers\
+      \ (1861)", '1861-00-00', "Th\xE9\xE2tre lyrique"]
+  : 5e79787c-9e62-4bd4-8c05-a9361eed8b5e
+  ? !!python/tuple ["engag\xE9 \xE0 Toulouse (1861)", '1861-00-00']
+  : 69f15586-d13e-4c1a-a922-60b05567ca4d
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Italien (1863)", '1863-00-00', "Th\xE9\
+      \xE2tre-italien"]
+  : 7dc4c473-8e09-43f3-941e-2088a133f49f
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique (1862)", '1862-00-00', "Op\xE9\
+      ra-comique"]
+  : b58b5cb8-37f7-42e3-a13d-0aa71a5ec211
+  ? !!python/tuple ["engag\xE9 \xE0 Besan\xE7on (1860)\_; engag\xE9 \xE0 Saint-\xC9\
+      tienne (1861)", '1860-00-00']
+  : f761778f-fefb-48ad-9324-71616c3b96a8
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra-Comique (r\xF4le de Mlle de Solange\
+      \ dans Les Mousquetaires de la reine) o\xF9 elle est engag\xE9e en septembre\
+      \ 1861", '1861-09-00', "Op\xE9ra-comique"]
+  : 72bb99c5-1f27-4c32-8946-a1dc94c0c06c
+  ? !!python/tuple ["organiste \xE0 Notre-Dame-des-Champs", Notre-Dame-des-Champs]
+  : 4b29d19f-71c4-4dbf-b9aa-2ada2e549a29
+  ? !!python/tuple ["Vaudeville (1861)\_; Th\xE9\xE2tre Lyrique (1862)", '1861-00-00',
+    "Vaudeville\_; th\xE9\xE2tre lyrique"]
+  : e8a97eef-d6f2-459c-b55a-ab30305c2b57
+  ? !!python/tuple ["\xAB\_\xE0 l\u2019Op\xE9ra\_\xBB (1861)\_; engag\xE9 au Th\xE9\
+      \xE2tre-Lyrique (d\xE9but le 2 novembre 1868 par Figaro du Barbier de S\xE9\
+      ville)", '1861-00-00', "Vaudeville\_; th\xE9\xE2tre lyrique"]
+  : 01a4d2c5-60e3-46de-9b23-e3404ea05484
+  ? !!python/tuple ["\xAB\_\xE0 l\u2019Op\xE9ra\_\xBB (1861)\_; engag\xE9 au Th\xE9\
+      \xE2tre-Lyrique (d\xE9but le 2 novembre 1868)", '1861-00-00', "Vaudeville\_\
+      ; th\xE9\xE2tre lyrique"]
+  : 8bcd9e2e-0684-4d8c-8e79-2e2eb8282a43
+  ? !!python/tuple ["\xAB\_\xE0 l\u2019Op\xE9ra\_\xBB (1861)\_; engag\xE9 au Th\xE9\
+      \xE2tre-Lyrique (d\xE9but le 2 novembre 1868)\_; ancien classe de violon", '1861-00-00',
+    "Vaudeville\_; th\xE9\xE2tre lyrique"]
+  : be28284a-d79e-4ff0-bdf9-558d650efd50
+  ? !!python/tuple ["Op\xE9ra (1864), timbalier", '1864-00-00', "Op\xE9ra"]
+  : 0fa24d2b-7f22-4a83-92f4-353bd4393a61
+  ? !!python/tuple [musicien au 3e grenadiers de la Garde, Garde]
+  : dcff6caa-812e-4824-940c-868ebd65616d
+  ? !!python/tuple ["Op\xE9ra (1860), choriste\_; Vaudeville (1863)", '1860-00-00',
+    "Op\xE9ra\_; vaudeville"]
+  : cf22d90c-7f93-4bd4-9efb-d09ae23103ef
+  ? !!python/tuple ["attach\xE9 aux ch\u0153urs de l'Op\xE9ra et de la Madeleine",
+    "Op\xE9ra"]
+  : e617e5b8-d262-47b0-886e-1244ae5218c6
+  ? !!python/tuple ["attach\xE9 aux ch\u0153urs de l'Op\xE9ra et de la Madeleine\_\
+      ; Vaudeville (1862)", '1862-00-00', "Op\xE9ra\_; vaudeville"]
+  : 0dd2d38e-fe86-49d0-a2a3-152a00912801
+  ? !!python/tuple [1858-0612, "enfant de ch\u0153ur \xE0 l'\xE9glise de Neuilly"]
+  : 3ccb86ff-e9a3-4b0c-bee9-391867a8f9cb
+  ? !!python/tuple ["attach\xE9 comme violon au th\xE9\xE2tre du Vaudeville", Vaudeville]
+  : f2a061f5-d88c-4712-803c-c664affd1564
+  ? !!python/tuple ["musicien de 2e classe au r\xE9giment d'artillerie \xE0 cheval\
+      \ de la garde en garnison \xE0 Versailles", "R\xE9giment"]
+  : 187e05e4-c4bc-41ac-8719-1e4bf6ebb315
+  ? !!python/tuple [Porte Saint-Martin (1862), '1862-00-00']
+  : 33913f6d-2bcc-4cb2-ae1a-2bcbe705cd12
+  ? !!python/tuple ["\xAB\_aux Italiens\_\xBB\_? (1859)", '1859-00-00', "Th\xE9\xE2\
+      tre-italien"]
+  : e5168d03-a4bb-49ad-b9e1-2b6deee74e29
+  ? !!python/tuple ["musicien au 3e voltigeurs de la garde ; musicien de 1\xE8re classe\
+      \ au 65e r\xE9giment de ligne", "R\xE9giment"]
+  : 83b7d2ec-080b-4c05-b5ed-b6fa9cbdbcff
+  ? !!python/tuple ["violoncelle au Th\xE9\xE2tre-Lyrique", "Th\xE9\xE2tre-Lyrique"]
+  : 42f45b6e-ff85-490f-a8e9-face177acdbb
+  ? !!python/tuple ["musicien au 5e r\xE9giment de cuirassiers en garnison \xE0 Belfort",
+    "R\xE9giment"]
+  : 4ce2ae15-e94b-41c2-9c72-e02659ee6640
+  ? !!python/tuple [1859-0624, "musicien au 67e de ligne en garnison \xE0 Givet"]
+  : 82b3acc6-28bb-4f40-8e54-3bfb304cbd5c
+  ? !!python/tuple [1859-0625, "musicien au 67e de ligne en garnison \xE0 Givet"]
+  : 3ff50d95-cef6-4841-8ff0-807b9cfca0b1
+  ? !!python/tuple [1859-0626, "musicien au 79e de ligne en garnison \xE0 Besan\xE7\
+      on"]
+  : c52bfbe6-ab96-4b9e-b217-13c3701de1ce
+  ? !!python/tuple [1859-0627, "musicien au 79e de ligne en garnison \xE0 Besan\xE7\
+      on"]
+  : 871fc128-e3ca-43dd-89d8-99437a3c4ed0
+  ? !!python/tuple [1859-0628, "musicien au 35e de ligne en garnison \xE0 Metz"]
+  : c606f04c-305c-43be-908d-7984762ada04
+  ? !!python/tuple [1859-0629, "musicien au 35e de ligne en garnison \xE0 Metz"]
+  : 2825ec7d-56d9-4551-a5c6-00eeb82b7615
+  ? !!python/tuple [1859-0630, "musicien au 46e de ligne en garnison \xE0 M\xE2con"]
+  : 396aee19-5b19-4a74-b9fa-57cf6c6206a6
+  ? !!python/tuple [1859-0631, "musicien au 46e de ligne en garnison \xE0 M\xE2con"]
+  : a885341d-b25a-48ce-8517-eca1d18f94f3
+  ? !!python/tuple [1859-0632, "musicien au 32e de ligne en garnison \xE0 Phalsbourg"]
+  : 2480dadc-ed52-4957-8ca5-dd199392f079
+  ? !!python/tuple ["musicien de 3e classe au 12e r\xE9giment de ligne en garnison\
+      \ \xE0 Perpignan", "R\xE9giment"]
+  : 07d0d9e8-e49c-4dd5-80cc-1e845aba8dd4
+  ? !!python/tuple ["musicien au 1er r\xE9giment d'artillerie en garnison \xE0 Grenoble",
+    "R\xE9giment"]
+  : 568a2e74-349b-437d-8b5f-7f4bf0c05144
+  ? !!python/tuple [1859-0635, "musicien de 2e classe au 95e de ligne en garnison\
+      \ \xE0 Belfort"]
+  : 09949d9a-f127-40af-96c7-2bb99aa2a19e
+  ? !!python/tuple [1859-0636, "musicien de 3e classe au 59e de ligne en garnison\
+      \ \xE0 Brian\xE7on"]
+  : 864abf07-d3f7-444a-81dd-d26f7a928169
+  ? !!python/tuple [1859-0637, "musicien au 53e de ligne en garnison \xE0 Lyon"]
+  : e7c7c28c-e8a2-4e16-93fb-330a93a6f700
+  ? !!python/tuple [1859-0638, "musicien de 2e classe au 3e lanciers en garnison \xE0\
+      \ Moulin"]
+  : 7d0b63b1-23ec-459c-859b-878f4f1fc55b
+  ? !!python/tuple [1859-0639, "musicien de 3e classe au 21e de ligne en garnison\
+      \ \xE0 Avignon"]
+  : 9b7130b9-8a51-411b-94b7-e9f2fa903232
+  ? !!python/tuple [1859-0640, "musicien de 3e classe au 82e de ligne en garnison\
+      \ \xE0 Montrouge"]
+  : 306f23ad-03f5-473f-84da-92585b4828a9
+  ? !!python/tuple [1859-0641, "musicien au 15e de ligne en garnison \xE0 Paris"]
+  : 2bcd9fbe-9ef8-4108-a39b-e43620e8b9d7
+  ? !!python/tuple [1859-0642, "musicien au 81e de ligne en garnison \xE0 Rouen"]
+  : 024cf17f-2636-4705-af0f-3d79fe084f14
+  ? !!python/tuple [1859-0643, "musicien au 81e de ligne en garnison \xE0 Rouen"]
+  : fb5cd572-3d5c-4810-830f-be4cf0884e52
+  ? !!python/tuple ["musicien au 3e grandiers de la garde en garnison \xE0 Saint-Cloud",
+    Garde]
+  : 58dadd81-c361-4509-a904-770924e16277
+  ? !!python/tuple ["musicien de 3e classe au 3e r\xE9giment de dragons en garnison\
+      \ \xE0 Provins", "R\xE9giment"]
+  : 57a9315e-bf22-4a2a-8b74-c374238baf0e
+  ? !!python/tuple [1859-0646, "musicien au 82e de ligne en garnison \xE0 Montrouge"]
+  : 7774fef7-eae7-42f4-9961-2b8c81105000
+  ? !!python/tuple ["musicien de 3e classe au 17e r\xE9giment de ligne, en garnison\
+      \ \xE0 Perpignan", "R\xE9giment"]
+  : ccad6ca1-43fe-442b-bfee-8d9f09d561ba
+  ? !!python/tuple ["musicien au 1er r\xE9giment de cuirassiers en garnison \xE0 Versailles",
+    "R\xE9giment"]
+  : a2226897-927f-4c38-8853-250dd111bb37
+  ? !!python/tuple [1859-0649, "musicien de 2e classe au 8e chasseurs en garnison\
+      \ \xE0 Rouen"]
+  : cb8f4a6c-83e8-4c7e-bcd9-54c89f48dd8b
+  ? !!python/tuple ["musicien de 3e classe au 9e r\xE9giment de chasseurs en garnison\
+      \ \xE0 Abbeville", "R\xE9giment"]
+  : 03de4c76-7f6c-4e5d-9a3f-a4cab1a0ec57
+  ? !!python/tuple [1859-0651, "musicien au 16e de ligne en garnison \xE0 Dunkerque"]
+  : e55ad222-5696-4fd7-9428-315516aa5d67
+  ? !!python/tuple [1859-0652, "musicien au 16e de ligne en garnison \xE0 Dunkerque"]
+  : 6fc25c65-d85b-4aec-a6d7-94385a0f4d29
+  ? !!python/tuple [1859-0653, "musicien au 31e de ligne en garnison \xE0 Verdun"]
+  : 8b63e6a7-ef1a-4621-ba31-275c3f0172ac
+  ? !!python/tuple ["musicien au 31e de ligne en garnison \xE0 Verdun\_; 66e de ligne\_\
+      (1860, 1861)", '1860-00-00']
+  : 2b8a13fb-8ebf-4161-850e-8e86a777776c
+  ? !!python/tuple [1859-0654, "musicien au 90e de ligne en garnison \xE0 Milianah\
+      \ (Afrique)"]
+  : 0eaaaac5-7f47-460e-b32e-b7924beb3658
+  ? !!python/tuple [1859-0655, "musicien au 70e de ligne en garnison \xE0 Bone (Afrique)"]
+  : 0bbdbab1-f04d-45cd-9b08-b1a16aff6a75
+  ? !!python/tuple [1859-0659, "musicien de 1\xE8re classe au 52e de ligne"]
+  : 81bb98d3-c359-4cf1-b392-203786a78c95
+  ? !!python/tuple [1859-0660, "attach\xE9 au concert de Paris ?"]
+  : 75ab6a7c-151c-4c17-afc4-0be248599673
+  ? !!python/tuple ["musicien de 3e classe au r\xE9giment d'artillerie de la garde\
+      \ imp\xE9riale \xE0 Versailles", "R\xE9giment"]
+  : ff891b44-dd50-469a-b530-2c87df9f6458
+  ? !!python/tuple ["musicien de 1\xE8re classe au 40e r\xE9giment de ligne en garnison\
+      \ \xE0 Rome", "R\xE9giment"]
+  : 58f183de-530e-4ada-a4e2-b5a21e7b80bd
+  ? !!python/tuple ["engag\xE9 \xE0 La Haye (1860)", '1860-00-00']
+  : fa452904-3ee8-4420-9582-784ab0f2142b
+  ? !!python/tuple ["choriste \xE0 l\u2019Op\xE9ra Comique (1859)", '1859-00-00',
+    "Op\xE9ra-comique"]
+  : 05396535-6e40-45a9-8a41-4f4e56fb22c2
+  ? !!python/tuple ["joue les enfants au th\xE9\xE2tre de l'Od\xE9on", "Od\xE9on"]
+  : b1f78f8b-0e73-459f-9d02-071c2c45a817
+  ? !!python/tuple ["Th\xE9\xE2tre-Fran\xE7ais (1861) d\xE9buts en septembre\_; a\
+      \ d\xE9but\xE9 au Th\xE9\xE2tre Fran\xE7ais (mai 1870) dans Britannicus, r\xF4\
+      le de N\xE9ron", '1861-09-00', "Th\xE9\xE2tre fran\xE7ais"]
+  : b93d5916-9a55-42b4-b498-eac60f6895a3
+  ? !!python/tuple ["Th\xE9\xE2tre Historique (1862)", '1862-00-00', "Th\xE9\xE2tre\
+      \ historique"]
+  : 82724e45-18a8-471d-a94f-39d8988a0ade
+  ? !!python/tuple [1859-0684, "ancien militaire ; a jou\xE9 la com\xE9die au camp\
+      \ de Chalon"]
+  : bad635f5-5366-40ee-a42e-7e28f1f015e8
+  ? !!python/tuple ["d\xE9but au Vaudeville (octobre 1859) dans Les dettes de coeur",
+    '1859-10-00', Vaudeville]
+  : a53d09fa-b5e4-4e69-b0bc-fa4e0b1df465
+  ? !!python/tuple ["a d\xE9but\xE9 au Vaudeville (2 mars 1861) o\xF9 elle est engag\xE9\
+      e", !!timestamp '1861-03-03 00:00:00', Vaudeville]
+  : bceb1df5-6681-4d40-ac49-bf929cf8f2a3
+  ? !!python/tuple ["musicien de 4e classe au r\xE9giment d'artillerie \xE0 pied de\
+      \ la garde \xE0 Versailles", "R\xE9giment"]
+  : 2c6ecedf-8d2d-4b6f-b5a3-1859bf45227a
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique o\xF9 elle d\xE9bute dans le\
+      \ r\xF4le de Virginie du Ca\xEFd (septembre 1861)", '1861-09-00', "Op\xE9ra-comique"]
+  : b9b86f9b-93d0-4fd5-8c0c-5c8a15d8bb8c
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique o\xF9 elle d\xE9bute (septembre\
+      \ 1861)", '1861-09-00', "Op\xE9ra-comique"]
+  : 0ed50280-7d1a-48f0-9701-2cfab06a4778
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Lyrique  (1860) ; \xE0 l'Op\xE9ra-Comique\
+      \ (1862)", '1860-00-00', "Th\xE9\xE2tre-lyrique\_; op\xE9ra-comique"]
+  : a0787d53-65d4-4d93-9c93-cd35fefa92ce
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique o\xF9 il d\xE9bute dans le\
+      \ Ca\xEFd (1861)", '1861-09-00', "Op\xE9ra-comique"]
+  : 97accb17-39f7-4d84-a08b-a82eccc2be8f
+  ? !!python/tuple ["au Th\xE9\xE2tre-Lyrique", "Th\xE9\xE2tre-Lyrique"]
+  : 447b3900-61ed-4c96-83c3-a4e60e3f1be0
+  ? !!python/tuple ["choriste au Th\xE9\xE2tre-Italien et \xE0 Saint-\xC9tienne du\
+      \ Mont", "Th\xE9\xE2tre-Italien"]
+  : 7e909f25-e3dc-46e2-b85b-3dfd4deffe8f
+  ? !!python/tuple ["engag\xE9 \xE0 Caen (1862)", '1862-00-00']
+  : f4758e0f-44d0-4fc5-84d1-69cf5455f453
+  ? !!python/tuple [1859-0706, "engag\xE9 \xE0 Caen (1862)"]
+  : d3336c80-0d47-49a5-8ef5-7e27d4a701b8
+  ? !!python/tuple ["engag\xE9 choriste  au Th\xE9\xE2tre-Lyrique sur recommandation\
+      \ de M. Auber", "Th\xE9\xE2tre-Lyrique"]
+  : 3580e70d-fd16-42ab-8cb9-e826ebce9676
+  ? !!python/tuple ["au Th\xE9\xE2tre-Lyrique (1862)", "Th\xE9\xE2tre-Lyrique"]
+  : 5abb1042-485f-4ee0-93e4-0359e0907177
+  ? !!python/tuple ["engag\xE9 aux Bouffes (1862)", Bouffes]
+  : 73affb69-ae3f-4e7a-9acf-811fc8ebfb02
+  ? !!python/tuple ["Th\xE9\xE2tre Lyrique\_? (1861)", "Th\xE9\xE2tre-Lyrique"]
+  : 18e4a9a8-8609-4e26-b214-ffe4cb40d8fe
+  ? !!python/tuple [accompagnateur de la classe du soir (1er janvier 1868), !!timestamp '1868-01-02
+      00:00:00']
+  : 94e407a8-f429-46c0-98b3-98727b7dd230
+  ? !!python/tuple ["Gymnase (1864), d\xE9buts dans Le M\xE9nage en ville, de Barri\xE8\
+      re, le 17 octobre 1864", &id067 !!timestamp '1864-10-18 00:00:00', Gymnase]
+  : 2eb9d34c-ea73-4232-808a-f3c01f8508a3
+  ? !!python/tuple ["musicien \xE0 la Garde civile de Paris (1859)", '1859-00-00',
+    Garde]
+  : cfeac2ea-8e2f-470e-af6d-d671f2d996dd
+  ? !!python/tuple ["\xAB\_au Cirque\_\xBB [rajout\xE9 \xE0 l\u2019encre rouge]",
+    Cirque]
+  : a0491ea0-b1f6-49cc-9127-50c20eec6f65
+  ? !!python/tuple ["\xAB\_organiste \xE0 l\u2019Enfant J\xE9sus rue\_de S\xE8vres\_\
+      \xBB (1859)", '1859-00-00']
+  : bfadf295-f63b-475a-aac2-c46596a1d122
+  ? !!python/tuple ["Vaudeville (1861)\_; Ch\xE2telet (1863)", '1861-00-00', "Vaudeville\_\
+      ; ch\xE2telet"]
+  : 0a72157b-3234-497c-8fb5-b652155e99c5
+  ? !!python/tuple ["a d\xE9but\xE9 au Th\xE9\xE2tre-Fran\xE7ais (7 d\xE9cembre 1860)\
+      \ dans le r\xF4le de Gros-Ren\xE9 du D\xE9pit amoureux", '1860-00-00', "Th\xE9\
+      \xE2tre fran\xE7ais"]
+  : b3ea63c1-2147-442f-ab33-830123837b93
+  ? !!python/tuple ["a d\xE9but\xE9 au Vaudeville o\xF9 elle est engag\xE9e (mars\
+      \ 1861) dans Le Capitaine Tic", '1861-03-00', Vaudeville]
+  : 1bafecd9-6eb9-4db4-98f4-6a1763d7fd2c
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre-Fran\xE7ais o\xF9 elle d\xE9bute en\
+      \ octobre 1862 ", '1862-10-00', "Th\xE9\xE2tre fran\xE7ais"]
+  : d5f6c83c-cf99-40a4-bda5-61a1f20bc4b9
+  ? !!python/tuple ["Cirque imp\xE9rial\_? (1862)", '1862-00-00', "Cirque imp\xE9\
+      rial"]
+  : 490f13ef-9a92-4c69-bfee-bcbcd8ceccab
+  ? !!python/tuple ["Casino (1860), fl\xFBte au\_; Th\xE9\xE2tre Italien (1863)",
+    '1860-00-00', "Th\xE9\xE2tre-italien"]
+  : f58b5875-8f5a-437d-8462-e4fe2988cf69
+  ? !!python/tuple [au Palais-Royal (1867), '1867-00-00', Palais-royal]
+  : 64934bef-e949-4081-be6c-4b98543fcf34
+  ? !!python/tuple ["musicien de 3e classe au 1er r\xE9giment des cuirassiers de la\
+      \ garde", "R\xE9giment"]
+  : 647a9103-2958-497e-965f-a7d945021248
+  ? !!python/tuple ["musicien au 5e r\xE9giment de ligne en garnison au Fort de l'est",
+    "R\xE9giment"]
+  : d05d7f3a-4b1b-48d9-b1a5-98269ad4ed3d
+  ? !!python/tuple [1860-0781, "musicien au 16e de ligne en garnison \xE0 Angers"]
+  : 4e3acb7a-e495-42a7-98c1-316a614f27cf
+  ? !!python/tuple [1860-0782, "musicien au 27e de ligne en garnison \xE0 Lyon"]
+  : e81338b0-52dd-43c2-bf60-a3ec8dedbaeb
+  ? !!python/tuple [1860-0783, "musicien au 28e de ligne en garnison \xE0 Bic\xEA\
+      tre"]
+  : 7114d810-278a-4e48-8aeb-d514c0d3bf24
+  ? !!python/tuple [1860-0784, "musicien au 28e de ligne en garnison \xE0 Bic\xEA\
+      tre"]
+  : 235098ad-875b-4469-be02-1f494486dc8a
+  ? !!python/tuple [1860-0785, "musicien au 1er de ligne en garnison \xE0 Limoges"]
+  : c1c3593e-86ad-4e7d-8dd2-e8de31e2fdc8
+  ? !!python/tuple ["musicien de 2e classe au r\xE9giment d'artillerie de la garde\
+      \ imp\xE9riale", "R\xE9giment"]
+  : 7e228593-6966-4508-aaa9-19e0b4915035
+  ? !!python/tuple [1860-0787, "musicien au 66e de ligne en garnison \xE0 Verdun-sur-Meuse"]
+  : b043fcb4-8360-45c2-9cd7-94c3622bcb2f
+  ? !!python/tuple [1860-0787, 1er grenadiers de la Garde]
+  : 7a7e7cce-1c53-4f7c-b4ca-72adeb50fbb5
+  ? !!python/tuple [1860-0788, "musicien au 8e de cuirassiers en garnison \xE0 Hagueneau"]
+  : 22c7243c-70cf-4576-afb1-104098bec55f
+  ? !!python/tuple ["musicien de 1\xE8re classe au 5e r\xE9giment de chasseurs en\
+      \ garnison \xE0 Valenciennes", "R\xE9giment"]
+  : 276d3437-29d9-43ec-a572-dd609785e2a5
+  ? !!python/tuple ["musicien de 1\xE8re classe au 3e r\xE9giment de hussards en garnison\
+      \ \xE0 Chartres", "R\xE9giment"]
+  : 235f1f32-cc35-403d-8a0d-1f217d2157ef
+  ? !!python/tuple [1860-0791, "musicien de 1\xE8re classe au 7e hussards en garnison\
+      \ \xE0 Moulins"]
+  : e4394a6d-331f-4fac-8e1a-271cd3ebf8e3
+  ? !!python/tuple ["musicien de 2e classe au 2e r\xE9giment d'artillerie en garnison\
+      \ \xE0 Vincennes", "R\xE9giment"]
+  : 985f9b6e-5987-47a0-96da-7e0c0cd1e018
+  ? !!python/tuple ["musicien au 12e r\xE9giment d'artillerie en garnison \xE0 Besan\xE7\
+      on", "R\xE9giment"]
+  : 7544134f-7551-45da-96f4-b6ba0ed74315
+  ? !!python/tuple ["musicien au 3e r\xE9giment de cuirassiers en garnison \xE0 Lun\xE9\
+      ville", "R\xE9giment"]
+  : c59ee69e-8b8e-4b4c-86a9-fe956bc523a4
+  ? !!python/tuple ["musicien de 3e classe au 32e r\xE9giment d'infanterie de ligne\
+      \ en garnison \xE0 Phalsbourg", "R\xE9giment"]
+  : 958dc9b6-52ba-4646-ae82-cd14495ef7fd
+  ? !!python/tuple [1860-0796, "musicien au 39e de ligne en garnison \xE0 Brest"]
+  : 3df6182f-6693-4f42-961a-53773503735a
+  ? !!python/tuple [1860-0797, "musicien au 39e de ligne en garnison \xE0 Brest"]
+  : 4771516f-9663-403a-811e-6d61605bbd3e
+  ? !!python/tuple [1860-0798, "musicien de 2e classe au 56e de ligne en garnison\
+      \ \xE0 Paris"]
+  : 5b5eea3b-593b-49d2-86f7-06b25ab570fb
+  ? !!python/tuple [1860-0799, "musicien au 65e de ligne en garnison \xE0 N\xEEmes"]
+  : d06e691b-54c4-49bd-9f30-6823f620b62b
+  ? !!python/tuple [1860-0800, "musicien au 67e de ligne en garnison \xE0 Cherbourg"]
+  : cf9a402c-45d7-4d82-87aa-ad8bbaa50acf
+  ? !!python/tuple [1860-0801, "musicien de 2e classe au 71e de ligne en garnison\
+      \ \xE0 Lyon"]
+  : 928d0963-5762-4d1c-9cb4-980f9ce5a34d
+  ? !!python/tuple [1860-0802, "musicien au 85e de ligne en garnison \xE0 Amiens"]
+  : bd233966-6e56-4949-8b48-aa3fd98fe845
+  ? !!python/tuple [1860-0803, "musicien de 2e classe au 94e de ligne en garnison\
+      \ \xE0 Mezi\xE8res"]
+  : bac68958-4252-4c27-9f0a-77ddd0136317
+  ? !!python/tuple ["clairon musicien de 1\xE8re classe au 3e r\xE9giment de tirailleurs\
+      \ indig\xE8nes en garnison \xE0 Constantine", "R\xE9giment"]
+  : e13a90e6-4535-4b83-8b42-c387ecf003f1
+  ? !!python/tuple [1860-0805, "musicien de 3e classe au 2e de cuirassiers en garnison\
+      \ \xE0 Lun\xE9ville"]
+  : eb1c921e-55a1-45c1-8238-baec6c2b8c80
+  ? !!python/tuple [1860-0806, "musicien de 3e classe au 2e de cuirassiers en garnison\
+      \ \xE0 Lun\xE9ville"]
+  : 3cefee97-56c5-4c28-acb6-56de9f55c085
+  ? !!python/tuple [1860-0807, "musicien de 7e classe au 6e de cuirassiers en garnison\
+      \ \xE0 Lun\xE9ville"]
+  : 350adde2-a250-44cc-bc4d-cac80d1d08a4
+  ? !!python/tuple [1860-0808, "musicien au 8e de dragons en garnison \xE0 Belfort"]
+  : afc9fdb8-5fa9-4ce7-beef-1f4df861f3f7
+  ? !!python/tuple [1860-0809, "musicien de 2e classe au 7e lanciers en garnison \xE0\
+      \ Saint-Mihiel"]
+  : f9d59ff0-af6b-42ce-85d1-3cf66d583f24
+  ? !!python/tuple [1860-0810, "musicien de 2e classe au 6e de dragons en garnison\
+      \ \xE0 Paris"]
+  : 4109fe5a-6c88-4d85-909a-edc055f46d4b
+  ? !!python/tuple ["musicien de 2e classe au 6e de dragons en garnison \xE0 Paris\_\
+      ; 16e de ligne (1861)", '1861-00-00']
+  : 150799f9-260e-4d83-854d-1bd7bd9f4887
+  ? !!python/tuple [1860-0811, "musicien de 1\xE8re classe au 87e de ligne en garnison\
+      \ \xE0 Brian\xE7on"]
+  : eaf2bda8-5e52-4a9f-92fc-c82734703327
+  ? !!python/tuple [1860-0812, "musicien de 3e classe au 34e de ligne en garnison\
+      \ \xE0 Pavie"]
+  : 2e8b96d6-c85b-4ed8-b392-99d5a2859335
+  ? !!python/tuple ["musicien de 2e classe au 3e r\xE9giment du g\xE9nie en garnison\
+      \ \xE0 Arras", "R\xE9giment"]
+  : 635a9ff6-2134-419e-95be-0e3174ad1400
+  ? !!python/tuple [1860-0814, "musicien au 100e de ligne en garnison \xE0 Belfort"]
+  : 316c7fd1-9ec2-4d56-966c-8b08fd0ea50a
+  ? !!python/tuple ["Vaudeville (1861)\_; Bouffes (1863)", '1861-00-00', "Vaudeville\_\
+      ; bouffes"]
+  : 3bdceca4-11cf-457b-aba8-eaea6ff5c516
+  ? !!python/tuple [artiste aux concerts Musard, 1860]
+  : c1fdd537-5766-43d4-929e-d096544f260f
+  ? !!python/tuple ["musicien au Cirque imp\xE9rial ; musicien de 3e classe au 1er\
+      \ r\xE9giment des grenadiers de la garde, en garnison \xE0 Saint-Cloud\_; musicien\
+      \ de 3e classe au 1er r\xE9giment de cuirassiers de la Garde \xE0 Saint-Cloud\
+      \ (1860)", '1860-00-00', "R\xE9giment"]
+  : 187062e6-40dc-41ec-ab13-d2229395ba94
+  ? !!python/tuple [Bouffes (1863), '1863-00-00', Bouffes]
+  : 5e717a30-8caa-4dec-a649-fde9c1be1685
+  ? !!python/tuple [Bouffes (1864), '1864-00-00', Bouffes]
+  : 87d88468-b6e0-4b0f-b867-ce3746b1595b
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre Lyrique o\xF9 il d\xE9bute en septembre\
+      \ 1861", '1861-09-00', "Th\xE9\xE2tre-lyrique"]
+  : 58b73ad2-a172-4f50-adf5-139f2c56a138
+  ? !!python/tuple ["engag\xE9 \xE0 Lyon (1863)", '1863-00-00']
+  : aae01a2a-82fb-4463-b78e-eddbdcd2e6cb
+  ? !!python/tuple ["choriste \xE0 l'Op\xE9ra-Comique", "Op\xE9ra-Comique"]
+  : 5afe1ef4-502b-4b51-9328-17968b97a814
+  ? !!python/tuple ["engag\xE9 \xE0 l'Od\xE9on (1863)", '1863-00-00', "Od\xE9on"]
+  : 49f81fc1-8e8e-4c05-9bb2-87b9f995ef5a
+  ? !!python/tuple ["a d\xE9but\xE9 au Th\xE9\xE2tre Fran\xE7ais", "Th\xE9\xE2tre\
+      \ Fran\xE7ais"]
+  : d2b1b4fc-a2d9-43d4-89c7-725694034cca
+  ? !!python/tuple ["Th\xE9\xE2tre-Fran\xE7ais (1863), a d\xE9but\xE9 dans C\xE9lim\xE8\
+      ne du Misanthrope le23 janvier 1863", '1863-00-00', "Th\xE9\xE2tre fran\xE7\
+      ais"]
+  : 3018a4df-4ddc-4e7f-b9ad-8e7158be4cbf
+  ? !!python/tuple ["engag\xE9 aux Folies Dramatiques (1862)", '1862-00-00', Folies
+      dramatiques]
+  : 3cfc1aaa-dab6-4563-b22a-442b0713cddf
+  ? !!python/tuple [Vaudeville (1862), '1862-00-00', Vaudeville]
+  : f2f7ac3e-ffd2-4d08-bc6b-877d470dc1c9
+  ? !!python/tuple ["nomm\xE9 r\xE9p\xE9titeur de solf\xE8ge (10 f\xE9vrier 1875)",
+    !!timestamp '1875-02-11 00:00:00']
+  : 16b4b543-a626-4bd8-a98d-6c2ba4cfec8d
+  ? !!python/tuple ["musicien au 3e r\xE9giment des grenadiers de la garde imp\xE9\
+      riale", "R\xE9giment"]
+  : 8fe4db36-842a-4e4a-a464-f21ba0e1ae67
+  ? !!python/tuple ["musicien au 2e r\xE9giment des grenadiers de la garde imp\xE9\
+      riale", "R\xE9giment"]
+  : 5709223c-ce54-4af0-b175-13e0a4b9b353
+  ? !!python/tuple ["attach\xE9 au Th\xE9\xE2tre Lyrique en 1865", '1865-00-00', "Th\xE9\
+      \xE2tre-lyrique"]
+  : dce85337-f483-4d92-994c-3e2568b8f1d1
+  ? !!python/tuple ["Th\xE9\xE2tre-Fran\xE7ais (1864)\_?", '1864-00-00', "Th\xE9\xE2\
+      tre fran\xE7ais"]
+  : b9301d27-deb2-4503-9dd0-bb9d3200f45b
+  ? !!python/tuple [Bouffes (1862), '1862-00-00', Bouffes]
+  : 3a712c9e-d930-4382-88ae-f5f1409e9c52
+  ? !!python/tuple ["musicien de 2e classe aux guides de la garde en garnison \xE0\
+      \ Compi\xE8gne", Garde]
+  : f53d0c8e-4c75-49de-bd9a-95bf7743df16
+  ? !!python/tuple ["Th\xE9\xE2tre Lyrique", "Th\xE9\xE2tre Lyrique"]
+  : cfbbfd89-3e6c-4416-8937-23152f0bf275
+  ? !!python/tuple ["engag\xE9 aux Bouffes (1863)", '1863-00-00', Bouffes]
+  : 3a3c7e76-188f-4c30-8394-893241315d0e
+  ? !!python/tuple [1860-0912, "engag\xE9 \xE0 Nantes"]
+  : f71a911f-ca50-4585-a618-795dedc98553
+  ? !!python/tuple ["engag\xE9e \xE0 l\u2019Od\xE9on", "Od\xE9on"]
+  : f64dd72b-9703-4791-a28a-af7223a2cfac
+  ? !!python/tuple ["Op\xE9ra (1865), a d\xE9but\xE9 le 10 novembre 1865 dans Le Trouv\xE8\
+      re, r\xF4le d'Azucena", !!timestamp '1865-11-11 00:00:00', "Op\xE9ra"]
+  : 7432b1e6-82a1-462f-8cb6-6df2292ee0cd
+  ? !!python/tuple ["Concerts populaires de M. Pasdeloup (1862) ; Th\xE9\xE2tre Lyrique\
+      \ (1864)", '1862-00-00', "Th\xE9\xE2tre-lyrique"]
+  : 1260371e-9126-4fe0-8662-a5e04a5e9a8a
+  ? !!python/tuple ["Gymnase\_(1863)\_?", '1863-00-00', Gymnase]
+  : ff882a61-6986-48ed-bfb3-6a34e8246a59
+  ? !!python/tuple ["engag\xE9 \xE0 l'Op\xE9ra-Comique (1868)", '1868-00-00', "Op\xE9\
+      ra-comique"]
+  : 1e5690ba-d895-45c6-b129-d9d00c409207
+  ? !!python/tuple ["\xAB\_au Cirque Imp\xE9rial\_\xBB (1860-1861)\_; musicien de\
+      \ 2e classe aux guides de la garde \xE0 Fontainebleau (1 octobre 1863)", '1860-00-00',
+    "Cirque imp\xE9rial"]
+  : 9ec59cb1-a3fa-4657-88be-09e7ea77d74c
+  ? !!python/tuple ["\xAB\_au Cirque Imp\xE9rial\_\xBB (1860-1861)\_; musicien de\
+      \ 2e classe aux guides de la garde \xE0 Fontainebleau (1 octobre 1863)", !!timestamp '1860-10-02
+      00:00:00', "Cirque imp\xE9rial"]
+  : ac309900-d210-4823-831b-38c61f76164f
+  ? !!python/tuple [1860-0960, "musicien de 1\xE8re classe au 4e voltigeurs de la\
+      \ garde"]
+  : 785a090e-faae-48b6-b048-6940624f2a3d
+  ? !!python/tuple ["Th\xE9\xE2tre-Fran\xE7ais (1864), d\xE9buts le 8 octobre 1864\
+      \ dans le r\xF4le de Don Sanche du Cid", !!timestamp '1864-10-09 00:00:00',
+    "Th\xE9\xE2tre fran\xE7ais"]
+  : b608dcae-0ddb-4f35-8b85-d16e094345af
+  ? !!python/tuple ["musicien de 3e classe au 3e r\xE9giment des grenadiers de la\
+      \ garde", "R\xE9giment"]
+  : 3c0fc897-986c-4b33-a660-6418948d0fab
+  ? !!python/tuple ["choriste au th\xE9\xE2tre des Bouffes Parisiens (1861)", '1861-00-00',
+    Bouffes]
+  : 9488768a-00bb-4439-b02e-2940e85550cd
+  ? !!python/tuple ["sous-chef des ch\u0153urs au Th\xE9\xE2tre de l'Op\xE9ra-Comique\
+      \ (1861)", '1861-00-00', "Op\xE9ra-comique"]
+  : 9f8d3af5-df19-4fe2-ae64-ffdf8c5b66b0
+  ? !!python/tuple ["musicien \xE0 l'orchestre de l'Alcazar (1861)", '1861-00-00']
+  : adcd3e46-3105-4e7d-951f-8be5f53f6602
+  ? !!python/tuple ["attach\xE9 \xE0 l'orchestre du Vaudeville (1861)", '1861-00-00',
+    Vaudeville]
+  : d2fbc139-c4a9-4caf-bc7a-b0e90d69f39e
+  ? !!python/tuple [Gymnase (1862), '1862-00-00', Gymnase]
+  : 508f549a-42bb-4186-b26d-f0cb32d0ffe9
+  ? !!python/tuple [Porte Saint Martin (1861), '1861-00-00']
+  : 3e51191c-9217-4a6c-b0d2-b81382992440
+  ? !!python/tuple ["musicien de 3e classe au 17e r\xE9giment de ligne en garnison\
+      \ \xE0 Dunkerque", "R\xE9giment"]
+  : 8b5034b8-88e2-47ca-8e8b-94f6cb2f619f
+  ? !!python/tuple [1861-1002, "musicien de 4e classe au 8e hussard en garnison \xE0\
+      \ Libourne"]
+  : 7c46ca98-101a-487a-8208-4960fad822c6
+  ? !!python/tuple ["musicien de 4e classe au 96e r\xE9giment de ligne en garnison\
+      \ \xE0 Lyon", "R\xE9giment"]
+  : f502e3f0-9a0f-4985-a184-e49db06ab239
+  ? !!python/tuple [1861-1004, "musicien au 50e de ligne en garnison \xE0 Lyon"]
+  : 5ebfc3e4-fff4-4e91-ab55-a4b4de4d3f63
+  ? !!python/tuple [1861-1005, "musicien au 43e de ligne en garnison \xE0 Lorient"]
+  : d12cb89b-eec7-406d-b67f-a10d08037098
+  ? !!python/tuple [1861-1006, "musicien de 4e classe au 50e de ligne en garnison\
+      \ \xE0 Lyon"]
+  : 2740c841-a121-42aa-9772-0756a64dd325
+  ? !!python/tuple [1861-1007, "musicien de 3e classe au 27e de ligne en garnison\
+      \ \xE0 Lyon"]
+  : 11038b1b-e444-455c-a2ca-ed66c3ae1d86
+  ? !!python/tuple [1861-1008, "musicien de 4e classe au 20e de ligne en garnison\
+      \ \xE0 Givet"]
+  : 60de181c-329f-43a5-a534-c1298254328e
+  ? !!python/tuple [1861-1009, "musicien de 3e classe au 8e hussard en garnison \xE0\
+      \ Libourne"]
+  : 061adbea-1ab1-4c1e-af49-48c80654c8f4
+  ? !!python/tuple [1861-1010, "musicien de 2e classe au 78e de ligne en garnison\
+      \ \xE0 Paris"]
+  : 2579535e-410c-4bc6-aa31-69fa6c5fa931
+  ? !!python/tuple [1861-1011, "musicien de 4e classe au 9e d'artillerie en garnison\
+      \ \xE0 Metz"]
+  : 975f55b6-4475-4e01-9f8d-4f6240eeef15
+  ? !!python/tuple [1861-1012, "musicien de 4e classe au 21e de ligne en garnison\
+      \ \xE0 Calais"]
+  : 6c94e80f-7a88-4aef-852f-0a03d4018b06
+  ? !!python/tuple [1861-1013, "musicien de 3e classe au 22e de ligne en garnison\
+      \ \xE0 Lyon"]
+  : 644a0702-99bd-471d-87ff-7402aa2f0a36
+  ? !!python/tuple [1861-1014, "musicien de 4e classe au 10e de ligne en garnison\
+      \ \xE0 Thionville"]
+  : 8acdec99-98dd-4aa8-a70c-462607ed5532
+  ? !!python/tuple [1861-1015, "musicien de 4e classe au 10e de ligne en garnison\
+      \ \xE0 Thionville"]
+  : 892e7300-506a-4882-a7e0-0cd61b24f943
+  ? !!python/tuple [1861-1016, "musicien de 2e classe au 11e dragons en garnison \xE0\
+      \ Cambrai"]
+  : 7d93ddc1-9fa9-412c-b245-26d178a3db19
+  ? !!python/tuple [1861-1017, "musicien de 1\xE8re classe au 6e de ligne en garnison\
+      \ \xE0 Romainville"]
+  : 65641394-316d-4e06-8d4e-6f81022e226e
+  ? !!python/tuple [1861-1018, "musicien de 1\xE8re classe au 23e de ligne en garnison\
+      \ \xE0 Langres"]
+  : ad2a1d75-0a45-428a-a4ad-d3620a27d38a
+  ? !!python/tuple [1861-1019, "musicien de 3e classe au 1er dragons en garnison \xE0\
+      \ Lyon"]
+  : 2734e1f8-77af-4d8c-9d86-572fa7f3b43b
+  ? !!python/tuple [1861-1020, "musicien de 1\xE8re classe au 10e de cuirassiers en\
+      \ garnison \xE0 Haguenau"]
+  : 93a0246d-e9ea-4b08-904c-bccb1c4f7da6
+  ? !!python/tuple [1861-1021, "musicien de 1\xE8re classe au 7e chasseurs en garnison\
+      \ \xE0 Ch\xE2lons sur Marne"]
+  : 68a38c1b-bd45-402b-9fda-c454de9deb53
+  ? !!python/tuple [1861-1022, "musicien au 4e d'artillerie en garnison \xE0 Metz"]
+  : d52ddcfa-b5e1-4f62-bcab-a4349a9e812e
+  ? !!python/tuple [1861-1023, "musicien de 2e classe au 7e d'artillerie en garnison\
+      \ \xE0 Strasbourg"]
+  : 1ddc0e6a-4208-4a89-a591-b044d127eb2e
+  ? !!python/tuple ["musicien de 1\xE8re classe au 53e r\xE9giment de ligne en garnison\
+      \ \xE0 Besan\xE7on", "R\xE9giment"]
+  : dfb33ca9-459e-4700-a39a-0a3e3303655a
+  ? !!python/tuple [1861-1025, "musicien au 5e cuirassiers en garnison \xE0 Colmar"]
+  : 9d21bf60-fba1-4835-9300-1099268944d0
+  ? !!python/tuple [1861-1026, "musicien de 4e classe 49e de ligne en garnison \xE0\
+      \ Paris"]
+  : 0ee4e10b-e90f-4a17-9324-efd001ad2b89
+  ? !!python/tuple [1861-1027, "musicien de 4e classe au 34e de ligne en garnison\
+      \ \xE0 Paris"]
+  : bf9793a7-cdd3-470d-8f74-22d7c326b791
+  ? !!python/tuple [1861-1028, "musicien de 1\xE8re classe au 8e lanciers en garnison\
+      \ \xE0 Pont-\xE0-Mousson"]
+  : c64b196b-a0e0-468b-b416-fff4edc3d806
+  ? !!python/tuple [1861-1029, "musicien de 4e classe au 4e voltigeur de la garde\
+      \ \xE0 Courbevoie"]
+  : 46bd7adb-8fe5-4b75-b4a0-a1c43a52b44c
+  ? !!python/tuple [1861-1029, "musicien de 4e classe au 4e voltigeurs de la garde\
+      \ \xE0 Courbevoie"]
+  : 750a06df-2edb-44ea-be3f-b24f8a19282a
+  ? !!python/tuple [1861-1030, "musicien de 4e classe au 78e de ligne en garnison\
+      \ \xE0 Paris"]
+  : 4889e0a2-0c86-4766-8573-656185750005
+  ? !!python/tuple [1861-1031, "musicien de 1\xE8re classe au 8e chasseurs en garnison\
+      \ \xE0 S\xE9tif (Alg\xE9rie)"]
+  : a1d42117-85d3-4208-bc85-aaab51e81b74
+  ? !!python/tuple [1861-1032, "musicien de 3e classe au 1er voltigeurs de la garde\
+      \ en garnison \xE0 Saint-Cloud"]
+  : 52bf0639-faa9-49d5-aef9-b23d6902714e
+  ? !!python/tuple ["Th\xE9\xE2tre Lyrique (1862)", '1862-00-00', "Th\xE9\xE2tre-lyrique"]
+  : 56aaf462-2976-4268-bdd2-eb4bae5d4a3d
+  ? !!python/tuple ["accompagnateur de chant et de la classe de grand-op\xE9ra de\
+      \ M. Levassaeur depuis 1866", '1866-00-00']
+  : 5ff47cf1-e061-4dda-85c2-0685810e8b17
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra dans El\xE9onore du Trouv\xE8\
+      re (15 juillet 1868)", &id066 !!timestamp '1868-07-16 00:00:00']
+  : 672f91a3-e9cf-4fca-bd57-cfc4ae730c72
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra (15 juillet 1868)", *id066]
+  : 77d3ae0b-b040-44cd-b56d-328f2ee83390
+  ? !!python/tuple ["Th\xE9\xE2tre Lyrique", "Th\xE9\xE2tre-Lyrique"]
+  : e842d6cb-d532-4562-ac6f-d09ee847a2d0
+  ? !!python/tuple ["a d\xE9but\xE9 \xE0 l'Op\xE9ra o\xF9 il est engag\xE9 (24 septembre\
+      \ 1862)", !!timestamp '1862-09-25 00:00:00', "Op\xE9ra"]
+  : 0e8365c6-9076-4ba1-ab0c-440f46e67f65
+  ? !!python/tuple ["\xAB\_\xE0 l\u2019Op\xE9ra-Comique\_\xBB (1861)", '1861-00-00',
+    "Op\xE9ra-comique"]
+  : 7ca902f5-e871-4844-a9e5-a2d2a8b41674
+  ? !!python/tuple ["\xE9tait attach\xE9 au th\xE9\xE2tre de Strasbourg\_; Th\xE9\xE2\
+      tre des Champs-\xC9lys\xE9es (1862)", '1862-00-00', "Th\xE9\xE2tre des champs-\xE9\
+      lys\xE9es"]
+  : c65fdb6f-7a75-4247-8d0f-6fb589958e6f
+  ? !!python/tuple ["Gymnase\_? (1863)", '1863-00-00', Gymnase]
+  : 35447ae3-9991-4f70-b935-da00b91f4963
+  ? !!python/tuple ["\xE0 l'Op\xE9ra (1863)", '1863-00-00', "Op\xE9ra"]
+  : 62236cc7-3d29-4191-a3ea-496fdeb1ab61
+  ? !!python/tuple ["engag\xE9 \xE0 l'Od\xE9on", "Od\xE9on"]
+  : 0710f93f-ee6a-4b2a-b088-382ca327200d
+  ? !!python/tuple ["Od\xE9on", "Od\xE9on"]
+  : 22dce670-4484-4c86-989c-5344f1a6d67a
+  ? !!python/tuple ["musicien de 1\xE8re classe au 7e r\xE9giment de chasseurs, caserne\
+      \ d'Orsay", "R\xE9giment"]
+  : 9aee102e-ca7b-449c-8026-150b92ca24ed
+  ? !!python/tuple ["th\xE9\xE2tre de Nancy, 3e cor (1864) ; Bouffes Parisiens (1863)",
+    '1863-00-00', Bouffes]
+  : f5426de8-2bff-4b79-9c13-87629a9322c2
+  ? !!python/tuple ["engag\xE9 au th\xE9\xE2tre Dejazet", "Th\xE9\xE2tre Dejazet"]
+  : 4a20854a-a964-4d30-91e8-f4521258f1a1
+  ? !!python/tuple ["\xE0 l'Ath\xE9n\xE9e (1869)", '1869-00-00']
+  : e216b204-2315-43ca-bab8-b852dd05a878
+  ? !!python/tuple ["soldat au 44e r\xE9giment de ligne en garnison \xE0 Lyon (1861)\_\
+      ; Th\xE9\xE2tre-Lyrique (1864)", '1861-00-00', "R\xE9giment"]
+  : 22d71a41-0148-4f9d-9c89-c6fb6b62dab6
+  ? !!python/tuple ["engag\xE9 \xE0 Toulon (1865)", '1865-00-00']
+  : 91de21dd-a6b6-47a3-8133-82de9336e3cb
+  ? !!python/tuple ["\xE0 l'Op\xE9ra-Comique", "Op\xE9ra-Comique"]
+  : 76481322-af80-4c9e-8e15-056fe7095a27
+  ? !!python/tuple ["a d\xE9but\xE9 au Th\xE9\xE2tre Fran\xE7ais (4 mai 1869)", !!timestamp '1869-05-05
+      00:00:00', "Th\xE9\xE2tre dejazet"]
+  : dc85759d-c6e9-4420-8c7e-c0a3b922a45d
+  ? !!python/tuple ["Th\xE9\xE2tre Fran\xE7ais", "Th\xE9\xE2tre Dejazet"]
+  : 5dc4dd7d-547a-4fae-9d33-71d04e4550c9
+  ? !!python/tuple ["engag\xE9 au Gymnase (1865)", '1865-00-00', Gymnase]
+  : 59343cf7-c909-4179-a7b0-3834a4c57315
+  ? !!python/tuple ["au Fran\xE7ais (1864)", '1864-00-00', "Th\xE9\xE2tre fran\xE7\
+      ais"]
+  : 4783c58d-8e51-4c7a-8e36-7328a5d01e66
+  ? !!python/tuple ["Th\xE9\xE2tre-Fran\xE7ais (1864), d\xE9buts le 17 octobre 1864\
+      \ dans le r\xF4le de Val\xE9rie du D\xE9pit amoureux", '1864-00-00', "Th\xE9\
+      \xE2tre fran\xE7ais"]
+  : 943592a5-5015-41ac-bc9d-cd7542ea438e
+  ? !!python/tuple ["pensionnaire du Th\xE9\xE2tre Fran\xE7ais (1863)", '1863-00-00',
+    "Th\xE9\xE2tre fran\xE7ais"]
+  : 225ad763-c398-4a85-bd4b-48071030c24f
+  ? !!python/tuple ["a d\xE9but\xE9 au Gymnase (17 octobre 1864)", *id067, Gymnase]
+  : d44dd181-d64c-45b3-90c8-c78710ea2916
+  ? !!python/tuple ["engag\xE9 au Th\xE9\xE2tre Historique (1862)", '1862-00-00',
+    "Th\xE9\xE2tre historique"]
+  : 288bebdd-c386-4d39-a534-9376e55e16ee
+  ? !!python/tuple ["Vari\xE9t\xE9s (1864)", '1864-00-00', "Vari\xE9t\xE9s"]
+  : c7e45732-34ea-42f6-aaa7-0361f9fe17ea
+  ? !!python/tuple ["Vari\xE9t\xE9s (1862)", '1862-00-00', "Vari\xE9t\xE9s"]
+  : a4ec0026-b41f-449e-854d-b3730b8562fc
+  ? !!python/tuple ["musicien au 5e r\xE9giment de hussards en garnison \xE0 Paris",
+    "R\xE9giment"]
+  : 925a38f2-a63a-4e1b-8522-98684ab60fd7
+  ? !!python/tuple ["musicien de 2e classe au 2e r\xE9giment de grenadiers de la garde\
+      \ en garnison \xE0 Saint-Denis", "R\xE9giment"]
+  : df6ed20f-0a63-41a9-82d0-8217adcf8e73
+  ? !!python/tuple [1861-1175, "musicien au zouaves de la garde imp\xE9riale en garnison\
+      \ \xE0 Versailles"]
+  : 4564f765-019d-42ce-9ac9-bff9728e6e1a
+  ? !!python/tuple [1861-1176, "musicien de 3e classe aux dragons de l'imp\xE9ratrice\
+      \ en garnison \xE0 Melun"]
+  : 5e8c06b0-3b63-4e62-82dd-21d4676d4035
+  ? !!python/tuple ["musicien de 1\xE8re classe au 5e r\xE9giment de ligne en garnison\
+      \ \xE0 Blois", "R\xE9giment"]
+  : c2174745-ef86-4129-bea0-d7d9fcd92a4d
+  ? !!python/tuple ["musicien de 3e classe au 21e r\xE9giment de ligne en garnison\
+      \ \xE0 Calais", "R\xE9giment"]
+  : 0b783332-77e2-458f-969f-eddc872e45fd
+  ? !!python/tuple ["musicien de 3e classe au 26e r\xE9giment de ligue", "R\xE9giment"]
+  : 1bdf54e5-7fff-4bf5-b2c2-299a60383e85
+  ? !!python/tuple [1861-1181, "musicien de 2e classe au 32e de ligne en garnison\
+      \ \xE0 Napol\xE9on-Vend\xE9e"]
+  : 9dbfffea-dbd3-48c0-9308-15c95ad4a44a
+  ? !!python/tuple [1861-1183, "musicien de 4e classe au 47e de ligne en garnison\
+      \ \xE0 Cambrai"]
+  : bdb40f19-bebf-41c4-b9f6-756bef1be13f
+  ? !!python/tuple [1861-1184, "musicien de 2e classe au 50e de ligne en garnison\
+      \ \xE0 La Rochelle"]
+  : a77cde59-035c-448f-82a2-8d13d38572e3
+  ? !!python/tuple [1861-1185, "musicien de 2e classe au 64e de ligne en garnison\
+      \ \xE0 Marseille"]
+  : 9246527d-9954-4b06-bcfc-2598b2b79ad6
+  ? !!python/tuple [1861-1186, "musicien de 1\xE8re classe au 75e de ligne en garnison\
+      \ \xE0 Charenton"]
+  : 2a1c81bb-f28d-4f9b-bc70-0ba93ce7eabd
+  ? !!python/tuple [1861-1187, "musicien au 2e cuirassiers de la garde en garnison\
+      \ \xE0 Paris"]
+  : c3a3d075-9b15-4efd-a982-05850d233714
+  ? !!python/tuple [1861-1188, "musicien de 3e classe au 76e de ligne en garnison\
+      \ \xE0 Nantes"]
+  : f7f374b6-036f-4926-906f-46f5fd59468b
+  ? !!python/tuple [1861-1189, "musicien de 4e classe au 77e de ligne en garnison\
+      \ \xE0 Toulouse"]
+  : 985b2ce6-e238-4964-acfc-b8a7371f0aca
+  ? !!python/tuple [1861-1190, "musicien de 4e classe au 78e de ligne en garnison\
+      \ \xE0 Paris"]
+  : a7f4ef67-d31f-42a9-8d32-15bf65b320ff
+  ? !!python/tuple [1861-1191, musicien au 89e de ligne au Fort d'Ivry]
+  : 3e41d0f3-55b7-41fa-838f-46d8a2cc722c
+  ? !!python/tuple [1861-1192, "musicien de 1\xE8re classe au 93e de ligne en garnison\
+      \ \xE0 Montpellier"]
+  : aa298ce6-cd5d-438b-ab76-7357f9ce2eb5
+  ? !!python/tuple ["musicien de 4e classe au 2e r\xE9giment du g\xE9nie en garnison\
+      \ \xE0 Arras", "R\xE9giment"]
+  : 81178901-b676-4926-8379-f8b6fe8b28ca
+  ? !!python/tuple ["musicien de 3e classe au 3e r\xE9giment du g\xE9nie en garnison\
+      \ \xE0 Hetz", "R\xE9giment"]
+  : aad57998-84cb-4a25-853a-10525d25d631
+  ? !!python/tuple ["musicien de 3e classe au 1er r\xE9giment de carabiniers en garnison\
+      \ \xE0 Lun\xE9ville", "R\xE9giment"]
+  : 8a2a9124-8f7b-49e4-89f5-f56ed5ddbeef
+  ? !!python/tuple ["musicien de 4e classe au 1er r\xE9giment de cuirassiers en garnison\
+      \ \xE0 Sarreguemines", "R\xE9giment"]
+  : 0bc9841b-24ab-45ec-af7b-086f97209689
+  ? !!python/tuple ["musicien de 2e classe au 3e r\xE9giment de cuirassiers en garnison\
+      \ \xE0 Versailles", "R\xE9giment"]
+  : 812f4189-e1d8-41db-9556-8e5a0fadb12b
+  ? !!python/tuple ["musicien de 1\xE8re classe au 3e r\xE9giment de cuirassiers en\
+      \ garnison \xE0 Versailles", "R\xE9giment"]
+  : c93609fc-4843-4346-9aeb-1dfd4c27c029
+  ? !!python/tuple ["musicien de 3e classe au 5e r\xE9giment de cuirassiers en garnison\
+      \ \xE0 Colmar", "R\xE9giment"]
+  : f05df04b-68fe-4199-bcf2-8338646ee77a
+  ? !!python/tuple ["musicien de 3e classe au 3e r\xE9giment de dragons en garnison\
+      \ \xE0 Verdun", "R\xE9giment"]
+  : 725c9e0a-98bc-44d5-9bde-344e52937b3d
+  ? !!python/tuple ["musicien de 3e classe au 10e r\xE9giment de dragons en garnison\
+      \ \xE0 Lille", "R\xE9giment"]
+  : 1d093c91-03a5-4eca-b0d7-2ee085d8b7f8
+  ? !!python/tuple ["musicien de 2e classe au 11 r\xE9giment de dragons en garnison\
+      \ \xE0 Lyon", "R\xE9giment"]
+  : 46fac560-7723-4d48-ae54-1d6e92b34e7e
+  ? !!python/tuple ["musicien de 2e classe au 8e r\xE9giment de lanciers en garnison\
+      \ \xE0 Pont-\xE0-Mousson", "R\xE9giment"]
+  : 16e54f02-6f84-4fd0-8313-213a64d34185
+  ? !!python/tuple ["musicien de 1\xE8re classe au 2 r\xE9giment de chasseurs en garnison\
+      \ \xE0 Limoges", "R\xE9giment"]
+  : 771e57e8-9f66-44c0-a473-7f5071c88898
+  ? !!python/tuple ["musicien de 3e classe au 2e r\xE9giment de chasseurs en garnison\
+      \ \xE0 Limoges", "R\xE9giment"]
+  : f306237a-cabf-4e8b-b93b-8f3935a005e2
+  ? !!python/tuple ["musicien de 3e classe au 5e r\xE9giment de hussards en garnison\
+      \ \xE0 Grenelle", "R\xE9giment"]
+  : 1b32081d-0f09-4990-93a4-160cd2a2f324
+  ? !!python/tuple ["musicien de 3e classe au 6e r\xE9giment d'artillerie en garnison\
+      \ \xE0 Strasbourg", "R\xE9giment"]
+  : 5e07ab5c-8f07-468e-8c9d-6090875bbbbf
+  ? !!python/tuple ["musicien de 2e classe au 11e r\xE9giment d'artillerie mont\xE9\
+      e en garnison \xE0 Rennes", "R\xE9giment"]
+  : aa4c2f31-b565-4dfa-a954-1e286daaa8c0
+  ? !!python/tuple ["musicien de 2e classe au 11e r\xE9giment d'artillerie mont\xE9\
+      \ en garnison \xE0 Rennes", "R\xE9giment"]
+  : 9458d348-1f95-4471-b57b-0b6c0b6e1d16
+  ? !!python/tuple ["musicien de 2e classe au 16e r\xE9giment d'artillerie mont\xE9\
+      \ en garnison \xE0 Vienne", "R\xE9giment"]
+  : 997b5a3d-944d-424e-9703-ffce3aa5acdc
+  ? !!python/tuple ["musicien au 18e r\xE9giment d'artillerie \xE0 cheval en garnison\
+      \ \xE0 Valence", "R\xE9giment"]
+  : d97f177d-53bd-4eac-8935-8b237f826514
+  ? !!python/tuple ["musicien de 1\xE8re classe au 20e r\xE9giment d'artillerie \xE0\
+      \ cheval en garnison \xE0 Metz", "R\xE9giment"]
+  : f7fe3d6f-79fd-45f8-abf8-bb533e0ecc7d
+  ? !!python/tuple ["musicien de 1\xE8re classe au 43e r\xE9giment de ligne en garnison\
+      \ \xE0 Lille", "R\xE9giment"]
+  : 05d9cd8b-455d-4c6d-8dee-2aa5afdf1b94
+  ? !!python/tuple ["Fantaisies parisiennes (1866)\_?", '1866-00-00', Fantaisies parisiennes]
+  : 71877f76-f0e5-44b8-9013-622c53236c66
+  ? !!python/tuple [musicien au 3e Voltigeurs de la Garde, Garde]
+  : 85945db4-24d9-4015-8617-ac67e0ce0704
+  ? !!python/tuple ["musicien de 2e classe au 2e Cuirassiers de la Garde \xE0 Saint-Germain",
+    Garde]
+  : 6da4c184-6cd7-4572-9d8f-e47d61cf2add
+  ? !!python/tuple ['[1859-1228]', "musicien de 2e classe au 7e Dragons \xE0 Paris"]
+  : 413b68a5-f68b-4ff6-94cc-c25b9d37e0bc
 villes: {Abbeville: 4fcd336c-cb4f-42e4-b59a-feca09bbfeb4, Agde: 05bcd26b-41b8-4384-b4fd-2bf72272ff4f,
   Aigues-vives: e55c50de-89c0-4a79-9f8c-7dbc0e936ba2, Aiguillon: 987fb0bb-f267-482f-bcb1-915515e0ee34,
   Aire: c162f497-46ee-4bb6-8880-d4318f2ad334, Aix: 784534f1-7712-4dee-954d-b01f550d4c4d,

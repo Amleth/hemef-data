@@ -89,6 +89,7 @@ discipline = {}
 classe = {}  # un tuple discipline, professeur
 nom_classe = {}
 professeur = {}
+profession = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8').iterrows():
     if row["Identifiant_1"] in lignes_pourries_à_ne_pas_traiter or pandas.isna(row['Identifiant_1']):
@@ -193,6 +194,25 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                 ).capitalize(), str(row["classe_discipline"]).strip().capitalize()))
                 parcours_classe[id_parcours_classe] = générer_uuid(
                     'parcours_classe', id_parcours_classe)
+        
+        #creation des clés des professions
+        id_profession = None
+        if pandas.notna(row['exerce_profession_connue']) and pandas.notna(row['exerce_date_debut']) and pandas.notna(row['exerce_lieu_exercice']):
+            id_profession = tuple((row['exerce_profession_connue'], row['exerce_date_debut'], row['exerce_lieu_exercice'].strip().capitalize()))
+        
+        elif pandas.notna(row['exerce_profession_connue']) and pandas.notna(row['exerce_date_debut']):
+            id_profession = tuple((row['exerce_profession_connue'], row['exerce_date_debut']))
+
+        elif pandas.notna(row['exerce_profession_connue']) and pandas.notna(row['exerce_lieu_exercice']) :
+            id_profession = tuple((row['exerce_profession_connue'], row['exerce_lieu_exercice']))
+
+        elif pandas.notna(row['exerce_profession_connue']):
+            id_profession = tuple((row['Identifiant_1'], row['exerce_profession_connue']))
+        
+        if id_profession is not None :
+            profession[id_profession] = générer_uuid(
+                'profession', id_profession
+            )
 
         ConceptSchemes['Disciplines'] = générer_uuid(
             "ConceptSchemes", 'Disciplines')
@@ -605,7 +625,93 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                 )
             )
 
-        # print(departements)
+        # Gestion des professions
+
+        id_profession = None
+        if pandas.notna(row['exerce_profession_connue']) and pandas.notna(row['exerce_date_debut']) and pandas.notna(row['exerce_lieu_exercice']):
+            id_profession = tuple((row['exerce_profession_connue'], row['exerce_date_debut'], row['exerce_lieu_exercice'].strip().capitalize()))
+        
+        elif pandas.notna(row['exerce_profession_connue']) and pandas.notna(row['exerce_date_debut']):
+            id_profession = tuple((row['exerce_profession_connue'], row['exerce_date_debut']))
+
+        elif pandas.notna(row['exerce_profession_connue']) and pandas.notna(row['exerce_lieu_exercice']) :
+            id_profession = tuple((row['exerce_profession_connue'], row['exerce_lieu_exercice']))
+
+        elif pandas.notna(row['exerce_profession_connue']):
+            id_profession = tuple((row['Identifiant_1'], row['exerce_profession_connue']))
+
+        if id_profession is not None :
+            URIProfession = profession[id_profession]
+        
+            g.add(
+                (
+                    URIRef(URIProfession),
+                    URIRef(is_a),
+                    URIRef(HEMEF['profession'])
+                )
+            )
+
+            if row['profession_nom'] == 'musicien militaire':
+                g.add(
+                    (
+                        URIRef(URIProfession),
+                        URIRef(HEMEF['nom_profession']),
+                        Literal('musicien militaire')
+                    )
+                )
+
+                g.add(
+                    (
+                        URIRef(URIProfession),
+                        URIRef(HEMEF['sous_profession']),
+                        Literal(row['exerce_profession_connue'])
+                    )
+                )
+            else : 
+                g.add(
+                    (
+                        URIRef(URIProfession),
+                        URIRef(HEMEF['nom_profession']),
+                        Literal(row['exerce_profession_connue'])
+                    )
+                )
+            
+            if pandas.notna(row['exerce_date_debut']):
+                if (isinstance(row["exerce_date_debut"], datetime.date)) :
+                    g.add(
+                        (
+                            URIRef(URIProfession),
+                            URIRef(HEMEF['date_debut_exercice']),
+                            Literal(row['exerce_date_debut'], datatype=XSD.Date)
+                        )
+                    )
+                else :
+                    g.add(
+                        (
+                            URIRef(URIProfession),
+                            URIRef(HEMEF['hypothèse_date_debut_exercice']),
+                            Literal(row['exerce_date_debut'])
+                        )
+                    )
+
+            if pandas.notna(row['exerce_lieu_exercice']):
+                g.add(
+                        (
+                            URIRef(URIProfession),
+                            URIRef(HEMEF['lieu_exercice']),
+                            Literal(row['exerce_lieu_exercice'])
+                        )
+                    )
+
+            g.add(
+                (
+                    URIRef(uriEleve),
+                    URIRef(HEMEF['exerce_profession']),
+                    URIRef(URIProfession)
+                )
+            )
+
+        
 
         # Creation des données géogaphiques
 
