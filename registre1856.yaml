@@ -275,9 +275,9 @@ Classe:
   ? !!python/tuple [Saxhorn tromba, Arban]
   : e304b186-d453-46b9-b645-67f31542e366
 ConceptSchemes: {Disciplines: 5793c9ce-0f54-4f8d-9db9-689261cfac14, "M\xE9tiers": 81888265-4c30-4cf2-8b85-7d72061de8cf,
-  PrixDiscipline: 3a5a82dc-db16-4e85-836c-a11e4cee8ae6, PrixNom: b516edc8-234e-4055-bd94-b499bdab09af,
-  "PrixNomCompl\xE9ment": 334af583-ad7e-439b-b5f8-dc9ec44e8438, PrixType: d09255bc-0f93-4fe1-9eda-aeb8d88453c7,
-  Toponymes: a88e7a1a-021e-4d90-9630-5329cbfd2820}
+  Noms_Classes: fc47dafa-041b-4552-9278-1471d73c567e, PrixDiscipline: 3a5a82dc-db16-4e85-836c-a11e4cee8ae6,
+  PrixNom: b516edc8-234e-4055-bd94-b499bdab09af, "PrixNomCompl\xE9ment": 334af583-ad7e-439b-b5f8-dc9ec44e8438,
+  PrixType: d09255bc-0f93-4fe1-9eda-aeb8d88453c7, Toponymes: a88e7a1a-021e-4d90-9630-5329cbfd2820}
 Disciplines: {'20': f0582315-d6b3-45f8-bea6-2b191a9702b4, '?': 9a016e43-b4b4-4d9c-ad2d-2203e57bb00c,
   Alto: 2e6f75b8-47c0-41a5-aee4-4111f0b0ba0a, Basson: 92cd71ac-a904-4c34-ba73-aa0bb81efe46,
   Chant: 90b9a243-69e0-47c7-aae0-1b16ba6eb261, "Chant\_?": 7500db2b-418e-4014-ac9e-32675652e134,
@@ -574,6 +574,26 @@ Disciplines: {'20': f0582315-d6b3-45f8-bea6-2b191a9702b4, '?': 9a016e43-b4b4-4d9
   Voyageur de commerce: 0b102232-9e56-4b14-8243-4a4b7e83df12, "V\xE9rificateur de la r\xE9gie de l'enregistrement": 9bc79eae-cfea-4cfc-9e64-c43eb4b78552,
   "V\xE9t\xE9rinaire": f69a11aa-4f3e-4e20-b84c-13ae323ee568, "\xC9b\xE9niste": 11f5f6bf-4a09-4149-b0da-fec1206cada4,
   "\xC9l\xE8ve en droit": 34598e8d-2599-422e-b9dd-a777cb8fa1db, "\xC9picier": 5fa53ebd-b2d2-4669-9f43-dde9ceda0f23}
+Noms_Classes: {'?': d61654d3-115c-4890-818a-94bac1c012f4, Basson: 97968a59-1ae7-4fe6-af06-ffe79cfe2d58,
+  Chant: 79d764fb-2408-496f-b4f9-66b12f4054f7, Clarinette: ab101f31-9706-4e03-ae10-c899de21ebb7,
+  "Composition id\xE9ale et contrepoint et fugue r\xE9unis": dd7022f6-e9f4-4406-b0fd-6263e069e361,
+  Contrebasse: 4b8b5b58-990c-4c78-a2f0-c93942155678, Cor ordinaire: 3bb08e95-b31a-4c23-bc6e-96e9abb2be73,
+  "Cor \xE0 pistons": 37cd9110-6ff4-40b8-90d4-723bdd9c54a1, "Cornet \xE0 pistons": c4f67910-5e7f-42cd-9251-77aa837ca568,
+  "D\xE9clamation dramatique": 3633575e-becb-42c9-9aab-faa1d0c55368, "Fl\xFBte": 72305d9a-85ad-411f-8eb8-23e597cddc6d,
+  "Grand-op\xE9ra": 343840e6-6ea1-481d-934e-8690a6b021aa, "Harmonie et accompagnement pratique r\xE9unis": 2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50,
+  "Harmonie \xE9crite": 8628ff20-e9ef-4043-8765-f02ef19574e8, "Harmonie \xE9crite et composition id\xE9ale r\xE9unies": 2d5987ac-2728-44fb-87ad-5310d26e1c7b,
+  "Harmonie \xE9crite et composition id\xE9ale r\xE9unies / harmonie et orchestration militaire r\xE9unies": 84a08dec-20e7-4f63-a968-740894bde7fd,
+  "Harmonie \xE9crite et composition id\xE9ale r\xE9unies\_/ harmonie \xE9crite et orchestration": 5ca077be-d82c-48fc-b12d-10d61d102afa,
+  "Harmonie \xE9crite et composition r\xE9unies": eb316b09-436f-4ffc-bfd1-fa9a5203e67d,
+  Harpe: b2047d53-e5af-4e24-a942-3b532d299ce5, Hautbois: 4778ac69-d7c5-4745-93eb-aee70b163fc3,
+  "Op\xE9ra-comique": e4ff0864-a679-4cdc-9248-87550e4d96e0, Orgue et improvisation: a16e8f7a-4104-4dd6-8658-5886d053dd39,
+  Piano: 252cf4be-de82-4011-a720-6d0c92e5ba8f, Saxhorn: 464beb66-8c18-44b3-a729-06f57fd07733,
+  Saxophone: dc02b20d-11bb-4990-8c23-b2843b565dc0, "Solf\xE8ge": db4b43a3-3550-4310-96f1-fd5a19d6bf9f,
+  "Solf\xE8ge collectif": 427ba2ee-6599-4904-867a-1c22b9ca548c, "Solf\xE8ge collectif\_?": 5763941c-21da-4607-a89e-bf31cd7f4846,
+  "Solf\xE8ge individuel": ff070c8d-0eef-4557-bc06-394ca8e227f4, "Solf\xE8ge individuel\_?": b6c1b61d-e71c-4fed-ba51-d037a751bc95,
+  "Solf\xE8ge\_?": 3fe32ce3-dd5d-4011-894a-409fd990f80b, Trombone: 991438bc-da2a-4e4b-934a-d4ca89708e0b,
+  Trompette: c177454a-43b9-4acb-a69d-a5d673cb0a42, Violon: f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b,
+  Violoncelle: f201c199-8f73-444f-a460-67d18d6006e4, "\xC9tude du clavier": 828b686a-233c-4df7-8e28-6862046426f2}
 PrixDiscipline: {Basson: e751279e-6166-4432-8a8b-a0e21c7c8dc1, Chant: 32087c46-f67a-459c-b106-66dfe6ea7288,
   Clarinette: f7a0e8a3-fda2-4a02-ae1e-90b4c2bf8ea7, Clavier: bf098855-e04f-4cd8-86a0-3ea685d9721b,
   Composition: 0e00801c-9984-40f7-9790-7963b678559e, "Com\xE9die": f2450078-5ff9-4864-9328-fab13462be46,

@@ -2752,6 +2752,7 @@
 
 <1472c5f9-384c-4a49-8519-ffec078f3775> a hemef:Classe ;
     hemef:discipline_enseignee <9b5d0452-94c8-4fb4-abea-80672f755979> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:professeur <78e6e84a-9883-43c5-a130-41e0c391ba30> .
 
 <1473ab45-3689-4b71-9f32-8772d8b410f0> a hemef:Parcours_classe ;
@@ -3872,6 +3873,7 @@
 
 <1ba0193c-bb65-4a90-b4b0-f4d23f4abce9> a hemef:Classe ;
     hemef:discipline_enseignee <2e6f75b8-47c0-41a5-aee4-4111f0b0ba0a> ;
+    hemef:nom_classe <d61654d3-115c-4890-818a-94bac1c012f4> ;
     hemef:professeur <64e162c8-fa4d-4ca5-824e-f62861c28144> .
 
 <1badc7b7-b145-408a-a9d8-147d72f8bd41> a hemef:Adresse ;
@@ -4869,6 +4871,7 @@
 
 <22837b8f-e41b-4dc0-a27b-4d0175b26e40> a hemef:Classe ;
     hemef:discipline_enseignee <7b2e7f9f-df9b-4e15-9b3f-f02aed654445> ;
+    hemef:nom_classe <343840e6-6ea1-481d-934e-8690a6b021aa> ;
     hemef:professeur <a88e6fdb-618e-44c3-8200-502af1657dac> .
 
 <22a64c0d-8cde-4936-a019-d21f432125dc> a hemef:Prix ;
@@ -6720,6 +6723,7 @@
 
 <2f959539-1af0-411a-886a-e8c7431f5aff> a hemef:Classe ;
     hemef:discipline_enseignee <50fdab8b-087e-4039-8ed5-39bdbfb6c937> ;
+    hemef:nom_classe <72305d9a-85ad-411f-8eb8-23e597cddc6d> ;
     hemef:professeur <f9c529db-820c-4abd-b120-ab4dda71ed9a> .
 
 <2fadd3d5-eedc-4726-9eff-d161e77cdc27> a hemef:Parcours_classe ;
@@ -7495,6 +7499,7 @@
 
 <34dd43e7-27cc-4508-be4b-5aab047dcbd3> a hemef:Classe ;
     hemef:discipline_enseignee <867aa599-3cba-4c42-b901-d703f49b4e6e> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:professeur <586a0c12-43fb-4a2c-b457-23e3772bf5d9> .
 
 <34e2442a-1eea-4b07-8ec6-1ae454430dbb> a hemef:Prix ;
@@ -7590,6 +7595,7 @@
 
 <35480233-c4bc-4596-a9c0-f267c91ec397> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:professeur <fb5c7ccb-a718-4402-a59d-cc2543a450a9> .
 
 <3568c15c-991d-4efb-8c9c-da9ed7bd3d54> a hemef:Parcours_classe ;
@@ -10366,6 +10372,7 @@
 
 <4753365d-94ac-4953-a1ec-62d8d68bc89b> a hemef:Classe ;
     hemef:discipline_enseignee <30afadbe-8300-410e-9bb4-1f373c65b40f> ;
+    hemef:nom_classe <ab101f31-9706-4e03-ae10-c899de21ebb7> ;
     hemef:professeur <ad457e48-bcd9-4c21-87c1-39ec76f6f40e> .
 
 <47591463-4993-4d80-959f-06c079e50627> a hemef:Parcours_classe ;
@@ -11330,6 +11337,7 @@
 
 <4d557b52-5aa8-42bf-bca1-da96caa952e9> a hemef:Classe ;
     hemef:discipline_enseignee <d24bd335-2728-4f01-b35a-3fdd2d4c99bb> ;
+    hemef:nom_classe <dc02b20d-11bb-4990-8c23-b2843b565dc0> ;
     hemef:professeur <b0ec5e77-8786-4541-9979-bb4a6711ef08> .
 
 <4d600a0d-c294-4ce2-9a89-dd2ba9208acb> a hemef:Parcours_classe ;
@@ -11832,6 +11840,7 @@
 
 <513eadce-d48d-4b6f-bd20-e05ec15e8264> a hemef:Classe ;
     hemef:discipline_enseignee <7b2e7f9f-df9b-4e15-9b3f-f02aed654445> ;
+    hemef:nom_classe <343840e6-6ea1-481d-934e-8690a6b021aa> ;
     hemef:professeur <b67582fc-f60c-42c6-a7c0-aa3fccbd4954> .
 
 <514cd461-5c0c-44ad-9585-383d0aed8e9c> a hemef:Prix ;
@@ -12480,6 +12489,7 @@
 
 <55b499b8-bfb3-4ca2-ac68-a3e2bc271a6b> a hemef:Classe ;
     hemef:discipline_enseignee <fbd5e219-829e-4e1f-be67-5bb1df5c4b93> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:professeur <e3912a97-07a2-4e41-ad04-96c8edd0f9fe> .
 
 <55c946d3-c0ed-4834-b890-79d4eadaf76a> a hemef:Parcours_classe ;
@@ -12766,6 +12776,7 @@
 
 <58059b56-51c0-4c72-8bf3-6e4d7fad07f1> a hemef:Classe ;
     hemef:discipline_enseignee <df5c3b35-1e2e-4127-8f74-4960c7140e7f> ;
+    hemef:nom_classe <c177454a-43b9-4acb-a69d-a5d673cb0a42> ;
     hemef:professeur <64e162c8-fa4d-4ca5-824e-f62861c28144> .
 
 <580a70ed-c25e-4e07-bdc6-2e88bc2ee18b> a hemef:Parcours_classe ;
@@ -13176,6 +13187,7 @@
 
 <5ad2bedc-9fb3-428a-b813-83bd70ebca83> a hemef:Classe ;
     hemef:discipline_enseignee <3afd8ee2-1ddd-4a65-9e02-21e662361c5d> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:observations "Rouget de Lisle remplace Berchtold" ;
     hemef:professeur <f840790f-a7d6-404d-956b-c23a898dea8f> .
 
@@ -14155,6 +14167,7 @@
 
 <6142eba4-4d42-4672-8be6-315d79c4d93f> a hemef:Classe ;
     hemef:discipline_enseignee <f0582315-d6b3-45f8-bea6-2b191a9702b4> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:professeur <e60fc5f4-adfb-41c2-8f54-048e549e332c> .
 
 <6143df70-5d7b-443b-8684-a0be588e61f3> a hemef:Prix ;
@@ -14737,6 +14750,7 @@
 
 <6517966c-e53a-42ff-b3b0-98cf37d03961> a hemef:Classe ;
     hemef:discipline_enseignee <65e5199e-8942-44c7-87eb-2f569145262d> ;
+    hemef:nom_classe <991438bc-da2a-4e4b-934a-d4ca89708e0b> ;
     hemef:professeur <64e162c8-fa4d-4ca5-824e-f62861c28144> .
 
 <652a6940-051e-426b-9eb5-7cc06faab558> a hemef:Prix ;
@@ -16125,6 +16139,7 @@
 
 <6e0b3501-e2ff-48f4-a6d7-8b88376764a7> a hemef:Classe ;
     hemef:discipline_enseignee <616d45fa-7f09-4556-8933-97f0ce7bd632> ;
+    hemef:nom_classe <3633575e-becb-42c9-9aab-faa1d0c55368> ;
     hemef:professeur <f7743bf0-7e68-4045-947a-edaa84743654> .
 
 <6e36bbd2-1885-4712-b917-d170a7f3997b> a hemef:Eleve ;
@@ -17274,6 +17289,7 @@
 
 <7597aca7-b27e-4c42-86b3-86c4039b6e39> a hemef:Classe ;
     hemef:discipline_enseignee <763b131e-b7d5-4992-9ef2-9b6edd22e2b9> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:professeur <d01dbfb9-fa45-4cc5-8891-81d8565b3f24> .
 
 <759c061b-76ea-4f49-97ef-bf05a020dc0e> a hemef:Adresse ;
@@ -18155,6 +18171,7 @@
 
 <7befe740-4ddd-465a-8895-e384c75d3605> a hemef:Classe ;
     hemef:discipline_enseignee <f6ef2cdb-0021-425a-b4fc-08387ac19790> ;
+    hemef:nom_classe <c177454a-43b9-4acb-a69d-a5d673cb0a42> ;
     hemef:professeur <093d42f0-b652-4606-b505-2ba27a983402> .
 
 <7c18ef10-f56a-4168-a2bb-fdead7c84376> a hemef:Prix ;
@@ -23545,6 +23562,7 @@
 
 <a133d917-d539-4a30-a505-e916f61a2401> a hemef:Classe ;
     hemef:discipline_enseignee <23484b6b-5e6e-4724-beb3-f1d2e5f23602> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:observations "Doumic en remplacement de Lorotte" ;
     hemef:professeur <00f975b5-1ad3-4709-a720-7d3222f4b502> .
 
@@ -23590,6 +23608,7 @@
 
 <a17b015d-6e8b-45a3-8a95-11070ada31f7> a hemef:Classe ;
     hemef:discipline_enseignee <0dc5085a-b4a4-47ca-bff9-1a69b2cc70ef> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:professeur <455c2aea-65e0-4d88-a5d7-1f3bb91e9fa8> .
 
 <a186f42d-5579-4681-b0fc-f851a9de4ef6> a hemef:Prix ;
@@ -24600,6 +24619,7 @@
 
 <a7e63b74-ffee-4856-a7df-9f927fa877a7> a hemef:Classe ;
     hemef:discipline_enseignee <c171e2aa-d0a9-4a60-9524-c5ec05bc0d63> ;
+    hemef:nom_classe <8628ff20-e9ef-4043-8765-f02ef19574e8> ;
     hemef:professeur <4024d3c6-6d42-463e-9a91-df98b05edb2e> .
 
 <a7edadbe-5265-425e-b506-df509f2f4603> a hemef:Parcours_classe ;
@@ -26037,6 +26057,7 @@
 
 <b0aad970-cf0d-4759-8771-964450e5e90c> a hemef:Classe ;
     hemef:discipline_enseignee <c5553220-3183-42dd-b0d3-bdf649ace1ed> ;
+    hemef:nom_classe <e4ff0864-a679-4cdc-9248-87550e4d96e0> ;
     hemef:professeur <4257efc8-06f6-48d2-a923-1f5f7d8973f4> .
 
 <b0c114fb-de09-437f-83e6-a369fb959bcc> a hemef:Parcours_classe ;
@@ -27990,6 +28011,7 @@
 
 <bdca29d0-52db-4c60-b2d2-189fea82ff50> a hemef:Classe ;
     hemef:discipline_enseignee <aa9485b7-a15e-45af-b893-dd4705ed5103> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:professeur <cc5331a0-8483-4f8f-82f0-57e9a79bdc13> .
 
 <bdd58bfa-6fa6-4672-953c-831def06004e> a hemef:Parcours_classe ;
@@ -28177,6 +28199,7 @@
 
 <beef70e8-99da-43e1-89a4-4b2beedd3a9c> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:observations "Doumic en remplacement de Lorotte" ;
     hemef:professeur <00f975b5-1ad3-4709-a720-7d3222f4b502> .
 
@@ -28927,6 +28950,7 @@
 
 <c424fb6d-0e55-407a-8367-a8e1fe4add45> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:professeur <0bd49368-58e6-494b-bc1d-5b9c9e5f858d> .
 
 <c42c1f48-b5f4-48f4-8d95-12476e142820> a hemef:Adresse ;
@@ -29540,6 +29564,7 @@
 
 <c8520b62-93b5-4e1c-bac7-cffdd775249e> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <2d5987ac-2728-44fb-87ad-5310d26e1c7b> ;
     hemef:professeur <87ada01f-3d54-414e-864b-a3e028d2c54d> .
 
 <c860de82-7aef-42c3-ac6b-8ec94ebd588a> a hemef:Parcours_classe ;
@@ -31347,6 +31372,7 @@
 
 <d5be416d-e745-49f8-b6ff-cc4b56a61676> a hemef:Classe ;
     hemef:discipline_enseignee <f816719b-9786-403a-98d6-3d93b0cd75ca> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:professeur <e33a9a94-8f12-4adf-bf82-8ea5f21decbc> .
 
 <d5d1f74d-cf1e-4535-9367-9c9c71e5475b> a hemef:Prix ;
@@ -31829,6 +31855,7 @@
 
 <d91ae36e-4425-4e54-b1c4-3f8720badd77> a hemef:Classe ;
     hemef:discipline_enseignee <ab132fe9-be0d-431c-96bb-273e363768e5> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:professeur <0fd1c126-8345-44cd-b911-b3db5aa25244> .
 
 <d949d12a-e0f6-48b9-b864-5a1bc7c93134> a hemef:Eleve ;
@@ -32029,6 +32056,7 @@
 
 <da5a98e9-8154-44f9-a1a0-085ebbe122f9> a hemef:Classe ;
     hemef:discipline_enseignee <1c9959fa-49a2-46d9-8ada-5e30aa195583> ;
+    hemef:nom_classe <464beb66-8c18-44b3-a729-06f57fd07733> ;
     hemef:professeur <099af1fd-06e5-48c5-b4ab-3877bf62abc0> .
 
 <da5ab13c-d7ca-4c40-982a-552d172a6843> a hemef:Parcours_classe ;
@@ -32647,6 +32675,7 @@
 
 <dede6299-729c-4d81-b6dc-6343ecd7c009> a hemef:Classe ;
     hemef:discipline_enseignee <343f4b6d-0b3d-4be8-823d-2cb0b184753b> ;
+    hemef:nom_classe <c4f67910-5e7f-42cd-9251-77aa837ca568> ;
     hemef:professeur <50053805-282b-4746-a000-503d52db2d02> .
 
 <def9dc6b-e8b9-45d6-bda7-533e307e8955> a hemef:Prix ;
@@ -33331,6 +33360,7 @@
 
 <e304b186-d453-46b9-b645-67f31542e366> a hemef:Classe ;
     hemef:discipline_enseignee <14def918-8c19-403a-8990-5a53baf8f4a7> ;
+    hemef:nom_classe <464beb66-8c18-44b3-a729-06f57fd07733> ;
     hemef:professeur <099af1fd-06e5-48c5-b4ab-3877bf62abc0> .
 
 <e30de10f-b049-4872-80e0-66efcd708161> a hemef:Parcours_classe ;
@@ -34047,6 +34077,7 @@
 
 <e83c9c0d-1ba3-4c2f-8101-deab98dfbd50> a hemef:Classe ;
     hemef:discipline_enseignee <50db045e-e6f7-47e3-a6bd-178ec214c8d3> ;
+    hemef:nom_classe <464beb66-8c18-44b3-a729-06f57fd07733> ;
     hemef:professeur <099af1fd-06e5-48c5-b4ab-3877bf62abc0> .
 
 <e84c7b50-6a11-4523-9308-f32b55f4a623> a hemef:Parcours_classe ;
@@ -34177,6 +34208,7 @@
 
 <e97be160-c2dc-457e-ae9d-3b3b44089bf1> a hemef:Classe ;
     hemef:discipline_enseignee <68ac9737-4c48-4fed-a786-a672556f2565> ;
+    hemef:nom_classe <991438bc-da2a-4e4b-934a-d4ca89708e0b> ;
     hemef:professeur <5ab5ec48-be75-4859-ba2e-5e98b0f4d939> .
 
 <e9805339-6cf2-4e1d-b594-e033926e7a4b> a hemef:Prix ;
@@ -35703,6 +35735,7 @@
 
 <f3ec1373-dd9e-41af-9b60-3d482d3bcb50> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <64e162c8-fa4d-4ca5-824e-f62861c28144> .
 
 <f3f8e8b4-3bc8-4970-9f8a-07a18e4389ce> a hemef:Eleve ;
@@ -36042,6 +36075,7 @@
 
 <f5d0f844-7393-46f0-968b-c0001f7b8c76> a hemef:Classe ;
     hemef:discipline_enseignee <6912e3b1-b7ef-4402-960e-4d746fd56187> ;
+    hemef:nom_classe <3bb08e95-b31a-4c23-bc6e-96e9abb2be73> ;
     hemef:professeur <b6b4535e-2f82-42c2-a625-583eb9b475ab> .
 
 <f5deac63-4444-4881-bcbc-81d01d219b1d> a hemef:Prix ;
@@ -36684,6 +36718,7 @@
 
 <fb26760c-4c0a-4547-bd42-2c831d9ffc62> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:observations "Grosset en remplacement de Panseron" ;
     hemef:professeur <4d70dd61-fd8c-49b0-8062-b9511b5536f4> .
 
@@ -38491,7 +38526,8 @@
     skos:prefLabel "Le mobile" .
 
 <13cbe601-3913-4ecc-910a-5ff19b487bef> a hemef:Classe ;
-    hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> .
+    hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> .
 
 <1429227c-9c75-40e7-a1bc-acdbf18803dd> a hemef:Eleve ;
     hemef:a_pour_parcours <9e8ae697-7245-4380-962d-32e497cf27e9>,
@@ -38646,6 +38682,7 @@
 
 <16941578-3dc3-4015-b497-cb2ef461d422> a hemef:Classe ;
     hemef:discipline_enseignee <cc656c74-178f-42cc-bb80-8348f4037d4d> ;
+    hemef:nom_classe <dc02b20d-11bb-4990-8c23-b2843b565dc0> ;
     hemef:professeur <b0ec5e77-8786-4541-9979-bb4a6711ef08> .
 
 <16a15ce9-33bc-4876-badd-d32e166524fb> a hemef:Eleve ;
@@ -39159,6 +39196,7 @@
 
 <2097166c-4c11-46f1-b1a0-5760c7c2a354> a hemef:Classe ;
     hemef:discipline_enseignee <24b38bc8-cfee-456c-a52f-ad27fbb651af> ;
+    hemef:nom_classe <c4f67910-5e7f-42cd-9251-77aa837ca568> ;
     hemef:professeur <099af1fd-06e5-48c5-b4ab-3877bf62abc0> .
 
 <210ef9b1-4108-48ea-bf07-14ba7aa0ab27> a skos:Concept ;
@@ -39488,6 +39526,7 @@
 
 <24308da7-a44d-41cb-a566-445ebdae69eb> a hemef:Classe ;
     hemef:discipline_enseignee <ab132fe9-be0d-431c-96bb-273e363768e5> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:observations "Gautier en remplacement de Bienaimé" ;
     hemef:professeur <0bd49368-58e6-494b-bc1d-5b9c9e5f858d> .
 
@@ -40470,6 +40509,10 @@
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Gunstett" .
 
+<37cd9110-6ff4-40b8-90d4-723bdd9c54a1> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Cor à pistons" .
+
 <37cee770-2fa8-497d-afe5-70fe70587a72> a skos:Concept ;
     skos:broader <46622eed-de4c-4e1f-b3ae-f00899ef3a25> ;
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
@@ -40720,6 +40763,7 @@
 
 <3be8365a-a8d2-4533-b40c-7fa76ba5c0b0> a hemef:Classe ;
     hemef:discipline_enseignee <1a087593-5d44-45b4-997e-2cd32d330015> ;
+    hemef:nom_classe <4778ac69-d7c5-4745-93eb-aee70b163fc3> ;
     hemef:professeur <9b2bad87-28b0-4e76-aaee-31414d0f613b> .
 
 <3c04c1d6-d667-40f1-8248-faf372d4f7ef> a skos:Concept ;
@@ -40996,6 +41040,10 @@
 <3fc32250-091c-4a0c-8785-bd246b52654c> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Musicien au 3e dragons" .
+
+<3fe32ce3-dd5d-4011-894a-409fd990f80b> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Solfège ?" .
 
 <40225796-57dd-4a86-a15b-52309880ac3d> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
@@ -41600,6 +41648,10 @@
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "New york" .
 
+<4b8b5b58-990c-4c78-a2f0-c93942155678> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Contrebasse" .
+
 <4bdc18e2-daa9-4f78-923d-3a4075bae621> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Directeur de théâtre" .
@@ -41751,6 +41803,8 @@
 
 <4f1687c0-147a-474c-a47f-769cfeaf2ebb> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50>,
+        <8628ff20-e9ef-4043-8765-f02ef19574e8> ;
     hemef:professeur <2fab1200-e27a-47b5-af7b-d8afd96ed3f4> .
 
 <4f37cf93-d38a-4261-acf1-669b07532be5> a skos:Concept ;
@@ -42002,6 +42056,7 @@
 
 <52e4ec10-2c07-49fb-b2bd-f61eef8455f5> a hemef:Classe ;
     hemef:discipline_enseignee <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:professeur <e60fc5f4-adfb-41c2-8f54-048e549e332c> .
 
 <5330fbd6-f5c7-4b17-9d54-006c2030810d> a hemef:Eleve ;
@@ -46034,6 +46089,10 @@
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Baja" .
 
+<97968a59-1ae7-4fe6-af06-ffe79cfe2d58> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Basson" .
+
 <97a85936-e690-4dfd-a32f-f0971642c14f> a skos:Concept ;
     skos:broader <55efe958-c3d4-42a2-a336-9aeb07987176> ;
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
@@ -46462,6 +46521,10 @@
     skos:broader <a1917141-20f0-4d42-9587-fe43307277c3> ;
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Meslay" .
+
+<a16e8f7a-4104-4dd6-8658-5886d053dd39> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Orgue et improvisation" .
 
 <a1917141-20f0-4d42-9587-fe43307277c3> a skos:Concept ;
     skos:broader <f1eb4605-fc24-43ad-8536-14f1be1ff10b> ;
@@ -47430,6 +47493,10 @@
     hemef:motif_sortie "rayé" ;
     hemef:prix_decerne <938e0fcb-87ed-4794-82a1-df1018d372aa> .
 
+<b2047d53-e5af-4e24-a942-3b532d299ce5> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Harpe" .
+
 <b2561c11-302b-45fe-b4d7-44e98cd787e2> a hemef:Parcours_classe ;
     hemef:classe_parcourue <64262daa-1184-4353-89ca-ad7b56fe66ca> ;
     hemef:date_sortie "1859-06-10T00:00:00"^^xsd:Date ;
@@ -47532,6 +47599,7 @@
 
 <b366639e-c3b5-4fce-a9ae-8c38e0c89df8> a hemef:Classe ;
     hemef:discipline_enseignee <8307dc3e-329a-47fb-8be2-7db5bfd25c7d> ;
+    hemef:nom_classe <464beb66-8c18-44b3-a729-06f57fd07733> ;
     hemef:professeur <099af1fd-06e5-48c5-b4ab-3877bf62abc0> .
 
 <b3776285-ec6c-4f80-8c8d-345bfbfba658> a skos:Concept ;
@@ -47926,6 +47994,7 @@
 
 <babb6e47-3d1e-452d-a2b8-e03c4e0a3a5e> a hemef:Classe ;
     hemef:discipline_enseignee <56427ffa-d58f-408b-bd38-9ae6b5a33637> ;
+    hemef:nom_classe <c177454a-43b9-4acb-a69d-a5d673cb0a42> ;
     hemef:professeur <093d42f0-b652-4606-b505-2ba27a983402> .
 
 <bafc3d73-3df5-452d-9fa2-356cc48aefe4> a skos:Concept ;
@@ -49572,6 +49641,10 @@
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Isigny" .
 
+<d61654d3-115c-4890-818a-94bac1c012f4> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "?" .
+
 <d62573f4-4865-49a6-97e3-a2668b0dceba> a hemef:Parcours_classe ;
     hemef:classe_parcourue <bd584e47-d272-4db9-b6a2-7211ecd61c06> ;
     hemef:date_entree "1863-01-28T00:00:00"^^xsd:Date ;
@@ -49622,6 +49695,7 @@
 
 <d6c2bc47-a422-4a71-9e36-47fb0d393529> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <83a977ea-7189-4252-94d8-14a8bea1e66b> .
 
 <d6c5ae0b-b5f4-4ebb-923c-d693ce837134> a skos:Concept ;
@@ -50264,6 +50338,8 @@
 
 <e1503bdc-dabe-43cf-a9c9-f63269119e7e> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <b6c1b61d-e71c-4fed-ba51-d037a751bc95>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <ce675130-1ad8-4f3f-a021-66c03cddd4e5> .
 
 <e158e8b3-a00d-46d2-98c7-4e8de1e66756> a hemef:Parcours_classe ;
@@ -50779,6 +50855,10 @@
 <eb1e9e7d-4357-40fb-983c-5252dce207d9> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Boucher" .
+
+<eb316b09-436f-4ffc-bfd1-fa9a5203e67d> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Harmonie écrite et composition réunies" .
 
 <eb5d7fe6-b48a-4fa3-8c9b-c6322fcd28de> a hemef:Parcours_classe ;
     hemef:classe_parcourue <d6ef0300-7954-43cb-a3fa-81068e64704c> ;
@@ -52112,6 +52192,7 @@
 
 <050cdb7c-ed2b-46e7-be76-c218ffa65cee> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:observations "Faure en remplacement de Ponchard",
         "Faure en remplacement de Ponchard ; Paulin de Lespinasse en remplacement de Faure" ;
     hemef:professeur <a4a0f6ef-2b8e-42ea-bb52-f0dd0e66963a> .
@@ -53615,6 +53696,10 @@
     hemef:profession_pere <11eb97df-5f9d-470d-95fa-3ec8504d8994> ;
     hemef:sexe "Homme" .
 
+<2d5987ac-2728-44fb-87ad-5310d26e1c7b> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Harmonie écrite et composition idéale réunies" .
+
 <2d60fca9-b33c-4ec3-866a-707cfc6aabd9> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Chanteur" .
@@ -54276,6 +54361,10 @@
     hemef:profession_pere <11eb97df-5f9d-470d-95fa-3ec8504d8994> ;
     hemef:sexe "Homme" .
 
+<427ba2ee-6599-4904-867a-1c22b9ca548c> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Solfège collectif" .
+
 <428ace78-869d-478c-ae41-9548f9dafb24> a skos:Concept ;
     skos:inScheme <b516edc8-234e-4055-bd94-b499bdab09af> ;
     skos:prefLabel "Prix d'honneur 1" .
@@ -54418,6 +54507,10 @@
     hemef:prenom "Louis Joseph" ;
     hemef:profession_pere <e42257c2-ff15-4d4b-becf-5b65a69a8a64> ;
     hemef:sexe "Homme" .
+
+<4778ac69-d7c5-4745-93eb-aee70b163fc3> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Hautbois" .
 
 <47cd8ced-6658-41dc-aa96-dd128fbdc159> a hemef:Parcours_classe ;
     hemef:classe_parcourue <df9e0c2b-230b-4d88-9b9c-f2b18d7278e7> ;
@@ -55171,6 +55264,10 @@
     hemef:prenom "Clément Eustache" ;
     hemef:profession_pere <ff05cc7f-cd25-4716-9ba5-2da619eefe72> ;
     hemef:sexe "Homme" .
+
+<5763941c-21da-4607-a89e-bf31cd7f4846> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Solfège collectif ?" .
 
 <576dab80-f652-4794-90c4-fce5a276c580> a hemef:Parcours_classe ;
     hemef:classe_parcourue <3dc8f334-03fc-4d68-995e-3b4f72091879> ;
@@ -56694,6 +56791,7 @@
 
 <7d0ed347-2873-4b48-965d-4b0f63045fd7> a hemef:Classe ;
     hemef:discipline_enseignee <9b5d0452-94c8-4fb4-abea-80672f755979> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:observations "Reber en remplacement de Halévy" ;
     hemef:professeur <d01dbfb9-fa45-4cc5-8891-81d8565b3f24> .
 
@@ -58359,6 +58457,10 @@
     hemef:prenom "Joseph Emile Théodore" ;
     hemef:sexe "Homme" .
 
+<ab101f31-9706-4e03-ae10-c899de21ebb7> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Clarinette" .
+
 <ab419aab-4842-4cde-8342-9c44679104c2> a hemef:Parcours_classe ;
     hemef:date_entree "1860-10-24T00:00:00"^^xsd:Date ;
     hemef:est_parcours_de <f90f5266-8c37-4c30-8c04-a6f534da1bd1> ;
@@ -58755,6 +58857,10 @@
     hemef:profession_pere <721b77c3-c30b-40f3-bab6-56f5356000ea> ;
     hemef:pseudonyme "Lage de" ;
     hemef:sexe "Femme" .
+
+<b6c1b61d-e71c-4fed-ba51-d037a751bc95> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Solfège individuel ?" .
 
 <b8589e67-cdc5-40eb-901a-9fcecc814861> a hemef:Eleve ;
     hemef:a_pour_parcours <5a256cbe-66f4-421d-a47c-266f50d5c503>,
@@ -60013,6 +60119,7 @@
 
 <d96a614a-69e1-4c11-b917-2ec170b00b9b> a hemef:Classe ;
     hemef:discipline_enseignee <9b5d0452-94c8-4fb4-abea-80672f755979> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:observations "Massé en remplacement de Le Borne" ;
     hemef:professeur <e3912a97-07a2-4e41-ad04-96c8edd0f9fe> .
 
@@ -60505,6 +60612,7 @@
 
 <e5ab6776-88fd-4b00-957c-27dca5508bca> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <8628ff20-e9ef-4043-8765-f02ef19574e8> ;
     hemef:observations "Savard en remplacement de Clapisson" ;
     hemef:professeur <71f09f81-5767-42b4-80d5-fe1e33176313> .
 
@@ -61910,6 +62018,7 @@
 
 <1201811f-37ea-41f9-8598-f1093fc6cae6> a hemef:Classe ;
     hemef:discipline_enseignee <9b5d0452-94c8-4fb4-abea-80672f755979> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:professeur <cc5331a0-8483-4f8f-82f0-57e9a79bdc13> .
 
 <12f0cc7d-b83a-494a-ae93-dd982a9b179b> a skos:Concept ;
@@ -62748,6 +62857,10 @@
     hemef:a_pour_ville_literal "Saint-Cloud" ;
     hemef:libellé_adresse "Caserne" .
 
+<3bb08e95-b31a-4c23-bc6e-96e9abb2be73> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Cor ordinaire" .
+
 <3bf4d461-7b68-449a-bcf6-bed1fd5c7ece> a skos:Concept ;
     skos:broader <7177acdb-f545-40b9-9fd7-068b5f29e8a3>,
         <97dbd097-76b1-4eb5-9fc0-aa97926e5880> ;
@@ -63096,6 +63209,7 @@
 
 <5240c85b-b277-422d-883f-8b9f64afaea8> a hemef:Classe ;
     hemef:discipline_enseignee <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:professeur <09b5faaa-6a02-4f8d-8091-a78d441f5772> .
 
 <54819dfa-1ff6-4ade-ad47-6b4dd27fc6e1> a hemef:Eleve ;
@@ -63608,6 +63722,10 @@
 <721b800d-eaff-45b9-b5e2-b5dc548a15bd> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Architecte" .
+
+<72305d9a-85ad-411f-8eb8-23e597cddc6d> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Flûte" .
 
 <72e40d63-5e3a-4029-aa82-9e28ce91a979> a hemef:Parcours_classe ;
     hemef:classe_parcourue <a92ba5a4-3ac7-493e-8816-e4fe3f3f21ee> ;
@@ -64266,6 +64384,8 @@
 
 <ab4e0594-fe3f-4ef5-b565-6e3a5739c05c> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <b6c1b61d-e71c-4fed-ba51-d037a751bc95>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <141b06de-c3b1-48fd-afde-b2e07e770ac6> .
 
 <abdd5878-6017-4dd5-a9b4-bc6f7bdbe1c1> a skos:Concept ;
@@ -64784,6 +64904,10 @@
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Brodeuse" .
 
+<c4f67910-5e7f-42cd-9251-77aa837ca568> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Cornet à pistons" .
+
 <c51e7e7e-2766-41d3-ab44-6f100ab0eb4e> a hemef:Eleve ;
     hemef:a_pour_parcours <87779c97-e9d9-4251-b866-212f2e21eb15>,
         <a60e6b08-a23b-40b4-ae62-5474d7296fdf>,
@@ -65177,6 +65301,10 @@
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Ferblantier" .
 
+<db4b43a3-3550-4310-96f1-fd5a19d6bf9f> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Solfège" .
+
 <dbf1c3ef-0962-4342-8bc2-5dfe3cc42866> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Professeur" .
@@ -65331,6 +65459,7 @@
 
 <e6c75cb1-1148-4975-96d0-f7f1ec5e7859> a hemef:Classe ;
     hemef:discipline_enseignee <9054180a-2765-473d-a905-ff8c826ac14a> ;
+    hemef:nom_classe <f201c199-8f73-444f-a460-67d18d6006e4> ;
     hemef:professeur <a6882010-5cab-4ee6-a078-dc6bac581d76> .
 
 <e87fdb0b-4879-4460-ada4-e269dbb1d4ad> a skos:Concept ;
@@ -65443,6 +65572,7 @@
 
 <f10de38c-56de-49b9-b2fc-01e910e012dd> a hemef:Classe ;
     hemef:discipline_enseignee <1caf641b-5ad9-431e-838e-545db71ffd87> ;
+    hemef:nom_classe <dc02b20d-11bb-4990-8c23-b2843b565dc0> ;
     hemef:professeur <b0ec5e77-8786-4541-9979-bb4a6711ef08> .
 
 <f12b1683-abbb-45d4-9344-539ca9cb4336> a hemef:Parcours_classe ;
@@ -65461,6 +65591,10 @@
         <cf8e629e-6539-4213-bee0-3f00c8d47b36> ;
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Valence" .
+
+<f201c199-8f73-444f-a460-67d18d6006e4> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Violoncelle" .
 
 <f264b5eb-9ece-4d1b-b6a2-d15b7591d542> a hemef:Eleve ;
     hemef:a_pour_parcours <6bdffa88-45cd-4184-a48b-641d43311514>,
@@ -66124,6 +66258,10 @@
         <ee83ecf8-8645-41f1-a874-f41ca4d07490> ;
     skos:prefLabel "Charente-inférieure" .
 
+<343840e6-6ea1-481d-934e-8690a6b021aa> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Grand-opéra" .
+
 <35fc6984-fb4f-44bb-8f40-5c18dcb79351> a hemef:Eleve ;
     hemef:a_pour_parcours <0593b3f2-da24-4478-b664-14098e524dce>,
         <583bc752-ae8e-464d-8661-d428991ed7c5>,
@@ -66407,6 +66545,7 @@
 
 <5a67cef4-6329-434b-b031-cf883e34156c> a hemef:Classe ;
     hemef:discipline_enseignee <adffd8ce-d6e5-46a3-90ce-15065446c869> ;
+    hemef:nom_classe <252cf4be-de82-4011-a720-6d0c92e5ba8f> ;
     hemef:professeur <dbe10bf2-25c9-4033-9bcd-a7da51d00461> .
 
 <5a69543d-2cb2-4557-ae0f-0b313da7c525> a skos:Concept ;
@@ -66815,10 +66954,12 @@
 
 <a8390b74-0376-4371-a3ea-bdc4bb8aa078> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <8628ff20-e9ef-4043-8765-f02ef19574e8> ;
     hemef:professeur <252fd0a8-7aea-48af-846d-aaebddb1838e> .
 
 <a8daa745-06a5-4230-9bce-b599f0908ae7> a hemef:Classe ;
     hemef:discipline_enseignee <9b5d0452-94c8-4fb4-abea-80672f755979> ;
+    hemef:nom_classe <dd7022f6-e9f4-4406-b0fd-6263e069e361> ;
     hemef:professeur <2eae85ee-fa00-4dc4-9054-f3c9e7735c2e> .
 
 <a9f0a497-fec5-4a87-b8c2-d6add995ab56> a hemef:Parcours_classe ;
@@ -66946,6 +67087,10 @@
     hemef:profession_pere <6c08778e-66b4-4cd4-8126-ccdd7d4d1bd0> ;
     hemef:sexe "Homme" .
 
+<c177454a-43b9-4acb-a69d-a5d673cb0a42> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Trompette" .
+
 <c4f2f81c-3ee2-4dfa-9c3d-4957291583b6> a hemef:Parcours_classe ;
     hemef:date_entree "1857-12-24T00:00:00"^^xsd:Date ;
     hemef:est_parcours_de <7ee54822-24d7-43f3-ae4a-8a41a525f92b> ;
@@ -67032,6 +67177,7 @@
 
 <cd248727-790a-4199-8035-3120a06b0c47> a hemef:Classe ;
     hemef:discipline_enseignee <e0c6bbe8-aae9-4906-8291-dd2d4d67c975> ;
+    hemef:nom_classe <3633575e-becb-42c9-9aab-faa1d0c55368> ;
     hemef:professeur <67753374-3d87-4072-b917-bf2f85ad240d> .
 
 <cddc4a8a-7ccb-4176-af36-bb60ea9b81f9> a hemef:Eleve ;
@@ -67108,6 +67254,10 @@
     hemef:type_etablissement_pre_cursus "Conservatoire" ;
     hemef:ville_pre_cursus <adc68e0a-2f6c-46a0-a69a-8758c912fc5b> .
 
+<dc02b20d-11bb-4990-8c23-b2843b565dc0> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Saxophone" .
+
 <dc500bd0-454a-4f90-b0b6-de59fd21be41> a hemef:Eleve ;
     hemef:a_pour_parcours <36245054-3979-45e8-99c7-5e7f7a10accd>,
         <62a93232-6211-4204-befb-650c2a0c25e2>,
@@ -67150,6 +67300,10 @@
 <e2646c55-dcb1-4dbb-a716-2f6b766bdc6f> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Sculpteur" .
+
+<e4ff0864-a679-4cdc-9248-87550e4d96e0> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Opéra-comique" .
 
 <e7be9729-3a81-44b0-97f3-c07734acabb0> a hemef:Eleve ;
     hemef:a_pour_parcours <014bfe61-b541-4972-b282-e4db9d77176b>,
@@ -67341,6 +67495,7 @@
 
 <08992472-5ada-4137-8a86-f1c75205267e> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <3a2df112-df04-471c-8c3c-f4a0692a4b30> .
 
 <099af1fd-06e5-48c5-b4ab-3877bf62abc0> a hemef:Professeur ;
@@ -67381,6 +67536,7 @@
 
 <15c5bd9e-4b5e-4ee6-9be5-da64f110267b> a hemef:Classe ;
     hemef:discipline_enseignee <9054180a-2765-473d-a905-ff8c826ac14a> ;
+    hemef:nom_classe <f201c199-8f73-444f-a460-67d18d6006e4> ;
     hemef:observations "Chevillard en remplacement de Vaslin" ;
     hemef:professeur <b56370e8-d2da-4e08-ab80-e624adb352d2> .
 
@@ -67558,6 +67714,10 @@
     hemef:pseudonyme "Cavalier-Darbilly" ;
     hemef:sexe "Homme" .
 
+<464beb66-8c18-44b3-a729-06f57fd07733> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Saxhorn" .
+
 <50597586-8422-4200-ad41-007b3059093f> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Mécanicien" .
@@ -67633,6 +67793,7 @@
 
 <64262daa-1184-4353-89ca-ad7b56fe66ca> a hemef:Classe ;
     hemef:discipline_enseignee <48169923-ebdc-43e6-840a-c81671228486> ;
+    hemef:nom_classe <a16e8f7a-4104-4dd6-8658-5886d053dd39> ;
     hemef:professeur <aca60a2b-0a89-4459-86ea-28afebc29b68> .
 
 <64e162c8-fa4d-4ca5-824e-f62861c28144> a hemef:Professeur ;
@@ -67640,6 +67801,7 @@
 
 <6536e405-1799-4438-a8ff-64a2371a91e5> a hemef:Classe ;
     hemef:discipline_enseignee <0dc5085a-b4a4-47ca-bff9-1a69b2cc70ef> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:professeur <b8cdc8b9-1202-4c87-8a64-58645dce23ad> .
 
 <6bccf72b-fcf9-4fe2-a318-7f8e69b7d75d> a skos:Concept ;
@@ -67746,6 +67908,10 @@
         <96144d2d-9228-4ccc-ba59-8b6d223bb65a>,
         <b463826d-0cd3-435e-bf43-776e0bb51262> .
 
+<991438bc-da2a-4e4b-934a-d4ca89708e0b> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Trombone" .
+
 <9c2f1a33-b0fc-49a8-815a-6d925b53a365> a hemef:Eleve ;
     hemef:a_pour_parcours <049a1e42-bc25-4f71-9047-c53f6aa7e012>,
         <34cdccf8-8097-4d82-a4f7-b6f25fcf979e>,
@@ -67788,6 +67954,7 @@
 
 <aacf3a35-e3aa-4501-9832-33b59621677a> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <606f18a0-05d7-4508-b118-abd009b0162e> .
 
 <b615bbad-5a1f-4e29-bea5-f32aa47e6711> a skos:Concept ;
@@ -67982,6 +68149,10 @@
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Nancy" .
 
+<252cf4be-de82-4011-a720-6d0c92e5ba8f> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Piano" .
+
 <2591a98c-c883-47cf-8617-1c5864ebd47e> a skos:Concept ;
     skos:broader <a2ed19e9-4e62-416c-bc5a-974d0f1e3fa2> ;
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
@@ -68004,6 +68175,10 @@
 <33935876-d648-4f2c-b358-190a19c0f777> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Perruquier" .
+
+<3633575e-becb-42c9-9aab-faa1d0c55368> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Déclamation dramatique" .
 
 <3a28b5ce-43ce-4616-a759-67824a8353ab> a hemef:Eleve ;
     hemef:a_pour_parcours <045ecb23-9441-4805-a25f-75883ece80bb>,
@@ -68045,6 +68220,10 @@
 
 <5c668931-59ba-4f7e-a7c1-b03b422e1467> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50>,
+        <2d5987ac-2728-44fb-87ad-5310d26e1c7b>,
+        <8628ff20-e9ef-4043-8765-f02ef19574e8>,
+        <eb316b09-436f-4ffc-bfd1-fa9a5203e67d> ;
     hemef:professeur <78e6e84a-9883-43c5-a130-41e0c391ba30> .
 
 <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> a skos:Concept ;
@@ -68106,6 +68285,7 @@
 
 <77c2f878-f9a5-463b-95a1-7bf6b4fbe0b3> a hemef:Classe ;
     hemef:discipline_enseignee <ab132fe9-be0d-431c-96bb-273e363768e5> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:professeur <78e6e84a-9883-43c5-a130-41e0c391ba30> .
 
 <930e7631-bf60-4de4-bd0b-4b5b18eec85a> a skos:Concept ;
@@ -68143,10 +68323,12 @@
 
 <afa22bfb-fc1d-4e4d-a07d-8a1645ad8df7> a hemef:Classe ;
     hemef:discipline_enseignee <8c1df1fd-d2c3-41ba-9dd1-afa9a2be4d4a> ;
+    hemef:nom_classe <991438bc-da2a-4e4b-934a-d4ca89708e0b> ;
     hemef:professeur <5ab5ec48-be75-4859-ba2e-5e98b0f4d939> .
 
 <b1f50156-2afb-409e-9392-e5933ff231e2> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:observations "Hersant en remplacement de Klotz" ;
     hemef:professeur <40c63c2d-8cb3-44f5-9ba5-3b5335e9945f> .
 
@@ -68243,6 +68425,7 @@
 
 <0b218883-8514-43f5-b5b5-332bf9cb1815> a hemef:Classe ;
     hemef:discipline_enseignee <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:observations "Sauzay en remplacement de Girard" ;
     hemef:professeur <6d16bb63-8e6b-4142-ad0b-6d3f89abf5bb> .
 
@@ -68332,17 +68515,20 @@
 
 <48d494f4-a6f1-41a0-94fa-1289021569f1> a hemef:Classe ;
     hemef:discipline_enseignee <0dc5085a-b4a4-47ca-bff9-1a69b2cc70ef> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:observations "Rouget de Lisle remplace Berchtold" ;
     hemef:professeur <f840790f-a7d6-404d-956b-c23a898dea8f> .
 
 <520e94b4-d018-4327-89af-a98e285bbc33> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:observations "Leclercq (Tarpet) en remplacement de Raillard",
         "Leclercq en remplacement de Raillard" ;
     hemef:professeur <79c998c0-2c85-4035-9d0f-0099189a10de> .
 
 <5b573054-3786-4217-a607-d69fa54fa60f> a hemef:Classe ;
     hemef:discipline_enseignee <867aa599-3cba-4c42-b901-d703f49b4e6e> ;
+    hemef:nom_classe <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> ;
     hemef:professeur <78e6e84a-9883-43c5-a130-41e0c391ba30> .
 
 <7a83bd24-b43c-44c9-8444-74f550c8c5cf> a skos:Concept ;
@@ -68352,6 +68538,10 @@
 <85e92ecf-c206-4715-a1c1-5fffb4869605> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Maçon" .
+
+<8628ff20-e9ef-4043-8765-f02ef19574e8> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Harmonie écrite" .
 
 <a00f03e4-6075-41c3-934d-8c041d34af23> a skos:Concept ;
     skos:broader <f1eb4605-fc24-43ad-8536-14f1be1ff10b> ;
@@ -68387,7 +68577,12 @@
 
 <e6cfba02-5fa4-42dd-b3ae-414c3e07a775> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <cd7e5c4b-2781-4e10-8b57-72a9ed472210> .
+
+<f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Violon" .
 
 <03dda51d-ec78-484b-93a2-813c3a6568fb> a skos:Concept ;
     skos:broader <f1eb4605-fc24-43ad-8536-14f1be1ff10b> ;
@@ -68427,19 +68622,27 @@
 
 <59c22d7d-009a-4a3d-a9f0-f99136790c20> a hemef:Classe ;
     hemef:discipline_enseignee <92cd71ac-a904-4c34-ba73-aa0bb81efe46> ;
+    hemef:nom_classe <97968a59-1ae7-4fe6-af06-ffe79cfe2d58> ;
     hemef:professeur <271b6898-8527-4401-b7c9-b3a378c51826> .
 
 <5eca56c8-c82b-4c44-a0ec-c387a28d067a> a hemef:Classe ;
     hemef:discipline_enseignee <adffd8ce-d6e5-46a3-90ce-15065446c869> ;
+    hemef:nom_classe <252cf4be-de82-4011-a720-6d0c92e5ba8f> ;
     hemef:professeur <7446e521-3f76-4643-9c9a-e523c165a05c> .
 
 <7fa06a2b-28a1-4e36-a8ea-3aff362c35ca> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:observations "Barles en remplacement de Dupuis" ;
     hemef:professeur <b3973af4-7654-4f2f-a908-3d5892364c2b> .
 
+<828b686a-233c-4df7-8e28-6862046426f2> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Étude du clavier" .
+
 <839f21c2-9454-4091-a863-72ee23115d1f> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <72f5e274-2e8b-45e3-af74-b94f687099f3> .
 
 <9e6c6321-8bd8-4212-80e5-342cca616c6f> a skos:Concept ;
@@ -68510,12 +68713,21 @@
 
 <db67d04f-e018-4113-ae5c-37240543d7d6> a hemef:Classe ;
     hemef:discipline_enseignee <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:professeur <92225fd6-0f3f-4f68-89b9-1663e3d9d546> .
+
+<dd7022f6-e9f4-4406-b0fd-6263e069e361> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Composition idéale et contrepoint et fugue réunis" .
 
 <e5a3cace-da71-467a-bcc0-53d9495122f7> a skos:Concept ;
     skos:broader <a2ed19e9-4e62-416c-bc5a-974d0f1e3fa2> ;
     skos:inScheme <a88e7a1a-021e-4d90-9630-5329cbfd2820> ;
     skos:prefLabel "Valenciennes" .
+
+<2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Harmonie et accompagnement pratique réunis" .
 
 <2c0240d1-ea94-4e75-a02a-a9fd37ee813e> a hemef:Adresse ;
     hemef:a_pour_ville <0e2e9a83-0c1a-4e37-9a55-848a4812ea43>,
@@ -68546,6 +68758,7 @@
 
 <6b16f4c7-ae13-4bbd-b35e-f568291f2afd> a hemef:Classe ;
     hemef:discipline_enseignee <adffd8ce-d6e5-46a3-90ce-15065446c869> ;
+    hemef:nom_classe <252cf4be-de82-4011-a720-6d0c92e5ba8f> ;
     hemef:observations "Mathias en remplacement de Laurent" ;
     hemef:professeur <35d33cca-70c8-4c3e-9755-3a01a0beee65> .
 
@@ -68569,6 +68782,7 @@
 
 <c794187b-6791-4c2f-b6e2-c6b13c069536> a hemef:Classe ;
     hemef:discipline_enseignee <7f77abab-fc7b-430b-ac3d-bc263784c504> ;
+    hemef:nom_classe <4b8b5b58-990c-4c78-a2f0-c93942155678> ;
     hemef:professeur <a7184cef-7dae-4f66-873b-8dd2f7ece302> .
 
 <08a0b9f7-8875-4d63-ba8c-9f1f91a93e94> a skos:Concept ;
@@ -68645,10 +68859,12 @@
 
 <1ada435a-6756-446e-af65-58e78c9a0e5a> a hemef:Classe ;
     hemef:discipline_enseignee <0dc5085a-b4a4-47ca-bff9-1a69b2cc70ef> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:professeur <fafa3763-d16d-4ea7-a71a-4e6c203da180> .
 
 <397db156-bd55-42dd-a41b-cd35c8381ae7> a hemef:Classe ;
     hemef:discipline_enseignee <0dc5085a-b4a4-47ca-bff9-1a69b2cc70ef> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:professeur <206fcea8-2e04-4969-8b11-f2b0558ec1ae> .
 
 <61362a6d-e262-4778-b831-415d5444a7cc> a skos:Concept ;
@@ -68669,10 +68885,12 @@
 
 <67094e16-5de7-46ee-84ea-74078ed856ae> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <8628ff20-e9ef-4043-8765-f02ef19574e8> ;
     hemef:professeur <4024d3c6-6d42-463e-9a91-df98b05edb2e> .
 
 <85cb6ebd-40f4-4fa8-961f-dc4b0f5fcffe> a hemef:Classe ;
     hemef:discipline_enseignee <69483dd8-a1bc-4472-963e-81f6571c3493> ;
+    hemef:nom_classe <8628ff20-e9ef-4043-8765-f02ef19574e8> ;
     hemef:observations "Clapisson en remplacement de Reber" ;
     hemef:professeur <f9c529db-820c-4abd-b120-ab4dda71ed9a> .
 
@@ -68694,10 +68912,13 @@
 
 <a0a3ce39-f020-4455-acf8-5baad35b2f20> a hemef:Classe ;
     hemef:discipline_enseignee <62bc3949-7c77-4f1e-b46b-661a07f9fe97> ;
+    hemef:nom_classe <72305d9a-85ad-411f-8eb8-23e597cddc6d> ;
     hemef:professeur <547e433d-675d-4c2c-b6f7-cd3a43332cd4> .
 
 <09c4c6df-8485-499f-82ae-a17ff0ab33e5> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <3fe32ce3-dd5d-4011-894a-409fd990f80b>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <252fd0a8-7aea-48af-846d-aaebddb1838e> .
 
 <19f853be-69c6-42b9-b00f-c8b96421045a> a skos:Concept ;
@@ -68757,6 +68978,7 @@
 
 <6502eec3-356c-4485-a1c2-c3a812525b12> a hemef:Classe ;
     hemef:discipline_enseignee <0dc5085a-b4a4-47ca-bff9-1a69b2cc70ef> ;
+    hemef:nom_classe <828b686a-233c-4df7-8e28-6862046426f2> ;
     hemef:professeur <e33a9a94-8f12-4adf-bf82-8ea5f21decbc> .
 
 <7da45b95-bdb3-42c2-95d1-bee6902648b4> a skos:Concept ;
@@ -68766,10 +68988,12 @@
 
 <a4d0687e-7a9d-46df-848c-ffc27dfa0c96> a hemef:Classe ;
     hemef:discipline_enseignee <adffd8ce-d6e5-46a3-90ce-15065446c869> ;
+    hemef:nom_classe <252cf4be-de82-4011-a720-6d0c92e5ba8f> ;
     hemef:professeur <f3463cf1-d5fa-4788-98c9-d2de1b2978b5> .
 
 <cfc5d3af-b90a-42c3-9ff4-348c8cfe33d6> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:observations "Paulin de Lespinasse en remplacement de Faure" ;
     hemef:professeur <ada6afcb-faa3-4367-a87d-fc42d78a9d38> .
 
@@ -68780,15 +69004,18 @@
 
 <01b1e00c-31fd-4300-a966-90c9515f59a7> a hemef:Classe ;
     hemef:discipline_enseignee <6912e3b1-b7ef-4402-960e-4d746fd56187> ;
+    hemef:nom_classe <3bb08e95-b31a-4c23-bc6e-96e9abb2be73> ;
     hemef:observations "Mohr en remplacement de Gallay" ;
     hemef:professeur <1f54d063-19dc-4f91-8658-2a9f5c0a1a19> .
 
 <0d749108-7188-4dfe-94d4-524af0aa4615> a hemef:Classe ;
     hemef:discipline_enseignee <343f4b6d-0b3d-4be8-823d-2cb0b184753b> ;
+    hemef:nom_classe <37cd9110-6ff4-40b8-90d4-723bdd9c54a1> ;
     hemef:professeur <1d6b63fb-5760-487a-9f8e-41ec089f7d87> .
 
 <1d3cb8d2-5a85-46bd-b1ae-a75905fb6a82> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <e7eb0e2c-be39-4865-b453-f45acae1db7a> .
 
 <ba63ed29-c50d-4b65-af62-cecaa405cbad> a skos:Concept ;
@@ -68815,6 +69042,7 @@
 
 <d92beab2-8f75-432b-b8ce-e7efcd2fee60> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <82a3d943-65c6-4dae-b302-cb92010616c8> .
 
 <e751279e-6166-4432-8a8b-a0e21c7c8dc1> a skos:Concept ;
@@ -68823,6 +69051,7 @@
 
 <365d1d4b-7245-4374-8543-c2072695089f> a hemef:Classe ;
     hemef:discipline_enseignee <adffd8ce-d6e5-46a3-90ce-15065446c869> ;
+    hemef:nom_classe <252cf4be-de82-4011-a720-6d0c92e5ba8f> ;
     hemef:professeur <1f65861f-10dc-40d5-ae4e-382571b68181> .
 
 <90b9a243-69e0-47c7-aae0-1b16ba6eb261> a skos:Concept ;
@@ -68831,6 +69060,7 @@
 
 <a7ef93da-7fdb-4606-8ff6-af2bcd5a7a43> a hemef:Classe ;
     hemef:discipline_enseignee <adffd8ce-d6e5-46a3-90ce-15065446c869> ;
+    hemef:nom_classe <252cf4be-de82-4011-a720-6d0c92e5ba8f> ;
     hemef:professeur <3fb0b623-ad46-469d-a8ca-09e5b077b495> .
 
 <b96c981c-079f-42d1-a03e-69dc7ee12991> a skos:Concept ;
@@ -68839,24 +69069,34 @@
 
 <d084fb5a-c954-4b0e-85c0-06f3d44fd84f> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <a13992c0-f280-43d2-a4c8-9c6f9104b19e> .
 
 <df9e0c2b-230b-4d88-9b9c-f2b18d7278e7> a hemef:Classe ;
     hemef:discipline_enseignee <23484b6b-5e6e-4724-beb3-f1d2e5f23602> ;
+    hemef:nom_classe <b2047d53-e5af-4e24-a942-3b532d299ce5> ;
     hemef:professeur <9e0bb620-840b-43de-ab05-6194ffa13b69> .
 
 <dff642c2-f195-4f66-b4a8-77aaf2b81847> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <93aa26e7-6cd0-414e-94e6-76d57250929f> .
 
 <38f72adc-c6ff-4cac-853d-2b18165fefea> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:observations "Grosset en remplacement de Panseron" ;
     hemef:professeur <4d70dd61-fd8c-49b0-8062-b9511b5536f4> .
 
 <4895e4fe-6dad-4cfe-b22c-2c1534440c9a> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <db4b43a3-3550-4310-96f1-fd5a19d6bf9f>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <87ada01f-3d54-414e-864b-a3e028d2c54d> .
+
+<79d764fb-2408-496f-b4f9-66b12f4054f7> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Chant" .
 
 <a63b98f7-6555-4524-a818-2b21e344cdbb> a skos:Concept ;
     skos:inScheme <3a5a82dc-db16-4e85-836c-a11e4cee8ae6> ;
@@ -68864,6 +69104,8 @@
 
 <e54bbd0f-14d0-4ff3-92dc-7b82e354dc1b> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <db4b43a3-3550-4310-96f1-fd5a19d6bf9f>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <9354bfba-5142-4e87-a0be-48e89c999554> .
 
 <f5758efb-424d-4af6-9ff0-a430f5827d24> a skos:Concept ;
@@ -68892,11 +69134,13 @@
 
 <5b08842e-a756-42ae-8c28-b2d801442cb0> a hemef:Classe ;
     hemef:discipline_enseignee <62bc3949-7c77-4f1e-b46b-661a07f9fe97> ;
+    hemef:nom_classe <72305d9a-85ad-411f-8eb8-23e597cddc6d> ;
     hemef:observations "Dorus en remplacement de Tulou" ;
     hemef:professeur <0376f3d6-2a77-4e43-8119-48bd0db6d7b2> .
 
 <00dd98e6-53d6-4a6d-b1db-2d90f398c205> a hemef:Classe ;
     hemef:discipline_enseignee <9054180a-2765-473d-a905-ff8c826ac14a> ;
+    hemef:nom_classe <f201c199-8f73-444f-a460-67d18d6006e4> ;
     hemef:professeur <c8f96b0f-5687-48fc-aa87-0b0601c94417> .
 
 <98263336-3d65-4f16-accc-c61a753efbea> a skos:Concept ;
@@ -68943,6 +69187,7 @@
 
 <86995b5f-f55f-4c6c-8b57-d4361755461f> a hemef:Classe ;
     hemef:discipline_enseignee <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:professeur <34ea8f4a-0f4e-4991-93cf-6e891f6a20fc> .
 
 <8e4e1d8c-4e95-4b37-bc70-d2f84672f717> a skos:Concept ;
@@ -68963,6 +69208,8 @@
 
 <23343e3c-f250-4430-a9d2-bc59ef350aa7> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <db4b43a3-3550-4310-96f1-fd5a19d6bf9f>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:professeur <5d4d7265-9851-465d-ae6e-eeed0059ecdc> .
 
 <4f4e0855-6dcc-42da-adc0-3c9f6191a480> a skos:Concept ;
@@ -68971,15 +69218,21 @@
 
 <a785f8de-496a-42d3-a954-386e12376a92> a hemef:Classe ;
     hemef:discipline_enseignee <7ab612f2-a944-4d53-8068-3ace54d9bd3d> ;
+    hemef:nom_classe <464beb66-8c18-44b3-a729-06f57fd07733> ;
     hemef:professeur <099af1fd-06e5-48c5-b4ab-3877bf62abc0> .
 
 <d298c32e-4389-4501-b3cf-7d1844146b4c> a hemef:Classe ;
     hemef:discipline_enseignee <5ed75b2b-c5ae-4171-832a-fc2cfda9c8d3> ;
+    hemef:nom_classe <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b> ;
     hemef:professeur <e0ceb095-6357-4058-9714-434b2fc04924> .
 
 <e42257c2-ff15-4d4b-becf-5b65a69a8a64> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
     skos:prefLabel "Rentier" .
+
+<ff070c8d-0eef-4557-bc06-394ca8e227f4> a skos:Concept ;
+    skos:inScheme <fc47dafa-041b-4552-9278-1471d73c567e> ;
+    skos:prefLabel "Solfège individuel" .
 
 <061132be-505c-41d8-839b-fc2d05b0bf83> a skos:Concept ;
     skos:inScheme <81888265-4c30-4cf2-8b85-7d72061de8cf> ;
@@ -68987,6 +69240,7 @@
 
 <2cadc164-cf67-40f0-932c-5693d66f5cc6> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <5951b70f-7fc2-4077-b796-e24b0310bb4d> .
 
 <368765c4-df1e-40a9-9ff3-260610b9b39a> a hemef:Adresse ;
@@ -69020,6 +69274,7 @@
 
 <ca1d88c8-59c8-4dbc-946f-ebd5174fa0fc> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <ff070c8d-0eef-4557-bc06-394ca8e227f4> ;
     hemef:observations "Roulle en remplacement de Goblin" ;
     hemef:professeur <d06a009f-f749-457e-a639-419dc5894103> .
 
@@ -69099,6 +69354,7 @@
 
 <a2a716a2-fb8a-4398-aff0-6c75ce5ccd9e> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <b0835bb1-2a50-47ca-9e55-616eca8b8ad6> .
 
 <d58fe028-53a2-4881-926c-290ec32ff23c> a skos:Concept ;
@@ -69153,10 +69409,13 @@
 
 <d6ef0300-7954-43cb-a3fa-81068e64704c> a hemef:Classe ;
     hemef:discipline_enseignee <df5c3b35-1e2e-4127-8f74-4960c7140e7f> ;
+    hemef:nom_classe <991438bc-da2a-4e4b-934a-d4ca89708e0b>,
+        <c177454a-43b9-4acb-a69d-a5d673cb0a42> ;
     hemef:professeur <093d42f0-b652-4606-b505-2ba27a983402> .
 
 <3dc8f334-03fc-4d68-995e-3b4f72091879> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <fdb72165-f631-4a62-bb08-4735bef30258> .
 
 <8ec7d96d-71ae-4628-80a0-26bfca039f3a> a skos:Concept ;
@@ -69169,14 +69428,17 @@
 
 <56e77ea9-fe67-42d0-b281-c885b24caf39> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <695e6c2a-9c65-4912-ac4c-94b8ac0be5b9> .
 
 <a92ba5a4-3ac7-493e-8816-e4fe3f3f21ee> a hemef:Classe ;
     hemef:discipline_enseignee <e0c6bbe8-aae9-4906-8291-dd2d4d67c975> ;
+    hemef:nom_classe <3633575e-becb-42c9-9aab-faa1d0c55368> ;
     hemef:professeur <f7743bf0-7e68-4045-947a-edaa84743654> .
 
 <bcf3e8a1-89ae-4b42-af69-728328e9d878> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:observations "Vauthrot en remplacement de Fontana" ;
     hemef:professeur <b0e66334-683a-4664-a4d6-2f114092f928> .
 
@@ -69186,6 +69448,7 @@
 
 <a41472b8-5623-44dd-aed9-ea5d54784fe5> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <628d4e58-723e-480b-a008-151959e1b1bf> .
 
 <6e774881-136e-4dc1-b409-7ff499747b04> a hemef:Adresse ;
@@ -69221,6 +69484,43 @@
     skos:inScheme <3a5a82dc-db16-4e85-836c-a11e4cee8ae6> ;
     skos:prefLabel "Harmonie" .
 
+<fc47dafa-041b-4552-9278-1471d73c567e> a skos:ConceptScheme ;
+    dcterms:title "Noms_Classes" ;
+    skos:hasTopConcept <2133a3d1-19e7-4284-8cdf-c3bb0ecd0d50>,
+        <252cf4be-de82-4011-a720-6d0c92e5ba8f>,
+        <2d5987ac-2728-44fb-87ad-5310d26e1c7b>,
+        <343840e6-6ea1-481d-934e-8690a6b021aa>,
+        <3633575e-becb-42c9-9aab-faa1d0c55368>,
+        <37cd9110-6ff4-40b8-90d4-723bdd9c54a1>,
+        <3bb08e95-b31a-4c23-bc6e-96e9abb2be73>,
+        <3fe32ce3-dd5d-4011-894a-409fd990f80b>,
+        <427ba2ee-6599-4904-867a-1c22b9ca548c>,
+        <464beb66-8c18-44b3-a729-06f57fd07733>,
+        <4778ac69-d7c5-4745-93eb-aee70b163fc3>,
+        <4b8b5b58-990c-4c78-a2f0-c93942155678>,
+        <5763941c-21da-4607-a89e-bf31cd7f4846>,
+        <72305d9a-85ad-411f-8eb8-23e597cddc6d>,
+        <79d764fb-2408-496f-b4f9-66b12f4054f7>,
+        <828b686a-233c-4df7-8e28-6862046426f2>,
+        <8628ff20-e9ef-4043-8765-f02ef19574e8>,
+        <97968a59-1ae7-4fe6-af06-ffe79cfe2d58>,
+        <991438bc-da2a-4e4b-934a-d4ca89708e0b>,
+        <a16e8f7a-4104-4dd6-8658-5886d053dd39>,
+        <ab101f31-9706-4e03-ae10-c899de21ebb7>,
+        <b2047d53-e5af-4e24-a942-3b532d299ce5>,
+        <b6c1b61d-e71c-4fed-ba51-d037a751bc95>,
+        <c177454a-43b9-4acb-a69d-a5d673cb0a42>,
+        <c4f67910-5e7f-42cd-9251-77aa837ca568>,
+        <d61654d3-115c-4890-818a-94bac1c012f4>,
+        <db4b43a3-3550-4310-96f1-fd5a19d6bf9f>,
+        <dc02b20d-11bb-4990-8c23-b2843b565dc0>,
+        <dd7022f6-e9f4-4406-b0fd-6263e069e361>,
+        <e4ff0864-a679-4cdc-9248-87550e4d96e0>,
+        <eb316b09-436f-4ffc-bfd1-fa9a5203e67d>,
+        <f201c199-8f73-444f-a460-67d18d6006e4>,
+        <f91bccca-f5b8-4c83-9ce4-4c6de52f4c9b>,
+        <ff070c8d-0eef-4557-bc06-394ca8e227f4> .
+
 <ff67bdae-3ea0-4912-9d09-1baf53c6f9ca> a hemef:Adresse ;
     hemef:a_pour_ville <e65b14c5-1255-4933-adbc-d54aadc29c1d> ;
     hemef:libellé_adresse "Caserne à la Courtille" .
@@ -69231,6 +69531,8 @@
 
 <d27cd6af-0b48-4eed-952d-23522e2b6366> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <427ba2ee-6599-4904-867a-1c22b9ca548c>,
+        <5763941c-21da-4607-a89e-bf31cd7f4846> ;
     hemef:professeur <109b3547-c939-4d8a-958a-1d255d8a302e> .
 
 <0b68866e-3971-41cf-a424-1ff87a1f3040> a skos:Concept ;
@@ -69240,11 +69542,13 @@
 
 <7c6bbf7d-aedc-4b45-ab26-1fa5cb41f1ec> a hemef:Classe ;
     hemef:discipline_enseignee <1a087593-5d44-45b4-997e-2cd32d330015> ;
+    hemef:nom_classe <4778ac69-d7c5-4745-93eb-aee70b163fc3> ;
     hemef:observations "Triebert en remplacement de Verroust" ;
     hemef:professeur <b74b3106-b1ee-4b52-8646-fa133cdbbee6> .
 
 <85fb89a9-4101-48bf-91f5-3bd62e50b64a> a hemef:Classe ;
     hemef:discipline_enseignee <769a4226-be04-4b3b-b300-e2945c9f5e3f> ;
+    hemef:nom_classe <dc02b20d-11bb-4990-8c23-b2843b565dc0> ;
     hemef:professeur <b0ec5e77-8786-4541-9979-bb4a6711ef08> .
 
 <c43d76f3-a83e-4746-b8f2-0407a98dfb16> a skos:Concept ;
@@ -69253,6 +69557,7 @@
 
 <d9159efb-9917-41de-aa44-f650df4670c1> a hemef:Classe ;
     hemef:discipline_enseignee <c5553220-3183-42dd-b0d3-bdf649ace1ed> ;
+    hemef:nom_classe <e4ff0864-a679-4cdc-9248-87550e4d96e0> ;
     hemef:observations "Mocker en remplacement de Moreau-Sainti" ;
     hemef:professeur <2cc8241b-6db4-4d2e-931b-793919ce2784> .
 
@@ -69266,14 +69571,18 @@
 
 <4ea01127-dc46-4913-a5e2-04378cc8a49b> a hemef:Classe ;
     hemef:discipline_enseignee <90b9a243-69e0-47c7-aae0-1b16ba6eb261> ;
+    hemef:nom_classe <79d764fb-2408-496f-b4f9-66b12f4054f7> ;
     hemef:professeur <f63d7ce8-1f6b-4556-8797-caec874faf48> .
 
 <c70967b4-a1fa-4444-9858-0a0d9b05939f> a hemef:Classe ;
     hemef:discipline_enseignee <24b38bc8-cfee-456c-a52f-ad27fbb651af> ;
+    hemef:nom_classe <3bb08e95-b31a-4c23-bc6e-96e9abb2be73>,
+        <c4f67910-5e7f-42cd-9251-77aa837ca568> ;
     hemef:professeur <50053805-282b-4746-a000-503d52db2d02> .
 
 <bd584e47-d272-4db9-b6a2-7211ecd61c06> a hemef:Classe ;
     hemef:discipline_enseignee <c5553220-3183-42dd-b0d3-bdf649ace1ed> ;
+    hemef:nom_classe <e4ff0864-a679-4cdc-9248-87550e4d96e0> ;
     hemef:professeur <b6b4535e-2f82-42c2-a625-583eb9b475ab> .
 
 <3a5a82dc-db16-4e85-836c-a11e4cee8ae6> a skos:ConceptScheme ;
@@ -69323,19 +69632,23 @@
 
 <ea7caa93-a168-4abf-a38d-67018aa7b994> a hemef:Classe ;
     hemef:discipline_enseignee <e0c6bbe8-aae9-4906-8291-dd2d4d67c975> ;
+    hemef:nom_classe <3633575e-becb-42c9-9aab-faa1d0c55368> ;
     hemef:professeur <54a23916-ae78-4c52-884d-de12c3df6635> .
 
 <36a61cd8-2c82-46e8-ab71-69ebe08ce4b2> a hemef:Classe ;
     hemef:discipline_enseignee <30afadbe-8300-410e-9bb4-1f373c65b40f> ;
+    hemef:nom_classe <ab101f31-9706-4e03-ae10-c899de21ebb7> ;
     hemef:professeur <357d02e8-b6a0-438e-aa81-84c0481ec21a> .
 
 <74fe6145-c2c7-4b22-a79b-5f28b8150598> a hemef:Classe ;
     hemef:discipline_enseignee <e0c6bbe8-aae9-4906-8291-dd2d4d67c975> ;
+    hemef:nom_classe <3633575e-becb-42c9-9aab-faa1d0c55368> ;
     hemef:observations "Samson en remplacement de Provost" ;
     hemef:professeur <a6d367ce-b6c6-4808-a735-e71b6c7b36e6> .
 
 <f36f0c5e-9049-4971-9cb6-d011e94142ea> a hemef:Classe ;
     hemef:discipline_enseignee <e0c6bbe8-aae9-4906-8291-dd2d4d67c975> ;
+    hemef:nom_classe <3633575e-becb-42c9-9aab-faa1d0c55368> ;
     hemef:professeur <62fed808-36d8-44a5-82f4-f1db09692d2a> .
 
 <b8a47622-b6f1-4e2d-b691-03f2225ab5f3> a skos:Concept ;
@@ -69344,6 +69657,7 @@
 
 <883445b5-ee47-490f-9b3c-cd07dac85a0f> a hemef:Classe ;
     hemef:discipline_enseignee <65e5199e-8942-44c7-87eb-2f569145262d> ;
+    hemef:nom_classe <991438bc-da2a-4e4b-934a-d4ca89708e0b> ;
     hemef:professeur <5ab5ec48-be75-4859-ba2e-5e98b0f4d939> .
 
 <5793c9ce-0f54-4f8d-9db9-689261cfac14> a skos:ConceptScheme ;
@@ -69405,10 +69719,13 @@
 
 <de5548df-633f-40b6-9500-776a2dc610b7> a hemef:Classe ;
     hemef:discipline_enseignee <c5553220-3183-42dd-b0d3-bdf649ace1ed> ;
+    hemef:nom_classe <343840e6-6ea1-481d-934e-8690a6b021aa> ;
     hemef:professeur <a88e6fdb-618e-44c3-8200-502af1657dac> .
 
 <11c7bfc9-daad-48e1-981a-320230deb314> a hemef:Classe ;
     hemef:discipline_enseignee <0d6acfbd-7814-4c02-84fe-9313a60051dc> ;
+    hemef:nom_classe <427ba2ee-6599-4904-867a-1c22b9ca548c>,
+        <5763941c-21da-4607-a89e-bf31cd7f4846> ;
     hemef:professeur <911688d2-9efa-4db4-9306-da696eb438c7> .
 
 <bf098855-e04f-4cd8-86a0-3ea685d9721b> a skos:Concept ;
@@ -69421,6 +69738,7 @@
 
 <d809a2fb-1d40-4b91-bbed-df852707306e> a hemef:Classe ;
     hemef:discipline_enseignee <c5553220-3183-42dd-b0d3-bdf649ace1ed> ;
+    hemef:nom_classe <343840e6-6ea1-481d-934e-8690a6b021aa> ;
     hemef:professeur <b67582fc-f60c-42c6-a7c0-aa3fccbd4954> .
 
 <f2450078-5ff9-4864-9328-fab13462be46> a skos:Concept ;
@@ -69445,6 +69763,7 @@
 
 <853b26f0-5c85-4e96-85bf-7f3cd51f5c53> a hemef:Classe ;
     hemef:discipline_enseignee <c5553220-3183-42dd-b0d3-bdf649ace1ed> ;
+    hemef:nom_classe <e4ff0864-a679-4cdc-9248-87550e4d96e0> ;
     hemef:observations "Couderc en remplacement de Morin" ;
     hemef:professeur <88ee3e6b-f8a8-4fa1-8881-9a298f172505> .
 

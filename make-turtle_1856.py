@@ -87,6 +87,7 @@ prix = {}
 parcours_classe = {}
 discipline = {}
 classe = {}  # un tuple discipline, professeur
+nom_classe = {}
 professeur = {}
 
 for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8').iterrows():
@@ -195,6 +196,14 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
 
         ConceptSchemes['Disciplines'] = générer_uuid(
             "ConceptSchemes", 'Disciplines')
+
+        ConceptSchemes['Noms_Classes'] = générer_uuid(
+            "ConceptSchemes", 'Noms_Classes')
+
+        if ((pandas.notna(row['classe_nom']))):
+            nom_classe[row['classe_nom'].strip().capitalize()] = générer_uuid(
+                'Noms_Classes', row['classe_nom'].strip().capitalize())
+
         
         #Metiers
 
@@ -259,6 +268,22 @@ g.add(
         URIRef(ConceptSchemes['Disciplines']),
         URIRef(DCTERMS.title),
         Literal('Discipline_Classes')
+    )
+)
+
+g.add(
+    (
+        URIRef(ConceptSchemes['Noms_Classes']),
+        URIRef(is_a),
+        URIRef(SKOS.ConceptScheme)
+    )
+)
+
+g.add(
+    (
+        URIRef(ConceptSchemes['Noms_Classes']),
+        URIRef(DCTERMS.title),
+        Literal('Noms_Classes')
     )
 )
 
@@ -1193,6 +1218,50 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
                         URIRef(uriClasse),
                         URIRef(HEMEF['remarques_saisie']),
                         Literal(row['classes_remarques_saisie'])
+                    )
+                )
+            
+            if pandas.notna(row["classe_nom"]):
+                nomClasse = row["classe_nom"].strip().capitalize()
+                uriNomClasse = nom_classe[row["classe_nom"].strip().capitalize()]
+
+                g.add(
+                    (
+                        URIRef(uriNomClasse),
+                        URIRef(is_a),
+                        URIRef(SKOS.Concept)
+                    )
+                )
+
+                g.add(
+                    (
+                        URIRef(uriNomClasse),
+                        URIRef(SKOS.inScheme),
+                        URIRef(ConceptSchemes['Noms_Classes'])
+                    )
+                )
+
+                g.add(
+                    (
+                        URIRef(ConceptSchemes['Noms_Classes']),
+                        URIRef(SKOS.hasTopConcept),
+                        URIRef(uriNomClasse)
+                    )
+                )
+
+                g.add(
+                    (
+                        URIRef(uriNomClasse),
+                        URIRef(SKOS.prefLabel),
+                        Literal(nomClasse)
+                    )
+                )
+
+                g.add(
+                    (
+                        URIRef(uriClasse),
+                        URIRef(HEMEF['nom_classe']),
+                        URIRef(nom_classe[row["classe_nom"].strip().capitalize()])
                     )
                 )
 
