@@ -206,10 +206,6 @@ for id, row in pandas.read_excel(args.xlsx, sheet_name="classe", encoding='utf-8
             metiers[row['eleve_profession_mere'].strip().capitalize()] = générer_uuid(
                 'Métiers', row['eleve_profession_mere'].strip().capitalize())
 
-        if ((pandas.notna(row['eleve_profession_mere']))):
-
-
-
         if ((pandas.notna(row['classe_discipline']))):
             discipline[str(row['classe_discipline']).strip().capitalize()] = générer_uuid(
                 'Disciplines', str(
